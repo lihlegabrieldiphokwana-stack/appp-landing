@@ -81,6 +81,12 @@ export const Navbar = () => {
               For Vendors
             </a>
             <a
+              href="/faq"
+              className="text-gray-400 hover:text-white transition-colors text-xs"
+            >
+              FAQ
+            </a>
+            <a
               href="#download"
               className="px-4 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-xs"
             >
@@ -119,6 +125,12 @@ export const Navbar = () => {
               className="block text-gray-400 hover:text-white transition-colors text-sm"
             >
               For Vendors
+            </a>
+            <a
+              href="/faq"
+              className="block text-gray-400 hover:text-white transition-colors text-sm"
+            >
+              FAQ
             </a>
             <a
               href="#download"

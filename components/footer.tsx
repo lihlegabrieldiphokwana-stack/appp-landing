@@ -41,6 +41,7 @@ export const Footer = () => {
               <li><a href="#features" className="text-neutral-500 hover:text-white transition-colors text-sm">Service Discovery</a></li>
               <li><a href="#vendor" className="text-neutral-500 hover:text-white transition-colors text-sm">For Professionals</a></li>
               <li><a href="#" className="text-neutral-500 hover:text-white transition-colors text-sm">Magic Remover</a></li>
+              <li><a href="/faq" className="text-neutral-500 hover:text-white transition-colors text-sm">FAQ</a></li>
               <li><a href="#download" className="text-neutral-500 hover:text-white transition-colors text-sm">Download</a></li>
             </ul>
           </div>

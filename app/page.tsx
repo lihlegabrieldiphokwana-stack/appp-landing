@@ -10,6 +10,7 @@ import { BentoFeatures } from "@/components/bento-features";
 import { DynamicPricing } from "@/components/dynamic-pricing";
 import { VendorSection } from "@/components/vendor-section";
 import { StatsStrip } from "@/components/stats-strip";
+import { SentimentReviews } from "@/components/sentiment-reviews";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { DownloadCTA } from "@/components/download-cta";
 import { Footer } from "@/components/footer";
@@ -82,6 +83,9 @@ export default function LandingPage() {
 
       {/* Stats */}
       <StatsStrip />
+
+      {/* AI sentiment analysis of reviews */}
+      <SentimentReviews />
 
       {/* Testimonials */}
       <TestimonialsSection />
