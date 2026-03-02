@@ -4,6 +4,8 @@ import { Navbar } from "@/components/navbar";
 import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
+import { ZolaSection } from "@/components/zola-section";
+import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
 import { DynamicPricing } from "@/components/dynamic-pricing";
 import { VendorSection } from "@/components/vendor-section";
@@ -16,8 +18,14 @@ export default function LandingPage() {
   return (
     <main className="min-h-screen bg-black">
       <Navbar />
+
+      {/* Hero */}
       <BouulHero />
+
+      {/* "Every service. Every professional. One app." */}
       <CinematicStrip />
+
+      {/* Core feature sections */}
       <FeatureSection
         id="features"
         label="DISCOVER"
@@ -45,6 +53,11 @@ export default function LandingPage() {
         align="right"
         placeholderLabel="Real-time Tracking"
       />
+
+      {/* Zola AI — booking assistant */}
+      <ZolaSection />
+
+      {/* Social — video feed intro */}
       <FeatureSection
         id="social"
         label="SOCIAL"
@@ -54,12 +67,28 @@ export default function LandingPage() {
         align="left"
         placeholderLabel="Social Video Feed"
       />
+
+      {/* Deep-dive on social mechanics */}
+      <SocialMechanics />
+
+      {/* All features grid */}
       <BentoFeatures />
+
+      {/* Transparent pricing */}
       <DynamicPricing />
+
+      {/* Vendor section */}
       <VendorSection />
+
+      {/* Stats */}
       <StatsStrip />
+
+      {/* Testimonials */}
       <TestimonialsSection />
+
+      {/* Download CTA */}
       <DownloadCTA />
+
       <Footer />
     </main>
   );
