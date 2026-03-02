@@ -5,6 +5,7 @@ import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
 import { BentoFeatures } from "@/components/bento-features";
+import { DynamicPricing } from "@/components/dynamic-pricing";
 import { VendorSection } from "@/components/vendor-section";
 import { StatsStrip } from "@/components/stats-strip";
 import { TestimonialsSection } from "@/components/testimonials-section";
@@ -54,6 +55,7 @@ export default function LandingPage() {
         placeholderLabel="Social Video Feed"
       />
       <BentoFeatures />
+      <DynamicPricing />
       <VendorSection />
       <StatsStrip />
       <TestimonialsSection />
