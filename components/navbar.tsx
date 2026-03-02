@@ -52,11 +52,11 @@ export const Navbar = () => {
 
           {/* Logo - Centered on mobile, left on desktop */}
           <div className="flex items-center gap-2 md:absolute md:left-1/2 md:-translate-x-1/2">
-            <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-xl flex items-center justify-center">
-              <span className="text-black font-semibold text-lg">A</span>
+            <div className="w-8 h-8 rounded-xl overflow-hidden">
+              <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
             </div>
             <span className="text-white font-semibold text-lg hidden md:block">
-              appp
+              Bouul
             </span>
           </div>
 

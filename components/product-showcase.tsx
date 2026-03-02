@@ -37,7 +37,7 @@ export const ProductShowcase = () => {
           className="text-center mb-20"
         >
           <h2 className="text-4xl md:text-6xl font-semibold text-white mb-6">
-            Get more done with appp.
+            Get more done with Bouul.
           </h2>
           <p className="text-xl md:text-2xl text-gray-400 font-light max-w-3xl mx-auto">
             Everything you need. Nothing you don't.

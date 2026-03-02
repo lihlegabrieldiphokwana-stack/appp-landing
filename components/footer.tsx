@@ -9,10 +9,10 @@ export const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center">
-                <span className="text-black font-bold text-xl">A</span>
+              <div className="w-10 h-10 rounded-lg overflow-hidden">
+                <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
               </div>
-              <span className="text-white font-bold text-xl">appp</span>
+              <span className="text-white font-bold text-xl">Bouul</span>
             </div>
             <p className="text-gray-500 text-sm mb-4">
               The future of mobile experience. Built for modern users.
@@ -69,7 +69,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} appp. All rights reserved.
+            © {new Date().getFullYear()} Bouul. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-gray-600 hover:text-white transition-colors text-sm">

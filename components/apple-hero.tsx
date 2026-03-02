@@ -21,8 +21,8 @@ export const AppleHero = () => {
           className="mb-8"
         >
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
-              <span className="text-black font-bold text-2xl">A</span>
+            <div className="w-16 h-16 rounded-2xl overflow-hidden shadow-lg shadow-emerald-500/20">
+              <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
             </div>
           </div>
         </motion.div>
@@ -34,7 +34,7 @@ export const AppleHero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-5xl md:text-7xl lg:text-8xl font-semibold text-white text-center tracking-tight mb-6"
         >
-          appp Pro
+          Bouul
         </motion.h1>
 
         {/* Subheadline */}
@@ -104,62 +104,47 @@ export const AppleHero = () => {
           </a>
         </motion.div>
 
-        {/* Hero Banner Image */}
+        {/* Hero Banner Image - Full Width & Height */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 1 }}
-          className="relative w-full max-w-6xl mx-auto"
+          className="relative w-full"
         >
-          {/* Desktop Banner */}
-          <div className="hidden md:block relative aspect-[16/9] w-full">
+          {/* Desktop Banner - Full Viewport Width */}
+          <div className="hidden md:block relative w-full" style={{ height: '70vh', minHeight: '500px' }}>
             <Image
-              src="/hero-banner-desktop.jpg"
+              src="/hero-banner-desktop.png"
               alt="appp Pro Banner"
               fill
-              className="object-contain"
+              className="object-cover"
               priority
             />
           </div>
 
-          {/* Tablet Banner */}
-          <div className="hidden tablet:block md:hidden relative aspect-[16/9] w-full">
+          {/* Tablet Banner - Full Viewport Width */}
+          <div className="hidden tablet:block md:hidden relative w-full" style={{ height: '60vh', minHeight: '400px' }}>
             <Image
               src="/hero-banner-tablet.jpg"
               alt="appp Pro Banner"
               fill
-              className="object-contain"
+              className="object-cover"
               priority
             />
           </div>
 
-          {/* Mobile Banner */}
-          <div className="md:hidden relative aspect-[3/4] w-full">
+          {/* Mobile Banner - Full Viewport Width */}
+          <div className="md:hidden relative w-full" style={{ height: '80vh', minHeight: '600px' }}>
             <Image
-              src="/hero-banner-mobile.jpg"
+              src="/hero-banner-mobile.png"
               alt="appp Pro Banner"
               fill
-              className="object-contain"
+              className="object-cover"
               priority
             />
-          </div>
-
-          {/* Placeholder until you add images */}
-          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-900 to-black rounded-3xl border border-gray-800">
-            <div className="text-center p-8">
-              <p className="text-gray-500 text-sm mb-2">Banner Placeholder</p>
-              <p className="text-gray-600 text-xs">
-                Desktop: 2560 × 1400px<br />
-                Tablet: 2048 × 1120px<br />
-                Mobile: 1200 × 1600px
-              </p>
-            </div>
           </div>
         </motion.div>
       </div>
-
-      {/* Gradient fade at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent" />
     </section>
   );
 };

@@ -13,7 +13,7 @@ export const DownloadCTA = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-6xl font-semibold text-white mb-6">
-            Experience appp today.
+            Experience Bouul today.
           </h2>
           <p className="text-xl text-gray-400 font-light mb-12 max-w-2xl mx-auto">
             Download now and discover a new way to manage your digital life.

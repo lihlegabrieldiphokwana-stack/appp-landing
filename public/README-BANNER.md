@@ -6,24 +6,24 @@ Place your banner images in the `/public` folder with these exact filenames:
 
 ### 1. Desktop Banner (PC/Mac)
 - **Filename:** `hero-banner-desktop.jpg`
-- **Dimensions:** 2560 × 1400 pixels
-- **Aspect Ratio:** 16:9
+- **Dimensions:** 2560 × 1120 pixels (or any 16:7 ratio)
+- **Display Size:** Full viewport width × 70vh
 - **Format:** JPG or PNG
 - **File Size:** Under 500KB
 - **Color Profile:** sRGB
 
 ### 2. Tablet Banner (iPad)
 - **Filename:** `hero-banner-tablet.jpg`
-- **Dimensions:** 2048 × 1120 pixels
-- **Aspect Ratio:** 16:9
+- **Dimensions:** 2048 × 960 pixels (or any 16:7 ratio)
+- **Display Size:** Full viewport width × 60vh
 - **Format:** JPG or PNG
 - **File Size:** Under 400KB
 - **Color Profile:** sRGB
 
 ### 3. Mobile Banner (Phone)
 - **Filename:** `hero-banner-mobile.jpg`
-- **Dimensions:** 1200 × 1600 pixels
-- **Aspect Ratio:** 3:4 (portrait)
+- **Dimensions:** 1200 × 1200 pixels (1:1 square)
+- **Display Size:** Full viewport width × 80vh
 - **Format:** JPG or PNG
 - **File Size:** Under 300KB
 - **Color Profile:** sRGB

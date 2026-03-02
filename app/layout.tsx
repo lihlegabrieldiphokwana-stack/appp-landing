@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "appp - Power. Redefined.",
+  title: "Bouul - Power. Redefined.",
   description: "The most advanced mobile experience ever created.",
   appleItunesApp: "app-id=YOUR_APP_ID",
 };
