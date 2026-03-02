@@ -75,16 +75,16 @@ export const Navbar = () => {
               Features
             </a>
             <a
-              href="#specs"
+              href="#vendor"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
-              Specs
+              For Vendors
             </a>
             <a
-              href="#"
+              href="#download"
               className="px-4 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-xs"
             >
-              Buy
+              Download
             </a>
           </div>
 
@@ -115,16 +115,16 @@ export const Navbar = () => {
               Features
             </a>
             <a
-              href="#specs"
+              href="#vendor"
               className="block text-gray-400 hover:text-white transition-colors text-sm"
             >
-              Specs
+              For Vendors
             </a>
             <a
-              href="#"
+              href="#download"
               className="block w-full text-center px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-sm"
             >
-              Buy
+              Download
             </a>
           </div>
         </motion.div>

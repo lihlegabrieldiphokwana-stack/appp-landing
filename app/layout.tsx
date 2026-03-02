@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bouul - Power. Redefined.",
-  description: "The most advanced mobile experience ever created.",
+  title: "Bouul — Your city's marketplace.",
+  description: "Book vetted service professionals near you. Real-time tracking, live chat, and AI image tools. Download Bouul free.",
 };
 
 export default function RootLayout({
