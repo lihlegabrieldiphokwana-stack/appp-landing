@@ -92,14 +92,14 @@ export const FeatureSection = ({
             <div
               className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative"
               style={{
-                width: "min(390px, 85vw)",
-                aspectRatio: "390/844",
+                width: "min(428px, 85vw)",
+                aspectRatio: "428/930.53",
               }}
             >
               {appPreview ? (
-                <img 
-                  src={appPreview} 
-                  alt={placeholderLabel} 
+                <img
+                  src={appPreview}
+                  alt={placeholderLabel}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               ) : (
