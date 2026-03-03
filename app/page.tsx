@@ -63,7 +63,8 @@ export default function LandingPage() {
         cards={[
           {
             title: "Verified Identity",
-            description: "Book with peace of mind. Every professional on Bouul undergoes a rigorous identity verification and background check, ensuring a safe and reliable experience."
+            description: "Book with peace of mind. Every professional on Bouul undergoes a rigorous identity verification and background check, ensuring a safe and reliable experience.",
+            image: "/verified_identity.jpg"
           },
           {
             title: "5-Star Reviews",
@@ -71,7 +72,8 @@ export default function LandingPage() {
           },
           {
             title: "Secure Payments",
-            description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected."
+            description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected.",
+            image: "/secure_payments.jpg"
           }
         ]}
         align="left"
