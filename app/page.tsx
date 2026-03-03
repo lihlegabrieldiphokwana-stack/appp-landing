@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
