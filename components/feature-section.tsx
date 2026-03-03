@@ -81,47 +81,34 @@ export const FeatureSection = ({
             )}
           </motion.div>
 
-          {/* Phone placeholder side */}
-          <motion.div
-            initial={{ opacity: 0, x: align === "left" ? -30 : 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="flex-1 flex justify-center"
-          >
-            <div
-              className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative"
-              style={{
-                width: "min(428px, 85vw)",
-                aspectRatio: "428/930.53",
-              }}
+          {/* Phone placeholder side - only render if appPreview exists */}
+          {appPreview && (
+            <motion.div
+              initial={{ opacity: 0, x: align === "left" ? -30 : 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.7, delay: 0.1 }}
+              className="flex-1 flex justify-center"
             >
-              {appPreview ? (
+              <div
+                className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative"
+                style={{
+                  width: "min(428px, 85vw)",
+                  aspectRatio: "428/930.53",
+                }}
+              >
                 <img
                   src={appPreview}
                   alt={placeholderLabel}
                   className="absolute inset-0 w-full h-full object-cover"
                 />
-              ) : (
-                <>
-                  {/* Fake status bar */}
-                  <div className="flex items-center justify-between px-6 pt-3 pb-1">
-                    <span className="text-neutral-600 text-xs font-medium">9:41</span>
-                    <div className="w-4 h-2 border border-neutral-800 rounded-sm" />
-                  </div>
-                  {/* Content */}
-                  <div className="flex-1 flex flex-col items-center justify-center gap-2">
-                    <div className="text-neutral-600 text-xs font-mono">390 × 844</div>
-                    <div className="text-neutral-700 text-[10px]">{placeholderLabel}</div>
-                  </div>
-                </>
-              )}
-              {/* Home indicator */}
-              <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-                <div className="w-28 h-1 bg-white/20 rounded-full backdrop-blur-md" />
+                {/* Home indicator */}
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
+                  <div className="w-28 h-1 bg-white/20 rounded-full backdrop-blur-md" />
+                </div>
               </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          )}
         </div>
 
         {/* Mechanics Cards (Dedicated Horizontal Scroll Row) */}

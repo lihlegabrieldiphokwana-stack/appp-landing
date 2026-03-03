@@ -105,7 +105,7 @@ export const BouulHero = () => {
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-64 h-24 bg-emerald-500/30 blur-3xl rounded-full" />
 
           <div
-            className="relative bg-neutral-900 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden"
+            className="relative rounded-[3rem] flex flex-col overflow-hidden"
             style={{
               width: "min(428px, 85vw)",
               aspectRatio: "428/930.53",
@@ -114,7 +114,7 @@ export const BouulHero = () => {
             <img
               src="/Group%201686.png"
               alt="Bouul App Preview"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="w-full h-full object-fill"
             />
           </div>
         </motion.div>
