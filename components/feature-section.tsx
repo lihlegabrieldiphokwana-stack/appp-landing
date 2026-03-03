@@ -14,6 +14,7 @@ interface FeatureSectionProps {
   label: string;
   headline: string;
   body: string;
+  secondaryBody?: string;
   bullets?: string[];
   cards?: FeatureCard[];
   align: "left" | "right";
@@ -25,6 +26,7 @@ export const FeatureSection = ({
   label,
   headline,
   body,
+  secondaryBody,
   bullets,
   cards,
   align,
@@ -36,7 +38,7 @@ export const FeatureSection = ({
     <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div
-          className={`flex flex-col lg:flex-row items-center gap-16 md:gap-24 ${
+          className={`flex flex-col lg:flex-row items-center gap-16 md:gap-24 mb-20 ${
             align === "left" ? "lg:flex-row-reverse" : ""
           }`}
         >
@@ -54,9 +56,15 @@ export const FeatureSection = ({
             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
               {headline}
             </h2>
-            <p className="text-neutral-400 text-lg leading-relaxed mb-8">
+            <p className="text-neutral-400 text-lg leading-relaxed mb-6">
               {body}
             </p>
+
+            {secondaryBody && (
+              <p className="text-neutral-500 text-base leading-relaxed mb-8">
+                {secondaryBody}
+              </p>
+            )}
 
             {/* Bullets (Legacy) */}
             {bullets && !cards && (
@@ -69,26 +77,6 @@ export const FeatureSection = ({
                 ))}
               </div>
             )}
-
-            {/* Mechanics Cards (Horizontal Scroll) */}
-            {cards && (
-              <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] px-6 md:px-[calc((100vw-1280px)/2+24px)] lg:ml-0 lg:w-auto lg:left-0 lg:right-0 lg:px-0">
-                <div
-                  ref={scrollRef}
-                  className="flex gap-4 overflow-x-auto pb-8 pt-2 no-scrollbar cursor-grab active:cursor-grabbing"
-                  style={{
-                    scrollbarWidth: "none",
-                    msOverflowStyle: "none",
-                  }}
-                >
-                  {cards.map((card, i) => (
-                    <MechanicCard key={i} card={card} index={i} />
-                  ))}
-                  {/* Spacer for scroll end padding */}
-                  <div className="flex-shrink-0 w-6 lg:hidden" />
-                </div>
-              </div>
-            )}
           </motion.div>
 
           {/* Phone placeholder side */}
@@ -99,6 +87,60 @@ export const FeatureSection = ({
             transition={{ duration: 0.7, delay: 0.1 }}
             className="flex-1 flex justify-center"
           >
+            <div
+              className="bg-neutral-900 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden"
+              style={{
+                width: "min(390px, 85vw)",
+                aspectRatio: "390/844",
+              }}
+            >
+              {/* Fake status bar */}
+              <div className="flex items-center justify-between px-6 pt-3 pb-1">
+                <span className="text-neutral-600 text-xs font-medium">9:41</span>
+                <div className="w-4 h-2 border border-neutral-800 rounded-sm" />
+              </div>
+              {/* Content */}
+              <div className="flex-1 flex flex-col items-center justify-center gap-2">
+                <div className="text-neutral-600 text-xs font-mono">390 × 844</div>
+                <div className="text-neutral-700 text-[10px]">{placeholderLabel}</div>
+              </div>
+              {/* Home indicator */}
+              <div className="flex justify-center pb-2">
+                <div className="w-28 h-1 bg-neutral-800 rounded-full" />
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Mechanics Cards (Dedicated Horizontal Scroll Row) */}
+        {cards && (
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.8 }}
+            className="relative w-screen left-1/2 right-1/2 -ml-[50vw] px-6 md:px-[calc((100vw-1280px)/2+24px)]"
+          >
+            <div
+              ref={scrollRef}
+              className="flex gap-5 overflow-x-auto pb-8 pt-2 no-scrollbar cursor-grab active:cursor-grabbing"
+              style={{
+                scrollbarWidth: "none",
+                msOverflowStyle: "none",
+              }}
+            >
+              {cards.map((card, i) => (
+                <MechanicCard key={i} card={card} index={i} />
+              ))}
+              {/* Spacer for scroll end padding */}
+              <div className="flex-shrink-0 w-6" />
+            </div>
+          </motion.div>
+        )}
+      </div>
+    </section>
+  );
+};
             <div
               className="bg-neutral-900 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden"
               style={{

@@ -32,6 +32,7 @@ export default function LandingPage() {
         label="DISCOVER"
         headline="Find anything. In seconds."
         body="Every service category. Every neighbourhood."
+        secondaryBody="Stop scrolling through endless lists. Bouul simplifies discovery by mapping the city's top talent to your exact coordinates, ensuring the best help is always within reach."
         cards={[
           {
             title: "Instant Search",
@@ -54,6 +55,7 @@ export default function LandingPage() {
         label="TRUST"
         headline="Book with total confidence."
         body="Every professional is background-checked, rated, and reviewed."
+        secondaryBody="Trust is built through transparency. We verify every professional on our platform so you can focus on getting the job done, knowing you're in safe hands."
         cards={[
           {
             title: "Verified Identity",
@@ -76,6 +78,7 @@ export default function LandingPage() {
         label="TRACKING"
         headline="Watch it happen. Live."
         body="Real-time GPS tracking. Live status updates."
+        secondaryBody="No more 'where is my pro?' anxiety. With Bouul, you have full visibility into your service status from start to finish, with precision tracking that keeps you in the loop."
         cards={[
           {
             title: "Live GPS",
@@ -103,6 +106,7 @@ export default function LandingPage() {
         label="SOCIAL"
         headline="A marketplace that knows you."
         body="Short-form video from professionals. Curated by what you book."
+        secondaryBody="Experience the craft before you commit. Our social feed transforms the marketplace into an immersive discovery journey where skill and personality take center stage."
         cards={[
           {
             title: "Video Feed",
