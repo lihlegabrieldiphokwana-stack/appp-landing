@@ -107,31 +107,15 @@ export const BouulHero = () => {
           <div
             className="relative bg-neutral-900 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden"
             style={{
-              width: "min(390px, 85vw)",
-              aspectRatio: "390/844",
+              width: "min(428px, 85vw)",
+              aspectRatio: "428/930.53",
             }}
           >
-            {/* Fake status bar */}
-            <div className="flex items-center justify-between px-6 pt-3 pb-1">
-              <span className="text-white text-xs font-medium">9:41</span>
-              <div className="flex items-center gap-1">
-                <div className="w-4 h-2 border border-neutral-500 rounded-sm relative">
-                  <div className="absolute inset-0.5 right-1 bg-neutral-400 rounded-sm" />
-                  <div className="absolute -right-0.5 top-0.5 w-0.5 h-1 bg-neutral-500 rounded-r-sm" />
-                </div>
-              </div>
-            </div>
-
-            {/* Content area */}
-            <div className="flex-1 flex flex-col items-center justify-center gap-2">
-              <div className="text-neutral-600 text-xs font-mono">390 × 844</div>
-              <div className="text-neutral-700 text-[10px]">Bouul App Preview</div>
-            </div>
-
-            {/* Fake home indicator */}
-            <div className="flex justify-center pb-2">
-              <div className="w-28 h-1 bg-neutral-600 rounded-full" />
-            </div>
+            <img
+              src="/Group%201686.png"
+              alt="Bouul App Preview"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
           </div>
         </motion.div>
       </div>
