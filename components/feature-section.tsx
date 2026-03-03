@@ -141,31 +141,3 @@ export const FeatureSection = ({
     </section>
   );
 };
-            <div
-              className="bg-neutral-900 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden"
-              style={{
-                width: "min(390px, 85vw)",
-                aspectRatio: "390/844",
-              }}
-            >
-              {/* Fake status bar */}
-              <div className="flex items-center justify-between px-6 pt-3 pb-1">
-                <span className="text-neutral-600 text-xs font-medium">9:41</span>
-                <div className="w-4 h-2 border border-neutral-800 rounded-sm" />
-              </div>
-              {/* Content */}
-              <div className="flex-1 flex flex-col items-center justify-center gap-2">
-                <div className="text-neutral-600 text-xs font-mono">390 × 844</div>
-                <div className="text-neutral-700 text-[10px]">{placeholderLabel}</div>
-              </div>
-              {/* Home indicator */}
-              <div className="flex justify-center pb-2">
-                <div className="w-28 h-1 bg-neutral-800 rounded-full" />
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
-};
