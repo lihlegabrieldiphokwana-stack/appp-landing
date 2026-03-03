@@ -36,6 +36,7 @@ export default function LandingPage() {
         headline="Find anything. In seconds."
         body="Every service category. Every neighbourhood."
         secondaryBody="Stop scrolling through endless lists. Bouul simplifies discovery by mapping the city's top talent to your exact coordinates, ensuring the best help is always within reach."
+        appPreview="/Group 1686.png"
         cards={[
           {
             title: "Instant Search",
