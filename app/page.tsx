@@ -32,7 +32,20 @@ export default function LandingPage() {
         label="DISCOVER"
         headline="Find anything. In seconds."
         body="Every service category. Every neighbourhood."
-        bullets={["Instant search", "Location-aware", "200+ categories"]}
+        cards={[
+          {
+            title: "Instant Search",
+            description: "Find the perfect professional in seconds. Our high-performance search engine delivers instant results as you type, matching your exact needs with local expertise."
+          },
+          {
+            title: "Location-aware",
+            description: "Your neighborhood’s best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are."
+          },
+          {
+            title: "200+ Categories",
+            description: "From master barbers to expert tutors, explore a vast ecosystem of professional craft. Every service you could ever need, organized for effortless discovery."
+          }
+        ]}
         align="right"
         placeholderLabel="Service Discovery"
       />
@@ -41,7 +54,20 @@ export default function LandingPage() {
         label="TRUST"
         headline="Book with total confidence."
         body="Every professional is background-checked, rated, and reviewed."
-        bullets={["Verified identity", "5-star reviews", "Secure payments"]}
+        cards={[
+          {
+            title: "Verified Identity",
+            description: "Book with peace of mind. Every professional on Bouul undergoes a rigorous identity verification and background check, ensuring a safe and reliable experience."
+          },
+          {
+            title: "5-Star Reviews",
+            description: "Authenticity you can count on. Browse thousands of community-vetted reviews, left only by real customers after a verified service completion."
+          },
+          {
+            title: "Secure Payments",
+            description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected."
+          }
+        ]}
         align="left"
         placeholderLabel="Booking & Trust"
       />
@@ -50,7 +76,20 @@ export default function LandingPage() {
         label="TRACKING"
         headline="Watch it happen. Live."
         body="Real-time GPS tracking. Live status updates."
-        bullets={["Live GPS", "Push notifications", "In-app chat"]}
+        cards={[
+          {
+            title: "Live GPS",
+            description: "Never wonder where your pro is. Watch their progress in real-time on a live map, from the moment they start their journey until they arrive at your door."
+          },
+          {
+            title: "Push Notifications",
+            description: "Stay informed without checking the app. Get instant, smart updates on your booking status, arrival times, and completion milestones."
+          },
+          {
+            title: "In-App Chat",
+            description: "Seamless communication at every step. Message your professional directly within the app to share details, photos, or instructions in a secure environment."
+          }
+        ]}
         align="right"
         placeholderLabel="Real-time Tracking"
       />
@@ -64,7 +103,20 @@ export default function LandingPage() {
         label="SOCIAL"
         headline="A marketplace that knows you."
         body="Short-form video from professionals. Curated by what you book."
-        bullets={["Video feed", "Personalised", "Follow favourites"]}
+        cards={[
+          {
+            title: "Video Feed",
+            description: "See the craft in motion. Experience professional services through a high-definition video feed that brings their skills and personality to life before you book."
+          },
+          {
+            title: "Personalised",
+            description: "A marketplace that evolves with you. Our discovery engine learns your preferences, tailoring your feed to showcase the services and styles you love most."
+          },
+          {
+            title: "Follow Favourites",
+            description: "Build your professional dream team. Follow the experts whose work inspires you and get notified first when they have new availability or reels."
+          }
+        ]}
         align="left"
         placeholderLabel="Social Video Feed"
       />
