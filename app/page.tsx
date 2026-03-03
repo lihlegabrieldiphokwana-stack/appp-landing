@@ -68,7 +68,8 @@ export default function LandingPage() {
           },
           {
             title: "5-Star Reviews",
-            description: "Authenticity you can count on. Browse thousands of community-vetted reviews, left only by real customers after a verified service completion."
+            description: "Authenticity you can count on. Browse thousands of community-vetted reviews, left only by real customers after a verified service completion.",
+            image: "/5_star_reviews.jpg"
           },
           {
             title: "Secure Payments",
