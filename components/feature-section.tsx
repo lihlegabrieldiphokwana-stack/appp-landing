@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { MechanicCard } from "./mechanic-card";
 
 export interface FeatureCard {
   title: string;
@@ -29,12 +30,14 @@ export const FeatureSection = ({
   align,
   placeholderLabel,
 }: FeatureSectionProps) => {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
   return (
-    <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900">
+    <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div
-          className={`flex flex-col md:flex-row items-center gap-16 md:gap-24 ${
-            align === "left" ? "md:flex-row-reverse" : ""
+          className={`flex flex-col lg:flex-row items-center gap-16 md:gap-24 ${
+            align === "left" ? "lg:flex-row-reverse" : ""
           }`}
         >
           {/* Text side */}
@@ -54,14 +57,38 @@ export const FeatureSection = ({
             <p className="text-neutral-400 text-lg leading-relaxed mb-8">
               {body}
             </p>
-            <div className="flex flex-col gap-3">
-              {bullets.map((bullet, i) => (
-                <div key={i} className="flex items-center gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-                  <span className="text-neutral-300 text-sm">{bullet}</span>
+
+            {/* Bullets (Legacy) */}
+            {bullets && !cards && (
+              <div className="flex flex-col gap-3">
+                {bullets.map((bullet, i) => (
+                  <div key={i} className="flex items-center gap-3">
+                    <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+                    <span className="text-neutral-300 text-sm">{bullet}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Mechanics Cards (Horizontal Scroll) */}
+            {cards && (
+              <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] px-6 md:px-[calc((100vw-1280px)/2+24px)] lg:ml-0 lg:w-auto lg:left-0 lg:right-0 lg:px-0">
+                <div
+                  ref={scrollRef}
+                  className="flex gap-4 overflow-x-auto pb-8 pt-2 no-scrollbar cursor-grab active:cursor-grabbing"
+                  style={{
+                    scrollbarWidth: "none",
+                    msOverflowStyle: "none",
+                  }}
+                >
+                  {cards.map((card, i) => (
+                    <MechanicCard key={i} card={card} index={i} />
+                  ))}
+                  {/* Spacer for scroll end padding */}
+                  <div className="flex-shrink-0 w-6 lg:hidden" />
                 </div>
-              ))}
-            </div>
+              </div>
+            )}
           </motion.div>
 
           {/* Phone placeholder side */}
