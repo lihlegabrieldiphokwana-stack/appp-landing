@@ -2,12 +2,19 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+export interface FeatureCard {
+  title: string;
+  description: string;
+  image?: string; // Optional image URL or placeholder data
+}
+
 interface FeatureSectionProps {
   id: string;
   label: string;
   headline: string;
   body: string;
-  bullets: string[];
+  bullets?: string[];
+  cards?: FeatureCard[];
   align: "left" | "right";
   placeholderLabel: string;
 }
@@ -18,6 +25,7 @@ export const FeatureSection = ({
   headline,
   body,
   bullets,
+  cards,
   align,
   placeholderLabel,
 }: FeatureSectionProps) => {
