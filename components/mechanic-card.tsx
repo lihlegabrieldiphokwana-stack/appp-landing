@@ -20,13 +20,13 @@ export const MechanicCard = ({ card, index }: MechanicCardProps) => {
       {/* Glass-morphic Image Placeholder */}
       <div className="w-full aspect-[4/3] bg-neutral-900 rounded-xl overflow-hidden relative flex items-center justify-center border border-neutral-800">
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-        <div className="text-neutral-700 font-mono text-[10px] uppercase tracking-widest">
-          {card.image ? (
-            <img src={card.image} alt={card.title} className="w-full h-full object-cover" />
-          ) : (
-            "Visual Mechanic"
-          )}
-        </div>
+        {card.image ? (
+          <img src={card.image} alt={card.title} className="w-full h-full object-cover" />
+        ) : (
+          <div className="text-neutral-700 font-mono text-[10px] uppercase tracking-widest">
+            Visual Mechanic
+          </div>
+        )}
       </div>
 
       <div className="flex flex-col gap-2">
