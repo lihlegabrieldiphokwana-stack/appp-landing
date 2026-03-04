@@ -41,11 +41,12 @@ export default function LandingPage() {
         cards={[
           {
             title: "Instant Search",
-            description: "Find the perfect professional in seconds. Our high-performance search engine delivers instant results as you type, matching your exact needs with local expertise."
+            description: "Find the perfect professional in seconds. Our high-performance search engine delivers instant results as you type, matching your exact needs with local expertise.",
+            image: "/instant_search.jpg"
           },
           {
             title: "Location-aware",
-            description: "Your neighborhood’s best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are."
+            description: "Your neighborhood's best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are."
           },
           {
             title: "200+ Categories",
