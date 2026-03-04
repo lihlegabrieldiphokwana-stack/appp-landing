@@ -94,7 +94,8 @@ export default function LandingPage() {
           },
           {
             title: "Push Notifications",
-            description: "Stay informed without checking the app. Get instant, smart updates on your booking status, arrival times, and completion milestones."
+            description: "Stay informed without checking the app. Get instant, smart updates on your booking status, arrival times, and completion milestones.",
+            image: "/real_time_notifications.jpg"
           },
           {
             title: "In-App Chat",
