@@ -146,12 +146,12 @@ export const FeatureSection = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8 }}
-            className="relative w-screen left-1/2 right-1/2 -ml-[50vw] pl-[calc(50vw-140px)] pr-[calc(50vw-140px)] md:pl-[calc((100vw-1280px)/2+24px)] md:pr-[calc((100vw-1280px)/2+24px)]"
+            className="relative -left-[50vw] right-[50vw] w-screen"
           >
             <div
               ref={scrollRef}
               onScroll={handleScroll}
-              className="flex gap-5 overflow-x-auto pb-8 pt-2 no-scrollbar cursor-grab active:cursor-grabbing"
+              className="flex gap-5 overflow-x-auto pb-8 pt-2 px-4 md:px-[calc((100vw-1280px)/2+24px)] no-scrollbar cursor-grab active:cursor-grabbing"
               style={{
                 scrollbarWidth: "none",
                 msOverflowStyle: "none",
