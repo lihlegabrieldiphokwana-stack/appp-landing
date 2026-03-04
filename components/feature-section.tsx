@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { MechanicCard } from "./mechanic-card";
 
@@ -35,6 +35,34 @@ export const FeatureSection = ({
   appPreview,
 }: FeatureSectionProps) => {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [totalCards, setTotalCards] = useState(0);
+
+  useEffect(() => {
+    if (cards) {
+      setTotalCards(cards.length);
+    }
+  }, [cards]);
+
+  const handleScroll = () => {
+    if (scrollRef.current) {
+      const scrollLeft = scrollRef.current.scrollLeft;
+      const cardWidth = 280 + 20; // card width + gap (280px + 5px gap on each side)
+      const index = Math.round(scrollLeft / cardWidth);
+      setActiveIndex(index);
+    }
+  };
+
+  const scrollToIndex = (index: number) => {
+    if (scrollRef.current) {
+      const cardWidth = 280 + 20; // card width + gap
+      scrollRef.current.scrollTo({
+        left: index * cardWidth,
+        behavior: "smooth",
+      });
+      setActiveIndex(index);
+    }
+  };
 
   return (
     <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
@@ -118,10 +146,11 @@ export const FeatureSection = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8 }}
-            className="relative w-screen left-1/2 right-1/2 -ml-[50vw] px-6 md:px-[calc((100vw-1280px)/2+24px)]"
+            className="relative w-screen left-1/2 right-1/2 -ml-[50vw] pl-[calc(50vw-140px)] pr-[calc(50vw-140px)] md:pl-[calc((100vw-1280px)/2+24px)] md:pr-[calc((100vw-1280px)/2+24px)]"
           >
             <div
               ref={scrollRef}
+              onScroll={handleScroll}
               className="flex gap-5 overflow-x-auto pb-8 pt-2 no-scrollbar cursor-grab active:cursor-grabbing"
               style={{
                 scrollbarWidth: "none",
@@ -133,6 +162,22 @@ export const FeatureSection = ({
               ))}
               {/* Spacer for scroll end padding */}
               <div className="flex-shrink-0 w-6" />
+            </div>
+
+            {/* Apple-style Navigation Dots */}
+            <div className="flex items-center justify-center gap-2 mt-4">
+              {Array.from({ length: totalCards }).map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => scrollToIndex(i)}
+                  className={`transition-all duration-300 rounded-full ${
+                    i === activeIndex
+                      ? "w-8 h-1.5 bg-emerald-500"
+                      : "w-1.5 h-1.5 bg-neutral-600 hover:bg-neutral-500"
+                  }`}
+                  aria-label={`Go to card ${i + 1}`}
+                />
+              ))}
             </div>
           </motion.div>
         )}

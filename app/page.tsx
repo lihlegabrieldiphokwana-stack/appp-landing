@@ -12,6 +12,7 @@ import { DynamicPricing } from "@/components/dynamic-pricing";
 import { SubscriptionSection } from "@/components/subscription-section";
 import { LampContainer } from "@/components/ui/lamp-effect";
 import { VendorSection } from "@/components/vendor-section";
+import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
 import { StatsStrip } from "@/components/stats-strip";
 import { SentimentReviews } from "@/components/sentiment-reviews";
 import { TestimonialsSection } from "@/components/testimonials-section";
@@ -146,6 +147,9 @@ export default function LandingPage() {
 
       {/* Vendor section */}
       <VendorSection />
+
+      {/* Vendor Category Value Proposition */}
+      <VendorCategoryValueProp />
 
       {/* Stats */}
       <StatsStrip />
