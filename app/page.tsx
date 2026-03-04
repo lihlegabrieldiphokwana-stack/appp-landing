@@ -91,7 +91,8 @@ export default function LandingPage() {
         cards={[
           {
             title: "Live GPS",
-            description: "Never wonder where your pro is. Watch their progress in real-time on a live map, from the moment they start their journey until they arrive at your door."
+            description: "Never wonder where your pro is. Watch their progress in real-time on a live map, from the moment they start their journey until they arrive at your door.",
+            image: "/live_gps.jpg"
           },
           {
             title: "Push Notifications",
