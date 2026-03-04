@@ -99,7 +99,8 @@ export default function LandingPage() {
           },
           {
             title: "In-App Chat",
-            description: "Seamless communication at every step. Message your professional directly within the app to share details, photos, or instructions in a secure environment."
+            description: "Seamless communication at every step. Message your professional directly within the app to share details, photos, or instructions in a secure environment.",
+            image: "/in_app_chat.jpg"
           }
         ]}
         align="right"
