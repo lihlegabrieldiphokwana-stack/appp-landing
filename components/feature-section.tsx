@@ -146,12 +146,12 @@ export const FeatureSection = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8 }}
-            className="relative w-screen left-1/2 right-1/2 -ml-[50vw]"
+            className="relative -mx-6 md:mx-0"
           >
             <div
               ref={scrollRef}
               onScroll={handleScroll}
-              className="flex gap-5 overflow-x-auto pb-8 pt-2 px-4 md:px-0 no-scrollbar cursor-grab active:cursor-grabbing"
+              className="flex gap-5 overflow-x-auto pb-8 pt-2 px-6 md:px-0 md:justify-center no-scrollbar cursor-grab active:cursor-grabbing"
               style={{
                 scrollbarWidth: "none",
                 msOverflowStyle: "none",
@@ -161,7 +161,7 @@ export const FeatureSection = ({
                 <MechanicCard key={i} card={card} index={i} />
               ))}
               {/* Spacer for scroll end padding */}
-              <div className="flex-shrink-0 w-4" />
+              <div className="flex-shrink-0 w-4 md:hidden" />
             </div>
 
             {/* Apple-style Navigation Dots */}
