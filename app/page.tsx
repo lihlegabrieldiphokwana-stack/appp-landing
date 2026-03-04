@@ -129,7 +129,8 @@ export default function LandingPage() {
           },
           {
             title: "Follow Favourites",
-            description: "Build your professional dream team. Follow the experts whose work inspires you and get notified first when they have new availability or reels."
+            description: "Build your professional dream team. Follow the experts whose work inspires you and get notified first when they have new availability or reels.",
+            image: "/follow_favourites.jpg"
           }
         ]}
         align="left"
