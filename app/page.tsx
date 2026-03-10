@@ -6,13 +6,13 @@ import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
 import { ZolaSection } from "@/components/zola-section";
+import { ResonanceEngine } from "@/components/resonance-engine";
 import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
 import { DynamicPricing } from "@/components/dynamic-pricing";
 import { SubscriptionSection } from "@/components/subscription-section";
 import { LampContainer } from "@/components/ui/lamp-effect";
 import { VendorSection } from "@/components/vendor-section";
-import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
 import { StatsStrip } from "@/components/stats-strip";
 import { SentimentReviews } from "@/components/sentiment-reviews";
 import { TestimonialsSection } from "@/components/testimonials-section";
@@ -112,6 +112,9 @@ export default function LandingPage() {
       {/* Zola AI — booking assistant */}
       <ZolaSection />
 
+      {/* Resonance Discovery Engine */}
+      <ResonanceEngine />
+
       {/* Social — video feed intro */}
       <FeatureSection
         id="social"
@@ -150,11 +153,8 @@ export default function LandingPage() {
       {/* Subscriptions */}
       <SubscriptionSection />
 
-      {/* Vendor section */}
+      {/* Vendor section — with link to dedicated vendor page */}
       <VendorSection />
-
-      {/* Vendor Category Value Proposition */}
-      <VendorCategoryValueProp />
 
       {/* Stats */}
       <StatsStrip />

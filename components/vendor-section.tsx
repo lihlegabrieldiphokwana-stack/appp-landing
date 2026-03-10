@@ -43,6 +43,28 @@ export const VendorSection = () => {
           ))}
         </div>
 
+        {/* CTA to vendor page */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mt-12 text-center"
+        >
+          <p className="text-neutral-500 text-sm mb-6">
+            Discover AI-powered discovery, multi-title testing, and real-time analytics.
+          </p>
+          <a
+            href="/vendors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-sm border border-neutral-800 transition-colors"
+          >
+            Learn more about selling on Bouul
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </motion.div>
+
         {/* Tablet placeholder */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
