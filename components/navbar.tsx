@@ -1,7 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { CityDetector } from "@/components/city-detector";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -61,37 +63,38 @@ export const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            <a
+          <div className="hidden md:flex items-center gap-6">
+            <CityDetector compact />
+            <Link
               href="#overview"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
               Overview
-            </a>
-            <a
+            </Link>
+            <Link
               href="#features"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
               Features
-            </a>
-            <a
-              href="#vendor"
+            </Link>
+            <Link
+              href="/vendors"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
               For Vendors
-            </a>
-            <a
+            </Link>
+            <Link
               href="/faq"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
               FAQ
-            </a>
-            <a
+            </Link>
+            <Link
               href="#download"
               className="px-4 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-xs"
             >
               Download
-            </a>
+            </Link>
           </div>
 
           {/* Spacer for mobile */}
@@ -100,47 +103,57 @@ export const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <motion.div
-          initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: "auto" }}
-          exit={{ opacity: 0, height: 0 }}
-          className="md:hidden bg-black/95 backdrop-blur-xl border-b border-gray-800"
-        >
-          <div className="px-6 py-4 space-y-4">
-            <a
-              href="#overview"
-              className="block text-gray-400 hover:text-white transition-colors text-sm"
-            >
-              Overview
-            </a>
-            <a
-              href="#features"
-              className="block text-gray-400 hover:text-white transition-colors text-sm"
-            >
-              Features
-            </a>
-            <a
-              href="#vendor"
-              className="block text-gray-400 hover:text-white transition-colors text-sm"
-            >
-              For Vendors
-            </a>
-            <a
-              href="/faq"
-              className="block text-gray-400 hover:text-white transition-colors text-sm"
-            >
-              FAQ
-            </a>
-            <a
-              href="#download"
-              className="block w-full text-center px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-sm"
-            >
-              Download
-            </a>
-          </div>
-        </motion.div>
-      )}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="md:hidden bg-black/95 backdrop-blur-xl border-b border-gray-800"
+          >
+            <div className="px-6 py-4 space-y-4">
+              <div className="pb-4 border-b border-neutral-800">
+                <CityDetector />
+              </div>
+              <Link
+                href="#overview"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Overview
+              </Link>
+              <Link
+                href="#features"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Features
+              </Link>
+              <Link
+                href="/vendors"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                For Vendors
+              </Link>
+              <Link
+                href="/faq"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                FAQ
+              </Link>
+              <Link
+                href="#download"
+                className="block w-full text-center px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Download
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </nav>
   );
 };
