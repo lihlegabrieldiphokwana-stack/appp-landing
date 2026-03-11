@@ -51,20 +51,208 @@ const vendorStats = [
   { stat: "Full", label: "control", description: "Complete dashboard control over your business" },
 ];
 
-// Service categories for vendors (same as services page but from vendor perspective)
+// Service categories for vendors with detailed pain points per service
 const vendorServiceCategories = [
-  { name: "Home Services", icon: "🏠", slug: "home-services", services: ["Plumbers", "Electricians", "Carpenters", "Painters", "Builders", "Gardeners", "Pool Cleaners", "Pest Control", "AC Repair", "Appliance Repair", "Handyman", "Roofers", "Tilers", "Welders", "Aluminum & Glass"], painPoint: "Emergency calls at odd hours", bouulBenefit: "Set your own availability. You control when you work." },
-  { name: "Cleaning", icon: "✨", slug: "cleaning", services: ["House Cleaning", "Carpet Cleaning", "Office Cleaning", "Deep Cleaning", "Move-In/Out Cleaning", "Window Cleaning", "Upholstery Cleaning", "Pressure Washing"], painPoint: "Clients don't value your expertise", bouulBenefit: "Showcase before/after videos. Let your work speak." },
-  { name: "Beauty & Wellness", icon: "💅", slug: "beauty", services: ["Hairdressers", "Barbers", "Nail Technicians", "Massage Therapists", "Facial Treatments", "Makeup Artists", "Eyelash & Brows", "Spas", "Personal Trainers", "Yoga Instructors"], painPoint: "Last-minute cancellations", bouulBenefit: "Require deposits. Protect your time and income." },
-  { name: "Automotive", icon: "🚗", slug: "automotive", services: ["Mechanics", "Car Detailing", "Panel Beaters", "Towing Services", "Car Wash", "Windscreen Repair", "Auto Electricians"], painPoint: "Customers question your pricing", bouulBenefit: "Transparent quotes upfront. No more haggling." },
-  { name: "Education", icon: "📚", slug: "education", services: ["Math Tutors", "English Tutors", "Science Tutors", "Language Lessons", "Music Lessons", "Computer Lessons", "Homework Help", "Exam Prep"], painPoint: "Hard to prove your qualifications", bouulBenefit: "Verified badges + reviews. Credibility built-in." },
-  { name: "Health & Medical", icon: "🏥", slug: "health", services: ["Physiotherapists", "Dietitians", "Counselors", "Nurses", "Elderly Care", "Baby Nurses", "First Aid Training"], painPoint: "Insurance paperwork nightmares", bouulBenefit: "Handle bookings, not bureaucracy. We simplify admin." },
-  { name: "Events & Photography", icon: "📸", slug: "events", services: ["Photographers", "Videographers", "Event Planners", "Caterers", "DJs", "Live Bands", "Decorators", "MCs"], painPoint: "Seasonal income instability", bouulBenefit: "Year-round visibility. Peak season or not." },
-  { name: "Professional", icon: "💼", slug: "professional", services: ["Accountants", "Bookkeepers", "Tax Consultants", "Legal Services", "Business Consultants", "Marketing Agencies", "Web Designers", "Graphic Designers"], painPoint: "Referrals dry up sometimes", bouulBenefit: "Consistent inbound leads. No more feast or famine." },
-  { name: "Pets", icon: "🐾", slug: "pets", services: ["Pet Groomers", "Dog Walkers", "Pet Sitters", "Veterinarians", "Pet Training"], painPoint: "Clients don't trust strangers with pets", bouulBenefit: "Verified profiles + reviews. Trust established instantly." },
-  { name: "Logistics", icon: "📦", slug: "logistics", services: ["Removal Companies", "Courier Services", "Furniture Delivery", "Storage Services", "Skip Hire"], painPoint: "Fuel costs eating margins", bouulBenefit: "Dynamic pricing tools. Adjust for distance, load, urgency." },
-  { name: "Tech & IT", icon: "💻", slug: "tech", services: ["IT Support", "Computer Repair", "Network Installation", "Security Systems", "CCTV Installation", "Data Recovery"], painPoint: "Clients don't understand technical value", bouulBenefit: "Show expertise through content. Education converts." },
-  { name: "Legal & Financial", icon: "⚖️", slug: "legal", services: ["Attorneys", "Notaries", "Financial Advisors", "Insurance Agents", "Real Estate Agents"], painPoint: "Compliance limits marketing", bouulBenefit: "Professional platform. Compliant by design." },
+  { 
+    name: "Home Services", 
+    icon: "🏠", 
+    slug: "home-services", 
+    services: [
+      { name: "Plumbers", painPoint: "Emergency calls at 2AM", bouulBenefit: "Set emergency hours & premium rates" },
+      { name: "Electricians", painPoint: "Clients sourcing cheap materials", bouulBenefit: "Specify exact materials in quotes" },
+      { name: "Carpenters", painPoint: "Scope creep on custom projects", bouulBenefit: "Milestone-based payments" },
+      { name: "Painters", painPoint: "Weather delays affecting income", bouulBenefit: "Flexible rescheduling policies" },
+      { name: "Builders", painPoint: "Payment delays after completion", bouulBenefit: "Progress payments built-in" },
+      { name: "Gardeners", painPoint: "Seasonal work inconsistency", bouulBenefit: "Year-round subscription packages" },
+      { name: "Pool Cleaners", painPoint: "Chemical costs eating margins", bouulBenefit: "Dynamic pricing per pool size" },
+      { name: "Pest Control", painPoint: "Follow-up visits unpaid", bouulBenefit: "Guarantee packages with deposits" },
+      { name: "AC Repair", painPoint: "Peak season burnout", bouulBenefit: "Demand-based surge pricing" },
+      { name: "Appliance Repair", painPoint: "Diagnostic time uncompensated", bouulBenefit: "Charge call-out fees" },
+      { name: "Handyman", painPoint: "Too many small jobs, not enough profit", bouulBenefit: "Minimum booking values" },
+      { name: "Roofers", painPoint: "Insurance claim complexities", bouulBenefit: "Direct insurer billing options" },
+      { name: "Tilers", painPoint: "Material wastage costs", bouulBenefit: "Precise quote calculators" },
+      { name: "Welders", painPoint: "Specialized skills undervalued", bouulBenefit: "Portfolio showcases expertise" },
+      { name: "Aluminum & Glass", painPoint: "Measurement errors costly", bouulBenefit: "Digital measurement tools" },
+    ],
+    categoryPainPoint: "Emergency calls at odd hours",
+    categoryBenefit: "Set your own availability. You control when you work.",
+  },
+  { 
+    name: "Cleaning", 
+    icon: "✨", 
+    slug: "cleaning", 
+    services: [
+      { name: "House Cleaning", painPoint: "Clients expecting hotel-level service", bouulBenefit: "Clear service tier definitions" },
+      { name: "Carpet Cleaning", painPoint: "Equipment transport costs", bouulBenefit: "Distance-based pricing" },
+      { name: "Office Cleaning", painPoint: "After-hours work life balance", bouulBenefit: "Set preferred time slots" },
+      { name: "Deep Cleaning", painPoint: "Physically demanding, low rates", bouulBenefit: "Premium pricing for deep services" },
+      { name: "Move-In/Out Cleaning", painPoint: "Last-minute booking chaos", bouulBenefit: "Advance booking requirements" },
+      { name: "Window Cleaning", painPoint: "Height work risk vs reward", bouulBenefit: "Risk-adjusted pricing tools" },
+      { name: "Upholstery Cleaning", painPoint: "Stain removal guarantees", bouulBenefit: "Realistic expectation setting" },
+      { name: "Pressure Washing", painPoint: "Equipment maintenance costs", bouulBenefit: "Job pricing includes overhead" },
+    ],
+    categoryPainPoint: "Clients don't value your expertise",
+    categoryBenefit: "Showcase before/after videos. Let your work speak.",
+  },
+  { 
+    name: "Beauty & Wellness", 
+    icon: "💅", 
+    slug: "beauty", 
+    services: [
+      { name: "Hairdressers", painPoint: "No-shows killing schedule", bouulBenefit: "Non-refundable deposits" },
+      { name: "Barbers", painPoint: "Walk-in unpredictability", bouulBenefit: "Appointment-only options" },
+      { name: "Nail Technicians", painPoint: "Complex designs underpriced", bouulBenefit: "Photo-based price calculator" },
+      { name: "Massage Therapists", painPoint: "Physical burnout", bouulBenefit: "Booking limits per day" },
+      { name: "Facial Treatments", painPoint: "Product costs not covered", bouulBenefit: "Product-inclusive pricing" },
+      { name: "Makeup Artists", painPoint: "Trial sessions unpaid", bouulBenefit: "Trial fee structures" },
+      { name: "Eyelash & Brows", painPoint: "Touch-up requests", bouulBenefit: "Clear aftercare policies" },
+      { name: "Spas", painPoint: "Staff scheduling nightmares", bouulBenefit: "Multi-therapist management" },
+      { name: "Personal Trainers", painPoint: "Client consistency issues", bouulBenefit: "Package commitments" },
+      { name: "Yoga Instructors", painPoint: "Venue costs", bouulBenefit: "Virtual class options" },
+    ],
+    categoryPainPoint: "Last-minute cancellations",
+    categoryBenefit: "Require deposits. Protect your time and income.",
+  },
+  { 
+    name: "Automotive", 
+    icon: "🚗", 
+    slug: "automotive", 
+    services: [
+      { name: "Mechanics", painPoint: "Customers questioning diagnostics", bouulBenefit: "Photo/video evidence sharing" },
+      { name: "Car Detailing", painPoint: "Water/electricity at client location", bouulBenefit: "Mobile service premiums" },
+      { name: "Panel Beaters", painPoint: "Insurance assessment delays", bouulBenefit: "Direct insurance partnerships" },
+      { name: "Towing Services", painPoint: "Fuel costs fluctuating", bouulBenefit: "Dynamic distance pricing" },
+      { name: "Car Wash", painPoint: "Weather dependency", bouulBenefit: "Indoor venue partnerships" },
+      { name: "Windscreen Repair", painPoint: "Mobile service logistics", bouulBenefit: "Route optimization" },
+      { name: "Auto Electricians", painPoint: "Specialized diagnostic equipment costs", bouulBenefit: "Premium skill pricing" },
+    ],
+    categoryPainPoint: "Customers question your pricing",
+    categoryBenefit: "Transparent quotes upfront. No more haggling.",
+  },
+  { 
+    name: "Education", 
+    icon: "📚", 
+    slug: "education", 
+    services: [
+      { name: "Math Tutors", painPoint: "Parents expecting grade guarantees", bouulBenefit: "Progress tracking, not promises" },
+      { name: "English Tutors", painPoint: "Essay grading unpaid time", bouulBenefit: "Grading time included in rates" },
+      { name: "Science Tutors", painPoint: "Lab equipment costs", bouulBenefit: "Material fees built-in" },
+      { name: "Language Lessons", painPoint: "Student practice inconsistency", bouulBenefit: "Homework tracking tools" },
+      { name: "Music Lessons", painPoint: "Instrument practice enforcement", bouulBenefit: "Practice log integration" },
+      { name: "Computer Lessons", painPoint: "Software licensing costs", bouulBenefit: "License-inclusive pricing" },
+      { name: "Homework Help", painPoint: "Parent communication overload", bouulBenefit: "Automated progress reports" },
+      { name: "Exam Prep", painPoint: "Seasonal income peaks", bouulBenefit: "Year-round subscription models" },
+    ],
+    categoryPainPoint: "Hard to prove your qualifications",
+    categoryBenefit: "Verified badges + reviews. Credibility built-in.",
+  },
+  { 
+    name: "Health & Medical", 
+    icon: "🏥", 
+    slug: "health", 
+    services: [
+      { name: "Physiotherapists", painPoint: "Insurance claim paperwork", bouulBenefit: "Digital claim submissions" },
+      { name: "Dietitians", painPoint: "Client compliance tracking", bouulBenefit: "Progress monitoring tools" },
+      { name: "Counselors", painPoint: "Session note administration", bouulBenefit: "Integrated note-taking" },
+      { name: "Nurses", painPoint: "Liability concerns for home visits", bouulBenefit: "Platform insurance coverage" },
+      { name: "Elderly Care", painPoint: "Family communication demands", bouulBenefit: "Family portal updates" },
+      { name: "Baby Nurses", painPoint: "Odd hour expectations", bouulBenefit: "Night shift premiums" },
+      { name: "First Aid Training", painPoint: "Certification tracking", bouulBenefit: "Automated renewal reminders" },
+    ],
+    categoryPainPoint: "Insurance paperwork nightmares",
+    categoryBenefit: "Handle bookings, not bureaucracy. We simplify admin.",
+  },
+  { 
+    name: "Events & Photography", 
+    icon: "📸", 
+    slug: "events", 
+    services: [
+      { name: "Photographers", painPoint: "Editing time uncompensated", bouulBenefit: "Editing hours in quotes" },
+      { name: "Videographers", painPoint: "Equipment depreciation", bouulBenefit: "Gear rental line items" },
+      { name: "Event Planners", painPoint: "Vendor coordination chaos", bouulBenefit: "Vendor management portal" },
+      { name: "Caterers", painPoint: "Last-minute headcount changes", bouulBenefit: "Final numbers deadline" },
+      { name: "DJs", painPoint: "Song request management", bouulBenefit: "Pre-event planning tools" },
+      { name: "Live Bands", painPoint: "Equipment transport logistics", bouulBenefit: "Venue requirement specs" },
+      { name: "Decorators", painPoint: "Setup/teardown time unpaid", bouulBenefit: "Full event time billing" },
+      { name: "MCs", painPoint: "Script preparation time", bouulBenefit: "Prep time compensation" },
+    ],
+    categoryPainPoint: "Seasonal income instability",
+    categoryBenefit: "Year-round visibility. Peak season or not.",
+  },
+  { 
+    name: "Professional", 
+    icon: "💼", 
+    slug: "professional", 
+    services: [
+      { name: "Accountants", painPoint: "Tax season burnout", bouulBenefit: "Off-season promotions" },
+      { name: "Bookkeepers", painPoint: "Monthly retainer collection", bouulBenefit: "Auto-debit subscriptions" },
+      { name: "Tax Consultants", painPoint: "Client document delays", bouulBenefit: "Document upload deadlines" },
+      { name: "Legal Services", painPoint: "Initial consultation time-wasters", bouulBenefit: "Paid consultation fees" },
+      { name: "Business Consultants", painPoint: "ROI proof demands", bouulBenefit: "Milestone tracking" },
+      { name: "Marketing Agencies", painPoint: "Scope creep on campaigns", bouulBenefit: "Clear deliverable definitions" },
+      { name: "Web Designers", painPoint: "Endless revision requests", bouulBenefit: "Revision limit policies" },
+      { name: "Graphic Designers", painPoint: "Concept theft concerns", bouulBenefit: "Watermarked previews" },
+    ],
+    categoryPainPoint: "Referrals dry up sometimes",
+    categoryBenefit: "Consistent inbound leads. No more feast or famine.",
+  },
+  { 
+    name: "Pets", 
+    icon: "🐾", 
+    slug: "pets", 
+    services: [
+      { name: "Pet Groomers", painPoint: "Difficult pet handling", bouulBenefit: "Temperament disclosures" },
+      { name: "Dog Walkers", painPoint: "Weather cancellations", bouulBenefit: "Weather policies built-in" },
+      { name: "Pet Sitters", painPoint: "Emergency vet decisions", bouulBenefit: "Vet authorization forms" },
+      { name: "Veterinarians", painPoint: "After-hours emergencies", bouulBenefit: "On-call scheduling" },
+      { name: "Pet Training", painPoint: "Owner compliance issues", bouulBenefit: "Owner homework tracking" },
+    ],
+    categoryPainPoint: "Clients don't trust strangers with pets",
+    categoryBenefit: "Verified profiles + reviews. Trust established instantly.",
+  },
+  { 
+    name: "Logistics", 
+    icon: "📦", 
+    slug: "logistics", 
+    services: [
+      { name: "Removal Companies", painPoint: "Stairs/access not disclosed", bouulBenefit: "Detailed job questionnaires" },
+      { name: "Courier Services", painPoint: "Fuel surcharge calculations", bouulBenefit: "Auto fuel adjustments" },
+      { name: "Furniture Delivery", painPoint: "Assembly time uncompensated", bouulBenefit: "Assembly add-on pricing" },
+      { name: "Storage Services", painPoint: "Inventory tracking", bouulBenefit: "Digital inventory systems" },
+      { name: "Skip Hire", painPoint: "Permit complexities", bouulBenefit: "Permit handling service" },
+    ],
+    categoryPainPoint: "Fuel costs eating margins",
+    categoryBenefit: "Dynamic pricing tools. Adjust for distance, load, urgency.",
+  },
+  { 
+    name: "Tech & IT", 
+    icon: "💻", 
+    slug: "tech", 
+    services: [
+      { name: "IT Support", painPoint: "Remote vs onsite confusion", bouulBenefit: "Clear service type selection" },
+      { name: "Computer Repair", painPoint: "Data liability concerns", bouulBenefit: "Liability waivers built-in" },
+      { name: "Network Installation", painPoint: "Multi-day project payments", bouulBenefit: "Milestone billing" },
+      { name: "Security Systems", painPoint: "Monitoring subscription management", bouulBenefit: "Recurring revenue tools" },
+      { name: "CCTV Installation", painPoint: "Maintenance call expectations", bouulBenefit: "Maintenance packages" },
+      { name: "Data Recovery", painPoint: "Success rate expectations", bouulBenefit: "No recovery, no fee options" },
+    ],
+    categoryPainPoint: "Clients don't understand technical value",
+    categoryBenefit: "Show expertise through content. Education converts.",
+  },
+  { 
+    name: "Legal & Financial", 
+    icon: "⚖️", 
+    slug: "legal", 
+    services: [
+      { name: "Attorneys", painPoint: "Billable hour tracking", bouulBenefit: "Time tracking integration" },
+      { name: "Notaries", painPoint: "Travel time uncompensated", bouulBenefit: "Mobile notary premiums" },
+      { name: "Financial Advisors", painPoint: "Compliance documentation", bouulBenefit: "Compliance templates" },
+      { name: "Insurance Agents", painPoint: "Policy renewal tracking", bouulBenefit: "Automated renewal reminders" },
+      { name: "Real Estate Agents", painPoint: "Property showing coordination", bouulBenefit: "Showing scheduling tools" },
+    ],
+    categoryPainPoint: "Compliance limits marketing",
+    categoryBenefit: "Professional platform. Compliant by design.",
+  },
 ];
 
 const painPoints = [
@@ -144,7 +332,7 @@ const PersonalizedVendorHero: React.FC = () => {
             {businessName && selectedCategory ? (
               <>
                 Built specifically for {businessName} and {categoryData?.name.toLowerCase()} professionals. 
-                {categoryData?.painPoint && ` Tired of ${categoryData.painPoint.toLowerCase()}?`}
+                {categoryData?.categoryPainPoint && ` Tired of ${categoryData.categoryPainPoint.toLowerCase()}?`}
               </>
             ) : businessName ? (
               <>
@@ -208,7 +396,7 @@ const PersonalizedVendorHero: React.FC = () => {
                   </svg>
                   <div className="text-emerald-400 text-xs font-semibold uppercase">Your Advantage</div>
                 </div>
-                <div className="text-white font-medium">{categoryData.bouulBenefit}</div>
+                <div className="text-white font-medium">{categoryData.categoryBenefit}</div>
               </div>
               <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
                 <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
@@ -318,8 +506,10 @@ const PainPointsSection: React.FC = () => {
 const ServiceCategoriesSection: React.FC = () => {
   const [businessName, setBusinessName] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
+  const [selectedService, setSelectedService] = useState<string>("");
 
   const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
+  const serviceData = categoryData?.services.find(s => s.name === selectedService);
 
   return (
     <section className="py-24 bg-black border-t border-neutral-900">
@@ -348,7 +538,7 @@ const ServiceCategoriesSection: React.FC = () => {
               </>
             ) : (
               <>
-                If you provide a service, Bouul is built for you. 71+ categories and growing.
+                If you provide a service, Bouul is built for you. 71+ services and growing.
               </>
             )}
           </p>
@@ -373,7 +563,7 @@ const ServiceCategoriesSection: React.FC = () => {
               {businessName}
             </div>
             <button
-              onClick={() => { setBusinessName(""); setSelectedCategory(""); }}
+              onClick={() => { setBusinessName(""); setSelectedCategory(""); setSelectedService(""); }}
               className="text-neutral-500 hover:text-white"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -383,7 +573,8 @@ const ServiceCategoriesSection: React.FC = () => {
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Category Selection */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {vendorServiceCategories.map((category, i) => (
             <motion.div
               key={category.name}
@@ -391,7 +582,7 @@ const ServiceCategoriesSection: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.05 }}
-              onClick={() => setSelectedCategory(category.slug)}
+              onClick={() => { setSelectedCategory(category.slug); setSelectedService(""); }}
               className={cn(
                 "bg-neutral-950 border rounded-2xl p-6 cursor-pointer transition-all hover:scale-[1.02]",
                 selectedCategory === category.slug
@@ -403,50 +594,178 @@ const ServiceCategoriesSection: React.FC = () => {
                 <div className="text-3xl">{category.icon}</div>
                 <h3 className="text-white font-semibold text-lg">{category.name}</h3>
               </div>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {category.services.map((service) => (
+              <div className="text-neutral-500 text-sm mb-3">
+                {category.services.length} services
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {category.services.slice(0, 5).map((service) => (
                   <span
-                    key={service}
-                    className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-400 text-xs hover:text-emerald-400 hover:bg-neutral-800 transition-colors cursor-default"
+                    key={service.name}
+                    className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-400 text-xs"
                   >
-                    {service}
+                    {service.name}
                   </span>
                 ))}
+                {category.services.length > 5 && (
+                  <span className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-500 text-xs">
+                    +{category.services.length - 5} more
+                  </span>
+                )}
               </div>
-              {selectedCategory === category.slug && businessName && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="pt-4 border-t border-neutral-800"
-                >
-                  <div className="text-neutral-500 text-xs mb-2">For {businessName}:</div>
-                  <div className="text-neutral-400 text-sm mb-2">Challenge: {category.painPoint}</div>
-                  <div className="text-emerald-400 text-sm font-medium">✓ {category.bouulBenefit}</div>
-                </motion.div>
-              )}
             </motion.div>
           ))}
         </div>
 
-        {selectedCategory && categoryData && businessName && (
+        {/* Service Selection within Category */}
+        {selectedCategory && categoryData && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center mt-12"
+            className="mb-12"
           >
-            <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-emerald-500/10 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-8">
-              <div className="text-white font-semibold text-xl mb-4">
-                {businessName} belongs on Bouul
-              </div>
-              <p className="text-neutral-500 text-sm mb-6 max-w-md">
-                Join {categoryData.name.toLowerCase()} professionals already growing with Bouul.
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-semibold text-white mb-2">
+                {businessName && categoryData ? (
+                  <>Select {businessName}'s primary service</>
+                ) : (
+                  <>Select your service</>
+                )}
+              </h3>
+              <p className="text-neutral-500 text-sm">
+                See exactly how Bouul solves {categoryData.name.toLowerCase()}'s biggest challenges
               </p>
-              <a
-                href="/vendors"
-                className="inline-block px-10 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
-              >
-                Create Your Free Profile
-              </a>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {categoryData.services.map((service, i) => (
+                <motion.button
+                  key={service.name}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.03 }}
+                  onClick={() => setSelectedService(service.name)}
+                  className={cn(
+                    "text-left p-4 rounded-xl border transition-all",
+                    selectedService === service.name
+                      ? "bg-emerald-500/10 border-emerald-500"
+                      : "bg-neutral-950 border-neutral-800 hover:border-neutral-700"
+                  )}
+                >
+                  <div className="text-white font-medium mb-1">{service.name}</div>
+                </motion.button>
+              ))}
+            </div>
+          </motion.div>
+        )}
+
+        {/* Detailed Pain Points for Selected Service */}
+        {selectedService && serviceData && businessName && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="max-w-4xl mx-auto"
+          >
+            <div className="bg-gradient-to-br from-emerald-500/10 via-neutral-950 to-neutral-950 border border-emerald-500/30 rounded-3xl p-8 md:p-12">
+              <div className="text-center mb-12">
+                <div className="text-emerald-400 text-sm font-semibold uppercase tracking-widest mb-4">
+                  Personalized for {businessName}
+                </div>
+                <h3 className="text-3xl md:text-4xl font-semibold text-white mb-4">
+                  {serviceData.name} on Bouul
+                </h3>
+                <p className="text-neutral-500 text-lg">
+                  Here's how we solve your industry's biggest challenges
+                </p>
+              </div>
+
+              {/* Main Pain Point */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6">
+                  <div className="text-red-400 text-sm font-semibold uppercase mb-3 flex items-center gap-2">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                    </svg>
+                    The Problem
+                  </div>
+                  <div className="text-white text-lg font-medium mb-2">
+                    {serviceData.painPoint}
+                  </div>
+                  <div className="text-neutral-500 text-sm">
+                    This is what {businessName} deals with regularly. Other platforms don't solve this.
+                  </div>
+                </div>
+
+                <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-2xl p-6">
+                  <div className="text-emerald-400 text-sm font-semibold uppercase mb-3 flex items-center gap-2">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    The Bouul Solution
+                  </div>
+                  <div className="text-white text-lg font-medium mb-2">
+                    {serviceData.bouulBenefit}
+                  </div>
+                  <div className="text-emerald-400/70 text-sm">
+                    Built specifically for {businessName} and {categoryData?.name.toLowerCase()} like you.
+                  </div>
+                </div>
+              </div>
+
+              {/* Category-wide Benefits */}
+              <div className="border-t border-neutral-800 pt-8">
+                <div className="text-white font-semibold mb-6">Plus, everything you need to grow:</div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <div>
+                      <div className="text-white font-medium">0% Commission</div>
+                      <div className="text-neutral-500 text-sm">{businessName} keeps every rand earned</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <div>
+                      <div className="text-white font-medium">24-48h Payouts</div>
+                      <div className="text-neutral-500 text-sm">Not 5-7 business days</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <div>
+                      <div className="text-white font-medium">Customer Ownership</div>
+                      <div className="text-neutral-500 text-sm">Build your client base directly</div>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <div>
+                      <div className="text-white font-medium">AI Discovery</div>
+                      <div className="text-neutral-500 text-sm">Automatic A/B testing for your services</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <div className="mt-12 text-center">
+                <a
+                  href="/vendors"
+                  className="inline-block px-12 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+                >
+                  Create Free Profile for {businessName}
+                </a>
+                <p className="text-neutral-500 text-sm mt-4">
+                  No credit card required. Setup takes 2 minutes.
+                </p>
+              </div>
             </div>
           </motion.div>
         )}
