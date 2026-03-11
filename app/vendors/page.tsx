@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
 import { VendorPricingComparison } from "@/components/vendor-pricing-comparison";
@@ -1190,6 +1190,312 @@ const DashboardPreviewSection: React.FC<{ businessName: string }> = ({ businessN
   );
 };
 
+// Entrepreneur Anxiety Section
+const EntrepreneurAnxietySection: React.FC<{ businessName: string }> = ({ businessName }) => {
+  const anxieties = [
+    {
+      question: "Can you afford a full-time marketing team?",
+      answer: "Most can't. That's why we built Zola. She manages your SEO, social presence, and client outreach automatically.",
+      label: "CHIEF MARKETING OFFICER"
+    },
+    {
+      question: "Do you have a front desk clerk for 24/7 bookings?",
+      answer: "Bouul is your receptionist. We handle every inquiry, deposit, and reminder while you're working or sleeping.",
+      label: "RECEPTION & OPS"
+    },
+    {
+      question: "Wish you had a business strategist on call?",
+      answer: "Our AI analyzes local demand and competition to tell you exactly when to raise your rates or run a promo.",
+      label: "STRATEGY & GROWTH"
+    },
+    {
+      question: "Feel like your competitors are killing you?",
+      answer: "They're likely losing 20% to old platforms. Bouul gives you the tech to out-rank them while keeping 100% profit.",
+      label: "COMPETITIVE EDGE"
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            THE FOUNDER'S REALITY
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            {businessName ? `Is ${businessName} working for you, or are you working for ${businessName}?` : "Are you working for your business, or is it working for you?"}
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            Being an entrepreneur shouldn't mean being everything at once. We give you the executive team you can't afford yet.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {anxieties.map((item, i) => (
+            <motion.div
+              key={item.question}
+              initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="bg-neutral-950 border border-neutral-800 rounded-3xl p-10 flex flex-col justify-between group hover:border-emerald-500/30 transition-all"
+            >
+              <div>
+                <h3 className="text-2xl font-semibold text-white mb-6 leading-tight group-hover:text-emerald-400 transition-colors">
+                  "{item.question}"
+                </h3>
+                <p className="text-neutral-500 text-base leading-relaxed mb-8 italic">
+                  — No? That's what we thought. {item.answer}
+                </p>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs font-bold">
+                  ✓
+                </div>
+                <div className="text-neutral-400 text-[10px] font-bold uppercase tracking-[0.2em]">
+                  BOUUL REPLACES YOUR: {item.label}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Website Simulator Section
+const WebsiteSimulatorSection: React.FC<{ businessName: string }> = ({ businessName }) => {
+  const [url, setUrl] = useState("");
+  const [isScanning, setIsScanning] = useState(false);
+  const [scanComplete, setScanComplete] = useState(false);
+  const [progress, setProgress] = useState(0);
+
+  const startScan = () => {
+    if (!url) return;
+    setIsScanning(true);
+    setScanComplete(false);
+    setProgress(0);
+    
+    const interval = setInterval(() => {
+      setProgress(prev => {
+        if (prev >= 100) {
+          clearInterval(interval);
+          setIsScanning(false);
+          setScanComplete(true);
+          return 100;
+        }
+        return prev + 2;
+      });
+    }, 50);
+  };
+
+  const costs = [
+    { item: "Domain & Hosting", traditional: "$170/yr", bouul: "$0" },
+    { item: "Website Maintenance", traditional: "$500/yr", bouul: "$0" },
+    { item: "SEO Specialist", traditional: "$8,000/yr", bouul: "AI Included" },
+    { item: "Google Ads/PPC Manager", traditional: "$6,000/yr", bouul: "Social Native" },
+    { item: "Booking Software Fee", traditional: "R450/mo", bouul: "$0" },
+  ];
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900 overflow-hidden relative">
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-emerald-500/5 blur-[150px] rounded-full -z-10" />
+      
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+          >
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              THE WEBSITE TRAP
+            </div>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6 leading-[1.1]">
+              {businessName ? `Stop wasting ${businessName}'s profit on a static website.` : "Stop wasting profit on a static website."}
+            </h2>
+            <p className="text-neutral-500 text-lg mb-8 leading-relaxed">
+              Standard websites are digital business cards that nobody finds. They are expensive to maintain and 
+              impossible to optimize alone. Bouul gives you a high-converting, social-first storefront for free.
+            </p>
+            
+            <div className="space-y-4 mb-10">
+              <div className="flex items-center gap-3">
+                <div className="w-5 h-5 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-[10px]">✕</div>
+                <div className="text-neutral-400 text-sm italic">"I spent R15k on a site and still have no bookings."</div>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-5 h-5 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-[10px]">✓</div>
+                <div className="text-white text-sm font-medium">Bouul vendors get discovered 10x more than standalone sites.</div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3">
+              <input
+                type="text"
+                placeholder="Enter your current website URL..."
+                value={url}
+                onChange={(e) => setUrl(e.target.value)}
+                className="flex-1 px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-all shadow-xl"
+              />
+              <button
+                onClick={startScan}
+                disabled={isScanning || !url}
+                className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isScanning ? "Analyzing..." : "Analyze Savings"}
+              </button>
+            </div>
+          </motion.div>
+
+          <div className="relative">
+            <AnimatePresence mode="wait">
+              {isScanning ? (
+                <motion.div
+                  key="scanning"
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 1.05 }}
+                  className="bg-neutral-950 border border-emerald-500/20 rounded-3xl p-12 text-center shadow-2xl"
+                >
+                  <div className="text-6xl mb-8 animate-pulse">🛰️</div>
+                  <h3 className="text-xl font-semibold text-white mb-2 uppercase tracking-widest">
+                    Scanning {businessName || "Your Presence"}
+                  </h3>
+                  <p className="text-neutral-500 text-sm mb-8">Auditing SEO, Loading Speed, and Customer Funnel...</p>
+                  <div className="w-full h-2 bg-neutral-900 rounded-full overflow-hidden">
+                    <motion.div 
+                      className="h-full bg-emerald-500"
+                      initial={{ width: 0 }}
+                      animate={{ width: `${progress}%` }}
+                    />
+                  </div>
+                </motion.div>
+              ) : scanComplete ? (
+                <motion.div
+                  key="results"
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  className="bg-neutral-950 border border-emerald-500/40 rounded-3xl p-8 shadow-2xl relative overflow-hidden"
+                >
+                  <div className="absolute top-0 right-0 p-4">
+                    <div className="px-3 py-1 bg-emerald-500 text-black text-[10px] font-bold rounded-full animate-bounce">
+                      AUDIT COMPLETE
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-semibold text-white mb-8 border-b border-neutral-800 pb-4">
+                    {businessName ? `${businessName} Savings Analysis` : "Your Savings Analysis"}
+                  </h3>
+                  <div className="space-y-6 mb-8">
+                    <div className="grid grid-cols-3 text-[10px] font-bold text-neutral-500 uppercase tracking-widest px-4">
+                      <div>EXPENSE</div>
+                      <div className="text-center">OLD WAY</div>
+                      <div className="text-right text-emerald-400">BOUUL WAY</div>
+                    </div>
+                    {costs.map((c) => (
+                      <div key={c.item} className="grid grid-cols-3 items-center px-4 py-3 bg-neutral-900/50 rounded-xl border border-neutral-800">
+                        <div className="text-xs text-white font-medium">{c.item}</div>
+                        <div className="text-xs text-neutral-500 text-center line-through">{c.traditional}</div>
+                        <div className="text-xs text-emerald-400 text-right font-bold">{c.bouul}</div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="text-center p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl">
+                    <div className="text-emerald-400 text-xs font-bold uppercase mb-1">Estimated Annual Recovery</div>
+                    <div className="text-3xl font-bold text-white tracking-tighter">R15,000+</div>
+                  </div>
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="idle"
+                  className="bg-neutral-950 border border-neutral-800 rounded-3xl p-12 text-center opacity-50 grayscale"
+                >
+                  <div className="text-6xl mb-8">🌐</div>
+                  <h3 className="text-xl font-semibold text-white mb-2">Website Cost Auditor</h3>
+                  <p className="text-neutral-500 text-sm">Enter your URL to see what we can save you.</p>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Dynamic Pricing Explainer Section
+const DynamicPricingExplainer: React.FC<{ businessName: string }> = ({ businessName }) => {
+  return (
+    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            RECLAIM YOUR WORTH
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            Earn more, not harder.
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto leading-relaxed">
+            {businessName ? `Bouul's AI watches ${businessName}'s schedule and local demand. When you're busy, we raise your rates automatically to protect your time.` : "Bouul's AI watches your schedule and local demand. When you're busy, we raise your rates automatically to protect your time."}
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
+            <div className="text-3xl mb-4">⚡</div>
+            <h4 className="text-white font-semibold text-xl mb-4">Surge Pricing</h4>
+            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
+              Friday night at 7pm? Demand is high. The AI automatically increases your base rate by 15-30% because your 
+              time is a premium asset.
+            </p>
+            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              MAXIMIZING MARGINS
+            </div>
+          </div>
+          
+          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
+            <div className="text-3xl mb-4">🌙</div>
+            <h4 className="text-white font-semibold text-xl mb-4">Off-Peak Incentives</h4>
+            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
+              Slow Tuesday morning? The system can offer "Flash Promos" to fill your empty slots, ensuring {businessName || "your business"} 
+              maintains constant cash flow.
+            </p>
+            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              FILLING THE GAPS
+            </div>
+          </div>
+
+          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
+            <div className="text-3xl mb-4">⏱️</div>
+            <h4 className="text-white font-semibold text-xl mb-4">Duration Intelligence</h4>
+            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
+              If a specific service for {businessName || "you"} always runs 15 minutes over, the AI suggests 
+              duration adjustments and pricing tiers to ensure you're paid for every minute.
+            </p>
+            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              TIME PROTECTION
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default function VendorsPage() {
   const [businessName, setBusinessName] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
@@ -1249,13 +1555,13 @@ export default function VendorsPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#get-started"
-              className="px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-all hover:scale-105 active:scale-95"
+              className="px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-all hover:scale-105 active:scale-95 shadow-xl shadow-emerald-500/20"
             >
               Get Started
             </a>
             <a
               href="#how-it-works"
-              className="px-10 py-5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-lg border border-neutral-800 transition-all"
+              className="px-10 py-5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-lg border border-neutral-800 transition-all shadow-xl"
             >
               How it works
             </a>
@@ -1292,8 +1598,17 @@ export default function VendorsPage() {
         <OnboardingJourneySection businessName={businessName} />
       </div>
 
+      {/* Entrepreneur Anxiety Section */}
+      <EntrepreneurAnxietySection businessName={businessName} />
+
+      {/* Website Simulator Section */}
+      <WebsiteSimulatorSection businessName={businessName} />
+
       {/* Pain Points */}
       <PainPointsSection businessName={businessName} />
+
+      {/* Dynamic Pricing Explainer */}
+      <DynamicPricingExplainer businessName={businessName} />
 
       {/* Service Categories - Who Can Join */}
       <ServiceCategoriesSection
