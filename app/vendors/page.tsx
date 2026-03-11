@@ -56,7 +56,7 @@ export default function VendorsPage() {
       <Navbar />
 
       {/* Hero */}
-      <LampContainer className="min-h-[700px]">
+      <LampContainer className="min-h-[350px]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
