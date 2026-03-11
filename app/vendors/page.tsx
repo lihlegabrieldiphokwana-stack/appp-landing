@@ -823,118 +823,6 @@ const ServiceCategoriesSection: React.FC<{
           </motion.div>
         )}
 
-        {/* Detailed Pain Points for Selected Service */}
-        {selectedService && serviceData && businessName && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-4xl mx-auto"
-          >
-            <div className="bg-gradient-to-br from-emerald-500/10 via-neutral-950 to-neutral-950 border border-emerald-500/30 rounded-3xl p-8 md:p-12">
-              <div className="text-center mb-12">
-                <div className="text-emerald-400 text-sm font-semibold uppercase tracking-widest mb-4">
-                  Personalized for {businessName}
-                </div>
-                <h3 className="text-3xl md:text-4xl font-semibold text-white mb-4">
-                  {serviceData.name} on Bouul
-                </h3>
-                <p className="text-neutral-500 text-lg">
-                  Here's how we solve your industry's biggest challenges
-                </p>
-              </div>
-
-              {/* Main Pain Point */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6">
-                  <div className="text-red-400 text-sm font-semibold uppercase mb-3 flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                    </svg>
-                    The Problem
-                  </div>
-                  <div className="text-white text-lg font-medium mb-2">
-                    {serviceData.painPoint}
-                  </div>
-                  <div className="text-neutral-500 text-sm">
-                    This is what {businessName} deals with regularly. Other platforms don't solve this.
-                  </div>
-                </div>
-
-                <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-2xl p-6">
-                  <div className="text-emerald-400 text-sm font-semibold uppercase mb-3 flex items-center gap-2">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    The Bouul Solution
-                  </div>
-                  <div className="text-white text-lg font-medium mb-2">
-                    {serviceData.bouulBenefit}
-                  </div>
-                  <div className="text-emerald-400/70 text-sm">
-                    Built specifically for {businessName} and {categoryData?.name.toLowerCase()} like you.
-                  </div>
-                </div>
-              </div>
-
-              {/* Category-wide Benefits */}
-              <div className="border-t border-neutral-800 pt-8">
-                <div className="text-white font-semibold mb-6">Plus, everything you need to grow:</div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <div>
-                      <div className="text-white font-medium">0% Commission</div>
-                      <div className="text-neutral-500 text-sm">{businessName} keeps every rand earned</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <div>
-                      <div className="text-white font-medium">24-48h Payouts</div>
-                      <div className="text-neutral-500 text-sm">Not 5-7 business days</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <div>
-                      <div className="text-white font-medium">Customer Ownership</div>
-                      <div className="text-neutral-500 text-sm">Build your client base directly</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                    <div>
-                      <div className="text-white font-medium">AI Discovery</div>
-                      <div className="text-neutral-500 text-sm">Automatic A/B testing for your services</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* CTA */}
-              <div className="mt-12 text-center">
-                <a
-                  href="/vendors"
-                  className="inline-block px-12 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
-                >
-                  Create Free Profile for {businessName}
-                </a>
-                <p className="text-neutral-500 text-sm mt-4">
-                  No credit card required. Setup takes 2 minutes.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        )}
-
         {!selectedCategory && (
           <div className="text-center mt-12">
             <p className="text-neutral-500 text-sm mb-6">
@@ -1061,6 +949,247 @@ const DetailedPainPointsSection: React.FC<{
   );
 };
 
+// Onboarding Journey Section
+const OnboardingJourneySection: React.FC<{ businessName: string }> = ({ businessName }) => {
+  const steps = [
+    {
+      title: "Join the Network",
+      description: businessName 
+        ? `Create ${businessName}'s free profile in 2 minutes. No credit card, no commitment.`
+        : "Create your free professional profile in 2 minutes. No credit card, no commitment.",
+      icon: (
+        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+        </svg>
+      ),
+      aiPointer: "AI-Powered Verification"
+    },
+    {
+      title: "Upload Your Craft",
+      description: businessName
+        ? `List ${businessName}'s services with multiple titles and videos. Let the AI test what works.`
+        : "List your services with multiple titles and videos. Let the AI test what works.",
+      icon: (
+        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+        </svg>
+      ),
+      aiPointer: "Resonance™ Optimization"
+    },
+    {
+      title: "Grow & Earn",
+      description: businessName
+        ? `Collect 100% of ${businessName}'s revenue with 24-48h payouts. Build your direct client base.`
+        : "Collect 100% of your revenue with 24-48h payouts. Build your direct client base.",
+      icon: (
+        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      ),
+      aiPointer: "Smart Revenue Forecasting"
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            THE JOURNEY
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            {businessName ? `How ${businessName} grows` : "How it works"}
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            From first upload to scale. We've simplified the path to professional success.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+          {/* Connector Line */}
+          <div className="hidden md:block absolute top-12 left-0 w-full h-px bg-neutral-800 -z-10" />
+          
+          {steps.map((step, i) => (
+            <motion.div
+              key={step.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.2 }}
+              className="text-center group"
+            >
+              <div className="w-24 h-24 rounded-3xl bg-neutral-900 border border-neutral-800 flex items-center justify-center mx-auto mb-8 group-hover:border-emerald-500/50 transition-colors relative">
+                <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-emerald-500 text-black text-sm font-bold flex items-center justify-center">
+                  {i + 1}
+                </div>
+                {step.icon}
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-4">{step.title}</h3>
+              <p className="text-neutral-500 text-sm leading-relaxed mb-6">
+                {step.description}
+              </p>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/5 border border-emerald-500/20 text-[10px] font-bold text-emerald-400 uppercase tracking-tighter">
+                <div className="w-1 h-1 rounded-full bg-emerald-500 animate-pulse" />
+                {step.aiPointer}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Vendor Trust Section
+const VendorTrustSection: React.FC<{ businessName: string }> = ({ businessName }) => {
+  const trustFeatures = [
+    {
+      title: "Verified Customers Only",
+      description: "Only users with a verified payment method and booking history can review your services. No fake reviews, ever.",
+      icon: "🛡️"
+    },
+    {
+      title: "FICA & Identity Compliant",
+      description: "We handle the heavy lifting of compliance and security so you can focus on your craft.",
+      icon: "🆔"
+    },
+    {
+      title: "Secure 24-48h Payouts",
+      description: "Direct to your bank account. No waiting for weekly cycles or platform approvals.",
+      icon: "💳"
+    }
+  ];
+
+  return (
+    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+          >
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              TRUST & SECURITY
+            </div>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+              {businessName ? `Bouul protects ${businessName}` : "Bouul protects your business"}
+            </h2>
+            <p className="text-neutral-500 text-lg mb-10">
+              We built the platform to be a fortress. Your data, your revenue, and your reputation are our highest priority.
+            </p>
+            <div className="space-y-8">
+              {trustFeatures.map((feature) => (
+                <div key={feature.title} className="flex gap-4">
+                  <div className="text-2xl">{feature.icon}</div>
+                  <div>
+                    <h4 className="text-white font-semibold mb-1">{feature.title}</h4>
+                    <p className="text-neutral-500 text-sm leading-relaxed">{feature.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="relative"
+          >
+            <div className="aspect-square bg-gradient-to-br from-emerald-500/20 to-transparent rounded-3xl border border-emerald-500/20 flex items-center justify-center p-12 overflow-hidden">
+              <div className="text-center">
+                <div className="text-8xl mb-6">🔒</div>
+                <div className="text-emerald-400 font-mono text-xs tracking-widest mb-2 uppercase">Encryption Active</div>
+                <div className="text-neutral-500 text-sm font-mono">256-bit Secure Payout Channel</div>
+                <div className="mt-8 grid grid-cols-2 gap-4">
+                  <div className="h-2 w-24 bg-neutral-800 rounded-full overflow-hidden">
+                    <div className="h-full bg-emerald-500 w-3/4 animate-pulse" />
+                  </div>
+                  <div className="h-2 w-24 bg-neutral-800 rounded-full overflow-hidden">
+                    <div className="h-full bg-emerald-500 w-1/2 animate-pulse" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Dashboard Preview Section
+const DashboardPreviewSection: React.FC<{ businessName: string }> = ({ businessName }) => {
+  return (
+    <section className="py-24 bg-black">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            DASHBOARD
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            {businessName ? `Control ${businessName} from anywhere` : "Control your business from anywhere"}
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            Full-feature management for mobile and desktop. Track bookings, manage staff, and analyze growth in real-time.
+          </p>
+        </motion.div>
+
+        <div className="relative max-w-5xl mx-auto">
+          <div className="bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="bg-neutral-950 border-b border-neutral-800 p-4 flex items-center justify-between">
+              <div className="flex gap-2">
+                <div className="w-3 h-3 rounded-full bg-neutral-800" />
+                <div className="w-3 h-3 rounded-full bg-neutral-800" />
+                <div className="w-3 h-3 rounded-full bg-neutral-800" />
+              </div>
+              <div className="px-4 py-1.5 bg-neutral-900 rounded-lg text-[10px] text-neutral-500 font-mono flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                {businessName ? `${businessName.toLowerCase()}.bouul.com` : "yourbusiness.bouul.com"}
+              </div>
+              <div className="w-6 h-6 rounded-full bg-neutral-800" />
+            </div>
+            <div className="aspect-video bg-neutral-950 flex items-center justify-center relative group">
+              <div className="text-neutral-700 text-xs font-mono uppercase tracking-[0.2em]">Dashboard Preview</div>
+              
+              {/* AI Pointer Overlay */}
+              <div className="absolute top-8 right-8 p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl backdrop-blur-md max-w-[200px]">
+                <div className="text-emerald-400 text-[10px] font-bold uppercase mb-2">Zola AI Insight</div>
+                <div className="text-white text-xs leading-relaxed">
+                  "Peak demand expected tomorrow between 2pm-4pm. {businessName && `Adjusting ${businessName}'s availability.`}"
+                </div>
+              </div>
+              
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60" />
+            </div>
+          </div>
+          
+          {/* Floating Mobile Preview */}
+          <div className="absolute -bottom-12 -right-6 hidden lg:block w-56 aspect-[9/19] bg-neutral-900 border-4 border-neutral-800 rounded-[2.5rem] overflow-hidden shadow-2xl">
+            <div className="h-6 w-1/3 bg-neutral-800 rounded-b-xl mx-auto mb-4" />
+            <div className="px-4 space-y-4">
+              <div className="h-2 w-full bg-neutral-800 rounded-full" />
+              <div className="h-20 w-full bg-emerald-500/20 rounded-xl" />
+              <div className="h-2 w-2/3 bg-neutral-800 rounded-full" />
+              <div className="h-2 w-full bg-neutral-800 rounded-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export default function VendorsPage() {
   const [businessName, setBusinessName] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
@@ -1071,7 +1200,7 @@ export default function VendorsPage() {
       <Navbar />
 
       {/* Hero */}
-      <LampContainer className="min-h-[350px]">
+      <LampContainer className="min-h-[500px]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -1081,35 +1210,63 @@ export default function VendorsPage() {
           <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
             FOR PROFESSIONALS
           </div>
-          <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
-            Built for professionals <br />
-            <span className="text-neutral-500">who mean business.</span>
+          <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-8">
+            {businessName ? (
+              <>
+                Grow <span className="text-emerald-400">{businessName}</span> <br />
+                <span className="text-neutral-500 text-4xl md:text-5xl">on your own terms.</span>
+              </>
+            ) : (
+              <>
+                Built for professionals <br />
+                <span className="text-neutral-500">who mean business.</span>
+              </>
+            )}
           </h1>
-          <p className="text-neutral-500 text-xl max-w-2xl mx-auto mb-12">
-            Join 5,000+ professionals growing their business on Bouul.
-            From barbers to consultants, we give you the tools to succeed.
-          </p>
+          
+          <div className="max-w-md mx-auto mb-10">
+            <div className="relative group">
+              <input
+                type="text"
+                placeholder="Enter your business name..."
+                value={businessName}
+                onChange={(e) => setBusinessName(e.target.value)}
+                className="w-full px-8 py-5 bg-neutral-900/50 backdrop-blur-sm border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-all text-center text-lg group-hover:bg-neutral-900/80 shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-full bg-emerald-500/20 blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
+            {businessName ? (
+              <p className="text-emerald-400/70 text-xs mt-4 animate-pulse uppercase tracking-widest font-semibold">
+                Personalizing experience for {businessName}...
+              </p>
+            ) : (
+              <p className="text-neutral-500 text-xs mt-4 uppercase tracking-widest font-medium">
+                Enter name to personalize the journey
+              </p>
+            )}
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#get-started"
-              className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-base transition-colors"
+              className="px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-all hover:scale-105 active:scale-95"
             >
               Get Started
             </a>
             <a
-              href="#features"
-              className="px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-base border border-neutral-800 transition-colors"
+              href="#how-it-works"
+              className="px-10 py-5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-lg border border-neutral-800 transition-all"
             >
-              Learn More
+              How it works
             </a>
           </div>
         </motion.div>
       </LampContainer>
 
       {/* Stats */}
-      <section className="py-16 bg-black border-y border-neutral-900">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <section className="py-20 bg-black border-y border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
             {vendorStats.map((stat: VendorStat, i: number) => (
               <motion.div
                 key={stat.label}
@@ -1119,26 +1276,21 @@ export default function VendorsPage() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="text-center"
               >
-                <div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                <div className="text-4xl md:text-6xl font-bold text-white mb-3">
                   {stat.stat}
                 </div>
-                <div className="text-neutral-400 text-sm font-semibold mb-1">{stat.label}</div>
-                <div className="text-neutral-600 text-xs">{stat.description}</div>
+                <div className="text-neutral-400 text-sm font-bold mb-2 uppercase tracking-widest">{stat.label}</div>
+                <div className="text-neutral-600 text-xs max-w-[200px] mx-auto leading-relaxed">{stat.description}</div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Personalization Input */}
-      <PersonalizedVendorHero 
-        businessName={businessName}
-        setBusinessName={setBusinessName}
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
-        selectedService={selectedService}
-        setSelectedService={setSelectedService}
-      />
+      {/* Onboarding Journey */}
+      <div id="how-it-works">
+        <OnboardingJourneySection businessName={businessName} />
+      </div>
 
       {/* Pain Points */}
       <PainPointsSection businessName={businessName} />
@@ -1162,7 +1314,10 @@ export default function VendorsPage() {
       )}
 
       {/* Resonance Discovery Engine */}
-      <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900">
+      <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900 relative overflow-hidden">
+        {/* Background glow */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 blur-[120px] rounded-full -z-10" />
+        
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -1171,21 +1326,21 @@ export default function VendorsPage() {
             transition={{ duration: 0.6 }}
             className="mb-16"
           >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-              KEYSTONE DISCOVERY™
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4 flex items-center gap-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              KEYSTONE DISCOVERY™ AI
             </div>
             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4 max-w-3xl">
               {businessName ? (
-                <>{businessName} uploads. The system tests.</>
+                <>{businessName} uploads. <br /> The AI optimizes.</>
               ) : (
-                <>Vendors upload. The system tests.</>
-              )}<br />
-              <span className="text-neutral-500">No A/B setup required.</span>
+                <>Vendors upload. <br /> The AI optimizes.</>
+              )}
             </h2>
-            <p className="text-neutral-500 text-lg max-w-2xl">
+            <p className="text-neutral-500 text-lg max-w-2xl leading-relaxed">
               Every service {businessName && <>from {businessName}</>} can have multiple titles and images. 
-              Resonance automatically cycles through all combinations, learning which title + image 
-              pairing converts each individual user.
+              Our AI discovery engine automatically cycles through all combinations, learning exactly 
+              what converts each individual user.
             </p>
           </motion.div>
 
@@ -1197,22 +1352,52 @@ export default function VendorsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-8 flex flex-col gap-4"
+                className="bg-neutral-950 border border-neutral-800 rounded-3xl p-8 flex flex-col gap-4 group hover:border-emerald-500/30 transition-all"
               >
-                <div className="text-emerald-400">{feature.icon}</div>
-                <div className="text-4xl font-bold text-emerald-400">{feature.stat}</div>
+                <div className="text-emerald-400 p-3 bg-neutral-900 rounded-2xl w-fit group-hover:scale-110 transition-transform">{feature.icon}</div>
+                <div className="text-4xl font-bold text-white mt-2">{feature.stat}</div>
                 <div className="text-white font-semibold text-xl">{feature.title}</div>
                 <p className="text-neutral-500 text-sm leading-relaxed flex-1">
                   {feature.description}
                 </p>
-                <div className="text-neutral-600 text-xs font-medium border-t border-neutral-800 pt-3">
+                <div className="text-emerald-400/70 text-[10px] font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
+                  <div className="w-1 h-1 rounded-full bg-emerald-500" />
                   {feature.statLabel}
                 </div>
               </motion.div>
             ))}
           </div>
+
+          {/* Extra AI Pointer */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-12 p-8 bg-neutral-950 border border-emerald-500/20 rounded-3xl flex flex-col md:flex-row items-center gap-8"
+          >
+            <div className="w-20 h-20 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-4xl shrink-0">
+              🤖
+            </div>
+            <div>
+              <h4 className="text-white font-semibold text-lg mb-2 flex items-center gap-2">
+                Zola™ AI Assistant
+                <span className="px-2 py-0.5 bg-emerald-500 text-black text-[10px] font-bold rounded-full">ACTIVE</span>
+              </h4>
+              <p className="text-neutral-500 text-sm leading-relaxed">
+                Zola acts as {businessName ? `${businessName}'s` : "your"} 24/7 sales agent. 
+                She answers customer questions about {businessName ? `${businessName}'s` : "your"} 
+                services, suggests add-ons, and completes the booking — all without you lifting a finger.
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
+
+      {/* Trust & Security */}
+      <VendorTrustSection businessName={businessName} />
+
+      {/* Dashboard Preview */}
+      <DashboardPreviewSection businessName={businessName} />
 
       {/* Pricing Comparison */}
       <VendorPricingComparison businessName={businessName} />
@@ -1224,28 +1409,35 @@ export default function VendorsPage() {
         initialService={selectedService}
       />
 
-      {/* CTA */}
-      <section className="py-24 bg-black border-t border-neutral-900">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+      {/* Final CTA */}
+      <section id="get-started" className="py-32 bg-black relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/5 to-transparent" />
+        <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-semibold text-white mb-6">
-              Ready to grow your business?
+            <h2 className="text-5xl md:text-7xl font-semibold text-white mb-8 tracking-tighter">
+              Ready to grow <br />
+              <span className="text-emerald-400">{businessName || "your business"}?</span>
             </h2>
-            <p className="text-neutral-500 text-lg mb-10 max-w-xl mx-auto">
-              Join thousands of professionals who trust Bouul to fill their calendar
-              and grow their revenue.
+            <p className="text-neutral-500 text-xl mb-12 max-w-xl mx-auto leading-relaxed">
+              Join 5,000+ professionals who trust Bouul to fill their calendar
+              and grow their revenue with 0% commission.
             </p>
-            <a
-              href="/download"
-              className="inline-block px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
-            >
-              Create Your Vendor Profile
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/download"
+                className="px-12 py-6 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full text-xl transition-all hover:scale-105 shadow-2xl shadow-emerald-500/20"
+              >
+                Create Free {businessName && "Thirdspace"} Profile
+              </a>
+            </div>
+            <p className="text-neutral-600 text-sm mt-8 font-medium">
+              NO COMMISSION • NO HIDDEN FEES • 100% PROFIT
+            </p>
           </motion.div>
         </div>
       </section>
