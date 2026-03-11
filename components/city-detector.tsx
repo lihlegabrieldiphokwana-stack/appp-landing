@@ -117,7 +117,7 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="absolute right-0 top-full mt-2 w-72 bg-neutral-900 border border-neutral-800 rounded-2xl shadow-xl z-50 overflow-hidden"
+              className="absolute left-1/2 -translate-x-1/2 md:left-0 md:-translate-x-0 top-full mt-2 w-72 bg-neutral-900 border border-neutral-800 rounded-2xl shadow-xl z-50 overflow-hidden"
             >
               <div className="p-3 border-b border-neutral-800">
                 <input
