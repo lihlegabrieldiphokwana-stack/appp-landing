@@ -294,16 +294,21 @@ const painPoints = [
   },
 ];
 
-// Personalized Hero Component
-const PersonalizedVendorHero: React.FC = () => {
-  const [businessName, setBusinessName] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
-
+// Personalized Hero Component - Just collects business name
+const PersonalizedVendorHero: React.FC<{ 
+  businessName: string; 
+  setBusinessName: (name: string) => void;
+  selectedCategory: string;
+  setSelectedCategory: (slug: string) => void;
+  selectedService: string;
+  setSelectedService: (service: string) => void;
+}> = ({ businessName, setBusinessName, selectedCategory, setSelectedCategory, selectedService, setSelectedService }) => {
   const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
+  const serviceData = categoryData?.services.find(s => s.name === selectedService);
 
   return (
     <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-4xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -314,11 +319,7 @@ const PersonalizedVendorHero: React.FC = () => {
             MADE FOR YOU
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-            {businessName && selectedCategory ? (
-              <>
-                Grow <span className="text-emerald-400">{businessName}</span> with Bouul
-              </>
-            ) : businessName ? (
+            {businessName ? (
               <>
                 Grow <span className="text-emerald-400">{businessName}</span> with Bouul
               </>
@@ -329,14 +330,9 @@ const PersonalizedVendorHero: React.FC = () => {
             )}
           </h2>
           <p className="text-neutral-500 text-lg mb-8 max-w-2xl mx-auto">
-            {businessName && selectedCategory ? (
+            {businessName ? (
               <>
-                Built specifically for {businessName} and {categoryData?.name.toLowerCase()} professionals. 
-                {categoryData?.categoryPainPoint && ` Tired of ${categoryData.categoryPainPoint.toLowerCase()}?`}
-              </>
-            ) : businessName ? (
-              <>
-                See how {businessName} can earn more, work smarter, and keep 100% of profits.
+                Enter your business name and select your service to see how Bouul helps {businessName} succeed.
               </>
             ) : (
               <>
@@ -345,98 +341,47 @@ const PersonalizedVendorHero: React.FC = () => {
             )}
           </p>
 
-          {/* Input Fields */}
-          <div className="max-w-2xl mx-auto mb-8 space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Your business name..."
-                  value={businessName}
-                  onChange={(e) => setBusinessName(e.target.value)}
-                  className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors"
-                />
-                {businessName && (
-                  <button
-                    onClick={() => setBusinessName("")}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-white"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                )}
-              </div>
-              <select
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
-                className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white focus:outline-none focus:border-emerald-500 transition-colors appearance-none cursor-pointer"
-              >
-                <option value="">Select your service category...</option>
-                {vendorServiceCategories.map((cat) => (
-                  <option key={cat.slug} value={cat.slug}>
-                    {cat.icon} {cat.name}
-                  </option>
-                ))}
-              </select>
-            </div>
+          {/* Business Name Input */}
+          <div className="max-w-md mx-auto mb-8">
+            <input
+              type="text"
+              placeholder="Enter your business name..."
+              value={businessName}
+              onChange={(e) => setBusinessName(e.target.value)}
+              className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
+            />
           </div>
 
-          {/* Dynamic Benefits - Shows when both name and category selected */}
-          {businessName && selectedCategory && categoryData && (
+          {/* Show category/service selection inline when name is entered */}
+          {businessName && !selectedCategory && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12"
+              className="text-neutral-500 text-sm"
             >
-              <div className="bg-neutral-950 border border-emerald-500/30 rounded-xl p-5 text-left">
-                <div className="flex items-center gap-2 mb-2">
-                  <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <div className="text-emerald-400 text-xs font-semibold uppercase">Your Advantage</div>
-                </div>
-                <div className="text-white font-medium">{categoryData.categoryBenefit}</div>
-              </div>
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
-                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
-                <div className="text-white font-medium">{businessName} keeps 100% of earnings</div>
-                <div className="text-emerald-400 text-sm mt-1">R0 commission fees</div>
-              </div>
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
-                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
-                <div className="text-white font-medium">{businessName} gets paid in 24-48h</div>
-                <div className="text-emerald-400 text-sm mt-1">Not 5-7 business days</div>
-              </div>
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
-                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
-                <div className="text-white font-medium">{businessName} owns customer data</div>
-                <div className="text-emerald-400 text-sm mt-1">Build your client base</div>
-              </div>
+              Scroll down to select your service category ↓
             </motion.div>
           )}
 
-          {/* Category-specific CTA */}
-          {businessName && selectedCategory && categoryData && (
+          {/* Show selected info */}
+          {businessName && selectedCategory && serviceData && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mt-12"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-emerald-500/10 border border-emerald-500/20 rounded-full"
             >
-              <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-emerald-500/10 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-8">
-                <div className="text-white font-semibold text-xl mb-4">
-                  Ready to transform {businessName}?
-                </div>
-                <p className="text-neutral-500 text-sm mb-6 max-w-md">
-                  Join other {categoryData.name.toLowerCase()} professionals earning more on Bouul.
-                </p>
-                <a
-                  href="/vendors"
-                  className="inline-block px-10 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
-                >
-                  Create Free {categoryData.name} Profile
-                </a>
-              </div>
+              <span className="text-emerald-400 text-sm">Personalizing for:</span>
+              <span className="text-white font-medium">{businessName}</span>
+              <span className="text-neutral-600">•</span>
+              <span className="text-white font-medium">{serviceData.name}</span>
+              <button
+                onClick={() => { setSelectedCategory(""); setSelectedService(""); }}
+                className="text-neutral-500 hover:text-white"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </motion.div>
           )}
         </motion.div>
@@ -502,12 +447,14 @@ const PainPointsSection: React.FC = () => {
   );
 };
 
-// Service Categories Section
-const ServiceCategoriesSection: React.FC = () => {
-  const [businessName, setBusinessName] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [selectedService, setSelectedService] = useState<string>("");
-
+// Service Categories Section - No name input, receives from parent
+const ServiceCategoriesSection: React.FC<{
+  businessName: string;
+  selectedCategory: string;
+  setSelectedCategory: (slug: string) => void;
+  selectedService: string;
+  setSelectedService: (service: string) => void;
+}> = ({ businessName, selectedCategory, setSelectedCategory, selectedService, setSelectedService }) => {
   const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
   const serviceData = categoryData?.services.find(s => s.name === selectedService);
 
@@ -543,35 +490,6 @@ const ServiceCategoriesSection: React.FC = () => {
             )}
           </p>
         </motion.div>
-
-        {/* Business Name Input for Personalization */}
-        {!businessName && (
-          <div className="max-w-md mx-auto mb-12">
-            <input
-              type="text"
-              placeholder="Enter your business name..."
-              value={businessName}
-              onChange={(e) => setBusinessName(e.target.value)}
-              className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
-            />
-          </div>
-        )}
-        {businessName && (
-          <div className="max-w-md mx-auto mb-12 flex items-center justify-center gap-3">
-            <div className="text-emerald-400 text-sm">Personalizing for:</div>
-            <div className="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-400 font-medium">
-              {businessName}
-            </div>
-            <button
-              onClick={() => { setBusinessName(""); setSelectedCategory(""); setSelectedService(""); }}
-              className="text-neutral-500 hover:text-white"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-        )}
 
         {/* Category Selection */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -789,6 +707,10 @@ const ServiceCategoriesSection: React.FC = () => {
 };
 
 export default function VendorsPage() {
+  const [businessName, setBusinessName] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("");
+  const [selectedService, setSelectedService] = useState<string>("");
+
   return (
     <main className="min-h-screen bg-black">
       <Navbar />
@@ -814,10 +736,10 @@ export default function VendorsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/vendors"
+              href="#get-started"
               className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-base transition-colors"
             >
-              Start Selling on Bouul
+              Get Started
             </a>
             <a
               href="#features"
@@ -854,13 +776,26 @@ export default function VendorsPage() {
       </section>
 
       {/* Personalization Input */}
-      <PersonalizedVendorHero />
+      <PersonalizedVendorHero 
+        businessName={businessName}
+        setBusinessName={setBusinessName}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        selectedService={selectedService}
+        setSelectedService={setSelectedService}
+      />
 
       {/* Pain Points */}
       <PainPointsSection />
 
       {/* Service Categories - Who Can Join */}
-      <ServiceCategoriesSection />
+      <ServiceCategoriesSection 
+        businessName={businessName}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        selectedService={selectedService}
+        setSelectedService={setSelectedService}
+      />
 
       {/* Resonance Discovery Engine */}
       <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900">
