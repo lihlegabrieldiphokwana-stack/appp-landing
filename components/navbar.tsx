@@ -65,17 +65,29 @@ export const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
             <CityDetector compact />
+            <div className="relative group">
+              <button className="text-gray-400 hover:text-white transition-colors text-xs flex items-center gap-1">
+                Services
+                <svg className="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div className="absolute left-0 top-full mt-2 w-48 bg-neutral-900 border border-neutral-800 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                <div className="py-2">
+                  <Link href="/category/plumbers" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Plumbers</Link>
+                  <Link href="/category/electricians" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Electricians</Link>
+                  <Link href="/category/cleaners" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Cleaners</Link>
+                  <Link href="/category/beauty" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Beauty</Link>
+                  <Link href="/category/builders" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Builders</Link>
+                  <Link href="/category/tutors" className="block px-4 py-2 text-gray-400 hover:text-white hover:bg-neutral-800 text-xs">Tutors</Link>
+                </div>
+              </div>
+            </div>
             <Link
-              href="#overview"
+              href="/safety"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
-              Overview
-            </Link>
-            <Link
-              href="#features"
-              className="text-gray-400 hover:text-white transition-colors text-xs"
-            >
-              Features
+              Safety
             </Link>
             <Link
               href="/vendors"
@@ -115,19 +127,23 @@ export const Navbar = () => {
               <div className="pb-4 border-b border-neutral-800">
                 <CityDetector />
               </div>
+              <div>
+                <div className="text-gray-400 text-sm font-medium mb-2">Services</div>
+                <div className="space-y-2">
+                  <Link href="/category/plumbers" className="block text-gray-500 hover:text-white transition-colors text-sm">Plumbers</Link>
+                  <Link href="/category/electricians" className="block text-gray-500 hover:text-white transition-colors text-sm">Electricians</Link>
+                  <Link href="/category/cleaners" className="block text-gray-500 hover:text-white transition-colors text-sm">Cleaners</Link>
+                  <Link href="/category/beauty" className="block text-gray-500 hover:text-white transition-colors text-sm">Beauty</Link>
+                  <Link href="/category/builders" className="block text-gray-500 hover:text-white transition-colors text-sm">Builders</Link>
+                  <Link href="/category/tutors" className="block text-gray-500 hover:text-white transition-colors text-sm">Tutors</Link>
+                </div>
+              </div>
               <Link
-                href="#overview"
+                href="/safety"
                 className="block text-gray-400 hover:text-white transition-colors text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Overview
-              </Link>
-              <Link
-                href="#features"
-                className="block text-gray-400 hover:text-white transition-colors text-sm"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Features
+                Safety
               </Link>
               <Link
                 href="/vendors"
