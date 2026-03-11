@@ -6,6 +6,7 @@ import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop
 import { VendorPricingComparison } from "@/components/vendor-pricing-comparison";
 import { LampContainer } from "@/components/ui/lamp-effect";
 import { Footer } from "@/components/footer";
+import { cn } from "@/lib/utils";
 
 const vendorFeatures = [
   {
@@ -52,18 +53,18 @@ const vendorStats = [
 
 // Service categories for vendors (same as services page but from vendor perspective)
 const vendorServiceCategories = [
-  { name: "Home Services", icon: "🏠", services: ["Plumbers", "Electricians", "Carpenters", "Painters", "Builders", "Gardeners", "Pool Cleaners", "Pest Control", "AC Repair", "Appliance Repair", "Handyman", "Roofers", "Tilers", "Welders", "Aluminum & Glass"] },
-  { name: "Cleaning", icon: "✨", services: ["House Cleaning", "Carpet Cleaning", "Office Cleaning", "Deep Cleaning", "Move-In/Out Cleaning", "Window Cleaning", "Upholstery Cleaning", "Pressure Washing"] },
-  { name: "Beauty & Wellness", icon: "💅", services: ["Hairdressers", "Barbers", "Nail Technicians", "Massage Therapists", "Facial Treatments", "Makeup Artists", "Eyelash & Brows", "Spas", "Personal Trainers", "Yoga Instructors"] },
-  { name: "Automotive", icon: "🚗", services: ["Mechanics", "Car Detailing", "Panel Beaters", "Towing Services", "Car Wash", "Windscreen Repair", "Auto Electricians"] },
-  { name: "Education", icon: "📚", services: ["Math Tutors", "English Tutors", "Science Tutors", "Language Lessons", "Music Lessons", "Computer Lessons", "Homework Help", "Exam Prep"] },
-  { name: "Health & Medical", icon: "🏥", services: ["Physiotherapists", "Dietitians", "Counselors", "Nurses", "Elderly Care", "Baby Nurses", "First Aid Training"] },
-  { name: "Events & Photography", icon: "📸", services: ["Photographers", "Videographers", "Event Planners", "Caterers", "DJs", "Live Bands", "Decorators", "MCs"] },
-  { name: "Professional", icon: "💼", services: ["Accountants", "Bookkeepers", "Tax Consultants", "Legal Services", "Business Consultants", "Marketing Agencies", "Web Designers", "Graphic Designers"] },
-  { name: "Pets", icon: "🐾", services: ["Pet Groomers", "Dog Walkers", "Pet Sitters", "Veterinarians", "Pet Training"] },
-  { name: "Logistics", icon: "📦", services: ["Removal Companies", "Courier Services", "Furniture Delivery", "Storage Services", "Skip Hire"] },
-  { name: "Tech & IT", icon: "💻", services: ["IT Support", "Computer Repair", "Network Installation", "Security Systems", "CCTV Installation", "Data Recovery"] },
-  { name: "Legal & Financial", icon: "⚖️", services: ["Attorneys", "Notaries", "Financial Advisors", "Insurance Agents", "Real Estate Agents"] },
+  { name: "Home Services", icon: "🏠", slug: "home-services", services: ["Plumbers", "Electricians", "Carpenters", "Painters", "Builders", "Gardeners", "Pool Cleaners", "Pest Control", "AC Repair", "Appliance Repair", "Handyman", "Roofers", "Tilers", "Welders", "Aluminum & Glass"], painPoint: "Emergency calls at odd hours", bouulBenefit: "Set your own availability. You control when you work." },
+  { name: "Cleaning", icon: "✨", slug: "cleaning", services: ["House Cleaning", "Carpet Cleaning", "Office Cleaning", "Deep Cleaning", "Move-In/Out Cleaning", "Window Cleaning", "Upholstery Cleaning", "Pressure Washing"], painPoint: "Clients don't value your expertise", bouulBenefit: "Showcase before/after videos. Let your work speak." },
+  { name: "Beauty & Wellness", icon: "💅", slug: "beauty", services: ["Hairdressers", "Barbers", "Nail Technicians", "Massage Therapists", "Facial Treatments", "Makeup Artists", "Eyelash & Brows", "Spas", "Personal Trainers", "Yoga Instructors"], painPoint: "Last-minute cancellations", bouulBenefit: "Require deposits. Protect your time and income." },
+  { name: "Automotive", icon: "🚗", slug: "automotive", services: ["Mechanics", "Car Detailing", "Panel Beaters", "Towing Services", "Car Wash", "Windscreen Repair", "Auto Electricians"], painPoint: "Customers question your pricing", bouulBenefit: "Transparent quotes upfront. No more haggling." },
+  { name: "Education", icon: "📚", slug: "education", services: ["Math Tutors", "English Tutors", "Science Tutors", "Language Lessons", "Music Lessons", "Computer Lessons", "Homework Help", "Exam Prep"], painPoint: "Hard to prove your qualifications", bouulBenefit: "Verified badges + reviews. Credibility built-in." },
+  { name: "Health & Medical", icon: "🏥", slug: "health", services: ["Physiotherapists", "Dietitians", "Counselors", "Nurses", "Elderly Care", "Baby Nurses", "First Aid Training"], painPoint: "Insurance paperwork nightmares", bouulBenefit: "Handle bookings, not bureaucracy. We simplify admin." },
+  { name: "Events & Photography", icon: "📸", slug: "events", services: ["Photographers", "Videographers", "Event Planners", "Caterers", "DJs", "Live Bands", "Decorators", "MCs"], painPoint: "Seasonal income instability", bouulBenefit: "Year-round visibility. Peak season or not." },
+  { name: "Professional", icon: "💼", slug: "professional", services: ["Accountants", "Bookkeepers", "Tax Consultants", "Legal Services", "Business Consultants", "Marketing Agencies", "Web Designers", "Graphic Designers"], painPoint: "Referrals dry up sometimes", bouulBenefit: "Consistent inbound leads. No more feast or famine." },
+  { name: "Pets", icon: "🐾", slug: "pets", services: ["Pet Groomers", "Dog Walkers", "Pet Sitters", "Veterinarians", "Pet Training"], painPoint: "Clients don't trust strangers with pets", bouulBenefit: "Verified profiles + reviews. Trust established instantly." },
+  { name: "Logistics", icon: "📦", slug: "logistics", services: ["Removal Companies", "Courier Services", "Furniture Delivery", "Storage Services", "Skip Hire"], painPoint: "Fuel costs eating margins", bouulBenefit: "Dynamic pricing tools. Adjust for distance, load, urgency." },
+  { name: "Tech & IT", icon: "💻", slug: "tech", services: ["IT Support", "Computer Repair", "Network Installation", "Security Systems", "CCTV Installation", "Data Recovery"], painPoint: "Clients don't understand technical value", bouulBenefit: "Show expertise through content. Education converts." },
+  { name: "Legal & Financial", icon: "⚖️", slug: "legal", services: ["Attorneys", "Notaries", "Financial Advisors", "Insurance Agents", "Real Estate Agents"], painPoint: "Compliance limits marketing", bouulBenefit: "Professional platform. Compliant by design." },
 ];
 
 const painPoints = [
@@ -108,10 +109,13 @@ const painPoints = [
 // Personalized Hero Component
 const PersonalizedVendorHero: React.FC = () => {
   const [businessName, setBusinessName] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("");
+
+  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
 
   return (
     <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="max-w-6xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -122,7 +126,11 @@ const PersonalizedVendorHero: React.FC = () => {
             MADE FOR YOU
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-            {businessName ? (
+            {businessName && selectedCategory ? (
+              <>
+                Grow <span className="text-emerald-400">{businessName}</span> with Bouul
+              </>
+            ) : businessName ? (
               <>
                 Grow <span className="text-emerald-400">{businessName}</span> with Bouul
               </>
@@ -133,7 +141,12 @@ const PersonalizedVendorHero: React.FC = () => {
             )}
           </h2>
           <p className="text-neutral-500 text-lg mb-8 max-w-2xl mx-auto">
-            {businessName ? (
+            {businessName && selectedCategory ? (
+              <>
+                Built specifically for {businessName} and {categoryData?.name.toLowerCase()} professionals. 
+                {categoryData?.painPoint && ` Tired of ${categoryData.painPoint.toLowerCase()}?`}
+              </>
+            ) : businessName ? (
               <>
                 See how {businessName} can earn more, work smarter, and keep 100% of profits.
               </>
@@ -144,47 +157,97 @@ const PersonalizedVendorHero: React.FC = () => {
             )}
           </p>
 
-          {/* Input Field */}
-          <div className="max-w-md mx-auto mb-8">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="Enter your business name..."
-                value={businessName}
-                onChange={(e) => setBusinessName(e.target.value)}
-                className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
-              />
-              {businessName && (
-                <button
-                  onClick={() => setBusinessName("")}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-white"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              )}
+          {/* Input Fields */}
+          <div className="max-w-2xl mx-auto mb-8 space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Your business name..."
+                  value={businessName}
+                  onChange={(e) => setBusinessName(e.target.value)}
+                  className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors"
+                />
+                {businessName && (
+                  <button
+                    onClick={() => setBusinessName("")}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-white"
+                  >
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                )}
+              </div>
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white focus:outline-none focus:border-emerald-500 transition-colors appearance-none cursor-pointer"
+              >
+                <option value="">Select your service category...</option>
+                {vendorServiceCategories.map((cat) => (
+                  <option key={cat.slug} value={cat.slug}>
+                    {cat.icon} {cat.name}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
 
-          {/* Dynamic Benefits */}
-          {businessName && (
+          {/* Dynamic Benefits - Shows when both name and category selected */}
+          {businessName && selectedCategory && categoryData && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12"
             >
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
-                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
-                <div className="text-white font-medium">{businessName} keeps R0 in commissions</div>
+              <div className="bg-neutral-950 border border-emerald-500/30 rounded-xl p-5 text-left">
+                <div className="flex items-center gap-2 mb-2">
+                  <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <div className="text-emerald-400 text-xs font-semibold uppercase">Your Advantage</div>
+                </div>
+                <div className="text-white font-medium">{categoryData.bouulBenefit}</div>
               </div>
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
-                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
+                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
+                <div className="text-white font-medium">{businessName} keeps 100% of earnings</div>
+                <div className="text-emerald-400 text-sm mt-1">R0 commission fees</div>
+              </div>
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
+                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
                 <div className="text-white font-medium">{businessName} gets paid in 24-48h</div>
+                <div className="text-emerald-400 text-sm mt-1">Not 5-7 business days</div>
               </div>
-              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
-                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
-                <div className="text-white font-medium">{businessName} owns customer relationships</div>
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-5 text-left">
+                <div className="text-neutral-500 text-xs mb-1">With Bouul,</div>
+                <div className="text-white font-medium">{businessName} owns customer data</div>
+                <div className="text-emerald-400 text-sm mt-1">Build your client base</div>
+              </div>
+            </motion.div>
+          )}
+
+          {/* Category-specific CTA */}
+          {businessName && selectedCategory && categoryData && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="mt-12"
+            >
+              <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-emerald-500/10 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-8">
+                <div className="text-white font-semibold text-xl mb-4">
+                  Ready to transform {businessName}?
+                </div>
+                <p className="text-neutral-500 text-sm mb-6 max-w-md">
+                  Join other {categoryData.name.toLowerCase()} professionals earning more on Bouul.
+                </p>
+                <a
+                  href="/vendors"
+                  className="inline-block px-10 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+                >
+                  Create Free {categoryData.name} Profile
+                </a>
               </div>
             </motion.div>
           )}
@@ -253,6 +316,11 @@ const PainPointsSection: React.FC = () => {
 
 // Service Categories Section
 const ServiceCategoriesSection: React.FC = () => {
+  const [businessName, setBusinessName] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("");
+
+  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
+
   return (
     <section className="py-24 bg-black border-t border-neutral-900">
       <div className="max-w-7xl mx-auto px-6">
@@ -267,12 +335,53 @@ const ServiceCategoriesSection: React.FC = () => {
             WHO CAN JOIN
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Every trade. Every profession.
+            {businessName ? (
+              <>Is {businessName} a fit?</>
+            ) : (
+              <>Every trade. Every profession.</>
+            )}
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            If you provide a service, Bouul is built for you. 71+ categories and growing.
+            {businessName ? (
+              <>
+                Select your category to see how Bouul helps {businessName} succeed.
+              </>
+            ) : (
+              <>
+                If you provide a service, Bouul is built for you. 71+ categories and growing.
+              </>
+            )}
           </p>
         </motion.div>
+
+        {/* Business Name Input for Personalization */}
+        {!businessName && (
+          <div className="max-w-md mx-auto mb-12">
+            <input
+              type="text"
+              placeholder="Enter your business name..."
+              value={businessName}
+              onChange={(e) => setBusinessName(e.target.value)}
+              className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
+            />
+          </div>
+        )}
+        {businessName && (
+          <div className="max-w-md mx-auto mb-12 flex items-center justify-center gap-3">
+            <div className="text-emerald-400 text-sm">Personalizing for:</div>
+            <div className="px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-400 font-medium">
+              {businessName}
+            </div>
+            <button
+              onClick={() => { setBusinessName(""); setSelectedCategory(""); }}
+              className="text-neutral-500 hover:text-white"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {vendorServiceCategories.map((category, i) => (
@@ -282,13 +391,19 @@ const ServiceCategoriesSection: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.05 }}
-              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
+              onClick={() => setSelectedCategory(category.slug)}
+              className={cn(
+                "bg-neutral-950 border rounded-2xl p-6 cursor-pointer transition-all hover:scale-[1.02]",
+                selectedCategory === category.slug
+                  ? "border-emerald-500 bg-emerald-500/5"
+                  : "border-neutral-800 hover:border-neutral-700"
+              )}
             >
               <div className="flex items-center gap-3 mb-4">
                 <div className="text-3xl">{category.icon}</div>
                 <h3 className="text-white font-semibold text-lg">{category.name}</h3>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-4">
                 {category.services.map((service) => (
                   <span
                     key={service}
@@ -298,21 +413,57 @@ const ServiceCategoriesSection: React.FC = () => {
                   </span>
                 ))}
               </div>
+              {selectedCategory === category.slug && businessName && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="pt-4 border-t border-neutral-800"
+                >
+                  <div className="text-neutral-500 text-xs mb-2">For {businessName}:</div>
+                  <div className="text-neutral-400 text-sm mb-2">Challenge: {category.painPoint}</div>
+                  <div className="text-emerald-400 text-sm font-medium">✓ {category.bouulBenefit}</div>
+                </motion.div>
+              )}
             </motion.div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <p className="text-neutral-500 text-sm mb-6">
-            Don't see your category? We're always adding new services.
-          </p>
-          <a
-            href="/vendors"
-            className="inline-block px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full transition-colors"
+        {selectedCategory && categoryData && businessName && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-center mt-12"
           >
-            Contact Us About Your Service
-          </a>
-        </div>
+            <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-emerald-500/10 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-8">
+              <div className="text-white font-semibold text-xl mb-4">
+                {businessName} belongs on Bouul
+              </div>
+              <p className="text-neutral-500 text-sm mb-6 max-w-md">
+                Join {categoryData.name.toLowerCase()} professionals already growing with Bouul.
+              </p>
+              <a
+                href="/vendors"
+                className="inline-block px-10 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+              >
+                Create Your Free Profile
+              </a>
+            </div>
+          </motion.div>
+        )}
+
+        {!selectedCategory && (
+          <div className="text-center mt-12">
+            <p className="text-neutral-500 text-sm mb-6">
+              Don't see your category? We're always adding new services.
+            </p>
+            <a
+              href="/vendors"
+              className="inline-block px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full transition-colors border border-neutral-800"
+            >
+              Contact Us About Your Service
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
