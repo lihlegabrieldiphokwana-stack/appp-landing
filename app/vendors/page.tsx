@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
+import { VendorPricingComparison } from "@/components/vendor-pricing-comparison";
 import { Footer } from "@/components/footer";
 
 const vendorFeatures = [
@@ -162,6 +163,9 @@ export default function VendorsPage() {
           </div>
         </div>
       </section>
+
+      {/* Pricing Comparison */}
+      <VendorPricingComparison />
 
       {/* Category Value Props */}
       <VendorCategoryValueProp />
