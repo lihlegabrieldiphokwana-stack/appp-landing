@@ -138,7 +138,7 @@ const competitorNames = [
   { name: "Other SA Markets", color: "neutral" },
 ];
 
-export const VendorPricingComparison: React.FC = () => {
+export const VendorPricingComparison: React.FC<{ businessName?: string }> = ({ businessName }) => {
   const [showAll, setShowAll] = useState(false);
 
   const displayedFeatures = showAll ? features : features.slice(0, 10);
@@ -170,11 +170,18 @@ export const VendorPricingComparison: React.FC = () => {
             PRICING COMPARISON
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Why professionals choose Bouul
+            {businessName ? (
+              <>Why {businessName} chooses Bouul</>
+            ) : (
+              <>Why professionals choose Bouul</>
+            )}
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            We've built the platform we wish existed. No hidden fees. No commission nightmares. 
-            Just powerful tools to grow your business.
+            {businessName ? (
+              <>We've built {businessName}'s dream platform. No hidden fees. No commission nightmares. Just powerful tools to grow.</>
+            ) : (
+              <>We've built the platform we wish existed. No hidden fees. No commission nightmares. Just powerful tools to grow your business.</>
+            )}
           </p>
         </motion.div>
 

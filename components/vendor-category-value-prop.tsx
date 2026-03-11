@@ -525,10 +525,40 @@ const SERVICE_TEMPLATES: ServiceTemplate[] = [
 // MAIN COMPONENT
 // ============================================================================
 
-export const VendorCategoryValueProp = () => {
+export const VendorCategoryValueProp: React.FC<{
+  businessName?: string;
+  initialCategory?: string;
+  initialService?: string;
+}> = ({ businessName, initialCategory, initialService }) => {
   const services = SERVICE_TEMPLATES;
-  const [selectedCategory, setSelectedCategory] = useState<string>("personalCare");
+  
+  // Map our slug to the internal category key
+  const categoryMap: Record<string, string> = {
+    "home-services": "homeServices",
+    "cleaning": "homeServices", // Fallback
+    "beauty": "personalCare",
+    "automotive": "automotive",
+    "education": "education",
+    "health": "healthcare",
+    "events": "eventServices",
+    "professional": "professional",
+    "pets": "petServices",
+    "logistics": "logistics",
+    "tech": "professional", // Fallback
+    "legal": "financial", // Fallback
+  };
+
+  const internalCategory = initialCategory ? (categoryMap[initialCategory] || "personalCare") : "personalCare";
+  
+  const [selectedCategory, setSelectedCategory] = useState<string>(internalCategory);
   const [selectedService, setSelectedService] = useState<ServiceTemplate | null>(null);
+
+  // Update selection if props change
+  React.useEffect(() => {
+    if (initialCategory && categoryMap[initialCategory]) {
+      setSelectedCategory(categoryMap[initialCategory]);
+    }
+  }, [initialCategory]);
 
   // Group services by category
   const servicesByCategory = useMemo(() => {
@@ -546,6 +576,14 @@ export const VendorCategoryValueProp = () => {
   const categories = Object.keys(servicesByCategory).sort();
   const currentCategoryServices = servicesByCategory[selectedCategory] || [];
   const valueProp = CATEGORY_VALUE_PROPS[selectedCategory] || CATEGORY_VALUE_PROPS.unknown;
+
+  // Personalize headline
+  const personalizedHeadline = useMemo(() => {
+    if (businessName) {
+      return valueProp.headline.replace("Your", businessName + "'s");
+    }
+    return valueProp.headline;
+  }, [valueProp.headline, businessName]);
 
   // Format category name for display
   const formatCategoryName = (category: string) => {
@@ -566,14 +604,21 @@ export const VendorCategoryValueProp = () => {
           className="mb-16 text-center"
         >
           <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            FOR EVERY PROFESSIONAL
+            FOR {businessName ? businessName.toUpperCase() : "EVERY PROFESSIONAL"}
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-            Built for your success
+            {businessName ? (
+              <>Built for {businessName}'s success</>
+            ) : (
+              <>Built for your success</>
+            )}
           </h2>
           <p className="text-neutral-400 text-lg max-w-3xl mx-auto">
-            Whatever service you offer, Bouul gives you the tools to grow your business, 
-            manage bookings, and build lasting client relationships.
+            {businessName ? (
+              <>Whatever service {businessName} offers, Bouul gives you the tools to grow, manage, and succeed.</>
+            ) : (
+              <>Whatever service you offer, Bouul gives you the tools to grow your business, manage bookings, and build lasting client relationships.</>
+            )}
           </p>
         </motion.div>
 
@@ -623,7 +668,7 @@ export const VendorCategoryValueProp = () => {
           >
             <div className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 md:p-8">
               <h3 className="text-2xl md:text-3xl font-semibold text-white mb-3">
-                {valueProp.headline}
+                {personalizedHeadline}
               </h3>
               <p className="text-neutral-400 text-base mb-6">
                 {valueProp.subheadline}

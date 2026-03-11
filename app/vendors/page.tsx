@@ -8,7 +8,49 @@ import { LampContainer } from "@/components/ui/lamp-effect";
 import { Footer } from "@/components/footer";
 import { cn } from "@/lib/utils";
 
-const vendorFeatures = [
+interface PainPoint {
+  problem: string;
+  solution: string;
+}
+
+interface Service {
+  name: string;
+  painPoint: string;
+  bouulBenefit: string;
+  detailedPainPoints?: PainPoint[];
+}
+
+interface Category {
+  name: string;
+  icon: string;
+  slug: string;
+  services: Service[];
+  categoryPainPoint: string;
+  categoryBenefit: string;
+}
+
+interface MainPainPoint {
+  problem: string;
+  current: string;
+  bouul: string;
+  icon: string;
+}
+
+interface VendorFeature {
+  title: string;
+  description: string;
+  stat: string;
+  statLabel: string;
+  icon: React.ReactNode;
+}
+
+interface VendorStat {
+  stat: string;
+  label: string;
+  description: string;
+}
+
+const vendorFeatures: VendorFeature[] = [
   {
     title: "Resonance™ Discovery Engine",
     description: "Our AI-powered discovery engine tests multiple titles and images for your services, learning which combinations convert each individual user. No A/B setup required — just upload and let the system optimize.",
@@ -44,7 +86,7 @@ const vendorFeatures = [
   },
 ];
 
-const vendorStats = [
+const vendorStats: VendorStat[] = [
   { stat: "10x", label: "more bookings", description: "Vendors see an average 10x increase in monthly bookings" },
   { stat: "40-60%", label: "revenue growth", description: "Top performers increase revenue by 40-60%" },
   { stat: "Zero", label: "hidden fees", description: "Transparent pricing with no surprise commissions" },
@@ -52,27 +94,122 @@ const vendorStats = [
 ];
 
 // Service categories for vendors with detailed pain points per service
-const vendorServiceCategories = [
+const vendorServiceCategories: Category[] = [
   { 
     name: "Home Services", 
     icon: "🏠", 
     slug: "home-services", 
     services: [
-      { name: "Plumbers", painPoint: "Emergency calls at 2AM", bouulBenefit: "Set emergency hours & premium rates" },
-      { name: "Electricians", painPoint: "Clients sourcing cheap materials", bouulBenefit: "Specify exact materials in quotes" },
-      { name: "Carpenters", painPoint: "Scope creep on custom projects", bouulBenefit: "Milestone-based payments" },
-      { name: "Painters", painPoint: "Weather delays affecting income", bouulBenefit: "Flexible rescheduling policies" },
-      { name: "Builders", painPoint: "Payment delays after completion", bouulBenefit: "Progress payments built-in" },
-      { name: "Gardeners", painPoint: "Seasonal work inconsistency", bouulBenefit: "Year-round subscription packages" },
-      { name: "Pool Cleaners", painPoint: "Chemical costs eating margins", bouulBenefit: "Dynamic pricing per pool size" },
-      { name: "Pest Control", painPoint: "Follow-up visits unpaid", bouulBenefit: "Guarantee packages with deposits" },
-      { name: "AC Repair", painPoint: "Peak season burnout", bouulBenefit: "Demand-based surge pricing" },
-      { name: "Appliance Repair", painPoint: "Diagnostic time uncompensated", bouulBenefit: "Charge call-out fees" },
-      { name: "Handyman", painPoint: "Too many small jobs, not enough profit", bouulBenefit: "Minimum booking values" },
-      { name: "Roofers", painPoint: "Insurance claim complexities", bouulBenefit: "Direct insurer billing options" },
-      { name: "Tilers", painPoint: "Material wastage costs", bouulBenefit: "Precise quote calculators" },
-      { name: "Welders", painPoint: "Specialized skills undervalued", bouulBenefit: "Portfolio showcases expertise" },
-      { name: "Aluminum & Glass", painPoint: "Measurement errors costly", bouulBenefit: "Digital measurement tools" },
+      { 
+        name: "Plumbers", 
+        painPoint: "Emergency calls at 2AM", 
+        bouulBenefit: "Set emergency hours & premium rates",
+        detailedPainPoints: [
+          { problem: "Emergency calls at 2AM", solution: "Set emergency hours & charge premium rates for after-hours" },
+          { problem: "Clients sourcing cheap materials", solution: "Specify exact materials in quotes with markup options" },
+          { problem: "Payment delays after completion", solution: "Progress payments built into booking flow" },
+          { problem: "Scope creep on jobs", solution: "Change order approval before extra work" },
+          { problem: "No-shows for appointments", solution: "Deposit requirements & automated reminders" },
+        ]
+      },
+      { name: "Electricians", painPoint: "Clients sourcing cheap materials", bouulBenefit: "Specify exact materials in quotes", detailedPainPoints: [
+        { problem: "Clients sourcing cheap materials", solution: "Specify exact materials in quotes with markup options" },
+        { problem: "Compliance certification paperwork", solution: "Automated COC generation & storage" },
+        { problem: "Emergency call-out underpriced", solution: "Dynamic after-hours pricing" },
+        { problem: "Parts running costs", solution: "Include parts in upfront quotes" },
+        { problem: "Follow-up visits unpaid", solution: "Guarantee period tracking" },
+      ]},
+      { name: "Carpenters", painPoint: "Scope creep on custom projects", bouulBenefit: "Milestone-based payments", detailedPainPoints: [
+        { problem: "Scope creep on custom projects", solution: "Milestone-based payments with approval gates" },
+        { problem: "Material cost fluctuations", solution: "Quote validity periods" },
+        { problem: "Design revision hell", solution: "Limited revision rounds in contract" },
+        { problem: "Workshop overhead costs", solution: "Workshop time billed separately" },
+        { problem: "Installation delays", solution: "Clear timeline expectations" },
+      ]},
+      { name: "Painters", painPoint: "Weather delays affecting income", bouulBenefit: "Flexible rescheduling policies", detailedPainPoints: [
+        { problem: "Weather delays affecting income", solution: "Flexible rescheduling policies built-in" },
+        { problem: "Paint costs eating margins", solution: "Material markup transparency" },
+        { problem: "Prep time uncompensated", solution: "Prep work itemized in quotes" },
+        { problem: "Touch-up requests", solution: "Clear warranty terms" },
+        { problem: "Access/scaffolding costs", solution: "Site requirements specified upfront" },
+      ]},
+      { name: "Builders", painPoint: "Payment delays after completion", bouulBenefit: "Progress payments built-in", detailedPainPoints: [
+        { problem: "Payment delays after completion", solution: "Progress payments built into booking flow" },
+        { problem: "Change order disputes", solution: "Digital change order approvals" },
+        { problem: "Subcontractor coordination", solution: "Multi-contractor scheduling" },
+        { problem: "Material delivery delays", solution: "Timeline buffers automatically added" },
+        { problem: "Snag list endless revisions", solution: "Defined completion criteria" },
+      ]},
+      { name: "Gardeners", painPoint: "Seasonal work inconsistency", bouulBenefit: "Year-round subscription packages", detailedPainPoints: [
+        { problem: "Seasonal work inconsistency", solution: "Year-round subscription packages" },
+        { problem: "Equipment maintenance costs", solution: "Equipment costs in pricing" },
+        { problem: "Fuel surcharges", solution: "Distance-based pricing" },
+        { problem: "Weather cancellations", solution: "Weather rescheduling policies" },
+        { problem: "Green waste disposal", solution: "Disposal fees included" },
+      ]},
+      { name: "Pool Cleaners", painPoint: "Chemical costs eating margins", bouulBenefit: "Dynamic pricing per pool size", detailedPainPoints: [
+        { problem: "Chemical costs eating margins", solution: "Dynamic pricing per pool size" },
+        { problem: "Travel between pools", solution: "Route optimization & clustering" },
+        { problem: "Equipment wear", solution: "Maintenance costs factored in" },
+        { problem: "Seasonal demand swings", solution: "Off-season promotions" },
+        { problem: "Emergency cleanups", solution: "Premium emergency rates" },
+      ]},
+      { name: "Pest Control", painPoint: "Follow-up visits unpaid", bouulBenefit: "Guarantee packages with deposits", detailedPainPoints: [
+        { problem: "Follow-up visits unpaid", solution: "Guarantee packages with deposits" },
+        { problem: "Chemical handling certification", solution: "Certification badges displayed" },
+        { problem: "Safety liability concerns", solution: "Waivers built into booking" },
+        { problem: "Recurring treatment scheduling", solution: "Automated recurring bookings" },
+        { problem: "Inspection time uncompensated", solution: "Inspection fees charged" },
+      ]},
+      { name: "AC Repair", painPoint: "Peak season burnout", bouulBenefit: "Demand-based surge pricing", detailedPainPoints: [
+        { problem: "Peak season burnout", solution: "Demand-based surge pricing" },
+        { problem: "Gas refill costs", solution: "Gas costs itemized" },
+        { problem: "Diagnostic time", solution: "Diagnostic fees applied" },
+        { problem: "Warranty claim paperwork", solution: "Digital warranty submissions" },
+        { problem: "Emergency breakdowns", solution: "Emergency premium pricing" },
+      ]},
+      { name: "Appliance Repair", painPoint: "Diagnostic time uncompensated", bouulBenefit: "Charge call-out fees", detailedPainPoints: [
+        { problem: "Diagnostic time uncompensated", solution: "Charge call-out fees" },
+        { problem: "Parts sourcing delays", solution: "Parts availability checked first" },
+        { problem: "Multiple visit requirements", solution: "Multi-visit pricing packages" },
+        { problem: "Old appliance incompatibility", solution: "Model/year verification upfront" },
+        { problem: "Warranty confusion", solution: "Clear warranty explanations" },
+      ]},
+      { name: "Handyman", painPoint: "Too many small jobs, not enough profit", bouulBenefit: "Minimum booking values", detailedPainPoints: [
+        { problem: "Too many small jobs, not enough profit", solution: "Minimum booking values" },
+        { problem: "Travel time wasted", solution: "Geographic clustering" },
+        { problem: "Tool wear costs", solution: "Tool costs factored in" },
+        { problem: "Skill undervalued", solution: "Portfolio showcases expertise" },
+        { problem: "Job scope unclear", solution: "Photo-based scoping" },
+      ]},
+      { name: "Roofers", painPoint: "Insurance claim complexities", bouulBenefit: "Direct insurer billing options", detailedPainPoints: [
+        { problem: "Insurance claim complexities", solution: "Direct insurer billing options" },
+        { problem: "Weather dependency", solution: "Weather contingency planning" },
+        { problem: "Safety equipment costs", solution: "Safety costs included" },
+        { problem: "Height work premiums", solution: "Height pricing tiers" },
+        { problem: "Debris removal", solution: "Cleanup fees itemized" },
+      ]},
+      { name: "Tilers", painPoint: "Material wastage costs", bouulBenefit: "Precise quote calculators", detailedPainPoints: [
+        { problem: "Material wastage costs", solution: "Precise quote calculators" },
+        { problem: "Pattern complexity underpriced", solution: "Complexity multipliers" },
+        { problem: "Surface prep time", solution: "Prep work quoted separately" },
+        { problem: "Grout color matching", solution: "Sample approval process" },
+        { problem: "Cutting time", solution: "Cut time factored in" },
+      ]},
+      { name: "Welders", painPoint: "Specialized skills undervalued", bouulBenefit: "Portfolio showcases expertise", detailedPainPoints: [
+        { problem: "Specialized skills undervalued", solution: "Portfolio showcases expertise" },
+        { problem: "Equipment costs", solution: "Equipment fees line items" },
+        { problem: "Material costs", solution: "Material markup options" },
+        { problem: "Safety certification", solution: "Certification badges" },
+        { problem: "Custom design time", solution: "Design time billed" },
+      ]},
+      { name: "Aluminum & Glass", painPoint: "Measurement errors costly", bouulBenefit: "Digital measurement tools", detailedPainPoints: [
+        { problem: "Measurement errors costly", solution: "Digital measurement tools" },
+        { problem: "Custom fabrication time", solution: "Fabrication time quoted" },
+        { problem: "Installation complexity", solution: "Site assessment required" },
+        { problem: "Breakage during transport", solution: "Insurance included" },
+        { problem: "Sealant curing time", solution: "Timeline buffers added" },
+      ]},
     ],
     categoryPainPoint: "Emergency calls at odd hours",
     categoryBenefit: "Set your own availability. You control when you work.",
@@ -99,16 +236,76 @@ const vendorServiceCategories = [
     icon: "💅", 
     slug: "beauty", 
     services: [
-      { name: "Hairdressers", painPoint: "No-shows killing schedule", bouulBenefit: "Non-refundable deposits" },
-      { name: "Barbers", painPoint: "Walk-in unpredictability", bouulBenefit: "Appointment-only options" },
-      { name: "Nail Technicians", painPoint: "Complex designs underpriced", bouulBenefit: "Photo-based price calculator" },
-      { name: "Massage Therapists", painPoint: "Physical burnout", bouulBenefit: "Booking limits per day" },
-      { name: "Facial Treatments", painPoint: "Product costs not covered", bouulBenefit: "Product-inclusive pricing" },
-      { name: "Makeup Artists", painPoint: "Trial sessions unpaid", bouulBenefit: "Trial fee structures" },
-      { name: "Eyelash & Brows", painPoint: "Touch-up requests", bouulBenefit: "Clear aftercare policies" },
-      { name: "Spas", painPoint: "Staff scheduling nightmares", bouulBenefit: "Multi-therapist management" },
-      { name: "Personal Trainers", painPoint: "Client consistency issues", bouulBenefit: "Package commitments" },
-      { name: "Yoga Instructors", painPoint: "Venue costs", bouulBenefit: "Virtual class options" },
+      { name: "Hairdressers", painPoint: "No-shows killing schedule", bouulBenefit: "Non-refundable deposits", detailedPainPoints: [
+        { problem: "No-shows killing schedule", solution: "Non-refundable deposits required" },
+        { problem: "Last-minute cancellations", solution: "Cancellation fee policies" },
+        { problem: "Color correction nightmares", solution: "Consultation photos required" },
+        { problem: "Product costs rising", solution: "Product surcharges built-in" },
+        { problem: "Chair time undervalued", solution: "Time-based pricing tiers" },
+      ]},
+      { name: "Barbers", painPoint: "Walk-in unpredictability", bouulBenefit: "Appointment-only options", detailedPainPoints: [
+        { problem: "Walk-in unpredictability", solution: "Appointment-only options" },
+        { problem: "Peak time bottlenecks", solution: "Time slot pricing" },
+        { problem: "Beard trim underpriced", solution: "Service add-on pricing" },
+        { problem: "Equipment sanitization time", solution: "Buffer time between slots" },
+        { problem: "Youth pricing pressure", solution: "Age-based pricing tiers" },
+      ]},
+      { name: "Nail Technicians", painPoint: "Complex designs underpriced", bouulBenefit: "Photo-based price calculator", detailedPainPoints: [
+        { problem: "Complex designs underpriced", solution: "Photo-based price calculator" },
+        { problem: "Gel removal time", solution: "Removal fees charged" },
+        { problem: "Fill-in vs full set confusion", solution: "Clear service descriptions" },
+        { problem: "Art time uncompensated", solution: "Per-nail art pricing" },
+        { problem: "Repair requests", solution: "Repair policy defined" },
+      ]},
+      { name: "Massage Therapists", painPoint: "Physical burnout", bouulBenefit: "Booking limits per day", detailedPainPoints: [
+        { problem: "Physical burnout", solution: "Booking limits per day" },
+        { problem: "Oil/linen costs", solution: "Supply fees included" },
+        { problem: "No-shows", solution: "Deposit requirements" },
+        { problem: "Pressure for discounts", solution: "Fixed pricing displayed" },
+        { problem: "Late arrivals", solution: "Late policy enforced" },
+      ]},
+      { name: "Facial Treatments", painPoint: "Product costs not covered", bouulBenefit: "Product-inclusive pricing", detailedPainPoints: [
+        { problem: "Product costs not covered", solution: "Product-inclusive pricing" },
+        { problem: "Skin type variations", solution: "Custom treatment pricing" },
+        { problem: "Follow-up questions", solution: "Aftercare documentation" },
+        { problem: "Extraction time", solution: "Add-on extraction pricing" },
+        { problem: "Product recommendation pressure", solution: "Affiliate links for commissions" },
+      ]},
+      { name: "Makeup Artists", painPoint: "Trial sessions unpaid", bouulBenefit: "Trial fee structures", detailedPainPoints: [
+        { problem: "Trial sessions unpaid", solution: "Trial fee structures" },
+        { problem: "Travel to venue", solution: "Travel fees charged" },
+        { problem: "Kit maintenance costs", solution: "Kit fees line item" },
+        { problem: "Last-minute changes", solution: "Change cutoff policies" },
+        { problem: "Bridal party coordination", solution: "Group booking discounts" },
+      ]},
+      { name: "Eyelash & Brows", painPoint: "Touch-up requests", bouulBenefit: "Clear aftercare policies", detailedPainPoints: [
+        { problem: "Touch-up requests", solution: "Clear aftercare policies" },
+        { problem: "Allergic reactions", solution: "Patch test requirements" },
+        { problem: "Fill-in timing confusion", solution: "Fill-in window defined" },
+        { problem: "Lash removal requests", solution: "Removal fees charged" },
+        { problem: "Style consultation time", solution: "Consultation photos used" },
+      ]},
+      { name: "Spas", painPoint: "Staff scheduling nightmares", bouulBenefit: "Multi-therapist management", detailedPainPoints: [
+        { problem: "Staff scheduling nightmares", solution: "Multi-therapist management" },
+        { problem: "Room turnover time", solution: "Buffer time auto-added" },
+        { problem: "Package redemptions", solution: "Package tracking system" },
+        { problem: "Peak time demand", solution: "Dynamic peak pricing" },
+        { problem: "No-shows", solution: "Card-on-file required" },
+      ]},
+      { name: "Personal Trainers", painPoint: "Client consistency issues", bouulBenefit: "Package commitments", detailedPainPoints: [
+        { problem: "Client consistency issues", solution: "Package commitments" },
+        { problem: "Gym rental costs", solution: "Venue fees included" },
+        { problem: "Session cancellations", solution: "24hr cancellation policy" },
+        { problem: "Nutrition advice liability", solution: "Disclaimers built-in" },
+        { problem: "Progress tracking", solution: "Photo tracking tools" },
+      ]},
+      { name: "Yoga Instructors", painPoint: "Venue costs", bouulBenefit: "Virtual class options", detailedPainPoints: [
+        { problem: "Venue costs", solution: "Virtual class options" },
+        { problem: "Class size variability", solution: "Min/max class sizes" },
+        { problem: "Drop-in vs package", solution: "Tiered pricing options" },
+        { problem: "Equipment provision", solution: "Mat rental fees" },
+        { problem: "Seasonal attendance", solution: "Off-season promotions" },
+      ]},
     ],
     categoryPainPoint: "Last-minute cancellations",
     categoryBenefit: "Require deposits. Protect your time and income.",
@@ -118,13 +315,55 @@ const vendorServiceCategories = [
     icon: "🚗", 
     slug: "automotive", 
     services: [
-      { name: "Mechanics", painPoint: "Customers questioning diagnostics", bouulBenefit: "Photo/video evidence sharing" },
-      { name: "Car Detailing", painPoint: "Water/electricity at client location", bouulBenefit: "Mobile service premiums" },
-      { name: "Panel Beaters", painPoint: "Insurance assessment delays", bouulBenefit: "Direct insurance partnerships" },
-      { name: "Towing Services", painPoint: "Fuel costs fluctuating", bouulBenefit: "Dynamic distance pricing" },
-      { name: "Car Wash", painPoint: "Weather dependency", bouulBenefit: "Indoor venue partnerships" },
-      { name: "Windscreen Repair", painPoint: "Mobile service logistics", bouulBenefit: "Route optimization" },
-      { name: "Auto Electricians", painPoint: "Specialized diagnostic equipment costs", bouulBenefit: "Premium skill pricing" },
+      { name: "Mechanics", painPoint: "Customers questioning diagnostics", bouulBenefit: "Photo/video evidence sharing", detailedPainPoints: [
+        { problem: "Customers questioning diagnostics", solution: "Photo/video evidence sharing" },
+        { problem: "Parts markup suspicion", solution: "Transparent parts pricing" },
+        { problem: "Comeback repairs", solution: "Warranty period tracking" },
+        { problem: "Diagnostic time unpaid", solution: "Diagnostic fees charged" },
+        { problem: "Old car complications", solution: "Age-based pricing multipliers" },
+      ]},
+      { name: "Car Detailing", painPoint: "Water/electricity at client location", bouulBenefit: "Mobile service premiums", detailedPainPoints: [
+        { problem: "Water/electricity at client location", solution: "Mobile service premiums" },
+        { problem: "Product costs", solution: "Product-inclusive packages" },
+        { problem: "Weather dependency", solution: "Indoor venue partnerships" },
+        { problem: "Paint correction time", solution: "Hourly correction pricing" },
+        { problem: "Pet hair removal", solution: "Pet hair surcharge" },
+      ]},
+      { name: "Panel Beaters", painPoint: "Insurance assessment delays", bouulBenefit: "Direct insurance partnerships", detailedPainPoints: [
+        { problem: "Insurance assessment delays", solution: "Direct insurance partnerships" },
+        { problem: "Parts sourcing delays", solution: "Parts availability checks" },
+        { problem: "Paint matching", solution: "Digital color matching" },
+        { problem: "Rental car costs", solution: "Timeline guarantees" },
+        { problem: "Supplemental claims", solution: "Supp documentation system" },
+      ]},
+      { name: "Towing Services", painPoint: "Fuel costs fluctuating", bouulBenefit: "Dynamic distance pricing", detailedPainPoints: [
+        { problem: "Fuel costs fluctuating", solution: "Dynamic distance pricing" },
+        { problem: "After-hours calls", solution: "Night premium rates" },
+        { problem: "Vehicle damage liability", solution: "Insurance included" },
+        { problem: "Storage yard costs", solution: "Storage fees charged" },
+        { problem: "Difficult recoveries", solution: "Recovery complexity pricing" },
+      ]},
+      { name: "Car Wash", painPoint: "Weather dependency", bouulBenefit: "Indoor venue partnerships", detailedPainPoints: [
+        { problem: "Weather dependency", solution: "Indoor venue partnerships" },
+        { problem: "Water costs", solution: "Water usage included" },
+        { problem: "Subscription management", solution: "Recurring billing system" },
+        { problem: "Equipment maintenance", solution: "Maintenance costs factored" },
+        { problem: "Upselling pressure", solution: "Package tier options" },
+      ]},
+      { name: "Windscreen Repair", painPoint: "Mobile service logistics", bouulBenefit: "Route optimization", detailedPainPoints: [
+        { problem: "Mobile service logistics", solution: "Route optimization" },
+        { problem: "Insurance claims", solution: "Direct insurer billing" },
+        { problem: "Resin costs", solution: "Material fees included" },
+        { problem: "Curing time", solution: "Timeline buffers added" },
+        { problem: "Replacement vs repair", solution: "Assessment guidelines" },
+      ]},
+      { name: "Auto Electricians", painPoint: "Specialized diagnostic equipment costs", bouulBenefit: "Premium skill pricing", detailedPainPoints: [
+        { problem: "Specialized diagnostic equipment costs", solution: "Premium skill pricing" },
+        { problem: "Software update costs", solution: "Software fees charged" },
+        { problem: "Wiring complexity", solution: "Complexity-based quotes" },
+        { problem: "Parts compatibility", solution: "VIN verification required" },
+        { problem: "Intermittent faults", solution: "Diagnostic time packages" },
+      ]},
     ],
     categoryPainPoint: "Customers question your pricing",
     categoryBenefit: "Transparent quotes upfront. No more haggling.",
@@ -255,7 +494,7 @@ const vendorServiceCategories = [
   },
 ];
 
-const painPoints = [
+const painPoints: MainPainPoint[] = [
   {
     problem: "15-25% Commission Fees",
     current: "Other platforms take a huge cut of every job",
@@ -391,7 +630,7 @@ const PersonalizedVendorHero: React.FC<{
 };
 
 // Pain Points Section
-const PainPointsSection: React.FC = () => {
+const PainPointsSection: React.FC<{ businessName: string }> = ({ businessName }) => {
   return (
     <section className="py-24 bg-black border-t border-neutral-900">
       <div className="max-w-7xl mx-auto px-6">
@@ -406,15 +645,23 @@ const PainPointsSection: React.FC = () => {
             THE PROBLEM
           </div>
           <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Other platforms profit from your work
+            {businessName ? (
+              <>Other platforms profit from {businessName}'s work</>
+            ) : (
+              <>Other platforms profit from your work</>
+            )}
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            You built the skills. You do the work. Why should they take the biggest cut?
+            {businessName ? (
+              <>{businessName} built the skills. {businessName} does the work. Why should they take the biggest cut?</>
+            ) : (
+              <>You built the skills. You do the work. Why should they take the biggest cut?</>
+            )}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {painPoints.map((point, i) => (
+          {painPoints.map((point: MainPainPoint, i: number) => (
             <motion.div
               key={point.problem}
               initial={{ opacity: 0, y: 20 }}
@@ -493,7 +740,7 @@ const ServiceCategoriesSection: React.FC<{
 
         {/* Category Selection */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {vendorServiceCategories.map((category, i) => (
+          {vendorServiceCategories.map((category: Category, i: number) => (
             <motion.div
               key={category.name}
               initial={{ opacity: 0, y: 20 }}
@@ -516,7 +763,7 @@ const ServiceCategoriesSection: React.FC<{
                 {category.services.length} services
               </div>
               <div className="flex flex-wrap gap-2">
-                {category.services.slice(0, 5).map((service) => (
+                {category.services.slice(0, 5).map((service: Service) => (
                   <span
                     key={service.name}
                     className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-400 text-xs"
@@ -555,7 +802,7 @@ const ServiceCategoriesSection: React.FC<{
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {categoryData.services.map((service, i) => (
+              {categoryData.services.map((service: Service, i: number) => (
                 <motion.button
                   key={service.name}
                   initial={{ opacity: 0, y: 10 }}
@@ -706,6 +953,114 @@ const ServiceCategoriesSection: React.FC<{
   );
 };
 
+// Detailed Pain Points Section - Shows 5 pain points for selected service
+const DetailedPainPointsSection: React.FC<{
+  businessName: string;
+  selectedCategory: string;
+  selectedService: string;
+}> = ({ businessName, selectedCategory, selectedService }) => {
+  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
+  const serviceData = categoryData?.services.find(s => s.name === selectedService);
+
+  if (!serviceData) return null;
+
+  // Use detailedPainPoints if available, otherwise generate from main pain point
+  const painPoints: PainPoint[] = serviceData.detailedPainPoints || [
+    { problem: serviceData.painPoint, solution: serviceData.bouulBenefit },
+    { problem: "Time wasted on admin", solution: "Automated booking & reminders" },
+    { problem: "Payment collection delays", solution: "Upfront payment options" },
+    { problem: "No-shows", solution: "Deposit requirements" },
+    { problem: "Pricing pressure", solution: "Fixed pricing displayed" },
+  ];
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center mb-16"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            BUILT FOR {selectedService.toUpperCase()}
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            {businessName ? (
+              <>5 challenges {businessName} faces daily</>
+            ) : (
+              <>5 challenges {selectedService} face daily</>
+            )}
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            We built Bouul specifically to solve these problems
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {painPoints.map((point: PainPoint, i: number) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.1 }}
+              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-red-500/10 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div className="text-neutral-400 text-xs font-semibold uppercase">Problem {i + 1}</div>
+              </div>
+              <div className="text-white font-medium text-lg mb-4">{point.problem}</div>
+              
+              <div className="h-px bg-neutral-800 my-4" />
+              
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
+                  <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div className="text-emerald-400 text-xs font-semibold uppercase">Bouul Solution</div>
+              </div>
+              <div className="text-emerald-400 font-medium">{point.solution}</div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="text-center mt-16"
+        >
+          <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-neutral-950 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-10">
+            <h3 className="text-2xl font-semibold text-white mb-4">
+              {businessName ? (
+                <>Ready to solve these for {businessName}?</>
+              ) : (
+                <>Ready to solve these challenges?</>
+              )}
+            </h3>
+            <p className="text-neutral-500 text-sm mb-6 max-w-md">
+              Join {selectedService.toLowerCase()} who are already growing with Bouul.
+            </p>
+            <a
+              href="/vendors"
+              className="inline-block px-12 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+            >
+              Create Free Profile
+            </a>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
 export default function VendorsPage() {
   const [businessName, setBusinessName] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("");
@@ -755,7 +1110,7 @@ export default function VendorsPage() {
       <section className="py-16 bg-black border-y border-neutral-900">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {vendorStats.map((stat, i) => (
+            {vendorStats.map((stat: VendorStat, i: number) => (
               <motion.div
                 key={stat.label}
                 initial={{ opacity: 0, y: 20 }}
@@ -786,16 +1141,25 @@ export default function VendorsPage() {
       />
 
       {/* Pain Points */}
-      <PainPointsSection />
+      <PainPointsSection businessName={businessName} />
 
       {/* Service Categories - Who Can Join */}
-      <ServiceCategoriesSection 
+      <ServiceCategoriesSection
         businessName={businessName}
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
         selectedService={selectedService}
         setSelectedService={setSelectedService}
       />
+
+      {/* Detailed Pain Points Section - Shows after service selection */}
+      {selectedCategory && selectedService && (
+        <DetailedPainPointsSection
+          businessName={businessName}
+          selectedCategory={selectedCategory}
+          selectedService={selectedService}
+        />
+      )}
 
       {/* Resonance Discovery Engine */}
       <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900">
@@ -811,17 +1175,22 @@ export default function VendorsPage() {
               KEYSTONE DISCOVERY™
             </div>
             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4 max-w-3xl">
-              Vendors upload. The system tests.<br />
+              {businessName ? (
+                <>{businessName} uploads. The system tests.</>
+              ) : (
+                <>Vendors upload. The system tests.</>
+              )}<br />
               <span className="text-neutral-500">No A/B setup required.</span>
             </h2>
             <p className="text-neutral-500 text-lg max-w-2xl">
-              Every service can have multiple titles and images. Resonance automatically cycles through
-              all combinations, learning which title + image pairing converts each individual user.
+              Every service {businessName && <>from {businessName}</>} can have multiple titles and images. 
+              Resonance automatically cycles through all combinations, learning which title + image 
+              pairing converts each individual user.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {vendorFeatures.map((feature, i) => (
+            {vendorFeatures.map((feature: VendorFeature, i: number) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -846,10 +1215,14 @@ export default function VendorsPage() {
       </section>
 
       {/* Pricing Comparison */}
-      <VendorPricingComparison />
+      <VendorPricingComparison businessName={businessName} />
 
       {/* Category Value Props */}
-      <VendorCategoryValueProp />
+      <VendorCategoryValueProp 
+        businessName={businessName}
+        initialCategory={selectedCategory}
+        initialService={selectedService}
+      />
 
       {/* CTA */}
       <section className="py-24 bg-black border-t border-neutral-900">
