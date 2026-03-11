@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
 import { VendorPricingComparison } from "@/components/vendor-pricing-comparison";
+import { LampContainer } from "@/components/ui/lamp-effect";
 import { Footer } from "@/components/footer";
 
 const vendorFeatures = [
@@ -55,42 +56,40 @@ export default function VendorsPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-black">
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
-              FOR PROFESSIONALS
-            </div>
-            <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
-              Built for professionals <br />
-              <span className="text-neutral-500">who mean business.</span>
-            </h1>
-            <p className="text-neutral-500 text-xl max-w-2xl mx-auto mb-12">
-              Join 5,000+ professionals growing their business on Bouul.
-              From barbers to consultants, we give you the tools to succeed.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/download"
-                className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-base transition-colors"
-              >
-                Start Selling on Bouul
-              </a>
-              <a
-                href="#features"
-                className="px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-base border border-neutral-800 transition-colors"
-              >
-                Learn More
-              </a>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+      <LampContainer className="min-h-[700px]">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-center relative z-10"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
+            FOR PROFESSIONALS
+          </div>
+          <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
+            Built for professionals <br />
+            <span className="text-neutral-500">who mean business.</span>
+          </h1>
+          <p className="text-neutral-500 text-xl max-w-2xl mx-auto mb-12">
+            Join 5,000+ professionals growing their business on Bouul.
+            From barbers to consultants, we give you the tools to succeed.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/vendors"
+              className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-base transition-colors"
+            >
+              Start Selling on Bouul
+            </a>
+            <a
+              href="#features"
+              className="px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-base border border-neutral-800 transition-colors"
+            >
+              Learn More
+            </a>
+          </div>
+        </motion.div>
+      </LampContainer>
 
       {/* Stats */}
       <section className="py-16 bg-black border-y border-neutral-900">
