@@ -1747,7 +1747,7 @@ export default function VendorsPage() {
                 href="/download"
                 className="px-12 py-6 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full text-xl transition-all hover:scale-105 shadow-2xl shadow-emerald-500/20"
               >
-                Create Free {businessName && "Thirdspace"} Profile
+                Create Free {businessName || "your"} Profile
               </a>
             </div>
             <p className="text-neutral-600 text-sm mt-8 font-medium">
