@@ -53,14 +53,14 @@ export const Navbar = () => {
           </button>
 
           {/* Logo - Centered on mobile, left on desktop */}
-          <div className="flex items-center gap-2 md:absolute md:left-1/2 md:-translate-x-1/2">
+          <Link href="/" className="flex items-center gap-2 md:absolute md:left-1/2 md:-translate-x-1/2">
             <div className="w-8 h-8 rounded-xl overflow-hidden">
               <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
             </div>
             <span className="text-white font-semibold text-lg hidden md:block">
               Bouul
             </span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
