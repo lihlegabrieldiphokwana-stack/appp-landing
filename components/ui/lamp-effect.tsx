@@ -13,7 +13,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative flex min-h-[600px] flex-col items-center justify-center overflow-hidden bg-black w-full z-0",
+        "relative flex min-h-[600px] flex-col items-center justify-start overflow-hidden bg-black w-full z-0",
         className
       )}
     >
@@ -59,7 +59,7 @@ export const LampContainer = ({
         ></motion.div>
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-black"></div>
       </div>
-      <div className="relative z-50 flex -translate-y-20 flex-col items-center px-5">
+      <div className="relative z-50 flex flex-col items-center px-5 -mt-32">
         {children}
       </div>
     </div>

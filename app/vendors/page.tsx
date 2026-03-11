@@ -56,12 +56,12 @@ export default function VendorsPage() {
       <Navbar />
 
       {/* Hero */}
-      <LampContainer className="min-h-[350px] -mt-16">
+      <LampContainer className="min-h-[350px]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-center relative z-10 pt-8"
+          className="text-center relative z-10"
         >
           <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
             FOR PROFESSIONALS
