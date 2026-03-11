@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
@@ -49,6 +49,274 @@ const vendorStats = [
   { stat: "Zero", label: "hidden fees", description: "Transparent pricing with no surprise commissions" },
   { stat: "Full", label: "control", description: "Complete dashboard control over your business" },
 ];
+
+// Service categories for vendors (same as services page but from vendor perspective)
+const vendorServiceCategories = [
+  { name: "Home Services", icon: "🏠", services: ["Plumbers", "Electricians", "Carpenters", "Painters", "Builders", "Gardeners", "Pool Cleaners", "Pest Control", "AC Repair", "Appliance Repair", "Handyman", "Roofers", "Tilers", "Welders", "Aluminum & Glass"] },
+  { name: "Cleaning", icon: "✨", services: ["House Cleaning", "Carpet Cleaning", "Office Cleaning", "Deep Cleaning", "Move-In/Out Cleaning", "Window Cleaning", "Upholstery Cleaning", "Pressure Washing"] },
+  { name: "Beauty & Wellness", icon: "💅", services: ["Hairdressers", "Barbers", "Nail Technicians", "Massage Therapists", "Facial Treatments", "Makeup Artists", "Eyelash & Brows", "Spas", "Personal Trainers", "Yoga Instructors"] },
+  { name: "Automotive", icon: "🚗", services: ["Mechanics", "Car Detailing", "Panel Beaters", "Towing Services", "Car Wash", "Windscreen Repair", "Auto Electricians"] },
+  { name: "Education", icon: "📚", services: ["Math Tutors", "English Tutors", "Science Tutors", "Language Lessons", "Music Lessons", "Computer Lessons", "Homework Help", "Exam Prep"] },
+  { name: "Health & Medical", icon: "🏥", services: ["Physiotherapists", "Dietitians", "Counselors", "Nurses", "Elderly Care", "Baby Nurses", "First Aid Training"] },
+  { name: "Events & Photography", icon: "📸", services: ["Photographers", "Videographers", "Event Planners", "Caterers", "DJs", "Live Bands", "Decorators", "MCs"] },
+  { name: "Professional", icon: "💼", services: ["Accountants", "Bookkeepers", "Tax Consultants", "Legal Services", "Business Consultants", "Marketing Agencies", "Web Designers", "Graphic Designers"] },
+  { name: "Pets", icon: "🐾", services: ["Pet Groomers", "Dog Walkers", "Pet Sitters", "Veterinarians", "Pet Training"] },
+  { name: "Logistics", icon: "📦", services: ["Removal Companies", "Courier Services", "Furniture Delivery", "Storage Services", "Skip Hire"] },
+  { name: "Tech & IT", icon: "💻", services: ["IT Support", "Computer Repair", "Network Installation", "Security Systems", "CCTV Installation", "Data Recovery"] },
+  { name: "Legal & Financial", icon: "⚖️", services: ["Attorneys", "Notaries", "Financial Advisors", "Insurance Agents", "Real Estate Agents"] },
+];
+
+const painPoints = [
+  {
+    problem: "15-25% Commission Fees",
+    current: "Other platforms take a huge cut of every job",
+    bouul: "0% commission. Keep 100% of what you earn.",
+    icon: "💸",
+  },
+  {
+    problem: "Restricted Customer Access",
+    current: "Can't build direct relationships with your customers",
+    bouul: "Full customer data access. Build your client base.",
+    icon: "🔒",
+  },
+  {
+    problem: "Basic Profile Templates",
+    current: "Limited customization, blend in with everyone else",
+    bouul: "Complete branding control. Stand out your way.",
+    icon: "🎨",
+  },
+  {
+    problem: "Slow Payouts (5-7 days)",
+    current: "Wait over a week to access your earnings",
+    bouul: "24-48 hour payouts. Your money, faster.",
+    icon: "⏰",
+  },
+  {
+    problem: "No Marketing Tools",
+    current: "Rely on platform alone for visibility",
+    bouul: "AI Discovery + video content + social following.",
+    icon: "📢",
+  },
+  {
+    problem: "Email-Only Support",
+    current: "Wait days for responses to urgent issues",
+    bouul: "24/7 priority support. Real humans, real help.",
+    icon: "🎧",
+  },
+];
+
+// Personalized Hero Component
+const PersonalizedVendorHero: React.FC = () => {
+  const [businessName, setBusinessName] = useState("");
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-4xl mx-auto px-6 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            MADE FOR YOU
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+            {businessName ? (
+              <>
+                Grow <span className="text-emerald-400">{businessName}</span> with Bouul
+              </>
+            ) : (
+              <>
+                Grow <span className="text-neutral-500">your business</span> with Bouul
+              </>
+            )}
+          </h2>
+          <p className="text-neutral-500 text-lg mb-8 max-w-2xl mx-auto">
+            {businessName ? (
+              <>
+                See how {businessName} can earn more, work smarter, and keep 100% of profits.
+              </>
+            ) : (
+              <>
+                See how you can earn more, work smarter, and keep 100% of your profits.
+              </>
+            )}
+          </p>
+
+          {/* Input Field */}
+          <div className="max-w-md mx-auto mb-8">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Enter your business name..."
+                value={businessName}
+                onChange={(e) => setBusinessName(e.target.value)}
+                className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
+              />
+              {businessName && (
+                <button
+                  onClick={() => setBusinessName("")}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-neutral-500 hover:text-white"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Dynamic Benefits */}
+          {businessName && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12"
+            >
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
+                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
+                <div className="text-white font-medium">{businessName} keeps R0 in commissions</div>
+              </div>
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
+                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
+                <div className="text-white font-medium">{businessName} gets paid in 24-48h</div>
+              </div>
+              <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-4">
+                <div className="text-emerald-400 text-sm mb-1">With Bouul,</div>
+                <div className="text-white font-medium">{businessName} owns customer relationships</div>
+              </div>
+            </motion.div>
+          )}
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+// Pain Points Section
+const PainPointsSection: React.FC = () => {
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-16 text-center"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            THE PROBLEM
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            Other platforms profit from your work
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            You built the skills. You do the work. Why should they take the biggest cut?
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {painPoints.map((point, i) => (
+            <motion.div
+              key={point.problem}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
+            >
+              <div className="text-4xl mb-4">{point.icon}</div>
+              <div className="text-white font-semibold text-lg mb-3">{point.problem}</div>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <svg className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                  </svg>
+                  <div className="text-neutral-500 text-sm">{point.current}</div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                  </svg>
+                  <div className="text-emerald-400 text-sm font-medium">{point.bouul}</div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Service Categories Section
+const ServiceCategoriesSection: React.FC = () => {
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-16 text-center"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            WHO CAN JOIN
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            Every trade. Every profession.
+          </h2>
+          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
+            If you provide a service, Bouul is built for you. 71+ categories and growing.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {vendorServiceCategories.map((category, i) => (
+            <motion.div
+              key={category.name}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.05 }}
+              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <div className="text-3xl">{category.icon}</div>
+                <h3 className="text-white font-semibold text-lg">{category.name}</h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {category.services.map((service) => (
+                  <span
+                    key={service}
+                    className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-400 text-xs hover:text-emerald-400 hover:bg-neutral-800 transition-colors cursor-default"
+                  >
+                    {service}
+                  </span>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-neutral-500 text-sm mb-6">
+            Don't see your category? We're always adding new services.
+          </p>
+          <a
+            href="/vendors"
+            className="inline-block px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full transition-colors"
+          >
+            Contact Us About Your Service
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default function VendorsPage() {
   return (
@@ -114,6 +382,15 @@ export default function VendorsPage() {
           </div>
         </div>
       </section>
+
+      {/* Personalization Input */}
+      <PersonalizedVendorHero />
+
+      {/* Pain Points */}
+      <PainPointsSection />
+
+      {/* Service Categories - Who Can Join */}
+      <ServiceCategoriesSection />
 
       {/* Resonance Discovery Engine */}
       <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900">
