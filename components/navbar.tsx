@@ -8,6 +8,7 @@ import { CityDetector } from "@/components/city-detector";
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<"learn" | "company" | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -86,12 +87,101 @@ export const Navbar = () => {
             >
               For Vendors
             </Link>
-            <Link
-              href="/learn"
-              className="text-gray-400 hover:text-white transition-colors text-xs"
+            <div
+              className="relative"
+              onMouseEnter={() => setActiveDropdown("learn")}
+              onMouseLeave={() => setActiveDropdown(null)}
             >
-              Learn
-            </Link>
+              <button
+                className="text-gray-400 hover:text-white transition-colors text-xs flex items-center gap-1"
+                onFocus={() => setActiveDropdown("learn")}
+                onBlur={() => setActiveDropdown(null)}
+                type="button"
+              >
+                Learn
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <AnimatePresence>
+                {activeDropdown === "learn" && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 8 }}
+                    transition={{ duration: 0.18 }}
+                    className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-neutral-800 bg-black/95 backdrop-blur-xl shadow-2xl overflow-hidden"
+                  >
+                    <div className="p-2">
+                      {[
+                        ["/about", "About Bouul"],
+                        ["/use-cases", "Use Cases"],
+                        ["/newsroom", "Newsroom"],
+                        ["/cities", "Cities"],
+                        ["/policies", "Policy Hub"],
+                        ["/faq", "FAQ"],
+                      ].map(([href, label]) => (
+                        <Link
+                          key={href}
+                          href={href}
+                          className="block rounded-xl px-4 py-3 text-sm text-neutral-300 hover:text-white hover:bg-neutral-900 transition-colors"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          {label}
+                        </Link>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+            <div
+              className="relative"
+              onMouseEnter={() => setActiveDropdown("company")}
+              onMouseLeave={() => setActiveDropdown(null)}
+            >
+              <button
+                className="text-gray-400 hover:text-white transition-colors text-xs flex items-center gap-1"
+                onFocus={() => setActiveDropdown("company")}
+                onBlur={() => setActiveDropdown(null)}
+                type="button"
+              >
+                Company
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <AnimatePresence>
+                {activeDropdown === "company" && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 8 }}
+                    transition={{ duration: 0.18 }}
+                    className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-neutral-800 bg-black/95 backdrop-blur-xl shadow-2xl overflow-hidden"
+                  >
+                    <div className="p-2">
+                      {[
+                        ["/contact", "Contact"],
+                        ["/support", "Support"],
+                        ["/careers", "Careers"],
+                        ["/press", "Press"],
+                        ["/status", "Status"],
+                      ].map(([href, label]) => (
+                        <Link
+                          key={href}
+                          href={href}
+                          className="block rounded-xl px-4 py-3 text-sm text-neutral-300 hover:text-white hover:bg-neutral-900 transition-colors"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          {label}
+                        </Link>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
             <Link
               href="/faq"
               className="text-gray-400 hover:text-white transition-colors text-xs"
@@ -151,6 +241,13 @@ export const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Learn
+              </Link>
+              <Link
+                href="/cities"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Cities
               </Link>
               <Link
                 href="/faq"

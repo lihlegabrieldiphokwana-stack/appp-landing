@@ -73,6 +73,12 @@ const cards = [
     description:
       "The current service health and what is still being finalized.",
   },
+  {
+    href: "/cities",
+    title: "Cities",
+    description:
+      "A browseable list of the city pages Bouul is currently organized around.",
+  },
 ];
 
 export default function LearnPage() {
