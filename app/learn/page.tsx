@@ -43,6 +43,36 @@ const cards = [
     description:
       "The core expectations for customers and professionals using the platform.",
   },
+  {
+    href: "/contact",
+    title: "Contact",
+    description:
+      "The quickest path to support, press, and business-specific contact requests.",
+  },
+  {
+    href: "/support",
+    title: "Support",
+    description:
+      "Practical help for booking issues, account problems, and trust & safety flows.",
+  },
+  {
+    href: "/careers",
+    title: "Careers",
+    description:
+      "A simple view of the product, operations, and content roles the team needs.",
+  },
+  {
+    href: "/press",
+    title: "Press",
+    description:
+      "A media-friendly page with assets, product facts, and newsroom context.",
+  },
+  {
+    href: "/status",
+    title: "Status",
+    description:
+      "The current service health and what is still being finalized.",
+  },
 ];
 
 export default function LearnPage() {

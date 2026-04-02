@@ -38,10 +38,15 @@ export const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm">Company</h4>
             <ul className="space-y-2">
+              <li><Link href="/contact" className="text-neutral-500 hover:text-white transition-colors text-sm">Contact</Link></li>
+              <li><Link href="/support" className="text-neutral-500 hover:text-white transition-colors text-sm">Support</Link></li>
+              <li><Link href="/careers" className="text-neutral-500 hover:text-white transition-colors text-sm">Careers</Link></li>
               <li><Link href="/newsroom" className="text-neutral-500 hover:text-white transition-colors text-sm">Newsroom</Link></li>
+              <li><Link href="/press" className="text-neutral-500 hover:text-white transition-colors text-sm">Press</Link></li>
+              <li><Link href="/status" className="text-neutral-500 hover:text-white transition-colors text-sm">Status</Link></li>
               <li><Link href="/city/johannesburg" className="text-neutral-500 hover:text-white transition-colors text-sm">City Coverage</Link></li>
               <li><Link href="/vendors" className="text-neutral-500 hover:text-white transition-colors text-sm">Vendor Stories</Link></li>
-              <li><a href="mailto:support@bouul.com" className="text-neutral-500 hover:text-white transition-colors text-sm">Contact</a></li>
+              <li><a href="mailto:support@bouul.com" className="text-neutral-500 hover:text-white transition-colors text-sm">Email support</a></li>
             </ul>
           </div>
 
