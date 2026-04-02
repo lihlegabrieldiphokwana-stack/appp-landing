@@ -18,7 +18,7 @@ export const DownloadCTA = () => {
             Your city. Your services. Your Bouul.
           </h2>
           <p className="text-xl text-neutral-400 font-light mb-12 max-w-2xl mx-auto">
-            Download free. Available on iOS and Android.
+            Download free. The app store links are being finalized now.
           </p>
 
           {/* Download Buttons */}
@@ -26,7 +26,7 @@ export const DownloadCTA = () => {
             <motion.a
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              href="#"
+              href="/download#ios"
               className="flex items-center gap-3 px-8 py-4 bg-white hover:bg-neutral-100 text-black font-medium rounded-full transition-colors min-w-[200px] justify-center"
             >
               <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
@@ -41,7 +41,7 @@ export const DownloadCTA = () => {
             <motion.a
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              href="#"
+              href="/download#android"
               className="flex items-center gap-3 px-8 py-4 bg-white hover:bg-neutral-100 text-black font-medium rounded-full transition-colors min-w-[200px] justify-center"
             >
               <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
@@ -55,7 +55,7 @@ export const DownloadCTA = () => {
           </div>
 
           <p className="text-neutral-600 text-sm">
-            Free to download • No subscription • Works in your city
+            Free to download • No subscription • Store links coming soon
           </p>
         </motion.div>
       </div>

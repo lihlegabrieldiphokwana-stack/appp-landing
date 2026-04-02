@@ -81,7 +81,7 @@ export const BouulHero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-20"
         >
           <a
-            href="#download"
+            href="/download"
             className="px-8 py-3.5 bg-white hover:bg-neutral-100 text-black font-medium rounded-full transition-colors text-sm"
           >
             Download free

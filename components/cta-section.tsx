@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
 
 export const CTASection = () => {
   return (
@@ -32,7 +31,7 @@ export const CTASection = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#"
+              href="/download#ios"
               className="flex items-center gap-3 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold rounded-xl transition-colors shadow-lg shadow-emerald-500/25"
             >
               <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
@@ -47,7 +46,7 @@ export const CTASection = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="#"
+              href="/download#android"
               className="flex items-center gap-3 px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-black font-semibold rounded-xl transition-colors shadow-lg shadow-emerald-500/25"
             >
               <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">

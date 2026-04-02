@@ -1,17 +1,16 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
 import { ZolaSection } from "@/components/zola-section";
 import { ResonanceEngine } from "@/components/resonance-engine";
+import { PlatformStory } from "@/components/platform-story";
 import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
 import { DynamicPricing } from "@/components/dynamic-pricing";
 import { SubscriptionSection } from "@/components/subscription-section";
-import { LampContainer } from "@/components/ui/lamp-effect";
 import { VendorSection } from "@/components/vendor-section";
 import { StatsStrip } from "@/components/stats-strip";
 import { SentimentReviews } from "@/components/sentiment-reviews";
@@ -114,6 +113,9 @@ export default function LandingPage() {
 
       {/* Resonance Discovery Engine */}
       <ResonanceEngine />
+
+      {/* Platform story / operating system */}
+      <PlatformStory />
 
       {/* Social — video feed intro */}
       <FeatureSection

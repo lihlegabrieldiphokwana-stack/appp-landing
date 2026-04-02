@@ -87,13 +87,19 @@ export const Navbar = () => {
               For Vendors
             </Link>
             <Link
+              href="/learn"
+              className="text-gray-400 hover:text-white transition-colors text-xs"
+            >
+              Learn
+            </Link>
+            <Link
               href="/faq"
               className="text-gray-400 hover:text-white transition-colors text-xs"
             >
               FAQ
             </Link>
             <Link
-              href="#download"
+              href="/download"
               className="px-4 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-xs"
             >
               Download
@@ -140,6 +146,13 @@ export const Navbar = () => {
                 For Vendors
               </Link>
               <Link
+                href="/learn"
+                className="block text-gray-400 hover:text-white transition-colors text-sm"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Learn
+              </Link>
+              <Link
                 href="/faq"
                 className="block text-gray-400 hover:text-white transition-colors text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -147,7 +160,7 @@ export const Navbar = () => {
                 FAQ
               </Link>
               <Link
-                href="#download"
+                href="/download"
                 className="block w-full text-center px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-sm"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

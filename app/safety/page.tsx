@@ -314,7 +314,7 @@ export default function SafetyPage() {
               Join thousands of customers who trust Bouul for their service needs.
             </p>
             <a
-              href="#download"
+              href="/download"
               className="inline-block px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
             >
               Download Bouul

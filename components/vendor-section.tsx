@@ -17,7 +17,7 @@ export const VendorSection = () => {
           }}
           className="mt-10 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
         >
-          Built for professionals <br /> who mean business.
+          Built for professionals <br /> who want real growth.
         </motion.h1>
       </LampContainer>
 
@@ -40,6 +40,47 @@ export const VendorSection = () => {
               </div>
               <div className="text-neutral-500 text-sm">{item.label}</div>
             </div>
+          ))}
+        </div>
+
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            {
+              title: "Resonance discovery",
+              description:
+                "Test multiple titles and images per service so the platform can learn what converts for each customer.",
+            },
+            {
+              title: "Live analytics",
+              description:
+                "See impressions, views, intents, and bookings in one view, then adjust quickly when performance changes.",
+            },
+            {
+              title: "Pricing control",
+              description:
+                "Set service rates, emergency pricing, travel fees, and availability rules without waiting on support.",
+            },
+            {
+              title: "Professional storefront",
+              description:
+                "Show reviews, videos, verified identity, and category-specific services in a profile that feels complete.",
+            },
+          ].map((item) => (
+            <motion.div
+              key={item.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
+            >
+              <div className="text-white font-semibold text-lg mb-2">
+                {item.title}
+              </div>
+              <p className="text-neutral-500 text-sm leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
           ))}
         </div>
 

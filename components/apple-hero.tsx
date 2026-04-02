@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 export const AppleHero = () => {
@@ -65,7 +64,7 @@ export const AppleHero = () => {
           className="flex items-center gap-6 mb-16"
         >
           <a
-            href="#"
+            href="/download"
             className="text-emerald-400 hover:text-emerald-300 text-lg font-medium flex items-center gap-2 group"
           >
             Learn more
@@ -84,7 +83,7 @@ export const AppleHero = () => {
             </svg>
           </a>
           <a
-            href="#"
+            href="/vendors"
             className="text-emerald-400 hover:text-emerald-300 text-lg font-medium flex items-center gap-2 group"
           >
             Buy

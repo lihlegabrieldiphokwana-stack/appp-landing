@@ -200,7 +200,7 @@ export const SocialMechanics = () => {
             Followed, reviewed, and re-booked by real customers — every day.
           </p>
           <a
-            href="#download"
+            href="/download"
             className="flex-shrink-0 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-sm transition-colors"
           >
             Join them

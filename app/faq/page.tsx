@@ -262,7 +262,7 @@ export default function FAQPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="#download"
+                href="/download"
                 className="px-6 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-sm transition-colors"
               >
                 Ask Zola
