@@ -116,12 +116,12 @@ export const newsroomPressAssets = [
   },
   {
     label: "Hero banner desktop",
-    href: "/hero-banner-desktop.png",
+    href: "/optimized/hero-banner-desktop.jpg",
     note: "Desktop marketing image for feature stories or landing pages.",
   },
   {
     label: "Hero banner mobile",
-    href: "/hero-banner-mobile.png",
+    href: "/optimized/hero-banner-mobile.jpg",
     note: "Vertical mobile marketing image for social or editorial use.",
   },
   {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   },
   description: "Book vetted service professionals near you. Real-time tracking, live chat, and AI image tools. Download Bouul free.",
   metadataBase: new URL("https://bouul.com"),
+  alternates: {
+    canonical: "https://bouul.com",
+  },
   keywords: ["services marketplace", "local professionals", "South Africa", "plumbers", "electricians", "cleaners", "verified professionals"],
   authors: [{ name: "Bouul", url: "https://bouul.com" }],
   openGraph: {
@@ -20,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Bouul",
     images: [
       {
-        url: "/hero-banner-desktop.png",
+        url: "/optimized/hero-banner-desktop.jpg",
         width: 1200,
         height: 630,
         alt: "Bouul",
@@ -31,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bouul — Your city's marketplace.",
     description: "Book vetted service professionals near you.",
-    images: ["/hero-banner-desktop.png"],
+    images: ["/optimized/hero-banner-desktop.jpg"],
   },
   robots: {
     index: true,
@@ -68,7 +71,7 @@ export default function RootLayout({
               "description": "Hyper-local services marketplace connecting you with trusted professionals in your area.",
               "url": "https://bouul.com",
               "logo": "https://bouul.com/bouul-logo.png",
-              "image": "https://bouul.com/hero-banner-desktop.png",
+              "image": "https://bouul.com/optimized/hero-banner-desktop.jpg",
               "telephone": "+27-11-123-4567",
               "email": "support@bouul.com",
               "address": {

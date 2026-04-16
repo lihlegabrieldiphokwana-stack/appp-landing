@@ -23,7 +23,7 @@ export const generateLocalBusinessSchema = (): LocalBusinessSchema => ({
   description: "Hyper-local services marketplace connecting you with trusted professionals in your area. Book plumbers, electricians, cleaners, and more.",
   url: BASE_URL,
   logo: `${BASE_URL}/bouul-logo.png`,
-  image: `${BASE_URL}/hero-banner-desktop.png`,
+  image: `${BASE_URL}/optimized/hero-banner-desktop.jpg`,
   telephone: "+27-11-123-4567",
   email: "support@bouul.com",
   address: {
@@ -338,7 +338,7 @@ export const StructuredData: React.FC<{ data: JSONLDType }> = ({ data }) => {
   );
 };
 
-export default {
+const structuredDataHelpers = {
   generateLocalBusinessSchema,
   generateServiceSchema,
   generateProductSchema,
@@ -351,3 +351,5 @@ export default {
   generateEventSchema,
   StructuredData,
 };
+
+export default structuredDataHelpers;

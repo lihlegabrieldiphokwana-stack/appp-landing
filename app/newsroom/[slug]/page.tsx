@@ -1,4 +1,5 @@
 import React from "react";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
@@ -7,6 +8,45 @@ import { getNewsroomArticle, newsroomArticles } from "../articles";
 
 export function generateStaticParams() {
   return newsroomArticles.map((article) => ({ slug: article.slug }));
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const article = getNewsroomArticle(params.slug);
+
+  if (!article) {
+    return {
+      title: "Newsroom",
+      description: "News, product updates, and platform stories from Bouul.",
+    };
+  }
+
+  return {
+    title: article.title,
+    description: article.summary,
+    alternates: {
+      canonical: `https://bouul.com/newsroom/${article.slug}`,
+    },
+    openGraph: {
+      title: article.title,
+      description: article.summary,
+      type: "article",
+      url: `https://bouul.com/newsroom/${article.slug}`,
+      images: [
+        {
+          url: "/optimized/hero-banner-desktop.jpg",
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.summary,
+      images: ["/optimized/hero-banner-desktop.jpg"],
+    },
+  };
 }
 
 export default function NewsroomArticlePage({ params }: { params: { slug: string } }) {

@@ -9,8 +9,8 @@ import { PressKitPreview } from "@/components/press-kit-preview";
 
 const assets = [
   { label: "Bouul logo", href: "/bouul-logo.png" },
-  { label: "Desktop hero", href: "/hero-banner-desktop.png" },
-  { label: "Mobile hero", href: "/hero-banner-mobile.png" },
+  { label: "Desktop hero", href: "/optimized/hero-banner-desktop.jpg" },
+  { label: "Mobile hero", href: "/optimized/hero-banner-mobile.jpg" },
   { label: "App preview", href: "/Group%201686.png" },
 ];
 

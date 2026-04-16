@@ -95,7 +95,7 @@ export default function LandingPage() {
           {
             title: "Secure Payments",
             description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected.",
-            image: "/hero-banner-desktop.png"
+            image: "/optimized/hero-banner-desktop.jpg"
           }
         ]}
         align="left"
@@ -112,7 +112,7 @@ export default function LandingPage() {
           {
             title: "Live GPS",
             description: "Follow progress on a live map from departure through arrival.",
-            image: "/hero-banner-mobile.png"
+            image: "/optimized/hero-banner-mobile.jpg"
           },
           {
             title: "Push Notifications",

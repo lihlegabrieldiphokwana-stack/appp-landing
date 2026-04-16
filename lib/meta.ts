@@ -21,7 +21,7 @@ export interface MetaConfig {
 const BASE_URL = "https://bouul.com";
 const DEFAULT_TITLE = "Bouul - Book Trusted Local Professionals";
 const DEFAULT_DESCRIPTION = "Hyper-local services marketplace connecting you with verified professionals. Book plumbers, electricians, cleaners, and more in minutes.";
-const DEFAULT_IMAGE = "/hero-banner-desktop.png";
+const DEFAULT_IMAGE = "/optimized/hero-banner-desktop.jpg";
 
 /**
  * Generate meta tags for homepage
@@ -257,7 +257,7 @@ export const generateMetaTags = (config: MetaConfig) => {
   return tags.filter(Boolean);
 };
 
-export default {
+const metaHelpers = {
   getHomeMeta,
   getCityMeta,
   getCategoryMeta,
@@ -269,3 +269,5 @@ export default {
   getDownloadMeta,
   generateMetaTags,
 };
+
+export default metaHelpers;

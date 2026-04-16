@@ -21,7 +21,14 @@ export const AppleHero = () => {
         >
           <div className="flex items-center gap-3">
             <div className="w-16 h-16 rounded-2xl overflow-hidden shadow-lg shadow-emerald-500/20">
-              <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
+              <Image
+                src="/bouul-logo.png"
+                alt="Bouul"
+                width={64}
+                height={64}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
           </div>
         </motion.div>
@@ -113,7 +120,7 @@ export const AppleHero = () => {
           {/* Desktop Banner - Full Viewport Width */}
           <div className="hidden md:block relative w-full" style={{ height: '70vh', minHeight: '500px' }}>
             <Image
-              src="/hero-banner-desktop.png"
+              src="/optimized/hero-banner-desktop.jpg"
               alt="appp Pro Banner"
               fill
               className="object-cover"
@@ -124,7 +131,7 @@ export const AppleHero = () => {
           {/* Tablet Banner - Full Viewport Width */}
           <div className="hidden tablet:block md:hidden relative w-full" style={{ height: '60vh', minHeight: '400px' }}>
             <Image
-              src="/hero-banner-tablet.jpg"
+              src="/optimized/hero-banner-desktop.jpg"
               alt="appp Pro Banner"
               fill
               className="object-cover"
@@ -135,7 +142,7 @@ export const AppleHero = () => {
           {/* Mobile Banner - Full Viewport Width */}
           <div className="md:hidden relative w-full" style={{ height: '80vh', minHeight: '600px' }}>
             <Image
-              src="/hero-banner-mobile.png"
+              src="/optimized/hero-banner-mobile.jpg"
               alt="appp Pro Banner"
               fill
               className="object-cover"

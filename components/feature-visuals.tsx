@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export const MagicRemoverVisual = () => {
@@ -8,10 +9,11 @@ export const MagicRemoverVisual = () => {
     <div className="h-36 rounded-xl mb-4 overflow-hidden border border-emerald-500/15 bg-neutral-950 relative">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.08),transparent_30%)]" />
       <div className="relative h-full overflow-hidden bg-neutral-900">
-        <img
-          src="/magic_remover_before.png"
+        <Image
+          src="/optimized/magic_remover_before.jpg"
           alt="Magic remover before"
-          className="absolute inset-0 h-full w-full object-cover scale-110 saturate-110"
+          fill
+          className="object-cover scale-110 saturate-110"
         />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,153,0,0.34),rgba(255,153,0,0.46))]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_30%,rgba(0,0,0,0.16),transparent_10%),radial-gradient(circle_at_75%_35%,rgba(0,0,0,0.12),transparent_12%),radial-gradient(circle_at_55%_70%,rgba(0,0,0,0.10),transparent_15%)]" />
@@ -29,10 +31,11 @@ export const MagicRemoverVisual = () => {
           transition={{ duration: 1.8, ease: "easeInOut", times: [0, 0.68, 1] }}
           className="absolute inset-0 overflow-hidden"
         >
-          <img
-            src="/magic_remover_after.png"
+          <Image
+            src="/optimized/magic_remover_after.jpg"
             alt="Magic remover after"
-            className="absolute inset-0 h-full w-full object-cover"
+            fill
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.08),transparent_35%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.24),transparent_18%)]" />
           <div className="absolute left-3 top-3 rounded-full bg-emerald-400/15 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-emerald-300">

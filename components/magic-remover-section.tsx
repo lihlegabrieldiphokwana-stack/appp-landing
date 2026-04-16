@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export const MagicRemoverSection = () => {
@@ -112,10 +113,11 @@ export const MagicRemoverSection = () => {
 
                 <div className="grid grid-cols-2 gap-3 flex-1 min-h-0">
                   <div className="relative rounded-[1.7rem] overflow-hidden border border-white/10 bg-neutral-900">
-                    <img
-                      src="/magic_remover_before.png"
+                    <Image
+                      src="/optimized/magic_remover_before.jpg"
                       alt="Before cleanup"
-                      className="absolute inset-0 h-full w-full object-cover scale-110"
+                      fill
+                      className="object-cover scale-110"
                     />
                     <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,153,0,0.35),rgba(255,153,0,0.52))]" />
                     <div className="absolute left-3 top-3 rounded-full bg-black/50 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-neutral-300">
@@ -124,10 +126,11 @@ export const MagicRemoverSection = () => {
                   </div>
 
                   <div className="relative rounded-[1.7rem] overflow-hidden border border-emerald-400/15 bg-neutral-950">
-                    <img
-                      src="/magic_remover_after.png"
+                    <Image
+                      src="/optimized/magic_remover_after.jpg"
                       alt="After cleanup"
-                      className="absolute inset-0 h-full w-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                     <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.10),transparent_40%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.24),transparent_18%)]" />
                     <div className="absolute left-3 top-3 rounded-full bg-emerald-400/15 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-emerald-300">
