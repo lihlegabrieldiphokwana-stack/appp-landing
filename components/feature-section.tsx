@@ -15,6 +15,10 @@ interface FeatureSectionProps {
   headline: string;
   body: string;
   secondaryBody?: string;
+  supportingCards?: Array<{
+    title: string;
+    description: string;
+  }>;
   bullets?: string[];
   cards?: FeatureCard[];
   align: "left" | "right";
@@ -28,6 +32,7 @@ export const FeatureSection = ({
   headline,
   body,
   secondaryBody,
+  supportingCards,
   bullets,
   cards,
   align,
@@ -68,6 +73,21 @@ export const FeatureSection = ({
               <p className="text-neutral-500 text-base leading-relaxed mb-8">
                 {secondaryBody}
               </p>
+            )}
+
+            {supportingCards && (
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+                {supportingCards.map((item) => (
+                  <div key={item.title} className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4">
+                    <div className="text-emerald-400 text-[10px] font-semibold tracking-[0.22em] uppercase mb-2">
+                      {item.title}
+                    </div>
+                    <div className="text-neutral-300 text-sm leading-relaxed">
+                      {item.description}
+                    </div>
+                  </div>
+                ))}
+              </div>
             )}
 
             {/* Bullets (Legacy) */}

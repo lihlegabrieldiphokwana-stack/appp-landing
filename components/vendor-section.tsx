@@ -6,6 +6,24 @@ import { VendorDashboardPreview } from "@/components/vendor-dashboard-preview";
 import { VendorOpsPreview } from "@/components/vendor-ops-preview";
 
 export const VendorSection = () => {
+  const intelligenceCards = [
+    {
+      title: "Intelligent product fill",
+      description:
+        "Auto-fill missing listing fields from the product catalog, prior listings, and category defaults so the page feels complete faster.",
+    },
+    {
+      title: "Tailored section titles",
+      description:
+        "Swap headings based on the user, the city, and the service type so the page speaks to intent instead of staying generic.",
+    },
+    {
+      title: "Native language menus",
+      description:
+        "Translate menus and labels into the customer&apos;s language and local phrasing to reduce friction and improve conversion.",
+    },
+  ];
+
   return (
     <section id="vendor" className="bg-black border-t border-neutral-900">
       <LampContainer>
@@ -94,6 +112,31 @@ export const VendorSection = () => {
               </p>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-12 rounded-3xl border border-neutral-800 bg-neutral-950 p-6 md:p-8">
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-3">
+            Conversion intelligence
+          </div>
+          <h3 className="text-2xl md:text-3xl font-semibold text-white tracking-tight mb-3 max-w-3xl">
+            Bouul can shape the storefront around the visitor.
+          </h3>
+          <p className="text-neutral-500 text-sm md:text-base leading-relaxed max-w-3xl mb-6">
+            The same business can look different to different shoppers. Bouul can fill in product detail automatically, rewrite section titles to match the user&apos;s intent, and translate menus into native languages so more people keep moving toward checkout.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {intelligenceCards.map((item) => (
+              <div key={item.title} className="rounded-2xl border border-neutral-800 bg-black p-5">
+                <div className="text-[10px] font-semibold tracking-[0.22em] uppercase text-emerald-400 mb-2">
+                  {item.title}
+                </div>
+                <div className="text-neutral-400 text-sm leading-relaxed">
+                  {item.description}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* CTA to vendor page */}

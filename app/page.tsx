@@ -11,6 +11,7 @@ import { SocialPreview } from "@/components/social-preview";
 import { ZolaSection } from "@/components/zola-section";
 import { ResonanceEngine } from "@/components/resonance-engine";
 import { PlatformStory } from "@/components/platform-story";
+import { MagicRemoverSection } from "@/components/magic-remover-section";
 import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
 import { DynamicPricing } from "@/components/dynamic-pricing";
@@ -65,6 +66,20 @@ export default function LandingPage() {
         headline="Book with total confidence."
         body="Every professional is reviewed, rated, and screened."
         secondaryBody="Trust is built through transparency. We verify key details on the platform so you can focus on getting the job done with more confidence."
+        supportingCards={[
+          {
+            title: "Verified people",
+            description: "Identity checks and screening happen before a profile goes live.",
+          },
+          {
+            title: "Real reviews",
+            description: "Feedback stays tied to completed bookings, so it reflects real work.",
+          },
+          {
+            title: "Protected money",
+            description: "Secure payments and payout timing make the flow feel safer for both sides.",
+          },
+        ]}
         appPreview={<TrustPreview />}
         cards={[
           {
@@ -122,6 +137,9 @@ export default function LandingPage() {
 
       {/* Platform story / operating system */}
       <PlatformStory />
+
+      {/* Magic Remover */}
+      <MagicRemoverSection />
 
       {/* Social — video feed intro */}
       <FeatureSection
