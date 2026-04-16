@@ -17,92 +17,277 @@ export interface NewsroomArticle {
 
 export const newsroomArticles: NewsroomArticle[] = [
   {
-    slug: "bouul-expands-the-local-services-graph",
-    title: "Bouul expands the local services graph",
+    slug: "how-bouul-works-for-customers",
+    title: "How Bouul works for customers",
     tag: "Product",
     date: "April 2026",
-    readTime: "4 min read",
+    readTime: "6 min read",
     summary:
-      "A product story about making local discovery more intelligent, more contextual, and more useful for both customers and vendors.",
+      "A practical guide to finding, comparing, booking, and tracking services without losing context along the way.",
     imageNote:
-      "Use a hero image showing a customer discovering local services on a phone in a real city setting.",
+      "Use a hero image showing a customer searching for a service on a phone with local results visible.",
     heroNote:
-      "Suggested hero image: a phone in hand with a local results feed visible, plus a subtle city background.",
+      "Suggested hero image: a phone in hand with search, category chips, and verified service cards visible.",
     sections: [
       {
-        heading: "Discovery that feels local",
+        heading: "Search starts with plain language",
         body:
-          "Bouul was built to move beyond generic directories and chat-based referrals. The goal is to make discovery feel immediate, city-aware, and trustworthy. A customer should be able to find a matching service quickly, then move directly into booking without losing context.",
+          "Customers should not need to know category codes, service jargon, or how a vendor organises their listings. Bouul is built around plain-language search and a local feed of professionals that feels closer to asking a trusted friend than browsing a directory. The goal is to reduce the time between need and action.",
       },
       {
-        heading: "Signals that improve relevance",
+        heading: "Discovery becomes comparison",
         body:
-          "Search terms, location, reviews, and activity signals all feed the discovery engine. That lets the platform surface professionals who are actually likely to matter to the user rather than just those with the loudest profile.",
+          "Once a customer begins exploring, the platform surfaces nearby professionals, relevant categories, ratings, recent activity, and availability in one place. That gives the user enough context to compare options without opening six tabs or leaving the booking flow.",
       },
       {
-        heading: "Why it matters",
+        heading: "Booking stays in the same flow",
         body:
-          "For customers, this reduces friction. For professionals, it improves the odds that the right customer sees their profile at the right time. The outcome is a stronger local marketplace instead of a static listing site.",
+          "The important part is what happens after discovery. Bouul keeps chat, booking confirmation, tracking, reminders, and payment in the same experience so the customer never feels like they have to restart the process after choosing a professional.",
+      },
+      {
+        heading: "Why this matters",
+        body:
+          "A marketplace is only useful if it shortens the journey from question to result. By keeping search, trust, booking, and follow-up together, Bouul reduces friction for the customer and creates a more confident decision moment.",
       },
     ],
   },
   {
-    slug: "trust-and-safety-are-part-of-the-product",
-    title: "Trust and safety are part of the product",
+    slug: "how-bouul-works-for-vendors",
+    title: "How Bouul works for vendors",
     tag: "Safety",
     date: "April 2026",
-    readTime: "4 min read",
+    readTime: "7 min read",
     summary:
-      "An explainer about verification, booking protection, and why reviews only matter when real bookings happened.",
+      "A vendor walkthrough covering the dashboard, requests, staff mode, subscriptions, payouts, and conversion tools.",
     imageNote:
-      "Use a trust-focused visual, such as a verified badge, booking timeline, or support flow illustration.",
+      "Use a vendor dashboard visual showing requests, analytics, payouts, and recurring work in one frame.",
     heroNote:
-      "Suggested hero image: a clean safety graphic with verification, payment protection, and dispute resolution cues.",
+      "Suggested hero image: a desktop vendor dashboard with mobile preview, booking queue, and payout state visible.",
     sections: [
       {
-        heading: "Verified people, verified feedback",
+        heading: "One business, one control centre",
         body:
-          "A marketplace becomes more useful when reviews are tied to real bookings and identities are checked before profiles go live. Bouul leans into that model so customers have more confidence before they commit.",
+          "Vendors need more than a public profile. Bouul is positioned as the working surface for a service business, bringing bookings, earnings, reviews, staff assignments, and availability into one place so the business can be managed from a single dashboard.",
       },
       {
-        heading: "Protection when plans change",
+        heading: "Team and employee mode",
         body:
-          "Bookings are not always perfect. The platform summary already includes booking protection, refund paths, and a dispute flow so customers do not have to figure out every edge case alone.",
+          "Many service businesses do not operate as a one-person company. Bouul needs to show how employee mode works, how jobs are assigned, and how teams can see what they are responsible for without breaking the flow for the customer.",
       },
       {
-        heading: "What good safety looks like",
+        heading: "Recurring work and subscriptions",
         body:
-          "Safety is not only about reacting to problems. It also includes better upfront information, clearer pricing, and better profile quality so fewer bad bookings happen in the first place.",
+          "The platform should also explain recurring work clearly. Subscriptions make sense for services like cleaning, grooming, maintenance, tutoring, and other repeat bookings where customers want reliability rather than starting from zero each time.",
+      },
+      {
+        heading: "Why conversion tools matter",
+        body:
+          "The dashboard is not just administration. It is also about conversion. Bouul can help vendors present better product photos, rewrite section titles to match user intent, and translate menu labels into native language so more visitors become bookings.",
       },
     ],
   },
   {
-    slug: "how-vendors-grow-on-bouul",
-    title: "How vendors grow on Bouul",
+    slug: "how-payouts-and-invoices-work",
+    title: "How payouts and invoices work",
     tag: "Vendor",
+    date: "April 2026",
+    readTime: "6 min read",
+    summary:
+      "A clear explanation of the payout portal, auto-generated invoices, business details, and how vendors keep the money flow organised.",
+    imageNote:
+      "Use a payout portal and invoice preview with branded business details and confirmation states.",
+    heroNote:
+      "Suggested hero image: a vendor reviewing invoices and payout status beside a branded invoice mockup.",
+    sections: [
+      {
+        heading: "The payout portal should feel obvious",
+        body:
+          "A vendor should always know what is pending, what is paid, and what is still being processed. The payout portal should show current balance, recent settlements, payout timing, and any outstanding issues in a way that feels easy to scan at a glance.",
+      },
+      {
+        heading: "Invoices can be created automatically",
+        body:
+          "The invoice flow should be described as automatic, but still editable. The platform can create a branded invoice from the selected industry, service details, and customer information so the vendor does not need to build each document manually.",
+      },
+      {
+        heading: "Business details make it real",
+        body:
+          "To make the invoice preview credible, the vendor should be able to add a logo, email address, and physical address. That makes the generated invoice feel like a real operating document rather than a generic placeholder.",
+      },
+      {
+        heading: "Why this saves time",
+        body:
+          "When invoicing, branding, and payout visibility live in one system, vendors spend less time switching tools and more time completing jobs. That is especially useful for small businesses that still need a professional-looking back office.",
+      },
+    ],
+  },
+  {
+    slug: "trust-and-verification-are-part-of-the-product",
+    title: "Trust and verification are part of the product",
+    tag: "Safety",
     date: "April 2026",
     readTime: "5 min read",
     summary:
-      "A vendor story covering Resonance testing, analytics, pricing controls, and the dashboard tools that help a business scale.",
+      "Why verified identity, booking-tied reviews, and visible protection are central to the Bouul experience.",
     imageNote:
-      "Use a vendor dashboard screenshot or creator-style profile mockup with analytics visible.",
+      "Use a trust-focused visual with verification badges, booking history, and payout protection states.",
     heroNote:
-      "Suggested hero image: a professional reviewing analytics on desktop while a phone preview shows the public profile.",
+      "Suggested hero image: a clean trust panel showing verification, review confidence, and booking protection.",
     sections: [
       {
-        heading: "A storefront, not just a listing",
+        heading: "Identity before visibility",
         body:
-          "Vendors need more than a name, a phone number, and a category tag. Bouul pushes toward a proper storefront with reviews, verification, service detail, and a richer profile story.",
+          "Bouul should not treat trust as a decorative badge. A professional becomes visible after identity checks and review gating so the customer sees a more reliable profile from the start.",
       },
       {
-        heading: "Testing what converts",
+        heading: "Reviews should mean something",
         body:
-          "Resonance and multi-title, multi-image testing help the platform learn which creative combinations work. That gives professionals a real way to improve conversion without guessing.",
+          "A review only matters if it came from an actual booking. That is why the public trust story needs to explain that feedback is tied to real work rather than casual browsing or synthetic ratings.",
       },
       {
-        heading: "Running the business",
+        heading: "Protection is part of the promise",
         body:
-          "The vendor stack is about operations as much as marketing. Pricing control, analytics, payout visibility, and response tooling all help turn the platform into a practical business system.",
+          "When something goes wrong, the user should know what happens next. A booking protection layer, payout timing, and dispute handling make the product feel safer and more operationally mature.",
+      },
+      {
+        heading: "Trust changes conversion",
+        body:
+          "The simple truth is that trust improves booking conversion. When customers see a verified professional, recent work, transparent reviews, and a clear support path, they are more likely to complete the booking.",
+      },
+    ],
+  },
+  {
+    slug: "magic-remover-for-product-catalogs",
+    title: "Magic Remover for product catalogs",
+    tag: "AI",
+    date: "April 2026",
+    readTime: "5 min read",
+    summary:
+      "How one-pass background cleanup helps businesses present better product photos without expensive shoots or repeated editing.",
+    imageNote:
+      "Use a before/after product shot that shows clutter removed and the final image cleaned up dramatically.",
+    heroNote:
+      "Suggested hero image: a side-by-side product photo comparison with an animated wipe effect.",
+    sections: [
+      {
+        heading: "Product photos are expensive to produce",
+        body:
+          "If a business has dozens of products or services to photograph, the cost is not just the shoot itself. It also includes the photographer, editor, retouching time, and the rounds of revisions that usually follow. For many small businesses, that adds up quickly.",
+      },
+      {
+        heading: "Magic Remover reduces the heavy lifting",
+        body:
+          "The feature should be explained as a quick cleanup tool that removes distractions from a service photo in a single pass. Instead of waiting for a full editing workflow, the business can turn a usable image into a polished asset almost immediately.",
+      },
+      {
+        heading: "Why the before and after matters",
+        body:
+          "A dramatic before-and-after comparison makes the value obvious. The first image shows the real-world photo with clutter or props, while the second shows the final presentation-ready version. That visual gap is what sells the feature.",
+      },
+      {
+        heading: "It scales across a catalogue",
+        body:
+          "This is especially relevant when a business has 50 or more products or services to present. The pitch is not just that one image gets better. It is that the whole catalogue can be improved faster and at lower cost.",
+      },
+    ],
+  },
+  {
+    slug: "social-discovery-and-resonance",
+    title: "Social discovery and the Resonance engine",
+    tag: "Social",
+    date: "April 2026",
+    readTime: "6 min read",
+    summary:
+      "Why Bouul feels social, how the feed works, and how Resonance helps the platform show more relevant content.",
+    imageNote:
+      "Use a vertical reel-style feed or creator-style service cards with favourites and activity signals.",
+    heroNote:
+      "Suggested hero image: a social feed preview with reels, follows, and recommendation signals.",
+    sections: [
+      {
+        heading: "This is discovery with personality",
+        body:
+          "Bouul is not trying to become a generic social network. The social layer exists to make services easier to understand by showing real work, real style, and real activity before the booking happens.",
+      },
+      {
+        heading: "Follow favourites and repeat what works",
+        body:
+          "The follow model matters because people often want the same professionals again. A customer should be able to follow the vendors they trust, see new videos, and get alerted when the right person is available.",
+      },
+      {
+        heading: "Resonance should feel like relevance",
+        body:
+          "Resonance can be described as a personalization and creative-testing system. It learns which titles, visuals, and service signals are resonating with a user and then surfaces the combinations that are more likely to convert.",
+      },
+      {
+        heading: "Why social helps the marketplace",
+        body:
+          "A marketplace becomes more persuasive when users can see the work before they commit. Video, follows, and activity cues help the customer build confidence sooner and make the business feel more alive.",
+      },
+    ],
+  },
+  {
+    slug: "subscriptions-for-recurring-services",
+    title: "Subscriptions for recurring services",
+    tag: "Business",
+    date: "April 2026",
+    readTime: "4 min read",
+    summary:
+      "How recurring bookings work for cleaning, grooming, maintenance, and other repeat services.",
+    imageNote:
+      "Use a subscription plan comparison with weekly, bi-weekly, and monthly rhythms.",
+    heroNote:
+      "Suggested hero image: recurring service cards with schedule, discount, and automation cues.",
+    sections: [
+      {
+        heading: "Some services are meant to repeat",
+        body:
+          "Cleaning, grooming, maintenance, tutoring, and other repeat services do not need a fresh booking every single time. Subscriptions turn those patterns into something more predictable for both sides.",
+      },
+      {
+        heading: "Predictable work helps vendors plan",
+        body:
+          "A vendor with recurring work has better visibility into schedule, income, and staffing. That makes subscriptions useful not just for convenience, but for business planning as well.",
+      },
+      {
+        heading: "Customers want less friction",
+        body:
+          "For the customer, recurring booking should feel like a simple promise: keep the same professional, keep the same rhythm, and reduce the amount of rebooking effort required every month.",
+      },
+    ],
+  },
+  {
+    slug: "localization-that-improves-conversion",
+    title: "Localization that improves conversion",
+    tag: "Growth",
+    date: "April 2026",
+    readTime: "5 min read",
+    summary:
+      "Why tailored section titles, translated menus, and native-language experiences can materially improve conversions.",
+    imageNote:
+      "Use a UI showing translated menus and tailored section headings for different users or regions.",
+    heroNote:
+      "Suggested hero image: a localized app interface with menu translations and custom headings.",
+    sections: [
+      {
+        heading: "Words shape confidence",
+        body:
+          "The same interface can feel very different depending on the wording. Bouul should explain that tailored section titles help users understand what they are looking at faster, especially when the platform adjusts language to match the customer’s context.",
+      },
+      {
+        heading: "Menus should speak the user’s language",
+        body:
+          "Translating menus into native language is not just a convenience layer. It reduces confusion, lowers friction, and can improve the chance that a visitor moves from browsing to booking.",
+      },
+      {
+        heading: "Conversion is a design problem",
+        body:
+          "If people have to translate the interface in their head, the product loses momentum. A localized experience makes the service feel more accessible and makes the path to action easier to complete.",
+      },
+      {
+        heading: "The point is relevance",
+        body:
+          "This feature story should frame localization as a conversion tool, not just a language setting. The goal is to make the experience feel native, understandable, and more trustworthy to the person using it.",
       },
     ],
   },
