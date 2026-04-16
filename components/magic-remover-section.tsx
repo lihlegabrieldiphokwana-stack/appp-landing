@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import { BeforeAfterSlider } from "./before-after-slider";
 
 export const MagicRemoverSection = () => {
   const costs = [
@@ -111,36 +111,13 @@ export const MagicRemoverSection = () => {
                   <span>One pass cleanup</span>
                 </div>
 
-                <div className="grid grid-cols-2 gap-3 flex-1 min-h-0">
-                  <div className="relative rounded-[1.7rem] overflow-hidden border border-white/10 bg-neutral-900">
-                    <Image
-                      src="/optimized/magic_remover_before.jpg"
-                      alt="Before cleanup"
-                      fill
-                      className="object-cover scale-110"
-                    />
-                    <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,153,0,0.35),rgba(255,153,0,0.52))]" />
-                    <div className="absolute left-3 top-3 rounded-full bg-black/50 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-neutral-300">
-                      Before
-                    </div>
-                  </div>
-
-                  <div className="relative rounded-[1.7rem] overflow-hidden border border-emerald-400/15 bg-neutral-950">
-                    <Image
-                      src="/optimized/magic_remover_after.jpg"
-                      alt="After cleanup"
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.10),transparent_40%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.24),transparent_18%)]" />
-                    <div className="absolute left-3 top-3 rounded-full bg-emerald-400/15 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-emerald-300">
-                      After
-                    </div>
-                    <div className="absolute right-3 bottom-3 rounded-full border border-emerald-400/30 bg-black/45 px-2 py-1 text-[9px] text-emerald-300">
-                      Ready to publish
-                    </div>
-                  </div>
-                </div>
+                <BeforeAfterSlider
+                  beforeSrc="/optimized/magic_remover_before.jpg"
+                  afterSrc="/optimized/magic_remover_after.jpg"
+                  beforeAlt="Original product photo before Magic Remover cleanup"
+                  afterAlt="Clean product photo after Magic Remover cleanup"
+                  className="flex-1 min-h-0 rounded-[1.7rem] border border-white/10"
+                />
 
                 <div className="rounded-[1.7rem] border border-white/10 bg-white/5 p-4">
                   <div className="flex items-center justify-between mb-2">

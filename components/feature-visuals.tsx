@@ -1,65 +1,20 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import { BeforeAfterSlider } from "./before-after-slider";
 
 export const MagicRemoverVisual = () => {
   return (
     <div className="h-36 rounded-xl mb-4 overflow-hidden border border-emerald-500/15 bg-neutral-950 relative">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.08),transparent_30%)]" />
-      <div className="relative h-full overflow-hidden bg-neutral-900">
-        <Image
-          src="/optimized/magic_remover_before.jpg"
-          alt="Magic remover before"
-          fill
-          className="object-cover scale-110 saturate-110"
-        />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,153,0,0.34),rgba(255,153,0,0.46))]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_30%,rgba(0,0,0,0.16),transparent_10%),radial-gradient(circle_at_75%_35%,rgba(0,0,0,0.12),transparent_12%),radial-gradient(circle_at_55%_70%,rgba(0,0,0,0.10),transparent_15%)]" />
-        <div className="absolute left-3 top-3 rounded-full bg-black/50 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-neutral-300">
-          Before
-        </div>
-        <div className="absolute inset-x-4 bottom-4 h-10 rounded-2xl border border-white/10 bg-black/35" />
-        <div className="absolute left-5 bottom-6 h-16 w-16 rounded-full border border-white/10 bg-black/20 blur-[1px]" />
-        <div className="absolute right-8 bottom-10 h-8 w-8 rounded-full border border-white/10 bg-black/20 blur-[1px]" />
-
-        <motion.div
-          initial={{ clipPath: "inset(0 100% 0 0)" }}
-          whileInView={{ clipPath: ["inset(0 100% 0 0)", "inset(0 0% 0 0)", "inset(0 14% 0 0)"] }}
-          viewport={{ once: true, amount: 0.7 }}
-          transition={{ duration: 1.8, ease: "easeInOut", times: [0, 0.68, 1] }}
-          className="absolute inset-0 overflow-hidden"
-        >
-          <Image
-            src="/optimized/magic_remover_after.jpg"
-            alt="Magic remover after"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.08),transparent_35%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.24),transparent_18%)]" />
-          <div className="absolute left-3 top-3 rounded-full bg-emerald-400/15 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-emerald-300">
-            After
-          </div>
-          <div className="absolute inset-x-4 bottom-4 h-10 rounded-2xl border border-emerald-400/20 bg-emerald-400/8" />
-          <div className="absolute right-4 top-10 h-8 w-8 rounded-full bg-emerald-400/80 blur-sm" />
-          <div className="absolute right-3 bottom-3 rounded-full border border-emerald-400/30 bg-black/45 px-2 py-1 text-[9px] text-emerald-300">
-            Clean pass
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ left: "100%" }}
-          whileInView={{ left: "14%" }}
-          viewport={{ once: true, amount: 0.7 }}
-          transition={{ duration: 1.8, ease: "easeInOut" }}
-          className="absolute top-0 bottom-0 w-0.5 bg-emerald-300 shadow-[0_0_24px_rgba(52,211,153,0.75)]"
-        >
-          <div className="absolute top-1/2 left-1/2 h-10 w-10 -translate-x-1/2 -translate-y-1/2 rounded-full border border-emerald-300/35 bg-black/55 backdrop-blur-md flex items-center justify-center">
-            <div className="h-4 w-4 rounded-full border border-emerald-300/60" />
-          </div>
-        </motion.div>
-      </div>
+      <BeforeAfterSlider
+        beforeSrc="/optimized/magic_remover_before.jpg"
+        afterSrc="/optimized/magic_remover_after.jpg"
+        beforeAlt="Original product photo before Magic Remover cleanup"
+        afterAlt="Clean product photo after Magic Remover cleanup"
+        className="h-full"
+        compact
+      />
     </div>
   );
 };
