@@ -1,22 +1,31 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { BeforeAfterSlider } from "./before-after-slider";
 
 export const MagicRemoverVisual = () => {
   return (
     <div className="h-36 rounded-xl mb-4 overflow-hidden border border-emerald-500/15 bg-neutral-950 relative">
-      <BeforeAfterSlider
-        beforeSrc="/optimized/magic_remover_after.jpg"
-        afterSrc="/optimized/magic_remover_before.jpg"
-        beforeAlt="Clean product photo before Magic Remover comparison"
-        afterAlt="Original product photo after comparison"
-        beforeLabel="After"
-        afterLabel="Before"
-        className="h-full"
-        compact
+      <Image
+        src="/optimized/magic_remover_after.jpg"
+        alt="Clean product photo after Magic Remover cleanup"
+        fill
+        className="object-cover"
+        sizes="360px"
       />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10" />
+      <div className="absolute left-3 top-3 rounded-full bg-emerald-400/90 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-black">
+        Clean pass
+      </div>
+      <div className="absolute inset-x-3 bottom-3 rounded-xl border border-white/10 bg-black/55 px-3 py-2 backdrop-blur-md">
+        <div className="text-[9px] uppercase tracking-[0.2em] text-emerald-300">
+          Ready to publish
+        </div>
+        <div className="mt-1 text-xs text-neutral-200">
+          Product photo cleaned for the listing.
+        </div>
+      </div>
     </div>
   );
 };
