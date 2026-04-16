@@ -2,6 +2,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BentoGrid, BentoGridItem } from "@/components/bento-grid";
+import {
+  MagicRemoverVisual,
+  DashboardVisual,
+  RewardsVisual,
+  DisputeVisual,
+  LiveChatVisual,
+  VideoFeedVisual,
+  VettedProsVisual,
+  BookingVisual,
+} from "@/components/feature-visuals";
 
 const MagicRemoverIcon = () => (
   <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,88 +68,56 @@ const bentoItems = [
     description: "Magic Remover uses computer vision to identify and remove unwanted elements from your service photos with a single pass.",
     icon: <MagicRemoverIcon />,
     className: "md:col-span-2",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-emerald-500/10 to-teal-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-emerald-400/30 text-xs font-mono">AI MAGIC REMOVER</div>
-      </div>
-    ),
+    header: <MagicRemoverVisual />,
   },
   {
     title: "Your business. At a glance.",
     description: "The vendor dashboard brings bookings, earnings, reviews, and analytics into one clean interface.",
     icon: <VendorIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-blue-500/10 to-indigo-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-blue-400/30 text-xs font-mono">DASHBOARD</div>
-      </div>
-    ),
+    header: <DashboardVisual />,
   },
   {
     title: "Earn while you book.",
     description: "Refer friends and earn credits on every booking they make. The more you share, the more you save.",
     icon: <RewardsIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-yellow-500/10 to-amber-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-yellow-400/30 text-xs font-mono">REWARDS</div>
-      </div>
-    ),
+    header: <RewardsVisual />,
   },
   {
     title: "Fair. Always.",
     description: "Community-powered dispute resolution with transparent mediation. Every case handled with integrity and speed.",
     icon: <DisputeIcon />,
     className: "md:col-span-2",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-purple-500/10 to-violet-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-purple-400/30 text-xs font-mono">DISPUTE RESOLUTION</div>
-      </div>
-    ),
+    header: <DisputeVisual />,
   },
   {
     title: "Talk to your professional.",
     description: "In-app live chat so you can coordinate directly with your service provider. No phone calls needed.",
     icon: <ChatIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-cyan-500/10 to-sky-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-cyan-400/30 text-xs font-mono">LIVE CHAT</div>
-      </div>
-    ),
+    header: <LiveChatVisual />,
   },
   {
     title: "See the work before you book.",
     description: "Short-form video from real professionals. Watch their craft, their style, their results — before you commit.",
     icon: <VideoIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-rose-500/10 to-pink-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-rose-400/30 text-xs font-mono">VIDEO FEED</div>
-      </div>
-    ),
+    header: <VideoFeedVisual />,
   },
   {
     title: "Trusted by design.",
     description: "Every professional goes through identity verification and a review process before they appear on Bouul.",
     icon: <VettedIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-emerald-500/10 to-green-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-emerald-400/30 text-xs font-mono">VETTED PROS</div>
-      </div>
-    ),
+    header: <VettedProsVisual />,
   },
   {
     title: "Zero waiting. Zero guessing.",
     description: "Book a service in under 30 seconds. Quick confirmation, live status updates, and automatic reminders.",
     icon: <BookingIcon />,
     className: "",
-    header: (
-      <div className="h-24 bg-gradient-to-br from-orange-500/10 to-amber-500/5 rounded-xl mb-4 flex items-center justify-center">
-        <div className="text-orange-400/30 text-xs font-mono">INSTANT BOOKING</div>
-      </div>
-    ),
+    header: <BookingVisual />,
   },
 ];
 
