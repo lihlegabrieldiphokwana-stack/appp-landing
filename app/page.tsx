@@ -5,6 +5,9 @@ import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
 import { DiscoveryPreview } from "@/components/discovery-preview";
+import { TrustPreview } from "@/components/trust-preview";
+import { TrackingPreview } from "@/components/tracking-preview";
+import { SocialPreview } from "@/components/social-preview";
 import { ZolaSection } from "@/components/zola-section";
 import { ResonanceEngine } from "@/components/resonance-engine";
 import { PlatformStory } from "@/components/platform-story";
@@ -62,6 +65,7 @@ export default function LandingPage() {
         headline="Book with total confidence."
         body="Every professional is reviewed, rated, and screened."
         secondaryBody="Trust is built through transparency. We verify key details on the platform so you can focus on getting the job done with more confidence."
+        appPreview={<TrustPreview />}
         cards={[
           {
             title: "Verified Identity",
@@ -88,6 +92,7 @@ export default function LandingPage() {
         headline="Watch it happen. Live."
         body="Real-time GPS tracking. Live status updates."
         secondaryBody="No more 'where is my pro?' anxiety. Bouul gives you clearer visibility into booking progress from start to finish."
+        appPreview={<TrackingPreview />}
         cards={[
           {
             title: "Live GPS",
@@ -125,6 +130,7 @@ export default function LandingPage() {
         headline="A marketplace that knows you."
         body="Short-form video from professionals. Curated by what you book."
         secondaryBody="Experience the craft before you commit. The social feed brings more context to discovery so skill and personality show up earlier."
+        appPreview={<SocialPreview />}
         cards={[
           {
             title: "Video Feed",

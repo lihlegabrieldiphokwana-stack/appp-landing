@@ -37,6 +37,7 @@ export const FeatureSection = ({
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const totalCards = cards?.length ?? 0;
+  const hasPreview = Boolean(appPreview);
 
   const handleScroll = () => {
     if (scrollRef.current) {
@@ -62,7 +63,9 @@ export const FeatureSection = ({
     <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div
-          className={`flex flex-col lg:flex-row items-center gap-16 md:gap-24 mb-20 ${
+          className={`flex flex-col lg:flex-row ${hasPreview ? "items-center" : "items-start"} gap-12 md:gap-20 ${
+            hasPreview ? "mb-20" : "mb-12 md:mb-16"
+          } ${
             align === "left" ? "lg:flex-row-reverse" : ""
           }`}
         >
@@ -72,7 +75,7 @@ export const FeatureSection = ({
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.7 }}
-            className="flex-1 max-w-lg"
+            className={`flex-1 ${hasPreview ? "max-w-lg" : "max-w-2xl"}`}
           >
             <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
               {label}

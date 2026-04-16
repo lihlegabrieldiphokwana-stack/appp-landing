@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp-effect";
 import { VendorDashboardPreview } from "@/components/vendor-dashboard-preview";
+import { VendorOpsPreview } from "@/components/vendor-ops-preview";
 
 export const VendorSection = () => {
   return (
@@ -24,6 +25,16 @@ export const VendorSection = () => {
 
       {/* Stats row */}
       <div className="max-w-5xl mx-auto px-6 pb-24">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="mb-10"
+        >
+          <VendorOpsPreview />
+        </motion.div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 border border-neutral-800 rounded-2xl overflow-hidden">
           {[
             { stat: "More", label: "bookings" },
