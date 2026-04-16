@@ -146,9 +146,11 @@ export const FeatureSection = ({
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 pt-2">
+            <div className="flex gap-5 overflow-x-auto overscroll-x-contain pb-6 pt-2 snap-x snap-mandatory">
               {cards.map((card, i) => (
-                <MechanicCard key={i} card={card} index={i} />
+                <div key={i} className="snap-start">
+                  <MechanicCard card={card} index={i} />
+                </div>
               ))}
             </div>
           </motion.div>

@@ -52,7 +52,7 @@ export const SubscriptionSection = () => {
 
         {/* Subscription Cards Row */}
         <div className="relative w-full">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pb-12 pt-4">
+          <div className="flex gap-6 overflow-x-auto overscroll-x-contain pb-12 pt-4 snap-x snap-mandatory">
             {SUBSCRIPTION_PLANS.map((plan, i) => (
               <motion.div
                 key={plan.title}
@@ -60,7 +60,7 @@ export const SubscriptionSection = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex-shrink-0 w-[300px] md:w-[380px] bg-neutral-950 border border-neutral-800 rounded-[2rem] p-8 flex flex-col gap-6 group hover:border-emerald-500/40 transition-all"
+                className="snap-start flex-shrink-0 w-[300px] md:w-[380px] bg-neutral-950 border border-neutral-800 rounded-[2rem] p-8 flex flex-col gap-6 group hover:border-emerald-500/40 transition-all"
               >
                 <div className="w-14 h-14 rounded-2xl bg-neutral-900 border border-neutral-800 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
                   {plan.icon}
@@ -90,7 +90,7 @@ export const SubscriptionSection = () => {
                     </svg>
                   </div>
                 </div>
-                </motion.div>
+              </motion.div>
             ))}
           </div>
         </div>
