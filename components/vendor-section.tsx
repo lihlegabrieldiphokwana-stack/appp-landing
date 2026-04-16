@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp-effect";
+import { VendorDashboardPreview } from "@/components/vendor-dashboard-preview";
 
 export const VendorSection = () => {
   return (
@@ -106,7 +107,7 @@ export const VendorSection = () => {
           </a>
         </motion.div>
 
-        {/* Tablet placeholder */}
+        {/* Dashboard preview */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -115,16 +116,13 @@ export const VendorSection = () => {
           className="mt-16 flex justify-center"
         >
           <div
-            className="bg-neutral-900 border border-neutral-800 rounded-3xl flex items-center justify-center"
+            className="relative overflow-hidden bg-neutral-900 border border-neutral-800 rounded-3xl shadow-2xl shadow-black/40"
             style={{
               width: "min(820px, 90vw)",
               aspectRatio: "820/1180",
             }}
           >
-            <div className="text-center">
-              <div className="text-neutral-600 text-xs font-mono">820 × 1180</div>
-              <div className="text-neutral-700 text-[10px]">Vendor Dashboard Preview</div>
-            </div>
+            <VendorDashboardPreview />
           </div>
         </motion.div>
       </div>

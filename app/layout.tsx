@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Bouul",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/hero-banner-desktop.png",
         width: 1200,
         height: 630,
         alt: "Bouul",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bouul — Your city's marketplace.",
     description: "Book vetted service professionals near you.",
-    images: ["/og-image.jpg"],
+    images: ["/hero-banner-desktop.png"],
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ export default function RootLayout({
               "description": "Hyper-local services marketplace connecting you with trusted professionals in your area.",
               "url": "https://bouul.com",
               "logo": "https://bouul.com/bouul-logo.png",
-              "image": "https://bouul.com/og-image.jpg",
+              "image": "https://bouul.com/hero-banner-desktop.png",
               "telephone": "+27-11-123-4567",
               "email": "support@bouul.com",
               "address": {

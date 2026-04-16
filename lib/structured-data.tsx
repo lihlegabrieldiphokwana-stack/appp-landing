@@ -23,7 +23,7 @@ export const generateLocalBusinessSchema = (): LocalBusinessSchema => ({
   description: "Hyper-local services marketplace connecting you with trusted professionals in your area. Book plumbers, electricians, cleaners, and more.",
   url: BASE_URL,
   logo: `${BASE_URL}/bouul-logo.png`,
-  image: `${BASE_URL}/og-image.jpg`,
+  image: `${BASE_URL}/hero-banner-desktop.png`,
   telephone: "+27-11-123-4567",
   email: "support@bouul.com",
   address: {

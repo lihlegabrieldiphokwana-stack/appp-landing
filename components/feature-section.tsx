@@ -1,6 +1,6 @@
 "use client";
-import React, { useRef, useState, useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import React, { useRef, useState } from "react";
+import { motion } from "framer-motion";
 import { MechanicCard } from "./mechanic-card";
 
 export interface FeatureCard {
@@ -19,7 +19,7 @@ interface FeatureSectionProps {
   cards?: FeatureCard[];
   align: "left" | "right";
   placeholderLabel: string;
-  appPreview?: string;
+  appPreview?: string | React.ReactNode;
 }
 
 export const FeatureSection = ({
@@ -36,13 +36,7 @@ export const FeatureSection = ({
 }: FeatureSectionProps) => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [totalCards, setTotalCards] = useState(0);
-
-  useEffect(() => {
-    if (cards) {
-      setTotalCards(cards.length);
-    }
-  }, [cards]);
+  const totalCards = cards?.length ?? 0;
 
   const handleScroll = () => {
     if (scrollRef.current) {
@@ -109,7 +103,7 @@ export const FeatureSection = ({
             )}
           </motion.div>
 
-          {/* Phone placeholder side - only render if appPreview exists */}
+          {/* Phone preview side - render either an image or a custom mockup */}
           {appPreview && (
             <motion.div
               initial={{ opacity: 0, x: align === "left" ? -30 : 30 }}
@@ -119,17 +113,21 @@ export const FeatureSection = ({
               className="flex-1 flex justify-center"
             >
               <div
-                className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative"
+                className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative shadow-2xl shadow-black/40"
                 style={{
                   width: "min(428px, 85vw)",
                   aspectRatio: "428/930.53",
                 }}
               >
-                <img
-                  src={appPreview}
-                  alt={placeholderLabel}
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+                {typeof appPreview === "string" ? (
+                  <img
+                    src={appPreview}
+                    alt={placeholderLabel}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="absolute inset-0">{appPreview}</div>
+                )}
                 {/* Home indicator */}
                 <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
                   <div className="w-28 h-1 bg-white/20 rounded-full backdrop-blur-md" />

@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { BouulHero } from "@/components/bouul-hero";
 import { CinematicStrip } from "@/components/cinematic-strip";
 import { FeatureSection } from "@/components/feature-section";
+import { DiscoveryPreview } from "@/components/discovery-preview";
 import { ZolaSection } from "@/components/zola-section";
 import { ResonanceEngine } from "@/components/resonance-engine";
 import { PlatformStory } from "@/components/platform-story";
@@ -36,12 +37,12 @@ export default function LandingPage() {
         headline="Find anything. In seconds."
         body="Every service category. Every neighbourhood."
         secondaryBody="Stop scrolling through endless lists. Bouul simplifies discovery by mapping the city's top talent to your exact coordinates, ensuring the best help is always within reach."
-        appPreview={undefined}
+        appPreview={<DiscoveryPreview />}
         cards={[
           {
             title: "Instant Search",
             description: "Find the perfect professional in seconds. Our high-performance search engine delivers instant results as you type, matching your exact needs with local expertise.",
-            image: "/instant_search.jpg"
+            image: "/Group%201686.png"
           },
           {
             title: "Location-aware",
@@ -70,12 +71,12 @@ export default function LandingPage() {
           {
             title: "5-Star Reviews",
             description: "Authenticity you can count on. Browse thousands of community-vetted reviews, left only by real customers after a verified service completion.",
-            image: "/5_star_reviews.jpg"
+            image: "/follow_favourites.jpg"
           },
           {
             title: "Secure Payments",
             description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected.",
-            image: "/secure_payments.jpg"
+            image: "/hero-banner-desktop.png"
           }
         ]}
         align="left"
@@ -91,7 +92,7 @@ export default function LandingPage() {
           {
             title: "Live GPS",
             description: "Never wonder where your pro is. Watch their progress in real-time on a live map, from the moment they start their journey until they arrive at your door.",
-            image: "/live_gps.jpg"
+            image: "/hero-banner-mobile.png"
           },
           {
             title: "Push Notifications",
@@ -101,7 +102,7 @@ export default function LandingPage() {
           {
             title: "In-App Chat",
             description: "Seamless communication at every step. Message your professional directly within the app to share details, photos, or instructions in a secure environment.",
-            image: "/in_app_chat.jpg"
+            image: "/real_time_notifications.jpg"
           }
         ]}
         align="right"
