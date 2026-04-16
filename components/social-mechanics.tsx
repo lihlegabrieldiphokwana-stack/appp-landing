@@ -1,6 +1,6 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 
 // ─── Live activity feed ───────────────────────────────────────────────────────
 const ACTIVITIES = [
@@ -14,37 +14,21 @@ const ACTIVITIES = [
   { avatar: "D", name: "Dineo M.", action: "booked a cleaner in Rosebank", time: "9m ago", color: "bg-orange-500" },
 ];
 
-const VISIBLE = 4; // how many notifications show at once
-
 const ActivityFeed = () => {
-  const [offset, setOffset] = useState(0);
-
-  useEffect(() => {
-    const id = setInterval(() => {
-      setOffset((o) => (o + 1) % ACTIVITIES.length);
-    }, 2200);
-    return () => clearInterval(id);
-  }, []);
-
-  const visible = Array.from({ length: VISIBLE }, (_, i) =>
-    ACTIVITIES[(offset + i) % ACTIVITIES.length]
-  );
-
   return (
     <div className="flex flex-col gap-2.5 w-full max-w-sm">
       <div className="flex items-center gap-2 mb-1">
         <div className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
         <span className="text-neutral-500 text-xs uppercase tracking-widest">Live in your city</span>
       </div>
-      <AnimatePresence mode="popLayout">
-        {visible.map((item, i) => (
+      <div className="space-y-2">
+        {ACTIVITIES.slice(0, 4).map((item, i) => (
           <motion.div
             key={item.name + item.action}
-            layout
-            initial={{ opacity: 0, y: -12, scale: 0.97 }}
-            animate={{ opacity: i === 0 ? 1 : 0.6 + i * 0.05, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 12, scale: 0.97 }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.35, delay: i * 0.05 }}
             className="flex items-center gap-3 bg-neutral-950 border border-neutral-800 rounded-xl px-4 py-3"
           >
             <div className={`w-8 h-8 rounded-full ${item.color} flex items-center justify-center flex-shrink-0`}>
@@ -59,7 +43,7 @@ const ActivityFeed = () => {
             </span>
           </motion.div>
         ))}
-      </AnimatePresence>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 const SUBSCRIPTION_PLANS = [
@@ -27,8 +27,6 @@ const SUBSCRIPTION_PLANS = [
 ];
 
 export const SubscriptionSection = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
-
   return (
     <section className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
@@ -54,14 +52,7 @@ export const SubscriptionSection = () => {
 
         {/* Subscription Cards Row */}
         <div className="relative w-full">
-          <div
-            ref={scrollRef}
-            className="flex gap-6 overflow-x-auto pb-12 pt-4 no-scrollbar cursor-grab active:cursor-grabbing"
-            style={{
-              scrollbarWidth: "none",
-              msOverflowStyle: "none",
-            }}
-          >
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pb-12 pt-4">
             {SUBSCRIPTION_PLANS.map((plan, i) => (
               <motion.div
                 key={plan.title}
@@ -99,10 +90,8 @@ export const SubscriptionSection = () => {
                     </svg>
                   </div>
                 </div>
-              </motion.div>
+                </motion.div>
             ))}
-            {/* Spacer for scroll end padding */}
-            <div className="flex-shrink-0 w-6" />
           </div>
         </div>
       </div>
