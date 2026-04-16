@@ -28,10 +28,10 @@ export const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center gap-4 h-16">
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-400 hover:text-white"
+            className="md:hidden text-gray-400 hover:text-white shrink-0"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,8 +53,8 @@ export const Navbar = () => {
             </svg>
           </button>
 
-          {/* Logo - Centered on mobile, left on desktop */}
-          <Link href="/" className="flex items-center gap-2 md:absolute md:left-1/2 md:-translate-x-1/2">
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="w-8 h-8 rounded-xl overflow-hidden">
               <img src="/bouul-logo.png" alt="Bouul" className="w-full h-full object-cover" />
             </div>
@@ -64,8 +64,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
-            <CityDetector compact />
+          <div className="hidden lg:flex flex-1 items-center justify-center gap-6">
             <Link
               href="/services"
               className="text-gray-400 hover:text-white transition-colors text-xs flex items-center gap-1.5"
@@ -188,6 +187,10 @@ export const Navbar = () => {
             >
               FAQ
             </Link>
+          </div>
+
+          <div className="hidden md:flex items-center gap-4 shrink-0 ml-auto">
+            <CityDetector compact />
             <Link
               href="/download"
               className="px-4 py-1.5 bg-emerald-500 hover:bg-emerald-600 text-black font-medium rounded-full transition-colors text-xs"

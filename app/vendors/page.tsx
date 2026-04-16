@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Navbar } from "@/components/navbar";
 import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
@@ -87,8 +87,8 @@ const vendorFeatures: VendorFeature[] = [
 ];
 
 const vendorStats: VendorStat[] = [
-  { stat: "10x", label: "more bookings", description: "Vendors see an average 10x increase in monthly bookings" },
-  { stat: "40-60%", label: "revenue growth", description: "Top performers increase revenue by 40-60%" },
+  { stat: "More", label: "bookings", description: "Vendors can improve monthly booking volume as their profile and content get stronger" },
+  { stat: "Higher", label: "revenue", description: "Top performers can see stronger revenue when conversion improves" },
   { stat: "Zero", label: "hidden fees", description: "Transparent pricing with no surprise commissions" },
   { stat: "Full", label: "control", description: "Complete dashboard control over your business" },
 ];
@@ -498,7 +498,7 @@ const painPoints: MainPainPoint[] = [
   {
     problem: "15-25% Commission Fees",
     current: "Other platforms take a huge cut of every job",
-    bouul: "0% commission. Keep 100% of what you earn.",
+    bouul: "Clear platform fees and no surprise deductions.",
     icon: "💸",
   },
   {
@@ -528,7 +528,7 @@ const painPoints: MainPainPoint[] = [
   {
     problem: "Email-Only Support",
     current: "Wait days for responses to urgent issues",
-    bouul: "24/7 priority support. Real humans, real help.",
+    bouul: "Priority support from real humans.",
     icon: "🎧",
   },
 ];
@@ -575,7 +575,7 @@ const PersonalizedVendorHero: React.FC<{
               </>
             ) : (
               <>
-                See how you can earn more, work smarter, and keep 100% of your profits.
+                See how you can earn more, work smarter, and keep more of what you make.
               </>
             )}
           </p>
@@ -979,8 +979,8 @@ const OnboardingJourneySection: React.FC<{ businessName: string }> = ({ business
     {
       title: "Grow & Earn",
       description: businessName
-        ? `Collect 100% of ${businessName}'s revenue with 24-48h payouts. Build your direct client base.`
-        : "Collect 100% of your revenue with 24-48h payouts. Build your direct client base.",
+        ? `Keep more of ${businessName}'s revenue with 24-48h payouts. Build your direct client base.`
+        : "Keep more of your revenue with 24-48h payouts. Build your direct client base.",
       icon: (
         <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1045,12 +1045,431 @@ const OnboardingJourneySection: React.FC<{ businessName: string }> = ({ business
   );
 };
 
+// Operating Model Section
+const OperatingModelSection: React.FC = () => {
+  const models = [
+    {
+      title: "Pick a vendor",
+      description:
+        "Customers compare vendors by location, availability, rating, and service fit before they book.",
+    },
+    {
+      title: "Vendor dashboard",
+      description:
+        "The dashboard is the control room: bookings, pricing, payouts, analytics, and content live together.",
+    },
+    {
+      title: "Team and employee mode",
+      description:
+        "Businesses can route work to staff or contractors, assign jobs, and keep calendars aligned.",
+    },
+    {
+      title: "Microtasks and quick jobs",
+      description:
+        "Small one-off jobs like quick fixes, pickups, and short visits can be handled as lightweight bookings.",
+    },
+    {
+      title: "Subscription models",
+      description:
+        "Recurring work like cleaning, tutoring, maintenance, or monitoring can run on weekly or monthly cycles.",
+    },
+  ];
+
+  return (
+    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="max-w-3xl mb-12"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            OPERATING MODEL
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            Built for the full service workflow.
+          </h2>
+          <p className="text-neutral-500 text-lg leading-relaxed">
+            Bouul is not only a place to list services. It is designed to handle
+            how customers pick a vendor, how professionals manage the work, and
+            how recurring jobs or team-based businesses stay organized.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
+          {models.map((model, index) => (
+            <motion.div
+              key={model.title}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.45, delay: index * 0.06 }}
+              className="rounded-2xl border border-neutral-800 bg-black p-6"
+            >
+              <div className="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
+                {index + 1}
+              </div>
+              <h3 className="text-white font-semibold text-lg mb-3">
+                {model.title}
+              </h3>
+              <p className="text-neutral-500 text-sm leading-relaxed">
+                {model.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+// Invoice and payout simulation
+const InvoicePayoutSection: React.FC<{
+  businessName: string;
+  selectedCategory: string;
+  selectedService: string;
+}> = ({ businessName, selectedCategory, selectedService }) => {
+  const categoryData = vendorServiceCategories.find((c) => c.slug === selectedCategory);
+  const serviceData = categoryData?.services.find((s) => s.name === selectedService);
+  const [contactEmail, setContactEmail] = useState("");
+  const [billingAddress, setBillingAddress] = useState("");
+  const [logoPreview, setLogoPreview] = useState<string>("");
+  const logoInputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    return () => {
+      if (logoPreview) {
+        URL.revokeObjectURL(logoPreview);
+      }
+    };
+  }, [logoPreview]);
+
+  const handleLogoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const nextPreview = URL.createObjectURL(file);
+    setLogoPreview((current) => {
+      if (current) URL.revokeObjectURL(current);
+      return nextPreview;
+    });
+  };
+
+  const resetPreview = () => {
+    setContactEmail("");
+    setBillingAddress("");
+    setLogoPreview((current) => {
+      if (current) URL.revokeObjectURL(current);
+      return "";
+    });
+    if (logoInputRef.current) {
+      logoInputRef.current.value = "";
+    }
+  };
+
+  const payoutRows = [
+    { label: "Booking total", value: "R1,250.00" },
+    { label: "Service fee", value: "Shown before checkout" },
+    { label: "Estimated payout", value: "24-48h after completion" },
+  ];
+
+  return (
+    <section className="py-24 bg-black border-t border-neutral-900">
+      <div className="max-w-7xl mx-auto px-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-12 max-w-3xl"
+        >
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            PAYOUTS + INVOICES
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+            Invoices are created from the booking flow.
+          </h2>
+          <p className="text-neutral-500 text-lg leading-relaxed">
+            Pick an industry and service, add your email, address, and logo, and
+            Bouul can simulate the invoice that would be generated for that job.
+            The logo preview lives only in this session and resets when you
+            refresh or leave the page.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <motion.div
+            initial={{ opacity: 0, x: -18 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.55 }}
+            className="rounded-3xl border border-neutral-800 bg-neutral-950 p-6 md:p-8"
+          >
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-2">
+                  Invoice details
+                </div>
+                <div className="text-white text-xl font-semibold">
+                  Set up the invoice profile
+                </div>
+              </div>
+              <div className="px-3 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 text-emerald-300 text-[10px] font-bold uppercase tracking-[0.22em]">
+                Temporary preview
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4">
+              <div className="rounded-2xl border border-neutral-800 bg-black p-4">
+                <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2">
+                  Selected industry
+                </div>
+                <div className="text-white font-medium">
+                  {categoryData?.name || "Select an industry above"}
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-neutral-800 bg-black p-4">
+                <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2">
+                  Selected service
+                </div>
+                <div className="text-white font-medium">
+                  {serviceData?.name || "Then pick a service"}
+                </div>
+              </div>
+
+              <label className="block">
+                <span className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2 block">
+                  Invoice email
+                </span>
+                <input
+                  type="email"
+                  value={contactEmail}
+                  onChange={(e) => setContactEmail(e.target.value)}
+                  placeholder="accounts@yourbusiness.com"
+                  className="w-full px-4 py-3 rounded-2xl bg-black border border-neutral-800 text-white placeholder-neutral-600 focus:outline-none focus:border-emerald-500"
+                />
+              </label>
+
+              <label className="block">
+                <span className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2 block">
+                  Invoice address
+                </span>
+                <textarea
+                  value={billingAddress}
+                  onChange={(e) => setBillingAddress(e.target.value)}
+                  placeholder="123 Business Street, Sandton, Johannesburg"
+                  rows={3}
+                  className="w-full px-4 py-3 rounded-2xl bg-black border border-neutral-800 text-white placeholder-neutral-600 focus:outline-none focus:border-emerald-500 resize-none"
+                />
+              </label>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="rounded-2xl border border-neutral-800 bg-black p-4">
+                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-3">
+                    Logo
+                  </div>
+                  <input
+                    ref={logoInputRef}
+                    type="file"
+                    accept="image/*"
+                    onChange={handleLogoChange}
+                    className="hidden"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => logoInputRef.current?.click()}
+                    className="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white text-sm hover:border-emerald-500/40 transition-colors"
+                  >
+                    Upload temporary logo
+                  </button>
+                </div>
+
+                <div className="rounded-2xl border border-neutral-800 bg-black p-4">
+                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-3">
+                    Session note
+                  </div>
+                  <p className="text-neutral-400 text-sm leading-relaxed">
+                    The uploaded logo is only used in this preview and clears on
+                    refresh or when you reset the form.
+                  </p>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={resetPreview}
+                className="inline-flex w-fit px-4 py-2 rounded-full border border-neutral-800 text-neutral-300 text-sm hover:text-white hover:border-neutral-700 transition-colors"
+              >
+                Reset invoice preview
+              </button>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 18 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.55, delay: 0.05 }}
+            className="rounded-3xl border border-neutral-800 bg-neutral-950 p-6 md:p-8"
+          >
+            <div className="flex items-center justify-between gap-4 mb-6">
+              <div>
+                <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-2">
+                  Payout portal
+                </div>
+                <div className="text-white text-xl font-semibold">
+                  Invoice and payout preview
+                </div>
+              </div>
+              <div className="px-3 py-1.5 rounded-full border border-neutral-800 text-neutral-400 text-[10px] font-bold uppercase tracking-[0.22em]">
+                Auto-created
+              </div>
+            </div>
+
+            <div className="rounded-[1.75rem] border border-neutral-800 bg-black p-5 md:p-6">
+              <div className="flex items-start justify-between gap-4 mb-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-2xl border border-neutral-800 bg-neutral-900 overflow-hidden flex items-center justify-center shrink-0">
+                    {logoPreview ? (
+                      <img src={logoPreview} alt="Temporary logo preview" className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="text-neutral-500 text-xs font-semibold">LOGO</span>
+                    )}
+                  </div>
+                  <div>
+                    <div className="text-white font-semibold text-lg">
+                      {businessName || "Your business"}
+                    </div>
+                    <div className="text-neutral-500 text-xs uppercase tracking-[0.22em]">
+                      {categoryData?.name || "Industry not selected"}
+                    </div>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
+                    Invoice
+                  </div>
+                  <div className="text-white font-semibold">#INV-0248</div>
+                </div>
+              </div>
+
+              <div className="space-y-4 border-t border-neutral-900 pt-5">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
+                      Bill to
+                    </div>
+                    <div className="text-white text-sm font-medium">
+                      {contactEmail || "client@email.com"}
+                    </div>
+                    <div className="text-neutral-500 text-sm mt-1">
+                      {billingAddress || "Client address goes here"}
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
+                      Current selection
+                    </div>
+                    <div className="text-white text-sm font-medium">
+                      {serviceData?.name || "Select a service"}
+                    </div>
+                    <div className="text-neutral-500 text-sm">
+                      {categoryData?.name || "Industry not chosen"}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4">
+                  <div className="space-y-3">
+                    {[
+                      { label: serviceData?.name || "Service booking", value: "R1,250.00" },
+                      { label: "Platform fee", value: "Visible before checkout" },
+                      { label: "Payout", value: "Released after completion" },
+                    ].map((row) => (
+                      <div key={row.label} className="flex items-center justify-between gap-4">
+                        <span className="text-neutral-400 text-sm">{row.label}</span>
+                        <span className="text-white text-sm font-medium">{row.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4">
+                  <div className="flex items-center justify-between gap-4 mb-3">
+                    <div>
+                      <div className="text-emerald-400 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
+                        Payout portal status
+                      </div>
+                      <div className="text-white font-semibold">Waiting for completion</div>
+                    </div>
+                    <div className="px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-[10px] font-bold uppercase tracking-[0.22em]">
+                      24-48h
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    {payoutRows.map((row) => (
+                      <div key={row.label} className="rounded-xl bg-black/60 border border-neutral-800 p-3">
+                        <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
+                          {row.label}
+                        </div>
+                        <div className="text-white text-sm font-medium">{row.value}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
+          {[
+            {
+              title: "Select industry",
+              text: "Pick the category that matches the business you run.",
+            },
+            {
+              title: "Add branding",
+              text: "Upload a logo and add invoice contact details.",
+            },
+            {
+              title: "Auto-create invoice",
+              text: "Bouul can simulate the invoice once the booking is confirmed.",
+            },
+            {
+              title: "Track payout",
+              text: "The payout portal shows when the transfer is pending and when it settles.",
+            },
+          ].map((step, index) => (
+            <motion.div
+              key={step.title}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.4, delay: index * 0.05 }}
+              className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4"
+            >
+              <div className="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-2">
+                {index + 1}
+              </div>
+              <div className="text-white font-semibold mb-2">{step.title}</div>
+              <p className="text-neutral-500 text-sm leading-relaxed">{step.text}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 // Vendor Trust Section
 const VendorTrustSection: React.FC<{ businessName: string }> = ({ businessName }) => {
   const trustFeatures = [
     {
       title: "Verified Customers Only",
-      description: "Only users with a verified payment method and booking history can review your services. No fake reviews, ever.",
+      description: "Only users with a verified payment method and completed booking can review your services.",
       icon: "🛡️"
     },
     {
@@ -1141,7 +1560,7 @@ const DashboardPreviewSection: React.FC<{ businessName: string }> = ({ businessN
             {businessName ? `Control ${businessName} from anywhere` : "Control your business from anywhere"}
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            Full-feature management for mobile and desktop. Track bookings, manage staff, and analyze growth in real-time.
+            Full-feature management for mobile and desktop. Track bookings, manage staff, coordinate subscriptions, and review growth from one dashboard.
           </p>
         </motion.div>
 
@@ -1199,7 +1618,7 @@ const EntrepreneurAnxietySection: React.FC<{ businessName: string }> = ({ busine
       label: "CHIEF MARKETING OFFICER"
     },
     {
-      question: "Do you have a front desk clerk for 24/7 bookings?",
+      question: "Do you handle bookings outside office hours?",
       answer: "Bouul is your receptionist. We handle every inquiry, deposit, and reminder while you're working or sleeping.",
       label: "RECEPTION & OPS"
     },
@@ -1210,7 +1629,7 @@ const EntrepreneurAnxietySection: React.FC<{ businessName: string }> = ({ busine
     },
     {
       question: "Feel like your competitors are killing you?",
-      answer: "They're likely losing 20% to old platforms. Bouul gives you the tech to out-rank them while keeping 100% profit.",
+      answer: "They may be losing margin to older platforms. Bouul gives you the tech to improve visibility while keeping more of your profit.",
       label: "COMPETITIVE EDGE"
     }
   ];
@@ -1332,7 +1751,7 @@ const WebsiteSimulatorSection: React.FC<{ businessName: string }> = ({ businessN
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-5 h-5 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-[10px]">✓</div>
-                <div className="text-white text-sm font-medium">Bouul vendors get discovered 10x more than standalone sites.</div>
+                <div className="text-white text-sm font-medium">Bouul vendors are easier to discover than standalone sites.</div>
               </div>
             </div>
 
@@ -1598,6 +2017,9 @@ export default function VendorsPage() {
         <OnboardingJourneySection businessName={businessName} />
       </div>
 
+      {/* Operating model */}
+      <OperatingModelSection />
+
       {/* Entrepreneur Anxiety Section */}
       <EntrepreneurAnxietySection businessName={businessName} />
 
@@ -1617,6 +2039,13 @@ export default function VendorsPage() {
         setSelectedCategory={setSelectedCategory}
         selectedService={selectedService}
         setSelectedService={setSelectedService}
+      />
+
+      {/* Invoice + payout flow */}
+      <InvoicePayoutSection
+        businessName={businessName}
+        selectedCategory={selectedCategory}
+        selectedService={selectedService}
       />
 
       {/* Detailed Pain Points Section - Shows after service selection */}
@@ -1699,7 +2128,7 @@ export default function VendorsPage() {
                 <span className="px-2 py-0.5 bg-emerald-500 text-black text-[10px] font-bold rounded-full">ACTIVE</span>
               </h4>
               <p className="text-neutral-500 text-sm leading-relaxed">
-                Zola acts as {businessName ? `${businessName}'s` : "your"} 24/7 sales agent. 
+                Zola acts as {businessName ? `${businessName}'s` : "your"} always-on sales assistant. 
                 She answers customer questions about {businessName ? `${businessName}'s` : "your"} 
                 services, suggests add-ons, and completes the booking — all without you lifting a finger.
               </p>
@@ -1740,7 +2169,7 @@ export default function VendorsPage() {
             </h2>
             <p className="text-neutral-500 text-xl mb-12 max-w-xl mx-auto leading-relaxed">
               Join 5,000+ professionals who trust Bouul to fill their calendar
-              and grow their revenue with 0% commission.
+              and grow their business with transparent fees.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -1751,7 +2180,7 @@ export default function VendorsPage() {
               </a>
             </div>
             <p className="text-neutral-600 text-sm mt-8 font-medium">
-              NO COMMISSION • NO HIDDEN FEES • 100% PROFIT
+              CLEAR FEES • NO HIDDEN FEES • MORE MARGIN
             </p>
           </motion.div>
         </div>

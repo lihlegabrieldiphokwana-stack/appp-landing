@@ -78,8 +78,8 @@ const pillars = [
     label: "FOLLOW & DISCOVER",
     headline: "See the work. Follow the pro.",
     body: "Browse short-form video from professionals in your city. Follow the ones whose craft speaks to you. Get notified when they're available near you.",
-    stat: "2.4k+",
-    statLabel: "pros with active video feeds",
+    stat: "Growing",
+    statLabel: "video feeds from professionals",
   },
   {
     icon: (
@@ -90,9 +90,9 @@ const pillars = [
     ),
     label: "VERIFIED REVIEWS",
     headline: "Reviews only bookers can leave.",
-    body: "Every review on Bouul is verified by a completed booking. No fake stars. No anonymous noise. Just honest feedback from real customers who paid for the service.",
-    stat: "98%",
-    statLabel: "of reviews verified by booking",
+    body: "Every review on Bouul is tied to a completed booking. That keeps the feedback grounded in real service experiences.",
+    stat: "Tied",
+    statLabel: "to completed bookings",
   },
   {
     icon: (
@@ -103,9 +103,9 @@ const pillars = [
     ),
     label: "REFER & EARN",
     headline: "Your network. Your rewards.",
-    body: "Refer friends to Bouul and earn credits every time they book. The more your circle uses Bouul, the more everyone saves. Share a link. Watch the credits stack.",
-    stat: "R50",
-    statLabel: "credited per friend's first booking",
+    body: "Refer friends to Bouul and earn credits when they complete a booking. The more your circle uses Bouul, the more everyone can save.",
+    stat: "Credits",
+    statLabel: "for successful referrals",
   },
 ];
 
@@ -128,11 +128,10 @@ export const SocialMechanics = () => {
           </div>
           <h2 className="text-4xl md:text-6xl font-semibold text-white tracking-tight mb-4 max-w-3xl">
             The city is booking.{" "}
-            <span className="text-neutral-500">Right now.</span>
+            <span className="text-neutral-500">The signals move with it.</span>
           </h2>
           <p className="text-neutral-500 text-lg max-w-xl">
-            Bouul is more than a marketplace — it&apos;s a living network where every follow,
-            review, and referral makes the whole community stronger.
+            Bouul is more than a marketplace. It uses follows, reviews, and referrals as discovery signals so the experience gets more useful over time.
           </p>
         </motion.div>
 
@@ -197,7 +196,7 @@ export const SocialMechanics = () => {
           </div>
           <p className="text-neutral-300 text-sm text-center sm:text-left">
             <span className="text-white font-semibold">5,000+ professionals</span> are active on Bouul.
-            Followed, reviewed, and re-booked by real customers — every day.
+            Followed, reviewed, and re-booked by real customers over time.
           </p>
           <a
             href="/download"

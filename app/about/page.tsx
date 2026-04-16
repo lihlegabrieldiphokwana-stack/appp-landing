@@ -15,7 +15,7 @@ const values = [
   {
     title: "Trust must be visible",
     description:
-      "Identity checks, booking-only reviews, live tracking, and secure payments turn an uncertain booking into a confident one.",
+      "Identity checks, booking-tied reviews, status updates, and secure payments turn an uncertain booking into a more confident one.",
   },
   {
     title: "Professionals deserve tools",

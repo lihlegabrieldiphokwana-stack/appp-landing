@@ -8,35 +8,35 @@ import { Footer } from "@/components/footer";
 const USER_FAQS = [
   {
     q: "What is Bouul?",
-    a: "Bouul is a hyper-local services marketplace that connects you with vetted professionals in your city — from plumbers and electricians to hair stylists, tutors, photographers, and 200+ other categories. You can browse, book, track, chat, and pay entirely within the app.",
+    a: "Bouul is a hyper-local services marketplace that connects you with vetted professionals in your city — from plumbers and electricians to hair stylists, tutors, photographers, and a wide range of other categories. You can browse, book, track, chat, and pay entirely within the app.",
   },
   {
     q: "How do I find and book a service?",
-    a: "Open Bouul and search for what you need — or just tell Zola (our AI assistant) in plain language. Zola finds available, vetted professionals near you, compares them by rating and distance, and confirms the booking in seconds. No phone calls, no back-and-forth.",
+    a: "Open Bouul and search for what you need — or just tell Zola (our AI assistant) in plain language. Zola helps surface available, vetted professionals near you, compares them by rating and distance, and moves you toward booking without the usual back-and-forth.",
   },
   {
     q: "What is Zola, and how does she work?",
-    a: "Zola stands for Zone of Local Assistance. She is Bouul's AI booking assistant — available 24/7. Just describe what you need ('I need a plumber in Sandton urgently') and Zola searches vetted professionals, surfaces the best match, and books on your behalf. She also tracks the job live and sends you updates.",
+    a: "Zola stands for Zone of Local Assistance. She is Bouul's AI booking assistant. Just describe what you need ('I need a plumber in Sandton urgently') and Zola searches vetted professionals, surfaces a strong match, and helps move the booking forward. She also tracks the job status and sends updates.",
   },
   {
     q: "How are professionals vetted?",
-    a: "Every professional on Bouul goes through identity verification, background screening, and skills assessment before their profile goes live. They also build a public rating from verified customer reviews — only people who completed a booking can leave a review. Ratings below our threshold result in automatic review and possible suspension.",
+    a: "Every professional on Bouul goes through identity verification, background screening, and a skills assessment before their profile goes live. They also build a public rating from reviews tied to completed bookings. Ratings below our threshold may trigger review or suspension.",
   },
   {
     q: "What if something goes wrong with my booking?",
-    a: "Bouul has a built-in community dispute resolution system. If you have an issue — work not completed, damage, or a billing dispute — you open a case in-app. Our mediation team reviews the evidence from both sides and resolves it fairly, usually within 24 hours. Payments are held securely until the job is confirmed complete.",
+    a: "Bouul has a built-in community dispute resolution system. If you have an issue — work not completed, damage, or a billing dispute — you open a case in-app. Our mediation team reviews the evidence from both sides and works to resolve it fairly. Payments are held securely until the job is confirmed complete.",
   },
   {
     q: "How does real-time tracking work?",
-    a: "Once a professional confirms your booking, you can track their GPS location live from within the app. You receive push notifications when they accept, when they're on their way, when they're 2 minutes out, and when the job is marked complete. In-app chat is open the whole time.",
+    a: "Once a professional confirms your booking, you can follow status updates from within the app. You receive notifications when they accept, when they're on their way, and when the job is marked complete. In-app chat is open the whole time.",
   },
   {
     q: "How do I leave a review?",
-    a: "After a booking is marked complete, Bouul prompts you to rate and review the professional. Reviews are verified — only completed-booking customers can leave them. Your review is also analysed by Bouul's AI sentiment engine to extract themes and help other users make informed decisions.",
+    a: "After a booking is marked complete, Bouul prompts you to rate and review the professional. Reviews are tied to completed bookings. Your review is also analysed by Bouul's AI sentiment engine to extract themes and help other users make informed decisions.",
   },
   {
     q: "How does the referral programme work?",
-    a: "Share your unique referral link with friends. When someone signs up and completes their first booking, you earn R50 in Bouul credits — and so do they. Credits can be applied to any future booking. There's no limit to how many referrals you can make.",
+    a: "Share your unique referral link with friends. When someone signs up and completes their first booking, you earn Bouul credits — and so do they. Credits can be applied to any future booking. There's no limit to how many referrals you can make.",
   },
   {
     q: "What cities is Bouul available in?",
@@ -51,19 +51,19 @@ const USER_FAQS = [
 const VENDOR_FAQS = [
   {
     q: "How do I join Bouul as a professional?",
-    a: "Download Bouul and select 'Join as a Professional'. You'll go through identity verification, submit your qualifications and a portfolio, and complete a brief onboarding assessment. Once approved (typically 48 hours), your profile goes live and you can start receiving bookings.",
+    a: "Download Bouul and select 'Join as a Professional'. You'll go through identity verification, submit your qualifications and a portfolio, and complete a brief onboarding assessment. Once approved, your profile goes live and you can start receiving bookings.",
   },
   {
     q: "Does Bouul take a commission?",
-    a: "Bouul charges a transparent service fee on completed bookings — no hidden deductions, no surprise charges. You see exactly what you earn before accepting any job. The fee covers payment processing, platform maintenance, customer support, and your access to Zola-powered lead generation.",
+    a: "Bouul charges a transparent service fee on completed bookings — no hidden deductions, no surprise charges. You see exactly what you earn before accepting any job. The fee covers payment processing, platform maintenance, customer support, and access to Zola-powered lead generation.",
   },
   {
     q: "How does Zola AI help me get more bookings?",
-    a: "Zola actively matches your profile to customer requests based on location, availability, specialisation, and rating. When a customer asks for a service you offer and you're nearby, Zola surfaces you as a top match and can book you instantly — even while you're mid-job. You don't have to chase leads.",
+    a: "Zola helps match your profile to customer requests based on location, availability, specialisation, and rating. When a customer asks for a service you offer and you're nearby, Zola can surface you as a strong match. You do not have to chase leads.",
   },
   {
     q: "What is the Vendor Dashboard?",
-    a: "Your dashboard is command central for your Bouul business. It shows real-time booking requests, your earnings, customer ratings and reviews, job history, payout schedule, and analytics on profile views and conversion rate. Everything you need to run and grow your service business, in one screen.",
+    a: "Your dashboard is command central for your Bouul business. It shows booking requests, your earnings, customer ratings and reviews, job history, payout schedule, and analytics on profile views and conversion rate. Everything you need to run and grow your service business, in one screen.",
   },
   {
     q: "How do I set my pricing?",
@@ -83,7 +83,7 @@ const VENDOR_FAQS = [
   },
   {
     q: "When and how do I get paid?",
-    a: "Payments from completed bookings are processed to your registered bank account on a rolling basis — typically within 1–2 business days of job completion. You can track all pending and settled payments in your dashboard. Bouul uses secure payment infrastructure; your banking details are never shared with customers.",
+    a: "Payments from completed bookings are processed to your registered bank account on a rolling basis, usually within 1-2 business days of job completion. You can track all pending and settled payments in your dashboard. Bouul uses secure payment infrastructure; your banking details are never shared with customers.",
   },
   {
     q: "Can I manage multiple service types?",

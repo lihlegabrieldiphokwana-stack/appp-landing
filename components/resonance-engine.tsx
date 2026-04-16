@@ -123,8 +123,8 @@ export const ResonanceEngine = () => {
             <span className="text-neutral-500">what you like.</span>
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl">
-            Resonance is our multi-armed bandit discovery engine. It tests different content strategies
-            for each user, learns what converts, and optimizes your feed in real-time. No two homepages are identical.
+            Resonance is our multisignal discovery engine. It tests different content strategies
+            for each user, learns what performs, and continuously adjusts the feed. No two homepages are identical.
           </p>
         </motion.div>
 
@@ -180,7 +180,7 @@ export const ResonanceEngine = () => {
                 </h3>
                 <p className="text-neutral-500 text-base leading-relaxed mb-6">
                   Every session, Resonance samples from the full pool of discovery strategies.
-                  80% of the time it shows you what's worked before (exploitation).
+                  80% of the time it shows you what has worked before (exploitation).
                   20% of the time it tests something new (exploration).
                 </p>
                 <p className="text-neutral-500 text-base leading-relaxed">
@@ -195,7 +195,7 @@ export const ResonanceEngine = () => {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm">Exploitation</div>
-                    <div className="text-neutral-500 text-xs">Show highest-CTR strategies for this user</div>
+                    <div className="text-neutral-500 text-xs">Show the best-performing strategies for this user</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 bg-black border border-neutral-800 rounded-xl p-5">
@@ -204,7 +204,7 @@ export const ResonanceEngine = () => {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm">Exploration</div>
-                    <div className="text-neutral-500 text-xs">Random pick to test new strategies</div>
+                    <div className="text-neutral-500 text-xs">Test a new strategy from time to time</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 bg-black border border-neutral-800 rounded-xl p-5">
@@ -216,7 +216,7 @@ export const ResonanceEngine = () => {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm">Continuous Learning</div>
-                    <div className="text-neutral-500 text-xs">Impressions + engagements update CTR scores</div>
+                    <div className="text-neutral-500 text-xs">Impressions and engagements update ranking signals</div>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export const ResonanceEngine = () => {
           </div>
           <h3 className="text-3xl md:text-4xl font-semibold text-white mb-4 max-w-3xl">
             Vendors upload. The system tests.<br />
-            <span className="text-neutral-500">No A/B setup required.</span>
+            <span className="text-neutral-500">No manual experiment setup required.</span>
           </h3>
           <p className="text-neutral-500 text-lg mb-12 max-w-2xl">
             Every service can have multiple titles and images. Resonance automatically cycles through

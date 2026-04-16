@@ -11,9 +11,9 @@ interface ChatMessage {
 const CHAT_SCRIPT: ChatMessage[] = [
   { from: "user", text: "I need a plumber in Sandton urgently — my geyser is leaking." },
   { from: "zola", text: "On it. I found 3 available plumbers within 5km of you." },
-  { from: "zola", text: "Marco T. is closest — 4.9★, 127 reviews, 12 min away. Book him?" },
+  { from: "zola", text: "Marco T. is closest - 4.9★, 127 reviews, 12 min away." },
   { from: "user", text: "Yes, book Marco please." },
-  { from: "zola", text: "Done ✓  Marco is confirmed and on his way. I'll notify you when he's 2 min out." },
+  { from: "zola", text: "Done ✓ Marco is confirmed and on his way. I’ll notify you when he’s 2 min out." },
 ];
 
 // Timeline (ms from first trigger):
@@ -68,17 +68,63 @@ const Bubble = ({ msg }: { msg: ChatMessage }) => {
   );
 };
 
+const BookingFlow = () => {
+  const steps = [
+    {
+      title: "Match found",
+      detail: "Zola ranks nearby pros by fit, distance, and recent activity.",
+      status: "Shortlist ready",
+    },
+    {
+      title: "Booking confirmed",
+      detail: "The customer approves the pro and the job is locked in.",
+      status: "One tap to book",
+    },
+    {
+      title: "Tracking starts",
+      detail: "Arrival updates and chat stay visible until the job is complete.",
+      status: "Live updates on",
+    },
+  ];
+
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      {steps.map((step, index) => (
+        <motion.div
+          key={step.title}
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.35, delay: index * 0.08 }}
+          className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4"
+        >
+          <div className="flex items-center justify-between gap-3 mb-3">
+            <div className="text-emerald-400 text-[10px] font-bold uppercase tracking-[0.22em]">
+              {step.status}
+            </div>
+            <div className="w-7 h-7 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xs font-semibold">
+              {index + 1}
+            </div>
+          </div>
+          <h4 className="text-white text-sm font-semibold mb-2">{step.title}</h4>
+          <p className="text-neutral-500 text-xs leading-relaxed">{step.detail}</p>
+        </motion.div>
+      ))}
+    </div>
+  );
+};
+
 // ─── Animated chat card ───────────────────────────────────────────────────────
 const ChatCard = () => {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.4 });
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [typing, setTyping] = useState(false);
-  const [started, setStarted] = useState(false);
+  const startedRef = useRef(false);
 
   useEffect(() => {
-    if (!isInView || started) return;
-    setStarted(true);
+    if (!isInView || startedRef.current) return;
+    startedRef.current = true;
 
     const timeouts: ReturnType<typeof setTimeout>[] = [];
 
@@ -96,7 +142,7 @@ const ChatCard = () => {
     at(8200, () => { setTyping(false); setMessages((m) => [...m, CHAT_SCRIPT[4]]); });
 
     return () => timeouts.forEach(clearTimeout);
-  }, [isInView, started]);
+  }, [isInView]);
 
   return (
     <div
@@ -212,9 +258,9 @@ export const ZolaSection = () => {
             </motion.p>
 
             <p className="text-neutral-300 text-lg leading-relaxed mb-10">
-              Zola is your 24/7 AI booking assistant. Tell her what you need in plain language —
-              she finds vetted professionals, compares them, books the best fit, and tracks the
-              job live. All without you leaving the chat.
+              Zola is your always-on AI booking assistant. Tell her what you need in plain language —
+              she helps find vetted professionals, compares them, supports the booking, and tracks the
+              job status in one place.
             </p>
 
             {/* Feature chips */}
@@ -236,9 +282,23 @@ export const ZolaSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="flex-1 flex justify-center lg:justify-end w-full"
+            className="flex-1 flex flex-col gap-5 justify-center lg:justify-end w-full"
           >
             <ChatCard />
+            <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-5">
+              <div className="flex items-center justify-between gap-4 mb-4">
+                <div>
+                  <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-1">
+                    Booking flow
+                  </div>
+                  <div className="text-white font-semibold text-sm">From message to confirmation</div>
+                </div>
+                <div className="px-3 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 text-emerald-300 text-[10px] font-bold uppercase tracking-[0.22em]">
+                  Live
+                </div>
+              </div>
+              <BookingFlow />
+            </div>
           </motion.div>
         </div>
       </div>

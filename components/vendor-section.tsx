@@ -26,8 +26,8 @@ export const VendorSection = () => {
       <div className="max-w-5xl mx-auto px-6 pb-24">
         <div className="grid grid-cols-1 md:grid-cols-3 border border-neutral-800 rounded-2xl overflow-hidden">
           {[
-            { stat: "10x", label: "more bookings" },
-            { stat: "Zero", label: "commission surprises" },
+            { stat: "More", label: "bookings" },
+            { stat: "Transparent", label: "fees" },
             { stat: "Full", label: "dashboard control" },
           ].map((item, i) => (
             <div
@@ -49,7 +49,7 @@ export const VendorSection = () => {
             {
               title: "Resonance discovery",
               description:
-                "Test multiple titles and images per service so the platform can learn what converts for each customer.",
+                "Test multiple titles and images per service so the platform can learn what works best for each customer.",
             },
             {
               title: "Live analytics",
@@ -94,7 +94,7 @@ export const VendorSection = () => {
           className="mt-12 text-center"
         >
           <p className="text-neutral-500 text-sm mb-6">
-            Discover AI-powered discovery, multi-title testing, and real-time analytics.
+            Discover AI-powered discovery, multi-title testing, and analytics that help you tune your profile.
           </p>
           <a
             href="/vendors"

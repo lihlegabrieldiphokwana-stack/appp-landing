@@ -55,7 +55,7 @@ const BookingIcon = () => (
 const bentoItems = [
   {
     title: "AI that sees what you need.",
-    description: "Magic Remover uses computer vision to intelligently identify and remove unwanted elements from your service photos — instantly.",
+    description: "Magic Remover uses computer vision to identify and remove unwanted elements from your service photos with a single pass.",
     icon: <MagicRemoverIcon />,
     className: "md:col-span-2",
     header: (
@@ -66,7 +66,7 @@ const bentoItems = [
   },
   {
     title: "Your business. At a glance.",
-    description: "The vendor dashboard gives you real-time bookings, earnings, reviews, and analytics in one clean interface.",
+    description: "The vendor dashboard brings bookings, earnings, reviews, and analytics into one clean interface.",
     icon: <VendorIcon />,
     className: "",
     header: (
@@ -121,7 +121,7 @@ const bentoItems = [
   },
   {
     title: "Trusted by design.",
-    description: "Every professional is identity-verified, background-checked, and reviewed by real customers before they appear on Bouul.",
+    description: "Every professional goes through identity verification and a review process before they appear on Bouul.",
     icon: <VettedIcon />,
     className: "",
     header: (
@@ -132,7 +132,7 @@ const bentoItems = [
   },
   {
     title: "Zero waiting. Zero guessing.",
-    description: "Book a service in under 30 seconds. Instant confirmation, real-time tracking, and automatic reminders.",
+    description: "Book a service in under 30 seconds. Quick confirmation, live status updates, and automatic reminders.",
     icon: <BookingIcon />,
     className: "",
     header: (

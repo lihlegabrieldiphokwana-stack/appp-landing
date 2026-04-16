@@ -8,7 +8,7 @@ const pillars = [
     title: "Discovery",
     eyebrow: "Find the right match",
     description:
-      "Zola, Resonance, and live location signals surface the professionals most likely to convert for each customer.",
+      "Zola, Resonance, and location signals help surface the professionals most likely to matter for each customer.",
     points: [
       "Natural-language search",
       "Multi-signal ranking",
@@ -19,7 +19,7 @@ const pillars = [
     title: "Trust",
     eyebrow: "Book with confidence",
     description:
-      "Verified profiles, review authenticity, secure payments, and live tracking reduce the risk in every booking.",
+      "Verified profiles, booking-tied reviews, secure payments, and status updates reduce uncertainty in every booking.",
     points: [
       "Verified professionals",
       "Booking-only reviews",
@@ -40,10 +40,10 @@ const pillars = [
 ];
 
 const stats = [
-  { value: "200+", label: "service categories" },
+  { value: "Broad", label: "service coverage" },
   { value: "12+", label: "cities live" },
   { value: "5,000+", label: "vetted professionals" },
-  { value: "24/7", label: "booking assistance" },
+  { value: "Always-on", label: "booking assistance" },
 ];
 
 export const PlatformStory = () => {

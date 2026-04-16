@@ -13,9 +13,9 @@ interface PricingFeature {
 const features: PricingFeature[] = [
   {
     name: "Commission Rate",
-    bouul: "0%",
+    bouul: "No commission surprises",
     competitors: "15-25%",
-    tooltip: "Keep 100% of what you earn",
+    tooltip: "Clear fees, no surprise commission",
   },
   {
     name: "Booking Fees",
@@ -103,7 +103,7 @@ const features: PricingFeature[] = [
   },
   {
     name: "Support",
-    bouul: "24/7 priority",
+    bouul: "Priority",
     competitors: "Email only",
     tooltip: "Dedicated vendor support team",
   },
@@ -145,13 +145,13 @@ export const VendorPricingComparison: React.FC<{ businessName?: string }> = ({ b
 
   const bouulWins = features.filter(f => 
     f.bouul === true && f.competitors === false ||
-    f.bouul === "0%" ||
+    f.bouul === "No commission surprises" ||
     f.bouul === "None" ||
     f.bouul === "Unlimited" ||
     f.bouul === "Full access" ||
     f.bouul === "Complete control" ||
     f.bouul === "24-48 hours" ||
-    f.bouul === "24/7 priority" ||
+    f.bouul === "Priority" ||
     f.bouul === "4-stage funnel" ||
     f.bouul === "AI sentiment + replies"
   ).length;
@@ -178,9 +178,9 @@ export const VendorPricingComparison: React.FC<{ businessName?: string }> = ({ b
           </h2>
           <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
             {businessName ? (
-              <>We've built {businessName}'s dream platform. No hidden fees. No commission nightmares. Just powerful tools to grow.</>
+              <>We've built {businessName}'s dream platform. Clear fees. No commission confusion. Just powerful tools to grow.</>
             ) : (
-              <>We've built the platform we wish existed. No hidden fees. No commission nightmares. Just powerful tools to grow your business.</>
+              <>We've built the platform we wish existed. Clear fees. No commission confusion. Just powerful tools to grow your business.</>
             )}
           </p>
         </motion.div>
@@ -194,9 +194,9 @@ export const VendorPricingComparison: React.FC<{ businessName?: string }> = ({ b
             transition={{ duration: 0.5 }}
             className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 text-center"
           >
-            <div className="text-5xl font-bold text-emerald-400 mb-2">0%</div>
+            <div className="text-5xl font-bold text-emerald-400 mb-2">Clear</div>
             <div className="text-white font-semibold mb-1">Commission</div>
-            <div className="text-neutral-500 text-sm">Keep everything you earn</div>
+            <div className="text-neutral-500 text-sm">Simple fees you can understand up front</div>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -47,8 +47,8 @@ export const SubscriptionSection = () => {
             <span className="text-neutral-500">You know where and when.</span>
           </h2>
           <p className="text-neutral-400 text-lg max-w-2xl leading-relaxed">
-            Subscribe to your favorite professionals and automate your routine. 
-            Receive consistent, high-quality service at a heavy discount—just for being a regular.
+            Use subscriptions for recurring work like cleaning, grooming, tutoring, or maintenance.
+            Keep the same professional on a schedule and make repeat service easier to manage.
           </p>
         </motion.div>
 

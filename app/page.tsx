@@ -36,12 +36,12 @@ export default function LandingPage() {
         label="DISCOVER"
         headline="Find anything. In seconds."
         body="Every service category. Every neighbourhood."
-        secondaryBody="Stop scrolling through endless lists. Bouul simplifies discovery by mapping the city's top talent to your exact coordinates, ensuring the best help is always within reach."
+        secondaryBody="Stop scrolling through endless lists. Bouul simplifies discovery by mapping the city's local talent to your request, helping the right help surface faster."
         appPreview={<DiscoveryPreview />}
         cards={[
           {
             title: "Instant Search",
-            description: "Find the perfect professional in seconds. Our high-performance search engine delivers instant results as you type, matching your exact needs with local expertise.",
+            description: "Find the right professional fast. Search updates as you type and matches your request with local expertise.",
             image: "/Group%201686.png"
           },
           {
@@ -49,8 +49,8 @@ export default function LandingPage() {
             description: "Your neighborhood's best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are."
           },
           {
-            title: "200+ Categories",
-            description: "From master barbers to expert tutors, explore a vast ecosystem of professional craft. Every service you could ever need, organized for effortless discovery."
+            title: "Broad Coverage",
+            description: "From home repairs to creative work, explore a wide range of services organized for easy discovery."
           }
         ]}
         align="right"
@@ -60,17 +60,17 @@ export default function LandingPage() {
         id="trust"
         label="TRUST"
         headline="Book with total confidence."
-        body="Every professional is background-checked, rated, and reviewed."
-        secondaryBody="Trust is built through transparency. We verify every professional on our platform so you can focus on getting the job done, knowing you're in safe hands."
+        body="Every professional is reviewed, rated, and screened."
+        secondaryBody="Trust is built through transparency. We verify key details on the platform so you can focus on getting the job done with more confidence."
         cards={[
           {
             title: "Verified Identity",
-            description: "Book with peace of mind. Every professional on Bouul undergoes a rigorous identity verification and background check, ensuring a safe and reliable experience.",
+            description: "Book with more confidence. Professionals complete identity verification and a screening process before their profile goes live.",
             image: "/verified_identity.jpg"
           },
           {
             title: "5-Star Reviews",
-            description: "Authenticity you can count on. Browse thousands of community-vetted reviews, left only by real customers after a verified service completion.",
+            description: "Browse reviews from completed bookings and see how others rated the work.",
             image: "/follow_favourites.jpg"
           },
           {
@@ -87,21 +87,21 @@ export default function LandingPage() {
         label="TRACKING"
         headline="Watch it happen. Live."
         body="Real-time GPS tracking. Live status updates."
-        secondaryBody="No more 'where is my pro?' anxiety. With Bouul, you have full visibility into your service status from start to finish, with precision tracking that keeps you in the loop."
+        secondaryBody="No more 'where is my pro?' anxiety. Bouul gives you clearer visibility into booking progress from start to finish."
         cards={[
           {
             title: "Live GPS",
-            description: "Never wonder where your pro is. Watch their progress in real-time on a live map, from the moment they start their journey until they arrive at your door.",
+            description: "Follow progress on a live map from departure through arrival.",
             image: "/hero-banner-mobile.png"
           },
           {
             title: "Push Notifications",
-            description: "Stay informed without checking the app. Get instant, smart updates on your booking status, arrival times, and completion milestones.",
+            description: "Stay informed without checking the app. Get timely updates on status, arrival times, and completion milestones.",
             image: "/real_time_notifications.jpg"
           },
           {
             title: "In-App Chat",
-            description: "Seamless communication at every step. Message your professional directly within the app to share details, photos, or instructions in a secure environment.",
+            description: "Message your professional directly in the app to share details, photos, or instructions.",
             image: "/real_time_notifications.jpg"
           }
         ]}
@@ -124,15 +124,15 @@ export default function LandingPage() {
         label="SOCIAL"
         headline="A marketplace that knows you."
         body="Short-form video from professionals. Curated by what you book."
-        secondaryBody="Experience the craft before you commit. Our social feed transforms the marketplace into an immersive discovery journey where skill and personality take center stage."
+        secondaryBody="Experience the craft before you commit. The social feed brings more context to discovery so skill and personality show up earlier."
         cards={[
           {
             title: "Video Feed",
-            description: "See the craft in motion. Experience professional services through a high-definition video feed that brings their skills and personality to life before you book."
+            description: "See the craft in motion. Short-form video helps you understand the work before you book."
           },
           {
             title: "Personalised",
-            description: "A marketplace that evolves with you. Our discovery engine learns your preferences, tailoring your feed to showcase the services and styles you love most."
+            description: "The feed adapts to your activity so the services and styles you care about show up earlier."
           },
           {
             title: "Follow Favourites",
