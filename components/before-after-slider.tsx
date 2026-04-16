@@ -10,6 +10,10 @@ interface BeforeAfterSliderProps {
   afterAlt: string;
   className?: string;
   imageClassName?: string;
+  beforeLabel?: string;
+  afterLabel?: string;
+  beforeCaption?: string;
+  afterCaption?: string;
   compact?: boolean;
 }
 
@@ -20,6 +24,10 @@ export const BeforeAfterSlider = ({
   afterAlt,
   className = "",
   imageClassName = "object-cover",
+  beforeLabel = "Before",
+  afterLabel = "After",
+  beforeCaption = "Original photo",
+  afterCaption = "Clean listing image",
   compact = false,
 }: BeforeAfterSliderProps) => {
   const [position, setPosition] = useState(52);
@@ -48,10 +56,10 @@ export const BeforeAfterSlider = ({
       </div>
 
       <div className="absolute left-3 top-3 rounded-full bg-black/55 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-neutral-200">
-        Before
+        {beforeLabel}
       </div>
       <div className="absolute right-3 top-3 rounded-full bg-emerald-400/90 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-black">
-        After
+        {afterLabel}
       </div>
 
       <div
@@ -79,8 +87,8 @@ export const BeforeAfterSlider = ({
       {!compact && (
         <div className="absolute inset-x-5 bottom-5 rounded-2xl border border-white/10 bg-black/55 px-4 py-3 backdrop-blur-md">
           <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.22em] text-neutral-300">
-            <span>Original photo</span>
-            <span>Clean listing image</span>
+            <span>{beforeCaption}</span>
+            <span>{afterCaption}</span>
           </div>
           <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/15">
             <div

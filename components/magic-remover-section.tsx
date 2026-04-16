@@ -112,10 +112,14 @@ export const MagicRemoverSection = () => {
                 </div>
 
                 <BeforeAfterSlider
-                  beforeSrc="/optimized/magic_remover_before.jpg"
-                  afterSrc="/optimized/magic_remover_after.jpg"
-                  beforeAlt="Original product photo before Magic Remover cleanup"
-                  afterAlt="Clean product photo after Magic Remover cleanup"
+                  beforeSrc="/optimized/magic_remover_after.jpg"
+                  afterSrc="/optimized/magic_remover_before.jpg"
+                  beforeAlt="Clean product photo before Magic Remover comparison"
+                  afterAlt="Original product photo after comparison"
+                  beforeLabel="After"
+                  afterLabel="Before"
+                  beforeCaption="Clean listing image"
+                  afterCaption="Original photo"
                   className="flex-1 min-h-0 rounded-[1.7rem] border border-white/10"
                 />
 

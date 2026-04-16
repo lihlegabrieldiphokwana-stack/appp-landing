@@ -8,10 +8,12 @@ export const MagicRemoverVisual = () => {
   return (
     <div className="h-36 rounded-xl mb-4 overflow-hidden border border-emerald-500/15 bg-neutral-950 relative">
       <BeforeAfterSlider
-        beforeSrc="/optimized/magic_remover_before.jpg"
-        afterSrc="/optimized/magic_remover_after.jpg"
-        beforeAlt="Original product photo before Magic Remover cleanup"
-        afterAlt="Clean product photo after Magic Remover cleanup"
+        beforeSrc="/optimized/magic_remover_after.jpg"
+        afterSrc="/optimized/magic_remover_before.jpg"
+        beforeAlt="Clean product photo before Magic Remover comparison"
+        afterAlt="Original product photo after comparison"
+        beforeLabel="After"
+        afterLabel="Before"
         className="h-full"
         compact
       />
