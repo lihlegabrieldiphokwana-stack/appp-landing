@@ -21,7 +21,7 @@ import { Footer } from "@/components/footer";
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg-black overflow-x-clip">
       <Navbar />
 
       {/* Hero */}

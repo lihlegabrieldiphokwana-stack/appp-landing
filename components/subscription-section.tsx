@@ -53,7 +53,7 @@ export const SubscriptionSection = () => {
         </motion.div>
 
         {/* Subscription Cards Row */}
-        <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] px-6 md:px-[calc((100vw-1280px)/2+24px)]">
+        <div className="relative w-full">
           <div
             ref={scrollRef}
             className="flex gap-6 overflow-x-auto pb-12 pt-4 no-scrollbar cursor-grab active:cursor-grabbing"
