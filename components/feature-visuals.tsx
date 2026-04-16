@@ -8,16 +8,29 @@ export const MagicRemoverVisual = () => {
     <div className="h-36 rounded-xl mb-4 overflow-hidden border border-emerald-500/15 bg-neutral-950 relative">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.08),transparent_30%)]" />
       <div className="relative h-full grid grid-cols-2 gap-px bg-white/10">
-        <div className="relative bg-neutral-900">
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.08),transparent_25%),radial-gradient(circle_at_30%_25%,rgba(255,255,255,0.12),transparent_10%),radial-gradient(circle_at_70%_60%,rgba(255,255,255,0.08),transparent_12%)]" />
+        <div className="relative bg-neutral-900 overflow-hidden">
+          <img
+            src="/magic_remover_before.png"
+            alt="Magic remover before"
+            className="absolute inset-0 h-full w-full object-cover scale-110 saturate-110"
+          />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,153,0,0.40),rgba(255,153,0,0.55))]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_30%,rgba(0,0,0,0.18),transparent_10%),radial-gradient(circle_at_75%_35%,rgba(0,0,0,0.14),transparent_12%),radial-gradient(circle_at_55%_70%,rgba(0,0,0,0.12),transparent_15%)]" />
           <div className="absolute left-3 top-3 rounded-full bg-black/50 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-neutral-300">
             Before
           </div>
           <div className="absolute inset-x-4 bottom-4 h-10 rounded-2xl border border-white/10 bg-black/35" />
           <div className="absolute right-4 top-10 h-8 w-8 rounded-full bg-orange-400/80 blur-sm" />
+          <div className="absolute left-5 bottom-6 h-16 w-16 rounded-full border border-white/10 bg-black/20 blur-[1px]" />
+          <div className="absolute right-8 bottom-10 h-8 w-8 rounded-full border border-white/10 bg-black/20 blur-[1px]" />
         </div>
-        <div className="relative bg-neutral-950">
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.15),transparent_35%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.35),transparent_18%)]" />
+        <div className="relative bg-neutral-950 overflow-hidden">
+          <img
+            src="/magic_remover_after.png"
+            alt="Magic remover after"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(16,185,129,0.12),transparent_35%),radial-gradient(circle_at_40%_30%,rgba(16,185,129,0.30),transparent_18%)]" />
           <div className="absolute left-3 top-3 rounded-full bg-emerald-400/15 px-2 py-1 text-[9px] uppercase tracking-[0.2em] text-emerald-300">
             After
           </div>
@@ -28,7 +41,7 @@ export const MagicRemoverVisual = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-emerald-400/25" />
+      <div className="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-emerald-400/35" />
     </div>
   );
 };
