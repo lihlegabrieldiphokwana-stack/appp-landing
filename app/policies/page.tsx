@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const policies = [
   {
@@ -109,16 +110,8 @@ export default function PoliciesPage() {
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
               Suggested image
             </div>
-            <div className="rounded-2xl border border-dashed border-neutral-700 bg-black/60 p-8 min-h-[320px] flex items-center justify-center text-center">
-              <div>
-                <div className="text-white font-semibold text-xl mb-2">
-                  Policy overview graphic
-                </div>
-                <p className="text-neutral-500 text-sm max-w-sm mx-auto">
-                  A simple visual flow showing verification, payment protection,
-                  reviews, and dispute resolution would fit well here.
-                </p>
-              </div>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+              <PolicyFlowPreview />
             </div>
           </motion.div>
         </div>

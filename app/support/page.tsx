@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { SupportDashboardPreview } from "@/components/support-dashboard-preview";
 
 const topics = [
   {
@@ -119,10 +120,9 @@ export default function SupportPage() {
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
               Suggested image
             </div>
-            <p className="text-neutral-500 leading-relaxed">
-              A support inbox, ticket queue, or help-desk illustration would fit
-              this page well.
-            </p>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+              <SupportDashboardPreview />
+            </div>
           </div>
         </div>
       </section>

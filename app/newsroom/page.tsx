@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { NewsroomBoardPreview } from "@/components/newsroom-board-preview";
 import { newsroomArticles, newsroomPressAssets, newsroomUpdates } from "./articles";
 
 export default function NewsroomPage() {
@@ -55,16 +56,8 @@ export default function NewsroomPage() {
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
               Suggested image
             </div>
-            <div className="rounded-2xl border border-dashed border-neutral-700 bg-black/60 p-8 min-h-[320px] flex items-center justify-center text-center">
-              <div>
-                <div className="text-white font-semibold text-xl mb-2">
-                  Press kit montage
-                </div>
-                <p className="text-neutral-500 text-sm max-w-sm mx-auto">
-                  A wide layout with the logo, app screens, and a team portrait
-                  would work well here for media and investor visits.
-                </p>
-              </div>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+              <NewsroomBoardPreview />
             </div>
           </motion.div>
         </div>
@@ -143,9 +136,7 @@ export default function NewsroomPage() {
             <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 bg-neutral-950/70 p-5">
               <div className="text-white font-semibold mb-2">Image note</div>
               <p className="text-neutral-500 text-sm leading-relaxed">
-                Add a clean hero image that shows the app on a phone next to a
-                vendor dashboard on desktop. It makes the press story clearer at
-                a glance.
+                The best standalone image later is still a clean product hero with a real founder or team portrait beside the app screens.
               </p>
             </div>
           </div>

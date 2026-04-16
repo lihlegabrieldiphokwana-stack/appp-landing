@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { UseCasesPreview } from "@/components/use-cases-preview";
 
 const useCases = [
   {
@@ -12,28 +13,24 @@ const useCases = [
     subtitle: "A burst pipe, faulty plug, or broken gate needs fast matching.",
     detail:
       "Bouul surfaces nearby professionals, shows trust signals, and lets the customer book without switching apps or making phone calls.",
-    imageNote: "A home exterior or repair-in-progress photo works best here.",
   },
   {
     title: "Recurring personal services",
     subtitle: "Hair, beauty, wellness, and grooming depend on repeat visits.",
     detail:
       "Customers can follow their favourite professionals, rebook quickly, and get notified when they have fresh availability.",
-    imageNote: "A polished portrait or salon-style lifestyle image would fit.",
   },
   {
     title: "Business and office needs",
     subtitle: "Teams need cleaning, maintenance, design, and admin support.",
     detail:
       "The platform is useful when a business needs a reliable local provider with clean pricing and clear completion tracking.",
-    imageNote: "A modern office or team workspace photo would suit this section.",
   },
   {
     title: "Professional growth",
     subtitle: "Vendors need more than a listing.",
     detail:
       "The vendor side gives pricing control, analytics, follower growth, and creative testing so a business can actually scale.",
-    imageNote: "Use a vendor dashboard screenshot or creator profile mockup.",
   },
 ];
 
@@ -110,11 +107,10 @@ export default function UseCasesPage() {
               <p className="text-neutral-500 leading-relaxed mb-6">
                 {item.detail}
               </p>
-              <div className="rounded-2xl border border-dashed border-neutral-700 bg-black/50 p-5">
-                <div className="text-white font-semibold mb-2">Image note</div>
-                <p className="text-neutral-500 text-sm leading-relaxed">
-                  {item.imageNote}
-                </p>
+              <div className="rounded-2xl border border-neutral-800 bg-black/50 p-5">
+                <div className="relative overflow-hidden rounded-xl border border-neutral-800 bg-neutral-950 min-h-[140px]">
+                  <UseCasesPreview />
+                </div>
               </div>
             </motion.article>
           ))}
@@ -142,7 +138,7 @@ export default function UseCasesPage() {
               Content ideas
             </div>
             <p className="text-neutral-500 leading-relaxed mb-4">
-              This page would also benefit from a few real screenshots:
+              The strongest standalone images for this page are still real screenshots:
             </p>
             <ul className="space-y-3 text-neutral-300 text-sm">
               <li>• A service discovery screen showing category filters and local results</li>

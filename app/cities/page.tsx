@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { CityMapPreview } from "@/components/city-map-preview";
 
 const cities = [
   { slug: "johannesburg", name: "Johannesburg", region: "Gauteng", highlight: "Launch center", blurb: "The primary city story and default marketplace view." },
@@ -88,10 +89,9 @@ export default function CitiesPage() {
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
               Suggested image
             </div>
-            <p className="text-neutral-500 leading-relaxed">
-              A map-style graphic with city markers or skyline imagery for the
-              main cities would work well here.
-            </p>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+              <CityMapPreview />
+            </div>
           </div>
         </div>
       </section>

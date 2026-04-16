@@ -91,9 +91,7 @@ export default function AboutPage() {
                   Founder story or city scene
                 </div>
                 <p className="text-neutral-500 text-sm max-w-sm mx-auto">
-                  Use a documentary-style photo of a customer and professional
-                  reviewing a booking on a phone, ideally in a real neighborhood
-                  setting.
+                  This page still wants a standalone photo. A documentary-style portrait of a founder or a customer and professional reviewing a booking in a real neighborhood setting would be strongest.
                 </p>
               </div>
             </div>

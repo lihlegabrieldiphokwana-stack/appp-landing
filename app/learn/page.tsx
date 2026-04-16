@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const cards = [
   {
@@ -145,10 +146,9 @@ export default function LearnPage() {
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
               Suggested image
             </div>
-            <p className="text-neutral-500 leading-relaxed">
-              A simple sitemap-style graphic or a collage of the About,
-              Use Cases, Newsroom, and Policy pages would fit here.
-            </p>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+              <PolicyFlowPreview />
+            </div>
           </div>
         </div>
       </section>
