@@ -20,8 +20,9 @@ type Vendor = {
 const handlePattern = /^\$[a-z][a-z0-9_]{2,29}$/i;
 
 function normalizeHandle(raw: string) {
-  if (!handlePattern.test(raw)) return null;
-  return raw.slice(1).toLowerCase();
+  const decoded = decodeURIComponent(raw);
+  if (!handlePattern.test(decoded)) return null;
+  return decoded.slice(1).toLowerCase();
 }
 
 async function getVendorByHandle(handle: string): Promise<Vendor | null> {
