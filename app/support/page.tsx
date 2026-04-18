@@ -104,7 +104,7 @@ export default function SupportPage() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8">
             <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-              Suggested workflow
+              Support workflow
             </div>
             <div className="space-y-4">
               {supportSteps.map((step) => (
@@ -118,7 +118,7 @@ export default function SupportPage() {
 
           <div className="rounded-3xl border border-neutral-800 bg-black p-8">
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Support dashboard
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <SupportDashboardPreview />

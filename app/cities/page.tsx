@@ -87,7 +87,7 @@ export default function CitiesPage() {
         <div className="max-w-5xl mx-auto px-6">
           <div className="rounded-3xl border border-neutral-800 bg-black p-8">
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Coverage map
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <CityMapPreview />

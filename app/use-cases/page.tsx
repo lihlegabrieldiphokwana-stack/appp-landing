@@ -135,16 +135,19 @@ export default function UseCasesPage() {
 
           <div className="rounded-3xl border border-neutral-800 bg-black p-8">
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Content ideas
+              Use case storyboard
             </div>
-            <p className="text-neutral-500 leading-relaxed mb-4">
-              The strongest standalone images for this page are still real screenshots:
-            </p>
-            <ul className="space-y-3 text-neutral-300 text-sm">
-              <li>• A service discovery screen showing category filters and local results</li>
-              <li>• A live booking timeline with tracking and chat</li>
-              <li>• A vendor dashboard showing analytics and pricing controls</li>
-            </ul>
+            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[320px] mb-5">
+              <UseCasesPreview />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {["Discover", "Book", "Grow"].map((step) => (
+                <div key={step} className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4">
+                  <div className="h-1.5 w-8 rounded-full bg-emerald-400 mb-3" />
+                  <div className="text-sm font-semibold text-white">{step}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

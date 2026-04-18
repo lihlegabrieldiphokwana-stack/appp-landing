@@ -17,10 +17,13 @@ export const Footer = () => {
             <p className="text-neutral-500 text-sm mb-4">
               The hyper-local marketplace for services and professionals.
             </p>
-            <div className="flex gap-4">
-              <span className="text-neutral-600 text-sm">
-                Social links coming soon.
-              </span>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/newsroom" className="text-neutral-500 hover:text-white transition-colors text-sm">
+                Newsroom
+              </Link>
+              <a href="mailto:support@bouul.com" className="text-neutral-500 hover:text-white transition-colors text-sm">
+                Contact
+              </a>
             </div>
           </div>
 

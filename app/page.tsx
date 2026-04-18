@@ -22,6 +22,19 @@ import { SentimentReviews } from "@/components/sentiment-reviews";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { DownloadCTA } from "@/components/download-cta";
 import { Footer } from "@/components/footer";
+import {
+  BroadCoverageVisual,
+  FiveStarReviewsVisual,
+  FollowFavouritesVisual,
+  InAppChatVisual,
+  InstantSearchVisual,
+  LiveGpsVisual,
+  LocationAwareVisual,
+  PersonalisedFeedVisual,
+  SecurePaymentsVisual,
+  VerifiedIdentityVisual,
+  VideoFeedVisual,
+} from "@/components/mechanic-card-visuals";
 
 export default function LandingPage() {
   return (
@@ -46,15 +59,17 @@ export default function LandingPage() {
           {
             title: "Instant Search",
             description: "Find the right professional fast. Search updates as you type and matches your request with local expertise.",
-            image: "/Group%201686.png"
+            visual: <InstantSearchVisual />
           },
           {
             title: "Location-aware",
-            description: "Your neighborhood's best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are."
+            description: "Your neighborhood's best, at your fingertips. Bouul uses precise location data to surface the most relevant professionals operating right where you are.",
+            visual: <LocationAwareVisual />
           },
           {
             title: "Broad Coverage",
-            description: "From home repairs to creative work, explore a wide range of services organized for easy discovery."
+            description: "From home repairs to creative work, explore a wide range of services organized for easy discovery.",
+            visual: <BroadCoverageVisual />
           }
         ]}
         align="right"
@@ -85,17 +100,17 @@ export default function LandingPage() {
           {
             title: "Verified Identity",
             description: "Book with more confidence. Professionals complete identity verification and a screening process before their profile goes live.",
-            image: "/verified_identity.jpg"
+            visual: <VerifiedIdentityVisual />
           },
           {
             title: "5-Star Reviews",
             description: "Browse reviews from completed bookings and see how others rated the work.",
-            image: "/follow_favourites.jpg"
+            visual: <FiveStarReviewsVisual />
           },
           {
             title: "Secure Payments",
             description: "Modern, frictionless, and secure. Pay for any service with a single tap, backed by industry-standard encryption that keeps your financial data protected.",
-            image: "/optimized/hero-banner-desktop.jpg"
+            visual: <SecurePaymentsVisual />
           }
         ]}
         align="left"
@@ -112,7 +127,7 @@ export default function LandingPage() {
           {
             title: "Live GPS",
             description: "Follow progress on a live map from departure through arrival.",
-            image: "/optimized/hero-banner-mobile.jpg"
+            visual: <LiveGpsVisual />
           },
           {
             title: "Push Notifications",
@@ -122,7 +137,7 @@ export default function LandingPage() {
           {
             title: "In-App Chat",
             description: "Message your professional directly in the app to share details, photos, or instructions.",
-            image: "/real_time_notifications.jpg"
+            visual: <InAppChatVisual />
           }
         ]}
         align="right"
@@ -152,16 +167,18 @@ export default function LandingPage() {
         cards={[
           {
             title: "Video Feed",
-            description: "See the craft in motion. Short-form video helps you understand the work before you book."
+            description: "See the craft in motion. Short-form video helps you understand the work before you book.",
+            visual: <VideoFeedVisual />
           },
           {
             title: "Personalised",
-            description: "The feed adapts to your activity so the services and styles you care about show up earlier."
+            description: "The feed adapts to your activity so the services and styles you care about show up earlier.",
+            visual: <PersonalisedFeedVisual />
           },
           {
             title: "Follow Favourites",
             description: "Build your professional dream team. Follow the experts whose work inspires you and get notified first when they have new availability or reels.",
-            image: "/follow_favourites.jpg"
+            visual: <FollowFavouritesVisual />
           }
         ]}
         align="left"

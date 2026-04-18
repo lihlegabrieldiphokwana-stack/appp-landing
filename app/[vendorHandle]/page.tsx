@@ -65,9 +65,10 @@ function publicImageUrl(value: string | null | undefined) {
 export async function generateMetadata({
   params,
 }: {
-  params: { vendorHandle: string };
+  params: Promise<{ vendorHandle: string }>;
 }): Promise<Metadata> {
-  const handle = normalizeHandle(params.vendorHandle);
+  const { vendorHandle } = await params;
+  const handle = normalizeHandle(vendorHandle);
   if (!handle) {
     return {
       title: "Business not found",
@@ -111,9 +112,10 @@ export async function generateMetadata({
 export default async function VendorHandlePage({
   params,
 }: {
-  params: { vendorHandle: string };
+  params: Promise<{ vendorHandle: string }>;
 }) {
-  const handle = normalizeHandle(params.vendorHandle);
+  const { vendorHandle } = await params;
+  const handle = normalizeHandle(vendorHandle);
   if (!handle) notFound();
 
   const vendor = await getVendorByHandle(handle);

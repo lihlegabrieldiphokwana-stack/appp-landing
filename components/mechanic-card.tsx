@@ -20,11 +20,25 @@ export const MechanicCard = ({ card, index }: MechanicCardProps) => {
       {/* Glass-morphic Image Placeholder */}
       <div className="w-full aspect-[4/3] bg-neutral-900 rounded-xl overflow-hidden relative flex items-center justify-center border border-neutral-800">
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-        {card.image ? (
+        {card.visual ? (
+          card.visual
+        ) : card.image ? (
           <img src={card.image} alt={card.title} className="w-full h-full object-cover" />
         ) : (
-          <div className="text-neutral-700 font-mono text-[10px] uppercase tracking-widest">
-            Visual Mechanic
+          <div className="absolute inset-0 bg-neutral-950 p-4">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.08),transparent_30%)]" />
+            <div className="relative h-full rounded-xl border border-white/10 bg-black/30 p-3">
+              <div className="h-2 w-16 rounded-full bg-emerald-400/80" />
+              <div className="mt-5 space-y-2">
+                <div className="h-3 w-3/4 rounded-full bg-white/15" />
+                <div className="h-3 w-1/2 rounded-full bg-white/10" />
+              </div>
+              <div className="absolute bottom-3 left-3 right-3 grid grid-cols-3 gap-2">
+                <div className="h-8 rounded-lg border border-white/10 bg-white/5" />
+                <div className="h-8 rounded-lg border border-white/10 bg-white/5" />
+                <div className="h-8 rounded-lg border border-white/10 bg-white/5" />
+              </div>
+            </div>
           </div>
         )}
       </div>

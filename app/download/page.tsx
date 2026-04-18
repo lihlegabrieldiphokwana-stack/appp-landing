@@ -107,7 +107,7 @@ export default function DownloadPage() {
                   </h2>
                 </div>
                 <div className="px-3 py-1.5 rounded-full border border-neutral-800 text-neutral-400 text-xs uppercase tracking-widest">
-                  Coming soon
+                  Store review
                 </div>
               </div>
 

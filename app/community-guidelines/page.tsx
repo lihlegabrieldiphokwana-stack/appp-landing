@@ -82,7 +82,7 @@ export default function CommunityGuidelinesPage() {
             className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Community flow
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <PolicyFlowPreview />

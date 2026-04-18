@@ -9,6 +9,8 @@ import { NewsroomBoardPreview } from "@/components/newsroom-board-preview";
 import { newsroomArticles, newsroomPressAssets, newsroomUpdates } from "./articles";
 
 export default function NewsroomPage() {
+  const [featuredArticle, ...latestArticles] = newsroomArticles;
+
   return (
     <main className="min-h-screen bg-black">
       <Navbar />
@@ -24,25 +26,25 @@ export default function NewsroomPage() {
               NEWSROOM
             </div>
             <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
-              Stories, updates, and press-ready context.
+              Product stories, launch updates, and press context.
             </h1>
             <p className="text-neutral-500 text-lg md:text-xl leading-relaxed max-w-3xl">
-              Use this space for launch notes, product announcements, customer
-              stories, and media assets. It gives the site a public voice
-              beyond the product screens.
+              Follow Bouul as the marketplace takes shape: customer workflows,
+              vendor tools, trust systems, and the product decisions behind a
+              better way to discover local services.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
-                href="/about"
+                href={`/newsroom/${featuredArticle.slug}`}
                 className="px-7 py-3.5 rounded-full bg-white text-black font-semibold text-sm hover:bg-neutral-100 transition-colors"
               >
-                About Bouul
+                Read latest story
               </Link>
               <Link
-                href="/download"
+                href="/press"
                 className="px-7 py-3.5 rounded-full border border-neutral-700 text-neutral-200 hover:text-white hover:border-neutral-500 font-medium text-sm transition-colors"
               >
-                Download page
+                Press kit
               </Link>
             </div>
           </motion.div>
@@ -54,7 +56,7 @@ export default function NewsroomPage() {
             className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Editorial desk
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <NewsroomBoardPreview />
@@ -64,34 +66,93 @@ export default function NewsroomPage() {
       </section>
 
       <section className="py-24 border-t border-neutral-900">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {newsroomArticles.map((story, index) => (
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-6 mb-6">
             <motion.article
-              key={story.slug}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
-              transition={{ duration: 0.5, delay: index * 0.06 }}
-              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-7"
+              transition={{ duration: 0.5 }}
+              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8 md:p-10"
             >
               <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-                {story.tag}
+                Featured story
               </div>
-              <h2 className="text-2xl font-semibold text-white mb-4">
-                {story.title}
+              <h2 className="text-3xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+                {featuredArticle.title}
               </h2>
-              <p className="text-neutral-500 leading-relaxed mb-6">
-                {story.summary}
+              <p className="text-neutral-400 text-lg leading-relaxed mb-6">
+                {featuredArticle.summary}
               </p>
+              <div className="flex flex-wrap gap-4 text-xs uppercase tracking-widest text-neutral-500 mb-8">
+                <span>{featuredArticle.tag}</span>
+                <span>{featuredArticle.date}</span>
+                <span>{featuredArticle.readTime}</span>
+              </div>
               <Link
-                href={`/newsroom/${story.slug}`}
+                href={`/newsroom/${featuredArticle.slug}`}
                 className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-emerald-400 transition-colors"
               >
-                Read article
-                <span aria-hidden="true">→</span>
+                Read feature
+                <span aria-hidden="true">-&gt;</span>
               </Link>
             </motion.article>
-          ))}
+
+            <motion.aside
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.25 }}
+              transition={{ duration: 0.5, delay: 0.06 }}
+              className="rounded-3xl border border-neutral-800 bg-black p-8"
+            >
+              <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-5">
+                What we cover
+              </div>
+              <div className="space-y-4">
+                {[
+                  "Product explainers for customers and vendors",
+                  "Trust, safety, payment, and policy updates",
+                  "Growth notes on social discovery, localization, and AI tools",
+                  "Press assets and company context for launch coverage",
+                ].map((item) => (
+                  <div key={item} className="flex items-start gap-3">
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                    <p className="text-neutral-300 text-sm leading-relaxed">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.aside>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {latestArticles.map((story, index) => (
+              <motion.article
+                key={story.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.25 }}
+                transition={{ duration: 0.5, delay: index * 0.06 }}
+                className="rounded-3xl border border-neutral-800 bg-neutral-950 p-7"
+              >
+                <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+                  {story.tag}
+                </div>
+                <h2 className="text-2xl font-semibold text-white mb-4">
+                  {story.title}
+                </h2>
+                <p className="text-neutral-500 leading-relaxed mb-6">
+                  {story.summary}
+                </p>
+                <Link
+                  href={`/newsroom/${story.slug}`}
+                  className="inline-flex items-center gap-2 text-sm font-medium text-white hover:text-emerald-400 transition-colors"
+                >
+                  Read article
+                  <span aria-hidden="true">-&gt;</span>
+                </Link>
+              </motion.article>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -134,9 +195,11 @@ export default function NewsroomPage() {
               ))}
             </div>
             <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 bg-neutral-950/70 p-5">
-              <div className="text-white font-semibold mb-2">Image note</div>
+              <div className="text-white font-semibold mb-2">Media contact</div>
               <p className="text-neutral-500 text-sm leading-relaxed">
-                The best standalone image later is still a clean product hero with a real founder or team portrait beside the app screens.
+                For interview requests, company background, or additional
+                launch materials, contact support@bouul.com and include
+                &quot;Press&quot; in the subject line.
               </p>
             </div>
           </div>

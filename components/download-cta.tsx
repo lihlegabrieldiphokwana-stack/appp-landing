@@ -55,7 +55,7 @@ export const DownloadCTA = () => {
           </div>
 
           <p className="text-neutral-600 text-sm">
-            Free to download • No subscription • Store links coming soon
+            Free to download • No subscription • Store links in review
           </p>
         </motion.div>
       </div>

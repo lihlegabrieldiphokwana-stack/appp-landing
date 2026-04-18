@@ -2,7 +2,12 @@
 
 import React from "react";
 
-const assets = ["Logo", "Desktop hero", "Mobile hero", "App preview"];
+const assets = [
+  { label: "Logo", shape: "mark" },
+  { label: "Desktop hero", shape: "wide" },
+  { label: "Mobile hero", shape: "phone" },
+  { label: "App preview", shape: "screens" },
+];
 
 export const PressKitPreview = () => {
   return (
@@ -33,12 +38,39 @@ export const PressKitPreview = () => {
 
         <div className="grid grid-cols-2 gap-2">
           {assets.map((asset, index) => (
-            <div key={asset} className="rounded-2xl border border-white/10 bg-white/5 p-3">
-              <div className="h-24 rounded-xl border border-dashed border-white/10 bg-gradient-to-br from-white/10 to-black/20" />
+            <div key={asset.label} className="rounded-2xl border border-white/10 bg-white/5 p-3">
+              <div className="h-24 rounded-xl border border-white/10 bg-gradient-to-br from-white/10 to-black/20 p-2">
+                {asset.shape === "mark" && (
+                  <div className="flex h-full items-center justify-center">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-400 text-lg font-black text-black">
+                      B
+                    </div>
+                  </div>
+                )}
+                {asset.shape === "wide" && (
+                  <div className="h-full rounded-lg bg-black/35 p-2">
+                    <div className="h-3 w-20 rounded-full bg-emerald-400/80" />
+                    <div className="mt-5 h-3 w-28 rounded-full bg-white/20" />
+                    <div className="mt-2 h-2 w-16 rounded-full bg-white/10" />
+                  </div>
+                )}
+                {asset.shape === "phone" && (
+                  <div className="mx-auto h-full w-12 rounded-xl border border-white/15 bg-black/45 p-1.5">
+                    <div className="h-3 w-5 rounded-full bg-white/15 mx-auto mb-2" />
+                    <div className="h-12 rounded-lg bg-emerald-400/20" />
+                  </div>
+                )}
+                {asset.shape === "screens" && (
+                  <div className="relative h-full">
+                    <div className="absolute left-4 top-3 h-14 w-16 rounded-lg border border-white/15 bg-black/45" />
+                    <div className="absolute right-4 bottom-2 h-16 w-10 rounded-xl border border-white/15 bg-emerald-400/15" />
+                  </div>
+                )}
+              </div>
               <div className="mt-3 text-[10px] uppercase tracking-[0.22em] text-neutral-500">
                 Asset {index + 1}
               </div>
-              <div className="text-sm font-semibold">{asset}</div>
+              <div className="text-sm font-semibold">{asset.label}</div>
             </div>
           ))}
         </div>

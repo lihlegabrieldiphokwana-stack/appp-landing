@@ -7,6 +7,7 @@ export interface FeatureCard {
   title: string;
   description: string;
   image?: string; // Optional image URL or placeholder data
+  visual?: React.ReactNode;
 }
 
 interface FeatureSectionProps {

@@ -10,8 +10,10 @@ export interface NewsroomArticle {
   date: string;
   readTime: string;
   summary: string;
-  imageNote: string;
-  heroNote: string;
+  pullQuote: string;
+  visualTitle: string;
+  visualCaption: string;
+  quickFacts: string[];
   sections: NewsroomSection[];
 }
 
@@ -24,10 +26,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "6 min read",
     summary:
       "A practical guide to finding, comparing, booking, and tracking services without losing context along the way.",
-    imageNote:
-      "Use a hero image showing a customer searching for a service on a phone with local results visible.",
-    heroNote:
-      "Suggested hero image: a phone in hand with search, category chips, and verified service cards visible.",
+    pullQuote:
+      "The best service marketplace is the one that keeps the customer moving from intent to completion without losing trust.",
+    visualTitle: "Customer journey",
+    visualCaption:
+      "Search, compare, book, track, and review from one continuous product flow.",
+    quickFacts: ["Plain-language search", "Verified professionals", "Booking status in one place"],
     sections: [
       {
         heading: "Search starts with plain language",
@@ -59,10 +63,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "7 min read",
     summary:
       "A vendor walkthrough covering the dashboard, requests, staff mode, subscriptions, payouts, and conversion tools.",
-    imageNote:
-      "Use a vendor dashboard visual showing requests, analytics, payouts, and recurring work in one frame.",
-    heroNote:
-      "Suggested hero image: a desktop vendor dashboard with mobile preview, booking queue, and payout state visible.",
+    pullQuote:
+      "Bouul treats professionals like operators of real businesses, not just listings in a directory.",
+    visualTitle: "Vendor operating view",
+    visualCaption:
+      "Requests, staff assignments, analytics, recurring bookings, and payout state in one dashboard.",
+    quickFacts: ["Business dashboard", "Staff and assignment flows", "Conversion tools"],
     sections: [
       {
         heading: "One business, one control centre",
@@ -94,10 +100,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "6 min read",
     summary:
       "A clear explanation of the payout portal, auto-generated invoices, business details, and how vendors keep the money flow organised.",
-    imageNote:
-      "Use a payout portal and invoice preview with branded business details and confirmation states.",
-    heroNote:
-      "Suggested hero image: a vendor reviewing invoices and payout status beside a branded invoice mockup.",
+    pullQuote:
+      "Payouts and invoices should make the business feel more organized the moment a job is completed.",
+    visualTitle: "Money flow",
+    visualCaption:
+      "A clearer view of pending balances, settlement timing, invoice details, and business branding.",
+    quickFacts: ["Payout visibility", "Branded invoices", "Editable business details"],
     sections: [
       {
         heading: "The payout portal should feel obvious",
@@ -112,7 +120,7 @@ export const newsroomArticles: NewsroomArticle[] = [
       {
         heading: "Business details make it real",
         body:
-          "To make the invoice preview credible, the vendor should be able to add a logo, email address, and physical address. That makes the generated invoice feel like a real operating document rather than a generic placeholder.",
+          "To make the invoice preview credible, the vendor should be able to add a logo, email address, and physical address. That makes the generated invoice feel like a real operating document rather than a generic receipt.",
       },
       {
         heading: "Why this saves time",
@@ -129,10 +137,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "5 min read",
     summary:
       "Why verified identity, booking-tied reviews, and visible protection are central to the Bouul experience.",
-    imageNote:
-      "Use a trust-focused visual with verification badges, booking history, and payout protection states.",
-    heroNote:
-      "Suggested hero image: a clean trust panel showing verification, review confidence, and booking protection.",
+    pullQuote:
+      "Trust is not a badge at the edge of the product. It is part of how discovery, booking, and support work.",
+    visualTitle: "Trust layer",
+    visualCaption:
+      "Verification, booking-tied reviews, protection flows, and support context shown before commitment.",
+    quickFacts: ["Identity checks", "Booking-tied reviews", "Support escalation"],
     sections: [
       {
         heading: "Identity before visibility",
@@ -164,10 +174,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "5 min read",
     summary:
       "How one-pass background cleanup helps businesses present better product photos without expensive shoots or repeated editing.",
-    imageNote:
-      "Use a before/after product shot that shows clutter removed and the final image cleaned up dramatically.",
-    heroNote:
-      "Suggested hero image: a side-by-side product photo comparison with an animated wipe effect.",
+    pullQuote:
+      "Better product images are not cosmetic. They can change whether a visitor understands and trusts a service.",
+    visualTitle: "Photo cleanup",
+    visualCaption:
+      "A before-and-after product flow that turns everyday service photos into cleaner catalogue assets.",
+    quickFacts: ["One-pass cleanup", "Catalogue-ready images", "Lower editing overhead"],
     sections: [
       {
         heading: "Product photos are expensive to produce",
@@ -199,10 +211,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "6 min read",
     summary:
       "Why Bouul feels social, how the feed works, and how Resonance helps the platform show more relevant content.",
-    imageNote:
-      "Use a vertical reel-style feed or creator-style service cards with favourites and activity signals.",
-    heroNote:
-      "Suggested hero image: a social feed preview with reels, follows, and recommendation signals.",
+    pullQuote:
+      "The social layer exists to make real work easier to judge before a customer decides to book.",
+    visualTitle: "Discovery feed",
+    visualCaption:
+      "Follows, videos, activity signals, and personalization make service discovery feel more alive.",
+    quickFacts: ["Follow favourites", "Video-led discovery", "Resonance ranking"],
     sections: [
       {
         heading: "This is discovery with personality",
@@ -234,10 +248,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "4 min read",
     summary:
       "How recurring bookings work for cleaning, grooming, maintenance, and other repeat services.",
-    imageNote:
-      "Use a subscription plan comparison with weekly, bi-weekly, and monthly rhythms.",
-    heroNote:
-      "Suggested hero image: recurring service cards with schedule, discount, and automation cues.",
+    pullQuote:
+      "Recurring services work best when customers can set a rhythm once and vendors can plan around it.",
+    visualTitle: "Recurring work",
+    visualCaption:
+      "Weekly, bi-weekly, and monthly service rhythms with schedule, discount, and reminder states.",
+    quickFacts: ["Repeat booking rhythms", "Predictable vendor demand", "Less rebooking friction"],
     sections: [
       {
         heading: "Some services are meant to repeat",
@@ -264,10 +280,12 @@ export const newsroomArticles: NewsroomArticle[] = [
     readTime: "5 min read",
     summary:
       "Why tailored section titles, translated menus, and native-language experiences can materially improve conversions.",
-    imageNote:
-      "Use a UI showing translated menus and tailored section headings for different users or regions.",
-    heroNote:
-      "Suggested hero image: a localized app interface with menu translations and custom headings.",
+    pullQuote:
+      "Localization works when it makes the next action feel obvious in the customer’s own context.",
+    visualTitle: "Localized experience",
+    visualCaption:
+      "Translated menus, clearer section titles, and region-aware language help users move faster.",
+    quickFacts: ["Native-language menus", "Tailored headings", "Conversion-focused copy"],
     sections: [
       {
         heading: "Words shape confidence",

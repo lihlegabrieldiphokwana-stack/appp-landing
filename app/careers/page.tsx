@@ -79,7 +79,7 @@ export default function CareersPage() {
             className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Team preview
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <CareersBoardPreview />
@@ -129,11 +129,13 @@ export default function CareersPage() {
 
           <div className="rounded-3xl border border-neutral-800 bg-black p-8">
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Hiring note
+              Hiring enquiries
             </div>
             <p className="text-neutral-500 leading-relaxed">
-              If you want, this page can later evolve into a live careers board
-              with open roles, culture notes, and application forms.
+              Bouul is building an early team across product, engineering,
+              operations, and growth. Send a short note to support@bouul.com
+              with the role area you are interested in and links to relevant
+              work.
             </p>
           </div>
         </div>

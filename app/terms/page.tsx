@@ -88,7 +88,7 @@ export default function TermsPage() {
             className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Terms flow
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <PolicyFlowPreview />

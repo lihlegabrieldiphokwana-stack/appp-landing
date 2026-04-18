@@ -66,7 +66,7 @@ export default function PressPage() {
             className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Suggested image
+              Press kit preview
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
               <PressKitPreview />
@@ -117,11 +117,12 @@ export default function PressPage() {
 
           <div className="rounded-3xl border border-neutral-800 bg-black p-8">
             <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
-              Press note
+              Media enquiries
             </div>
             <p className="text-neutral-500 leading-relaxed">
-              If you want, this page can later become a fuller press kit with
-              logos, executive bios, and downloadable image packs.
+              For interviews, company background, or additional launch images,
+              contact support@bouul.com with &quot;Press&quot; in the subject line.
+              Include the outlet, deadline, and the assets you need.
             </p>
           </div>
         </div>
