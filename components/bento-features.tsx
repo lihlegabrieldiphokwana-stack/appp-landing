@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BentoGrid, BentoGridItem } from "@/components/bento-grid";
 import {
-  MagicRemoverVisual,
   DashboardVisual,
   RewardsVisual,
   DisputeVisual,
@@ -12,13 +11,6 @@ import {
   VettedProsVisual,
   BookingVisual,
 } from "@/components/feature-visuals";
-
-const MagicRemoverIcon = () => (
-  <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
-  </svg>
-);
 
 const VendorIcon = () => (
   <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,13 +55,6 @@ const BookingIcon = () => (
 );
 
 const bentoItems = [
-  {
-    title: "AI that sees what you need.",
-    description: "Magic Remover uses computer vision to identify and remove unwanted elements from your service photos with a single pass.",
-    icon: <MagicRemoverIcon />,
-    className: "md:col-span-2",
-    header: <MagicRemoverVisual />,
-  },
   {
     title: "Your business. At a glance.",
     description: "The vendor dashboard brings bookings, earnings, reviews, and analytics into one clean interface.",

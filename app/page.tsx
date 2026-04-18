@@ -14,6 +14,7 @@ import { PlatformStory } from "@/components/platform-story";
 import { MagicRemoverSection } from "@/components/magic-remover-section";
 import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
+import { SemanticSearchSection } from "@/components/semantic-search-section";
 import { DynamicPricing } from "@/components/dynamic-pricing";
 import { SubscriptionSection } from "@/components/subscription-section";
 import { VendorSection } from "@/components/vendor-section";
@@ -190,6 +191,9 @@ export default function LandingPage() {
 
       {/* All features grid */}
       <BentoFeatures />
+
+      {/* Intelligent keyword hashtags and semantic search */}
+      <SemanticSearchSection />
 
       {/* Transparent pricing */}
       <DynamicPricing />
