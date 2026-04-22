@@ -18,8 +18,6 @@ type ServiceRow = {
   duration_minutes: number | null;
   avg_rating: number | null;
   images: string[] | string | null;
-  thumb_webp: string | null;
-  thumb_jpg: string | null;
   service_categories: string[] | null;
   vendors: VendorPreview | null;
 };
@@ -27,18 +25,29 @@ type ServiceRow = {
 async function getService(serviceId: string) {
   return fetchSupabaseRow<ServiceRow>("services", {
     select:
-      "id,name,description,price,currency,duration_minutes,avg_rating,images,thumb_webp,thumb_jpg,service_categories,vendors(business_name,handle,logo,is_verified)",
+      "id,name,description,price,currency,duration_minutes,avg_rating,images,service_categories,vendors(business_name,handle,logo,is_verified)",
     id: `eq.${serviceId}`,
     is_active: "eq.true",
   });
 }
 
+function parseImagesField(images: string[] | string | null | undefined): string | null {
+  if (!images) return null;
+  if (Array.isArray(images)) return images[0] ?? null;
+  if (images.startsWith("[")) {
+    try {
+      const arr = JSON.parse(images) as string[];
+      return arr[0] ?? null;
+    } catch {
+      // fall through
+    }
+  }
+  return images;
+}
+
 function serviceImage(service: ServiceRow | null) {
   if (!service) return null;
-  if (service.thumb_webp) return publicImageUrl(service.thumb_webp);
-  if (service.thumb_jpg) return publicImageUrl(service.thumb_jpg);
-  if (Array.isArray(service.images)) return publicImageUrl(service.images[0]);
-  return publicImageUrl(service.images);
+  return publicImageUrl(parseImagesField(service.images));
 }
 
 export async function generateMetadata({

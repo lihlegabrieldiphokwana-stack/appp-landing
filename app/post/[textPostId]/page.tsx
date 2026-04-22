@@ -17,8 +17,6 @@ type TextPostRow = {
   summary: string | null;
   images: string[] | null;
   thumb_jpg: string | null;
-  medium_jpg: string | null;
-  full_jpg: string | null;
   like_count: number | null;
   comment_count: number | null;
   category_ids: string[] | null;
@@ -28,7 +26,7 @@ type TextPostRow = {
 async function getTextPost(textPostId: string) {
   return fetchSupabaseRow<TextPostRow>("text_posts", {
     select:
-      "id,title,text_content,summary,images,thumb_jpg,medium_jpg,full_jpg,like_count,comment_count,category_ids,vendors(business_name,handle,logo,is_verified)",
+      "id,title,text_content,summary,images,thumb_jpg,like_count,comment_count,category_ids,vendors(business_name,handle,logo,is_verified)",
     id: `eq.${textPostId}`,
     is_published: "eq.true",
   });
@@ -48,8 +46,6 @@ function postDescription(post: TextPostRow | null) {
 function postImage(post: TextPostRow | null) {
   if (!post) return null;
   if (post.thumb_jpg) return publicImageUrl(post.thumb_jpg);
-  if (post.medium_jpg) return publicImageUrl(post.medium_jpg);
-  if (post.full_jpg) return publicImageUrl(post.full_jpg);
   return publicImageUrl(post.images?.[0]);
 }
 

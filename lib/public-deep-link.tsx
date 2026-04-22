@@ -67,6 +67,7 @@ export async function fetchSupabaseRow<T>(
     headers: {
       apikey: supabaseAnonKey,
       Authorization: `Bearer ${supabaseAnonKey}`,
+      Accept: "application/json",
     },
     next: { revalidate: 120 },
   });

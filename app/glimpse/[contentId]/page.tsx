@@ -33,7 +33,7 @@ async function getGlimpse(contentId: string) {
     select:
       "id,caption,alt_text,transcript,media_type,media_url,media_url_webp,thumbnail_url,thumbnail_url_webp,view_count,like_count,comment_count,hashtags,category_ids,vendors(business_name,handle,logo,is_verified)",
     id: `eq.${contentId}`,
-    is_published: "is.not.false",
+    is_active: "eq.true",
   });
 }
 
