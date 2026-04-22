@@ -10,6 +10,22 @@
           {
             "/": "/$*",
             "comment": "Bouul vendor business handle deep links, e.g. https://bouul.com/$glamstudiojhb"
+          },
+          {
+            "/": "/service/*",
+            "comment": "Bouul service deep links, e.g. https://bouul.com/service/{serviceId}"
+          },
+          {
+            "/": "/post/*",
+            "comment": "Bouul text post deep links, e.g. https://bouul.com/post/{textPostId}"
+          },
+          {
+            "/": "/glimpse/*",
+            "comment": "Bouul glimpse deep links, e.g. https://bouul.com/glimpse/{contentId}"
+          },
+          {
+            "/": "/content/*",
+            "comment": "Legacy Bouul content deep links, e.g. https://bouul.com/content/{contentId}"
           }
         ]
       }
