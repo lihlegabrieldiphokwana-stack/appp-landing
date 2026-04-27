@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        disallow: ["/investors/"],
       },
     ],
     sitemap: "https://bouul.com/sitemap.xml",
