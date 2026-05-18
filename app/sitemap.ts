@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { newsroomArticles } from "./newsroom/articles";
+import { vendorCategories } from "@/lib/vendor-categories-data";
 
 const baseUrl = "https://bouul.com";
 const now = new Date();
@@ -8,6 +9,7 @@ const staticRoutes = [
   "/",
   "/services",
   "/vendors",
+  "/employees",
   "/download",
   "/faq",
   "/support",
@@ -40,6 +42,8 @@ const cities = [
   "pretoria",
   "centurion",
   "midrand",
+  "randburg",
+  "fourways",
   "roodepoort",
   "boksburg",
   "benoni",
@@ -82,6 +86,13 @@ const proProfiles = [
   priority: 0.5,
 }));
 
+const vendorCategoryRoutes = vendorCategories.map((cat) => ({
+  url: `${baseUrl}/vendors/${cat.slug}`,
+  lastModified: now,
+  changeFrequency: "monthly" as const,
+  priority: 0.5,
+}));
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [...staticRoutes, ...cities, ...categories, ...newsroom, ...proProfiles];
+  return [...staticRoutes, ...cities, ...categories, ...newsroom, ...proProfiles, ...vendorCategoryRoutes];
 }

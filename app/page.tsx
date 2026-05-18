@@ -9,17 +9,7 @@ import { TrustPreview } from "@/components/trust-preview";
 import { TrackingPreview } from "@/components/tracking-preview";
 import { SocialPreview } from "@/components/social-preview";
 import { ZolaSection } from "@/components/zola-section";
-import { ResonanceEngine } from "@/components/resonance-engine";
-import { PlatformStory } from "@/components/platform-story";
-import { MagicRemoverSection } from "@/components/magic-remover-section";
-import { SocialMechanics } from "@/components/social-mechanics";
 import { BentoFeatures } from "@/components/bento-features";
-import { SemanticSearchSection } from "@/components/semantic-search-section";
-import { DynamicPricing } from "@/components/dynamic-pricing";
-import { SubscriptionSection } from "@/components/subscription-section";
-import { VendorSection } from "@/components/vendor-section";
-import { StatsStrip } from "@/components/stats-strip";
-import { SentimentReviews } from "@/components/sentiment-reviews";
 import { TestimonialsSection } from "@/components/testimonials-section";
 import { DownloadCTA } from "@/components/download-cta";
 import { Footer } from "@/components/footer";
@@ -148,15 +138,6 @@ export default function LandingPage() {
       {/* Zola AI — booking assistant */}
       <ZolaSection />
 
-      {/* Resonance Discovery Engine */}
-      <ResonanceEngine />
-
-      {/* Platform story / operating system */}
-      <PlatformStory />
-
-      {/* Magic Remover */}
-      <MagicRemoverSection />
-
       {/* Social — video feed intro */}
       <FeatureSection
         id="social"
@@ -186,29 +167,8 @@ export default function LandingPage() {
         placeholderLabel="Social Video Feed"
       />
 
-      {/* Deep-dive on social mechanics */}
-      <SocialMechanics />
-
       {/* All features grid */}
       <BentoFeatures />
-
-      {/* Intelligent keyword hashtags and semantic search */}
-      <SemanticSearchSection />
-
-      {/* Transparent pricing */}
-      <DynamicPricing />
-
-      {/* Subscriptions */}
-      <SubscriptionSection />
-
-      {/* Vendor section — with link to dedicated vendor page */}
-      <VendorSection />
-
-      {/* Stats */}
-      <StatsStrip />
-
-      {/* AI sentiment analysis of reviews */}
-      <SentimentReviews />
 
       {/* Testimonials */}
       <TestimonialsSection />

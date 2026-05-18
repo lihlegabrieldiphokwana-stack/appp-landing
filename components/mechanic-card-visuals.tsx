@@ -41,7 +41,7 @@ export const InstantSearchVisual = () => {
 export const LocationAwareVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_35%_35%,rgba(16,185,129,0.22),transparent_30%),radial-gradient(circle_at_70%_70%,rgba(59,130,246,0.16),transparent_28%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_35%_35%,rgba(16,185,129,0.22),transparent_30%),radial-gradient(circle_at_70%_70%,rgba(16,185,129,0.12),transparent_28%)]" />
       <div className="relative h-full rounded-xl border border-white/10 bg-black/25 p-3">
         <div className="flex items-center justify-between text-[9px] uppercase tracking-[0.2em] text-neutral-500">
           <span>Nearby</span>
@@ -72,7 +72,7 @@ export const LocationAwareVisual = () => {
 export const LiveGpsVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.18),transparent_30%),radial-gradient(circle_at_75%_65%,rgba(16,185,129,0.2),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(16,185,129,0.18),transparent_30%),radial-gradient(circle_at_75%_65%,rgba(16,185,129,0.2),transparent_30%)]" />
       <div className="relative h-full rounded-xl border border-white/10 bg-black/30 p-3">
         <div className="flex items-center justify-between text-[9px] uppercase tracking-[0.2em] text-neutral-500">
           <span>Live GPS</span>
@@ -110,8 +110,8 @@ export const LiveGpsVisual = () => {
           </svg>
 
           <div className="absolute left-[34px] top-[68px]">
-            <div className="h-5 w-5 rounded-full border-2 border-white bg-sky-400 shadow-[0_0_20px_rgba(56,189,248,0.8)]" />
-            <div className="mx-auto mt-1 h-2 w-0.5 bg-sky-400" />
+            <div className="h-5 w-5 rounded-full border-2 border-white bg-emerald-400 shadow-[0_0_20px_rgba(52,211,153,0.8)]" />
+            <div className="mx-auto mt-1 h-2 w-0.5 bg-emerald-400" />
           </div>
           <div className="absolute right-[28px] top-[14px]">
             <div className="h-6 w-6 rounded-full border-2 border-white bg-emerald-400 shadow-[0_0_22px_rgba(52,211,153,0.9)]" />
@@ -137,7 +137,7 @@ export const LiveGpsVisual = () => {
 export const VerifiedIdentityVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.2),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.14),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.2),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.1),transparent_30%)]" />
       <div className="relative h-full rounded-xl border border-white/10 bg-black/30 p-4">
         <div className="flex items-center justify-between text-[9px] uppercase tracking-[0.2em] text-neutral-500">
           <span>Identity</span>
@@ -172,11 +172,11 @@ export const VerifiedIdentityVisual = () => {
 export const FiveStarReviewsVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(250,204,21,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.14),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.18),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.14),transparent_30%)]" />
       <div className="relative h-full flex flex-col gap-3">
         <div className="rounded-2xl border border-white/10 bg-white/5 p-3">
           <div className="text-[9px] uppercase tracking-[0.2em] text-neutral-500">Reviews</div>
-          <div className="mt-2 flex items-center gap-1 text-amber-300">
+          <div className="mt-2 flex items-center gap-1 text-emerald-300">
             {Array.from({ length: 5 }).map((_, index) => (
               <span key={index} className="text-lg leading-none">★</span>
             ))}
@@ -195,7 +195,7 @@ export const FiveStarReviewsVisual = () => {
             </div>
           </div>
           <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-white/15">
-            <div className="h-full w-[92%] rounded-full bg-amber-300" />
+            <div className="h-full w-[92%] rounded-full bg-emerald-300" />
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@ export const FiveStarReviewsVisual = () => {
 export const SecurePaymentsVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.14),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.1),transparent_30%)]" />
       <div className="relative h-full rounded-xl border border-white/10 bg-black/30 p-4">
         <div className="flex items-center justify-between text-[9px] uppercase tracking-[0.2em] text-neutral-500">
           <span>Payment</span>
@@ -245,7 +245,7 @@ export const SecurePaymentsVisual = () => {
 export const InAppChatVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.16),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.1),transparent_30%)]" />
       <div className="relative h-full flex flex-col gap-3">
         <div className="rounded-2xl border border-white/10 bg-white/5 p-3">
           <div className="text-[9px] uppercase tracking-[0.2em] text-neutral-500">Chat</div>
@@ -279,7 +279,7 @@ export const BroadCoverageVisual = () => {
         <div className="grid grid-cols-2 gap-2 flex-1">
           {categories.map((category, index) => (
             <div key={category} className="rounded-xl border border-white/10 bg-black/30 p-3">
-              <div className={`h-2 w-8 rounded-full ${index % 2 === 0 ? "bg-emerald-400" : "bg-sky-400"}`} />
+              <div className={`h-2 w-8 rounded-full ${index % 2 === 0 ? "bg-emerald-400" : "bg-emerald-400/40"}`} />
               <div className="mt-6 text-sm font-semibold">{category}</div>
             </div>
           ))}
@@ -292,7 +292,7 @@ export const BroadCoverageVisual = () => {
 export const FollowFavouritesVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(244,114,182,0.14),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.1),transparent_30%)]" />
       <div className="relative h-full flex flex-col gap-3">
         <div className="rounded-2xl border border-white/10 bg-white/5 p-3">
           <div className="text-[9px] uppercase tracking-[0.2em] text-emerald-300">Following</div>
@@ -324,7 +324,7 @@ export const FollowFavouritesVisual = () => {
 export const VideoFeedVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(244,114,182,0.14),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(16,185,129,0.18),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.1),transparent_30%)]" />
       <div className="relative h-full overflow-hidden rounded-xl border border-white/10 bg-black/35">
         <div className="absolute inset-3 rounded-xl bg-gradient-to-br from-neutral-800 to-black" />
         <div className="absolute left-5 right-5 top-5 flex items-center justify-between">
@@ -350,7 +350,7 @@ export const VideoFeedVisual = () => {
 export const PersonalisedFeedVisual = () => {
   return (
     <div className="absolute inset-0 bg-neutral-950 p-4 text-white">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.14),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.16),transparent_30%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.14),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.16),transparent_30%)]" />
       <div className="relative h-full flex flex-col gap-3">
         <div className="rounded-xl border border-white/10 bg-white/5 p-3">
           <div className="text-[9px] uppercase tracking-[0.2em] text-emerald-300">For you</div>

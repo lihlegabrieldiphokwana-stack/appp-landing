@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { ModeProvider } from "@/components/mode-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -58,7 +59,7 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
-        {children}
+        <ModeProvider>{children}</ModeProvider>
         {/* Structured Data - LocalBusiness */}
         <Script
           id="structured-data-localbusiness"

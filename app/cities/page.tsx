@@ -57,7 +57,7 @@ export default function CitiesPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.5, delay: index * 0.04 }}
-              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
+              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8 h-full flex flex-col"
             >
               <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
                 {city.region}

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { MechanicCard } from "./mechanic-card";
 
 export interface FeatureCard {
@@ -121,10 +122,11 @@ export const FeatureSection = ({
                 }}
               >
                 {typeof appPreview === "string" ? (
-                  <img
+                  <Image
                     src={appPreview}
                     alt={placeholderLabel}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 ) : (
                   <div className="absolute inset-0">{appPreview}</div>
@@ -147,7 +149,7 @@ export const FeatureSection = ({
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="flex gap-5 overflow-x-auto overscroll-x-contain pb-6 pt-2 snap-x snap-mandatory">
+            <div className="flex gap-5 overflow-x-auto overscroll-x-contain pb-6 pt-2 snap-x snap-mandatory items-stretch">
               {cards.map((card, i) => (
                 <div key={i} className="snap-start">
                   <MechanicCard card={card} index={i} />

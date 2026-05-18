@@ -45,8 +45,8 @@ export const StatsStrip = () => {
   return (
     <section className="border-y border-neutral-800 bg-black">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-neutral-800">
-        <StatItem end={12} suffix="+" label="Cities" />
-        <StatItem end={200} suffix="+" label="Service Categories" />
+        <StatItem end={12} suffix="" label="Cities" />
+        <StatItem end={71} suffix="+" label="Service Categories" />
         <StatItem end={5000} suffix="+" label="Vetted Professionals" />
       </div>
     </section>

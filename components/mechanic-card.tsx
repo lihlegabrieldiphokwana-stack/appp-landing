@@ -15,7 +15,7 @@ export const MechanicCard = ({ card, index }: MechanicCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="flex-shrink-0 w-[280px] md:w-[320px] bg-neutral-950 border border-neutral-800 rounded-2xl p-6 flex flex-col gap-4 group hover:border-emerald-500/30 transition-colors"
+      className="flex-shrink-0 w-[280px] md:w-[320px] h-full bg-neutral-950 border border-neutral-800 rounded-2xl p-6 flex flex-col gap-4 group hover:border-emerald-500/30 transition-colors"
     >
       {/* Glass-morphic Image Placeholder */}
       <div className="w-full aspect-[4/3] bg-neutral-900 rounded-xl overflow-hidden relative flex items-center justify-center border border-neutral-800">

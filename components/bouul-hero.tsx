@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Spotlight } from "@/components/ui/spotlight";
 import { FlipWords } from "@/components/ui/flip-words";
 
@@ -34,10 +35,13 @@ export const BouulHero = () => {
           className="flex justify-center mb-8"
         >
           <div className="w-20 h-20 rounded-2xl overflow-hidden shadow-2xl shadow-emerald-500/20">
-            <img
+            <Image
               src="/bouul-logo.png"
               alt="Bouul"
-              className="w-full h-full object-cover"
+              width={80}
+              height={80}
+              className="object-cover"
+              priority
             />
           </div>
         </motion.div>
@@ -111,10 +115,12 @@ export const BouulHero = () => {
               aspectRatio: "428/930.53",
             }}
           >
-            <img
+            <Image
               src="/Group%201686.png"
               alt="Bouul App Preview"
-              className="w-full h-full object-fill"
+              fill
+              className="object-cover"
+              priority
             />
           </div>
         </motion.div>

@@ -5,11 +5,53 @@
   --foreground: #ededed;
   --font-geist-sans: "Helvetica Neue", Arial, sans-serif;
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  /* Mode tokens — consumer defaults */
+  --mode-accent: #10b981;
+  --mode-accent-bright: #34d399;
+  --mode-accent-soft: rgba(16, 185, 129, 0.10);
+  --mode-accent-glow: rgba(16, 185, 129, 0.20);
+  --mode-surface: #0a0a0a;
+  --mode-surface-raised: #171717;
+  --mode-border: #262626;
+  --mode-cta-bg: #ffffff;
+  --mode-cta-text: #000000;
+}
+
+/* Vendor mode — prominent emerald, bolder accents */
+[data-mode="vendor"] {
+  --mode-accent: #34d399;
+  --mode-accent-bright: #6ee7b7;
+  --mode-accent-soft: rgba(52, 211, 153, 0.18);
+  --mode-accent-glow: rgba(52, 211, 153, 0.30);
+  --mode-surface: #050a07;
+  --mode-surface-raised: #0d1410;
+  --mode-border: #1a3327;
+  --mode-cta-bg: #34d399;
+  --mode-cta-text: #000000;
+}
+
+/* Employee mode — white accent, green-tinted surfaces */
+[data-mode="employee"] {
+  --mode-accent: #ffffff;
+  --mode-accent-bright: #ffffff;
+  --mode-accent-soft: rgba(255, 255, 255, 0.12);
+  --mode-accent-glow: rgba(255, 255, 255, 0.18);
+  --mode-surface: #06120d;
+  --mode-surface-raised: #0a1a12;
+  --mode-border: #1a3327;
+  --mode-cta-bg: #ffffff;
+  --mode-cta-text: #0a1a12;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-mode-accent: var(--mode-accent);
+  --color-mode-accent-bright: var(--mode-accent-bright);
+  --color-mode-surface: var(--mode-surface);
+  --color-mode-surface-raised: var(--mode-surface-raised);
+  --color-mode-border: var(--mode-border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --breakpoint-tablet: 834px;

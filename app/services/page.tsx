@@ -10,7 +10,6 @@ const serviceCategories = [
   {
     name: "Home Services",
     icon: "🏠",
-    color: "emerald",
     services: [
       { name: "Plumbers", slug: "plumbers", count: 234 },
       { name: "Electricians", slug: "electricians", count: 189 },
@@ -32,7 +31,6 @@ const serviceCategories = [
   {
     name: "Cleaning Services",
     icon: "✨",
-    color: "blue",
     services: [
       { name: "House Cleaning", slug: "house-cleaning", count: 312 },
       { name: "Carpet Cleaning", slug: "carpet-cleaning", count: 145 },
@@ -47,7 +45,6 @@ const serviceCategories = [
   {
     name: "Beauty & Wellness",
     icon: "💅",
-    color: "pink",
     services: [
       { name: "Hairdressers", slug: "hairdressers", count: 267 },
       { name: "Barbers", slug: "barbers", count: 198 },
@@ -64,7 +61,6 @@ const serviceCategories = [
   {
     name: "Automotive",
     icon: "🚗",
-    color: "orange",
     services: [
       { name: "Mechanics", slug: "mechanics", count: 189 },
       { name: "Car Detailing", slug: "car-detailing", count: 156 },
@@ -78,7 +74,6 @@ const serviceCategories = [
   {
     name: "Education & Tuition",
     icon: "📚",
-    color: "purple",
     services: [
       { name: "Math Tutors", slug: "math-tutors", count: 234 },
       { name: "English Tutors", slug: "english-tutors", count: 198 },
@@ -93,7 +88,6 @@ const serviceCategories = [
   {
     name: "Health & Medical",
     icon: "🏥",
-    color: "red",
     services: [
       { name: "Physiotherapists", slug: "physiotherapists", count: 145 },
       { name: "Dietitians", slug: "dietitians", count: 98 },
@@ -107,7 +101,6 @@ const serviceCategories = [
   {
     name: "Events & Photography",
     icon: "📸",
-    color: "cyan",
     services: [
       { name: "Photographers", slug: "photographers", count: 198 },
       { name: "Videographers", slug: "videographers", count: 156 },
@@ -122,7 +115,6 @@ const serviceCategories = [
   {
     name: "Professional Services",
     icon: "💼",
-    color: "indigo",
     services: [
       { name: "Accountants", slug: "accountants", count: 167 },
       { name: "Bookkeepers", slug: "bookkeepers", count: 134 },
@@ -137,7 +129,6 @@ const serviceCategories = [
   {
     name: "Pets",
     icon: "🐾",
-    color: "amber",
     services: [
       { name: "Pet Groomers", slug: "pet-groomers", count: 134 },
       { name: "Dog Walkers", slug: "dog-walkers", count: 98 },
@@ -149,7 +140,6 @@ const serviceCategories = [
   {
     name: "Logistics & Moving",
     icon: "📦",
-    color: "teal",
     services: [
       { name: "Removal Companies", slug: "removal-companies", count: 145 },
       { name: "Courier Services", slug: "courier-services", count: 167 },
@@ -161,7 +151,6 @@ const serviceCategories = [
   {
     name: "Tech & IT",
     icon: "💻",
-    color: "violet",
     services: [
       { name: "IT Support", slug: "it-support", count: 178 },
       { name: "Computer Repair", slug: "computer-repair", count: 156 },
@@ -174,7 +163,6 @@ const serviceCategories = [
   {
     name: "Legal & Financial",
     icon: "⚖️",
-    color: "slate",
     services: [
       { name: "Attorneys", slug: "attorneys", count: 145 },
       { name: "Notaries", slug: "notaries", count: 78 },
@@ -374,7 +362,7 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: catIndex * 0.05 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-3xl p-6"
+                className="bg-neutral-950 border border-neutral-800 rounded-3xl p-6 h-full flex flex-col"
               >
                 <div className="flex items-center gap-4 mb-6">
                   <div className="text-4xl">{category.icon}</div>

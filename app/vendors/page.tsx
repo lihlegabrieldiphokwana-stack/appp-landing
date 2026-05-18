@@ -1,2186 +1,462 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
+import Link from "next/link";
 import { Navbar } from "@/components/navbar";
-import { VendorCategoryValueProp } from "@/components/vendor-category-value-prop";
-import { VendorPricingComparison } from "@/components/vendor-pricing-comparison";
-import { LampContainer } from "@/components/ui/lamp-effect";
 import { Footer } from "@/components/footer";
-import { cn } from "@/lib/utils";
+import { LampContainer } from "@/components/ui/lamp-effect";
+import { FeatureSection } from "@/components/feature-section";
+import { VendorDashboardPreview } from "@/components/vendor-dashboard-preview";
+import { VendorOpsPreview } from "@/components/vendor-ops-preview";
+import { vendorCategoriesList } from "@/lib/vendor-categories-data";
 
-interface PainPoint {
-  problem: string;
-  solution: string;
-}
-
-interface Service {
-  name: string;
-  painPoint: string;
-  bouulBenefit: string;
-  detailedPainPoints?: PainPoint[];
-}
-
-interface Category {
-  name: string;
-  icon: string;
-  slug: string;
-  services: Service[];
-  categoryPainPoint: string;
-  categoryBenefit: string;
-}
-
-interface MainPainPoint {
-  problem: string;
-  current: string;
-  bouul: string;
-  icon: string;
-}
-
-interface VendorFeature {
-  title: string;
-  description: string;
-  stat: string;
-  statLabel: string;
-  icon: React.ReactNode;
-}
-
-interface VendorStat {
-  stat: string;
-  label: string;
-  description: string;
-}
-
-const vendorFeatures: VendorFeature[] = [
-  {
-    title: "Resonance™ Discovery Engine",
-    description: "Our AI-powered discovery engine tests multiple titles and images for your services, learning which combinations convert each individual user. No A/B setup required — just upload and let the system optimize.",
-    stat: "12+",
-    statLabel: "combinations tested per service",
-    icon: (
-      <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Multi-Title & Image Testing",
-    description: "Upload 3-5 title variations and multiple images per service. The system automatically cycles through all combinations, tracking which title + image pairing converts each user from impression to purchase.",
-    stat: "3-5x",
-    statLabel: "more conversion opportunities",
-    icon: (
-      <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Real-Time Analytics",
-    description: "Track impressions, views, intents, and purchases for every title and image combination. See exactly which creative assets resonate with your audience and drive bookings.",
-    stat: "4-stage",
-    statLabel: "conversion funnel tracking",
-    icon: (
-      <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-      </svg>
-    ),
-  },
-];
-
-const vendorStats: VendorStat[] = [
-  { stat: "More", label: "bookings", description: "Vendors can improve monthly booking volume as their profile and content get stronger" },
-  { stat: "Higher", label: "revenue", description: "Top performers can see stronger revenue when conversion improves" },
+const vendorStats = [
+  { stat: "More", label: "bookings", description: "Vendors improve monthly booking volume as their profile and content get stronger" },
+  { stat: "Higher", label: "revenue", description: "Top performers see stronger revenue when conversion improves" },
   { stat: "Zero", label: "hidden fees", description: "Transparent pricing with no surprise commissions" },
   { stat: "Full", label: "control", description: "Complete dashboard control over your business" },
 ];
 
-// Service categories for vendors with detailed pain points per service
-const vendorServiceCategories: Category[] = [
-  { 
-    name: "Home Services", 
-    icon: "🏠", 
-    slug: "home-services", 
-    services: [
-      { 
-        name: "Plumbers", 
-        painPoint: "Emergency calls at 2AM", 
-        bouulBenefit: "Set emergency hours & premium rates",
-        detailedPainPoints: [
-          { problem: "Emergency calls at 2AM", solution: "Set emergency hours & charge premium rates for after-hours" },
-          { problem: "Clients sourcing cheap materials", solution: "Specify exact materials in quotes with markup options" },
-          { problem: "Payment delays after completion", solution: "Progress payments built into booking flow" },
-          { problem: "Scope creep on jobs", solution: "Change order approval before extra work" },
-          { problem: "No-shows for appointments", solution: "Deposit requirements & automated reminders" },
-        ]
-      },
-      { name: "Electricians", painPoint: "Clients sourcing cheap materials", bouulBenefit: "Specify exact materials in quotes", detailedPainPoints: [
-        { problem: "Clients sourcing cheap materials", solution: "Specify exact materials in quotes with markup options" },
-        { problem: "Compliance certification paperwork", solution: "Automated COC generation & storage" },
-        { problem: "Emergency call-out underpriced", solution: "Dynamic after-hours pricing" },
-        { problem: "Parts running costs", solution: "Include parts in upfront quotes" },
-        { problem: "Follow-up visits unpaid", solution: "Guarantee period tracking" },
-      ]},
-      { name: "Carpenters", painPoint: "Scope creep on custom projects", bouulBenefit: "Milestone-based payments", detailedPainPoints: [
-        { problem: "Scope creep on custom projects", solution: "Milestone-based payments with approval gates" },
-        { problem: "Material cost fluctuations", solution: "Quote validity periods" },
-        { problem: "Design revision hell", solution: "Limited revision rounds in contract" },
-        { problem: "Workshop overhead costs", solution: "Workshop time billed separately" },
-        { problem: "Installation delays", solution: "Clear timeline expectations" },
-      ]},
-      { name: "Painters", painPoint: "Weather delays affecting income", bouulBenefit: "Flexible rescheduling policies", detailedPainPoints: [
-        { problem: "Weather delays affecting income", solution: "Flexible rescheduling policies built-in" },
-        { problem: "Paint costs eating margins", solution: "Material markup transparency" },
-        { problem: "Prep time uncompensated", solution: "Prep work itemized in quotes" },
-        { problem: "Touch-up requests", solution: "Clear warranty terms" },
-        { problem: "Access/scaffolding costs", solution: "Site requirements specified upfront" },
-      ]},
-      { name: "Builders", painPoint: "Payment delays after completion", bouulBenefit: "Progress payments built-in", detailedPainPoints: [
-        { problem: "Payment delays after completion", solution: "Progress payments built into booking flow" },
-        { problem: "Change order disputes", solution: "Digital change order approvals" },
-        { problem: "Subcontractor coordination", solution: "Multi-contractor scheduling" },
-        { problem: "Material delivery delays", solution: "Timeline buffers automatically added" },
-        { problem: "Snag list endless revisions", solution: "Defined completion criteria" },
-      ]},
-      { name: "Gardeners", painPoint: "Seasonal work inconsistency", bouulBenefit: "Year-round subscription packages", detailedPainPoints: [
-        { problem: "Seasonal work inconsistency", solution: "Year-round subscription packages" },
-        { problem: "Equipment maintenance costs", solution: "Equipment costs in pricing" },
-        { problem: "Fuel surcharges", solution: "Distance-based pricing" },
-        { problem: "Weather cancellations", solution: "Weather rescheduling policies" },
-        { problem: "Green waste disposal", solution: "Disposal fees included" },
-      ]},
-      { name: "Pool Cleaners", painPoint: "Chemical costs eating margins", bouulBenefit: "Dynamic pricing per pool size", detailedPainPoints: [
-        { problem: "Chemical costs eating margins", solution: "Dynamic pricing per pool size" },
-        { problem: "Travel between pools", solution: "Route optimization & clustering" },
-        { problem: "Equipment wear", solution: "Maintenance costs factored in" },
-        { problem: "Seasonal demand swings", solution: "Off-season promotions" },
-        { problem: "Emergency cleanups", solution: "Premium emergency rates" },
-      ]},
-      { name: "Pest Control", painPoint: "Follow-up visits unpaid", bouulBenefit: "Guarantee packages with deposits", detailedPainPoints: [
-        { problem: "Follow-up visits unpaid", solution: "Guarantee packages with deposits" },
-        { problem: "Chemical handling certification", solution: "Certification badges displayed" },
-        { problem: "Safety liability concerns", solution: "Waivers built into booking" },
-        { problem: "Recurring treatment scheduling", solution: "Automated recurring bookings" },
-        { problem: "Inspection time uncompensated", solution: "Inspection fees charged" },
-      ]},
-      { name: "AC Repair", painPoint: "Peak season burnout", bouulBenefit: "Demand-based surge pricing", detailedPainPoints: [
-        { problem: "Peak season burnout", solution: "Demand-based surge pricing" },
-        { problem: "Gas refill costs", solution: "Gas costs itemized" },
-        { problem: "Diagnostic time", solution: "Diagnostic fees applied" },
-        { problem: "Warranty claim paperwork", solution: "Digital warranty submissions" },
-        { problem: "Emergency breakdowns", solution: "Emergency premium pricing" },
-      ]},
-      { name: "Appliance Repair", painPoint: "Diagnostic time uncompensated", bouulBenefit: "Charge call-out fees", detailedPainPoints: [
-        { problem: "Diagnostic time uncompensated", solution: "Charge call-out fees" },
-        { problem: "Parts sourcing delays", solution: "Parts availability checked first" },
-        { problem: "Multiple visit requirements", solution: "Multi-visit pricing packages" },
-        { problem: "Old appliance incompatibility", solution: "Model/year verification upfront" },
-        { problem: "Warranty confusion", solution: "Clear warranty explanations" },
-      ]},
-      { name: "Handyman", painPoint: "Too many small jobs, not enough profit", bouulBenefit: "Minimum booking values", detailedPainPoints: [
-        { problem: "Too many small jobs, not enough profit", solution: "Minimum booking values" },
-        { problem: "Travel time wasted", solution: "Geographic clustering" },
-        { problem: "Tool wear costs", solution: "Tool costs factored in" },
-        { problem: "Skill undervalued", solution: "Portfolio showcases expertise" },
-        { problem: "Job scope unclear", solution: "Photo-based scoping" },
-      ]},
-      { name: "Roofers", painPoint: "Insurance claim complexities", bouulBenefit: "Direct insurer billing options", detailedPainPoints: [
-        { problem: "Insurance claim complexities", solution: "Direct insurer billing options" },
-        { problem: "Weather dependency", solution: "Weather contingency planning" },
-        { problem: "Safety equipment costs", solution: "Safety costs included" },
-        { problem: "Height work premiums", solution: "Height pricing tiers" },
-        { problem: "Debris removal", solution: "Cleanup fees itemized" },
-      ]},
-      { name: "Tilers", painPoint: "Material wastage costs", bouulBenefit: "Precise quote calculators", detailedPainPoints: [
-        { problem: "Material wastage costs", solution: "Precise quote calculators" },
-        { problem: "Pattern complexity underpriced", solution: "Complexity multipliers" },
-        { problem: "Surface prep time", solution: "Prep work quoted separately" },
-        { problem: "Grout color matching", solution: "Sample approval process" },
-        { problem: "Cutting time", solution: "Cut time factored in" },
-      ]},
-      { name: "Welders", painPoint: "Specialized skills undervalued", bouulBenefit: "Portfolio showcases expertise", detailedPainPoints: [
-        { problem: "Specialized skills undervalued", solution: "Portfolio showcases expertise" },
-        { problem: "Equipment costs", solution: "Equipment fees line items" },
-        { problem: "Material costs", solution: "Material markup options" },
-        { problem: "Safety certification", solution: "Certification badges" },
-        { problem: "Custom design time", solution: "Design time billed" },
-      ]},
-      { name: "Aluminum & Glass", painPoint: "Measurement errors costly", bouulBenefit: "Digital measurement tools", detailedPainPoints: [
-        { problem: "Measurement errors costly", solution: "Digital measurement tools" },
-        { problem: "Custom fabrication time", solution: "Fabrication time quoted" },
-        { problem: "Installation complexity", solution: "Site assessment required" },
-        { problem: "Breakage during transport", solution: "Insurance included" },
-        { problem: "Sealant curing time", solution: "Timeline buffers added" },
-      ]},
-    ],
-    categoryPainPoint: "Emergency calls at odd hours",
-    categoryBenefit: "Set your own availability. You control when you work.",
+const vendorFeatures = [
+  {
+    title: "Resonance Discovery Engine",
+    description: "AI-powered discovery tests multiple titles and images for your services, learning which combinations convert each user. No A/B setup required.",
+    stat: "12+",
+    statLabel: "combinations tested per service",
   },
-  { 
-    name: "Cleaning", 
-    icon: "✨", 
-    slug: "cleaning", 
-    services: [
-      { name: "House Cleaning", painPoint: "Clients expecting hotel-level service", bouulBenefit: "Clear service tier definitions" },
-      { name: "Carpet Cleaning", painPoint: "Equipment transport costs", bouulBenefit: "Distance-based pricing" },
-      { name: "Office Cleaning", painPoint: "After-hours work life balance", bouulBenefit: "Set preferred time slots" },
-      { name: "Deep Cleaning", painPoint: "Physically demanding, low rates", bouulBenefit: "Premium pricing for deep services" },
-      { name: "Move-In/Out Cleaning", painPoint: "Last-minute booking chaos", bouulBenefit: "Advance booking requirements" },
-      { name: "Window Cleaning", painPoint: "Height work risk vs reward", bouulBenefit: "Risk-adjusted pricing tools" },
-      { name: "Upholstery Cleaning", painPoint: "Stain removal guarantees", bouulBenefit: "Realistic expectation setting" },
-      { name: "Pressure Washing", painPoint: "Equipment maintenance costs", bouulBenefit: "Job pricing includes overhead" },
-    ],
-    categoryPainPoint: "Clients don't value your expertise",
-    categoryBenefit: "Showcase before/after videos. Let your work speak.",
+  {
+    title: "Multi-Title & Image Testing",
+    description: "Upload 3-5 title variations and multiple images per service. The system cycles through combinations, tracking which pairing converts from impression to purchase.",
+    stat: "3-5x",
+    statLabel: "more conversion opportunities",
   },
-  { 
-    name: "Beauty & Wellness", 
-    icon: "💅", 
-    slug: "beauty", 
-    services: [
-      { name: "Hairdressers", painPoint: "No-shows killing schedule", bouulBenefit: "Non-refundable deposits", detailedPainPoints: [
-        { problem: "No-shows killing schedule", solution: "Non-refundable deposits required" },
-        { problem: "Last-minute cancellations", solution: "Cancellation fee policies" },
-        { problem: "Color correction nightmares", solution: "Consultation photos required" },
-        { problem: "Product costs rising", solution: "Product surcharges built-in" },
-        { problem: "Chair time undervalued", solution: "Time-based pricing tiers" },
-      ]},
-      { name: "Barbers", painPoint: "Walk-in unpredictability", bouulBenefit: "Appointment-only options", detailedPainPoints: [
-        { problem: "Walk-in unpredictability", solution: "Appointment-only options" },
-        { problem: "Peak time bottlenecks", solution: "Time slot pricing" },
-        { problem: "Beard trim underpriced", solution: "Service add-on pricing" },
-        { problem: "Equipment sanitization time", solution: "Buffer time between slots" },
-        { problem: "Youth pricing pressure", solution: "Age-based pricing tiers" },
-      ]},
-      { name: "Nail Technicians", painPoint: "Complex designs underpriced", bouulBenefit: "Photo-based price calculator", detailedPainPoints: [
-        { problem: "Complex designs underpriced", solution: "Photo-based price calculator" },
-        { problem: "Gel removal time", solution: "Removal fees charged" },
-        { problem: "Fill-in vs full set confusion", solution: "Clear service descriptions" },
-        { problem: "Art time uncompensated", solution: "Per-nail art pricing" },
-        { problem: "Repair requests", solution: "Repair policy defined" },
-      ]},
-      { name: "Massage Therapists", painPoint: "Physical burnout", bouulBenefit: "Booking limits per day", detailedPainPoints: [
-        { problem: "Physical burnout", solution: "Booking limits per day" },
-        { problem: "Oil/linen costs", solution: "Supply fees included" },
-        { problem: "No-shows", solution: "Deposit requirements" },
-        { problem: "Pressure for discounts", solution: "Fixed pricing displayed" },
-        { problem: "Late arrivals", solution: "Late policy enforced" },
-      ]},
-      { name: "Facial Treatments", painPoint: "Product costs not covered", bouulBenefit: "Product-inclusive pricing", detailedPainPoints: [
-        { problem: "Product costs not covered", solution: "Product-inclusive pricing" },
-        { problem: "Skin type variations", solution: "Custom treatment pricing" },
-        { problem: "Follow-up questions", solution: "Aftercare documentation" },
-        { problem: "Extraction time", solution: "Add-on extraction pricing" },
-        { problem: "Product recommendation pressure", solution: "Affiliate links for commissions" },
-      ]},
-      { name: "Makeup Artists", painPoint: "Trial sessions unpaid", bouulBenefit: "Trial fee structures", detailedPainPoints: [
-        { problem: "Trial sessions unpaid", solution: "Trial fee structures" },
-        { problem: "Travel to venue", solution: "Travel fees charged" },
-        { problem: "Kit maintenance costs", solution: "Kit fees line item" },
-        { problem: "Last-minute changes", solution: "Change cutoff policies" },
-        { problem: "Bridal party coordination", solution: "Group booking discounts" },
-      ]},
-      { name: "Eyelash & Brows", painPoint: "Touch-up requests", bouulBenefit: "Clear aftercare policies", detailedPainPoints: [
-        { problem: "Touch-up requests", solution: "Clear aftercare policies" },
-        { problem: "Allergic reactions", solution: "Patch test requirements" },
-        { problem: "Fill-in timing confusion", solution: "Fill-in window defined" },
-        { problem: "Lash removal requests", solution: "Removal fees charged" },
-        { problem: "Style consultation time", solution: "Consultation photos used" },
-      ]},
-      { name: "Spas", painPoint: "Staff scheduling nightmares", bouulBenefit: "Multi-therapist management", detailedPainPoints: [
-        { problem: "Staff scheduling nightmares", solution: "Multi-therapist management" },
-        { problem: "Room turnover time", solution: "Buffer time auto-added" },
-        { problem: "Package redemptions", solution: "Package tracking system" },
-        { problem: "Peak time demand", solution: "Dynamic peak pricing" },
-        { problem: "No-shows", solution: "Card-on-file required" },
-      ]},
-      { name: "Personal Trainers", painPoint: "Client consistency issues", bouulBenefit: "Package commitments", detailedPainPoints: [
-        { problem: "Client consistency issues", solution: "Package commitments" },
-        { problem: "Gym rental costs", solution: "Venue fees included" },
-        { problem: "Session cancellations", solution: "24hr cancellation policy" },
-        { problem: "Nutrition advice liability", solution: "Disclaimers built-in" },
-        { problem: "Progress tracking", solution: "Photo tracking tools" },
-      ]},
-      { name: "Yoga Instructors", painPoint: "Venue costs", bouulBenefit: "Virtual class options", detailedPainPoints: [
-        { problem: "Venue costs", solution: "Virtual class options" },
-        { problem: "Class size variability", solution: "Min/max class sizes" },
-        { problem: "Drop-in vs package", solution: "Tiered pricing options" },
-        { problem: "Equipment provision", solution: "Mat rental fees" },
-        { problem: "Seasonal attendance", solution: "Off-season promotions" },
-      ]},
-    ],
-    categoryPainPoint: "Last-minute cancellations",
-    categoryBenefit: "Require deposits. Protect your time and income.",
-  },
-  { 
-    name: "Automotive", 
-    icon: "🚗", 
-    slug: "automotive", 
-    services: [
-      { name: "Mechanics", painPoint: "Customers questioning diagnostics", bouulBenefit: "Photo/video evidence sharing", detailedPainPoints: [
-        { problem: "Customers questioning diagnostics", solution: "Photo/video evidence sharing" },
-        { problem: "Parts markup suspicion", solution: "Transparent parts pricing" },
-        { problem: "Comeback repairs", solution: "Warranty period tracking" },
-        { problem: "Diagnostic time unpaid", solution: "Diagnostic fees charged" },
-        { problem: "Old car complications", solution: "Age-based pricing multipliers" },
-      ]},
-      { name: "Car Detailing", painPoint: "Water/electricity at client location", bouulBenefit: "Mobile service premiums", detailedPainPoints: [
-        { problem: "Water/electricity at client location", solution: "Mobile service premiums" },
-        { problem: "Product costs", solution: "Product-inclusive packages" },
-        { problem: "Weather dependency", solution: "Indoor venue partnerships" },
-        { problem: "Paint correction time", solution: "Hourly correction pricing" },
-        { problem: "Pet hair removal", solution: "Pet hair surcharge" },
-      ]},
-      { name: "Panel Beaters", painPoint: "Insurance assessment delays", bouulBenefit: "Direct insurance partnerships", detailedPainPoints: [
-        { problem: "Insurance assessment delays", solution: "Direct insurance partnerships" },
-        { problem: "Parts sourcing delays", solution: "Parts availability checks" },
-        { problem: "Paint matching", solution: "Digital color matching" },
-        { problem: "Rental car costs", solution: "Timeline guarantees" },
-        { problem: "Supplemental claims", solution: "Supp documentation system" },
-      ]},
-      { name: "Towing Services", painPoint: "Fuel costs fluctuating", bouulBenefit: "Dynamic distance pricing", detailedPainPoints: [
-        { problem: "Fuel costs fluctuating", solution: "Dynamic distance pricing" },
-        { problem: "After-hours calls", solution: "Night premium rates" },
-        { problem: "Vehicle damage liability", solution: "Insurance included" },
-        { problem: "Storage yard costs", solution: "Storage fees charged" },
-        { problem: "Difficult recoveries", solution: "Recovery complexity pricing" },
-      ]},
-      { name: "Car Wash", painPoint: "Weather dependency", bouulBenefit: "Indoor venue partnerships", detailedPainPoints: [
-        { problem: "Weather dependency", solution: "Indoor venue partnerships" },
-        { problem: "Water costs", solution: "Water usage included" },
-        { problem: "Subscription management", solution: "Recurring billing system" },
-        { problem: "Equipment maintenance", solution: "Maintenance costs factored" },
-        { problem: "Upselling pressure", solution: "Package tier options" },
-      ]},
-      { name: "Windscreen Repair", painPoint: "Mobile service logistics", bouulBenefit: "Route optimization", detailedPainPoints: [
-        { problem: "Mobile service logistics", solution: "Route optimization" },
-        { problem: "Insurance claims", solution: "Direct insurer billing" },
-        { problem: "Resin costs", solution: "Material fees included" },
-        { problem: "Curing time", solution: "Timeline buffers added" },
-        { problem: "Replacement vs repair", solution: "Assessment guidelines" },
-      ]},
-      { name: "Auto Electricians", painPoint: "Specialized diagnostic equipment costs", bouulBenefit: "Premium skill pricing", detailedPainPoints: [
-        { problem: "Specialized diagnostic equipment costs", solution: "Premium skill pricing" },
-        { problem: "Software update costs", solution: "Software fees charged" },
-        { problem: "Wiring complexity", solution: "Complexity-based quotes" },
-        { problem: "Parts compatibility", solution: "VIN verification required" },
-        { problem: "Intermittent faults", solution: "Diagnostic time packages" },
-      ]},
-    ],
-    categoryPainPoint: "Customers question your pricing",
-    categoryBenefit: "Transparent quotes upfront. No more haggling.",
-  },
-  { 
-    name: "Education", 
-    icon: "📚", 
-    slug: "education", 
-    services: [
-      { name: "Math Tutors", painPoint: "Parents expecting grade guarantees", bouulBenefit: "Progress tracking, not promises" },
-      { name: "English Tutors", painPoint: "Essay grading unpaid time", bouulBenefit: "Grading time included in rates" },
-      { name: "Science Tutors", painPoint: "Lab equipment costs", bouulBenefit: "Material fees built-in" },
-      { name: "Language Lessons", painPoint: "Student practice inconsistency", bouulBenefit: "Homework tracking tools" },
-      { name: "Music Lessons", painPoint: "Instrument practice enforcement", bouulBenefit: "Practice log integration" },
-      { name: "Computer Lessons", painPoint: "Software licensing costs", bouulBenefit: "License-inclusive pricing" },
-      { name: "Homework Help", painPoint: "Parent communication overload", bouulBenefit: "Automated progress reports" },
-      { name: "Exam Prep", painPoint: "Seasonal income peaks", bouulBenefit: "Year-round subscription models" },
-    ],
-    categoryPainPoint: "Hard to prove your qualifications",
-    categoryBenefit: "Verified badges + reviews. Credibility built-in.",
-  },
-  { 
-    name: "Health & Medical", 
-    icon: "🏥", 
-    slug: "health", 
-    services: [
-      { name: "Physiotherapists", painPoint: "Insurance claim paperwork", bouulBenefit: "Digital claim submissions" },
-      { name: "Dietitians", painPoint: "Client compliance tracking", bouulBenefit: "Progress monitoring tools" },
-      { name: "Counselors", painPoint: "Session note administration", bouulBenefit: "Integrated note-taking" },
-      { name: "Nurses", painPoint: "Liability concerns for home visits", bouulBenefit: "Platform insurance coverage" },
-      { name: "Elderly Care", painPoint: "Family communication demands", bouulBenefit: "Family portal updates" },
-      { name: "Baby Nurses", painPoint: "Odd hour expectations", bouulBenefit: "Night shift premiums" },
-      { name: "First Aid Training", painPoint: "Certification tracking", bouulBenefit: "Automated renewal reminders" },
-    ],
-    categoryPainPoint: "Insurance paperwork nightmares",
-    categoryBenefit: "Handle bookings, not bureaucracy. We simplify admin.",
-  },
-  { 
-    name: "Events & Photography", 
-    icon: "📸", 
-    slug: "events", 
-    services: [
-      { name: "Photographers", painPoint: "Editing time uncompensated", bouulBenefit: "Editing hours in quotes" },
-      { name: "Videographers", painPoint: "Equipment depreciation", bouulBenefit: "Gear rental line items" },
-      { name: "Event Planners", painPoint: "Vendor coordination chaos", bouulBenefit: "Vendor management portal" },
-      { name: "Caterers", painPoint: "Last-minute headcount changes", bouulBenefit: "Final numbers deadline" },
-      { name: "DJs", painPoint: "Song request management", bouulBenefit: "Pre-event planning tools" },
-      { name: "Live Bands", painPoint: "Equipment transport logistics", bouulBenefit: "Venue requirement specs" },
-      { name: "Decorators", painPoint: "Setup/teardown time unpaid", bouulBenefit: "Full event time billing" },
-      { name: "MCs", painPoint: "Script preparation time", bouulBenefit: "Prep time compensation" },
-    ],
-    categoryPainPoint: "Seasonal income instability",
-    categoryBenefit: "Year-round visibility. Peak season or not.",
-  },
-  { 
-    name: "Professional", 
-    icon: "💼", 
-    slug: "professional", 
-    services: [
-      { name: "Accountants", painPoint: "Tax season burnout", bouulBenefit: "Off-season promotions" },
-      { name: "Bookkeepers", painPoint: "Monthly retainer collection", bouulBenefit: "Auto-debit subscriptions" },
-      { name: "Tax Consultants", painPoint: "Client document delays", bouulBenefit: "Document upload deadlines" },
-      { name: "Legal Services", painPoint: "Initial consultation time-wasters", bouulBenefit: "Paid consultation fees" },
-      { name: "Business Consultants", painPoint: "ROI proof demands", bouulBenefit: "Milestone tracking" },
-      { name: "Marketing Agencies", painPoint: "Scope creep on campaigns", bouulBenefit: "Clear deliverable definitions" },
-      { name: "Web Designers", painPoint: "Endless revision requests", bouulBenefit: "Revision limit policies" },
-      { name: "Graphic Designers", painPoint: "Concept theft concerns", bouulBenefit: "Watermarked previews" },
-    ],
-    categoryPainPoint: "Referrals dry up sometimes",
-    categoryBenefit: "Consistent inbound leads. No more feast or famine.",
-  },
-  { 
-    name: "Pets", 
-    icon: "🐾", 
-    slug: "pets", 
-    services: [
-      { name: "Pet Groomers", painPoint: "Difficult pet handling", bouulBenefit: "Temperament disclosures" },
-      { name: "Dog Walkers", painPoint: "Weather cancellations", bouulBenefit: "Weather policies built-in" },
-      { name: "Pet Sitters", painPoint: "Emergency vet decisions", bouulBenefit: "Vet authorization forms" },
-      { name: "Veterinarians", painPoint: "After-hours emergencies", bouulBenefit: "On-call scheduling" },
-      { name: "Pet Training", painPoint: "Owner compliance issues", bouulBenefit: "Owner homework tracking" },
-    ],
-    categoryPainPoint: "Clients don't trust strangers with pets",
-    categoryBenefit: "Verified profiles + reviews. Trust established instantly.",
-  },
-  { 
-    name: "Logistics", 
-    icon: "📦", 
-    slug: "logistics", 
-    services: [
-      { name: "Removal Companies", painPoint: "Stairs/access not disclosed", bouulBenefit: "Detailed job questionnaires" },
-      { name: "Courier Services", painPoint: "Fuel surcharge calculations", bouulBenefit: "Auto fuel adjustments" },
-      { name: "Furniture Delivery", painPoint: "Assembly time uncompensated", bouulBenefit: "Assembly add-on pricing" },
-      { name: "Storage Services", painPoint: "Inventory tracking", bouulBenefit: "Digital inventory systems" },
-      { name: "Skip Hire", painPoint: "Permit complexities", bouulBenefit: "Permit handling service" },
-    ],
-    categoryPainPoint: "Fuel costs eating margins",
-    categoryBenefit: "Dynamic pricing tools. Adjust for distance, load, urgency.",
-  },
-  { 
-    name: "Tech & IT", 
-    icon: "💻", 
-    slug: "tech", 
-    services: [
-      { name: "IT Support", painPoint: "Remote vs onsite confusion", bouulBenefit: "Clear service type selection" },
-      { name: "Computer Repair", painPoint: "Data liability concerns", bouulBenefit: "Liability waivers built-in" },
-      { name: "Network Installation", painPoint: "Multi-day project payments", bouulBenefit: "Milestone billing" },
-      { name: "Security Systems", painPoint: "Monitoring subscription management", bouulBenefit: "Recurring revenue tools" },
-      { name: "CCTV Installation", painPoint: "Maintenance call expectations", bouulBenefit: "Maintenance packages" },
-      { name: "Data Recovery", painPoint: "Success rate expectations", bouulBenefit: "No recovery, no fee options" },
-    ],
-    categoryPainPoint: "Clients don't understand technical value",
-    categoryBenefit: "Show expertise through content. Education converts.",
-  },
-  { 
-    name: "Legal & Financial", 
-    icon: "⚖️", 
-    slug: "legal", 
-    services: [
-      { name: "Attorneys", painPoint: "Billable hour tracking", bouulBenefit: "Time tracking integration" },
-      { name: "Notaries", painPoint: "Travel time uncompensated", bouulBenefit: "Mobile notary premiums" },
-      { name: "Financial Advisors", painPoint: "Compliance documentation", bouulBenefit: "Compliance templates" },
-      { name: "Insurance Agents", painPoint: "Policy renewal tracking", bouulBenefit: "Automated renewal reminders" },
-      { name: "Real Estate Agents", painPoint: "Property showing coordination", bouulBenefit: "Showing scheduling tools" },
-    ],
-    categoryPainPoint: "Compliance limits marketing",
-    categoryBenefit: "Professional platform. Compliant by design.",
+  {
+    title: "Real-Time Analytics",
+    description: "Track impressions, views, intents, and purchases for every title and image combination. See exactly which creative assets drive bookings.",
+    stat: "4-stage",
+    statLabel: "conversion funnel tracking",
   },
 ];
 
-const painPoints: MainPainPoint[] = [
+const operatingModels = [
   {
-    problem: "15-25% Commission Fees",
-    current: "Other platforms take a huge cut of every job",
-    bouul: "Clear platform fees and no surprise deductions.",
-    icon: "💸",
+    title: "Service storefront",
+    description: "List individual services with pricing, availability, and images. Customers browse, book, and pay — all in one flow.",
   },
   {
-    problem: "Restricted Customer Access",
-    current: "Can't build direct relationships with your customers",
-    bouul: "Full customer data access. Build your client base.",
-    icon: "🔒",
+    title: "Team and employee mode",
+    description: "Route work to staff or contractors, assign jobs, and keep calendars aligned. Employees get their own workboard and schedule view.",
   },
   {
-    problem: "Basic Profile Templates",
-    current: "Limited customization, blend in with everyone else",
-    bouul: "Complete branding control. Stand out your way.",
-    icon: "🎨",
+    title: "Subscription models",
+    description: "Offer recurring services with weekly, bi-weekly, or monthly cadences. Predictable revenue, automatic billing.",
   },
   {
-    problem: "Slow Payouts (5-7 days)",
-    current: "Wait over a week to access your earnings",
-    bouul: "24-48 hour payouts. Your money, faster.",
-    icon: "⏰",
-  },
-  {
-    problem: "No Marketing Tools",
-    current: "Rely on platform alone for visibility",
-    bouul: "AI Discovery + video content + social following.",
-    icon: "📢",
-  },
-  {
-    problem: "Email-Only Support",
-    current: "Wait days for responses to urgent issues",
-    bouul: "Priority support from real humans.",
-    icon: "🎧",
+    title: "Microtasks and quick jobs",
+    description: "Small, fast-turnaround jobs at fixed prices. Perfect for handyman work, quick fixes, and one-off requests.",
   },
 ];
 
-// Personalized Hero Component - Just collects business name
-const PersonalizedVendorHero: React.FC<{ 
-  businessName: string; 
-  setBusinessName: (name: string) => void;
-  selectedCategory: string;
-  setSelectedCategory: (slug: string) => void;
-  selectedService: string;
-  setSelectedService: (service: string) => void;
-}> = ({ businessName, setBusinessName, selectedCategory, setSelectedCategory, selectedService, setSelectedService }) => {
-  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
-  const serviceData = categoryData?.services.find(s => s.name === selectedService);
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            MADE FOR YOU
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-            {businessName ? (
-              <>
-                Grow <span className="text-emerald-400">{businessName}</span> with Bouul
-              </>
-            ) : (
-              <>
-                Grow <span className="text-neutral-500">your business</span> with Bouul
-              </>
-            )}
-          </h2>
-          <p className="text-neutral-500 text-lg mb-8 max-w-2xl mx-auto">
-            {businessName ? (
-              <>
-                Enter your business name and select your service to see how Bouul helps {businessName} succeed.
-              </>
-            ) : (
-              <>
-                See how you can earn more, work smarter, and keep more of what you make.
-              </>
-            )}
-          </p>
-
-          {/* Business Name Input */}
-          <div className="max-w-md mx-auto mb-8">
-            <input
-              type="text"
-              placeholder="Enter your business name..."
-              value={businessName}
-              onChange={(e) => setBusinessName(e.target.value)}
-              className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors text-center"
-            />
-          </div>
-
-          {/* Show category/service selection inline when name is entered */}
-          {businessName && !selectedCategory && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-neutral-500 text-sm"
-            >
-              Scroll down to select your service category ↓
-            </motion.div>
-          )}
-
-          {/* Show selected info */}
-          {businessName && selectedCategory && serviceData && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="inline-flex items-center gap-3 px-6 py-3 bg-emerald-500/10 border border-emerald-500/20 rounded-full"
-            >
-              <span className="text-emerald-400 text-sm">Personalizing for:</span>
-              <span className="text-white font-medium">{businessName}</span>
-              <span className="text-neutral-600">•</span>
-              <span className="text-white font-medium">{serviceData.name}</span>
-              <button
-                onClick={() => { setSelectedCategory(""); setSelectedService(""); }}
-                className="text-neutral-500 hover:text-white"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </motion.div>
-          )}
-        </motion.div>
-      </div>
-    </section>
-  );
-};
-
-// Pain Points Section
-const PainPointsSection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-16 text-center"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            THE PROBLEM
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? (
-              <>Other platforms profit from {businessName}'s work</>
-            ) : (
-              <>Other platforms profit from your work</>
-            )}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            {businessName ? (
-              <>{businessName} built the skills. {businessName} does the work. Why should they take the biggest cut?</>
-            ) : (
-              <>You built the skills. You do the work. Why should they take the biggest cut?</>
-            )}
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {painPoints.map((point: MainPainPoint, i: number) => (
-            <motion.div
-              key={point.problem}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
-            >
-              <div className="text-4xl mb-4">{point.icon}</div>
-              <div className="text-white font-semibold text-lg mb-3">{point.problem}</div>
-              <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                  </svg>
-                  <div className="text-neutral-500 text-sm">{point.current}</div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <div className="text-emerald-400 text-sm font-medium">{point.bouul}</div>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Service Categories Section - No name input, receives from parent
-const ServiceCategoriesSection: React.FC<{
-  businessName: string;
-  selectedCategory: string;
-  setSelectedCategory: (slug: string) => void;
-  selectedService: string;
-  setSelectedService: (service: string) => void;
-}> = ({ businessName, selectedCategory, setSelectedCategory, selectedService, setSelectedService }) => {
-  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
-  const serviceData = categoryData?.services.find(s => s.name === selectedService);
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-16 text-center"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            WHO CAN JOIN
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? (
-              <>Is {businessName} a fit?</>
-            ) : (
-              <>Every trade. Every profession.</>
-            )}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            {businessName ? (
-              <>
-                Select your category to see how Bouul helps {businessName} succeed.
-              </>
-            ) : (
-              <>
-                If you provide a service, Bouul is built for you. 71+ services and growing.
-              </>
-            )}
-          </p>
-        </motion.div>
-
-        {/* Category Selection */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {vendorServiceCategories.map((category: Category, i: number) => (
-            <motion.div
-              key={category.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.05 }}
-              onClick={() => { setSelectedCategory(category.slug); setSelectedService(""); }}
-              className={cn(
-                "bg-neutral-950 border rounded-2xl p-6 cursor-pointer transition-all hover:scale-[1.02]",
-                selectedCategory === category.slug
-                  ? "border-emerald-500 bg-emerald-500/5"
-                  : "border-neutral-800 hover:border-neutral-700"
-              )}
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="text-3xl">{category.icon}</div>
-                <h3 className="text-white font-semibold text-lg">{category.name}</h3>
-              </div>
-              <div className="text-neutral-500 text-sm mb-3">
-                {category.services.length} services
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {category.services.slice(0, 5).map((service: Service) => (
-                  <span
-                    key={service.name}
-                    className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-400 text-xs"
-                  >
-                    {service.name}
-                  </span>
-                ))}
-                {category.services.length > 5 && (
-                  <span className="px-3 py-1.5 bg-neutral-900 rounded-full text-neutral-500 text-xs">
-                    +{category.services.length - 5} more
-                  </span>
-                )}
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Service Selection within Category */}
-        {selectedCategory && categoryData && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="mb-12"
-          >
-            <div className="text-center mb-8">
-              <h3 className="text-2xl font-semibold text-white mb-2">
-                {businessName && categoryData ? (
-                  <>Select {businessName}'s primary service</>
-                ) : (
-                  <>Select your service</>
-                )}
-              </h3>
-              <p className="text-neutral-500 text-sm">
-                See exactly how Bouul solves {categoryData.name.toLowerCase()}'s biggest challenges
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {categoryData.services.map((service: Service, i: number) => (
-                <motion.button
-                  key={service.name}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.03 }}
-                  onClick={() => setSelectedService(service.name)}
-                  className={cn(
-                    "text-left p-4 rounded-xl border transition-all",
-                    selectedService === service.name
-                      ? "bg-emerald-500/10 border-emerald-500"
-                      : "bg-neutral-950 border-neutral-800 hover:border-neutral-700"
-                  )}
-                >
-                  <div className="text-white font-medium mb-1">{service.name}</div>
-                </motion.button>
-              ))}
-            </div>
-          </motion.div>
-        )}
-
-        {!selectedCategory && (
-          <div className="text-center mt-12">
-            <p className="text-neutral-500 text-sm mb-6">
-              Don't see your category? We're always adding new services.
-            </p>
-            <a
-              href="/vendors"
-              className="inline-block px-8 py-4 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full transition-colors border border-neutral-800"
-            >
-              Contact Us About Your Service
-            </a>
-          </div>
-        )}
-      </div>
-    </section>
-  );
-};
-
-// Detailed Pain Points Section - Shows 5 pain points for selected service
-const DetailedPainPointsSection: React.FC<{
-  businessName: string;
-  selectedCategory: string;
-  selectedService: string;
-}> = ({ businessName, selectedCategory, selectedService }) => {
-  const categoryData = vendorServiceCategories.find(c => c.slug === selectedCategory);
-  const serviceData = categoryData?.services.find(s => s.name === selectedService);
-
-  if (!serviceData) return null;
-
-  // Use detailedPainPoints if available, otherwise generate from main pain point
-  const painPoints: PainPoint[] = serviceData.detailedPainPoints || [
-    { problem: serviceData.painPoint, solution: serviceData.bouulBenefit },
-    { problem: "Time wasted on admin", solution: "Automated booking & reminders" },
-    { problem: "Payment collection delays", solution: "Upfront payment options" },
-    { problem: "No-shows", solution: "Deposit requirements" },
-    { problem: "Pricing pressure", solution: "Fixed pricing displayed" },
-  ];
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-16"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            BUILT FOR {selectedService.toUpperCase()}
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? (
-              <>5 challenges {businessName} faces daily</>
-            ) : (
-              <>5 challenges {selectedService} face daily</>
-            )}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            We built Bouul specifically to solve these problems
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {painPoints.map((point: PainPoint, i: number) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
-              className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
-            >
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-red-500/10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div className="text-neutral-400 text-xs font-semibold uppercase">Problem {i + 1}</div>
-              </div>
-              <div className="text-white font-medium text-lg mb-4">{point.problem}</div>
-              
-              <div className="h-px bg-neutral-800 my-4" />
-              
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div className="text-emerald-400 text-xs font-semibold uppercase">Bouul Solution</div>
-              </div>
-              <div className="text-emerald-400 font-medium">{point.solution}</div>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-          className="text-center mt-16"
-        >
-          <div className="inline-block bg-gradient-to-r from-emerald-500/10 via-neutral-950 to-emerald-500/10 border border-emerald-500/20 rounded-3xl p-10">
-            <h3 className="text-2xl font-semibold text-white mb-4">
-              {businessName ? (
-                <>Ready to solve these for {businessName}?</>
-              ) : (
-                <>Ready to solve these challenges?</>
-              )}
-            </h3>
-            <p className="text-neutral-500 text-sm mb-6 max-w-md">
-              Join {selectedService.toLowerCase()} who are already growing with Bouul.
-            </p>
-            <a
-              href="/vendors"
-              className="inline-block px-12 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
-            >
-              Create Free Profile
-            </a>
-          </div>
-        </motion.div>
-      </div>
-    </section>
-  );
-};
-
-// Onboarding Journey Section
-const OnboardingJourneySection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  const steps = [
-    {
-      title: "Join the Network",
-      description: businessName 
-        ? `Create ${businessName}'s free profile in 2 minutes. No credit card, no commitment.`
-        : "Create your free professional profile in 2 minutes. No credit card, no commitment.",
-      icon: (
-        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
-        </svg>
-      ),
-      aiPointer: "AI-Powered Verification"
-    },
-    {
-      title: "Upload Your Craft",
-      description: businessName
-        ? `List ${businessName}'s services with multiple titles and videos. Let the AI test what works.`
-        : "List your services with multiple titles and videos. Let the AI test what works.",
-      icon: (
-        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-        </svg>
-      ),
-      aiPointer: "Resonance™ Optimization"
-    },
-    {
-      title: "Grow & Earn",
-      description: businessName
-        ? `Keep more of ${businessName}'s revenue with 24-48h payouts. Build your direct client base.`
-        : "Keep more of your revenue with 24-48h payouts. Build your direct client base.",
-      icon: (
-        <svg className="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      aiPointer: "Smart Revenue Forecasting"
-    }
-  ];
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            THE JOURNEY
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? `How ${businessName} grows` : "How it works"}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            From first upload to scale. We've simplified the path to professional success.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
-          {/* Connector Line */}
-          <div className="hidden md:block absolute top-12 left-0 w-full h-px bg-neutral-800 -z-10" />
-          
-          {steps.map((step, i) => (
-            <motion.div
-              key={step.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.2 }}
-              className="text-center group"
-            >
-              <div className="w-24 h-24 rounded-3xl bg-neutral-900 border border-neutral-800 flex items-center justify-center mx-auto mb-8 group-hover:border-emerald-500/50 transition-colors relative">
-                <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-emerald-500 text-black text-sm font-bold flex items-center justify-center">
-                  {i + 1}
-                </div>
-                {step.icon}
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-4">{step.title}</h3>
-              <p className="text-neutral-500 text-sm leading-relaxed mb-6">
-                {step.description}
-              </p>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/5 border border-emerald-500/20 text-[10px] font-bold text-emerald-400 uppercase tracking-tighter">
-                <div className="w-1 h-1 rounded-full bg-emerald-500 animate-pulse" />
-                {step.aiPointer}
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Operating Model Section
-const OperatingModelSection: React.FC = () => {
-  const models = [
-    {
-      title: "Pick a vendor",
-      description:
-        "Customers compare vendors by location, availability, rating, and service fit before they book.",
-    },
-    {
-      title: "Vendor dashboard",
-      description:
-        "The dashboard is the control room: bookings, pricing, payouts, analytics, and content live together.",
-    },
-    {
-      title: "Team and employee mode",
-      description:
-        "Businesses can route work to staff or contractors, assign jobs, and keep calendars aligned.",
-    },
-    {
-      title: "Microtasks and quick jobs",
-      description:
-        "Small one-off jobs like quick fixes, pickups, and short visits can be handled as lightweight bookings.",
-    },
-    {
-      title: "Subscription models",
-      description:
-        "Recurring work like cleaning, tutoring, maintenance, or monitoring can run on weekly or monthly cycles.",
-    },
-  ];
-
-  return (
-    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-3xl mb-12"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            OPERATING MODEL
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Built for the full service workflow.
-          </h2>
-          <p className="text-neutral-500 text-lg leading-relaxed">
-            Bouul is not only a place to list services. It is designed to handle
-            how customers pick a vendor, how professionals manage the work, and
-            how recurring jobs or team-based businesses stay organized.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
-          {models.map((model, index) => (
-            <motion.div
-              key={model.title}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.45, delay: index * 0.06 }}
-              className="rounded-2xl border border-neutral-800 bg-black p-6"
-            >
-              <div className="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
-                {index + 1}
-              </div>
-              <h3 className="text-white font-semibold text-lg mb-3">
-                {model.title}
-              </h3>
-              <p className="text-neutral-500 text-sm leading-relaxed">
-                {model.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Invoice and payout simulation
-const InvoicePayoutSection: React.FC<{
-  businessName: string;
-  selectedCategory: string;
-  selectedService: string;
-}> = ({ businessName, selectedCategory, selectedService }) => {
-  const categoryData = vendorServiceCategories.find((c) => c.slug === selectedCategory);
-  const serviceData = categoryData?.services.find((s) => s.name === selectedService);
-  const [contactEmail, setContactEmail] = useState("");
-  const [billingAddress, setBillingAddress] = useState("");
-  const [logoPreview, setLogoPreview] = useState<string>("");
-  const logoInputRef = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    return () => {
-      if (logoPreview) {
-        URL.revokeObjectURL(logoPreview);
-      }
-    };
-  }, [logoPreview]);
-
-  const handleLogoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    const nextPreview = URL.createObjectURL(file);
-    setLogoPreview((current) => {
-      if (current) URL.revokeObjectURL(current);
-      return nextPreview;
-    });
-  };
-
-  const resetPreview = () => {
-    setContactEmail("");
-    setBillingAddress("");
-    setLogoPreview((current) => {
-      if (current) URL.revokeObjectURL(current);
-      return "";
-    });
-    if (logoInputRef.current) {
-      logoInputRef.current.value = "";
-    }
-  };
-
-  const payoutRows = [
-    { label: "Booking total", value: "R1,250.00" },
-    { label: "Service fee", value: "Shown before checkout" },
-    { label: "Estimated payout", value: "24-48h after completion" },
-  ];
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-12 max-w-3xl"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            PAYOUTS + INVOICES
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Invoices are created from the booking flow.
-          </h2>
-          <p className="text-neutral-500 text-lg leading-relaxed">
-            Pick an industry and service, add your email, address, and logo, and
-            Bouul can simulate the invoice that would be generated for that job.
-            The logo preview lives only in this session and resets when you
-            refresh or leave the page.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <motion.div
-            initial={{ opacity: 0, x: -18 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.55 }}
-            className="rounded-3xl border border-neutral-800 bg-neutral-950 p-6 md:p-8"
-          >
-            <div className="flex items-center justify-between gap-4 mb-6">
-              <div>
-                <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-2">
-                  Invoice details
-                </div>
-                <div className="text-white text-xl font-semibold">
-                  Set up the invoice profile
-                </div>
-              </div>
-              <div className="px-3 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 text-emerald-300 text-[10px] font-bold uppercase tracking-[0.22em]">
-                Temporary preview
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 gap-4">
-              <div className="rounded-2xl border border-neutral-800 bg-black p-4">
-                <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2">
-                  Selected industry
-                </div>
-                <div className="text-white font-medium">
-                  {categoryData?.name || "Select an industry above"}
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-neutral-800 bg-black p-4">
-                <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2">
-                  Selected service
-                </div>
-                <div className="text-white font-medium">
-                  {serviceData?.name || "Then pick a service"}
-                </div>
-              </div>
-
-              <label className="block">
-                <span className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2 block">
-                  Invoice email
-                </span>
-                <input
-                  type="email"
-                  value={contactEmail}
-                  onChange={(e) => setContactEmail(e.target.value)}
-                  placeholder="accounts@yourbusiness.com"
-                  className="w-full px-4 py-3 rounded-2xl bg-black border border-neutral-800 text-white placeholder-neutral-600 focus:outline-none focus:border-emerald-500"
-                />
-              </label>
-
-              <label className="block">
-                <span className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-2 block">
-                  Invoice address
-                </span>
-                <textarea
-                  value={billingAddress}
-                  onChange={(e) => setBillingAddress(e.target.value)}
-                  placeholder="123 Business Street, Sandton, Johannesburg"
-                  rows={3}
-                  className="w-full px-4 py-3 rounded-2xl bg-black border border-neutral-800 text-white placeholder-neutral-600 focus:outline-none focus:border-emerald-500 resize-none"
-                />
-              </label>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="rounded-2xl border border-neutral-800 bg-black p-4">
-                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-3">
-                    Logo
-                  </div>
-                  <input
-                    ref={logoInputRef}
-                    type="file"
-                    accept="image/*"
-                    onChange={handleLogoChange}
-                    className="hidden"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => logoInputRef.current?.click()}
-                    className="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white text-sm hover:border-emerald-500/40 transition-colors"
-                  >
-                    Upload temporary logo
-                  </button>
-                </div>
-
-                <div className="rounded-2xl border border-neutral-800 bg-black p-4">
-                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-3">
-                    Session note
-                  </div>
-                  <p className="text-neutral-400 text-sm leading-relaxed">
-                    The uploaded logo is only used in this preview and clears on
-                    refresh or when you reset the form.
-                  </p>
-                </div>
-              </div>
-
-              <button
-                type="button"
-                onClick={resetPreview}
-                className="inline-flex w-fit px-4 py-2 rounded-full border border-neutral-800 text-neutral-300 text-sm hover:text-white hover:border-neutral-700 transition-colors"
-              >
-                Reset invoice preview
-              </button>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 18 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.55, delay: 0.05 }}
-            className="rounded-3xl border border-neutral-800 bg-neutral-950 p-6 md:p-8"
-          >
-            <div className="flex items-center justify-between gap-4 mb-6">
-              <div>
-                <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-2">
-                  Payout portal
-                </div>
-                <div className="text-white text-xl font-semibold">
-                  Invoice and payout preview
-                </div>
-              </div>
-              <div className="px-3 py-1.5 rounded-full border border-neutral-800 text-neutral-400 text-[10px] font-bold uppercase tracking-[0.22em]">
-                Auto-created
-              </div>
-            </div>
-
-            <div className="rounded-[1.75rem] border border-neutral-800 bg-black p-5 md:p-6">
-              <div className="flex items-start justify-between gap-4 mb-6">
-                <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-2xl border border-neutral-800 bg-neutral-900 overflow-hidden flex items-center justify-center shrink-0">
-                    {logoPreview ? (
-                      <img src={logoPreview} alt="Temporary logo preview" className="w-full h-full object-cover" />
-                    ) : (
-                      <span className="text-neutral-500 text-xs font-semibold">LOGO</span>
-                    )}
-                  </div>
-                  <div>
-                    <div className="text-white font-semibold text-lg">
-                      {businessName || "Your business"}
-                    </div>
-                    <div className="text-neutral-500 text-xs uppercase tracking-[0.22em]">
-                      {categoryData?.name || "Industry not selected"}
-                    </div>
-                  </div>
-                </div>
-                <div className="text-right">
-                  <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
-                    Invoice
-                  </div>
-                  <div className="text-white font-semibold">#INV-0248</div>
-                </div>
-              </div>
-
-              <div className="space-y-4 border-t border-neutral-900 pt-5">
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
-                      Bill to
-                    </div>
-                    <div className="text-white text-sm font-medium">
-                      {contactEmail || "client@email.com"}
-                    </div>
-                    <div className="text-neutral-500 text-sm mt-1">
-                      {billingAddress || "Client address goes here"}
-                    </div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
-                      Current selection
-                    </div>
-                    <div className="text-white text-sm font-medium">
-                      {serviceData?.name || "Select a service"}
-                    </div>
-                    <div className="text-neutral-500 text-sm">
-                      {categoryData?.name || "Industry not chosen"}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4">
-                  <div className="space-y-3">
-                    {[
-                      { label: serviceData?.name || "Service booking", value: "R1,250.00" },
-                      { label: "Platform fee", value: "Visible before checkout" },
-                      { label: "Payout", value: "Released after completion" },
-                    ].map((row) => (
-                      <div key={row.label} className="flex items-center justify-between gap-4">
-                        <span className="text-neutral-400 text-sm">{row.label}</span>
-                        <span className="text-white text-sm font-medium">{row.value}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-4">
-                  <div className="flex items-center justify-between gap-4 mb-3">
-                    <div>
-                      <div className="text-emerald-400 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
-                        Payout portal status
-                      </div>
-                      <div className="text-white font-semibold">Waiting for completion</div>
-                    </div>
-                    <div className="px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-[10px] font-bold uppercase tracking-[0.22em]">
-                      24-48h
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                    {payoutRows.map((row) => (
-                      <div key={row.label} className="rounded-xl bg-black/60 border border-neutral-800 p-3">
-                        <div className="text-neutral-500 text-[10px] font-bold uppercase tracking-[0.22em] mb-1">
-                          {row.label}
-                        </div>
-                        <div className="text-white text-sm font-medium">{row.value}</div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
-          {[
-            {
-              title: "Select industry",
-              text: "Pick the category that matches the business you run.",
-            },
-            {
-              title: "Add branding",
-              text: "Upload a logo and add invoice contact details.",
-            },
-            {
-              title: "Auto-create invoice",
-              text: "Bouul can simulate the invoice once the booking is confirmed.",
-            },
-            {
-              title: "Track payout",
-              text: "The payout portal shows when the transfer is pending and when it settles.",
-            },
-          ].map((step, index) => (
-            <motion.div
-              key={step.title}
-              initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
-              className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4"
-            >
-              <div className="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-2">
-                {index + 1}
-              </div>
-              <div className="text-white font-semibold mb-2">{step.title}</div>
-              <p className="text-neutral-500 text-sm leading-relaxed">{step.text}</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Vendor Trust Section
-const VendorTrustSection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  const trustFeatures = [
-    {
-      title: "Verified Customers Only",
-      description: "Only users with a verified payment method and completed booking can review your services.",
-      icon: "🛡️"
-    },
-    {
-      title: "FICA & Identity Compliant",
-      description: "We handle the heavy lifting of compliance and security so you can focus on your craft.",
-      icon: "🆔"
-    },
-    {
-      title: "Secure 24-48h Payouts",
-      description: "Direct to your bank account. No waiting for weekly cycles or platform approvals.",
-      icon: "💳"
-    }
-  ];
-
-  return (
-    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-              TRUST & SECURITY
-            </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-              {businessName ? `Bouul protects ${businessName}` : "Bouul protects your business"}
-            </h2>
-            <p className="text-neutral-500 text-lg mb-10">
-              We built the platform to be a fortress. Your data, your revenue, and your reputation are our highest priority.
-            </p>
-            <div className="space-y-8">
-              {trustFeatures.map((feature) => (
-                <div key={feature.title} className="flex gap-4">
-                  <div className="text-2xl">{feature.icon}</div>
-                  <div>
-                    <h4 className="text-white font-semibold mb-1">{feature.title}</h4>
-                    <p className="text-neutral-500 text-sm leading-relaxed">{feature.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="relative"
-          >
-            <div className="aspect-square bg-gradient-to-br from-emerald-500/20 to-transparent rounded-3xl border border-emerald-500/20 flex items-center justify-center p-12 overflow-hidden">
-              <div className="text-center">
-                <div className="text-8xl mb-6">🔒</div>
-                <div className="text-emerald-400 font-mono text-xs tracking-widest mb-2 uppercase">Encryption Active</div>
-                <div className="text-neutral-500 text-sm font-mono">256-bit Secure Payout Channel</div>
-                <div className="mt-8 grid grid-cols-2 gap-4">
-                  <div className="h-2 w-24 bg-neutral-800 rounded-full overflow-hidden">
-                    <div className="h-full bg-emerald-500 w-3/4 animate-pulse" />
-                  </div>
-                  <div className="h-2 w-24 bg-neutral-800 rounded-full overflow-hidden">
-                    <div className="h-full bg-emerald-500 w-1/2 animate-pulse" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Dashboard Preview Section
-const DashboardPreviewSection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  return (
-    <section className="py-24 bg-black">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            DASHBOARD
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? `Control ${businessName} from anywhere` : "Control your business from anywhere"}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            Full-feature management for mobile and desktop. Track bookings, manage staff, coordinate subscriptions, and review growth from one dashboard.
-          </p>
-        </motion.div>
-
-        <div className="relative max-w-5xl mx-auto">
-          <div className="bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden shadow-2xl">
-            <div className="bg-neutral-950 border-b border-neutral-800 p-4 flex items-center justify-between">
-              <div className="flex gap-2">
-                <div className="w-3 h-3 rounded-full bg-neutral-800" />
-                <div className="w-3 h-3 rounded-full bg-neutral-800" />
-                <div className="w-3 h-3 rounded-full bg-neutral-800" />
-              </div>
-              <div className="px-4 py-1.5 bg-neutral-900 rounded-lg text-[10px] text-neutral-500 font-mono flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                {businessName ? `${businessName.toLowerCase()}.bouul.com` : "yourbusiness.bouul.com"}
-              </div>
-              <div className="w-6 h-6 rounded-full bg-neutral-800" />
-            </div>
-            <div className="aspect-video bg-neutral-950 flex items-center justify-center relative group">
-              <div className="text-neutral-700 text-xs font-mono uppercase tracking-[0.2em]">Dashboard Preview</div>
-              
-              {/* AI Pointer Overlay */}
-              <div className="absolute top-8 right-8 p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl backdrop-blur-md max-w-[200px]">
-                <div className="text-emerald-400 text-[10px] font-bold uppercase mb-2">Zola AI Insight</div>
-                <div className="text-white text-xs leading-relaxed">
-                  "Peak demand expected tomorrow between 2pm-4pm. {businessName && `Adjusting ${businessName}'s availability.`}"
-                </div>
-              </div>
-              
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60" />
-            </div>
-          </div>
-          
-          {/* Floating Mobile Preview */}
-          <div className="absolute -bottom-12 -right-6 hidden lg:block w-56 aspect-[9/19] bg-neutral-900 border-4 border-neutral-800 rounded-[2.5rem] overflow-hidden shadow-2xl">
-            <div className="h-6 w-1/3 bg-neutral-800 rounded-b-xl mx-auto mb-4" />
-            <div className="px-4 space-y-4">
-              <div className="h-2 w-full bg-neutral-800 rounded-full" />
-              <div className="h-20 w-full bg-emerald-500/20 rounded-xl" />
-              <div className="h-2 w-2/3 bg-neutral-800 rounded-full" />
-              <div className="h-2 w-full bg-neutral-800 rounded-full" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Entrepreneur Anxiety Section
-const EntrepreneurAnxietySection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  const anxieties = [
-    {
-      question: "Can you afford a full-time marketing team?",
-      answer: "Most can't. That's why we built Zola. She manages your SEO, social presence, and client outreach automatically.",
-      label: "CHIEF MARKETING OFFICER"
-    },
-    {
-      question: "Do you handle bookings outside office hours?",
-      answer: "Bouul is your receptionist. We handle every inquiry, deposit, and reminder while you're working or sleeping.",
-      label: "RECEPTION & OPS"
-    },
-    {
-      question: "Wish you had a business strategist on call?",
-      answer: "Our AI analyzes local demand and competition to tell you exactly when to raise your rates or run a promo.",
-      label: "STRATEGY & GROWTH"
-    },
-    {
-      question: "Feel like your competitors are killing you?",
-      answer: "They may be losing margin to older platforms. Bouul gives you the tech to improve visibility while keeping more of your profit.",
-      label: "COMPETITIVE EDGE"
-    }
-  ];
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            THE FOUNDER'S REALITY
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            {businessName ? `Is ${businessName} working for you, or are you working for ${businessName}?` : "Are you working for your business, or is it working for you?"}
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto">
-            Being an entrepreneur shouldn't mean being everything at once. We give you the executive team you can't afford yet.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {anxieties.map((item, i) => (
-            <motion.div
-              key={item.question}
-              initial={{ opacity: 0, x: i % 2 === 0 ? -20 : 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="bg-neutral-950 border border-neutral-800 rounded-3xl p-10 flex flex-col justify-between group hover:border-emerald-500/30 transition-all"
-            >
-              <div>
-                <h3 className="text-2xl font-semibold text-white mb-6 leading-tight group-hover:text-emerald-400 transition-colors">
-                  "{item.question}"
-                </h3>
-                <p className="text-neutral-500 text-base leading-relaxed mb-8 italic">
-                  — No? That's what we thought. {item.answer}
-                </p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs font-bold">
-                  ✓
-                </div>
-                <div className="text-neutral-400 text-[10px] font-bold uppercase tracking-[0.2em]">
-                  BOUUL REPLACES YOUR: {item.label}
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Website Simulator Section
-const WebsiteSimulatorSection: React.FC<{ businessName: string }> = ({ businessName }) => {
-  const [url, setUrl] = useState("");
-  const [isScanning, setIsScanning] = useState(false);
-  const [scanComplete, setScanComplete] = useState(false);
-  const [progress, setProgress] = useState(0);
-
-  const startScan = () => {
-    if (!url) return;
-    setIsScanning(true);
-    setScanComplete(false);
-    setProgress(0);
-    
-    const interval = setInterval(() => {
-      setProgress(prev => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setIsScanning(false);
-          setScanComplete(true);
-          return 100;
-        }
-        return prev + 2;
-      });
-    }, 50);
-  };
-
-  const costs = [
-    { item: "Domain & Hosting", traditional: "$170/yr", bouul: "$0" },
-    { item: "Website Maintenance", traditional: "$500/yr", bouul: "$0" },
-    { item: "SEO Specialist", traditional: "$8,000/yr", bouul: "AI Included" },
-    { item: "Google Ads/PPC Manager", traditional: "$6,000/yr", bouul: "Social Native" },
-    { item: "Booking Software Fee", traditional: "R450/mo", bouul: "$0" },
-  ];
-
-  return (
-    <section className="py-24 bg-black border-t border-neutral-900 overflow-hidden relative">
-      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-emerald-500/5 blur-[150px] rounded-full -z-10" />
-      
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-          >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-              THE WEBSITE TRAP
-            </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6 leading-[1.1]">
-              {businessName ? `Stop wasting ${businessName}'s profit on a static website.` : "Stop wasting profit on a static website."}
-            </h2>
-            <p className="text-neutral-500 text-lg mb-8 leading-relaxed">
-              Standard websites are digital business cards that nobody finds. They are expensive to maintain and 
-              impossible to optimize alone. Bouul gives you a high-converting, social-first storefront for free.
-            </p>
-            
-            <div className="space-y-4 mb-10">
-              <div className="flex items-center gap-3">
-                <div className="w-5 h-5 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-[10px]">✕</div>
-                <div className="text-neutral-400 text-sm italic">"I spent R15k on a site and still have no bookings."</div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-5 h-5 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-[10px]">✓</div>
-                <div className="text-white text-sm font-medium">Bouul vendors are easier to discover than standalone sites.</div>
-              </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="text"
-                placeholder="Enter your current website URL..."
-                value={url}
-                onChange={(e) => setUrl(e.target.value)}
-                className="flex-1 px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-all shadow-xl"
-              />
-              <button
-                onClick={startScan}
-                disabled={isScanning || !url}
-                className="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {isScanning ? "Analyzing..." : "Analyze Savings"}
-              </button>
-            </div>
-          </motion.div>
-
-          <div className="relative">
-            <AnimatePresence mode="wait">
-              {isScanning ? (
-                <motion.div
-                  key="scanning"
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 1.05 }}
-                  className="bg-neutral-950 border border-emerald-500/20 rounded-3xl p-12 text-center shadow-2xl"
-                >
-                  <div className="text-6xl mb-8 animate-pulse">🛰️</div>
-                  <h3 className="text-xl font-semibold text-white mb-2 uppercase tracking-widest">
-                    Scanning {businessName || "Your Presence"}
-                  </h3>
-                  <p className="text-neutral-500 text-sm mb-8">Auditing SEO, Loading Speed, and Customer Funnel...</p>
-                  <div className="w-full h-2 bg-neutral-900 rounded-full overflow-hidden">
-                    <motion.div 
-                      className="h-full bg-emerald-500"
-                      initial={{ width: 0 }}
-                      animate={{ width: `${progress}%` }}
-                    />
-                  </div>
-                </motion.div>
-              ) : scanComplete ? (
-                <motion.div
-                  key="results"
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className="bg-neutral-950 border border-emerald-500/40 rounded-3xl p-8 shadow-2xl relative overflow-hidden"
-                >
-                  <div className="absolute top-0 right-0 p-4">
-                    <div className="px-3 py-1 bg-emerald-500 text-black text-[10px] font-bold rounded-full animate-bounce">
-                      AUDIT COMPLETE
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white mb-8 border-b border-neutral-800 pb-4">
-                    {businessName ? `${businessName} Savings Analysis` : "Your Savings Analysis"}
-                  </h3>
-                  <div className="space-y-6 mb-8">
-                    <div className="grid grid-cols-3 text-[10px] font-bold text-neutral-500 uppercase tracking-widest px-4">
-                      <div>EXPENSE</div>
-                      <div className="text-center">OLD WAY</div>
-                      <div className="text-right text-emerald-400">BOUUL WAY</div>
-                    </div>
-                    {costs.map((c) => (
-                      <div key={c.item} className="grid grid-cols-3 items-center px-4 py-3 bg-neutral-900/50 rounded-xl border border-neutral-800">
-                        <div className="text-xs text-white font-medium">{c.item}</div>
-                        <div className="text-xs text-neutral-500 text-center line-through">{c.traditional}</div>
-                        <div className="text-xs text-emerald-400 text-right font-bold">{c.bouul}</div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="text-center p-4 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl">
-                    <div className="text-emerald-400 text-xs font-bold uppercase mb-1">Estimated Annual Recovery</div>
-                    <div className="text-3xl font-bold text-white tracking-tighter">R15,000+</div>
-                  </div>
-                </motion.div>
-              ) : (
-                <motion.div
-                  key="idle"
-                  className="bg-neutral-950 border border-neutral-800 rounded-3xl p-12 text-center opacity-50 grayscale"
-                >
-                  <div className="text-6xl mb-8">🌐</div>
-                  <h3 className="text-xl font-semibold text-white mb-2">Website Cost Auditor</h3>
-                  <p className="text-neutral-500 text-sm">Enter your URL to see what we can save you.</p>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-// Dynamic Pricing Explainer Section
-const DynamicPricingExplainer: React.FC<{ businessName: string }> = ({ businessName }) => {
-  return (
-    <section className="py-24 bg-neutral-950 border-y border-neutral-900">
-      <div className="max-w-7xl mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-            RECLAIM YOUR WORTH
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
-            Earn more, not harder.
-          </h2>
-          <p className="text-neutral-500 text-lg max-w-2xl mx-auto leading-relaxed">
-            {businessName ? `Bouul's AI watches ${businessName}'s schedule and local demand. When you're busy, we raise your rates automatically to protect your time.` : "Bouul's AI watches your schedule and local demand. When you're busy, we raise your rates automatically to protect your time."}
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
-            <div className="text-3xl mb-4">⚡</div>
-            <h4 className="text-white font-semibold text-xl mb-4">Surge Pricing</h4>
-            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
-              Friday night at 7pm? Demand is high. The AI automatically increases your base rate by 15-30% because your 
-              time is a premium asset.
-            </p>
-            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              MAXIMIZING MARGINS
-            </div>
-          </div>
-          
-          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
-            <div className="text-3xl mb-4">🌙</div>
-            <h4 className="text-white font-semibold text-xl mb-4">Off-Peak Incentives</h4>
-            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
-              Slow Tuesday morning? The system can offer "Flash Promos" to fill your empty slots, ensuring {businessName || "your business"} 
-              maintains constant cash flow.
-            </p>
-            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              FILLING THE GAPS
-            </div>
-          </div>
-
-          <div className="p-8 bg-black border border-neutral-800 rounded-3xl">
-            <div className="text-3xl mb-4">⏱️</div>
-            <h4 className="text-white font-semibold text-xl mb-4">Duration Intelligence</h4>
-            <p className="text-neutral-500 text-sm leading-relaxed mb-6">
-              If a specific service for {businessName || "you"} always runs 15 minutes over, the AI suggests 
-              duration adjustments and pricing tiers to ensure you're paid for every minute.
-            </p>
-            <div className="text-emerald-400 text-xs font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              TIME PROTECTION
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+const trustFeatures = [
+  {
+    title: "Verified Customers Only",
+    description: "Every customer is identity-verified before they can book. No anonymous requests, no spam.",
+  },
+  {
+    title: "FICA & Identity Compliant",
+    description: "Built-in compliance for South African regulations. Your business stays protected.",
+  },
+  {
+    title: "Secure 24-48h Payouts",
+    description: "Funds held in escrow during the job, released within 24-48 hours of completion. No chasing payments.",
+  },
+];
 
 export default function VendorsPage() {
-  const [businessName, setBusinessName] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string>("");
-  const [selectedService, setSelectedService] = useState<string>("");
-
   return (
     <main className="min-h-screen bg-black">
       <Navbar />
 
-      {/* Hero */}
-      <LampContainer className="min-h-[500px]">
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-center relative z-10"
-        >
-          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
-            FOR PROFESSIONALS
-          </div>
-          <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-8">
-            {businessName ? (
-              <>
-                Grow <span className="text-emerald-400">{businessName}</span> <br />
-                <span className="text-neutral-500 text-4xl md:text-5xl">on your own terms.</span>
-              </>
-            ) : (
-              <>
-                Built for professionals <br />
-                <span className="text-neutral-500">who mean business.</span>
-              </>
-            )}
-          </h1>
-          
-          <div className="max-w-md mx-auto mb-10">
-            <div className="relative group">
-              <input
-                type="text"
-                placeholder="Enter your business name..."
-                value={businessName}
-                onChange={(e) => setBusinessName(e.target.value)}
-                className="w-full px-8 py-5 bg-neutral-900/50 backdrop-blur-sm border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-all text-center text-lg group-hover:bg-neutral-900/80 shadow-2xl"
-              />
-              <div className="absolute inset-0 rounded-full bg-emerald-500/20 blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
-            {businessName ? (
-              <p className="text-emerald-400/70 text-xs mt-4 animate-pulse uppercase tracking-widest font-semibold">
-                Personalizing experience for {businessName}...
-              </p>
-            ) : (
-              <p className="text-neutral-500 text-xs mt-4 uppercase tracking-widest font-medium">
-                Enter name to personalize the journey
-              </p>
-            )}
-          </div>
+      {/* Hero — lamp effect with vendor value prop */}
+      <section className="bg-black border-b border-neutral-900">
+        <LampContainer>
+          <motion.h1
+            initial={{ opacity: 0.5, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
+            className="mt-10 bg-gradient-to-br from-emerald-300 to-emerald-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+          >
+            Built for professionals <br /> who want real growth.
+          </motion.h1>
+        </LampContainer>
 
+        <div className="max-w-3xl mx-auto px-6 pb-20 text-center">
+          <p className="text-neutral-400 text-lg leading-relaxed mb-8">
+            Bouul gives you the tools to showcase your work, set your prices,
+            manage your team, and grow your business — all from one dashboard.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#get-started"
-              className="px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-all hover:scale-105 active:scale-95 shadow-xl shadow-emerald-500/20"
+            <Link
+              href="/download"
+              className="px-8 py-3.5 bg-emerald-400 hover:bg-emerald-300 text-black font-semibold rounded-full transition-colors"
             >
-              Get Started
-            </a>
-            <a
+              Create your free profile
+            </Link>
+            <Link
               href="#how-it-works"
-              className="px-10 py-5 bg-neutral-900 hover:bg-neutral-800 text-white font-semibold rounded-full text-lg border border-neutral-800 transition-all shadow-xl"
+              className="px-8 py-3.5 border border-neutral-700 text-neutral-300 hover:text-white hover:border-neutral-500 font-medium rounded-full transition-colors"
             >
-              How it works
-            </a>
+              How it works →
+            </Link>
           </div>
-        </motion.div>
-      </LampContainer>
+        </div>
+      </section>
 
-      {/* Stats */}
-      <section className="py-20 bg-black border-y border-neutral-900">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-            {vendorStats.map((stat: VendorStat, i: number) => (
+      {/* Stats strip */}
+      <section className="py-20 bg-black border-b border-neutral-900">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {vendorStats.map((item) => (
               <motion.div
-                key={stat.label}
+                key={item.label}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
+                transition={{ duration: 0.5 }}
                 className="text-center"
               >
-                <div className="text-4xl md:text-6xl font-bold text-white mb-3">
-                  {stat.stat}
-                </div>
-                <div className="text-neutral-400 text-sm font-bold mb-2 uppercase tracking-widest">{stat.label}</div>
-                <div className="text-neutral-600 text-xs max-w-[200px] mx-auto leading-relaxed">{stat.description}</div>
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">{item.stat}</div>
+                <div className="text-emerald-400 text-sm font-medium mb-1">{item.label}</div>
+                <p className="text-neutral-500 text-xs leading-relaxed">{item.description}</p>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Onboarding Journey */}
-      <div id="how-it-works">
-        <OnboardingJourneySection businessName={businessName} />
-      </div>
-
       {/* Operating model */}
-      <OperatingModelSection />
-
-      {/* Entrepreneur Anxiety Section */}
-      <EntrepreneurAnxietySection businessName={businessName} />
-
-      {/* Website Simulator Section */}
-      <WebsiteSimulatorSection businessName={businessName} />
-
-      {/* Pain Points */}
-      <PainPointsSection businessName={businessName} />
-
-      {/* Dynamic Pricing Explainer */}
-      <DynamicPricingExplainer businessName={businessName} />
-
-      {/* Service Categories - Who Can Join */}
-      <ServiceCategoriesSection
-        businessName={businessName}
-        selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
-        selectedService={selectedService}
-        setSelectedService={setSelectedService}
-      />
-
-      {/* Invoice + payout flow */}
-      <InvoicePayoutSection
-        businessName={businessName}
-        selectedCategory={selectedCategory}
-        selectedService={selectedService}
-      />
-
-      {/* Detailed Pain Points Section - Shows after service selection */}
-      {selectedCategory && selectedService && (
-        <DetailedPainPointsSection
-          businessName={businessName}
-          selectedCategory={selectedCategory}
-          selectedService={selectedService}
-        />
-      )}
-
-      {/* Resonance Discovery Engine */}
-      <section id="features" className="py-24 md:py-32 bg-black border-t border-neutral-900 relative overflow-hidden">
-        {/* Background glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/5 blur-[120px] rounded-full -z-10" />
-        
+      <section id="how-it-works" className="py-24 bg-black border-b border-neutral-900">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-16"
+            className="mb-12 max-w-3xl"
           >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4 flex items-center gap-2">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              KEYSTONE DISCOVERY™ AI
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              HOW IT WORKS
             </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4 max-w-3xl">
-              {businessName ? (
-                <>{businessName} uploads. <br /> The AI optimizes.</>
-              ) : (
-                <>Vendors upload. <br /> The AI optimizes.</>
-              )}
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+              One platform. Four ways to operate.
             </h2>
-            <p className="text-neutral-500 text-lg max-w-2xl leading-relaxed">
-              Every service {businessName && <>from {businessName}</>} can have multiple titles and images. 
-              Our AI discovery engine automatically cycles through all combinations, learning exactly 
-              what converts each individual user.
+            <p className="text-neutral-500 text-lg leading-relaxed">
+              Whether you&apos;re a solo professional or managing a team, Bouul
+              adapts to how you work — not the other way around.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {vendorFeatures.map((feature: VendorFeature, i: number) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {operatingModels.map((model, i) => (
+              <motion.div
+                key={model.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
+                className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
+              >
+                <h3 className="text-white font-semibold text-lg mb-2">{model.title}</h3>
+                <p className="text-neutral-400 text-sm leading-relaxed">{model.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* AI Discovery + Analytics */}
+      <section className="py-24 bg-black border-b border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 max-w-3xl"
+          >
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              KEYSTONE AI
+            </div>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+              You upload. The AI optimizes.
+            </h2>
+            <p className="text-neutral-500 text-lg leading-relaxed">
+              Bouul&apos;s discovery engine tests what works for each customer —
+              automatically. No A/B setup, no marketing team required.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {vendorFeatures.map((feature, i) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-3xl p-8 flex flex-col gap-4 group hover:border-emerald-500/30 transition-all"
+                className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
               >
-                <div className="text-emerald-400 p-3 bg-neutral-900 rounded-2xl w-fit group-hover:scale-110 transition-transform">{feature.icon}</div>
-                <div className="text-4xl font-bold text-white mt-2">{feature.stat}</div>
-                <div className="text-white font-semibold text-xl">{feature.title}</div>
-                <p className="text-neutral-500 text-sm leading-relaxed flex-1">
-                  {feature.description}
-                </p>
-                <div className="text-emerald-400/70 text-[10px] font-bold uppercase tracking-widest border-t border-neutral-900 pt-4 flex items-center gap-2">
-                  <div className="w-1 h-1 rounded-full bg-emerald-500" />
+                <div className="text-3xl font-bold text-white mb-1">{feature.stat}</div>
+                <div className="text-emerald-400 text-xs font-semibold uppercase tracking-widest mb-4">
                   {feature.statLabel}
                 </div>
+                <h3 className="text-white font-semibold mb-2">{feature.title}</h3>
+                <p className="text-neutral-400 text-sm leading-relaxed">{feature.description}</p>
               </motion.div>
             ))}
           </div>
 
-          {/* Extra AI Pointer */}
-          <motion.div 
+          {/* Ops preview */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="mb-12"
+          >
+            <VendorOpsPreview />
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Pricing control */}
+      <section className="py-24 bg-black border-b border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+                PRICING CONTROL
+              </div>
+              <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+                You set the price. The platform handles the rest.
+              </h2>
+              <p className="text-neutral-400 text-lg leading-relaxed mb-8">
+                Set base rates, surge pricing for peak times, off-peak discounts,
+                travel fees, and minimum booking values — all from your dashboard.
+              </p>
+              <div className="space-y-4">
+                {[
+                  { title: "Surge Pricing", desc: "Automatically adjust rates during high-demand periods." },
+                  { title: "Off-Peak Incentives", desc: "Fill slow periods with smart discounts that protect your margin." },
+                  { title: "Duration Intelligence", desc: "Price by job complexity, not just hourly. Fairer for you and clearer for customers." },
+                ].map((item) => (
+                  <div key={item.title} className="flex items-start gap-3">
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+                    <div>
+                      <span className="text-white font-medium text-sm">{item.title}</span>
+                      <span className="text-neutral-500 text-sm"> — {item.desc}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.1 }}
+              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
+            >
+              <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
+                Transparent fees
+              </div>
+              <div className="space-y-4">
+                {[
+                  { label: "Platform fee", value: "Flat, not percentage-based", note: "No surprise commission cuts" },
+                  { label: "Payout timing", value: "24-48 hours after completion", note: "Faster than industry standard" },
+                  { label: "Hidden costs", value: "None", note: "What you see is what you keep" },
+                ].map((item) => (
+                  <div key={item.label} className="flex items-center justify-between border-b border-neutral-800 pb-4">
+                    <div>
+                      <div className="text-neutral-300 text-sm font-medium">{item.label}</div>
+                      <div className="text-neutral-500 text-xs">{item.note}</div>
+                    </div>
+                    <div className="text-emerald-400 text-sm font-semibold">{item.value}</div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust & Security */}
+      <section className="py-24 bg-black border-b border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mt-12 p-8 bg-neutral-950 border border-emerald-500/20 rounded-3xl flex flex-col md:flex-row items-center gap-8"
+            transition={{ duration: 0.6 }}
+            className="mb-12 max-w-3xl"
           >
-            <div className="w-20 h-20 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-4xl shrink-0">
-              🤖
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              TRUST & SECURITY
             </div>
-            <div>
-              <h4 className="text-white font-semibold text-lg mb-2 flex items-center gap-2">
-                Zola™ AI Assistant
-                <span className="px-2 py-0.5 bg-emerald-500 text-black text-[10px] font-bold rounded-full">ACTIVE</span>
-              </h4>
-              <p className="text-neutral-500 text-sm leading-relaxed">
-                Zola acts as {businessName ? `${businessName}'s` : "your"} always-on sales assistant. 
-                She answers customer questions about {businessName ? `${businessName}'s` : "your"} 
-                services, suggests add-ons, and completes the booking — all without you lifting a finger.
-              </p>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+              Bouul protects your business.
+            </h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {trustFeatures.map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
+              >
+                <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-4">
+                  <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h3 className="text-white font-semibold mb-2">{item.title}</h3>
+                <p className="text-neutral-400 text-sm leading-relaxed">{item.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Dashboard preview */}
+      <section className="py-24 bg-black border-b border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 max-w-3xl"
+          >
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              DASHBOARD
+            </div>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+              Control your business from anywhere.
+            </h2>
+            <p className="text-neutral-500 text-lg leading-relaxed">
+              Full-feature management for mobile and desktop. Track bookings, manage
+              staff, coordinate subscriptions, and review growth from one dashboard.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex justify-center"
+          >
+            <div
+              className="relative overflow-hidden bg-neutral-900 border border-neutral-800 rounded-3xl shadow-2xl shadow-black/40"
+              style={{ width: "min(820px, 90vw)", aspectRatio: "820/1180" }}
+            >
+              <VendorDashboardPreview />
             </div>
           </motion.div>
         </div>
       </section>
 
-      {/* Trust & Security */}
-      <VendorTrustSection businessName={businessName} />
+      {/* Category grid */}
+      <section id="categories" className="py-24 bg-black border-b border-neutral-900">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 max-w-3xl"
+          >
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              WHO CAN JOIN
+            </div>
+            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+              Every trade. Every profession.
+            </h2>
+            <p className="text-neutral-500 text-lg leading-relaxed">
+              From plumbers to photographers, Bouul is built for professionals who
+              want better tools and more control over their business.
+            </p>
+          </motion.div>
 
-      {/* Dashboard Preview */}
-      <DashboardPreviewSection businessName={businessName} />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {vendorCategoriesList.map((category, i) => (
+              <motion.div
+                key={category.slug}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.04 }}
+              >
+                <Link
+                  href={`/vendors/${category.slug}`}
+                  className="block rounded-2xl border border-neutral-800 bg-neutral-950 p-5 h-full hover:border-emerald-500/30 transition-colors group"
+                >
+                  <div className="text-3xl mb-3">{category.icon}</div>
+                  <h3 className="text-white font-semibold text-sm mb-1 group-hover:text-emerald-400 transition-colors">
+                    {category.name}
+                  </h3>
+                  <p className="text-neutral-500 text-xs">
+                    {category.serviceCount} services
+                  </p>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      {/* Pricing Comparison */}
-      <VendorPricingComparison businessName={businessName} />
-
-      {/* Category Value Props */}
-      <VendorCategoryValueProp 
-        businessName={businessName}
-        initialCategory={selectedCategory}
-        initialService={selectedService}
-      />
-
-      {/* Final CTA */}
-      <section id="get-started" className="py-32 bg-black relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/5 to-transparent" />
-        <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
+      {/* CTA */}
+      <section className="py-24 bg-black">
+        <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-5xl md:text-7xl font-semibold text-white mb-8 tracking-tighter">
-              Ready to grow <br />
-              <span className="text-emerald-400">{businessName || "your business"}?</span>
+            <h2 className="text-4xl md:text-6xl font-semibold text-white mb-6">
+              Ready to grow your business?
             </h2>
-            <p className="text-neutral-500 text-xl mb-12 max-w-xl mx-auto leading-relaxed">
-              Join 5,000+ professionals who trust Bouul to fill their calendar
-              and grow their business with transparent fees.
+            <p className="text-neutral-500 text-lg mb-10 max-w-xl mx-auto">
+              Join 5,000+ professionals already using Bouul to showcase their work,
+              manage bookings, and earn more.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/download"
-                className="px-12 py-6 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full text-xl transition-all hover:scale-105 shadow-2xl shadow-emerald-500/20"
+                className="px-10 py-5 bg-emerald-400 hover:bg-emerald-300 text-black font-semibold rounded-full text-lg transition-colors"
               >
-                Create Free {businessName || "your"} Profile
-              </a>
+                Create Free Profile
+              </Link>
+              <Link
+                href="/employees"
+                className="px-10 py-5 border border-neutral-700 text-neutral-300 hover:text-white hover:border-neutral-500 font-medium rounded-full text-lg transition-colors"
+              >
+                For your team →
+              </Link>
             </div>
-            <p className="text-neutral-600 text-sm mt-8 font-medium">
-              CLEAR FEES • NO HIDDEN FEES • MORE MARGIN
+            <p className="text-neutral-600 text-sm mt-6">
+              Clear fees. No hidden costs. More margin.
             </p>
           </motion.div>
         </div>

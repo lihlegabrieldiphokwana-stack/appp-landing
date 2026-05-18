@@ -159,7 +159,7 @@ export default function CategoryPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 hover:border-emerald-500/50 transition-colors group"
+                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 hover:border-emerald-500/50 transition-colors group h-full flex flex-col"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center text-2xl">
@@ -173,11 +173,11 @@ export default function CategoryPage() {
                       </div>
                     )}
                     {pro.verified && (
-                      <div className="flex items-center gap-1 px-2.5 py-1 bg-blue-500/10 rounded-full">
-                        <svg className="w-3 h-3 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="flex items-center gap-1 px-2.5 py-1 bg-emerald-500/10 rounded-full">
+                        <svg className="w-3 h-3 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
-                        <span className="text-blue-400 text-xs font-medium">Verified</span>
+                        <span className="text-emerald-400 text-xs font-medium">Verified</span>
                       </div>
                     )}
                   </div>

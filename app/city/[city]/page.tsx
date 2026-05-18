@@ -14,6 +14,8 @@ const cityNames: Record<string, string> = {
   "pretoria": "Pretoria",
   "centurion": "Centurion",
   "midrand": "Midrand",
+  "randburg": "Randburg",
+  "fourways": "Fourways",
   "roodepoort": "Roodepoort",
   "boksburg": "Boksburg",
   "benoni": "Benoni",
@@ -170,7 +172,7 @@ export default function CityPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 hover:border-emerald-500/50 transition-colors group"
+                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 hover:border-emerald-500/50 transition-colors group h-full flex flex-col"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center text-2xl">
