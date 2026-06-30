@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import { FeatureSection } from "@/components/feature-section";
-import { EmployeeWorkboardPreview } from "@/components/employee-workboard-preview";
 
 const employeeBenefits = [
   {
@@ -127,22 +125,24 @@ export default function EmployeesPage() {
             </div>
           </motion.div>
 
-          {/* Workboard phone mockup */}
+          {/* CTA */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="flex justify-center"
+            className="flex flex-col justify-center"
           >
-            <div
-              className="bg-[#0a1a12] border border-emerald-500/20 rounded-[3rem] flex flex-col overflow-hidden relative shadow-2xl shadow-black/40"
-              style={{ width: "min(380px, 80vw)", aspectRatio: "380/760" }}
-            >
-              <EmployeeWorkboardPreview />
-              {/* Home indicator */}
-              <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-                <div className="w-28 h-1 bg-white/20 rounded-full backdrop-blur-md" />
+            <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8">
+              <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+                EMPLOYEE MODE
               </div>
+              <h2 className="text-3xl font-semibold text-white mb-4">
+                Your workday, organized.
+              </h2>
+              <p className="text-neutral-400 leading-relaxed">
+                Get clear assignments, track your schedule, communicate with your
+                team, and see your earnings — all from one place.
+              </p>
             </div>
           </motion.div>
         </div>
@@ -322,25 +322,22 @@ export default function EmployeesPage() {
               transition={{ duration: 0.7, delay: 0.1 }}
               className="rounded-3xl border border-neutral-800 bg-neutral-950 p-6"
             >
-              {/* Mock chat */}
               <div className="space-y-4">
-                <div className="flex items-center gap-3 pb-4 border-b border-neutral-800">
-                  <div className="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center text-white text-sm font-semibold">
-                    TM
-                  </div>
-                  <div>
-                    <div className="text-white text-sm font-semibold">Thabo M. — Manager</div>
-                    <div className="text-neutral-500 text-xs">Geyser repair · Sandton</div>
-                  </div>
+                <div className="pb-4 border-b border-neutral-800">
+                  <div className="text-white text-sm font-semibold">Team Chat</div>
+                  <div className="text-neutral-500 text-xs">All messages tied to bookings</div>
                 </div>
-                <div className="ml-10 rounded-2xl rounded-tl-sm bg-white/10 p-3 text-sm text-neutral-200">
-                  Can you check the gate motor too while you&apos;re there?
-                </div>
-                <div className="mr-10 rounded-2xl rounded-tr-sm bg-emerald-400 p-3 text-sm font-medium text-black">
-                  Yes, I&apos;ll add it to the job card. Should take 15 min extra.
-                </div>
-                <div className="ml-10 rounded-2xl rounded-tl-sm bg-white/10 p-3 text-sm text-neutral-200">
-                  Perfect. I&apos;ve updated the booking. You&apos;ll see the extra on your earnings.
+                <div className="space-y-3">
+                  {[
+                    "Share photos and job updates in real time",
+                    "Get assignment changes instantly",
+                    "Never lose context — every message stays attached to the booking",
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-3 text-sm text-neutral-300">
+                      <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+                      {item}
+                    </div>
+                  ))}
                 </div>
               </div>
             </motion.div>

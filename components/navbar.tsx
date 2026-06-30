@@ -130,7 +130,7 @@ export const Navbar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled
-          ? "bg-black/80 backdrop-blur-xl border-b border-neutral-800"
+          ? "bg-background/80 backdrop-blur-xl border-b border-mode-border"
           : "bg-transparent"
       )}
     >
@@ -138,7 +138,7 @@ export const Navbar = () => {
         <div className="flex items-center gap-4 h-16">
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-neutral-400 hover:text-white shrink-0"
+            className="md:hidden text-slate-400 hover:text-slate-50 shrink-0"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +155,7 @@ export const Navbar = () => {
             <div className="w-8 h-8 rounded-xl overflow-hidden">
               <Image src="/bouul-logo.png" alt="Bouul" width={32} height={32} className="object-cover" />
             </div>
-            <span className="text-white font-semibold text-lg hidden md:block">Bouul</span>
+            <span className="text-slate-50 font-semibold text-lg hidden md:block">Bouul</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -164,7 +164,7 @@ export const Navbar = () => {
             {showBackLink && (
               <Link
                 href="/"
-                className="text-neutral-500 hover:text-neutral-300 transition-colors text-xs flex items-center gap-1"
+                className="text-slate-500 hover:text-slate-300 transition-colors text-xs flex items-center gap-1"
               >
                 <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -177,7 +177,7 @@ export const Navbar = () => {
               <Link
                 key={link.href + link.label}
                 href={link.href}
-                className="text-neutral-400 hover:text-white transition-colors text-xs flex items-center gap-1.5"
+                className="text-slate-400 hover:text-slate-50 transition-colors text-xs flex items-center gap-1.5"
               >
                 {link.icon}
                 {link.label}
@@ -192,7 +192,7 @@ export const Navbar = () => {
                 onMouseLeave={() => setActiveDropdown(null)}
               >
                 <button
-                  className="text-neutral-400 hover:text-white transition-colors text-xs flex items-center gap-1"
+                  className="text-slate-400 hover:text-slate-50 transition-colors text-xs flex items-center gap-1"
                   onFocus={() => setActiveDropdown("learn")}
                   onBlur={() => setActiveDropdown(null)}
                   type="button"
@@ -209,7 +209,7 @@ export const Navbar = () => {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.18 }}
-                      className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-neutral-800 bg-black/95 backdrop-blur-xl shadow-2xl overflow-hidden"
+                      className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-mode-border bg-background/95 backdrop-blur-xl shadow-2xl overflow-hidden"
                     >
                       <div className="p-2">
                         {[
@@ -223,7 +223,7 @@ export const Navbar = () => {
                           <Link
                             key={href}
                             href={href}
-                            className="block rounded-xl px-4 py-3 text-sm text-neutral-300 hover:text-white hover:bg-neutral-900 transition-colors"
+                            className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-slate-50 hover:bg-mode-surface transition-colors"
                             onClick={() => setActiveDropdown(null)}
                           >
                             {label}
@@ -244,7 +244,7 @@ export const Navbar = () => {
                 onMouseLeave={() => setActiveDropdown(null)}
               >
                 <button
-                  className="text-neutral-400 hover:text-white transition-colors text-xs flex items-center gap-1"
+                  className="text-slate-400 hover:text-slate-50 transition-colors text-xs flex items-center gap-1"
                   onFocus={() => setActiveDropdown("company")}
                   onBlur={() => setActiveDropdown(null)}
                   type="button"
@@ -261,7 +261,7 @@ export const Navbar = () => {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 8 }}
                       transition={{ duration: 0.18 }}
-                      className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-neutral-800 bg-black/95 backdrop-blur-xl shadow-2xl overflow-hidden"
+                      className="absolute left-0 top-full mt-3 w-72 rounded-2xl border border-mode-border bg-background/95 backdrop-blur-xl shadow-2xl overflow-hidden"
                     >
                       <div className="p-2">
                         {[
@@ -274,7 +274,7 @@ export const Navbar = () => {
                           <Link
                             key={href}
                             href={href}
-                            className="block rounded-xl px-4 py-3 text-sm text-neutral-300 hover:text-white hover:bg-neutral-900 transition-colors"
+                            className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-slate-50 hover:bg-mode-surface transition-colors"
                             onClick={() => setActiveDropdown(null)}
                           >
                             {label}
@@ -291,7 +291,7 @@ export const Navbar = () => {
           {/* Right side: mode pills + CTA */}
           <div className="hidden md:flex items-center gap-3 shrink-0 ml-auto">
             {/* Mode switcher pills */}
-            <div className="flex items-center gap-0.5 rounded-full border border-neutral-800 bg-neutral-950 p-0.5">
+            <div className="flex items-center gap-0.5 rounded-full border border-mode-border bg-mode-surface p-0.5">
               {(Object.keys(MODE_LABELS) as Mode[]).map((m) => (
                 <Link
                   key={m}
@@ -300,7 +300,7 @@ export const Navbar = () => {
                     "px-2.5 py-1 rounded-full text-[10px] font-medium transition-colors",
                     m === mode
                       ? "bg-mode-accent text-mode-cta-text"
-                      : "text-neutral-500 hover:text-neutral-300"
+                      : "text-slate-500 hover:text-slate-300"
                   )}
                 >
                   {MODE_LABELS[m]}
@@ -330,11 +330,11 @@ export const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-black/95 backdrop-blur-xl border-b border-neutral-800"
+            className="md:hidden bg-background/95 backdrop-blur-xl border-b border-mode-border"
           >
             <div className="px-6 py-4 space-y-4">
               {/* Mode switcher (mobile) */}
-              <div className="flex items-center gap-1 rounded-full border border-neutral-800 bg-neutral-950 p-1">
+              <div className="flex items-center gap-1 rounded-full border border-mode-border bg-mode-surface p-1">
                 {(Object.keys(MODE_LABELS) as Mode[]).map((m) => (
                   <Link
                     key={m}
@@ -344,7 +344,7 @@ export const Navbar = () => {
                       "flex-1 text-center py-1.5 rounded-full text-xs font-medium transition-colors",
                       m === mode
                         ? "bg-mode-accent text-mode-cta-text"
-                        : "text-neutral-500 hover:text-neutral-300"
+                        : "text-slate-500 hover:text-slate-300"
                     )}
                   >
                     {MODE_LABELS[m]}
@@ -353,7 +353,7 @@ export const Navbar = () => {
               </div>
 
               {mode === "consumer" && (
-                <div className="pb-4 border-b border-neutral-800">
+                <div className="pb-4 border-b border-mode-border">
                   <CityDetector />
                 </div>
               )}
@@ -362,7 +362,7 @@ export const Navbar = () => {
               {showBackLink && (
                 <Link
                   href="/"
-                  className="block text-neutral-500 hover:text-neutral-300 transition-colors text-sm"
+                  className="block text-slate-500 hover:text-slate-300 transition-colors text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   ← Back to Marketplace
@@ -373,7 +373,7 @@ export const Navbar = () => {
                 <Link
                   key={link.href + link.label}
                   href={link.href}
-                  className="block text-neutral-400 hover:text-white transition-colors text-sm"
+                  className="block text-slate-400 hover:text-slate-50 transition-colors text-sm"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}

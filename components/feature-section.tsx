@@ -1,14 +1,10 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import { MechanicCard } from "./mechanic-card";
 
 export interface FeatureCard {
   title: string;
   description: string;
-  image?: string; // Optional image URL or placeholder data
-  visual?: React.ReactNode;
 }
 
 interface FeatureSectionProps {
@@ -24,8 +20,6 @@ interface FeatureSectionProps {
   bullets?: string[];
   cards?: FeatureCard[];
   align: "left" | "right";
-  placeholderLabel: string;
-  appPreview?: string | React.ReactNode;
 }
 
 export const FeatureSection = ({
@@ -38,122 +32,87 @@ export const FeatureSection = ({
   bullets,
   cards,
   align,
-  placeholderLabel,
-  appPreview,
 }: FeatureSectionProps) => {
-  const hasPreview = Boolean(appPreview);
-
   return (
-    <section id={id} className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
+    <section id={id} className="py-24 md:py-32 bg-background border-t border-mode-border overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div
-          className={`flex flex-col lg:flex-row ${hasPreview ? "items-center" : "items-start"} gap-12 md:gap-20 ${
-            hasPreview ? "mb-20" : "mb-12 md:mb-16"
-          } ${
-            align === "left" ? "lg:flex-row-reverse" : ""
-          }`}
+        {/* Text */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.7 }}
+          className={`max-w-2xl ${align === "left" ? "ml-0" : ""}`}
         >
-          {/* Text side */}
-          <motion.div
-            initial={{ opacity: 0, x: align === "left" ? 30 : -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.7 }}
-            className={`flex-1 ${hasPreview ? "max-w-lg" : "max-w-2xl"}`}
-          >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
-              {label}
-            </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
-              {headline}
-            </h2>
-            <p className="text-neutral-400 text-lg leading-relaxed mb-6">
-              {body}
+          <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            {label}
+          </div>
+          <h2 className="text-4xl md:text-5xl font-semibold text-slate-50 tracking-tight mb-6">
+            {headline}
+          </h2>
+          <p className="text-slate-400 text-lg leading-relaxed mb-6">
+            {body}
+          </p>
+
+          {secondaryBody && (
+            <p className="text-slate-500 text-base leading-relaxed mb-8">
+              {secondaryBody}
             </p>
-
-            {secondaryBody && (
-              <p className="text-neutral-500 text-base leading-relaxed mb-8">
-                {secondaryBody}
-              </p>
-            )}
-
-            {supportingCards && (
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
-                {supportingCards.map((item) => (
-                  <div key={item.title} className="rounded-2xl border border-neutral-800 bg-neutral-950 p-4">
-                    <div className="text-emerald-400 text-[10px] font-semibold tracking-[0.22em] uppercase mb-2">
-                      {item.title}
-                    </div>
-                    <div className="text-neutral-300 text-sm leading-relaxed">
-                      {item.description}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Bullets (Legacy) */}
-            {bullets && !cards && (
-              <div className="flex flex-col gap-3">
-                {bullets.map((bullet, i) => (
-                  <div key={i} className="flex items-center gap-3">
-                    <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-                    <span className="text-neutral-300 text-sm">{bullet}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </motion.div>
-
-          {/* Phone preview side - render either an image or a custom mockup */}
-          {appPreview && (
-            <motion.div
-              initial={{ opacity: 0, x: align === "left" ? -30 : 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 0.7, delay: 0.1 }}
-              className="flex-1 flex justify-center"
-            >
-              <div
-                className="bg-neutral-950 border border-neutral-800 rounded-[3rem] flex flex-col overflow-hidden relative shadow-2xl shadow-black/40"
-                style={{
-                  width: "min(428px, 85vw)",
-                  aspectRatio: "428/930.53",
-                }}
-              >
-                {typeof appPreview === "string" ? (
-                  <Image
-                    src={appPreview}
-                    alt={placeholderLabel}
-                    fill
-                    className="object-cover"
-                  />
-                ) : (
-                  <div className="absolute inset-0">{appPreview}</div>
-                )}
-                {/* Home indicator */}
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-                  <div className="w-28 h-1 bg-white/20 rounded-full backdrop-blur-md" />
-                </div>
-              </div>
-            </motion.div>
           )}
-        </div>
 
-        {/* Mechanics Cards (Dedicated Horizontal Scroll Row) */}
+          {supportingCards && (
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
+              {supportingCards.map((item) => (
+                <div key={item.title} className="rounded-2xl border border-mode-border bg-mode-surface p-4">
+                  <div className="text-emerald-400 text-[10px] font-semibold tracking-[0.22em] uppercase mb-2">
+                    {item.title}
+                  </div>
+                  <div className="text-slate-300 text-sm leading-relaxed">
+                    {item.description}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {bullets && !cards && (
+            <div className="flex flex-col gap-3">
+              {bullets.map((bullet, i) => (
+                <div key={i} className="flex items-center gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+                  <span className="text-slate-300 text-sm">{bullet}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </motion.div>
+
+        {/* Feature Cards — text-only grid */}
         {cards && (
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="mt-16"
           >
-            <div className="flex gap-5 overflow-x-auto overscroll-x-contain pb-6 pt-2 snap-x snap-mandatory items-stretch">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {cards.map((card, i) => (
-                <div key={i} className="snap-start">
-                  <MechanicCard card={card} index={i} />
-                </div>
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  className="rounded-2xl border border-mode-border bg-mode-surface p-6 group motion-transition hover:border-emerald-500/30"
+                >
+                  <h3 className="text-slate-50 font-semibold text-lg leading-tight group-hover:text-emerald-400 transition-colors mb-2">
+                    {card.title}
+                  </h3>
+                  <p className="text-slate-400 text-sm leading-relaxed">
+                    {card.description}
+                  </p>
+                </motion.div>
               ))}
             </div>
           </motion.div>

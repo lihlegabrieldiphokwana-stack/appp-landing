@@ -38,7 +38,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <section className="py-24 md:py-32 bg-black border-t border-neutral-900 overflow-hidden">
+    <section className="py-24 md:py-32 bg-background border-t border-mode-border overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,10 +47,10 @@ export const TestimonialsSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-4">
+          <h2 className="text-4xl md:text-5xl font-semibold text-slate-50 tracking-tight mb-4">
             Thousands of people. One marketplace.
           </h2>
-          <p className="text-neutral-500 text-lg">
+          <p className="text-slate-500 text-lg">
             From first bookings to loyal regulars.
           </p>
         </motion.div>

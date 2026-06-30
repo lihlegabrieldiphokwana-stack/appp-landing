@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Inter } from "next/font/google";
 import { ModeProvider } from "@/components/mode-provider";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -53,12 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="theme-color" content="#7ED957" />
-      </head>
-      <body
-        className="antialiased"
-      >
+      <body className={`${inter.variable} font-sans antialiased`}>
         <ModeProvider>{children}</ModeProvider>
         {/* Structured Data - LocalBusiness */}
         <Script

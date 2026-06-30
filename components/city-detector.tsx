@@ -95,7 +95,7 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
       <div className="relative">
         <button
           onClick={() => setIsSelectorOpen(!isSelectorOpen)}
-          className="flex items-center gap-2 px-3 py-1.5 bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 rounded-full text-xs text-neutral-300 transition-colors"
+          className="flex items-center gap-2 px-3 py-1.5 bg-mode-surface hover:bg-mode-surface-raised border border-mode-border rounded-full text-xs text-slate-300 transition-colors"
         >
           <svg className="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -117,15 +117,15 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              className="absolute left-1/2 -translate-x-1/2 md:left-0 md:-translate-x-0 top-full mt-2 w-72 bg-neutral-900 border border-neutral-800 rounded-2xl shadow-xl z-50 overflow-hidden"
+              className="absolute left-1/2 -translate-x-1/2 md:left-0 md:-translate-x-0 top-full mt-2 w-72 bg-mode-surface border border-mode-border rounded-2xl shadow-xl z-50 overflow-hidden"
             >
-              <div className="p-3 border-b border-neutral-800">
+              <div className="p-3 border-b border-mode-border">
                 <input
                   type="text"
                   placeholder="Search city or region..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500"
+                  className="w-full px-3 py-2 bg-mode-surface-raised border border-mode-border rounded-lg text-sm text-slate-50 placeholder-neutral-500 focus:outline-none focus:border-emerald-500"
                   autoFocus
                 />
               </div>
@@ -135,18 +135,18 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
                     key={city.slug}
                     onClick={() => setCity(city.slug)}
                     className={cn(
-                      "w-full px-4 py-3 text-left hover:bg-neutral-800 transition-colors flex items-center justify-between",
+                      "w-full px-4 py-3 text-left hover:bg-mode-surface-raised transition-colors flex items-center justify-between",
                       selectedCity === city.slug && "bg-emerald-500/10"
                     )}
                   >
                     <div>
                       <div className={cn(
                         "text-sm font-medium",
-                        selectedCity === city.slug ? "text-emerald-400" : "text-white"
+                        selectedCity === city.slug ? "text-emerald-400" : "text-slate-50"
                       )}>
                         {city.name}
                       </div>
-                      <div className="text-neutral-500 text-xs">{city.region}</div>
+                      <div className="text-slate-500 text-xs">{city.region}</div>
                     </div>
                     {selectedCity === city.slug && (
                       <svg className="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
@@ -164,7 +164,7 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
   }
 
   return (
-    <div className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6">
+    <div className="bg-mode-surface border border-mode-border rounded-2xl p-6">
       <div className="flex items-center gap-3 mb-4">
         <div className="w-10 h-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
           <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -173,8 +173,8 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
           </svg>
         </div>
         <div>
-          <div className="text-white font-semibold">Your Location</div>
-          <div className="text-neutral-500 text-xs">
+          <div className="text-slate-50 font-semibold">Your Location</div>
+          <div className="text-slate-500 text-xs">
             {isDetecting ? "Detecting your city..." : `Showing services in ${currentCity?.name}`}
           </div>
         </div>
@@ -182,7 +182,7 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
 
       <button
         onClick={() => setIsSelectorOpen(!isSelectorOpen)}
-        className="w-full py-3 bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 rounded-xl text-white font-medium transition-colors flex items-center justify-between px-4"
+        className="w-full py-3 bg-mode-surface hover:bg-mode-surface-raised border border-mode-border rounded-xl text-slate-50 font-medium transition-colors flex items-center justify-between px-4"
       >
         <span>{isDetecting ? "Detecting..." : currentCity?.name || "Select City"}</span>
         <svg className={cn("w-4 h-4 transition-transform", isSelectorOpen && "rotate-180")} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -204,7 +204,7 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
                 placeholder="Search city or region..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500"
+                className="w-full px-3 py-2 bg-mode-surface-raised border border-mode-border rounded-lg text-sm text-slate-50 placeholder-neutral-500 focus:outline-none focus:border-emerald-500"
               />
               <div className="max-h-64 overflow-y-auto space-y-1">
                 {filteredCities.map(city => (
@@ -212,18 +212,18 @@ export const CityDetector: React.FC<CityDetectorProps> = ({
                     key={city.slug}
                     onClick={() => setCity(city.slug)}
                     className={cn(
-                      "w-full px-3 py-2 text-left rounded-lg hover:bg-neutral-800 transition-colors flex items-center justify-between",
+                      "w-full px-3 py-2 text-left rounded-lg hover:bg-mode-surface-raised transition-colors flex items-center justify-between",
                       selectedCity === city.slug && "bg-emerald-500/10"
                     )}
                   >
                     <div>
                       <div className={cn(
                         "text-sm font-medium",
-                        selectedCity === city.slug ? "text-emerald-400" : "text-white"
+                        selectedCity === city.slug ? "text-emerald-400" : "text-slate-50"
                       )}>
                         {city.name}
                       </div>
-                      <div className="text-neutral-500 text-xs">{city.region}</div>
+                      <div className="text-slate-500 text-xs">{city.region}</div>
                     </div>
                     {selectedCity === city.slug && (
                       <svg className="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">

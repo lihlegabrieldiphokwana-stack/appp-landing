@@ -5,9 +5,6 @@ import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { LampContainer } from "@/components/ui/lamp-effect";
-import { FeatureSection } from "@/components/feature-section";
-import { VendorDashboardPreview } from "@/components/vendor-dashboard-preview";
-import { VendorOpsPreview } from "@/components/vendor-ops-preview";
 import { vendorCategoriesList } from "@/lib/vendor-categories-data";
 
 const vendorStats = [
@@ -216,15 +213,26 @@ export default function VendorsPage() {
             ))}
           </div>
 
-          {/* Ops preview */}
+          {/* AI-powered discovery — text only */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="mb-12"
+            className="mb-12 rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
           >
-            <VendorOpsPreview />
+            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              HOW IT WORKS
+            </div>
+            <h3 className="text-2xl font-semibold text-white mb-4">
+              You upload. The AI optimizes.
+            </h3>
+            <p className="text-neutral-400 leading-relaxed">
+              Bouul&apos;s discovery engine tests what works for each customer —
+              automatically. No A/B setup, no marketing team required. Upload your
+              services, set your availability, and let the platform find your next
+              customer.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -366,11 +374,17 @@ export default function VendorsPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex justify-center"
           >
-            <div
-              className="relative overflow-hidden bg-neutral-900 border border-neutral-800 rounded-3xl shadow-2xl shadow-black/40"
-              style={{ width: "min(820px, 90vw)", aspectRatio: "820/1180" }}
-            >
-              <VendorDashboardPreview />
+            <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8 max-w-2xl">
+              <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+                DASHBOARD
+              </div>
+              <h3 className="text-2xl font-semibold text-white mb-4">
+                Control your business from anywhere.
+              </h3>
+              <p className="text-neutral-400 leading-relaxed">
+                Full-feature management for mobile and desktop. Track bookings, manage
+                staff, coordinate subscriptions, and review growth from one dashboard.
+              </p>
             </div>
           </motion.div>
         </div>

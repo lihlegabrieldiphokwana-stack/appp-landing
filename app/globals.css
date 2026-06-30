@@ -1,21 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
-  --foreground: #ededed;
-  --font-geist-sans: "Helvetica Neue", Arial, sans-serif;
+  --background: #090D16;
+  --foreground: #F8FAFC;
+  --font-geist-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  /* Surface tokens */
+  --color-surface: #111827;
+  --color-surface-raised: #1E293B;
+  --color-border: #1E293B;
 
   /* Mode tokens — consumer defaults */
   --mode-accent: #10b981;
   --mode-accent-bright: #34d399;
   --mode-accent-soft: rgba(16, 185, 129, 0.10);
   --mode-accent-glow: rgba(16, 185, 129, 0.20);
-  --mode-surface: #0a0a0a;
-  --mode-surface-raised: #171717;
-  --mode-border: #262626;
-  --mode-cta-bg: #ffffff;
-  --mode-cta-text: #000000;
+  --mode-surface: #111827;
+  --mode-surface-raised: #1E293B;
+  --mode-border: #1E293B;
+  --mode-cta-bg: #F8FAFC;
+  --mode-cta-text: #090D16;
 }
 
 /* Vendor mode — prominent emerald, bolder accents */
@@ -24,11 +29,11 @@
   --mode-accent-bright: #6ee7b7;
   --mode-accent-soft: rgba(52, 211, 153, 0.18);
   --mode-accent-glow: rgba(52, 211, 153, 0.30);
-  --mode-surface: #050a07;
-  --mode-surface-raised: #0d1410;
+  --mode-surface: #0a110f;
+  --mode-surface-raised: #111d18;
   --mode-border: #1a3327;
   --mode-cta-bg: #34d399;
-  --mode-cta-text: #000000;
+  --mode-cta-text: #090D16;
 }
 
 /* Employee mode — white accent, green-tinted surfaces */
@@ -69,22 +74,27 @@ body {
   font-family: var(--font-geist-sans);
 }
 
+/* Motion transition — used on cards and interactive surfaces */
+.motion-transition {
+  transition: all 300ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #090D16;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #334155;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #475569;
 }
 
 /* Smooth scroll */
