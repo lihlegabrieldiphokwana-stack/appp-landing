@@ -183,3 +183,50 @@ html {
 .animate-scroll {
   animation: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
 }
+
+/* ============================================================
+   Bouul official design system — dual-mode semantic tokens
+   Light is default (:root). Dark via .dark on <html>.
+   Old pages never reference these, so they are unaffected.
+   ============================================================ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bouul-bg: #ffffff;
+  --bouul-surface: #fafafa;
+  --bouul-surface-raised: #f4f4f5;
+  --bouul-border: #ececec;
+  --bouul-text: #0a0a0a;
+  --bouul-text-secondary: #525252;
+  --bouul-text-muted: #737373;
+
+  --bouul-accent: #10b981;
+  --bouul-accent-bright: #34d399;
+  --bouul-accent-soft: rgba(16, 185, 129, 0.10);
+  --bouul-accent-contrast: #022c22;
+}
+
+.dark {
+  --bouul-bg: #0a0a0a;
+  --bouul-surface: #0f0f0f;
+  --bouul-surface-raised: #171717;
+  --bouul-border: #262626;
+  --bouul-text: #ffffff;
+  --bouul-text-secondary: #a3a3a3;
+  --bouul-text-muted: #737373;
+  /* accent unchanged in dark */
+}
+
+@theme inline {
+  --color-bouul-bg: var(--bouul-bg);
+  --color-bouul-surface: var(--bouul-surface);
+  --color-bouul-surface-raised: var(--bouul-surface-raised);
+  --color-bouul-border: var(--bouul-border);
+  --color-bouul-text: var(--bouul-text);
+  --color-bouul-text-secondary: var(--bouul-text-secondary);
+  --color-bouul-text-muted: var(--bouul-text-muted);
+  --color-bouul-accent: var(--bouul-accent);
+  --color-bouul-accent-bright: var(--bouul-accent-bright);
+  --color-bouul-accent-soft: var(--bouul-accent-soft);
+  --color-bouul-accent-contrast: var(--bouul-accent-contrast);
+}
