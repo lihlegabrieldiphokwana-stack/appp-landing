@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { ModeProvider } from "@/components/mode-provider";
+import { ThemeProvider, themeInitScript } from "@/components/theme-provider";
 import "./globals.css";
 
 const inter = Inter({
@@ -59,9 +60,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
-        <ModeProvider>{children}</ModeProvider>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <ModeProvider>
+          <ThemeProvider>{children}</ThemeProvider>
+        </ModeProvider>
         {/* Structured Data - LocalBusiness */}
         <Script
           id="structured-data-localbusiness"
