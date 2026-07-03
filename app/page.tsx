@@ -1,38 +1,26 @@
-"use client";
-import React from "react";
-import { Navbar } from "@/components/navbar";
-import { BouulHero } from "@/components/bouul-hero";
-import { TrustTickers } from "@/components/trust-tickers";
-import { StickyFeatures } from "@/components/sticky-features";
-import { BentoFeatures } from "@/components/bento-features";
-import { TestimonialsSection } from "@/components/testimonials-section";
-import { DownloadCTA } from "@/components/download-cta";
-import { Footer } from "@/components/footer";
+import { Navbar } from "@/components/bouul/navbar";
+import { Footer } from "@/components/bouul/footer";
+import {
+  Hero, TrustStrip, HowItWorks,
+  SearchFeature, BookingFeature, ZolaFeature, SocialFeature,
+  TrustSafetyBento, ProTeaser, Testimonials, DownloadCTA,
+} from "@/components/bouul/sections";
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen bg-background overflow-x-clip">
+    <main className="min-h-screen bg-bouul-bg">
       <Navbar />
-
-      {/* Hero */}
-      <BouulHero />
-
-      {/* Trust Tickers — social proof */}
-      <TrustTickers />
-
-      {/* How it works — sticky scroll features */}
-      <StickyFeatures />
-
-      {/* Secondary features — Apple-style bento grid */}
-      <BentoFeatures />
-
-      {/* Testimonials */}
-      <TestimonialsSection />
-
-      {/* Download CTA */}
+      <Hero />
+      <TrustStrip />
+      <HowItWorks />
+      <SearchFeature />
+      <BookingFeature />
+      <ZolaFeature />
+      <SocialFeature />
+      <TrustSafetyBento />
+      <ProTeaser />
+      <Testimonials />
       <DownloadCTA />
-
-      {/* Footer */}
       <Footer />
     </main>
   );
