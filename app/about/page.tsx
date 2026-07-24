@@ -6,6 +6,7 @@ import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import { AboutMarketplacePreview } from "@/components/about-marketplace-preview";
+import { MessageCircle, Users, Trophy, Play } from "lucide-react";
 
 const marketProblems = [
   {
@@ -276,6 +277,72 @@ export default function AboutPage() {
               </div>
             </motion.article>
           ))}
+        </div>
+      </section>
+
+      {/* Social & community layer */}
+      <section className="py-24 border-t border-b-line">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6 }}
+            className="mb-12 text-center"
+          >
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
+              BEYOND THE TRANSACTION
+            </div>
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-5">
+              Bouul is social because service is personal.
+            </h2>
+            <p className="text-b-ink-soft text-lg max-w-3xl mx-auto">
+              Booking is just the start. Follow people you trust, see what
+              friends are ordering, earn trophies for being a great customer,
+              and discover services through short-form glimpses — all inside
+              the same app.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                icon: Users,
+                title: "Social following",
+                body: "Follow customers and vendors you trust. Your Following feed surfaces real activity — bookings, reviews, glimpses — from people you chose to follow.",
+              },
+              {
+                icon: MessageCircle,
+                title: "Messaging & channels",
+                body: "Every booking has a dedicated chat with the vendor. Follow a vendor and you opt in to their broadcast channel for specials and updates.",
+              },
+              {
+                icon: Play,
+                title: "Glimpses feed",
+                body: "Short-form video and photo content showing real service results. Scroll, discover, and tap to book the same service — inspiration to action in seconds.",
+              },
+              {
+                icon: Trophy,
+                title: "Mastery & trophies",
+                body: "Earn trophies for booking consistently, writing reviews, and maintaining a strong reputation. Vendors earn them for quality work and happy customers.",
+              },
+            ].map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.25 }}
+                transition={{ duration: 0.5, delay: index * 0.06 }}
+                className="rounded-3xl border border-b-line bg-b-paper-raised p-7"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-b-sun-soft mb-5">
+                  <item.icon className="h-6 w-6 text-b-ink" />
+                </span>
+                <h3 className="text-b-ink font-semibold mb-3">{item.title}</h3>
+                <p className="text-b-ink-soft text-sm leading-relaxed">{item.body}</p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -168,6 +168,76 @@
 
 ---
 
+## Social Feed & Following
+
+**One-liner:** *See what your friends are booking and loving.*
+
+**Short:** Follow people you trust and see what services they're booking, reviewing, and recommending. Your Following feed surfaces activity from people you follow — their bookings, reviews, and content — so you discover great services through people you already know.
+
+**Medium:** Bouul is social by design. When you follow someone, their service-related activity appears in your Following feed — the services they book, the reviews they write, the glimpses they share. It's word-of-mouth, digital. Following a vendor keeps you updated on their new services, availability changes, and promotions. The social feed sits alongside the discovery feed on your homepage, giving you two lenses: what's popular and what your network trusts. You can see mutual follows and discover new people through shared interests in specific service categories.
+
+**Trust signals:** Friend recommendations carry more weight than strangers — the Following feed surfaces real activity from people you chose to follow.
+
+---
+
+## Messaging & Chats
+
+**One-liner:** *Chat with vendors about your booking — every conversation in one place.*
+
+**Short:** Every booking comes with a direct chat line to the vendor. Ask questions, confirm details, share photos — without switching to WhatsApp or SMS. All your conversations are organised in a single inbox.
+
+**Medium:** Bouul's messaging system connects customers and vendors around every booking. The chat is automatically created when a booking is confirmed, with the service details pinned at the top. Send text messages, photos, and updates. Messages are organised per booking, not per person — so if you have multiple bookings with the same vendor, each stays in its own context. The inbox shows all your active conversations across all vendors, with unread counts and preview snippets. Zola can also participate in chats, answering questions, suggesting alternatives, or helping with rescheduling — all within the conversation thread. Notifications keep you from missing replies.
+
+**What you can do:**
+- Chat with vendors per booking
+- Share photos of what you want done
+- Zola can join in to help
+- All conversations in one inbox
+- Read receipts and typing indicators
+
+---
+
+## Channels & Broadcasting
+
+**One-liner:** *Vendors broadcast updates — customers choose what to hear about.*
+
+**Short:** Vendors can broadcast updates, promotions, and availability changes to their followers through channels. Customers subscribe to the channels they care about and control their notification preferences.
+
+**Medium:** Channels give vendors a direct line to their customer base without being intrusive. A vendor can post a channel update — "New braiding styles available," "50% off Tuesday afternoons," "Back from leave on the 15th" — and it lands in the inbox of every customer who follows them. Customers are in full control: they choose which vendors to follow and can mute or leave a channel at any time. Channel messages appear in a dedicated section of the inbox, separate from personal booking chats, so promotions never bury an active conversation. The feature is especially useful for high-frequency service categories like salons and barbershops where customers want to know about new stylists, specials, or schedule changes.
+
+**Trust signals:** Customers opt in by following. Every channel message is clearly labelled as a broadcast. One tap to leave or mute.
+
+---
+
+## Short Content (Glimpses & Posts)
+
+**One-liner:** *See the work, feel the vibe — short videos and photos of services in action.*
+
+**Short:** Glimpses are short-form video and photo content from customers and vendors showing real service results. Scroll through a feed of before-and-afters, transformation videos, and service snapshots — then tap to book the same service.
+
+**Medium:** Bouul's short content feed (Glimpses) works like a visual discovery engine for services. Customers and vendors post short videos and photos of completed work — a braid style fresh off the chair, a detailed manicure, a spotless cleaning job, an engine bay before and after. Each glimpse is tagged with the service and vendor it's about, so you can tap from "that looks amazing" straight to the booking page. The feed is ranked to show popular and relevant content first, with trending hashtags helping you find specific styles or categories. Vendors use glimpses to build a visual portfolio; customers use them to window-shop and get inspired. A dedicated For You algorithm (in development) will personalise the feed based on your interests and past bookings.
+
+**What you can do:**
+- Scroll short-form video & photo content
+- See real results before booking
+- Tap any glimpse to book the same service
+- Trending hashtags for discovery
+- Post your own service results
+
+---
+
+## Mastery & Trophies (Gamification)
+
+**One-liner:** *Earn trophies for being a great customer — or a great vendor.*
+
+**Short:** Bouul turns service relationships into a game. Customers earn trophies for booking consistently, writing helpful reviews, and being a reliable customer. Vendors earn trophies for quality service, high ratings, and community engagement. Show them off on your profile.
+
+**Medium:** Bouul's Mastery system rewards positive behaviour on both sides of the marketplace. Customers earn trophies for booking milestones (5 bookings, 25 bookings, 100 bookings), for writing verified reviews, for maintaining a high customer reliability score, and for engaging with the community. Vendors earn trophies for service quality streaks, high average ratings, fast response times, and employee satisfaction scores. Trophies are displayed on profiles as visual badges — they're a signal of trust and experience. The system has multiple phases: booking milestones, reputation-based trophies, community engagement rewards, spending tiers, and special event trophies. Future phases will add vendor-specific trophies for employee training and customer loyalty programmes.
+
+**Trust signals:** Trophies are tied to verifiable actions — completed bookings, written reviews, maintained ratings. They can't be gamed.
+
+---
+
 ## Content & Community
 
 **One-liner:** *See services in action before you book.*

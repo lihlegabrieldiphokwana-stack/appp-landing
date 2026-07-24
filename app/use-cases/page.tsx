@@ -40,6 +40,7 @@ const userTypes = [
   "Busy families coordinating recurring services",
   "Small businesses handling local operations",
   "Independent professionals building a client base",
+  "Friends sharing trusted recommendations through social feeds",
 ];
 
 export default function UseCasesPage() {
@@ -135,16 +136,21 @@ export default function UseCasesPage() {
 
           <div className="rounded-3xl border border-b-line bg-b-paper p-8">
             <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
-              Use case storyboard
+              How it works
             </div>
             <div className="relative overflow-hidden rounded-2xl border border-b-line bg-b-paper-raised min-h-[320px] mb-5">
               <UseCasesPreview />
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              {["Discover", "Book", "Grow"].map((step) => (
-                <div key={step} className="rounded-2xl border border-b-line bg-b-paper-raised p-4">
+              {[
+                { label: "Discover", desc: "Search or scroll glimpses" },
+                { label: "Book", desc: "Chat, confirm, escrow" },
+                { label: "Stay connected", desc: "Follow, message, earn" },
+              ].map((step) => (
+                <div key={step.label} className="rounded-2xl border border-b-line bg-b-paper-raised p-4">
                   <div className="h-1.5 w-8 rounded-full bg-b-green mb-3" />
-                  <div className="text-sm font-semibold text-b-ink">{step}</div>
+                  <div className="text-sm font-semibold text-b-ink">{step.label}</div>
+                  <div className="text-xs text-b-ink-soft mt-1">{step.desc}</div>
                 </div>
               ))}
             </div>

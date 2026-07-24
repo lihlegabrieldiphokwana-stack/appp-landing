@@ -397,6 +397,78 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Social discovery layer */}
+      <section className="py-24 bg-b-paper-raised border-t border-b-line">
+        <div className="max-w-7xl mx-auto px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="grid items-center gap-12 lg:grid-cols-2"
+          >
+            <div>
+              <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
+                SEE IT IN ACTION
+              </div>
+              <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-5">
+                Not sure what you need? Watch what others booked.
+              </h2>
+              <p className="text-b-ink-soft text-lg leading-relaxed mb-8">
+                Bouul&apos;s short-form Glimpses feed and social Following tab
+                show you real service results from real people. See the braid
+                style, the clean living room, the newly tiled bathroom — then
+                tap to book the same service from the same vendor. You don&apos;t
+                need to imagine what you&apos;ll get — you can see it.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3 text-sm text-b-ink-soft">
+                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green flex-shrink-0" />
+                  Scroll short videos and photos of real completed work
+                </li>
+                <li className="flex items-start gap-3 text-sm text-b-ink-soft">
+                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green flex-shrink-0" />
+                  See what services your friends have booked and loved
+                </li>
+                <li className="flex items-start gap-3 text-sm text-b-ink-soft">
+                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green flex-shrink-0" />
+                  Tap any glimpse to book the same service in one click
+                </li>
+                <li className="flex items-start gap-3 text-sm text-b-ink-soft">
+                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green flex-shrink-0" />
+                  Follow a vendor to get notified about new work and specials
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-3xl border border-b-line bg-b-paper-deep p-8">
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { emoji: "💇", label: "Hair & braiding" },
+                  { emoji: "💅", label: "Nails & beauty" },
+                  { emoji: "🧹", label: "Home cleaning" },
+                  { emoji: "🔧", label: "Repairs & fixes" },
+                  { emoji: "🚗", label: "Auto detailing" },
+                  { emoji: "🏋️", label: "Fitness & wellness" },
+                  { emoji: "📸", label: "Event photography" },
+                  { emoji: "🐾", label: "Pet grooming" },
+                ].map((item) => (
+                  <div
+                    key={item.label}
+                    className="rounded-2xl border border-b-line bg-b-paper p-4 text-center hover:border-b-green/40 transition-colors"
+                  >
+                    <div className="font-display font-extrabold text-3xl mb-2">{item.emoji}</div>
+                    <div className="text-b-ink-soft text-sm">{item.label}</div>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-5 text-center text-xs text-b-ink-faint">
+                See real results — scroll glimpses of these services in the app
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24 bg-b-paper border-t border-b-line">
         <div className="max-w-4xl mx-auto px-6 text-center">
