@@ -18,6 +18,9 @@ import { cn } from "@/lib/utils";
  *  - "tile"     compact, tag + label only. For dense category grids.
  *  - "minimal"  label only, subtle scrim. For filter chips / mini thumbs.
  */
+const TAG_CLASS =
+  "absolute left-3 top-3 z-10 rounded-full bg-b-forest/80 px-2 py-0.5 font-price text-[9px] font-semibold uppercase tracking-[0.14em] text-b-cream backdrop-blur-sm leading-tight";
+
 export function SceneCard({
   src,
   alt,
@@ -52,7 +55,7 @@ export function SceneCard({
 
       {/* Floating tag chip (top-left) */}
       {tag && variant !== "minimal" && (
-        <span className="absolute left-3 top-3 z-10 rounded-full bg-b-forest/80 px-2.5 py-1 font-price text-[10px] font-semibold uppercase tracking-[0.16em] text-b-cream backdrop-blur-sm">
+        <span className={TAG_CLASS}>
           {tag}
         </span>
       )}
@@ -60,8 +63,8 @@ export function SceneCard({
       {/* Bottom gradient scrim + floating text */}
       <div
         className={cn(
-          "absolute inset-x-0 bottom-0 z-10 flex flex-col gap-1 bg-gradient-to-t from-b-forest via-b-forest/55 to-transparent p-4",
-          variant === "feature" ? "pt-16" : "pt-10",
+          "absolute inset-x-0 bottom-0 z-10 flex flex-col gap-0.5 bg-gradient-to-t from-b-forest via-b-forest/60 to-transparent",
+          variant === "feature" ? "pt-20 pb-4 px-4" : "pt-14 pb-3 px-3",
         )}
       >
         <span
@@ -93,9 +96,9 @@ export function SceneCard({
     fill
       ? "h-full"
       : variant === "feature"
-        ? "min-h-[320px] md:min-h-[380px]"
+        ? "min-h-[400px] md:min-h-[480px]"
         : variant === "tile"
-          ? "aspect-[3/4]"
+          ? "aspect-[4/5]"
           : "aspect-square",
     className,
   );
