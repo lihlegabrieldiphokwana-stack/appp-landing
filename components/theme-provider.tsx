@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState, useCallback } from "react";
-import { resolveTheme, THEME_STORAGE_KEY, type Theme } from "@/lib/theme";
+import { THEME_STORAGE_KEY, type Theme } from "@/lib/theme";
 
 const ThemeContext = createContext<{ theme: Theme; toggleTheme: () => void }>({
   theme: "light",
@@ -11,12 +11,10 @@ const ThemeContext = createContext<{ theme: Theme; toggleTheme: () => void }>({
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
 
+  // Sunlit Neighbourhood redesign is single-mode: always light, clear stale prefs.
   useEffect(() => {
-    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initial = resolveTheme(stored, prefersDark);
-    setTheme(initial);
-    document.documentElement.classList.toggle("dark", initial === "dark");
+    setTheme("light");
+    document.documentElement.classList.remove("dark");
   }, []);
 
   const toggleTheme = useCallback(() => {
@@ -38,4 +36,4 @@ export function useTheme() {
 }
 
 /** Inline script — runs before paint to set .dark and avoid FOUC. String only. */
-export const themeInitScript = `(function(){try{var s=localStorage.getItem('${THEME_STORAGE_KEY}');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;var t=(s==='light'||s==='dark')?s:(d?'dark':'light');if(t==='dark')document.documentElement.classList.add('dark');}catch(e){}})();`;
+export const themeInitScript = `(function(){try{document.documentElement.classList.remove('dark');localStorage.removeItem('${THEME_STORAGE_KEY}');}catch(e){}})();`;

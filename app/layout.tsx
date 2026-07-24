@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Inter, Bricolage_Grotesque, Instrument_Sans, IBM_Plex_Mono } from "next/font/google";
 import { ModeProvider } from "@/components/mode-provider";
 import { ThemeProvider, themeInitScript } from "@/components/theme-provider";
 import "./globals.css";
@@ -9,6 +9,25 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-inter",
+});
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-display",
+});
+
+const instrument = Instrument_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+});
+
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  display: "swap",
+  variable: "--font-price",
 });
 
 export const metadata: Metadata = {
@@ -60,8 +79,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
+    <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
+      <body className={`${inter.variable} ${bricolage.variable} ${instrument.variable} ${plexMono.variable} font-sans antialiased`}>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <ModeProvider>
           <ThemeProvider>{children}</ThemeProvider>

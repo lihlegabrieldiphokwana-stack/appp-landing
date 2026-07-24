@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
+import { RedesignNav } from "@/components/redesign/nav";
+import { RedesignFooter } from "@/components/redesign/footer";
 
 // Map category slugs to display names and details
 const categoryDetails: Record<string, { name: string; description: string; icon: string }> = {
@@ -109,11 +109,11 @@ export default function CategoryPage() {
   };
 
   return (
-    <main className="min-h-screen bg-black">
-      <Navbar />
+    <main className="min-h-screen bg-b-paper">
+      <RedesignNav />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-black">
+      <section className="pt-32 pb-20 bg-b-paper">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -121,11 +121,11 @@ export default function CategoryPage() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-6xl mb-6">{category.icon}</div>
-            <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
+            <div className="font-display font-extrabold text-6xl mb-6">{category.icon}</div>
+            <h1 className="text-5xl md:text-7xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               {category.name}
             </h1>
-            <p className="text-neutral-500 text-xl max-w-2xl mx-auto mb-12">
+            <p className="text-b-ink-soft text-xl max-w-2xl mx-auto mb-12">
               {category.description}
             </p>
           </motion.div>
@@ -133,7 +133,7 @@ export default function CategoryPage() {
       </section>
 
       {/* Available Professionals */}
-      <section className="py-24 bg-black border-t border-neutral-900">
+      <section className="py-24 bg-b-paper border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -142,10 +142,10 @@ export default function CategoryPage() {
             transition={{ duration: 0.6 }}
             className="mb-12"
           >
-            <h2 className="text-3xl font-semibold text-white mb-4">
+            <h2 className="text-3xl font-display font-extrabold text-b-ink mb-4">
               Available {category.name}
             </h2>
-            <p className="text-neutral-500 text-lg">
+            <p className="text-b-ink-soft text-lg">
               {samplePros.filter(p => p.available).length} professionals ready to help
             </p>
           </motion.div>
@@ -159,43 +159,43 @@ export default function CategoryPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 hover:border-emerald-500/50 transition-colors group h-full flex flex-col"
+                className="bg-b-paper-raised border border-b-line rounded-2xl p-6 hover:border-b-green/50 transition-colors group h-full flex flex-col"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-16 h-16 rounded-full bg-neutral-800 flex items-center justify-center text-2xl">
+                  <div className="w-16 h-16 rounded-full bg-b-paper-deep flex items-center justify-center text-2xl">
                     {pro.name.split(" ").map(n => n[0]).join("")}
                   </div>
                   <div className="flex flex-col items-end gap-2">
                     {pro.available && (
-                      <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-500/10 rounded-full">
-                        <div className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                        <span className="text-emerald-400 text-xs font-medium">Available</span>
+                      <div className="flex items-center gap-1.5 px-2.5 py-1 bg-b-green-soft rounded-full">
+                        <div className="w-1.5 h-1.5 rounded-full bg-b-green" />
+                        <span className="text-b-green-deep text-xs font-medium">Available</span>
                       </div>
                     )}
                     {pro.verified && (
-                      <div className="flex items-center gap-1 px-2.5 py-1 bg-emerald-500/10 rounded-full">
-                        <svg className="w-3 h-3 text-emerald-400" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="flex items-center gap-1 px-2.5 py-1 bg-b-green-soft rounded-full">
+                        <svg className="w-3 h-3 text-b-green-deep" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                         </svg>
-                        <span className="text-emerald-400 text-xs font-medium">Verified</span>
+                        <span className="text-b-green-deep text-xs font-medium">Verified</span>
                       </div>
                     )}
                   </div>
                 </div>
-                <div className="text-white font-semibold text-lg mb-1 group-hover:text-emerald-400 transition-colors">
+                <div className="text-b-ink font-semibold text-lg mb-1 group-hover:text-b-green-deep transition-colors">
                   {pro.name}
                 </div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-emerald-400 font-semibold">★ {pro.rating}</span>
-                  <span className="text-neutral-600 text-sm">({pro.reviews} reviews)</span>
+                  <span className="text-b-green-deep font-semibold">★ {pro.rating}</span>
+                  <span className="text-b-ink-faint text-sm">({pro.reviews} reviews)</span>
                 </div>
-                <div className="flex items-center justify-between text-sm text-neutral-500 mb-4">
+                <div className="flex items-center justify-between text-sm text-b-ink-soft mb-4">
                   <span>{pro.distance}</span>
                   <span>Response: {pro.responseTime}</span>
                 </div>
-                <div className="flex items-center justify-between pt-4 border-t border-neutral-800">
-                  <span className="text-neutral-400 text-sm">From</span>
-                  <span className="text-white font-semibold">{pro.startingPrice}</span>
+                <div className="flex items-center justify-between pt-4 border-t border-b-line">
+                  <span className="text-b-ink-soft text-sm">From</span>
+                  <span className="text-b-ink font-semibold">{pro.startingPrice}</span>
                 </div>
               </motion.a>
             ))}
@@ -204,7 +204,7 @@ export default function CategoryPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-24 bg-black border-t border-neutral-900">
+      <section className="py-24 bg-b-paper border-t border-b-line">
         <div className="max-w-3xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -213,10 +213,10 @@ export default function CategoryPage() {
             transition={{ duration: 0.6 }}
             className="mb-12 text-center"
           >
-            <h2 className="text-3xl font-semibold text-white mb-4">
+            <h2 className="text-3xl font-display font-extrabold text-b-ink mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-neutral-500 text-lg">
+            <p className="text-b-ink-soft text-lg">
               Everything you need to know about booking {category.name.toLowerCase()}
             </p>
           </motion.div>
@@ -229,10 +229,10 @@ export default function CategoryPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6"
+                className="bg-b-paper-raised border border-b-line rounded-2xl p-6"
               >
-                <h3 className="text-white font-semibold mb-2">{faq.question}</h3>
-                <p className="text-neutral-500 text-sm leading-relaxed">{faq.answer}</p>
+                <h3 className="text-b-ink font-semibold mb-2">{faq.question}</h3>
+                <p className="text-b-ink-soft text-sm leading-relaxed">{faq.answer}</p>
               </motion.div>
             ))}
           </div>
@@ -240,7 +240,7 @@ export default function CategoryPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-black border-t border-neutral-900">
+      <section className="py-24 bg-b-paper border-t border-b-line">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -248,15 +248,15 @@ export default function CategoryPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-semibold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink mb-6">
               Ready to book a {category.name.toLowerCase()}?
             </h2>
-            <p className="text-neutral-500 text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-b-ink-soft text-lg mb-10 max-w-xl mx-auto">
               Get the job done right. Book a verified professional in minutes.
             </p>
             <a
               href="/download"
-              className="inline-block px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+              className="inline-block px-10 py-5 bg-b-green hover:opacity-90 text-b-forest font-semibold rounded-full text-lg transition-colors"
             >
               Download Bouul
             </a>
@@ -264,7 +264,7 @@ export default function CategoryPage() {
         </div>
       </section>
 
-      <Footer />
+      <RedesignFooter />
     </main>
   );
 }

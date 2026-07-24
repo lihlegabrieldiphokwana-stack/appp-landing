@@ -3,8 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
+import { RedesignNav } from "@/components/redesign/nav";
+import { RedesignFooter } from "@/components/redesign/footer";
 import { AboutMarketplacePreview } from "@/components/about-marketplace-preview";
 
 const marketProblems = [
@@ -117,8 +117,8 @@ const proofPoints = [
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-black">
-      <Navbar />
+    <main className="min-h-screen bg-b-paper">
+      <RedesignNav />
 
       <section className="pt-32 pb-16 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -127,13 +127,13 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               ABOUT BOUUL
             </div>
-            <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               Local services, rebuilt around trust and momentum.
             </h1>
-            <p className="text-neutral-500 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
+            <p className="text-b-ink-soft text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
               Bouul is a peer-to-peer services discovery engine for people who
               want to find trusted help quickly and for professionals who want a
               practical operating layer behind their business.
@@ -141,13 +141,13 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/download"
-                className="px-7 py-3.5 rounded-full bg-white text-black font-semibold text-sm hover:bg-neutral-100 transition-colors"
+                className="px-7 py-3.5 rounded-full bg-b-ink text-b-paper font-semibold text-sm hover:bg-b-forest transition-colors"
               >
                 Download the app
               </Link>
               <Link
                 href="/vendors"
-                className="px-7 py-3.5 rounded-full border border-neutral-700 text-neutral-200 hover:text-white hover:border-neutral-500 font-medium text-sm transition-colors"
+                className="px-7 py-3.5 rounded-full border border-b-ink/20 text-b-ink-soft hover:text-b-ink hover:border-b-ink/50 font-medium text-sm transition-colors"
               >
                 Explore vendor tools
               </Link>
@@ -158,28 +158,28 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
+            className="rounded-3xl border border-b-line bg-b-paper-raised p-8"
           >
-            <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
               Marketplace model
             </div>
-            <div className="relative overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-950 min-h-[380px]">
+            <div className="relative overflow-hidden rounded-2xl border border-b-line bg-b-paper-raised min-h-[380px]">
               <AboutMarketplacePreview />
             </div>
           </motion.div>
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mb-10">
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               THE PROBLEM
             </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-5">
               Local services still depend on scattered signals.
             </h2>
-            <p className="text-neutral-500 text-lg leading-relaxed">
+            <p className="text-b-ink-soft text-lg leading-relaxed">
               The work may be local, but the path to finding it is fragmented.
               Bouul exists to bring search, trust, booking, and follow-up into a
               product experience that feels easier to act on.
@@ -194,15 +194,15 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.5, delay: index * 0.06 }}
-                className="rounded-3xl border border-neutral-800 bg-neutral-950 p-7"
+                className="rounded-3xl border border-b-line bg-b-paper-raised p-7"
               >
-                <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
+                <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
                   Problem {index + 1}
                 </div>
-                <h3 className="text-white text-xl font-semibold mb-3">
+                <h3 className="text-b-ink text-xl font-semibold mb-3">
                   {problem.title}
                 </h3>
-                <p className="text-neutral-500 text-sm leading-relaxed">
+                <p className="text-b-ink-soft text-sm leading-relaxed">
                   {problem.description}
                 </p>
               </motion.article>
@@ -211,13 +211,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mb-10">
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               WHAT WE BELIEVE
             </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-5">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-5">
               A better marketplace starts with better product principles.
             </h2>
           </div>
@@ -229,15 +229,15 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.5, delay: index * 0.06 }}
-                className="rounded-2xl border border-neutral-800 bg-neutral-950 p-6"
+                className="rounded-2xl border border-b-line bg-b-paper-raised p-6"
               >
-                <div className="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
+                <div className="text-b-green-deep text-xs font-semibold tracking-widest uppercase mb-3">
                   Principle
                 </div>
-                <h2 className="text-white text-xl font-semibold mb-3">
+                <h2 className="text-b-ink text-xl font-semibold mb-3">
                   {value.title}
                 </h2>
-                <p className="text-neutral-500 text-sm leading-relaxed">
+                <p className="text-b-ink-soft text-sm leading-relaxed">
                   {value.description}
                 </p>
               </motion.div>
@@ -246,7 +246,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
           {audiencePillars.map((pillar, index) => (
             <motion.article
@@ -255,22 +255,22 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.5, delay: index * 0.06 }}
-              className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8"
+              className="rounded-3xl border border-b-line bg-b-paper-raised p-8"
             >
-              <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+              <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
                 {pillar.audience}
               </div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight mb-5">
+              <h2 className="text-3xl md:text-4xl font-display font-extrabold text-b-ink tracking-tight mb-5">
                 {pillar.title}
               </h2>
-              <p className="text-neutral-500 leading-relaxed mb-7">
+              <p className="text-b-ink-soft leading-relaxed mb-7">
                 {pillar.body}
               </p>
               <div className="space-y-4">
                 {pillar.points.map((point) => (
                   <div key={point} className="flex items-start gap-3">
-                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-                    <span className="text-neutral-300 text-sm">{point}</span>
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green flex-shrink-0" />
+                    <span className="text-b-ink-soft text-sm">{point}</span>
                   </div>
                 ))}
               </div>
@@ -279,16 +279,16 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               OUR STORY
             </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               We built Bouul because discovery was too fragmented.
             </h2>
-            <p className="text-neutral-500 text-lg leading-relaxed mb-8">
+            <p className="text-b-ink-soft text-lg leading-relaxed mb-8">
               The best local professionals were getting lost in generic search
               results, DMs, and social feeds. Customers wanted trust. Vendors
               wanted growth. Bouul was designed to bring both sides into one
@@ -296,13 +296,13 @@ export default function AboutPage() {
             </p>
             <div className="space-y-4">
               {milestones.map((item) => (
-                <div key={item.year} className="flex gap-4 border-b border-neutral-800 pb-5">
-                  <div className="w-24 flex-shrink-0 text-xs font-semibold tracking-widest text-neutral-500 uppercase pt-1">
+                <div key={item.year} className="flex gap-4 border-b border-b-line pb-5">
+                  <div className="w-24 flex-shrink-0 text-xs font-semibold tracking-widest text-b-ink-soft uppercase pt-1">
                     {item.year}
                   </div>
                   <div>
-                    <div className="text-neutral-200 font-medium mb-2">{item.title}</div>
-                    <p className="text-neutral-500 text-sm leading-relaxed">
+                    <div className="text-b-ink-soft font-medium mb-2">{item.title}</div>
+                    <p className="text-b-ink-soft text-sm leading-relaxed">
                       {item.detail}
                     </p>
                   </div>
@@ -311,21 +311,21 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8">
-            <div className="text-xs font-semibold tracking-widest text-neutral-500 uppercase mb-4">
+          <div className="rounded-3xl border border-b-line bg-b-paper-raised p-8">
+            <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
               Operating principles
             </div>
             <div className="space-y-4">
               {principles.map((principle) => (
                 <div key={principle} className="flex items-start gap-3">
-                  <div className="mt-1 w-1.5 h-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-                  <span className="text-neutral-300 text-sm">{principle}</span>
+                  <div className="mt-1 w-1.5 h-1.5 rounded-full bg-b-green flex-shrink-0" />
+                  <span className="text-b-ink-soft text-sm">{principle}</span>
                 </div>
               ))}
             </div>
-            <div className="mt-8 rounded-2xl border border-dashed border-neutral-700 bg-black/60 p-5">
-              <div className="text-white font-semibold mb-2">Where we are headed</div>
-              <p className="text-neutral-500 text-sm leading-relaxed">
+            <div className="mt-8 rounded-2xl border border-dashed border-b-ink/20 bg-b-paper/80 p-5">
+              <div className="text-b-ink font-semibold mb-2">Where we are headed</div>
+              <p className="text-b-ink-soft text-sm leading-relaxed">
                 The company is focused on city-by-city density, clearer service
                 quality signals, and tools that help independent professionals
                 operate with the polish of a larger business.
@@ -335,16 +335,16 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-8">
           <div>
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               WHY CITIES FIRST
             </div>
-            <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               Service marketplaces work when local density is real.
             </h2>
-            <p className="text-neutral-500 text-lg leading-relaxed">
+            <p className="text-b-ink-soft text-lg leading-relaxed">
               Bouul is organized around cities because trust, response time,
               availability, and service quality all depend on local context. A
               strong marketplace is not just a national list. It is a network of
@@ -353,14 +353,14 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8">
+          <div className="rounded-3xl border border-b-line bg-b-paper-raised p-8">
             <div className="space-y-5">
               {cityStrategy.map((item, index) => (
-                <div key={item} className="flex gap-4 border-b border-neutral-800 pb-5 last:border-0 last:pb-0">
-                  <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-emerald-400/30 bg-emerald-400/10 text-xs font-semibold text-emerald-300">
+                <div key={item} className="flex gap-4 border-b border-b-line pb-5 last:border-0 last:pb-0">
+                  <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-b-green/30 bg-b-green-soft text-xs font-semibold text-b-green-deep">
                     {index + 1}
                   </div>
-                  <p className="text-neutral-300 leading-relaxed">{item}</p>
+                  <p className="text-b-ink-soft leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
@@ -368,18 +368,18 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-neutral-900">
+      <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="rounded-3xl border border-neutral-800 bg-neutral-950 p-8 md:p-10">
+          <div className="rounded-3xl border border-b-line bg-b-paper-raised p-8 md:p-10">
             <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center">
               <div>
-                <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+                <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
                   WHERE BOUUL FITS
                 </div>
-                <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight mb-6">
+                <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-6">
                   The goal is a marketplace people can return to, not just visit once.
                 </h2>
-                <p className="text-neutral-500 text-lg leading-relaxed">
+                <p className="text-b-ink-soft text-lg leading-relaxed">
                   Bouul is building toward a service graph where customers can
                   rediscover professionals they trust, vendors can understand
                   what drives bookings, and every completed job makes the next
@@ -389,11 +389,11 @@ export default function AboutPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-4">
                 {proofPoints.map((point) => (
-                  <div key={point.value} className="rounded-2xl border border-neutral-800 bg-black p-5">
-                    <div className="text-3xl font-semibold text-white mb-2">
+                  <div key={point.value} className="rounded-2xl border border-b-line bg-b-paper p-5">
+                    <div className="text-3xl font-display font-extrabold text-b-ink mb-2">
                       {point.value}
                     </div>
-                    <div className="text-neutral-500 text-sm leading-relaxed">
+                    <div className="text-b-ink-soft text-sm leading-relaxed">
                       {point.label}
                     </div>
                   </div>
@@ -404,7 +404,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
+      <RedesignFooter />
     </main>
   );
 }

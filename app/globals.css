@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #090D16;
-  --foreground: #F8FAFC;
+  --background: #f6f1e6;
+  --foreground: #182720;
   --font-geist-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
   --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 
@@ -85,16 +85,27 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #090D16;
+  background: #ede5d2;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #c9bda1;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #475569;
+  background: #b0a281;
+}
+
+/* Hide scrollbars on horizontal chip rails */
+.scrollbar-hide,
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Smooth scroll */
@@ -215,6 +226,77 @@ html {
   --bouul-text-secondary: #a3a3a3;
   --bouul-text-muted: #737373;
   /* accent unchanged in dark */
+}
+
+/* ============================================================
+   Sunlit Neighbourhood — 2026 redesign tokens (`--b-*`)
+   Warm ivory paper, deep forest ink, Bouul emerald, highveld amber.
+   Single-mode by design: these do not respond to .dark.
+   ============================================================ */
+:root {
+  --b-paper: #f6f1e6;
+  --b-paper-raised: #fdfbf5;
+  --b-paper-deep: #ede5d2;
+  --b-line: #ddd4bf;
+  --b-ink: #182720;
+  --b-ink-soft: #4d6156;
+  --b-ink-faint: #7d8b81;
+  --b-green: #10b981;
+  --b-green-deep: #067a53;
+  --b-green-soft: rgba(16, 185, 129, 0.12);
+  --b-forest: #0d2b1f;
+  --b-forest-raised: #16382a;
+  --b-forest-line: #24503d;
+  --b-sun: #f5b841;
+  --b-sun-soft: #f9e9c4;
+  --b-cream: #f2edda;
+}
+
+@theme inline {
+  --color-b-paper: var(--b-paper);
+  --color-b-paper-raised: var(--b-paper-raised);
+  --color-b-paper-deep: var(--b-paper-deep);
+  --color-b-line: var(--b-line);
+  --color-b-ink: var(--b-ink);
+  --color-b-ink-soft: var(--b-ink-soft);
+  --color-b-ink-faint: var(--b-ink-faint);
+  --color-b-green: var(--b-green);
+  --color-b-green-deep: var(--b-green-deep);
+  --color-b-green-soft: var(--b-green-soft);
+  --color-b-forest: var(--b-forest);
+  --color-b-forest-raised: var(--b-forest-raised);
+  --color-b-forest-line: var(--b-forest-line);
+  --color-b-sun: var(--b-sun);
+  --color-b-sun-soft: var(--b-sun-soft);
+  --color-b-cream: var(--b-cream);
+  --font-display: var(--font-display), "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: var(--font-body), "Instrument Sans", system-ui, sans-serif;
+  --font-price: var(--font-price), "IBM Plex Mono", monospace;
+}
+
+/* Marquee for the service-price ticker band */
+@keyframes b-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.b-marquee {
+  animation: b-marquee 48s linear infinite;
+}
+
+/* Gentle float for hero collage cards */
+@keyframes b-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.b-float {
+  animation: b-float 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .b-marquee,
+  .b-float {
+    animation: none;
+  }
 }
 
 @theme inline {

@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
+import { RedesignNav } from "@/components/redesign/nav";
+import { RedesignFooter } from "@/components/redesign/footer";
 import Link from "next/link";
 
 // Service categories with their services
@@ -210,11 +210,11 @@ export default function ServicesPage() {
     : [];
 
   return (
-    <main className="min-h-screen bg-black">
-      <Navbar />
+    <main className="min-h-screen bg-b-paper">
+      <RedesignNav />
 
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-black">
+      <section className="pt-32 pb-20 bg-b-paper">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -222,13 +222,13 @@ export default function ServicesPage() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-6">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-6">
               BROWSE SERVICES
             </div>
-            <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               Find the perfect professional
             </h1>
-            <p className="text-neutral-500 text-xl max-w-2xl mx-auto mb-12">
+            <p className="text-b-ink-soft text-xl max-w-2xl mx-auto mb-12">
               Over 71 service categories. Thousands of verified professionals.
             </p>
 
@@ -240,10 +240,10 @@ export default function ServicesPage() {
                   placeholder="What service do you need? (e.g., plumber, electrician, cleaner)"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-6 py-4 bg-neutral-900 border border-neutral-800 rounded-full text-white placeholder-neutral-500 focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full px-6 py-4 bg-b-paper-deep border border-b-line rounded-full text-b-ink placeholder:text-b-ink-faint focus:outline-none focus:border-b-green transition-colors"
                 />
-                <button className="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 bg-emerald-500 hover:bg-emerald-400 rounded-full flex items-center justify-center transition-colors">
-                  <svg className="w-5 h-5 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <button className="absolute right-2 top-1/2 -translate-y-1/2 w-12 h-12 bg-b-green hover:opacity-90 rounded-full flex items-center justify-center transition-colors">
+                  <svg className="w-5 h-5 text-b-forest" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                 </button>
@@ -255,9 +255,9 @@ export default function ServicesPage() {
 
       {/* Search Results */}
       {searchQuery && (
-        <section className="py-16 bg-black border-t border-neutral-900">
+        <section className="py-16 bg-b-paper border-t border-b-line">
           <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-2xl font-semibold text-white mb-6">
+            <h2 className="text-2xl font-semibold text-b-ink mb-6">
               Results for "{searchQuery}"
             </h2>
             {filteredServices.length > 0 ? (
@@ -266,19 +266,19 @@ export default function ServicesPage() {
                   <Link
                     key={service.slug}
                     href={`/category/${service.slug}`}
-                    className="bg-neutral-950 border border-neutral-800 rounded-2xl p-4 hover:border-emerald-500/50 transition-colors group"
+                    className="bg-b-paper-raised border border-b-line rounded-2xl p-4 hover:border-b-green/50 transition-colors group"
                   >
-                    <div className="text-white font-medium text-center group-hover:text-emerald-400 transition-colors">
+                    <div className="text-b-ink font-medium text-center group-hover:text-b-green-deep transition-colors">
                       {service.name}
                     </div>
-                    <div className="text-neutral-600 text-xs text-center mt-1">
+                    <div className="text-b-ink-faint text-xs text-center mt-1">
                       {service.count} professionals
                     </div>
                   </Link>
                 ))}
               </div>
             ) : (
-              <div className="text-neutral-500 text-center py-12">
+              <div className="text-b-ink-soft text-center py-12">
                 No services found matching "{searchQuery}"
               </div>
             )}
@@ -288,7 +288,7 @@ export default function ServicesPage() {
 
       {/* Popular Services */}
       {!searchQuery && (
-        <section className="py-16 bg-black border-t border-neutral-900">
+        <section className="py-16 bg-b-paper border-t border-b-line">
           <div className="max-w-7xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -296,7 +296,7 @@ export default function ServicesPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-semibold text-white mb-8">
+              <h2 className="text-3xl font-display font-extrabold text-b-ink mb-8">
                 Popular Services
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
@@ -304,10 +304,10 @@ export default function ServicesPage() {
                   <Link
                     key={service.slug}
                     href={`/category/${service.slug}`}
-                    className="bg-neutral-950 border border-neutral-800 rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-emerald-500/50 transition-colors group"
+                    className="bg-b-paper-raised border border-b-line rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-b-green/50 transition-colors group"
                   >
-                    <div className="text-4xl">{service.icon}</div>
-                    <div className="text-white font-medium text-center group-hover:text-emerald-400 transition-colors">
+                    <div className="font-display font-extrabold text-4xl">{service.icon}</div>
+                    <div className="text-b-ink font-medium text-center group-hover:text-b-green-deep transition-colors">
                       {service.name}
                     </div>
                   </Link>
@@ -320,15 +320,15 @@ export default function ServicesPage() {
 
       {/* Category Filter Tabs */}
       {!searchQuery && (
-        <section className="py-8 bg-black border-t border-neutral-900 sticky top-16 z-40 bg-black/95 backdrop-blur">
+        <section className="py-8 bg-b-paper border-t border-b-line sticky top-16 z-40 bg-b-paper/95 backdrop-blur">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
               <button
                 onClick={() => setSelectedCategory(null)}
                 className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
                   selectedCategory === null
-                    ? "bg-emerald-500 text-black"
-                    : "bg-neutral-900 text-neutral-400 hover:text-white"
+                    ? "bg-b-green text-b-forest"
+                    : "bg-b-paper-deep text-b-ink-soft hover:text-b-ink"
                 }`}
               >
                 All Categories
@@ -339,8 +339,8 @@ export default function ServicesPage() {
                   onClick={() => setSelectedCategory(category.name)}
                   className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
                     selectedCategory === category.name
-                      ? "bg-emerald-500 text-black"
-                      : "bg-neutral-900 text-neutral-400 hover:text-white"
+                      ? "bg-b-green text-b-forest"
+                      : "bg-b-paper-deep text-b-ink-soft hover:text-b-ink"
                   }`}
                 >
                   {category.icon} {category.name}
@@ -352,7 +352,7 @@ export default function ServicesPage() {
       )}
 
       {/* Service Categories Grid */}
-      <section className="py-24 bg-black">
+      <section className="py-24 bg-b-paper">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredCategories.map((category, catIndex) => (
@@ -362,15 +362,15 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: catIndex * 0.05 }}
-                className="bg-neutral-950 border border-neutral-800 rounded-3xl p-6 h-full flex flex-col"
+                className="bg-b-paper-raised border border-b-line rounded-3xl p-6 h-full flex flex-col"
               >
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="text-4xl">{category.icon}</div>
+                  <div className="font-display font-extrabold text-4xl">{category.icon}</div>
                   <div>
-                    <h3 className="text-xl font-semibold text-white">
+                    <h3 className="text-xl font-semibold text-b-ink">
                       {category.name}
                     </h3>
-                    <div className="text-neutral-500 text-sm">
+                    <div className="text-b-ink-soft text-sm">
                       {category.services.length} services
                     </div>
                   </div>
@@ -380,12 +380,12 @@ export default function ServicesPage() {
                     <Link
                       key={service.slug}
                       href={`/category/${service.slug}`}
-                      className="flex items-center justify-between p-3 rounded-xl hover:bg-neutral-900 transition-colors group"
+                      className="flex items-center justify-between p-3 rounded-xl hover:bg-b-paper-deep transition-colors group"
                     >
-                      <div className="text-neutral-300 group-hover:text-white transition-colors">
+                      <div className="text-b-ink-soft group-hover:text-b-ink transition-colors">
                         {service.name}
                       </div>
-                      <div className="text-neutral-600 text-sm group-hover:text-emerald-400 transition-colors">
+                      <div className="text-b-ink-faint text-sm group-hover:text-b-green-deep transition-colors">
                         {service.count}
                       </div>
                     </Link>
@@ -398,7 +398,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-black border-t border-neutral-900">
+      <section className="py-24 bg-b-paper border-t border-b-line">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -406,15 +406,15 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl md:text-5xl font-semibold text-white mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink mb-6">
               Can't find what you're looking for?
             </h2>
-            <p className="text-neutral-500 text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-b-ink-soft text-lg mb-10 max-w-xl mx-auto">
               We're constantly adding new services. Let us know what you need.
             </p>
             <a
               href="/download"
-              className="inline-block px-10 py-5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-lg transition-colors"
+              className="inline-block px-10 py-5 bg-b-green hover:opacity-90 text-b-forest font-semibold rounded-full text-lg transition-colors"
             >
               Download Bouul
             </a>
@@ -422,7 +422,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <Footer />
+      <RedesignFooter />
     </main>
   );
 }

@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Navbar } from "@/components/navbar";
-import { Footer } from "@/components/footer";
+import { RedesignNav } from "@/components/redesign/nav";
+import { RedesignFooter } from "@/components/redesign/footer";
 
 // ─── FAQ data ─────────────────────────────────────────────────────────────────
 const USER_FAQS = [
@@ -102,19 +102,19 @@ const AccordionItem = ({
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.35, delay: index * 0.04 }}
-      className="border-b border-neutral-800"
+      className="border-b border-b-line"
     >
       <button
         onClick={() => setOpen(!open)}
         className="w-full flex items-center justify-between gap-6 py-5 text-left group"
       >
-        <span className="text-white text-sm md:text-base font-medium group-hover:text-neutral-200 transition-colors">
+        <span className="text-b-ink text-sm md:text-base font-medium group-hover:text-b-ink transition-colors">
           {q}
         </span>
         <motion.div
           animate={{ rotate: open ? 45 : 0 }}
           transition={{ duration: 0.25, ease: "easeInOut" }}
-          className="flex-shrink-0 w-5 h-5 text-neutral-500 group-hover:text-emerald-400 transition-colors"
+          className="flex-shrink-0 w-5 h-5 text-b-ink-soft group-hover:text-b-green-deep transition-colors"
         >
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
@@ -132,7 +132,7 @@ const AccordionItem = ({
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <p className="text-neutral-400 text-sm leading-relaxed pb-6 max-w-3xl">
+            <p className="text-b-ink-soft text-sm leading-relaxed pb-6 max-w-3xl">
               {a}
             </p>
           </motion.div>
@@ -156,8 +156,8 @@ export default function FAQPage() {
   const faqs = activeTab === "users" ? USER_FAQS : VENDOR_FAQS;
 
   return (
-    <main className="min-h-screen bg-black">
-      <Navbar />
+    <main className="min-h-screen bg-b-paper">
+      <RedesignNav />
 
       {/* Hero */}
       <section className="pt-32 pb-16 px-6">
@@ -167,13 +167,13 @@ export default function FAQPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="text-xs font-semibold tracking-widest text-emerald-400 uppercase mb-4">
+            <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               HELP CENTRE
             </div>
-            <h1 className="text-5xl md:text-7xl font-semibold text-white tracking-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               Questions, answered.
             </h1>
-            <p className="text-neutral-500 text-xl max-w-2xl">
+            <p className="text-b-ink-soft text-xl max-w-2xl">
               Everything you need to know about using Bouul — whether you&apos;re booking a service
               or building your professional business.
             </p>
@@ -188,7 +188,7 @@ export default function FAQPage() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-flex bg-neutral-950 border border-neutral-800 rounded-2xl p-1.5 gap-1"
+            className="inline-flex bg-b-paper-raised border border-b-line rounded-2xl p-1.5 gap-1"
           >
             {TAB_CONFIG.map((tab) => (
               <button
@@ -199,11 +199,11 @@ export default function FAQPage() {
                 {activeTab === tab.id && (
                   <motion.div
                     layoutId="tab-bg"
-                    className="absolute inset-0 bg-white rounded-xl"
+                    className="absolute inset-0 bg-b-ink rounded-xl"
                     transition={{ type: "spring", bounce: 0.2, duration: 0.4 }}
                   />
                 )}
-                <span className={`relative z-10 transition-colors duration-200 ${activeTab === tab.id ? "text-black" : "text-neutral-400 hover:text-white"}`}>
+                <span className={`relative z-10 transition-colors duration-200 ${activeTab === tab.id ? "text-b-paper" : "text-b-ink-soft hover:text-b-ink"}`}>
                   {tab.label}
                 </span>
               </button>
@@ -218,7 +218,7 @@ export default function FAQPage() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -4 }}
               transition={{ duration: 0.2 }}
-              className="text-neutral-600 text-sm mt-4"
+              className="text-b-ink-faint text-sm mt-4"
             >
               {TAB_CONFIG.find((t) => t.id === activeTab)?.description}
             </motion.p>
@@ -249,27 +249,27 @@ export default function FAQPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="mt-16 bg-neutral-950 border border-neutral-800 rounded-2xl px-8 py-10 text-center"
+            className="mt-16 bg-b-paper-raised border border-b-line rounded-2xl px-8 py-10 text-center"
           >
-            <div className="w-10 h-10 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto mb-4">
-              <span className="text-emerald-400 font-bold text-sm">Z</span>
+            <div className="w-10 h-10 rounded-full bg-b-green-soft border border-b-green/30 flex items-center justify-center mx-auto mb-4">
+              <span className="text-b-green-deep font-bold text-sm">Z</span>
             </div>
-            <h3 className="text-white font-semibold text-xl mb-2">
+            <h3 className="text-b-ink font-semibold text-xl mb-2">
               Still have questions?
             </h3>
-            <p className="text-neutral-500 text-sm mb-6 max-w-sm mx-auto">
+            <p className="text-b-ink-soft text-sm mb-6 max-w-sm mx-auto">
               Ask Zola directly in the app, or reach our support team — we typically respond within 2 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="/download"
-                className="px-6 py-2.5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded-full text-sm transition-colors"
+                className="px-6 py-2.5 bg-b-green hover:opacity-90 text-b-forest font-semibold rounded-full text-sm transition-colors"
               >
                 Ask Zola
               </a>
               <a
                 href="mailto:support@bouul.com"
-                className="px-6 py-2.5 border border-neutral-700 hover:border-neutral-500 text-neutral-300 hover:text-white font-medium rounded-full text-sm transition-colors"
+                className="px-6 py-2.5 border border-b-ink/20 hover:border-b-ink/50 text-b-ink-soft hover:text-b-ink font-medium rounded-full text-sm transition-colors"
               >
                 Contact support →
               </a>
@@ -278,7 +278,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <Footer />
+      <RedesignFooter />
     </main>
   );
 }
