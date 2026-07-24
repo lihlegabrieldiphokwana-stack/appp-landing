@@ -9,18 +9,13 @@ import { cn } from "@/lib/utils";
  * SceneCard
  *
  * A "pros at work" photograph with a floating text overlay — the visual
- * building block for category browsing and featured scene grids. The image
- * fills the card; a bottom-up gradient scrim anchors the floating tag chip
- * and label so copy stays readable over any photo.
+ * building block for category browsing and featured scene grids.
  *
  * Variants:
  *  - "feature"  large, with tag + label + blurb + arrow. For bento heroes.
  *  - "tile"     compact, tag + label only. For dense category grids.
  *  - "minimal"  label only, subtle scrim. For filter chips / mini thumbs.
  */
-const TAG_CLASS =
-  "absolute left-3 top-3 z-10 rounded-full bg-b-forest/80 px-2 py-0.5 font-price text-[9px] font-semibold uppercase tracking-[0.14em] text-b-cream backdrop-blur-sm leading-tight";
-
 export function SceneCard({
   src,
   alt,
@@ -29,7 +24,6 @@ export function SceneCard({
   blurb,
   href,
   variant = "tile",
-  fill = false,
   className,
 }: {
   src: string;
@@ -39,13 +33,19 @@ export function SceneCard({
   blurb?: string;
   href?: string;
   variant?: "feature" | "tile" | "minimal";
-  /** Skip the default aspect ratio and fill the parent's height (h-full). */
-  fill?: boolean;
   className?: string;
 }) {
+  const cardClass = cn(
+    "group relative overflow-hidden rounded-2xl border border-b-line bg-b-paper-deep",
+    variant === "feature"
+      ? "min-h-[340px] md:min-h-[400px]"
+      : "min-h-[280px]",
+    className,
+  );
+
   const inner = (
     <>
-      {/* Image */}
+      {/* Image fills the card via object-cover */}
       <img
         src={src}
         alt={alt}
@@ -53,32 +53,12 @@ export function SceneCard({
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
       />
 
-      {/* Floating tag chip (top-left) */}
+      {/* Tag chip */}
       {tag && variant !== "minimal" && (
-        <span className={TAG_CLASS}>
+        <span className="absolute left-3 top-3 z-10 rounded-full bg-b-forest/80 px-2.5 py-1 font-price text-[10px] font-semibold uppercase tracking-[0.16em] text-b-cream backdrop-blur-sm">
           {tag}
         </span>
       )}
-
-      {/* Bottom gradient scrim + floating text */}
-      <div
-        className={cn(
-          "absolute inset-x-0 bottom-0 z-10 flex flex-col gap-0.5 bg-gradient-to-t from-b-forest via-b-forest/60 to-transparent",
-          variant === "feature" ? "pt-20 pb-4 px-4" : "pt-14 pb-3 px-3",
-        )}
-      >
-        <span
-          className={cn(
-            "font-display font-extrabold tracking-tight text-b-cream",
-            variant === "feature" ? "text-xl md:text-2xl" : "text-base",
-          )}
-        >
-          {label}
-        </span>
-        {variant === "feature" && blurb && (
-          <span className="text-sm leading-snug text-b-cream/80">{blurb}</span>
-        )}
-      </div>
 
       {/* Arrow affordance on feature cards */}
       {variant === "feature" && (
@@ -86,21 +66,27 @@ export function SceneCard({
           <ArrowUpRight className="h-4 w-4" />
         </span>
       )}
-    </>
-  );
 
-  const cardClass = cn(
-    "group relative overflow-hidden rounded-2xl border border-b-line bg-b-paper-deep",
-    // When `fill` is set, the card stretches to its parent (h-full) and we
-    // skip the aspect ratio so it fits the grid cell cleanly.
-    fill
-      ? "h-full"
-      : variant === "feature"
-        ? "min-h-[400px] md:min-h-[480px]"
-        : variant === "tile"
-          ? "aspect-[4/5]"
-          : "aspect-square",
-    className,
+      {/* Bottom scrim + label */}
+      <div
+        className={cn(
+          "absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-b-forest via-b-forest/60 to-transparent",
+          variant === "feature" ? "pt-24 pb-5 px-5" : "pt-16 pb-4 px-4",
+        )}
+      >
+        <span
+          className={cn(
+            "font-display font-extrabold tracking-tight text-b-cream block",
+            variant === "feature" ? "text-xl md:text-2xl" : "text-base",
+          )}
+        >
+          {label}
+        </span>
+        {variant === "feature" && blurb && (
+          <span className="mt-1 block text-sm leading-snug text-b-cream/80">{blurb}</span>
+        )}
+      </div>
+    </>
   );
 
   return href ? (

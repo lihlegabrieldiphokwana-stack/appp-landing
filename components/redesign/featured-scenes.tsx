@@ -27,11 +27,10 @@ export function FeaturedScenes() {
         </p>
       </Reveal>
 
-      {/* Bento: hero tile + supporting scenes. On mobile it's a single column
-          stack; on md+ the hero anchors the left column while tiles fill the right;
-          on lg the hero spans 2 cols × 2 rows for a proper bento feel. */}
+      {/* Bento: hero tile + supporting scenes. On mobile single column,
+          on md+ two-column layout, on lg hero spans 2 cols × 2 rows. */}
       <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Reveal className="h-full md:col-span-1 lg:col-span-2 lg:row-span-2">
+        <Reveal className="md:col-span-1 lg:col-span-2 lg:row-span-2">
           <SceneCard
             src={hero.src}
             alt={hero.label}
@@ -40,12 +39,11 @@ export function FeaturedScenes() {
             blurb={hero.blurb}
             href="/glimpses"
             variant="feature"
-            className="h-full"
           />
         </Reveal>
 
         {rest.slice(0, 4).map((scene, i) => (
-          <Reveal key={scene.label} delay={0.05 * (i + 1)} className="h-full">
+          <Reveal key={scene.label} delay={0.05 * (i + 1)}>
             <SceneCard
               src={scene.src}
               alt={scene.label}
@@ -53,7 +51,6 @@ export function FeaturedScenes() {
               label={scene.label}
               href="/glimpses"
               variant="tile"
-              className="h-full"
             />
           </Reveal>
         ))}
