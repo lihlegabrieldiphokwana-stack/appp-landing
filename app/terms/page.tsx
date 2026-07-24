@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const terms = [
@@ -151,6 +152,14 @@ export default function TermsPage() {
               These terms should also be reviewed by counsel and translated into
               the final in-app and web legal pages before launch.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src="/legal/terms.jpg"
+              alt="Bouul terms"
+              label="Document"
+              ratio="16/9"
+              className="mt-6"
+            />
           </div>
         </div>
       </section>

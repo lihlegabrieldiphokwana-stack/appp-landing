@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
+import { SceneCard } from "@/components/redesign/scene-card";
 
 // Map city slugs to display names
 const cityNames: Record<string, string> = {
@@ -22,14 +24,14 @@ const cityNames: Record<string, string> = {
 };
 
 const popularCategories = [
-  { name: "Plumbers", icon: "🔧", count: 234 },
-  { name: "Electricians", icon: "⚡", count: 189 },
-  { name: "Cleaners", icon: "🧹", count: 312 },
-  { name: "Tutors", icon: "📚", count: 156 },
-  { name: "Beauty", icon: "💅", count: 278 },
-  { name: "Builders", icon: "🔨", count: 145 },
-  { name: "Gardeners", icon: "🌿", count: 198 },
-  { name: "Painters", icon: "🎨", count: 167 },
+  { name: "Plumbers", scene: "/scenes/plumbing.png", count: 234 },
+  { name: "Electricians", scene: "/scenes/electrical_service.png", count: 189 },
+  { name: "Cleaners", scene: "/scenes/house_cleaning.png", count: 312 },
+  { name: "Tutors", scene: "/scenes/tutoring_service.png", count: 156 },
+  { name: "Beauty", scene: "/scenes/makeup_artist.png", count: 278 },
+  { name: "Builders", scene: "/scenes/carpentry.png", count: 145 },
+  { name: "Gardeners", scene: "/scenes/garden_maintenance.png", count: 198 },
+  { name: "Painters", scene: "/scenes/painting_service.png", count: 167 },
 ];
 
 const topPros = [
@@ -96,9 +98,17 @@ export default function CityPage() {
               Services in {cityName}
             </h1>
             <p className="text-b-ink-soft text-xl max-w-2xl mx-auto mb-12">
-              Find trusted professionals in your neighborhood. 
+              Find trusted professionals in your neighborhood.
               Verified, rated, and ready to help.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src={`/cities/${citySlug}.jpg`}
+              alt={cityName}
+              label="City view"
+              ratio="21/9"
+              className="mx-auto max-w-4xl"
+            />
           </motion.div>
         </div>
       </section>
@@ -123,23 +133,22 @@ export default function CityPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {popularCategories.map((category, i) => (
-              <motion.a
+              <motion.div
                 key={category.name}
-                href={`/category/${category.name.toLowerCase().replace(" ", "-")}`}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.05 }}
-                className="bg-b-paper-raised border border-b-line rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-b-green/50 transition-colors group"
               >
-                <div className="font-display font-extrabold text-4xl">{category.icon}</div>
-                <div className="text-b-ink font-medium text-center group-hover:text-b-green-deep transition-colors">
-                  {category.name}
-                </div>
-                <div className="text-b-ink-faint text-xs">
-                  {category.count} professionals
-                </div>
-              </motion.a>
+                <SceneCard
+                  src={category.scene}
+                  alt={category.name}
+                  tag={`${category.count} pros`}
+                  label={category.name}
+                  href={`/category/${category.name.toLowerCase().replace(" ", "-")}`}
+                  variant="tile"
+                />
+              </motion.div>
             ))}
           </div>
         </div>
@@ -175,9 +184,14 @@ export default function CityPage() {
                 className="bg-b-paper-raised border border-b-line rounded-2xl p-6 hover:border-b-green/50 transition-colors group h-full flex flex-col"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-16 h-16 rounded-full bg-b-paper-deep flex items-center justify-center text-2xl">
-                    {pro.name.split(" ").map(n => n[0]).join("")}
-                  </div>
+                  <MediaPlaceholder
+                    kind="image"
+                    src={pro.image}
+                    alt={pro.name}
+                    ratio="1/1"
+                    className="w-16 h-16"
+                    rounded="rounded-full"
+                  />
                   {pro.available && (
                     <div className="flex items-center gap-1.5 px-2.5 py-1 bg-b-green-soft rounded-full">
                       <div className="w-1.5 h-1.5 rounded-full bg-b-green" />

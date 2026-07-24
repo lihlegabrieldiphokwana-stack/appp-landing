@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 const proData: Record<string, {
   name: string;
@@ -92,8 +93,18 @@ export default function ProProfilePage() {
               className="lg:col-span-2"
             >
               <div className="flex items-start gap-6 mb-8">
-                <div className="font-display font-extrabold w-24 h-24 rounded-full bg-b-paper-deep flex items-center justify-center text-4xl flex-shrink-0">
-                  {pro.name.split(" ").map(n => n[0]).join("")}
+                <div className="relative font-display font-extrabold w-24 h-24 flex-shrink-0">
+                  <div className="w-24 h-24 rounded-full bg-b-paper-deep flex items-center justify-center text-4xl">
+                    {pro.name.split(" ").map(n => n[0]).join("")}
+                  </div>
+                  <MediaPlaceholder
+                    kind="image"
+                    src={`/pros/${username}.jpg`}
+                    alt={pro.name}
+                    ratio="1/1"
+                    className="absolute inset-0 w-24 h-24"
+                    rounded="rounded-full"
+                  />
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-2">
@@ -146,6 +157,22 @@ export default function ProProfilePage() {
                     <span key={skill} className="px-4 py-2 bg-b-paper-deep border border-b-line rounded-full text-b-ink-soft text-sm">
                       {skill}
                     </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Work gallery — renders pro.gallery paths, falls back to outline boxes. */}
+              <div className="mb-8">
+                <h2 className="text-xl font-semibold text-b-ink mb-4">Work gallery</h2>
+                <div className="grid grid-cols-3 gap-3">
+                  {pro.gallery.map((shot, i) => (
+                    <MediaPlaceholder
+                      key={shot}
+                      kind="image"
+                      src={shot}
+                      alt={`${pro.name} work ${i + 1}`}
+                      ratio="1/1"
+                    />
                   ))}
                 </div>
               </div>

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { PressKitPreview } from "@/components/press-kit-preview";
 
 const assets = [
@@ -88,6 +89,14 @@ export default function PressPage() {
               transition={{ duration: 0.5, delay: index * 0.05 }}
               className="rounded-3xl border border-b-line bg-b-paper-raised p-8 hover:border-b-ink/40 transition-colors"
             >
+              <MediaPlaceholder
+                kind="image"
+                src={asset.href}
+                alt={asset.label}
+                label="Asset"
+                ratio="16/9"
+                className="mb-5"
+              />
               <div className="text-b-ink font-semibold text-xl mb-2">
                 {asset.label}
               </div>

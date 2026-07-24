@@ -6,6 +6,7 @@ import { CircleCheck, Clock, LifeBuoy, Mail } from "lucide-react";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import { Section, Eyebrow, Reveal } from "@/components/redesign/primitives";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 type SystemState = "operational" | "in-progress";
 
@@ -118,6 +119,16 @@ export default function StatusPage() {
               Updated 24 Jul 2026
             </p>
           </div>
+        </Reveal>
+
+        <Reveal delay={0.15} className="mx-auto mt-10 max-w-3xl">
+          <MediaPlaceholder
+            kind="image"
+            src="/status/dashboard.jpg"
+            alt="System status dashboard"
+            label="Dashboard"
+            ratio="16/9"
+          />
         </Reveal>
       </Section>
 

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { getNewsroomArticle, newsroomArticles, type NewsroomArticle } from "../articles";
 
 const ArticleVisual = ({ article }: { article: NewsroomArticle }) => {
@@ -154,6 +155,14 @@ export default async function NewsroomArticlePage({ params }: NewsroomArticleRou
           </div>
 
           <div className="space-y-6">
+            <MediaPlaceholder
+              kind="image"
+              src={`/newsroom/${article.slug}-hero.jpg`}
+              alt={article.title}
+              label="Story hero"
+              ratio="16/9"
+              rounded="rounded-3xl"
+            />
             <div className="rounded-3xl border border-b-line bg-b-paper-raised p-8">
               <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
                 Story visual

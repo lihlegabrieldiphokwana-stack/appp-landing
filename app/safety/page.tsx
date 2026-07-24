@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 const safetyFeatures = [
   {
@@ -150,9 +151,17 @@ export default function SafetyPage() {
               Your safety is our priority
             </h1>
             <p className="text-b-ink-soft text-xl max-w-2xl mx-auto mb-12">
-              Every professional is thoroughly vetted. Every booking is protected. 
+              Every professional is thoroughly vetted. Every booking is protected.
               Book with total confidence on Bouul.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src="/safety/hero.jpg"
+              alt="Trust and safety"
+              label="Safety"
+              ratio="21/9"
+              className="mx-auto max-w-4xl"
+            />
           </motion.div>
         </div>
       </section>

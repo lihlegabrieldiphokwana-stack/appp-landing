@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { LearnHubPreview } from "@/components/learn-hub-preview";
 
 const cards = [
@@ -119,6 +120,14 @@ export default function LearnPage() {
               transition={{ duration: 0.5, delay: index * 0.05 }}
               className="rounded-3xl border border-b-line bg-b-paper-raised p-7"
             >
+              <MediaPlaceholder
+                kind="image"
+                src={`${card.href === "/" ? "/home" : card.href}.jpg`}
+                alt={card.title}
+                label="Page"
+                ratio="16/9"
+                className="mb-5"
+              />
               <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-3">
                 Section
               </div>

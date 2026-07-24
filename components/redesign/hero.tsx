@@ -16,6 +16,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { PriceTag } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 /* Real entries from the Bouul service catalog — names and ZAR base prices. */
 const rotation = [
@@ -75,23 +76,6 @@ function RotatingService() {
   );
 }
 
-/** CSS placeholder for a service photo — warm block with an icon, swappable later. */
-function PhotoPlaceholder({
-  icon: Icon,
-  className = "",
-}: {
-  icon: React.ComponentType<{ className?: string }>;
-  className?: string;
-}) {
-  return (
-    <div
-      className={`flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-b-paper-deep via-b-sun-soft to-b-paper-deep ${className}`}
-    >
-      <Icon className="h-8 w-8 text-b-ink-faint" />
-    </div>
-  );
-}
-
 function HeroCollage() {
   const reduce = useReducedMotion();
   const enter = (delay: number) => ({
@@ -107,7 +91,13 @@ function HeroCollage() {
         {...enter(0.25)}
         className="absolute left-0 top-8 w-64 -rotate-2 rounded-2xl border border-b-line bg-b-paper-raised p-4 shadow-[0_20px_50px_rgba(24,39,32,0.12)] md:w-72"
       >
-        <PhotoPlaceholder icon={Scissors} className="h-36 w-full" />
+        <MediaPlaceholder
+          kind="image"
+          src="/pros/thabos-cuts.jpg"
+          alt="Thabo's Cuts storefront"
+          label="Pro photo"
+          className="h-36 w-full rounded-xl"
+        />
         <div className="mt-3 flex items-start justify-between">
           <div>
             <p className="font-display text-base font-bold text-b-ink">Thabo&apos;s Cuts</p>
@@ -132,7 +122,13 @@ function HeroCollage() {
         {...enter(0.4)}
         className="absolute right-0 top-0 w-52 rotate-3 rounded-2xl border border-b-line bg-b-paper-raised p-3 shadow-[0_16px_40px_rgba(24,39,32,0.10)] md:w-56"
       >
-        <PhotoPlaceholder icon={Wrench} className="h-24 w-full" />
+        <MediaPlaceholder
+          kind="image"
+          src="/pros/marco-plumbing.jpg"
+          alt="Marco T. Plumbing work"
+          label="Recent job"
+          className="h-24 w-full rounded-xl"
+        />
         <div className="mt-2.5 flex items-center justify-between">
           <div>
             <p className="font-display text-sm font-bold text-b-ink">Marco T. Plumbing</p>

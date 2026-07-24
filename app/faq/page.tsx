@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 // ─── FAQ data ─────────────────────────────────────────────────────────────────
 const USER_FAQS = [
@@ -177,6 +178,14 @@ export default function FAQPage() {
               Everything you need to know about using Bouul — whether you&apos;re booking a service
               or building your professional business.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src="/faq/help.jpg"
+              alt="Bouul help"
+              label="Illustration"
+              ratio="16/9"
+              className="mt-10"
+            />
           </motion.div>
         </div>
       </section>

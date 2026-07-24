@@ -4,17 +4,18 @@ import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { SceneCard } from "@/components/redesign/scene-card";
 
-// Map category slugs to display names and details
-const categoryDetails: Record<string, { name: string; description: string; icon: string }> = {
-  "plumbers": { name: "Plumbers", description: "Fix leaks, install fixtures, and solve all plumbing emergencies", icon: "🔧" },
-  "electricians": { name: "Electricians", description: "Wiring, repairs, installations, and electrical safety checks", icon: "⚡" },
-  "cleaners": { name: "Cleaners", description: "Home and office cleaning services for every need", icon: "🧹" },
-  "tutors": { name: "Tutors", description: "Expert tutoring in all subjects and levels", icon: "📚" },
-  "beauty": { name: "Beauty", description: "Hair, nails, skincare, and beauty treatments", icon: "💅" },
-  "builders": { name: "Builders", description: "Construction, renovations, and building services", icon: "🔨" },
-  "gardeners": { name: "Gardeners", description: "Landscaping, maintenance, and garden design", icon: "🌿" },
-  "painters": { name: "Painters", description: "Interior and exterior painting services", icon: "🎨" },
+// Map category slugs to display names, details, and a "pros at work" scene.
+const categoryDetails: Record<string, { name: string; description: string; scene: string }> = {
+  "plumbers": { name: "Plumbers", description: "Fix leaks, install fixtures, and solve all plumbing emergencies", scene: "/scenes/plumbing.png" },
+  "electricians": { name: "Electricians", description: "Wiring, repairs, installations, and electrical safety checks", scene: "/scenes/electrical_service.png" },
+  "cleaners": { name: "Cleaners", description: "Home and office cleaning services for every need", scene: "/scenes/house_cleaning.png" },
+  "tutors": { name: "Tutors", description: "Expert tutoring in all subjects and levels", scene: "/scenes/tutoring_service.png" },
+  "beauty": { name: "Beauty", description: "Hair, nails, skincare, and beauty treatments", scene: "/scenes/makeup_artist.png" },
+  "builders": { name: "Builders", description: "Construction, renovations, and building services", scene: "/scenes/carpentry.png" },
+  "gardeners": { name: "Gardeners", description: "Landscaping, maintenance, and garden design", scene: "/scenes/garden_maintenance.png" },
+  "painters": { name: "Painters", description: "Interior and exterior painting services", scene: "/scenes/painting_service.png" },
 };
 
 const samplePros = [
@@ -105,7 +106,7 @@ export default function CategoryPage() {
   const category = categoryDetails[categorySlug] || {
     name: categorySlug.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
     description: "Professional services near you",
-    icon: "🛠️",
+    scene: "/scenes/interior_design.png",
   };
 
   return (
@@ -121,13 +122,21 @@ export default function CategoryPage() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="font-display font-extrabold text-6xl mb-6">{category.icon}</div>
             <h1 className="text-5xl md:text-7xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               {category.name}
             </h1>
             <p className="text-b-ink-soft text-xl max-w-2xl mx-auto mb-12">
               {category.description}
             </p>
+            <div className="mx-auto max-w-4xl">
+              <SceneCard
+                src={category.scene}
+                alt={category.name}
+                tag="On the job"
+                label={category.name}
+                variant="feature"
+              />
+            </div>
           </motion.div>
         </div>
       </section>

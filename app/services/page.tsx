@@ -3,13 +3,15 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { SceneCard } from "@/components/redesign/scene-card";
+import { FeaturedScenes } from "@/components/redesign/featured-scenes";
+import { sceneForCategory, sceneForPopular } from "@/lib/scene-images";
 import Link from "next/link";
 
 // Service categories with their services
 const serviceCategories = [
   {
     name: "Home Services",
-    icon: "🏠",
     services: [
       { name: "Plumbers", slug: "plumbers", count: 234 },
       { name: "Electricians", slug: "electricians", count: 189 },
@@ -30,7 +32,6 @@ const serviceCategories = [
   },
   {
     name: "Cleaning Services",
-    icon: "✨",
     services: [
       { name: "House Cleaning", slug: "house-cleaning", count: 312 },
       { name: "Carpet Cleaning", slug: "carpet-cleaning", count: 145 },
@@ -44,7 +45,6 @@ const serviceCategories = [
   },
   {
     name: "Beauty & Wellness",
-    icon: "💅",
     services: [
       { name: "Hairdressers", slug: "hairdressers", count: 267 },
       { name: "Barbers", slug: "barbers", count: 198 },
@@ -60,7 +60,6 @@ const serviceCategories = [
   },
   {
     name: "Automotive",
-    icon: "🚗",
     services: [
       { name: "Mechanics", slug: "mechanics", count: 189 },
       { name: "Car Detailing", slug: "car-detailing", count: 156 },
@@ -73,7 +72,6 @@ const serviceCategories = [
   },
   {
     name: "Education & Tuition",
-    icon: "📚",
     services: [
       { name: "Math Tutors", slug: "math-tutors", count: 234 },
       { name: "English Tutors", slug: "english-tutors", count: 198 },
@@ -87,7 +85,6 @@ const serviceCategories = [
   },
   {
     name: "Health & Medical",
-    icon: "🏥",
     services: [
       { name: "Physiotherapists", slug: "physiotherapists", count: 145 },
       { name: "Dietitians", slug: "dietitians", count: 98 },
@@ -100,7 +97,6 @@ const serviceCategories = [
   },
   {
     name: "Events & Photography",
-    icon: "📸",
     services: [
       { name: "Photographers", slug: "photographers", count: 198 },
       { name: "Videographers", slug: "videographers", count: 156 },
@@ -114,7 +110,6 @@ const serviceCategories = [
   },
   {
     name: "Professional Services",
-    icon: "💼",
     services: [
       { name: "Accountants", slug: "accountants", count: 167 },
       { name: "Bookkeepers", slug: "bookkeepers", count: 134 },
@@ -128,7 +123,6 @@ const serviceCategories = [
   },
   {
     name: "Pets",
-    icon: "🐾",
     services: [
       { name: "Pet Groomers", slug: "pet-groomers", count: 134 },
       { name: "Dog Walkers", slug: "dog-walkers", count: 98 },
@@ -139,7 +133,6 @@ const serviceCategories = [
   },
   {
     name: "Logistics & Moving",
-    icon: "📦",
     services: [
       { name: "Removal Companies", slug: "removal-companies", count: 145 },
       { name: "Courier Services", slug: "courier-services", count: 167 },
@@ -150,7 +143,6 @@ const serviceCategories = [
   },
   {
     name: "Tech & IT",
-    icon: "💻",
     services: [
       { name: "IT Support", slug: "it-support", count: 178 },
       { name: "Computer Repair", slug: "computer-repair", count: 156 },
@@ -162,7 +154,6 @@ const serviceCategories = [
   },
   {
     name: "Legal & Financial",
-    icon: "⚖️",
     services: [
       { name: "Attorneys", slug: "attorneys", count: 145 },
       { name: "Notaries", slug: "notaries", count: 78 },
@@ -174,14 +165,14 @@ const serviceCategories = [
 ];
 
 const popularServices = [
-  { name: "Plumbers", slug: "plumbers", icon: "🔧" },
-  { name: "Electricians", slug: "electricians", icon: "⚡" },
-  { name: "House Cleaning", slug: "house-cleaning", icon: "🧹" },
-  { name: "Hairdressers", slug: "hairdressers", icon: "✂️" },
-  { name: "Mechanics", slug: "mechanics", icon: "🔧" },
-  { name: "Math Tutors", slug: "math-tutors", icon: "📐" },
-  { name: "Photographers", slug: "photographers", icon: "📸" },
-  { name: "Massage Therapists", slug: "massage-therapists", icon: "💆" },
+  { name: "Plumbers", slug: "plumbers" },
+  { name: "Electricians", slug: "electricians" },
+  { name: "House Cleaning", slug: "house-cleaning" },
+  { name: "Hairdressers", slug: "hairdressers" },
+  { name: "Mechanics", slug: "mechanics" },
+  { name: "Math Tutors", slug: "math-tutors" },
+  { name: "Photographers", slug: "photographers" },
+  { name: "Massage Therapists", slug: "massage-therapists" },
 ];
 
 export default function ServicesPage() {
@@ -253,7 +244,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Search Results */}
+      {/* Search Results with scene images */}
       {searchQuery && (
         <section className="py-16 bg-b-paper border-t border-b-line">
           <div className="max-w-7xl mx-auto px-6">
@@ -261,21 +252,37 @@ export default function ServicesPage() {
               Results for "{searchQuery}"
             </h2>
             {filteredServices.length > 0 ? (
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {filteredServices.map((service, i) => (
-                  <Link
-                    key={service.slug}
-                    href={`/category/${service.slug}`}
-                    className="bg-b-paper-raised border border-b-line rounded-2xl p-4 hover:border-b-green/50 transition-colors group"
-                  >
-                    <div className="text-b-ink font-medium text-center group-hover:text-b-green-deep transition-colors">
-                      {service.name}
-                    </div>
-                    <div className="text-b-ink-faint text-xs text-center mt-1">
-                      {service.count} professionals
-                    </div>
-                  </Link>
-                ))}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {filteredServices.map((service) => {
+                  const scene = sceneForPopular(service.slug);
+                  return (
+                    <Link
+                      key={service.slug}
+                      href={`/category/${service.slug}`}
+                      className="group relative flex flex-col overflow-hidden rounded-2xl border border-b-line bg-b-paper-raised transition-colors hover:border-b-green/50"
+                    >
+                      <div className="aspect-[4/3] w-full overflow-hidden bg-b-paper-deep">
+                        <img
+                          src={scene.src}
+                          alt={service.name}
+                          loading="lazy"
+                          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.04]"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = "none";
+                          }}
+                        />
+                      </div>
+                      <div className="flex items-center justify-between px-4 py-3">
+                        <div className="text-b-ink font-semibold group-hover:text-b-green-deep transition-colors">
+                          {service.name}
+                        </div>
+                        <div className="text-b-ink-faint text-xs whitespace-nowrap ml-2">
+                          {service.count}
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             ) : (
               <div className="text-b-ink-soft text-center py-12">
@@ -285,6 +292,9 @@ export default function ServicesPage() {
           </div>
         </section>
       )}
+
+      {/* Featured scenes — real work, on display */}
+      {!searchQuery && <FeaturedScenes />}
 
       {/* Popular Services */}
       {!searchQuery && (
@@ -300,18 +310,19 @@ export default function ServicesPage() {
                 Popular Services
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-                {popularServices.map((service, i) => (
-                  <Link
-                    key={service.slug}
-                    href={`/category/${service.slug}`}
-                    className="bg-b-paper-raised border border-b-line rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-b-green/50 transition-colors group"
-                  >
-                    <div className="font-display font-extrabold text-4xl">{service.icon}</div>
-                    <div className="text-b-ink font-medium text-center group-hover:text-b-green-deep transition-colors">
-                      {service.name}
-                    </div>
-                  </Link>
-                ))}
+                {popularServices.map((service) => {
+                  const scene = sceneForPopular(service.slug);
+                  return (
+                    <SceneCard
+                      key={service.slug}
+                      src={scene.src}
+                      alt={service.name}
+                      label={service.name}
+                      href={`/category/${service.slug}`}
+                      variant="tile"
+                    />
+                  );
+                })}
               </div>
             </motion.div>
           </div>
@@ -320,7 +331,7 @@ export default function ServicesPage() {
 
       {/* Category Filter Tabs */}
       {!searchQuery && (
-        <section className="py-8 bg-b-paper border-t border-b-line sticky top-16 z-40 bg-b-paper/95 backdrop-blur">
+        <section className="py-8 bg-b-paper border-t border-b-line sticky top-20 md:top-16 z-40 bg-b-paper/95 backdrop-blur">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
               <button
@@ -343,7 +354,7 @@ export default function ServicesPage() {
                       : "bg-b-paper-deep text-b-ink-soft hover:text-b-ink"
                   }`}
                 >
-                  {category.icon} {category.name}
+                  {category.name}
                 </button>
               ))}
             </div>
@@ -362,19 +373,23 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: catIndex * 0.05 }}
-                className="bg-b-paper-raised border border-b-line rounded-3xl p-6 h-full flex flex-col"
+                className="bg-b-paper-raised border border-b-line rounded-3xl p-0 h-full flex flex-col overflow-hidden"
               >
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="font-display font-extrabold text-4xl">{category.icon}</div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-b-ink">
-                      {category.name}
-                    </h3>
-                    <div className="text-b-ink-soft text-sm">
-                      {category.services.length} services
-                    </div>
-                  </div>
-                </div>
+                {(() => {
+                  const scene = sceneForCategory(category.name);
+                  return (
+                    <SceneCard
+                      src={scene.src}
+                      alt={category.name}
+                      tag={`${category.services.length} services`}
+                      label={category.name}
+                      href={`/category/${category.services[0].slug}`}
+                      variant="minimal"
+                      className="aspect-[16/9] rounded-none border-0 border-b border-b-line"
+                    />
+                  );
+                })()}
+                <div className="p-6">
                 <div className="space-y-2">
                   {category.services.map((service) => (
                     <Link
@@ -391,13 +406,12 @@ export default function ServicesPage() {
                     </Link>
                   ))}
                 </div>
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
-
-      {/* Social discovery layer */}
       <section className="py-24 bg-b-paper-raised border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
@@ -440,24 +454,36 @@ export default function ServicesPage() {
                 </li>
               </ul>
             </div>
-            <div className="rounded-3xl border border-b-line bg-b-paper-deep p-8">
-              <div className="grid grid-cols-2 gap-4">
+            <div className="rounded-3xl border border-b-line bg-b-paper-deep p-4 md:p-6">
+              <div className="grid grid-cols-4 gap-3">
                 {[
-                  { emoji: "💇", label: "Hair & braiding" },
-                  { emoji: "💅", label: "Nails & beauty" },
-                  { emoji: "🧹", label: "Home cleaning" },
-                  { emoji: "🔧", label: "Repairs & fixes" },
-                  { emoji: "🚗", label: "Auto detailing" },
-                  { emoji: "🏋️", label: "Fitness & wellness" },
-                  { emoji: "📸", label: "Event photography" },
-                  { emoji: "🐾", label: "Pet grooming" },
+                  { label: "Hair & braiding", file: "hair_styling" },
+                  { label: "Nails & beauty", file: "nail_service" },
+                  { label: "Home cleaning", file: "house_cleaning" },
+                  { label: "Repairs & fixes", file: "plumbing" },
+                  { label: "Auto detailing", file: "auto_repair" },
+                  { label: "Fitness", file: "personal_training" },
+                  { label: "Photography", file: "photography_service" },
+                  { label: "Pet grooming", file: "pet_grooming" },
                 ].map((item) => (
                   <div
                     key={item.label}
-                    className="rounded-2xl border border-b-line bg-b-paper p-4 text-center hover:border-b-green/40 transition-colors"
+                    className="rounded-xl border border-b-line bg-b-paper overflow-hidden hover:border-b-green/40 transition-colors"
                   >
-                    <div className="font-display font-extrabold text-3xl mb-2">{item.emoji}</div>
-                    <div className="text-b-ink-soft text-sm">{item.label}</div>
+                    <div className="aspect-[3/2] w-full bg-b-paper-deep">
+                      <img
+                        src={`/scenes/${item.file}.png`}
+                        alt={item.label}
+                        loading="lazy"
+                        className="h-full w-full object-cover"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).style.display = "none";
+                        }}
+                      />
+                    </div>
+                    <div className="text-b-ink-soft text-xs text-center py-1.5 px-1 truncate">
+                      {item.label}
+                    </div>
                   </div>
                 ))}
               </div>

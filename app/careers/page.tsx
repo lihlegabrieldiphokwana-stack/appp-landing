@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { CareersBoardPreview } from "@/components/careers-board-preview";
 
 const roles = [
@@ -131,6 +132,14 @@ export default function CareersPage() {
             <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-4">
               Hiring enquiries
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/careers/team.jpg"
+              alt="Bouul team"
+              label="Team"
+              ratio="16/9"
+              className="mb-5"
+            />
             <p className="text-b-ink-soft leading-relaxed">
               Bouul is building an early team across product, engineering,
               operations, and growth. Send a short note to support@bouul.com

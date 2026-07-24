@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const guidelines = [
@@ -122,6 +123,14 @@ export default function CommunityGuidelinesPage() {
             <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               Moderation rules
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/legal/community.jpg"
+              alt="Bouul community guidelines"
+              label="Guidelines"
+              ratio="16/9"
+              className="mb-6"
+            />
             <div className="space-y-4">
               {moderation.map((item) => (
                 <div key={item} className="flex items-start gap-3">

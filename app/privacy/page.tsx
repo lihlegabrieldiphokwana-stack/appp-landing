@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const sections = [
@@ -152,6 +153,14 @@ export default function PrivacyPage() {
               privacy policy that matches the actual backend, vendor, and
               analytics integrations in production.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src="/legal/privacy.jpg"
+              alt="Bouul privacy"
+              label="Document"
+              ratio="16/9"
+              className="mt-6"
+            />
           </div>
         </div>
       </section>

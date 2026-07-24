@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { NewsroomBoardPreview } from "@/components/newsroom-board-preview";
 import { newsroomArticles, newsroomPressAssets, newsroomUpdates } from "./articles";
 
@@ -134,6 +135,14 @@ export default function NewsroomPage() {
                 transition={{ duration: 0.5, delay: index * 0.06 }}
                 className="rounded-3xl border border-b-line bg-b-paper-raised p-7"
               >
+                <MediaPlaceholder
+                  kind="image"
+                  src={`/newsroom/${story.slug}.jpg`}
+                  alt={story.title}
+                  label="Story"
+                  ratio="16/9"
+                  className="mb-5"
+                />
                 <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
                   {story.tag}
                 </div>

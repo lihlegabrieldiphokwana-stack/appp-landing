@@ -2,6 +2,7 @@
 import React from "react";
 import { Users, UserPlus, Eye, Sparkles } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 const socialPillars = [
   {
@@ -52,18 +53,28 @@ export function SocialFeature() {
       </div>
       <Reveal delay={0.25} className="mt-10">
         <div className="rounded-3xl border border-b-line bg-b-paper-deep p-6 md:p-8">
-          <div className="flex items-start gap-4">
-            <Sparkles className="mt-1 h-5 w-5 shrink-0 text-b-green-deep" />
-            <div>
-              <p className="font-semibold text-b-ink">
-                Two feeds, one homepage
-              </p>
-              <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
-                Your Discovery feed shows what&apos;s popular and relevant. Your
-                Following feed shows what your network trusts. Together, they
-                mean you never book blind.
-              </p>
+          <div className="grid items-center gap-6 md:grid-cols-[1.4fr_0.6fr]">
+            <div className="flex items-start gap-4">
+              <Sparkles className="mt-1 h-5 w-5 shrink-0 text-b-green-deep" />
+              <div>
+                <p className="font-semibold text-b-ink">
+                  Two feeds, one homepage
+                </p>
+                <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
+                  Your Discovery feed shows what&apos;s popular and relevant. Your
+                  Following feed shows what your network trusts. Together, they
+                  mean you never book blind.
+                </p>
+              </div>
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/mockups/discovery-feed.jpg"
+              alt="Discovery and Following feeds"
+              label="Feed preview"
+              ratio="9/16"
+              rounded="rounded-2xl"
+            />
           </div>
         </div>
       </Reveal>

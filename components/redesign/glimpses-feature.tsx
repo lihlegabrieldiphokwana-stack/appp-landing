@@ -3,6 +3,14 @@ import React from "react";
 import { Play, Hash, Image, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
+
+/* Short-form result clips — swap these paths for real Glimpses footage later. */
+const glimpseTiles = [
+  { src: "/glimpses/braids.mp4", poster: "/glimpses/braids.jpg", label: "Braids" },
+  { src: "/glimpses/manicure.mp4", poster: "/glimpses/manicure.jpg", label: "Manicure" },
+  { src: "/glimpses/cleaning.mp4", poster: "/glimpses/cleaning.jpg", label: "Deep clean" },
+];
 
 const contentHighlights = [
   {
@@ -27,6 +35,21 @@ export function GlimpsesFeature() {
     <Section className="bg-b-paper-raised py-20 md:py-28">
       <div className="grid items-center gap-12 lg:grid-cols-2">
         <div className="space-y-5">
+          <Reveal>
+            <div className="grid grid-cols-3 gap-3">
+              {glimpseTiles.map((tile) => (
+                <MediaPlaceholder
+                  key={tile.label}
+                  kind="video"
+                  videoSrc={tile.src}
+                  poster={tile.poster}
+                  label={tile.label}
+                  ratio="9/16"
+                  rounded="rounded-2xl"
+                />
+              ))}
+            </div>
+          </Reveal>
           {contentHighlights.map((item, i) => (
             <Reveal key={item.title} delay={i * 0.1}>
               <div className="flex gap-5 rounded-3xl border border-b-line bg-b-paper p-6 transition-shadow duration-300 hover:shadow-[0_12px_32px_rgba(24,39,32,0.06)]">

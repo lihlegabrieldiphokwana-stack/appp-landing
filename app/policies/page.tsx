@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { PolicyFlowPreview } from "@/components/policy-flow-preview";
 
 const policies = [
@@ -156,6 +157,14 @@ export default function PoliciesPage() {
             <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               Privacy principles
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/legal/policies.jpg"
+              alt="Bouul policies"
+              label="Policy hub"
+              ratio="16/9"
+              className="mb-6"
+            />
             <div className="space-y-4">
               {privacyPoints.map((point) => (
                 <div key={point} className="flex items-start gap-3">

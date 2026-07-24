@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { UseCasesPreview } from "@/components/use-cases-preview";
 
 const useCases = [
@@ -13,24 +14,28 @@ const useCases = [
     subtitle: "A burst pipe, faulty plug, or broken gate needs fast matching.",
     detail:
       "Bouul surfaces nearby professionals, shows trust signals, and lets the customer book without switching apps or making phone calls.",
+    shot: "/use-cases/repairs.jpg",
   },
   {
     title: "Recurring personal services",
     subtitle: "Hair, beauty, wellness, and grooming depend on repeat visits.",
     detail:
       "Customers can follow their favourite professionals, rebook quickly, and get notified when they have fresh availability.",
+    shot: "/use-cases/recurring.jpg",
   },
   {
     title: "Business and office needs",
     subtitle: "Teams need cleaning, maintenance, design, and admin support.",
     detail:
       "The platform is useful when a business needs a reliable local provider with clean pricing and clear completion tracking.",
+    shot: "/use-cases/office.jpg",
   },
   {
     title: "Professional growth",
     subtitle: "Vendors need more than a listing.",
     detail:
       "The vendor side gives pricing control, analytics, follower growth, and creative testing so a business can actually scale.",
+    shot: "/use-cases/growth.jpg",
   },
 ];
 
@@ -108,11 +113,13 @@ export default function UseCasesPage() {
               <p className="text-b-ink-soft leading-relaxed mb-6">
                 {item.detail}
               </p>
-              <div className="rounded-2xl border border-b-line bg-b-paper/80 p-5">
-                <div className="relative overflow-hidden rounded-xl border border-b-line bg-b-paper-raised min-h-[140px]">
-                  <UseCasesPreview />
-                </div>
-              </div>
+              <MediaPlaceholder
+                kind="image"
+                src={item.shot}
+                alt={item.title}
+                label="Scenario"
+                ratio="16/9"
+              />
             </motion.article>
           ))}
         </div>

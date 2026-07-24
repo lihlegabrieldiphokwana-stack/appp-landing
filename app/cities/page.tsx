@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { CityMapPreview } from "@/components/city-map-preview";
 
 const cities = [
@@ -59,6 +60,14 @@ export default function CitiesPage() {
               transition={{ duration: 0.5, delay: index * 0.04 }}
               className="rounded-3xl border border-b-line bg-b-paper-raised p-8 h-full flex flex-col"
             >
+              <MediaPlaceholder
+                kind="image"
+                src={`/cities/${city.slug}.jpg`}
+                alt={city.name}
+                label="City"
+                ratio="16/9"
+                className="mb-5"
+              />
               <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
                 {city.region}
               </div>

@@ -2,22 +2,26 @@
 import React from "react";
 import { MessageCircle, Megaphone, Bell, Bot, Sparkles } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 const chatPillars = [
   {
     icon: MessageCircle,
     title: "Chat per booking",
     body: "Every booking creates its own conversation thread with the vendor. Ask questions, share reference photos, confirm details — all tied to that specific job.",
+    shot: "/mockups/chat-booking.jpg",
   },
   {
     icon: Bot,
     title: "Zola jumps in",
     body: "Need to reschedule or ask about pricing mid-chat? Tag Zola and she joins the thread — answering questions, suggesting alternatives, handling changes without leaving the conversation.",
+    shot: "/mockups/chat-zola.jpg",
   },
   {
     icon: Megaphone,
     title: "Channels & broadcasts",
     body: "Follow a vendor and you opt in to their channel. New services, specials, availability — it lands in a dedicated inbox section, separate from your booking chats. You control what you hear.",
+    shot: "/mockups/chat-channel.jpg",
   },
 ];
 
@@ -57,10 +61,18 @@ export function MessagingFeature() {
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-b-green-soft">
                   <pillar.icon className="h-6 w-6 text-b-green-deep" />
                 </span>
-                <div>
+                <div className="min-w-0 flex-1">
                   <h3 className="font-display text-lg font-bold text-b-ink">{pillar.title}</h3>
                   <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{pillar.body}</p>
                 </div>
+                <MediaPlaceholder
+                  kind="image"
+                  src={pillar.shot}
+                  alt={pillar.title}
+                  ratio="9/16"
+                  className="hidden h-24 w-16 shrink-0 sm:block"
+                  rounded="rounded-xl"
+                />
               </div>
             </Reveal>
           ))}

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 const employeeBenefits = [
   {
@@ -143,6 +144,14 @@ export default function EmployeesPage() {
                 Get clear assignments, track your schedule, communicate with your
                 team, and see your earnings — all from one place.
               </p>
+              <MediaPlaceholder
+                kind="image"
+                src="/mockups/employee-app.jpg"
+                alt="Employee workboard app"
+                label="Workboard"
+                ratio="9/16"
+                className="mt-6 max-w-[220px]"
+              />
             </div>
           </motion.div>
         </div>

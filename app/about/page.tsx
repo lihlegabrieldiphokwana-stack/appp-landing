@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { AboutMarketplacePreview } from "@/components/about-marketplace-preview";
 import { MessageCircle, Users, Trophy, Play } from "lucide-react";
 
@@ -352,6 +353,14 @@ export default function AboutPage() {
             <div className="text-xs font-semibold tracking-widest text-b-green-deep uppercase mb-4">
               OUR STORY
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/about/story.jpg"
+              alt="Bouul team and city"
+              label="Editorial"
+              ratio="16/9"
+              className="mb-8"
+            />
             <h2 className="text-4xl md:text-5xl font-display font-extrabold text-b-ink tracking-tight mb-6">
               We built Bouul because discovery was too fragmented.
             </h2>

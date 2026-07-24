@@ -1,6 +1,7 @@
 import React from "react";
 import { Search, CalendarCheck, Armchair } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 const steps = [
   {
@@ -8,18 +9,21 @@ const steps = [
     icon: Search,
     title: "Say what you need",
     body: "Type it the way you'd say it — \"my geyser is leaking\" works. Search understands plain language in 11 South African languages.",
+    shot: "/mockups/step-search.jpg",
   },
   {
     number: "02",
     icon: CalendarCheck,
     title: "Pick your pro",
     body: "Compare verified professionals near you: real reviews, upfront rand prices, response times, and portfolios of actual work.",
+    shot: "/mockups/step-pick.jpg",
   },
   {
     number: "03",
     icon: Armchair,
     title: "Relax",
     body: "Pay into escrow, track your pro live on the way, and release the money only when the job is done right.",
+    shot: "/mockups/step-relax.jpg",
   },
 ];
 
@@ -46,6 +50,14 @@ export function HowItWorks() {
                 {step.title}
               </h3>
               <p className="mt-3 b-body-sm leading-relaxed text-b-ink-soft">{step.body}</p>
+              <MediaPlaceholder
+                kind="image"
+                src={step.shot}
+                alt={step.title}
+                label="Step"
+                ratio="16/9"
+                className="mt-5"
+              />
             </div>
           </Reveal>
         ))}

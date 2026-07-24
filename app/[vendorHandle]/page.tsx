@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 type Vendor = {
   id: string;
@@ -232,6 +233,14 @@ export default async function VendorHandlePage({
                 installed, supported devices can open this profile directly.
               </p>
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src={coverImage ?? logo ?? undefined}
+              alt={vendor?.business_name ?? displayHandle}
+              label="Cover photo"
+              ratio="16/9"
+              className="mt-4"
+            />
           </div>
         </div>
       </section>

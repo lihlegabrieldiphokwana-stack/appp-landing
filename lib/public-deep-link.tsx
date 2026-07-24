@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 export type VendorPreview = {
   business_name?: string | null;
@@ -201,15 +202,12 @@ export function PublicDeepLinkPage({
                 <img src={imageUrl} alt={title} className="h-72 w-full object-cover" />
               </div>
             ) : (
-              <div className="rounded-2xl border border-neutral-800 bg-black p-5">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-500">
-                  Deep link ready
-                </div>
-                <p className="text-sm leading-relaxed text-neutral-400">
-                  This public Bouul link can open directly in the app on
-                  supported devices.
-                </p>
-              </div>
+              <MediaPlaceholder
+                kind="image"
+                tone="ink"
+                label="Deep link ready"
+                className="h-72 w-full"
+              />
             )}
           </div>
         </div>

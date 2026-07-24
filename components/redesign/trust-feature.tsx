@@ -1,6 +1,7 @@
 import React from "react";
 import { ShieldCheck, BadgeCheck, MessagesSquare, MapPinned } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 const pillars = [
   {
@@ -37,6 +38,15 @@ export function TrustFeature() {
           A marketplace only works if both sides can relax. Bouul is engineered
           so the money, the identity, and the reputation are all guaranteed.
         </p>
+        <Reveal delay={0.12} className="mt-8 max-w-md">
+          <MediaPlaceholder
+            kind="video"
+            videoSrc="/clips/live-tracking.mp4"
+            poster="/clips/live-tracking.jpg"
+            label="Live tracking"
+            ratio="16/9"
+          />
+        </Reveal>
       </Reveal>
       <div className="mt-14 grid gap-5 sm:grid-cols-2">
         {pillars.map((pillar, i) => (

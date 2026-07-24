@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 
 const platforms = [
   {
@@ -114,6 +115,15 @@ export default function DownloadPage() {
               <p className="text-b-ink-soft leading-relaxed mb-6">
                 {platform.description}
               </p>
+
+              <MediaPlaceholder
+                kind="image"
+                src={`/mockups/${platform.id}-app.jpg`}
+                alt={`${platform.name} app preview`}
+                label="App preview"
+                ratio="9/16"
+                className="mb-6 max-w-[200px]"
+              />
 
               <div className="space-y-3">
                 {platform.bullets.map((bullet) => (

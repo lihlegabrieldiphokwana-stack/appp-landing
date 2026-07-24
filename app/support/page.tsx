@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { SupportDashboardPreview } from "@/components/support-dashboard-preview";
 
 const topics = [
@@ -58,6 +59,14 @@ export default function SupportPage() {
               Support should be easy to route: bookings, accounts, vendors, and
               safety issues all belong in slightly different flows.
             </p>
+            <MediaPlaceholder
+              kind="image"
+              src="/support/hero.jpg"
+              alt="Support"
+              label="Illustration"
+              ratio="16/9"
+              className="mt-10"
+            />
           </motion.div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">

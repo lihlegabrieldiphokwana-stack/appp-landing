@@ -8,6 +8,7 @@ import { ZolaFeature } from "@/components/redesign/zola-feature";
 import { SocialFeature } from "@/components/redesign/social-feature";
 import { MessagingFeature } from "@/components/redesign/messaging-feature";
 import { GlimpsesFeature } from "@/components/redesign/glimpses-feature";
+import { FeaturedScenes } from "@/components/redesign/featured-scenes";
 import { TrustFeature } from "@/components/redesign/trust-feature";
 import { MasteryFeature } from "@/components/redesign/mastery-feature";
 import { VendorTeaser } from "@/components/redesign/vendor-teaser";
@@ -25,6 +26,7 @@ export default function LandingPage() {
       <SocialFeature />
       <MessagingFeature />
       <GlimpsesFeature />
+      <FeaturedScenes />
       <TrustFeature />
       <MasteryFeature />
       <VendorTeaser />

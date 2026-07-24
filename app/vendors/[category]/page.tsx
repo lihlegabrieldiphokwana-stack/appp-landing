@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { vendorCategories } from "@/lib/vendor-categories-data";
 
 export default function VendorCategoryPage() {
@@ -48,14 +49,24 @@ export default function VendorCategoryPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
+            className="grid items-center gap-10 lg:grid-cols-[1.3fr_0.7fr]"
           >
-            <div className="font-display font-extrabold text-5xl mb-4">{category.icon}</div>
-            <h1 className="text-5xl md:text-6xl font-display font-extrabold text-b-ink tracking-tight mb-6">
-              {category.name} on Bouul
-            </h1>
-            <p className="text-b-ink-soft text-xl max-w-3xl">
-              {category.categoryBenefit}
-            </p>
+            <div>
+              <div className="font-display font-extrabold text-5xl mb-4">{category.icon}</div>
+              <h1 className="text-5xl md:text-6xl font-display font-extrabold text-b-ink tracking-tight mb-6">
+                {category.name} on Bouul
+              </h1>
+              <p className="text-b-ink-soft text-xl max-w-3xl">
+                {category.categoryBenefit}
+              </p>
+            </div>
+            <MediaPlaceholder
+              kind="image"
+              src={`/categories/${category.slug}.jpg`}
+              alt={`${category.name} work`}
+              label="Category work"
+              ratio="4/3"
+            />
           </motion.div>
         </div>
       </section>

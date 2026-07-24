@@ -2,6 +2,7 @@
 import React from "react";
 import { Trophy, Star, Award, TrendingUp, Sparkles } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { MediaPlaceholder } from "./media-placeholder";
 
 const masteryPillars = [
   {
@@ -58,18 +59,28 @@ export function MasteryFeature() {
       </div>
       <Reveal delay={0.35} className="mt-10">
         <div className="rounded-3xl border border-dashed border-b-sun/40 bg-b-sun-soft/50 p-6 md:p-8">
-          <div className="flex items-start gap-4">
-            <Sparkles className="mt-1 h-5 w-5 shrink-0 text-b-sun" />
-            <div>
-              <p className="font-semibold text-b-ink">
-                Trophies are earned, not bought
-              </p>
-              <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
-                Every trophy is tied to verifiable actions — completed bookings,
-                written reviews, maintained ratings. They can&apos;t be gamed.
-                What you see on a profile is earned.
-              </p>
+          <div className="grid items-center gap-6 md:grid-cols-[1.4fr_0.6fr]">
+            <div className="flex items-start gap-4">
+              <Sparkles className="mt-1 h-5 w-5 shrink-0 text-b-sun" />
+              <div>
+                <p className="font-semibold text-b-ink">
+                  Trophies are earned, not bought
+                </p>
+                <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
+                  Every trophy is tied to verifiable actions — completed bookings,
+                  written reviews, maintained ratings. They can&apos;t be gamed.
+                  What you see on a profile is earned.
+                </p>
+              </div>
             </div>
+            <MediaPlaceholder
+              kind="image"
+              src="/mockups/trophy-profile.jpg"
+              alt="Trophy showcase on a profile"
+              label="Profile"
+              ratio="9/16"
+              rounded="rounded-2xl"
+            />
           </div>
         </div>
       </Reveal>
