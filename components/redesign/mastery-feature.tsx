@@ -50,7 +50,7 @@ export function MasteryFeature() {
               </span>
               <div>
                 <h3 className="font-display text-lg font-bold text-b-ink">{pillar.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-b-ink-soft">{pillar.body}</p>
+                <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{pillar.body}</p>
               </div>
             </div>
           </Reveal>
@@ -64,7 +64,7 @@ export function MasteryFeature() {
               <p className="font-semibold text-b-ink">
                 Trophies are earned, not bought
               </p>
-              <p className="mt-1 text-sm leading-relaxed text-b-ink-soft">
+              <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
                 Every trophy is tied to verifiable actions — completed bookings,
                 written reviews, maintained ratings. They can&apos;t be gamed.
                 What you see on a profile is earned.

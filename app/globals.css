@@ -299,6 +299,17 @@ html {
   }
 }
 
+/* Body copy responsive floor — 15px on mobile, back to text-sm on tablet+ */
+.b-body-sm {
+  font-size: 0.9375rem;
+  line-height: 1.625;
+}
+@media (min-width: 640px) {
+  .b-body-sm {
+    font-size: 0.875rem;
+  }
+}
+
 @theme inline {
   --color-bouul-bg: var(--bouul-bg);
   --color-bouul-surface: var(--bouul-surface);

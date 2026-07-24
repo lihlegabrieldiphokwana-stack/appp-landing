@@ -356,7 +356,7 @@ export function VendorOperating() {
                 <model.icon className="h-5 w-5 text-b-green-deep" />
               </span>
               <h3 className="mt-4 font-display text-lg font-bold text-b-ink">{model.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-b-ink-soft">{model.body}</p>
+              <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{model.body}</p>
             </div>
           </Reveal>
         ))}
@@ -460,7 +460,7 @@ export function VendorTrust() {
                 <item.icon className="h-5 w-5 text-b-ink" />
               </span>
               <h3 className="mt-4 font-display text-lg font-bold text-b-ink">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-b-ink-soft">{item.body}</p>
+              <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{item.body}</p>
             </div>
           </Reveal>
         ))}

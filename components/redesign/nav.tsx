@@ -24,7 +24,7 @@ export function RedesignNav() {
   }, []);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
+    <header className="fixed inset-x-0 top-0 z-50 px-4 pt-[max(1rem,env(safe-area-inset-top))]">
       <motion.nav
         initial={{ y: -24, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -66,7 +66,7 @@ export function RedesignNav() {
             type="button"
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
-            className="rounded-full p-2 text-b-ink md:hidden"
+            className="rounded-full p-3 text-b-ink md:hidden"
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -81,7 +81,7 @@ export function RedesignNav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-xl px-4 py-3 text-sm font-medium text-b-ink-soft hover:bg-b-paper-deep hover:text-b-ink"
+                className="rounded-xl px-4 py-3.5 text-sm font-medium text-b-ink-soft hover:bg-b-paper-deep hover:text-b-ink"
               >
                 {link.label}
               </Link>
@@ -89,7 +89,7 @@ export function RedesignNav() {
             <Link
               href="/download"
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-xl bg-b-ink px-4 py-3 text-center text-sm font-semibold text-b-paper"
+              className="mt-2 rounded-xl bg-b-ink px-4 py-3.5 text-center text-sm font-semibold text-b-paper"
             >
               Get the app
             </Link>

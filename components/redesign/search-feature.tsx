@@ -115,7 +115,7 @@ export function SearchFeature() {
               <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-b-green-soft">
                 <Sparkles className="h-4 w-4 text-b-green-deep" />
               </span>
-              <p className="text-sm leading-relaxed text-b-ink-soft">
+              <p className="b-body-sm leading-relaxed text-b-ink-soft">
                 <span className="font-semibold text-b-ink">Semantic matching</span> — plain
                 words, slang, or the wrong word entirely still find the right service.
               </p>
@@ -124,7 +124,7 @@ export function SearchFeature() {
               <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-b-green-soft">
                 <Languages className="h-4 w-4 text-b-green-deep" />
               </span>
-              <p className="text-sm leading-relaxed text-b-ink-soft">
+              <p className="b-body-sm leading-relaxed text-b-ink-soft">
                 <span className="font-semibold text-b-ink">11 languages</span> — search in
                 isiZulu, Afrikaans, Sesotho, and more.
               </p>
@@ -133,7 +133,7 @@ export function SearchFeature() {
               <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-b-green-soft">
                 <LayoutGrid className="h-4 w-4 text-b-green-deep" />
               </span>
-              <p className="text-sm leading-relaxed text-b-ink-soft">
+              <p className="b-body-sm leading-relaxed text-b-ink-soft">
                 <span className="font-semibold text-b-ink">Seven result tabs</span> —
                 services, vendors, posts, videos, reviews, and people, all in one search.
               </p>

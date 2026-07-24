@@ -35,7 +35,7 @@ export function GlimpsesFeature() {
                 </span>
                 <div>
                   <h3 className="font-display text-lg font-bold text-b-ink">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-b-ink-soft">{item.body}</p>
+                  <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{item.body}</p>
                 </div>
               </div>
             </Reveal>

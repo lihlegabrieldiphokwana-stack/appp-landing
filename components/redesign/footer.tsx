@@ -49,7 +49,7 @@ export function RedesignFooter() {
             <p className="font-display text-3xl font-extrabold tracking-tight text-b-ink">
               bouul<span className="text-b-green">.</span>
             </p>
-            <p className="mt-3 text-sm leading-relaxed text-b-ink-soft">
+            <p className="mt-3 b-body-sm leading-relaxed text-b-ink-soft">
               Every pro in your neighbourhood, one app. Verified professionals,
               escrow-protected payments, made in South Africa.
             </p>

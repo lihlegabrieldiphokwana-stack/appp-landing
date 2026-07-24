@@ -44,7 +44,7 @@ export function SocialFeature() {
               </span>
               <div>
                 <h3 className="font-display text-lg font-bold text-b-ink">{pillar.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-b-ink-soft">{pillar.body}</p>
+                <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{pillar.body}</p>
               </div>
             </div>
           </Reveal>
@@ -58,7 +58,7 @@ export function SocialFeature() {
               <p className="font-semibold text-b-ink">
                 Two feeds, one homepage
               </p>
-              <p className="mt-1 text-sm leading-relaxed text-b-ink-soft">
+              <p className="mt-1 b-body-sm leading-relaxed text-b-ink-soft">
                 Your Discovery feed shows what&apos;s popular and relevant. Your
                 Following feed shows what your network trusts. Together, they
                 mean you never book blind.

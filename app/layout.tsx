@@ -30,6 +30,12 @@ const plexMono = IBM_Plex_Mono({
   variable: "--font-price",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
   title: {
     default: "Bouul — Your city's marketplace.",
