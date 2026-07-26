@@ -1,0 +1,73 @@
+{
+  "slug": "auto-repair",
+  "name": "Auto Repair",
+  "scene": "/scenes/auto_repair.png",
+  "tagline": "Skip the workshop queues. Verified mechanics delivering transparent diagnostics, battery, tyre, and panel repairs.",
+  "hook_headline": "Professional car care, right in your driveway.",
+  "hook_body": "Your vehicle is making an ominous sound, but taking a day off work to sit in a sterile dealership waiting room is impossible. Furthermore, you dread the inevitable, inflated bill. Bouul changes the paradigm. Browse vetted mobile mechanics, tyre specialists, and panel beaters operating in Gauteng. Receive transparent upfront pricing, and have the workshop brought directly to your office parking bay or home driveway.",
+  "pains": [
+    [
+      "Losing a full day of productivity dropping off and collecting your vehicle.",
+      "The mechanic comes directly to your specified geolocation, allowing you to continue your day uninterrupted."
+    ],
+    [
+      "Opaque billing practices where the final invoice is double the verbal estimate.",
+      "All costs are quoted and approved digitally in advance, with funds held securely in escrow."
+    ],
+    [
+      "Anxiety regarding the competency of an unverified independent operator.",
+      "Bouul professionals possess verifiable track records, backed by reviews from localised, completed repairs."
+    ]
+  ],
+  "services": [
+    "Comprehensive electronic diagnostics",
+    "Major and minor scheduled servicing",
+    "Brake pad and disc replacement",
+    "Mobile battery testing and installation",
+    "Mobile tyre repair and replacement",
+    "Minor panel beating and scratch removal",
+    "Mobile car wash and detailing"
+  ],
+  "audience": [
+    "Corporate employees working long hours",
+    "Families unable to manage without a vehicle for a day",
+    "Individuals purchasing second-hand cars requiring inspection",
+    "Drivers seeking dealership-quality work at independent prices"
+  ],
+  "why_icons": [
+    "Car",
+    "Wrench",
+    "ShieldCheck"
+  ],
+  "why_titles": [
+    "Absolute convenience",
+    "Digital cost control",
+    "Verified automotive expertise"
+  ],
+  "why_bodies": [
+    "Repairs and servicing executed at your home or workplace, eliminating logistical headaches.",
+    "Diagnose the issue via chat and approve fixed-price quotes before a single spanner is turned.",
+    "Access specialists across vehicle brands, ensuring complex OBD-II diagnostics are handled correctly."
+  ],
+  "trust": [
+    "Identity verified automotive technicians",
+    "Escrow facility protecting against arbitrary overcharging",
+    "Live geolocation tracking for precise arrival management",
+    "In-app vehicle specification sharing"
+  ],
+  "cta": "Book an auto professional",
+  "faqs": [
+    [
+      "Can complex diagnostics be performed remotely?",
+      "Yes, mobile mechanics arrive equipped with advanced OBD-II scanning tools capable of pinpointing complex electronic faults on-site."
+    ],
+    [
+      "How do I ensure the mechanic brings the correct parts?",
+      "You can upload a photo of your licence disc in the secure chat. This allows the professional to source the exact OEM or equivalent components for your specific model."
+    ],
+    [
+      "Does using a mobile mechanic void my warranty?",
+      "Under South African law, utilising an independent, qualified mechanic for servicing does not automatically void manufacturer warranties, provided original specification parts are used."
+    ]
+  ]
+}

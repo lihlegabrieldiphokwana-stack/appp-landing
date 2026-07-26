@@ -1,0 +1,70 @@
+{
+  "slug": "childcare-seniorcare",
+  "name": "Child & Senior Care",
+  "scene": "/scenes/childcare_service.png",
+  "tagline": "Connect with thoroughly vetted nannies, au pairs, and senior caregivers for your ultimate peace of mind.",
+  "hook_headline": "Uncompromising care for your loved ones, rigorously verified.",
+  "hook_body": "Entrusting someone with your children or aging parents is deeply anxiety-inducing. Relying on neighbourhood whispers or unverified agency temps is simply not an option. Bouul elevates the standard of caregiving discovery. Every professional undergoes comprehensive background checks. Browse rich profiles, read reviews from other families, and use secure messaging to establish rapport before they ever step into your home.",
+  "pains": [
+    [
+      "The paralysing anxiety of leaving vulnerable family members with an unvetted stranger.",
+      "Bouul enforces strict, mandatory identity and background verification for every listed caregiver."
+    ],
+    [
+      "Misalignment on routines, parenting styles, or emergency protocols.",
+      "Use the in-app chat to conduct preliminary interviews and align on crucial methodologies."
+    ],
+    [
+      "The awkwardness of managing cash payments and negotiating overtime.",
+      "All rates are transparent, and payments are handled securely through the app's digital facility."
+    ]
+  ],
+  "services": [
+    "Ad-hoc evening babysitting",
+    "After-school au pair services",
+    "Infant and toddler care",
+    "Senior companionship and assistance",
+    "Dementia support caregivers",
+    "Weekend caregiving relief"
+  ],
+  "audience": [
+    "Working parents requiring structured afternoon support",
+    "Families seeking experienced senior care to delay nursing homes",
+    "Families seeking caregivers with specific infant experience"
+  ],
+  "why_icons": [
+    "Heart",
+    "ShieldCheck",
+    "Star"
+  ],
+  "why_titles": [
+    "Unrivaled security vetting",
+    "Direct relationship building",
+    "Cashless security"
+  ],
+  "why_bodies": [
+    "Identity checks and historical reviews from real families form the foundation of our platform.",
+    "Communicate directly to establish expectations, routines, and emergency protocols before booking.",
+    "Digital payments mean you never have to worry about having cash on hand or financial disputes."
+  ],
+  "trust": [
+    "Mandatory national identity verification",
+    "Authentic reviews strictly from completed family bookings",
+    "In-app interview and rapport-building"
+  ],
+  "cta": "Connect with verified caregivers",
+  "faqs": [
+    [
+      "How thorough is the vetting process?",
+      "Every caregiver must pass a strict identity verification process. Their profile displays an un-editable history of reviews from other families on the platform."
+    ],
+    [
+      "Can I interview the caregiver first?",
+      "Yes. We encourage using the in-app chat to ask detailed questions, discuss specific needs, and arrange a brief introductory call."
+    ],
+    [
+      "What about elder care experience?",
+      "You can filter caregivers by their specific expertise, including dementia support, palliative care, or mobility assistance."
+    ]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "healthcare",
+  "name": "Healthcare",
+  "scene": "/scenes/interior_design.png",
+  "tagline": "Verified home nurses, physiotherapists, and mental health professionals, booked securely.",
+  "hook_headline": "Professional healthcare in the comfort of your own home.",
+  "hook_body": "When you or a family member is recovering from surgery, injured, or simply unwell, sitting in a sterile clinic waiting room is the last thing you want. You need professional care delivered to your door. Bouul connects you with licensed, vetted healthcare providers ranging from home nurses to physiotherapists. Verify their credentials instantly and secure their services with cashless payments.",
+  "pains": [
+    [
+      "Sitting in crowded waiting rooms while sick or in pain.",
+      "Bouul professionals come to you, allowing recovery in the comfort and privacy of your own home."
+    ],
+    [
+      "Uncertainty about a practitioner's actual medical qualifications.",
+      "Strict onboarding requires proof of registration with relevant health councils (e.g., HPCSA, SANC)."
+    ],
+    [
+      "Opaque pricing for physical therapy or home nursing.",
+      "Consultation and hourly rates are displayed upfront before you confirm your booking."
+    ]
+  ],
+  "services": [
+    "Post-operative home nursing",
+    "In-home physiotherapy",
+    "Chiropractic adjustments",
+    "Mental health counselling",
+    "Speech therapy sessions",
+    "Telemedicine consultations",
+    "Dental check-up visits"
+  ],
+  "audience": [
+    "Patients recovering from recent surgeries",
+    "Elderly individuals needing ongoing physical therapy",
+    "Busy professionals opting for telemedicine",
+    "Individuals preferring discrete mental health support"
+  ],
+  "why_icons": [
+    "Heart",
+    "ShieldCheck",
+    "Star"
+  ],
+  "why_titles": [
+    "Verified medical credentials",
+    "In-home privacy",
+    "Secure booking process"
+  ],
+  "why_bodies": [
+    "Every practitioner must prove their professional registration before they can accept bookings.",
+    "Receive sensitive care, physical therapy, or mental health counselling in the safety of your home.",
+    "Manage appointments and payments entirely through the app without dealing with cash."
+  ],
+  "trust": [
+    "Verification of HPCSA or SANC registrations",
+    "Real reviews focusing on bedside manner and professionalism",
+    "Identity-checked practitioners"
+  ],
+  "cta": "Book a verified healthcare provider",
+  "faqs": [
+    [
+      "Are these professionals qualified?",
+      "Yes. All healthcare providers on Bouul must upload their practising certificates and ID for verification."
+    ],
+    [
+      "Do they bring their own equipment?",
+      "Yes, physiotherapists and home nurses arrive fully equipped for standard treatments and assessments."
+    ]
+  ]
+}

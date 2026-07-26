@@ -97,6 +97,53 @@ const DEFAULT_CONFIG: ServicePageConfig = {
    ──────────────────────────────────────────── */
 
 const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
+  "auto-repair": {
+    slug: "auto-repair",
+    name: "Auto Repair",
+    scene: "/scenes/auto_repair.png",
+    tagline: "Skip the workshop queues. Verified mechanics delivering transparent diagnostics, battery, tyre, and panel repairs.",
+    hook: {
+      headline: "Professional car care, right in your driveway.",
+      body: "Your vehicle is making an ominous sound, but taking a day off work to sit in a sterile dealership waiting room is impossible. Furthermore, you dread the inevitable, inflated bill. Bouul changes the paradigm. Browse vetted mobile mechanics, tyre specialists, and panel beaters operating in Gauteng. Receive transparent upfront pricing, and have the workshop brought directly to your office parking bay or home driveway.",
+    },
+    howItHelps: [
+      { pain: "Losing a full day of productivity dropping off and collecting your vehicle.", solution: "The mechanic comes directly to your specified geolocation, allowing you to continue your day uninterrupted." },
+      { pain: "Opaque billing practices where the final invoice is double the verbal estimate.", solution: "All costs are quoted and approved digitally in advance, with funds held securely in escrow." },
+      { pain: "Anxiety regarding the competency of an unverified independent operator.", solution: "Bouul professionals possess verifiable track records, backed by reviews from localised, completed repairs." },
+    ],
+    typicalServices: [
+      "Comprehensive electronic diagnostics",
+      "Major and minor scheduled servicing",
+      "Brake pad and disc replacement",
+      "Mobile battery testing and installation",
+      "Mobile tyre repair and replacement",
+      "Minor panel beating and scratch removal",
+      "Mobile car wash and detailing",
+    ],
+    goodFor: [
+      "Corporate employees working long hours",
+      "Families unable to manage without a vehicle for a day",
+      "Individuals purchasing second-hand cars requiring inspection",
+      "Drivers seeking dealership-quality work at independent prices",
+    ],
+    whyBouul: [
+      { icon: Car, title: "Absolute convenience", body: "Repairs and servicing executed at your home or workplace, eliminating logistical headaches." },
+      { icon: Wrench, title: "Digital cost control", body: "Diagnose the issue via chat and approve fixed-price quotes before a single spanner is turned." },
+      { icon: ShieldCheck, title: "Verified automotive expertise", body: "Access specialists across vehicle brands, ensuring complex OBD-II diagnostics are handled correctly." },
+    ],
+    trustPoints: [
+      "Identity verified automotive technicians",
+      "Escrow facility protecting against arbitrary overcharging",
+      "Live geolocation tracking for precise arrival management",
+      "In-app vehicle specification sharing",
+    ],
+    cta: "Book an auto professional",
+    faqs: [
+      { q: "Can complex diagnostics be performed remotely?", a: "Yes, mobile mechanics arrive equipped with advanced OBD-II scanning tools capable of pinpointing complex electronic faults on-site." },
+      { q: "How do I ensure the mechanic brings the correct parts?", a: "You can upload a photo of your licence disc in the secure chat. This allows the professional to source the exact OEM or equivalent components for your specific model." },
+      { q: "Does using a mobile mechanic void my warranty?", a: "Under South African law, utilising an independent, qualified mechanic for servicing does not automatically void manufacturer warranties, provided original specification parts are used." },
+    ],
+  },
   "beauty-hair": {
     slug: "beauty-hair",
     name: "Beauty & Hair",
@@ -234,6 +281,50 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "How thorough is the vetting process?", a: "Every caregiver must pass a strict identity verification process. Their profile displays an un-editable history of reviews from other parents on the platform." },
       { q: "Can I interview the caregiver first?", a: "Yes. We encourage using the in-app chat to ask detailed questions, discuss your child's specific needs, and arrange a brief introductory call." },
       { q: "What happens if we need to cancel last minute?", a: "Cancellation policies are set by each caregiver and displayed before booking. You can choose professionals whose policies match your needs." },
+    ],
+  },
+  "childcare-seniorcare": {
+    slug: "childcare-seniorcare",
+    name: "Child & Senior Care",
+    scene: "/scenes/childcare_service.png",
+    tagline: "Connect with thoroughly vetted nannies, au pairs, and senior caregivers for your ultimate peace of mind.",
+    hook: {
+      headline: "Uncompromising care for your loved ones, rigorously verified.",
+      body: "Entrusting someone with your children or aging parents is deeply anxiety-inducing. Relying on neighbourhood whispers or unverified agency temps is simply not an option. Bouul elevates the standard of caregiving discovery. Every professional undergoes comprehensive background checks. Browse rich profiles, read reviews from other families, and use secure messaging to establish rapport before they ever step into your home.",
+    },
+    howItHelps: [
+      { pain: "The paralysing anxiety of leaving vulnerable family members with an unvetted stranger.", solution: "Bouul enforces strict, mandatory identity and background verification for every listed caregiver." },
+      { pain: "Misalignment on routines, parenting styles, or emergency protocols.", solution: "Use the in-app chat to conduct preliminary interviews and align on crucial methodologies." },
+      { pain: "The awkwardness of managing cash payments and negotiating overtime.", solution: "All rates are transparent, and payments are handled securely through the app's digital facility." },
+    ],
+    typicalServices: [
+      "Ad-hoc evening babysitting",
+      "After-school au pair services",
+      "Infant and toddler care",
+      "Senior companionship and assistance",
+      "Dementia support caregivers",
+      "Weekend caregiving relief",
+    ],
+    goodFor: [
+      "Working parents requiring structured afternoon support",
+      "Families seeking experienced senior care to delay nursing homes",
+      "Families seeking caregivers with specific infant experience",
+    ],
+    whyBouul: [
+      { icon: Heart, title: "Unrivaled security vetting", body: "Identity checks and historical reviews from real families form the foundation of our platform." },
+      { icon: ShieldCheck, title: "Direct relationship building", body: "Communicate directly to establish expectations, routines, and emergency protocols before booking." },
+      { icon: Star, title: "Cashless security", body: "Digital payments mean you never have to worry about having cash on hand or financial disputes." },
+    ],
+    trustPoints: [
+      "Mandatory national identity verification",
+      "Authentic reviews strictly from completed family bookings",
+      "In-app interview and rapport-building",
+    ],
+    cta: "Connect with verified caregivers",
+    faqs: [
+      { q: "How thorough is the vetting process?", a: "Every caregiver must pass a strict identity verification process. Their profile displays an un-editable history of reviews from other families on the platform." },
+      { q: "Can I interview the caregiver first?", a: "Yes. We encourage using the in-app chat to ask detailed questions, discuss specific needs, and arrange a brief introductory call." },
+      { q: "What about elder care experience?", a: "You can filter caregivers by their specific expertise, including dementia support, palliative care, or mobility assistance." },
     ],
   },
   "cleaners": {
@@ -376,6 +467,93 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "What if the work needs municipal approval?", a: "Most residential electrical work doesn't need prior approval, but your electrician will advise on what requires a COC or inspection after the job." },
     ],
   },
+  "fitness-wellness": {
+    slug: "fitness-wellness",
+    name: "Fitness & Wellness",
+    scene: "/scenes/personal_training.png",
+    tagline: "Top-rated personal trainers, yoga instructors, and massage therapists brought to your door.",
+    hook: {
+      headline: "Your goals. Your space. Your schedule.",
+      body: "Finding the motivation to fight traffic to get to a crowded gym is the biggest hurdle to your fitness goals. What if the studio came to you? Bouul connects you with vetted personal trainers, yoga instructors, and wellness coaches who train you in your living room, garden, or local park. See their specialties, read client reviews, and pay securely in-app.",
+    },
+    howItHelps: [
+      { pain: "The intimidation factor of crowded commercial gyms.", solution: "Train in the privacy of your own home with a professional focused entirely on you." },
+      { pain: "Wasting an hour commuting to a 45-minute workout class.", solution: "Your trainer or therapist comes to your specified location, saving you massive amounts of time." },
+      { pain: "Paying for gym memberships you never end up using.", solution: "Pay per session or buy packages directly from the professional, with funds securely managed." },
+    ],
+    typicalServices: [
+      "One-on-one personal training",
+      "Private yoga and pilates sessions",
+      "Sports and deep tissue massage",
+      "Nutrition and meal planning",
+      "Life coaching and breathwork",
+      "Meditation sessions",
+    ],
+    goodFor: [
+      "Busy executives needing early morning home workouts",
+      "New mothers wanting privacy for postpartum fitness",
+      "Athletes requiring at-home recovery massage",
+    ],
+    whyBouul: [
+      { icon: Star, title: "Complete convenience", body: "Workout or recover at home, in your estate gym, or at a local park." },
+      { icon: ShieldCheck, title: "Verified results", body: "Read reviews from real clients to ensure the trainer actually delivers on their promises." },
+      { icon: Heart, title: "Direct communication", body: "Discuss injuries, goals, and equipment availability via chat before they arrive." },
+    ],
+    trustPoints: [
+      "Identity-verified trainers and therapists",
+      "Real client reviews verifying results",
+      "Flexible pay-per-session options",
+    ],
+    cta: "Book a wellness professional",
+    faqs: [
+      { q: "Do I need to own gym equipment?", a: "Not necessarily. Many trainers specialise in bodyweight workouts or bring their own kettlebells and bands." },
+      { q: "Can I buy a package of sessions?", a: "Yes, many professionals offer session packages. These are securely managed through the app." },
+    ],
+  },
+  "garage-doors-security": {
+    slug: "garage-doors-security",
+    name: "Garage Doors & Security",
+    scene: "/scenes/interior_design.png",
+    tagline: "Verified technicians to fix your automated doors and security systems, fast.",
+    hook: {
+      headline: "Secure your perimeter immediately.",
+      body: "Your garage door is jammed halfway up, leaving your home completely exposed. This isn't a problem for tomorrow. You need a trusted technician right now, but scrolling through unverified Google results feels like a security risk in itself. Bouul shows you vetted, available technicians nearby. Track their arrival live and restore your home's security within hours.",
+    },
+    howItHelps: [
+      { pain: "A broken gate or garage door leaves your entire property vulnerable overnight.", solution: "Bouul prioritises speed, showing you who is available immediately for emergency repairs." },
+      { pain: "Security anxiety about who is actually installing your cameras or fixing your gate.", solution: "Every technician undergoes strict identity verification before joining the platform." },
+      { pain: "Paying for a fix only for the motor to fail again two days later.", solution: "Hold funds in escrow to ensure the repair actually holds, backed by platform accountability." },
+    ],
+    typicalServices: [
+      "Garage door motor repair",
+      "Broken spring replacement",
+      "Electric gate motor fixes",
+      "CCTV camera installation",
+      "Electric fence troubleshooting",
+      "Intercom system repair",
+      "Access control installation",
+    ],
+    goodFor: [
+      "Homeowners with jammed gates or garage doors",
+      "Individuals upgrading their home security perimeter",
+      "Tenants needing rapid access repairs",
+    ],
+    whyBouul: [
+      { icon: Home, title: "Immediate dispatch", body: "Security flaws don't wait. See who is available nearby and track their arrival to your gate." },
+      { icon: ShieldCheck, title: "Strict identity vetting", body: "Never let an unverified stranger handle your home's access control systems." },
+      { icon: Wrench, title: "Upfront parts pricing", body: "Approve the cost of replacement motors or sensors in-app before work begins." },
+    ],
+    trustPoints: [
+      "Mandatory ID verification for security technicians",
+      "Live tracking for rapid emergency response",
+      "Escrow facility for expensive motor replacements",
+    ],
+    cta: "Fix your security now",
+    faqs: [
+      { q: "Can they supply the replacement motor?", a: "Yes, technicians can quote for both labour and parts (like Centurion or Gemini motors) directly within the app." },
+      { q: "How quickly can they arrive for an emergency?", a: "You can filter by immediate availability. In major metros, technicians can often be on-site within an hour." },
+    ],
+  },
   "gardeners": {
     slug: "gardeners",
     name: "Gardeners",
@@ -421,6 +599,94 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "Can I book the same gardener every week?", a: "Yes, Bouul allows you to establish recurring bookings with the professional you prefer, ensuring consistency." },
       { q: "Do they bring their own equipment?", a: "You can specify this when booking. Many professionals arrive fully equipped, while others offer labour-only rates if you provide the tools." },
       { q: "Does the service include the removal of garden refuse?", a: "You can request refuse removal as part of the quote. The professional will confirm their capacity to transport waste before accepting the job." },
+    ],
+  },
+  "healthcare": {
+    slug: "healthcare",
+    name: "Healthcare",
+    scene: "/scenes/interior_design.png",
+    tagline: "Verified home nurses, physiotherapists, and mental health professionals, booked securely.",
+    hook: {
+      headline: "Professional healthcare in the comfort of your own home.",
+      body: "When you or a family member is recovering from surgery, injured, or simply unwell, sitting in a sterile clinic waiting room is the last thing you want. You need professional care delivered to your door. Bouul connects you with licensed, vetted healthcare providers ranging from home nurses to physiotherapists. Verify their credentials instantly and secure their services with cashless payments.",
+    },
+    howItHelps: [
+      { pain: "Sitting in crowded waiting rooms while sick or in pain.", solution: "Bouul professionals come to you, allowing recovery in the comfort and privacy of your own home." },
+      { pain: "Uncertainty about a practitioner's actual medical qualifications.", solution: "Strict onboarding requires proof of registration with relevant health councils (e.g., HPCSA, SANC)." },
+      { pain: "Opaque pricing for physical therapy or home nursing.", solution: "Consultation and hourly rates are displayed upfront before you confirm your booking." },
+    ],
+    typicalServices: [
+      "Post-operative home nursing",
+      "In-home physiotherapy",
+      "Chiropractic adjustments",
+      "Mental health counselling",
+      "Speech therapy sessions",
+      "Telemedicine consultations",
+      "Dental check-up visits",
+    ],
+    goodFor: [
+      "Patients recovering from recent surgeries",
+      "Elderly individuals needing ongoing physical therapy",
+      "Busy professionals opting for telemedicine",
+      "Individuals preferring discrete mental health support",
+    ],
+    whyBouul: [
+      { icon: Heart, title: "Verified medical credentials", body: "Every practitioner must prove their professional registration before they can accept bookings." },
+      { icon: ShieldCheck, title: "In-home privacy", body: "Receive sensitive care, physical therapy, or mental health counselling in the safety of your home." },
+      { icon: Star, title: "Secure booking process", body: "Manage appointments and payments entirely through the app without dealing with cash." },
+    ],
+    trustPoints: [
+      "Verification of HPCSA or SANC registrations",
+      "Real reviews focusing on bedside manner and professionalism",
+      "Identity-checked practitioners",
+    ],
+    cta: "Book a verified healthcare provider",
+    faqs: [
+      { q: "Are these professionals qualified?", a: "Yes. All healthcare providers on Bouul must upload their practising certificates and ID for verification." },
+      { q: "Do they bring their own equipment?", a: "Yes, physiotherapists and home nurses arrive fully equipped for standard treatments and assessments." },
+    ],
+  },
+  "hospitality": {
+    slug: "hospitality",
+    name: "Hospitality & Events",
+    scene: "/scenes/interior_design.png",
+    tagline: "Vetted bartending, wait staff, and hospitality professionals for your next event.",
+    hook: {
+      headline: "Host like a professional, effortlessly.",
+      body: "Hosting an event should be celebratory, not a stressful marathon of serving drinks and cleaning plates. But hiring reliable temporary staff is historically a gamble. Bouul connects you with ID-verified, experienced hospitality professionals. Whether you need a mixologist for a dinner party or wait staff for a corporate function, browse profiles, check reviews, and handle payments seamlessly.",
+    },
+    howItHelps: [
+      { pain: "Agencies charging exorbitant overhead fees for temporary event staff.", solution: "Connect directly with the professionals, ensuring fair wages for them and better prices for you." },
+      { pain: "Staff arriving late or not knowing how to serve professionally.", solution: "Platform reviews highlight punctuality, presentation, and skill." },
+      { pain: "The stress of managing event logistics while trying to enjoy the occasion.", solution: "Handle all bookings, communication, and payments through the app so you can focus on your guests." },
+    ],
+    typicalServices: [
+      "Private event bartending",
+      "Wait staff and serving",
+      "Event venue rental",
+      "Short-term accommodation hosting",
+      "Catering assistance",
+      "Event coordination",
+    ],
+    goodFor: [
+      "Individuals hosting private dinner parties",
+      "Companies planning end-of-year functions",
+      "Brides organising DIY weddings",
+    ],
+    whyBouul: [
+      { icon: Star, title: "Direct booking", body: "Skip the agency middlemen and book your preferred staff directly." },
+      { icon: Sparkles, title: "Professional standards", body: "Reviewed on punctuality, presentation, and skill so you know exactly who you're hiring." },
+      { icon: MessageCircle, title: "Event-ready", body: "Handle all logistics from one app \u2014 booking to payment." },
+    ],
+    trustPoints: [
+      "ID-verified hospitality professionals",
+      "Reviews focused on punctuality and presentation",
+      "Cashless digital payments",
+    ],
+    cta: "Book event staff",
+    faqs: [
+      { q: "Do the bartenders bring their own equipment?", a: "You can negotiate this via the chat. Many professional mixologists bring their own shakers and tools, while you provide the alcohol." },
+      { q: "Can I book staff for a full weekend?", a: "Yes, you can discuss availability and multi-day rates directly with the professional through the app." },
     ],
   },
   "locksmiths": {
@@ -564,6 +830,54 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "What if they drip paint on my floors?", a: "Your funds remain in escrow until you approve the final cleanup. Professionals are highly incentivised to protect your property." },
     ],
   },
+  "personal-care": {
+    slug: "personal-care",
+    name: "Beauty & Personal Care",
+    scene: "/scenes/hair_styling.png",
+    tagline: "Top stylists, nail technicians, and barbers booked on your terms, impervious to loadshedding.",
+    hook: {
+      headline: "Flawless aesthetics, delivered to your door.",
+      body: "You have a major event, but the prospect of navigating traffic to sit in a crowded salon \u2014 wondering if the power will hold \u2014 ruins the luxury. Bouul transforms beauty into an elite, mobile service. Connect with highly-rated stylists, makeup artists, and nail technicians who bring fully equipped, battery-powered setups directly to your home. Review portfolios, book instantly, and experience perfection in your own space.",
+    },
+    howItHelps: [
+      { pain: "Salons cancelling or disrupting appointments due to sudden power outages.", solution: "Bouul professionals are equipped with cordless tools and rechargeable UV systems, ensuring uninterrupted service." },
+      { pain: "The inability to verify a stylist's actual capabilities before committing.", solution: "Browse rich, visual portfolios and read authentic reviews from previous clients directly within the app." },
+      { pain: "Wasting valuable weekend hours in transit and salon waiting areas.", solution: "Mobile professionals travel to your residence, office, or hotel, maximising your time." },
+    ],
+    typicalServices: [
+      "Professional hair styling and blowouts",
+      "Braiding and ethnic hair care",
+      "Gel and acrylic nail applications",
+      "Bridal and event makeup artistry",
+      "Eyelash extension installation",
+      "Mobile barbering and grooming",
+      "Threading and facial waxing",
+      "Skincare and facial treatments",
+    ],
+    goodFor: [
+      "Bridal parties requiring on-site preparation",
+      "Corporate executives needing in-office grooming",
+      "Mothers unable to leave home for lengthy treatments",
+      "Individuals seeking premium, private aesthetic services",
+    ],
+    whyBouul: [
+      { icon: Scissors, title: "Visual verification", body: "Don't guess. Assess a professional's capabilities through integrated photo portfolios and real client reviews." },
+      { icon: Star, title: "Loadshedding resilient", body: "Access professionals armed with rechargeable technology, guaranteeing your treatment is completed flawlessly." },
+      { icon: Sparkles, title: "Seamless scheduling", body: "Synchronise availability instantly. No phone tag with receptionists, just confirmed digital bookings." },
+    ],
+    trustPoints: [
+      "Verified photographic portfolios of prior work",
+      "Transparent peer reviews from completed bookings",
+      "Identity verified professionals for safe home entry",
+      "In-app consultation via photo sharing",
+    ],
+    cta: "Book your beauty professional",
+    faqs: [
+      { q: "What happens if there is load shedding during my appointment?", a: "Bouul encourages professionals to use battery-operated equipment. You can confirm their loadshedding readiness via the in-app chat before booking." },
+      { q: "Can I request a specific style or share inspiration photos?", a: "Absolutely. The integrated chat allows you to send reference images to the stylist beforehand." },
+      { q: "Is travel cost included in the price?", a: "Pricing is fully transparent. Any applicable travel surcharges are calculated before you confirm." },
+    ],
+  },
   "pest-control": {
     slug: "pest-control",
     name: "Pest Control",
@@ -609,6 +923,49 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "Are the treatments safe for my dogs and cats?", a: "Many specialists offer pet-safe solutions. You can filter for these professionals and discuss the specific chemicals via chat before booking." },
       { q: "Do I need to leave my house during the treatment?", a: "This depends on the specific pest and treatment method. Your verified professional will advise you on safety protocols via the app before they arrive." },
       { q: "What if the pests return after a week?", a: "You can negotiate warranty periods within the app. Furthermore, your payment remains in escrow for a designated period to ensure the treatment was effective." },
+    ],
+  },
+  "pet-services": {
+    slug: "pet-services",
+    name: "Pet Services",
+    scene: "/scenes/pet_grooming.png",
+    tagline: "Vetted dog walkers, mobile groomers, and pet sitters you can trust implicitly.",
+    hook: {
+      headline: "Premium care for your best friend.",
+      body: "Your pets are family. Handing their leash over to a stranger or putting them in a stressful, noisy grooming parlour causes both of you anxiety. Bouul provides a better way. Connect with thoroughly vetted dog walkers and mobile pet groomers who come directly to your home. Read reviews from other pet parents and enjoy the peace of mind that comes with verified professionals.",
+    },
+    howItHelps: [
+      { pain: "The trauma and anxiety pets face in busy, caged grooming parlours.", solution: "Mobile groomers handle your pet one-on-one in a quiet environment right in your driveway." },
+      { pain: "Worrying if a dog walker is actually exercising your pet or just sitting on a bench.", solution: "Vetted professionals are reviewed on their reliability and engagement by the Bouul community." },
+      { pain: "Finding trustworthy sitters when you need to travel suddenly.", solution: "Identity-verified pet sitters provide absolute peace of mind while you are away." },
+    ],
+    typicalServices: [
+      "Mobile dog and cat grooming",
+      "Daily dog walking services",
+      "In-home pet sitting",
+      "Doggy daycare",
+      "Veterinary home consultations",
+      "Pet training sessions",
+    ],
+    goodFor: [
+      "Busy professionals who work long hours",
+      "Owners of anxious pets who hate car rides",
+      "Frequent travellers needing reliable sitters",
+    ],
+    whyBouul: [
+      { icon: Heart, title: "Stress-free grooming", body: "Mobile grooming vans come to you, offering a quiet, cage-free experience for your pet." },
+      { icon: ShieldCheck, title: "Verified pet lovers", body: "Every service provider is ID-checked and reviewed by other pet owners." },
+      { icon: Star, title: "Secure payments", body: "Pay for regular walking or grooming digitally without the hassle of cash." },
+    ],
+    trustPoints: [
+      "ID-verified pet care professionals",
+      "Reviews from real pet parents",
+      "Digital payment with no cash required",
+    ],
+    cta: "Find trusted pet care",
+    faqs: [
+      { q: "Do mobile groomers need access to my electricity or water?", a: "Most mobile grooming vans are fully self-sufficient with their own water tanks and generators, but you can confirm this in the app chat." },
+      { q: "How do I know the dog walker is reliable?", a: "Every walker has a verified profile with reviews from other pet owners in your area." },
     ],
   },
   "plumbers": {
@@ -657,6 +1014,48 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "What happens if the underlying issue is not fixed?", a: "Your payment remains in a secure escrow facility until the job is signed off. If unresolved, funds are not released, and mediation is provided." },
       { q: "Are the listed plumbers certified?", a: "Providers undergo rigorous ID verification, and many possess formal trade certifications, visible alongside their historical booking ratings." },
       { q: "How do I pay if the scope of work changes?", a: "Adjustments are quoted and approved transparently within the app before further work commences, ensuring zero financial surprises." },
+    ],
+  },
+  "retail": {
+    slug: "retail",
+    name: "Retail & Errands",
+    scene: "/scenes/personal_shopper.png",
+    tagline: "Trusted personal shoppers, errand runners, and retail assistants.",
+    hook: {
+      headline: "Get your time back.",
+      body: "Between work and family, finding the hours to handle specialised shopping, run errands, or execute product demonstrations is exhausting. Bouul gives you access to verified retail assistants and personal shoppers who handle the legwork for you. Track their progress, communicate directly, and pay securely when the task is complete.",
+    },
+    howItHelps: [
+      { pain: "Losing precious weekend hours running mundane errands or shopping for gifts.", solution: "Delegate tasks to vetted individuals and reclaim your free time." },
+      { pain: "Not knowing if a personal shopper has good taste or will waste your money.", solution: "Authentic reviews and portfolios showcase their shopping and gifting abilities." },
+      { pain: "Coordinating complex gift wrapping or product demonstrations on a deadline.", solution: "Communicate requirements via chat and confirm details before they start." },
+    ],
+    typicalServices: [
+      "Personal shopping and errand running",
+      "Mystery shopping",
+      "Product demonstration",
+      "Corporate gift wrapping",
+      "Specialised sourcing",
+    ],
+    goodFor: [
+      "Busy executives with zero free time",
+      "Brands needing mystery shoppers for quality control",
+      "Individuals needing specialised gift sourcing",
+    ],
+    whyBouul: [
+      { icon: Star, title: "Verified trustworthiness", body: "Identity checks ensure you can trust your shopper with instructions and funds." },
+      { icon: Sparkles, title: "Direct communication", body: "Discuss exactly what you need via chat before they hit the stores." },
+      { icon: MessageCircle, title: "Pay on completion", body: "Funds are released only when the task is complete to your satisfaction." },
+    ],
+    trustPoints: [
+      "ID-verified personal shoppers",
+      "Reviews from real clients on taste and reliability",
+      "Escrow-protected payments",
+    ],
+    cta: "Hire a retail assistant",
+    faqs: [
+      { q: "How do I pay for the items they buy?", a: "You can coordinate purchasing logistics securely via the in-app chat before the task begins." },
+      { q: "What if they buy the wrong thing?", a: "You approve the shopping list beforehand. If something goes wrong, your payment is protected in escrow." },
     ],
   },
   "roofers": {
@@ -751,6 +1150,49 @@ const SERVICE_CONFIGS: Record<string, ServicePageConfig> = {
       { q: "What if an unverified tow truck tries to take my car?", a: "Decline their service. Inform them you have a digitally tracked Bouul operator en route." },
       { q: "How is the towing fee calculated?", a: "The fee is calculated based on distance and vehicle type within the app prior to confirmation, eliminating arbitrary release fees." },
       { q: "Are the operators equipped for highway recoveries?", a: "Yes, listed operators possess the necessary beacon lighting and flatbed equipment for safe extractions from major routes like the N1 and M1." },
+    ],
+  },
+  "tree-fellers": {
+    slug: "tree-fellers",
+    name: "Tree Fellers",
+    scene: "/scenes/garden_maintenance.png",
+    tagline: "Fully insured, vetted tree felling experts offering safe extraction and digital payment.",
+    hook: {
+      headline: "Remove the risk, not just the tree.",
+      body: "A dead tree threatening your roof is a massive liability. But hiring a 'cash only' team off the street without insurance is an even bigger one. If they drop a branch on your house, you're paying for it. Bouul connects you only with vetted tree fellers. Verify their credentials, agree on a price, and protect your funds in escrow until the tree is gone and the rubble is cleared.",
+    },
+    howItHelps: [
+      { pain: "Cowboy operators demanding cash but holding no liability insurance.", solution: "Bouul allows you to verify credentials and protects your payment in escrow if damage occurs." },
+      { pain: "Teams felling the tree but leaving massive piles of branches behind.", solution: "In-app quoting clearly specifies rubble removal, ensuring the job is finished properly." },
+      { pain: "Dangerous operations putting your family and property at risk.", solution: "Read reviews from real users specifically praising safety protocols and clean-up." },
+    ],
+    typicalServices: [
+      "Dangerous tree removal",
+      "Stump grinding and removal",
+      "Palm tree pruning",
+      "Large branch trimming",
+      "Root system excavation",
+      "Site clearing and refuse removal",
+    ],
+    goodFor: [
+      "Homeowners with storm-damaged trees",
+      "Estates needing routine, safe canopy management",
+      "Property developers clearing stands",
+    ],
+    whyBouul: [
+      { icon: Wrench, title: "Accountability built-in", body: "Real reviews ensure contractors don't get away with property damage or leaving a mess behind." },
+      { icon: ShieldCheck, title: "Escrow protection", body: "Release funds only when the tree is safely down and all refuse has been cleared from your property." },
+      { icon: MessageCircle, title: "Chat with photos", body: "Send a picture of the tree and access constraints so the team arrives with the right equipment." },
+    ],
+    trustPoints: [
+      "Digital escrow prevents cash extortion on site",
+      "Verification of identity for all site workers",
+      "Platform accountability prevents hit-and-run property damage",
+    ],
+    cta: "Book a verified tree feller",
+    faqs: [
+      { q: "Will they remove the wood and branches?", a: "Yes, you can specifically request 'felling and refuse removal' in the app to ensure your quote covers full clean-up." },
+      { q: "Can they remove the stump too?", a: "Stump grinding is a separate specialized service that many of our vetted professionals offer. You can request this in your initial brief." },
     ],
   },
   "tutoring": {
@@ -1121,4 +1563,5 @@ function ServiceUseCaseInner({ slug }: { slug: string }) {
     </main>
   );
 }
+
 

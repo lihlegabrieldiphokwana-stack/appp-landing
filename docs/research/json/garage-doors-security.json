@@ -1,0 +1,67 @@
+{
+  "slug": "garage-doors-security",
+  "name": "Garage Doors & Security",
+  "scene": "/scenes/interior_design.png",
+  "tagline": "Verified technicians to fix your automated doors and security systems, fast.",
+  "hook_headline": "Secure your perimeter immediately.",
+  "hook_body": "Your garage door is jammed halfway up, leaving your home completely exposed. This isn't a problem for tomorrow. You need a trusted technician right now, but scrolling through unverified Google results feels like a security risk in itself. Bouul shows you vetted, available technicians nearby. Track their arrival live and restore your home's security within hours.",
+  "pains": [
+    [
+      "A broken gate or garage door leaves your entire property vulnerable overnight.",
+      "Bouul prioritises speed, showing you who is available immediately for emergency repairs."
+    ],
+    [
+      "Security anxiety about who is actually installing your cameras or fixing your gate.",
+      "Every technician undergoes strict identity verification before joining the platform."
+    ],
+    [
+      "Paying for a fix only for the motor to fail again two days later.",
+      "Hold funds in escrow to ensure the repair actually holds, backed by platform accountability."
+    ]
+  ],
+  "services": [
+    "Garage door motor repair",
+    "Broken spring replacement",
+    "Electric gate motor fixes",
+    "CCTV camera installation",
+    "Electric fence troubleshooting",
+    "Intercom system repair",
+    "Access control installation"
+  ],
+  "audience": [
+    "Homeowners with jammed gates or garage doors",
+    "Individuals upgrading their home security perimeter",
+    "Tenants needing rapid access repairs"
+  ],
+  "why_icons": [
+    "Home",
+    "ShieldCheck",
+    "Wrench"
+  ],
+  "why_titles": [
+    "Immediate dispatch",
+    "Strict identity vetting",
+    "Upfront parts pricing"
+  ],
+  "why_bodies": [
+    "Security flaws don't wait. See who is available nearby and track their arrival to your gate.",
+    "Never let an unverified stranger handle your home's access control systems.",
+    "Approve the cost of replacement motors or sensors in-app before work begins."
+  ],
+  "trust": [
+    "Mandatory ID verification for security technicians",
+    "Live tracking for rapid emergency response",
+    "Escrow facility for expensive motor replacements"
+  ],
+  "cta": "Fix your security now",
+  "faqs": [
+    [
+      "Can they supply the replacement motor?",
+      "Yes, technicians can quote for both labour and parts (like Centurion or Gemini motors) directly within the app."
+    ],
+    [
+      "How quickly can they arrive for an emergency?",
+      "You can filter by immediate availability. In major metros, technicians can often be on-site within an hour."
+    ]
+  ]
+}

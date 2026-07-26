@@ -1,0 +1,66 @@
+{
+  "slug": "pet-services",
+  "name": "Pet Services",
+  "scene": "/scenes/pet_grooming.png",
+  "tagline": "Vetted dog walkers, mobile groomers, and pet sitters you can trust implicitly.",
+  "hook_headline": "Premium care for your best friend.",
+  "hook_body": "Your pets are family. Handing their leash over to a stranger or putting them in a stressful, noisy grooming parlour causes both of you anxiety. Bouul provides a better way. Connect with thoroughly vetted dog walkers and mobile pet groomers who come directly to your home. Read reviews from other pet parents and enjoy the peace of mind that comes with verified professionals.",
+  "pains": [
+    [
+      "The trauma and anxiety pets face in busy, caged grooming parlours.",
+      "Mobile groomers handle your pet one-on-one in a quiet environment right in your driveway."
+    ],
+    [
+      "Worrying if a dog walker is actually exercising your pet or just sitting on a bench.",
+      "Vetted professionals are reviewed on their reliability and engagement by the Bouul community."
+    ],
+    [
+      "Finding trustworthy sitters when you need to travel suddenly.",
+      "Identity-verified pet sitters provide absolute peace of mind while you are away."
+    ]
+  ],
+  "services": [
+    "Mobile dog and cat grooming",
+    "Daily dog walking services",
+    "In-home pet sitting",
+    "Doggy daycare",
+    "Veterinary home consultations",
+    "Pet training sessions"
+  ],
+  "audience": [
+    "Busy professionals who work long hours",
+    "Owners of anxious pets who hate car rides",
+    "Frequent travellers needing reliable sitters"
+  ],
+  "why_icons": [
+    "Heart",
+    "ShieldCheck",
+    "Star"
+  ],
+  "why_titles": [
+    "Stress-free grooming",
+    "Verified pet lovers",
+    "Secure payments"
+  ],
+  "why_bodies": [
+    "Mobile grooming vans come to you, offering a quiet, cage-free experience for your pet.",
+    "Every service provider is ID-checked and reviewed by other pet owners.",
+    "Pay for regular walking or grooming digitally without the hassle of cash."
+  ],
+  "trust": [
+    "ID-verified pet care professionals",
+    "Reviews from real pet parents",
+    "Digital payment with no cash required"
+  ],
+  "cta": "Find trusted pet care",
+  "faqs": [
+    [
+      "Do mobile groomers need access to my electricity or water?",
+      "Most mobile grooming vans are fully self-sufficient with their own water tanks and generators, but you can confirm this in the app chat."
+    ],
+    [
+      "How do I know the dog walker is reliable?",
+      "Every walker has a verified profile with reviews from other pet owners in your area."
+    ]
+  ]
+}

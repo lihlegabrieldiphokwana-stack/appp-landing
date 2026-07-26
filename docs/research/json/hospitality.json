@@ -1,0 +1,66 @@
+{
+  "slug": "hospitality",
+  "name": "Hospitality & Events",
+  "scene": "/scenes/interior_design.png",
+  "tagline": "Vetted bartending, wait staff, and hospitality professionals for your next event.",
+  "hook_headline": "Host like a professional, effortlessly.",
+  "hook_body": "Hosting an event should be celebratory, not a stressful marathon of serving drinks and cleaning plates. But hiring reliable temporary staff is historically a gamble. Bouul connects you with ID-verified, experienced hospitality professionals. Whether you need a mixologist for a dinner party or wait staff for a corporate function, browse profiles, check reviews, and handle payments seamlessly.",
+  "pains": [
+    [
+      "Agencies charging exorbitant overhead fees for temporary event staff.",
+      "Connect directly with the professionals, ensuring fair wages for them and better prices for you."
+    ],
+    [
+      "Staff arriving late or not knowing how to serve professionally.",
+      "Platform reviews highlight punctuality, presentation, and skill."
+    ],
+    [
+      "The stress of managing event logistics while trying to enjoy the occasion.",
+      "Handle all bookings, communication, and payments through the app so you can focus on your guests."
+    ]
+  ],
+  "services": [
+    "Private event bartending",
+    "Wait staff and serving",
+    "Event venue rental",
+    "Short-term accommodation hosting",
+    "Catering assistance",
+    "Event coordination"
+  ],
+  "audience": [
+    "Individuals hosting private dinner parties",
+    "Companies planning end-of-year functions",
+    "Brides organising DIY weddings"
+  ],
+  "why_icons": [
+    "Star",
+    "Sparkles",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Direct booking",
+    "Professional standards",
+    "Event-ready"
+  ],
+  "why_bodies": [
+    "Skip the agency middlemen and book your preferred staff directly.",
+    "Reviewed on punctuality, presentation, and skill so you know exactly who you're hiring.",
+    "Handle all logistics from one app \u2014 booking to payment."
+  ],
+  "trust": [
+    "ID-verified hospitality professionals",
+    "Reviews focused on punctuality and presentation",
+    "Cashless digital payments"
+  ],
+  "cta": "Book event staff",
+  "faqs": [
+    [
+      "Do the bartenders bring their own equipment?",
+      "You can negotiate this via the chat. Many professional mixologists bring their own shakers and tools, while you provide the alcohol."
+    ],
+    [
+      "Can I book staff for a full weekend?",
+      "Yes, you can discuss availability and multi-day rates directly with the professional through the app."
+    ]
+  ]
+}

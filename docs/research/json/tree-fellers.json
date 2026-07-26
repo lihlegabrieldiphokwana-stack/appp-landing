@@ -1,0 +1,66 @@
+{
+  "slug": "tree-fellers",
+  "name": "Tree Fellers",
+  "scene": "/scenes/garden_maintenance.png",
+  "tagline": "Fully insured, vetted tree felling experts offering safe extraction and digital payment.",
+  "hook_headline": "Remove the risk, not just the tree.",
+  "hook_body": "A dead tree threatening your roof is a massive liability. But hiring a 'cash only' team off the street without insurance is an even bigger one. If they drop a branch on your house, you're paying for it. Bouul connects you only with vetted tree fellers. Verify their credentials, agree on a price, and protect your funds in escrow until the tree is gone and the rubble is cleared.",
+  "pains": [
+    [
+      "Cowboy operators demanding cash but holding no liability insurance.",
+      "Bouul allows you to verify credentials and protects your payment in escrow if damage occurs."
+    ],
+    [
+      "Teams felling the tree but leaving massive piles of branches behind.",
+      "In-app quoting clearly specifies rubble removal, ensuring the job is finished properly."
+    ],
+    [
+      "Dangerous operations putting your family and property at risk.",
+      "Read reviews from real users specifically praising safety protocols and clean-up."
+    ]
+  ],
+  "services": [
+    "Dangerous tree removal",
+    "Stump grinding and removal",
+    "Palm tree pruning",
+    "Large branch trimming",
+    "Root system excavation",
+    "Site clearing and refuse removal"
+  ],
+  "audience": [
+    "Homeowners with storm-damaged trees",
+    "Estates needing routine, safe canopy management",
+    "Property developers clearing stands"
+  ],
+  "why_icons": [
+    "Wrench",
+    "ShieldCheck",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Accountability built-in",
+    "Escrow protection",
+    "Chat with photos"
+  ],
+  "why_bodies": [
+    "Real reviews ensure contractors don't get away with property damage or leaving a mess behind.",
+    "Release funds only when the tree is safely down and all refuse has been cleared from your property.",
+    "Send a picture of the tree and access constraints so the team arrives with the right equipment."
+  ],
+  "trust": [
+    "Digital escrow prevents cash extortion on site",
+    "Verification of identity for all site workers",
+    "Platform accountability prevents hit-and-run property damage"
+  ],
+  "cta": "Book a verified tree feller",
+  "faqs": [
+    [
+      "Will they remove the wood and branches?",
+      "Yes, you can specifically request 'felling and refuse removal' in the app to ensure your quote covers full clean-up."
+    ],
+    [
+      "Can they remove the stump too?",
+      "Stump grinding is a separate specialized service that many of our vetted professionals offer. You can request this in your initial brief."
+    ]
+  ]
+}

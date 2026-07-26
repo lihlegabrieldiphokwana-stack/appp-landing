@@ -1,0 +1,65 @@
+{
+  "slug": "retail",
+  "name": "Retail & Errands",
+  "scene": "/scenes/personal_shopper.png",
+  "tagline": "Trusted personal shoppers, errand runners, and retail assistants.",
+  "hook_headline": "Get your time back.",
+  "hook_body": "Between work and family, finding the hours to handle specialised shopping, run errands, or execute product demonstrations is exhausting. Bouul gives you access to verified retail assistants and personal shoppers who handle the legwork for you. Track their progress, communicate directly, and pay securely when the task is complete.",
+  "pains": [
+    [
+      "Losing precious weekend hours running mundane errands or shopping for gifts.",
+      "Delegate tasks to vetted individuals and reclaim your free time."
+    ],
+    [
+      "Not knowing if a personal shopper has good taste or will waste your money.",
+      "Authentic reviews and portfolios showcase their shopping and gifting abilities."
+    ],
+    [
+      "Coordinating complex gift wrapping or product demonstrations on a deadline.",
+      "Communicate requirements via chat and confirm details before they start."
+    ]
+  ],
+  "services": [
+    "Personal shopping and errand running",
+    "Mystery shopping",
+    "Product demonstration",
+    "Corporate gift wrapping",
+    "Specialised sourcing"
+  ],
+  "audience": [
+    "Busy executives with zero free time",
+    "Brands needing mystery shoppers for quality control",
+    "Individuals needing specialised gift sourcing"
+  ],
+  "why_icons": [
+    "Star",
+    "Sparkles",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Verified trustworthiness",
+    "Direct communication",
+    "Pay on completion"
+  ],
+  "why_bodies": [
+    "Identity checks ensure you can trust your shopper with instructions and funds.",
+    "Discuss exactly what you need via chat before they hit the stores.",
+    "Funds are released only when the task is complete to your satisfaction."
+  ],
+  "trust": [
+    "ID-verified personal shoppers",
+    "Reviews from real clients on taste and reliability",
+    "Escrow-protected payments"
+  ],
+  "cta": "Hire a retail assistant",
+  "faqs": [
+    [
+      "How do I pay for the items they buy?",
+      "You can coordinate purchasing logistics securely via the in-app chat before the task begins."
+    ],
+    [
+      "What if they buy the wrong thing?",
+      "You approve the shopping list beforehand. If something goes wrong, your payment is protected in escrow."
+    ]
+  ]
+}

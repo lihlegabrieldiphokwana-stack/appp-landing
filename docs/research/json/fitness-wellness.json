@@ -1,0 +1,66 @@
+{
+  "slug": "fitness-wellness",
+  "name": "Fitness & Wellness",
+  "scene": "/scenes/personal_training.png",
+  "tagline": "Top-rated personal trainers, yoga instructors, and massage therapists brought to your door.",
+  "hook_headline": "Your goals. Your space. Your schedule.",
+  "hook_body": "Finding the motivation to fight traffic to get to a crowded gym is the biggest hurdle to your fitness goals. What if the studio came to you? Bouul connects you with vetted personal trainers, yoga instructors, and wellness coaches who train you in your living room, garden, or local park. See their specialties, read client reviews, and pay securely in-app.",
+  "pains": [
+    [
+      "The intimidation factor of crowded commercial gyms.",
+      "Train in the privacy of your own home with a professional focused entirely on you."
+    ],
+    [
+      "Wasting an hour commuting to a 45-minute workout class.",
+      "Your trainer or therapist comes to your specified location, saving you massive amounts of time."
+    ],
+    [
+      "Paying for gym memberships you never end up using.",
+      "Pay per session or buy packages directly from the professional, with funds securely managed."
+    ]
+  ],
+  "services": [
+    "One-on-one personal training",
+    "Private yoga and pilates sessions",
+    "Sports and deep tissue massage",
+    "Nutrition and meal planning",
+    "Life coaching and breathwork",
+    "Meditation sessions"
+  ],
+  "audience": [
+    "Busy executives needing early morning home workouts",
+    "New mothers wanting privacy for postpartum fitness",
+    "Athletes requiring at-home recovery massage"
+  ],
+  "why_icons": [
+    "Star",
+    "ShieldCheck",
+    "Heart"
+  ],
+  "why_titles": [
+    "Complete convenience",
+    "Verified results",
+    "Direct communication"
+  ],
+  "why_bodies": [
+    "Workout or recover at home, in your estate gym, or at a local park.",
+    "Read reviews from real clients to ensure the trainer actually delivers on their promises.",
+    "Discuss injuries, goals, and equipment availability via chat before they arrive."
+  ],
+  "trust": [
+    "Identity-verified trainers and therapists",
+    "Real client reviews verifying results",
+    "Flexible pay-per-session options"
+  ],
+  "cta": "Book a wellness professional",
+  "faqs": [
+    [
+      "Do I need to own gym equipment?",
+      "Not necessarily. Many trainers specialise in bodyweight workouts or bring their own kettlebells and bands."
+    ],
+    [
+      "Can I buy a package of sessions?",
+      "Yes, many professionals offer session packages. These are securely managed through the app."
+    ]
+  ]
+}
