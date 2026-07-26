@@ -33,133 +33,133 @@ const serviceCategories = [
   {
     name: "Cleaning Services",
     services: [
-      { name: "House Cleaning", slug: "house-cleaning", count: 0 /**/312 },
-      { name: "Carpet Cleaning", slug: "carpet-cleaning", count: 0 /**/145 },
-      { name: "Office Cleaning", slug: "office-cleaning", count: 0 /**/178 },
-      { name: "Deep Cleaning", slug: "deep-cleaning", count: 0 /**/167 },
-      { name: "Move-In/Out Cleaning", slug: "move-cleaning", count: 0 /**/134 },
-      { name: "Window Cleaning", slug: "window-cleaning", count: 0 /**/98 },
-      { name: "Upholstery Cleaning", slug: "upholstery-cleaning", count: 0 /**/76 },
-      { name: "Pressure Washing", slug: "pressure-washing", count: 0 /**/89 },
+      { name: "House Cleaning", slug: "house-cleaning" },
+      { name: "Carpet Cleaning", slug: "carpet-cleaning" },
+      { name: "Office Cleaning", slug: "office-cleaning" },
+      { name: "Deep Cleaning", slug: "deep-cleaning" },
+      { name: "Move-In/Out Cleaning", slug: "move-cleaning" },
+      { name: "Window Cleaning", slug: "window-cleaning" },
+      { name: "Upholstery Cleaning", slug: "upholstery-cleaning" },
+      { name: "Pressure Washing", slug: "pressure-washing" },
     ],
   },
   {
     name: "Beauty & Wellness",
     services: [
-      { name: "Hairdressers", slug: "hairdressers", count: 0 /**/267 },
-      { name: "Barbers", slug: "barbers", count: 0 /**/198 },
-      { name: "Nail Technicians", slug: "nail-technicians", count: 0 /**/234 },
-      { name: "Massage Therapists", slug: "massage-therapists", count: 0 /**/156 },
-      { name: "Facial Treatments", slug: "facial-treatments", count: 0 /**/145 },
-      { name: "Makeup Artists", slug: "makeup-artists", count: 0 /**/178 },
-      { name: "Eyelash & Brows", slug: "eyelash-brows", count: 0 /**/167 },
-      { name: "Spas", slug: "spas", count: 0 /**/89 },
-      { name: "Personal Trainers", slug: "personal-trainers", count: 0 /**/134 },
-      { name: "Yoga Instructors", slug: "yoga-instructors", count: 0 /**/78 },
+      { name: "Hairdressers", slug: "hairdressers" },
+      { name: "Barbers", slug: "barbers" },
+      { name: "Nail Technicians", slug: "nail-technicians" },
+      { name: "Massage Therapists", slug: "massage-therapists" },
+      { name: "Facial Treatments", slug: "facial-treatments" },
+      { name: "Makeup Artists", slug: "makeup-artists" },
+      { name: "Eyelash & Brows", slug: "eyelash-brows" },
+      { name: "Spas", slug: "spas" },
+      { name: "Personal Trainers", slug: "personal-trainers" },
+      { name: "Yoga Instructors", slug: "yoga-instructors" },
     ],
   },
   {
     name: "Automotive",
     services: [
-      { name: "Mechanics", slug: "mechanics", count: 0 /**/189 },
-      { name: "Car Detailing", slug: "car-detailing", count: 0 /**/156 },
-      { name: "Panel Beaters", slug: "panel-beaters", count: 0 /**/87 },
-      { name: "Towing Services", slug: "towing-services", count: 0 /**/67 },
-      { name: "Car Wash", slug: "car-wash", count: 0 /**/134 },
-      { name: "Windscreen Repair", slug: "windscreen-repair", count: 0 /**/54 },
-      { name: "Auto Electricians", slug: "auto-electricians", count: 0 /**/78 },
+      { name: "Mechanics", slug: "mechanics" },
+      { name: "Car Detailing", slug: "car-detailing" },
+      { name: "Panel Beaters", slug: "panel-beaters" },
+      { name: "Towing Services", slug: "towing-services" },
+      { name: "Car Wash", slug: "car-wash" },
+      { name: "Windscreen Repair", slug: "windscreen-repair" },
+      { name: "Auto Electricians", slug: "auto-electricians" },
     ],
   },
   {
     name: "Education & Tuition",
     services: [
-      { name: "Math Tutors", slug: "math-tutors", count: 0 /**/234 },
-      { name: "English Tutors", slug: "english-tutors", count: 0 /**/198 },
-      { name: "Science Tutors", slug: "science-tutors", count: 0 /**/167 },
-      { name: "Language Lessons", slug: "language-lessons", count: 0 /**/145 },
-      { name: "Music Lessons", slug: "music-lessons", count: 0 /**/178 },
-      { name: "Computer Lessons", slug: "computer-lessons", count: 0 /**/134 },
-      { name: "Homework Help", slug: "homework-help", count: 0 /**/112 },
-      { name: "Exam Prep", slug: "exam-prep", count: 0 /**/98 },
+      { name: "Math Tutors", slug: "math-tutors" },
+      { name: "English Tutors", slug: "english-tutors" },
+      { name: "Science Tutors", slug: "science-tutors" },
+      { name: "Language Lessons", slug: "language-lessons" },
+      { name: "Music Lessons", slug: "music-lessons" },
+      { name: "Computer Lessons", slug: "computer-lessons" },
+      { name: "Homework Help", slug: "homework-help" },
+      { name: "Exam Prep", slug: "exam-prep" },
     ],
   },
   {
     name: "Health & Medical",
     services: [
-      { name: "Physiotherapists", slug: "physiotherapists", count: 0 /**/145 },
-      { name: "Dietitians", slug: "dietitians", count: 0 /**/98 },
-      { name: "Counselors", slug: "counselors", count: 0 /**/134 },
-      { name: "Nurses", slug: "nurses", count: 0 /**/167 },
-      { name: "Elderly Care", slug: "elderly-care", count: 0 /**/189 },
-      { name: "Baby Nurses", slug: "baby-nurses", count: 0 /**/156 },
-      { name: "First Aid Training", slug: "first-aid-training", count: 0 /**/67 },
+      { name: "Physiotherapists", slug: "physiotherapists" },
+      { name: "Dietitians", slug: "dietitians" },
+      { name: "Counselors", slug: "counselors" },
+      { name: "Nurses", slug: "nurses" },
+      { name: "Elderly Care", slug: "elderly-care" },
+      { name: "Baby Nurses", slug: "baby-nurses" },
+      { name: "First Aid Training", slug: "first-aid-training" },
     ],
   },
   {
     name: "Events & Photography",
     services: [
-      { name: "Photographers", slug: "photographers", count: 0 /**/198 },
-      { name: "Videographers", slug: "videographers", count: 0 /**/156 },
-      { name: "Event Planners", slug: "event-planners", count: 0 /**/134 },
-      { name: "Caterers", slug: "caterers", count: 0 /**/167 },
-      { name: "DJs", slug: "djs", count: 0 /**/145 },
-      { name: "Live Bands", slug: "live-bands", count: 0 /**/89 },
-      { name: "Decorators", slug: "decorators", count: 0 /**/112 },
-      { name: "MCs", slug: "mcs", count: 0 /**/78 },
+      { name: "Photographers", slug: "photographers" },
+      { name: "Videographers", slug: "videographers" },
+      { name: "Event Planners", slug: "event-planners" },
+      { name: "Caterers", slug: "caterers" },
+      { name: "DJs", slug: "djs" },
+      { name: "Live Bands", slug: "live-bands" },
+      { name: "Decorators", slug: "decorators" },
+      { name: "MCs", slug: "mcs" },
     ],
   },
   {
     name: "Professional Services",
     services: [
-      { name: "Accountants", slug: "accountants", count: 0 /**/167 },
-      { name: "Bookkeepers", slug: "bookkeepers", count: 0 /**/134 },
-      { name: "Tax Consultants", slug: "tax-consultants", count: 0 /**/112 },
-      { name: "Legal Services", slug: "legal-services", count: 0 /**/98 },
-      { name: "Business Consultants", slug: "business-consultants", count: 0 /**/89 },
-      { name: "Marketing Agencies", slug: "marketing-agencies", count: 0 /**/78 },
-      { name: "Web Designers", slug: "web-designers", count: 0 /**/145 },
-      { name: "Graphic Designers", slug: "graphic-designers", count: 0 /**/156 },
+      { name: "Accountants", slug: "accountants" },
+      { name: "Bookkeepers", slug: "bookkeepers" },
+      { name: "Tax Consultants", slug: "tax-consultants" },
+      { name: "Legal Services", slug: "legal-services" },
+      { name: "Business Consultants", slug: "business-consultants" },
+      { name: "Marketing Agencies", slug: "marketing-agencies" },
+      { name: "Web Designers", slug: "web-designers" },
+      { name: "Graphic Designers", slug: "graphic-designers" },
     ],
   },
   {
     name: "Pets",
     services: [
-      { name: "Pet Groomers", slug: "pet-groomers", count: 0 /**/134 },
-      { name: "Dog Walkers", slug: "dog-walkers", count: 0 /**/98 },
-      { name: "Pet Sitters", slug: "pet-sitters", count: 0 /**/112 },
-      { name: "Veterinarians", slug: "veterinarians", count: 0 /**/87 },
-      { name: "Pet Training", slug: "pet-training", count: 0 /**/76 },
+      { name: "Pet Groomers", slug: "pet-groomers" },
+      { name: "Dog Walkers", slug: "dog-walkers" },
+      { name: "Pet Sitters", slug: "pet-sitters" },
+      { name: "Veterinarians", slug: "veterinarians" },
+      { name: "Pet Training", slug: "pet-training" },
     ],
   },
   {
     name: "Logistics & Moving",
     services: [
-      { name: "Removal Companies", slug: "removal-companies", count: 0 /**/145 },
-      { name: "Courier Services", slug: "courier-services", count: 0 /**/167 },
-      { name: "Furniture Delivery", slug: "furniture-delivery", count: 0 /**/134 },
-      { name: "Storage Services", slug: "storage-services", count: 0 /**/89 },
-      { name: "Skip Hire", slug: "skip-hire", count: 0 /**/67 },
+      { name: "Removal Companies", slug: "removal-companies" },
+      { name: "Courier Services", slug: "courier-services" },
+      { name: "Furniture Delivery", slug: "furniture-delivery" },
+      { name: "Storage Services", slug: "storage-services" },
+      { name: "Skip Hire", slug: "skip-hire" },
     ],
   },
   {
     name: "Tech & IT",
     services: [
-      { name: "IT Support", slug: "it-support", count: 0 /**/178 },
-      { name: "Computer Repair", slug: "computer-repair", count: 0 /**/156 },
-      { name: "Network Installation", slug: "network-installation", count: 0 /**/98 },
-      { name: "Security Systems", slug: "security-systems", count: 0 /**/134 },
-      { name: "CCTV Installation", slug: "cctv-installation", count: 0 /**/112 },
-      { name: "Data Recovery", slug: "data-recovery", count: 0 /**/67 },
+      { name: "IT Support", slug: "it-support" },
+      { name: "Computer Repair", slug: "computer-repair" },
+      { name: "Network Installation", slug: "network-installation" },
+      { name: "Security Systems", slug: "security-systems" },
+      { name: "CCTV Installation", slug: "cctv-installation" },
+      { name: "Data Recovery", slug: "data-recovery" },
     ],
   },
   {
     name: "Legal & Financial",
     services: [
-      { name: "Attorneys", slug: "attorneys", count: 0 /**/145 },
-      { name: "Notaries", slug: "notaries", count: 0 /**/78 },
-      { name: "Financial Advisors", slug: "financial-advisors", count: 0 /**/112 },
-      { name: "Insurance Agents", slug: "insurance-agents", count: 0 /**/98 },
-      { name: "Real Estate Agents", slug: "real-estate-agents", count: 0 /**/167 },
+      { name: "Attorneys", slug: "attorneys" },
+      { name: "Notaries", slug: "notaries" },
+      { name: "Financial Advisors", slug: "financial-advisors" },
+      { name: "Insurance Agents", slug: "insurance-agents" },
+      { name: "Real Estate Agents", slug: "real-estate-agents" },
     ],
   },
 ];
@@ -272,12 +272,9 @@ export default function ServicesPage() {
                           }}
                         />
                       </div>
-                      <div className="flex items-center justify-between px-4 py-3">
+                      <div className="px-4 py-3">
                         <div className="text-b-ink font-semibold group-hover:text-b-green-deep transition-colors">
                           {service.name}
-                        </div>
-                        <div className="text-b-ink-faint text-xs whitespace-nowrap ml-2">
-                          {service.count}
                         </div>
                       </div>
                     </Link>
@@ -404,9 +401,6 @@ export default function ServicesPage() {
                     >
                       <div className="text-b-ink-soft group-hover:text-b-ink transition-colors">
                         {service.name}
-                      </div>
-                      <div className="text-b-ink-faint text-sm group-hover:text-b-green-deep transition-colors">
-                        {service.count}
                       </div>
                     </Link>
                   ))}
