@@ -1,0 +1,73 @@
+{
+  "slug": "painters",
+  "name": "Painters",
+  "scene": "/scenes/painting_service.png",
+  "tagline": "Professional painting contractors verified for quality, tidiness, and reliability.",
+  "hook_headline": "Flawless finishes without the disruption.",
+  "hook_body": "A fresh coat of paint transforms a space, but managing unreliable contractors who leave your home in disarray is a nightmare. You need a team that respects your property, covers your furniture, and delivers perfectly cut-in lines. Bouul connects you with vetted painting professionals. Review portfolios of their previous work, agree on a transparent price, and protect your budget with escrow until the final inspection is flawless.",
+  "pains": [
+    [
+      "Contractors who fail to prepare surfaces properly, leading to peeling paint within months.",
+      "Bouul professionals are reviewed on long-term quality, ensuring they utilise proper priming and crack-filling techniques."
+    ],
+    [
+      "Workers leaving a chaotic mess of splatters and debris in your living space.",
+      "Authentic peer reviews explicitly highlight contractors who maintain pristine, respectful work environments."
+    ],
+    [
+      "Vague quotes that magically escalate halfway through the job.",
+      "In-app quoting and escrow payments guarantee you only pay the agreed-upon price."
+    ]
+  ],
+  "services": [
+    "Interior residential painting",
+    "Exterior wall coatings",
+    "Ceiling crack repair and painting",
+    "Boundary wall restoration",
+    "Roof painting and sealing",
+    "Varnishing and wood treatment",
+    "Waterproof coating application"
+  ],
+  "audience": [
+    "Homeowners modernising their living spaces",
+    "Sellers preparing properties for the market",
+    "Tenants needing to restore walls before moving out",
+    "Estate managers maintaining complex aesthetics"
+  ],
+  "why_icons": [
+    "Paintbrush",
+    "ShieldCheck",
+    "Star"
+  ],
+  "why_titles": [
+    "Visual verification",
+    "Respect for your property",
+    "Protected payments"
+  ],
+  "why_bodies": [
+    "Browse actual photos of completed jobs to ensure the contractor's standard meets your expectations.",
+    "ID-verified teams are held accountable by permanent reviews focusing on tidiness and professionalism.",
+    "Release funds from escrow only when the paint is dry and you are completely satisfied with the finish."
+  ],
+  "trust": [
+    "Verified portfolios of previous painting projects",
+    "Escrow protection against material theft or abandonment",
+    "Mandatory ID verification for all crew members on site",
+    "Transparent pricing structures"
+  ],
+  "cta": "Request a painting quote",
+  "faqs": [
+    [
+      "Do the painters supply the paint, or do I?",
+      "You can negotiate this directly in the app. Contractors can quote for labour only, or provide a comprehensive quote including premium materials."
+    ],
+    [
+      "How is access managed for multi-day jobs?",
+      "You maintain control. The app allows you to communicate daily schedules, and ID verification ensures estate security clearance is seamless."
+    ],
+    [
+      "What if they drip paint on my floors?",
+      "Your funds remain in escrow until you approve the final cleanup. Professionals are highly incentivised to protect your property."
+    ]
+  ]
+}

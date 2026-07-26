@@ -1,0 +1,73 @@
+{
+  "slug": "tutoring",
+  "name": "Tutoring",
+  "scene": "/scenes/tutoring_service.png",
+  "tagline": "Specialist CAPS and IEB tutors matched to your child's learning style.",
+  "hook_headline": "Secure their university future without the stress.",
+  "hook_body": "Matric pressure is mounting, and generalised extra lessons are no longer sufficient. Your child needs strategic intervention tailored to the rigorous demands of the IEB or CAPS curriculum. Bouul connects you with vetted academic specialists who focus on conceptual rebuilding and exam technique. Review academic credentials, arrange secure sessions, and track progress.",
+  "pains": [
+    [
+      "Hiring a generalist tutor who doesn't understand the specific nuances of the IEB curriculum.",
+      "Filter educators specifically by their curriculum expertise and prior examiner experience."
+    ],
+    [
+      "Lack of transparency regarding the tutor's actual academic credentials.",
+      "Bouul mandates strict vetting of academic qualifications and identity before listing."
+    ],
+    [
+      "The logistical nightmare of driving children to tutoring centres during peak traffic.",
+      "Choose between secure, in-home sessions with ID-verified tutors or integrated online learning."
+    ]
+  ],
+  "services": [
+    "Matric IEB Mathematics preparation",
+    "Physical Science conceptual rebuilding",
+    "English Home Language essay structuring",
+    "Accounting exam technique",
+    "Primary school foundational literacy",
+    "Cambridge curriculum support",
+    "Exam technique coaching"
+  ],
+  "audience": [
+    "Parents of high school students facing critical NSC exams",
+    "Learners transitioning between DBE and private education",
+    "Students requiring specialised attention for learning barriers",
+    "Homeschooling families seeking structured support"
+  ],
+  "why_icons": [
+    "BookOpen",
+    "GraduationCap",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Curriculum-specific matching",
+    "Verified academic excellence",
+    "Structured progress tracking"
+  ],
+  "why_bodies": [
+    "Use Zola AI to find tutors specifically trained in IEB, CAPS, or Cambridge methodologies.",
+    "Every tutor's educational background and identity are rigorously authenticated.",
+    "Communicate directly with the educator to establish goals and monitor milestone achievements."
+  ],
+  "trust": [
+    "Stringent identity and criminal background checks",
+    "Verification of university degrees and teaching certificates",
+    "Authentic reviews from other parents",
+    "In-home or online session flexibility"
+  ],
+  "cta": "Find a curriculum specialist",
+  "faqs": [
+    [
+      "Do you have tutors familiar with the IEB marking guidelines?",
+      "Yes, many professionals on the platform specialise exclusively in the IEB curriculum."
+    ],
+    [
+      "Are the sessions conducted online or in person?",
+      "Both options are available. You can filter for educators who travel to your suburb, or opt for digital sessions."
+    ],
+    [
+      "Can I change tutors if it's not a good fit?",
+      "Yes. You can book a trial session and easily switch to a different specialist if the teaching style doesn't match."
+    ]
+  ]
+}

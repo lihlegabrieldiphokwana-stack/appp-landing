@@ -1,0 +1,73 @@
+{
+  "slug": "cleaners",
+  "name": "Cleaners",
+  "scene": "/scenes/house_cleaning.png",
+  "tagline": "Vetted, reliable cleaning professionals you can actually communicate with.",
+  "hook_headline": "Reclaim your weekend without the security anxiety.",
+  "hook_body": "The house requires a deep clean, but the prospect of navigating platforms that send a different, unverified stranger every week is exhausting. You require consistency, rigorous security vetting, and direct communication. Bouul empowers you to select and re-book specific cleaning professionals. Every individual is ID-verified, and live tracking ensures you know exactly who is arriving at your gate.",
+  "pains": [
+    [
+      "Platforms that randomise who comes to your home, preventing you from building trust.",
+      "Bouul allows you to browse profiles, read individual reviews, and re-book your preferred professional."
+    ],
+    [
+      "Service providers cancelling at the last minute with no backup available.",
+      "View real-time availability and rely on transparent reliability ratings before making a booking."
+    ],
+    [
+      "Security concerns regarding granting access to unknown individuals.",
+      "Mandatory ID verification and geolocation tracking provide complete peace of mind at your estate gate."
+    ]
+  ],
+  "services": [
+    "Standard residential cleaning",
+    "Deep spring cleaning",
+    "Move-in/Move-out sanitisation",
+    "Post-construction clearing",
+    "Window cleaning",
+    "Upholstery cleaning",
+    "Carpet cleaning"
+  ],
+  "audience": [
+    "Busy professionals lacking domestic time",
+    "Families requiring reliable weekly maintenance",
+    "Tenants needing exit-inspection deep cleans",
+    "Estate residents requiring vetted personnel"
+  ],
+  "why_icons": [
+    "ShieldCheck",
+    "MessageCircle",
+    "Sparkles"
+  ],
+  "why_titles": [
+    "Complete security vetting",
+    "Direct communication",
+    "Build a recurring relationship"
+  ],
+  "why_bodies": [
+    "Every cleaning professional undergoes rigorous identity verification before being listed on the platform.",
+    "Use the in-app chat to clarify specific requirements, ensuring your expectations are met flawlessly.",
+    "Found someone brilliant? Easily re-book them directly, maintaining consistency in your home."
+  ],
+  "trust": [
+    "Strict identity and background checks",
+    "Transparent cancellation and reliability statistics",
+    "Direct messaging avoiding third-party miscommunication",
+    "Secure cashless transactions"
+  ],
+  "cta": "Book a trusted cleaner",
+  "faqs": [
+    [
+      "Will I get the same person every time?",
+      "Unlike other platforms, Bouul allows you to request and re-book the specific professional you prefer, subject to their schedule."
+    ],
+    [
+      "How is access control managed for secure estates?",
+      "You are provided with the professional's verified ID details and live tracking, streamlining the security clearance process at your gate."
+    ],
+    [
+      "Do they bring their own cleaning supplies?",
+      "You can specify this when booking. Many professionals arrive fully equipped, while others offer labour-only rates if you provide the products."
+    ]
+  ]
+}

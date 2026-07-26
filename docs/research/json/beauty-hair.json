@@ -1,0 +1,73 @@
+{
+  "slug": "beauty-hair",
+  "name": "Beauty & Hair",
+  "scene": "/scenes/hair_styling.png",
+  "tagline": "Top stylists and beauty technicians booked on your terms, impervious to loadshedding.",
+  "hook_headline": "Flawless aesthetics, delivered to your door.",
+  "hook_body": "You have a major event, but the prospect of navigating traffic to sit in a crowded salon \u2014 wondering if the power will hold \u2014 ruins the luxury. Bouul transforms beauty into an elite, mobile service. Connect with highly-rated stylists and nail technicians who bring fully equipped, battery-powered setups directly to your home. Review their digital portfolios, book instantly, and experience aesthetic perfection in your own space.",
+  "pains": [
+    [
+      "Salons cancelling or disrupting appointments due to sudden power outages.",
+      "Bouul professionals are equipped with cordless tools and rechargeable UV systems, ensuring uninterrupted service."
+    ],
+    [
+      "The inability to verify a stylist's actual capabilities before committing.",
+      "Browse rich, visual portfolios and read authentic reviews from previous clients directly within the app."
+    ],
+    [
+      "Wasting valuable weekend hours in transit and salon waiting areas.",
+      "Mobile professionals travel to your residence, office, or hotel, maximising your time."
+    ]
+  ],
+  "services": [
+    "Professional hair styling and blowouts",
+    "Braiding and ethnic hair care",
+    "Gel and acrylic nail applications",
+    "Bridal and event makeup artistry",
+    "Eyelash extension installation",
+    "Mobile barbering and grooming",
+    "Skincare and facial treatments"
+  ],
+  "audience": [
+    "Bridal parties requiring on-site preparation",
+    "Corporate executives needing in-office grooming",
+    "Mothers unable to leave home for lengthy treatments",
+    "Individuals seeking premium, private aesthetic services"
+  ],
+  "why_icons": [
+    "Scissors",
+    "Star",
+    "Sparkles"
+  ],
+  "why_titles": [
+    "Visual verification",
+    "Loadshedding resilient",
+    "Seamless scheduling"
+  ],
+  "why_bodies": [
+    "Don't guess. Assess a professional's capabilities through integrated photo portfolios and real client reviews.",
+    "Access professionals armed with rechargeable technology, guaranteeing your treatment is completed flawlessly.",
+    "Synchronise availability instantly. No phone tag with receptionists, just confirmed digital bookings."
+  ],
+  "trust": [
+    "Verified photographic portfolios of prior work",
+    "Transparent peer reviews from completed bookings",
+    "Identity verified professionals for safe home entry",
+    "In-app consultation via photo sharing"
+  ],
+  "cta": "Book your beauty professional",
+  "faqs": [
+    [
+      "What happens if there is load shedding during my appointment?",
+      "Bouul encourages professionals to use battery-operated equipment. You can confirm their loadshedding readiness via the in-app chat before booking."
+    ],
+    [
+      "Can I request a specific style or share inspiration photos?",
+      "Absolutely. The integrated chat allows you to send reference images to the stylist beforehand."
+    ],
+    [
+      "Is travel cost included in the price?",
+      "Pricing is fully transparent. Any applicable travel surcharges based on your location are calculated before you confirm."
+    ]
+  ]
+}

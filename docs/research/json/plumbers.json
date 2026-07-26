@@ -1,0 +1,77 @@
+{
+  "slug": "plumbers",
+  "name": "Plumbers",
+  "scene": "/scenes/plumbing.png",
+  "tagline": "Leaks, blockages, and geyser bursts \u2014 fixed by verified pros, booked in seconds.",
+  "hook_headline": "A burst pipe doesn't respect your schedule.",
+  "hook_body": "It is 7 PM on a Thursday, and water is rapidly pooling beneath your kitchen sink. You need intervention immediately, not a string of unreturned WhatsApp messages or vague promises of 'tomorrow morning.' Bouul instantly connects you with ID-verified plumbers in your area who are available right now. Review real ratings, book with two taps, and secure your payment in escrow until the leak is permanently resolved.",
+  "pains": [
+    [
+      "You broadcast a message on a neighbourhood group and wait hours for a response.",
+      "Bouul displays available, vetted plumbers within your radius instantly, eliminating response anxiety."
+    ],
+    [
+      "Contractors issue arbitrary quotes over the phone without assessing the damage.",
+      "Prices are structured upfront. Funds are held securely in escrow, ensuring no surprise billing at the end of the job."
+    ],
+    [
+      "You wait home all day for a tradesperson who never arrives.",
+      "Live tracking and instant in-app messaging keep you updated on the exact arrival time."
+    ]
+  ],
+  "services": [
+    "Burst pipe repair",
+    "Blocked drain clearing",
+    "Geyser installation & repair",
+    "Leaking tap repair",
+    "Toilet installation",
+    "Water pressure optimisation",
+    "Leak detection"
+  ],
+  "audience": [
+    "Estate homeowners facing emergency leaks",
+    "Sectional title renters needing swift resolution",
+    "Property managers maintaining multiple units",
+    "Offices requiring immediate facility repairs"
+  ],
+  "why_icons": [
+    "Zap",
+    "ShieldCheck",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Immediate emergency response",
+    "Escrow payment protection",
+    "Visual diagnostics via chat"
+  ],
+  "why_bodies": [
+    "Visibility into who is active and available right now, bypassing the traditional phone-tag delays.",
+    "Funds are secured digitally and only released to the provider when you confirm the issue is successfully resolved.",
+    "Share images of the leak directly in the app, allowing the plumber to arrive with the correct replacement parts."
+  ],
+  "trust": [
+    "ID-verified tradespeople with transparent job histories",
+    "Authentic reviews strictly from completed platform bookings",
+    "Secure digital escrow payments to prevent cash disputes",
+    "Live geolocation tracking for accurate arrival times"
+  ],
+  "cta": "Dispatch a verified plumber now",
+  "faqs": [
+    [
+      "How rapidly can a plumber be dispatched?",
+      "The platform displays real-time availability. Depending on traffic and location within Gauteng, professionals can frequently arrive within the hour."
+    ],
+    [
+      "What happens if the underlying issue is not fixed?",
+      "Your payment remains in a secure escrow facility until the job is signed off. If unresolved, funds are not released, and mediation is provided."
+    ],
+    [
+      "Are the listed plumbers certified?",
+      "Providers undergo rigorous ID verification, and many possess formal trade certifications, visible alongside their historical booking ratings."
+    ],
+    [
+      "How do I pay if the scope of work changes?",
+      "Adjustments are quoted and approved transparently within the app before further work commences, ensuring zero financial surprises."
+    ]
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "carpenters",
+  "name": "Carpenters",
+  "scene": "/scenes/carpentry.png",
+  "tagline": "Verified carpenters and joiners for repairs, installations, and bespoke creations.",
+  "hook_headline": "Custom craftsmanship you can actually trust.",
+  "hook_body": "Whether it is a broken cabinet hinge driving you crazy or a vision for a custom built-in wardrobe, finding a skilled carpenter who will actually show up is a pervasive challenge. Too often, deposits disappear with informal contractors. Bouul connects you directly with ID-verified carpentry specialists. Share your designs via chat, review their past projects, and secure your materials budget safely in escrow.",
+  "pains": [
+    [
+      "Paying large deposits for custom wood and never seeing the contractor again.",
+      "Bouul's digital escrow system secures your capital, releasing it only as measurable progress is made."
+    ],
+    [
+      "Sloppy joinery and misaligned cabinets from underqualified handymen.",
+      "Filter specifically for verified carpenters and assess their precision through high-resolution portfolio images."
+    ],
+    [
+      "Waiting weeks for a quote after an initial site visit.",
+      "Upload dimensions and inspiration photos directly into the app for rapid, accurate digital quoting."
+    ]
+  ],
+  "services": [
+    "Custom built-in cupboards (BICs)",
+    "Kitchen cabinet repairs and installations",
+    "Door hanging and alignment",
+    "Skirting board installation",
+    "Decking repairs and construction",
+    "Custom shelving units",
+    "Furniture assembly"
+  ],
+  "audience": [
+    "Homeowners renovating kitchens or bedrooms",
+    "Property managers requiring rapid door or cabinet repairs",
+    "Offices needing custom boardroom furniture",
+    "Individuals seeking bespoke timber creations"
+  ],
+  "why_icons": [
+    "Wrench",
+    "ShieldCheck",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Artisan portfolios",
+    "Secure material funding",
+    "Clear communication"
+  ],
+  "why_bodies": [
+    "Don't rely on promises. View authenticated images of previous installations to verify their craftsmanship.",
+    "Custom woodwork requires expensive materials. Escrow protects your investment until the final installation.",
+    "Use the integrated chat to share Pinterest boards, exact dimensions, and layout changes instantly."
+  ],
+  "trust": [
+    "Milestone-based escrow payments for large installations",
+    "Strict identity verification for in-home work",
+    "Reviews focusing on precision and tidiness",
+    "In-app design sharing"
+  ],
+  "cta": "Book a verified carpenter",
+  "faqs": [
+    [
+      "Can I hire a carpenter just for small repairs, like a broken hinge?",
+      "Yes. Bouul allows you to post jobs of any size, from minor repairs to full kitchen installations, matching you with appropriate professionals."
+    ],
+    [
+      "How do I ensure the wood finish matches my existing furniture?",
+      "Utilise the chat feature to send well-lit photos of your current finishes, allowing the carpenter to source exact matches before arriving."
+    ],
+    [
+      "What happens if the custom build doesn't fit my space?",
+      "Because payments are held in escrow, the carpenter is financially obligated to make the necessary adjustments to fulfil the agreed-upon brief before funds are released."
+    ]
+  ]
+}

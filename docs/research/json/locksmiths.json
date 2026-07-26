@@ -1,0 +1,73 @@
+{
+  "slug": "locksmiths",
+  "name": "Locksmiths",
+  "scene": "/scenes/interior_design.png",
+  "tagline": "ID-verified, emergency locksmiths dispatched instantly to your location.",
+  "hook_headline": "Locked out? Don't panic. Track your rescue.",
+  "hook_body": "It is late at night, and your keys are locked inside. The vulnerability of standing outside your property in Johannesburg is intense. Searching Google for a random locksmith who might overcharge you or compromise your security is a massive risk. Bouul provides immediate relief. Book a strictly vetted locksmith, watch their vehicle approach on the live map, and pay a transparent, upfront rate.",
+  "pains": [
+    [
+      "The extreme physical vulnerability of waiting outside a locked property or vehicle.",
+      "Live GPS tracking provides the exact ETA of your verified professional, drastically reducing anxiety."
+    ],
+    [
+      "Rogue locksmiths who exploit your emergency by demanding exorbitant cash fees.",
+      "Pricing is fixed and transparent within the app. Payment is handled digitally via escrow."
+    ],
+    [
+      "The security risk of an unverified stranger understanding your home's locking mechanisms.",
+      "Every locksmith undergoes rigorous criminal background checks and identity verification."
+    ]
+  ],
+  "services": [
+    "Emergency home lockouts",
+    "Vehicle unlocking services",
+    "Lock cylinder replacement",
+    "Security gate lock repairs",
+    "Safe opening services",
+    "Smart lock installation",
+    "Master key systems"
+  ],
+  "audience": [
+    "Individuals locked out of their homes or vehicles after hours",
+    "New homeowners needing immediate lock changes",
+    "Landlords securing properties post-eviction",
+    "Businesses requiring complex access control repairs"
+  ],
+  "why_icons": [
+    "Key",
+    "ShieldCheck",
+    "Car"
+  ],
+  "why_titles": [
+    "Live rescue tracking",
+    "Strict security vetting",
+    "Anti-extortion pricing"
+  ],
+  "why_bodies": [
+    "Watch your verified locksmith navigate to your location in real-time, eliminating the anxious waiting game.",
+    "Only professionals who pass comprehensive identity and background checks are permitted on the platform.",
+    "Agree to a transparent digital quote before they arrive, preventing any on-site cash shakedowns."
+  ],
+  "trust": [
+    "Mandatory criminal background checks and ID verification",
+    "Live geolocation tracking for emergency arrivals",
+    "Cashless digital payments",
+    "Authentic reviews from verified emergency call-outs"
+  ],
+  "cta": "Dispatch an emergency locksmith",
+  "faqs": [
+    [
+      "How quickly can a locksmith reach me at night?",
+      "Bouul prioritises professionals who are active and nearby. You can often secure a response within minutes, and track their arrival live."
+    ],
+    [
+      "How do I know the locksmith is legitimate?",
+      "The app displays the professional's verified ID, photo, and vehicle details, allowing you to confirm their identity before they approach your property."
+    ],
+    [
+      "Will they have to break my lock?",
+      "Verified professionals prioritise non-destructive entry methods. You can upload a photo of your specific lock via chat so they arrive prepared."
+    ]
+  ]
+}

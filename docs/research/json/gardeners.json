@@ -1,0 +1,73 @@
+{
+  "slug": "gardeners",
+  "name": "Gardeners",
+  "scene": "/scenes/garden_maintenance.png",
+  "tagline": "Vetted gardeners and landscaping professionals, managed entirely from your phone.",
+  "hook_headline": "Maintain your sanctuary effortlessly.",
+  "hook_body": "Maintaining a pristine garden shouldn't require managing unreliable informal labour or worrying about estate security access. You need consistency, professionalism, and easy payment structures. Bouul connects you with ID-verified gardening professionals. Schedule recurring maintenance, communicate specific landscaping needs via chat, and handle all payments digitally without ever needing cash on hand.",
+  "pains": [
+    [
+      "The weekly hassle of drawing cash to pay informal garden services.",
+      "Bouul handles all transactions digitally, automating payments upon successful completion of the job."
+    ],
+    [
+      "Security anxiety regarding who is actually entering your property.",
+      "Every gardening professional is strictly ID-verified, smoothing the process with estate security."
+    ],
+    [
+      "Inconsistent scheduling where the gardener simply doesn't show up.",
+      "Live tracking and transparent reliability ratings ensure you hire professionals who respect your time."
+    ]
+  ],
+  "services": [
+    "Regular lawn mowing and edging",
+    "Weeding and bed maintenance",
+    "Pruning and hedge trimming",
+    "Seasonal planting and composting",
+    "Garden refuse removal",
+    "Irrigation system checks",
+    "Mulching and fertilising"
+  ],
+  "audience": [
+    "Busy homeowners needing consistent weekly maintenance",
+    "Estate residents requiring highly vetted personnel",
+    "Property investors maintaining empty plots",
+    "Individuals seeking seasonal garden cleanups"
+  ],
+  "why_icons": [
+    "Flower2",
+    "ShieldCheck",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Cashless convenience",
+    "Verified reliability",
+    "Seamless security access"
+  ],
+  "why_bodies": [
+    "Never scramble for cash again. Approve the completed work and release digital payments instantly.",
+    "Access professionals with proven attendance records, backed by reviews from other local homeowners.",
+    "Provide your estate security with verified digital ID profiles, preventing gate delays."
+  ],
+  "trust": [
+    "Mandatory national identity verification",
+    "Digital payment gateways eliminating cash risks",
+    "Transparent reviews on punctuality and work ethic",
+    "In-app scheduling for recurring services"
+  ],
+  "cta": "Find a trusted gardener",
+  "faqs": [
+    [
+      "Can I book the same gardener every week?",
+      "Yes, Bouul allows you to establish recurring bookings with the professional you prefer, ensuring consistency."
+    ],
+    [
+      "Do they bring their own equipment?",
+      "You can specify this when booking. Many professionals arrive fully equipped, while others offer labour-only rates if you provide the tools."
+    ],
+    [
+      "Does the service include the removal of garden refuse?",
+      "You can request refuse removal as part of the quote. The professional will confirm their capacity to transport waste before accepting the job."
+    ]
+  ]
+}

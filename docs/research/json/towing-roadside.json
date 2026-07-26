@@ -1,0 +1,73 @@
+{
+  "slug": "towing-roadside",
+  "name": "Towing & Roadside",
+  "scene": "/scenes/roadside_assistance.png",
+  "tagline": "Rapid, highly secure breakdown recovery with fixed digital pricing.",
+  "hook_headline": "Don't fall victim to roadside extortion.",
+  "hook_body": "You are stranded on the shoulder of the N1 at dusk. Unmarked tow trucks arrive instantly, pressuring you to sign. If you do, your car will be held hostage at an unauthorised yard for a R12,000 release fee. Do not sign. Open Bouul. Book a verified, ID-checked recovery vehicle, track its arrival live, and pay a fixed rate through the app. Your safety and your asset are protected.",
+  "pains": [
+    [
+      "Aggressive, unverified tow operators demanding you hand over your vehicle.",
+      "Bouul dispatches specific, vetted operators; you know the driver's name and vehicle registration before they arrive."
+    ],
+    [
+      "Hidden storage costs and extortionate release fees from unauthorised yards.",
+      "Pricing is locked in upfront via the app, and payment is processed digitally. No cash, no ransom."
+    ],
+    [
+      "Extreme physical vulnerability waiting on dangerous arterial roads.",
+      "Live GPS tracking gives you the exact ETA of your rescuer, significantly reducing roadside anxiety."
+    ]
+  ],
+  "services": [
+    "Emergency flatbed towing",
+    "Accident recovery",
+    "Jump start assistance",
+    "Flat tyre changing",
+    "Emergency fuel delivery",
+    "Vehicle lockout resolution",
+    "Battery boost"
+  ],
+  "audience": [
+    "Uninsured drivers requiring immediate, scam-free recovery",
+    "Female drivers prioritising strict security protocols",
+    "Commuters broken down on high-risk highways",
+    "Families stranded during after-hours travel"
+  ],
+  "why_icons": [
+    "Truck",
+    "ShieldCheck",
+    "Car"
+  ],
+  "why_titles": [
+    "Anti-extortion pricing",
+    "Verified security",
+    "Live rescue tracking"
+  ],
+  "why_bodies": [
+    "Fixed rates authorised within the app prevent operators from holding your vehicle for ransom.",
+    "Every operator is strictly vetted. You receive their ID and vehicle details to verify upon arrival.",
+    "Watch your recovery vehicle approach in real-time on the map, providing critical peace of mind."
+  ],
+  "trust": [
+    "Mandatory driver ID and vehicle registration verification",
+    "No-cash, digital-only payments to eliminate roadside coercion",
+    "Transparent point-to-point digital routing",
+    "Real-time geolocation tracking"
+  ],
+  "cta": "Request secure towing immediately",
+  "faqs": [
+    [
+      "What if an unverified tow truck tries to take my car?",
+      "Decline their service. Inform them you have a digitally tracked Bouul operator en route."
+    ],
+    [
+      "How is the towing fee calculated?",
+      "The fee is calculated based on distance and vehicle type within the app prior to confirmation, eliminating arbitrary release fees."
+    ],
+    [
+      "Are the operators equipped for highway recoveries?",
+      "Yes, listed operators possess the necessary beacon lighting and flatbed equipment for safe extractions from major routes like the N1 and M1."
+    ]
+  ]
+}

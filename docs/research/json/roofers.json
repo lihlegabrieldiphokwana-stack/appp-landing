@@ -1,0 +1,73 @@
+{
+  "slug": "roofers",
+  "name": "Roofers",
+  "scene": "/scenes/carpentry.png",
+  "tagline": "Specialist roofing contractors held accountable by digital escrow and real reviews.",
+  "hook_headline": "Stop paying for the same leak twice.",
+  "hook_body": "Summer storms in Gauteng reveal the harsh reality of poor roofing work. You previously paid a contractor who issued a '10-year warranty' but now ignores your calls as the ceiling stains spread. Bouul eliminates this risk. Connect with established roofing specialists whose long-term platform ratings verify their workmanship. Secure your project capital in escrow, releasing funds only when the structural integrity is proven.",
+  "pains": [
+    [
+      "Contractors demanding 50% upfront for materials and then delaying the project indefinitely.",
+      "Bouul's escrow facility protects your deposit. Funds remain secure and are distributed based on agreed milestones."
+    ],
+    [
+      "Warranties that prove worthless when the contractor stops answering their phone.",
+      "Professionals on Bouul rely on their digital reputation; long-term, un-deletable reviews enforce permanent accountability."
+    ],
+    [
+      "Inaccurate quotes based on a glance from the driveway.",
+      "Utilise in-app photo sharing to document internal ceiling damage, ensuring accurate, comprehensive assessments."
+    ]
+  ],
+  "services": [
+    "Complex leak detection and repair",
+    "Comprehensive waterproofing",
+    "Fascia and gutter replacement",
+    "Roof tile replacement",
+    "Corrugated iron restoration",
+    "Truss repair",
+    "Solar panel roof mounting"
+  ],
+  "audience": [
+    "Homeowners facing seasonal storm damage",
+    "Property investors renovating older estates",
+    "Commercial building managers",
+    "Insurance claimants needing rapid repairs"
+  ],
+  "why_icons": [
+    "Home",
+    "ShieldCheck",
+    "Camera"
+  ],
+  "why_titles": [
+    "Accountability engineered in",
+    "Capital protection on large jobs",
+    "Verified structural expertise"
+  ],
+  "why_bodies": [
+    "Unfiltered reviews from real, completed projects mean substandard contractors cannot survive on the platform.",
+    "Roofing is expensive. Escrow ensures your funds are protected from abandonment or material theft.",
+    "Access specialists in complex waterproofing, truss repair, and tile replacement, not generalist handymen."
+  ],
+  "trust": [
+    "High-value milestone escrow payments",
+    "Photographic evidence sharing via secure chat",
+    "Identity and operational verification",
+    "Long-term review accountability"
+  ],
+  "cta": "Find a verified roofing expert",
+  "faqs": [
+    [
+      "How does payment work for large roofing projects?",
+      "Funds are held securely in Bouul's escrow system. You agree on milestones with the contractor, and money is released proportionally as work is completed."
+    ],
+    [
+      "Can I get an inspection before committing?",
+      "Yes, you can book a diagnostic inspection. The professional will provide a transparent quote within the app for the full repair."
+    ],
+    [
+      "What if it rains before the job is finished?",
+      "Your contractor will advise on weather contingencies. Your payment is tied to completed milestones, not calendar days."
+    ]
+  ]
+}

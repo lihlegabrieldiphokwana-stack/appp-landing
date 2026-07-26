@@ -1,0 +1,73 @@
+{
+  "slug": "pest-control",
+  "name": "Pest Control",
+  "scene": "/scenes/pest_control.png",
+  "tagline": "Licensed pest control experts, available immediately for discreet, effective eradication.",
+  "hook_headline": "Take your home back today.",
+  "hook_body": "Discovering a pest infestation triggers immediate anxiety. You don't have time to wait for call-backs or wonder if the chemicals being sprayed in your kitchen are safe for your family and pets. Bouul connects you instantly with certified pest control specialists. Review their safety credentials, track their immediate arrival, and pay securely once your home is secured.",
+  "pains": [
+    [
+      "Extreme urgency met with slow, unresponsive traditional agencies.",
+      "Bouul shows you verified specialists who are available to respond to your location immediately."
+    ],
+    [
+      "Anxiety regarding the toxicity of chemicals used around children and pets.",
+      "Use the in-app chat to confirm eco-friendly or pet-safe methodologies before the technician arrives."
+    ],
+    [
+      "Recurring infestations because the root cause wasn't treated.",
+      "Platform reviews enforce accountability; highly-rated pros are proven to deliver long-term eradication."
+    ]
+  ],
+  "services": [
+    "Termite inspection and eradication",
+    "Rodent control and exclusion",
+    "Cockroach fumigation",
+    "Ant and spider treatments",
+    "Bed bug thermal eradication",
+    "Bird proofing and nesting removal",
+    "Flea and tick yard treatment"
+  ],
+  "audience": [
+    "Homeowners discovering sudden infestations",
+    "Restaurant managers requiring urgent, discreet services",
+    "Landlords preparing properties for new tenants",
+    "Families needing pet-safe pest solutions"
+  ],
+  "why_icons": [
+    "Bug",
+    "ShieldCheck",
+    "Sparkles"
+  ],
+  "why_titles": [
+    "Rapid eradication",
+    "Verified safety protocols",
+    "Accountability through reviews"
+  ],
+  "why_bodies": [
+    "Pests don't wait. Access professionals who can be dispatched to your property within hours, not days.",
+    "Connect with licensed operators trained in safe chemical application and eco-friendly alternatives.",
+    "Don't pay for temporary fixes. Authentic reviews highlight specialists who solve the problem permanently."
+  ],
+  "trust": [
+    "Verification of pest control licenses and certifications",
+    "Digital escrow protecting payment until eradication is confirmed",
+    "Live geolocation tracking for precise arrival times",
+    "Direct communication regarding chemical safety"
+  ],
+  "cta": "Book a pest control expert",
+  "faqs": [
+    [
+      "Are the treatments safe for my dogs and cats?",
+      "Many specialists offer pet-safe solutions. You can filter for these professionals and discuss the specific chemicals via chat before booking."
+    ],
+    [
+      "Do I need to leave my house during the treatment?",
+      "This depends on the specific pest and treatment method. Your verified professional will advise you on safety protocols via the app before they arrive."
+    ],
+    [
+      "What if the pests return after a week?",
+      "You can negotiate warranty periods within the app. Furthermore, your payment remains in escrow for a designated period to ensure the treatment was effective."
+    ]
+  ]
+}

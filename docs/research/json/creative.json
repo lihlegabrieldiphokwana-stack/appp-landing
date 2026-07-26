@@ -1,0 +1,73 @@
+{
+  "slug": "creative",
+  "name": "Creative Services",
+  "scene": "/scenes/graphic_design.png",
+  "tagline": "Verified creative professionals, with payments protected until the final draft.",
+  "hook_headline": "Bring your vision to life, securely.",
+  "hook_body": "Hiring freelance creatives often involves paying a hefty deposit and praying the final product matches your vision \u2014 or that the freelancer doesn't vanish entirely. Bouul introduces absolute security to the creative process. Browse rich portfolios, communicate directly, and place your project funds in escrow. Payment is only released when the high-resolution files or final designs are delivered to your exact specifications.",
+  "pains": [
+    [
+      "Paying a 50% deposit to a freelancer who stops communicating.",
+      "Bouul's escrow system holds the capital securely; the professional is only paid upon successful delivery."
+    ],
+    [
+      "Receiving substandard work that doesn't match the initial portfolio.",
+      "Platform reviews are linked directly to completed projects, ensuring portfolios represent actual capabilities."
+    ],
+    [
+      "Messy communication scattered across emails and WhatsApp.",
+      "Centralise all briefs, feedback, and file sharing within the secure in-app chat."
+    ]
+  ],
+  "services": [
+    "Event and commercial photography",
+    "Graphic design and branding",
+    "Website development and UI design",
+    "Videography and video editing",
+    "Content writing and copywriting",
+    "Social media management",
+    "Interior design consultation"
+  ],
+  "audience": [
+    "Small businesses needing professional branding",
+    "Individuals requiring event or wedding photography",
+    "Startups seeking reliable web development",
+    "Companies needing ongoing content creation"
+  ],
+  "why_icons": [
+    "Camera",
+    "Palette",
+    "ShieldCheck"
+  ],
+  "why_titles": [
+    "Escrow protected projects",
+    "Verified portfolios",
+    "Streamlined collaboration"
+  ],
+  "why_bodies": [
+    "Your budget is safe. Release funds only when the creative output meets the agreed-upon brief.",
+    "Assess capabilities through authenticated past work and reviews from actual platform clients.",
+    "Manage the entire creative process \u2014 from brief to final delivery \u2014 in one central application."
+  ],
+  "trust": [
+    "Digital escrow facility protecting all project capital",
+    "Authentic reviews validating reliability and skill",
+    "In-app file sharing and brief management",
+    "Transparent milestone payments"
+  ],
+  "cta": "Hire a verified creative",
+  "faqs": [
+    [
+      "What happens if I am not satisfied with the final design?",
+      "Because funds are in escrow, you have leverage. You can request revisions as per your initial agreement before authorising the final payout."
+    ],
+    [
+      "Can large files be shared through the platform?",
+      "Yes, the in-app communication tools are designed to facilitate the sharing of briefs, drafts, and visual assets."
+    ],
+    [
+      "How do revisions work?",
+      "Revision policies are agreed upon upfront and reflected in the escrow milestone schedule. Clear terms protect both parties."
+    ]
+  ]
+}

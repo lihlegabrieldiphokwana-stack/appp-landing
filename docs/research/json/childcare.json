@@ -1,0 +1,71 @@
+{
+  "slug": "childcare",
+  "name": "Childcare",
+  "scene": "/scenes/childcare_service.png",
+  "tagline": "Connect with thoroughly vetted, highly-rated nannies and au pairs for your ultimate peace of mind.",
+  "hook_headline": "Uncompromising care, rigorously verified.",
+  "hook_body": "Finding someone to trust with your children is the most daunting task a parent faces. Relying on neighbourhood whispers or unverified classifieds is simply not an option. Bouul elevates the standard of childcare discovery. Every caregiver undergoes comprehensive background checks. Browse rich profiles, read reviews from other parents, and use secure messaging to establish rapport before they ever step into your home.",
+  "pains": [
+    [
+      "The paralyzing anxiety of leaving your child with an unvetted stranger.",
+      "Bouul enforces strict, mandatory identity and background verification for every listed caregiver."
+    ],
+    [
+      "Misalignment on parenting styles or emergency protocols.",
+      "Use the in-app chat to conduct preliminary interviews and align on crucial caregiving methodologies."
+    ],
+    [
+      "The awkwardness of managing cash payments and negotiating overtime.",
+      "All rates are transparent, and payments are handled securely through the app's digital facility."
+    ]
+  ],
+  "services": [
+    "Ad-hoc evening babysitting",
+    "After-school au pair services",
+    "Infant and toddler care",
+    "Emergency short-notice childcare",
+    "Weekend caregiving",
+    "School holiday care"
+  ],
+  "audience": [
+    "Working parents requiring structured afternoon support",
+    "Couples needing reliable weekend babysitting",
+    "Families seeking caregivers with specific infant experience"
+  ],
+  "why_icons": [
+    "Heart",
+    "ShieldCheck",
+    "Star"
+  ],
+  "why_titles": [
+    "Unrivaled security vetting",
+    "Direct relationship building",
+    "Cashless security"
+  ],
+  "why_bodies": [
+    "Identity checks and historical reviews from real families form the foundation of our platform.",
+    "Communicate directly to establish expectations, routines, and emergency protocols before booking.",
+    "Digital payments mean you never have to worry about having cash on hand or financial disputes."
+  ],
+  "trust": [
+    "Mandatory national identity verification",
+    "Authentic reviews strictly from completed family bookings",
+    "In-app interview and rapport-building",
+    "Secure digital payments"
+  ],
+  "cta": "Connect with verified caregivers",
+  "faqs": [
+    [
+      "How thorough is the vetting process?",
+      "Every caregiver must pass a strict identity verification process. Their profile displays an un-editable history of reviews from other parents on the platform."
+    ],
+    [
+      "Can I interview the caregiver first?",
+      "Yes. We encourage using the in-app chat to ask detailed questions, discuss your child's specific needs, and arrange a brief introductory call."
+    ],
+    [
+      "What happens if we need to cancel last minute?",
+      "Cancellation policies are set by each caregiver and displayed before booking. You can choose professionals whose policies match your needs."
+    ]
+  ]
+}

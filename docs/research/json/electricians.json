@@ -1,0 +1,72 @@
+{
+  "slug": "electricians",
+  "name": "Electricians",
+  "scene": "/scenes/electrical_service.png",
+  "tagline": "From inverter setups to fault-finding \u2014 verified electrical experts, securely booked.",
+  "hook_headline": "Don't leave your home's safety in the dark.",
+  "hook_body": "The main breaker keeps tripping, and the prospect of navigating a power outage without a functioning backup system is daunting. Finding an electrician who understands complex modern load-shedding setups is risky when relying on random web searches. Bouul connects you with strictly vetted electrical contractors. Track their arrival, approve the scope of work, and pay safely through digital escrow once the power is restored.",
+  "pains": [
+    [
+      "Hiring an unverified contractor who damages expensive inverters or batteries.",
+      "Bouul profiles highlight specific expertise, backed by reviews from localised, verified installations."
+    ],
+    [
+      "Paying large upfront cash deposits and the contractor disappearing.",
+      "Bouul's escrow system secures your funds digitally; payment is only released upon successful project completion."
+    ],
+    [
+      "Waiting days for a Certificate of Compliance (COC) for a property sale.",
+      "Filter specifically for certified professionals authorised to issue immediate compliance documentation."
+    ]
+  ],
+  "services": [
+    "Inverter and battery installation",
+    "Electrical fault finding",
+    "Single/Three-phase COC issuance",
+    "Distribution board (DB) rewiring",
+    "Generator integration",
+    "Lighting installation",
+    "Security system wiring"
+  ],
+  "audience": [
+    "Homeowners upgrading backup power systems",
+    "Sellers requiring a rapid COC",
+    "Tenants experiencing dangerous electrical faults"
+  ],
+  "why_icons": [
+    "ShieldCheck",
+    "Zap",
+    "MessageCircle"
+  ],
+  "why_titles": [
+    "Certified safety standards",
+    "Capital protection",
+    "Prepared for load shedding"
+  ],
+  "why_bodies": [
+    "Access professionals qualified to handle high-voltage systems, issuing legitimate compliance certificates.",
+    "Never risk a cash deposit again. Your money is protected in escrow until the installation is fully functional.",
+    "Connect with experts highly experienced in integrating solar, inverters, and lithium battery backup systems."
+  ],
+  "trust": [
+    "Comprehensive identity and background verification",
+    "Escrow facility mitigating all financial risk",
+    "Transparent pricing on every job",
+    "Publicly visible portfolio of completed local projects"
+  ],
+  "cta": "Find a certified electrician",
+  "faqs": [
+    [
+      "Can I book someone specifically for a solar or inverter fault?",
+      "Yes. The platform allows you to specify the exact nature of your backup power issue, matching you with specialists in that distinct field."
+    ],
+    [
+      "Is my payment safe for large-scale installations?",
+      "Absolutely. Bouul's escrow system is designed specifically to protect capital on high-value jobs until the agreed-upon milestones are met."
+    ],
+    [
+      "What if the work needs municipal approval?",
+      "Most residential electrical work doesn't need prior approval, but your electrician will advise on what requires a COC or inspection after the job."
+    ]
+  ]
+}
