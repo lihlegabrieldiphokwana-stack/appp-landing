@@ -378,15 +378,20 @@ export default function ServicesPage() {
                 {(() => {
                   const scene = sceneForCategory(category.name);
                   return (
-                    <SceneCard
-                      src={scene.src}
-                      alt={category.name}
-                      tag={`${category.services.length} services`}
-                      label={category.name}
-                      href={`/category/${category.services[0].slug}`}
-                      variant="minimal"
-                      className="aspect-[16/9] rounded-none border-0 border-b border-b-line"
-                    />
+                    <div className="relative w-full aspect-[16/9] overflow-hidden bg-b-paper-deep">
+                      <img
+                        src={scene.src}
+                        alt={category.name}
+                        loading="lazy"
+                        className="h-full w-full object-cover"
+                      />
+                      <span className="absolute left-3 top-3 z-10 rounded-full bg-b-forest/80 px-2.5 py-1 font-price text-[10px] font-semibold uppercase tracking-[0.16em] text-b-cream backdrop-blur-sm">
+                        {category.services.length} services
+                      </span>
+                      <span className="absolute left-3 bottom-3 z-10 font-display text-base font-extrabold tracking-tight text-b-cream drop-shadow-lg">
+                        {category.name}
+                      </span>
+                    </div>
                   );
                 })()}
                 <div className="p-6">
