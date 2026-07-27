@@ -7,6 +7,7 @@ import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
 import { UseCasesPreview } from "@/components/use-cases-preview";
+import { FlutterGlimpsesShowcase } from "@/components/redesign/flutter-glimpses-showcase";
 
 const useCases = [
   {
@@ -124,6 +125,8 @@ export default function UseCasesPage() {
           ))}
         </div>
       </section>
+
+      <FlutterGlimpsesShowcase />
 
       <section className="py-24 border-t border-b-line">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
