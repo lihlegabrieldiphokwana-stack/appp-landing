@@ -1,0 +1,278 @@
+[
+  {
+    "id": "dj-wedding-001",
+    "tag": "Wedding DJ",
+    "title": "How to Choose a Wedding DJ Who Doesn't Play 'Lekker Verlief' Three Times",
+    "subtitle": "The DJ makes or breaks your dance floor. Here's how to find one who actually reads the room.",
+    "image": "/scenes/wedding_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your wedding dance floor emptied after 30 minutes and nobody can explain what went wrong",
+    "body": "You've spent months planning the wedding. The décor is beautiful. The food was excellent. Now it's time for the reception party. The DJ sets up. The first dance goes well. Then the DJ plays what THEY like — deep house, obscure Afrobeats, a 15-minute Saxby remix that nobody asked for. The dance floor thins. People drift to the bar. The older guests sit down. The younger guests check their phones. By 10 PM, the dance floor is empty. The bride and bridegroom are upset. The DJ doesn't seem to notice — or care. A wedding DJ's job isn't to show off their music taste. It's to read the room, respond to energy levels, and keep a multigenerational crowd dancing together.",
+    "bouulSolution": [
+      "Bouul lists DJs with verified wedding experience — you see their actual playlist versatility, not just their club mixes",
+      "You can filter DJs by genre specialisation, age-group experience, and multilingual capability (English, Afrikaans, Zulu, Xhosa, etc.)",
+      "Bouul escrow protects your DJ booking fee — payment releases after successful performance"
+    ],
+    "partsNeeded": [
+      "Professional DJ controller or turntables with backup unit",
+      "PA system appropriate for venue size — speakers, subwoofers, monitor speakers",
+      "Wireless microphone for announcements, toasts, and MC coordination",
+      "Lighting setup — dance floor uplighting, disco ball, ambient venue lighting"
+    ],
+    "guidePricing": 8000,
+    "timeline": "Book 6-10 months before wedding. Playlist consultation 1 month before. Final song requests and timing 2 weeks before. Reception setup 2 hours before guests arrive.",
+    "aiPromptExample": "\"Create a brief for a wedding DJ: 120-guest wedding in Durban, multigenerational crowd (20-70 years), mix of English and Zulu speakers, first dance is 'Can't Help Falling in Love', need cocktail hour jazz/lounge, dinner background, then party mix that blends amapiano, house, 80s/90s classics, and current pop. MC duties included for announcements.\"",
+    "aiDiagnosisOutput": "\"Event analysis: 120 guests across 50-year age gap requires programmed energy curve. Cocktail hour: jazz/lounge. Dinner: instrumental covers or light background. Party open: bridge song that appeals to all ages (Earth Wind & Fire, MJ, or similar). Build through amapiano and house for younger crowd, mix in 80s/90s for older guests, close with singalong classics. MC announcements need clear microphone with professional tone. Zulu-language announcements during key moments add warmth for Zulu-speaking guests. 3-hour reception needs 60-90 songs with crowd-read adjustments.\"",
+    "escrowGuarantee": "Bouul Escrow holds your wedding DJ fee. Payment releases after the reception is complete. If the DJ fails to show, arrives late, or doesn't perform the agreed set, your payment is protected.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — covers sound equipment standards, backup requirements, noise level compliance, and performance professionalism for event DJs.",
+    "articleSections": [
+      {
+        "heading": "The multigenerational test",
+        "body": "A great wedding DJ can keep an 18-year-old and a 70-year-old grandmother on the same dance floor. This requires a programmed energy curve: start with crowd-pleasing classics that everyone knows, build through the decades (60s, 70s, 80s, 90s), transition into current hits, and come back to singalong moments. The DJ who only plays one genre isn't a wedding DJ — they're a club DJ at a wedding. When reviewing DJ profiles on Bouul, ask about their approach to the multigenerational dance floor."
+      },
+      {
+        "heading": "The MC role is non-negotiable",
+        "body": "A wedding DJ is also the MC — or works with one. They announce the entrance, the first dance, the parent dances, the toasts, the cake cutting, and the closing. This needs a DJ who's comfortable on the microphone, with a warm and professional tone, who knows how to guide the evening without being pushy. The announcements should be timed and rehearsed, not improvised. When booking through Bouul, confirm that MC duties are included and ask to hear samples of the DJ's microphone work."
+      },
+      {
+        "heading": "Equipment and backup requirements",
+        "body": "A professional wedding DJ brings backup equipment. Backup controller or laptop, backup speaker, backup microphone, and enough cable to reach any power point in any venue. The PA system must match the venue — a ballroom for 200 guests needs more power than a marquee for 80. The DJ should also have an UPS or generator plan (load-shedding is a reality). Ask about backup plans during the Bouul booking process. A DJ without backup isn't professional."
+      },
+      {
+        "heading": "Book your wedding DJ on Bouul",
+        "body": "Browse wedding DJs on Bouul with verified multigenerational experience. Listen to sample mixes, read reviews from real couples, and confirm MC duties, equipment standards, and backup plans. Book through Bouul with escrow protection. Your dance floor should be full all night."
+      }
+    ]
+  },
+  {
+    "id": "dj-club-002",
+    "tag": "Club DJ",
+    "title": "Booking a Club DJ in South Africa: What Venues Need to Know",
+    "subtitle": "The right DJ fills the floor and sells the bar. The wrong one empties both.",
+    "image": "/scenes/club_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your venue's Thursday night 'new DJ' gambled the weekend revenue and lost",
+    "problemBody": "You run a club or bar in Johannesburg, Cape Town, or Durban. Thursday night is slow. You decide to try a new DJ — someone young, energetic, representing the local sound. The first week: 30 people. The second week: 20. By week three, you're paying the door staff more than the bar is earning. You cancel the DJ residency and go back to a playlist. This cycle repeats every few months because venue owners don't know how to evaluate DJs beyond their Instagram follower count. A club DJ needs specific skills: beatmatching, crowd reading, energy management, understanding the venue's acoustic quirks, and building a set that builds across the night. An Instagram following doesn't guarantee any of these.",
+    "bouulSolution": [
+      "Bouul connects venues with club DJs who have verifiable performance experience, not just social media presence",
+      "You can compare DJs by genre specialisation, venue type experience, and availability for recurring residencies",
+      "Bouul escrow protects venue booking fees with milestone-based payment on performance completion"
+    ],
+    "partsNeeded": [
+      "DJ console with professional-grade mixer and turntables/CDJs",
+      "Venue-integrated sound system with proper calibration for the room",
+      "Lighting and visual system synced to DJ setup",
+      "Booth monitor speakers for the DJ to hear their mix accurately"
+    ],
+    "guidePricing": 5000,
+    "timeline": "Book 2-4 weeks ahead for single events. Residencies: first booking as trial, then recurring weekly or monthly. Confirmation and technical rider: 1 week before.",
+    "aiPromptExample": "\"Book a club DJ for Saturday night: 200-capacity venue in Braamfontein, Johannesburg, primary genre amapiano with gqom and house blends, 10 PM-2 AM set, venue has Funktion-One sound system, DJ must be comfortable with live mixing and crowd reading. Budget R6,000.\"",
+    "aiDiagnosisOutput": "\"Venue analysis: 200-capacity in Braamfontein — late-night student and young professional crowd. Amapiano primary with gqom/house gives versatility across the night. Funktion-One system is demanding — DJ must know how to mix on high-end sound without distortion. 4-hour set requires 40-60 tracks with energy curve. Build: warm-up hour (deep house, slower amapiano), peak hours (high-energy amapiano, gqom), cool-down (house, liquid DnB or similar). Sound check mandatory before doors open.\"",
+    "escrowGuarantee": "Bouul Escrow protects club booking fees. Payment releases after successful performance. If the DJ cancels last minute or doesn't meet agreed technical requirements, the venue is covered.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — club DJ standards cover sound level compliance, equipment safety, performance duration, and venue coordination protocols.",
+    "articleSections": [
+      {
+        "heading": "Technical ability is not optional",
+        "body": "A club DJ must beatmatch — seamlessly transitioning between songs so the dance floor never stops. They must understand key mixing (harmonic mixing keeps energy consistent), EQ control (adjusting bass, mids, and treble per track and per venue), and BPM progression (gradually raising or lowering energy). Social media followers don't indicate any of these skills. The only valid test is a live performance or a verified mix recording. Bouul requires DJ profiles to include live mix samples, not just produced tracks."
+      },
+      {
+        "heading": "The rider conversation",
+        "body": "Every professional DJ has a technical rider — the list of equipment they require to perform. This includes the DJ setup (CDJs, mixer, headphones), monitoring (booth speakers and their positioning), and any other requirements (water, green room, parking). Venue DJs who use the club's equipment need to confirm compatibility before the night. A rider is a sign of professionalism, not diva behaviour. Bouul lets venues and DJs share riders before booking so there are no surprises."
+      },
+      {
+        "heading": "Building a residency vs. booking one-off sets",
+        "body": "A residency builds a following. When the same DJ plays your venue weekly or monthly, they develop a relationship with the audience, learn the venue's sound and vibe, and become part of the venue's identity. One-off bookings bring variety but don't build loyalty. For most venues, a mix works: a resident DJ for the core night (Fridays or Saturdays) with guest DJs for special events. Bouul supports both booking types with appropriate terms."
+      },
+      {
+        "heading": "Book club DJs on Bouul",
+        "body": "Search Bouul for club DJs by genre, venue type, and experience. Listen to live mix samples, check venue references, and review equipment riders before booking. Bouul escrow protects your booking until the performance is delivered. Your club nights deserve more than Instagram follow counts."
+      }
+    ]
+  },
+  {
+    "id": "dj-corporate-003",
+    "tag": "Corporate DJ",
+    "title": "The Corporate Event DJ: Keeping the Energy Professional, Not a Nightclub",
+    "subtitle": "Corporate events need atmosphere without excess. Here's how to find a DJ who gets the balance.",
+    "image": "/scenes/corporate_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the corporate party DJ treated an awards dinner like a Sunday afternoon shebeen",
+    "problemBody": "Your company is hosting its annual awards dinner. Senior executives are present. Clients are there. The vibe needs to be celebratory but professional. The DJ you booked from a recommendation plays as if they're in a nightclub. The volume is too high for conversation. The music choices — heavy bass, explicit lyrics, rapid transitions — clash with the room's atmosphere. The CEO looks uncomfortable. Clients are exchanging glances. The evening's tone, carefully built through the awards ceremony, is lost in the first 10 minutes of the DJ set. Corporate event DJing is a distinct skill. It requires reading a room of professionals, managing volume for conversation, selecting music appropriate for a business context, and transitioning gracefully between background music, dinner ambience, and post-event celebration. Few club DJs can do this well.",
+    "bouulSolution": [
+      "Bouul lists DJs who specialise in corporate events — they understand the balance between energy and professionalism",
+      "You can filter DJs by corporate event type — awards dinners, networking functions, gala evenings, product launches, year-end functions",
+      "Bouul escrow protects your corporate booking fee until the event is successfully completed"
+    ],
+    "partsNeeded": [
+      "Compact PA system suitable for corporate venues (not overpowering)",
+      "Music library with clean/edit versions of all songs (no explicit lyrics)",
+      "Wireless microphone for event announcements and handover to stage",
+      "Discreet setup that doesn't dominate the room visually"
+    ],
+    "guidePricing": 6500,
+    "timeline": "Book 3-6 weeks before event. Music briefing and schedule: 2 weeks. Final timing and announcements: 1 week. Event day setup 1 hour before guest arrival.",
+    "aiPromptExample": "\"Brief for a corporate year-end function DJ: 150 staff, upscale Sandton hotel, 6 PM-11 PM, cocktail hour with jazz/lounge, welcome speeches, 3-course dinner with background music, dance floor opens 9 PM, mix of current pop, 80s/90s classics, and South African favourites. Clean versions only. Volume must allow conversation during dinner.\"",
+    "aiDiagnosisOutput": "\"Event analysis: Upscale hotel in Sandton — strict noise limits and load-in times. 5-hour event across multiple phases needs programmed transition: 6-7 PM cocktail (jazz/lounge, low volume), 7-8 PM dinner (instrumental, dining volume), 8-9 PM awards/speeches (MC mode, DJ handles announcements), 9-11 PM dance floor (gradual build, pop-classics-SA mix). Clean edits essential everywhere. Volume management is the key skill — must stay below conversation threshold during dinner, then ramp. 150 staff at hotel year-end — mix of ages and tastes demands variety set.\"",
+    "escrowGuarantee": "Bouul Escrow holds your corporate DJ fee. Payment releases after the event. If the DJ violates volume constraints, plays explicit content, or fails to follow the agreed schedule, you're covered.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — corporate section covers volume management, content appropriateness, professional presentation standards, and timeline compliance.",
+    "articleSections": [
+      {
+        "heading": "The multistage set",
+        "body": "A corporate event has multiple phases — each requiring different music. Welcome drinks need background music that doesn't compete with conversation. Dinner needs music that fills silence without dominating. Speeches and awards need the DJ to manage microphone volume and transition to content. The dance party segment needs energy that feels celebratory without being excessive. A corporate DJ must be able to navigate all these phases seamlessly. When booking on Bouul, confirm the DJ has experience with multistage corporate events."
+      },
+      {
+        "heading": "Clean edits are mandatory",
+        "body": "At a corporate event, explicit lyrics are unacceptable. Every song played must be the clean/radio edit version. This includes current hip-hop and pop tracks where the explicit version is the default on streaming. A professional corporate DJ maintains a library of clean edits and knows which versions to play. Bouul's corporate DJ profiles include confirmation of clean-edit library availability."
+      },
+      {
+        "heading": "Volume management separates professionals from amateurs",
+        "body": "The most common complaint about DJs at corporate events is volume. Too loud during dinner ruins conversation. Too quiet during the dance portion fails the energy goal. A skilled corporate DJ adjusts volume throughout the night based on room occupancy, ambient noise, and the crowd's energy. They watch the room, not their controller. They respond when people have to raise their voices to talk. Bouul DJ reviews include volume management ratings from past corporate clients."
+      },
+      {
+        "heading": "Book your corporate DJ on Bouul",
+        "body": "Find corporate DJs on Bouul who understand the balance between ambience and celebration. Read reviews from other corporate clients, confirm clean-lyric libraries and multistage experience, and agree on volume parameters before the event. Book through Bouul with escrow protection. Your corporate event should feel professional — not like a Friday night at the club."
+      }
+    ]
+  },
+  {
+    "id": "dj-private-party-004",
+    "tag": "Private Party DJ",
+    "title": "The Private Party DJ: How to Turn a House Party Into an Unforgettable Night",
+    "subtitle": "The right DJ transforms a gathering into an event. Here's what to look for.",
+    "image": "/scenes/private_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your friend's 'I'll just play DJ from my phone' strategy killed the party energy",
+    "problemBody": "You're hosting a milestone birthday, an anniversary, or a New Year's Eve party. Someone says 'we don't need a DJ — we'll just connect a phone to the speaker and play a playlist.' The playlist starts strong. Everyone's singing along to the first 10 songs. Then someone wants to skip a track. Then someone else connects their phone and the queue is lost. The music suddenly switches from amapiano to country. Three people are arguing over the aux cord. The energy dies. By midnight, the speaker is playing whatever the last person queued and nobody's dancing. A curated playlist is better than silence, but it's no substitute for a live DJ who reads the room, adjusts energy, and keeps the party moving. A private party DJ is one of the highest-ROI investments you can make for any gathering.",
+    "bouulSolution": [
+      "Bouul connects you with party DJs who understand private events — milestone birthdays, anniversary parties, New Year's Eve, graduation parties",
+      "You can compare DJs by genre flexibility, equipment portability (for home venues), and experience with crowd sizes from 20-200",
+      "Bouul escrow protects your party DJ booking fee until the event is successfully completed"
+    ],
+    "partsNeeded": [
+      "Portable PA system appropriate for home/venue size",
+      "DJ controller or laptop with full music library",
+      "Compact lighting setup (discreet but effective for a party atmosphere)",
+      "Backup power solution for load-shedding (UPS battery pack for equipment)"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Book 2-4 weeks ahead. Guest profile discussion: 2 weeks. Final song requests and party schedule: 1 week. Setup 1 hour before guests arrive.",
+    "aiPromptExample": "\"Private party DJ brief: 40th birthday party in a private home in Sandton, 40 guests, 7 PM-late, mix of 40-something friends and family, music should blend 90s R&B, amapiano, 80s classics, and current pop — crowd that likes to dance but also talk. No explicit content. Setup in a garden/home entertainment area.\"",
+    "aiDiagnosisOutput": "\"Party analysis: Home garden/entertainment area in Sandton — noise curfew likely (check with homeowner). 40 guests in residential setting needs appropriate speaker size for the space. Guest profile: 40-something crowd wants nostalgia (90s R&B, 80s classics) with current SA sounds (amapiano). Home setup must be discreet — DJ in corner, speakers not blocking flow. Volume management critical in residential area. Schedule: 7-8 PM arrival/drinks (background), 8-10 PM dinner/seated (ambient), 10 PM+ dance (gradual build). 40 guests for milestone birthday — crowd will have specific request expectations; DJ must manage requests gracefully.\"",
+    "escrowGuarantee": "Bouul Escrow protects your private party DJ booking. Payment releases after the event. If the DJ doesn't show or fails to maintain agreed standards, you're covered.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — private party standards include residential noise compliance, equipment safety in home environments, and professional conduct at private events.",
+    "articleSections": [
+      {
+        "heading": "The request management skill",
+        "body": "At a private party, guests will approach the DJ with requests. A skilled party DJ manages requests gracefully — incorporating good suggestions while politely declining requests that don't fit the room's energy or the event's tone. The DJ should have a system: request list, a way to evaluate whether the song fits the current energy, and the ability to say something is 'coming up later' if it doesn't fit now. The worst party DJs accept every request immediately, resulting in a chaotic playlist with no energy curve."
+      },
+      {
+        "heading": "Home venue considerations",
+        "body": "Private party DJs working in homes need to consider space, power, and noise. The setup must be compact enough to fit in the available area without blocking flow. Power must be adequate (extension cords and access to multiple circuits). Noise must be managed for residential areas — most suburbs have noise bylaws after 10 PM on weekdays and 11 PM on weekends. A good party DJ brings battery-powered options or a UPS for load-shedding, which remains a reality across South Africa."
+      },
+      {
+        "heading": "The difference between a playlist and a DJ",
+        "body": "A playlist plays songs in order. A DJ reads the room, adjusts energy, transitions between genres smoothly, and creates moments — the big drop, the singalong chorus, the surprise throwback. A playlist can't respond to a room that's losing energy. It can't skip a track that's killing the vibe. It can't build anticipation. The difference between a playlist and a live DJ is the difference between a recorded concert and a live performance. Both can be good. Only one can respond to its audience."
+      },
+      {
+        "heading": "Book your private party DJ on Bouul",
+        "body": "Find private party DJs on Bouul who understand home venues and residential constraints. Check their equipment list for portability and backup power. Read reviews from other private party hosts. Book through Bouul with escrow protection. Your next party deserves more than someone's phone on a speaker."
+      }
+    ]
+  },
+  {
+    "id": "dj-radio-005",
+    "tag": "Radio DJ",
+    "title": "The Journey from Club DJ to Radio Personality: A South African Guide",
+    "subtitle": "Radio DJing is a different craft. Here's what it takes to make the transition.",
+    "image": "/scenes/radio_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the best club DJ in your city might be terrible on radio",
+    "problemBody": "You're a club DJ. You've built a following. Your mixes are tight. You know how to read a dance floor. You think radio is the next step — more reach, more stability, more money. But radio DJing is almost nothing like club DJing. On radio, you're not mixing tracks for a dance floor. You're hosting. You're talking between songs. You're interviewing guests. You're reading news and weather. You're managing commercial breaks and time cues to the second. The music selection is controlled by a playlist director. Your voice, personality, and conversational ability matter more than your mixing skills. Many great club DJs fail at radio because they treat it like a club set with talking breaks. Radio is a performance medium where the DJ is the companion, not the centre of attention.",
+    "bouulSolution": [
+      "Bouul connects aspiring radio DJs with training resources and experienced radio professionals who offer mentorship and show opportunities",
+      "You can find radio DJs for event hosting, voiceover work, and guest appearances through Bouul's professional services",
+      "Bouul escrow protects booking fees for radio DJ appearances and event MC work"
+    ],
+    "partsNeeded": [
+      "Professional microphone with pop filter and audio interface for studio-quality voice",
+      "Broadcast software or experience with radio automation systems",
+      "Voice training or coaching for on-air presence and breath control",
+      "Content planning skills for show segments, interviews, and audience engagement"
+    ],
+    "guidePricing": 8000,
+    "timeline": "Training and skill development: 3-6 months. Demo reel production: 1 month. Station application and audition process: 1-3 months. Regular show: ongoing.",
+    "aiPromptExample": "\"Create a plan for a club DJ transitioning to radio: current skill is amapiano and house mixing, 5 years club experience, want to host a weekend afternoon show on a Johannesburg community station. Need to develop on-air personality, interview skills, and familiarity with radio automation.\"",
+    "aiDiagnosisOutput": "\"Transition analysis: Club to radio requires significant addition skills. Voice training: club DJs often speak briefly between tracks; radio requires extended comfortable conversation. Content preparation: radio shows need segment planning, guest questions, and audience interaction scripts. Technical: radio automation (Zetta, Dalet, or station-specific) is different from DJ software. Recommendation: 3-month transition plan — month 1 voice training and demo reel production, month 2 volunteer/community radio shifts for practice, month 3 commercial station application. Weekend afternoon on community station is achievable with dedicated preparation.\"",
+    "escrowGuarantee": "Bouul Escrow protects mentorship and training bookings. Payment releases on milestone completion — demo reel production, coaching sessions, or show production milestones as agreed.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — radio DJ section covers broadcast standards, voice professionalism, content compliance, and on-air conduct guidelines.",
+    "articleSections": [
+      {
+        "heading": "Voice is your new instrument",
+        "body": "In a club, your instrument is the music. On radio, your voice is the primary instrument. You need clear diction, comfortable pacing, natural conversational tone, and the ability to sound engaging even when reading a traffic update. Voice training is essential — most successful radio DJs have worked with a coach or taken broadcasting courses. Your demo reel should showcase your voice, not your mixing. Three minutes of your best on-air commentary, interviews, and segment hosting — not three minutes of a mix."
+      },
+      {
+        "heading": "The content shift",
+        "body": "Club DJing is about music selection and mixing. Radio DJing is about content creation. Your show needs segments — what you'll talk about between songs, what guests you'll interview, what callers will discuss, what features you'll run. You need to stay current on news, pop culture, and topics relevant to your audience. You need to plan each show in advance while staying flexible enough to respond to breaking news or call-in topics. The music on your show is only 40-50% of your airtime. The other 50-60% is your personality and content."
+      },
+      {
+        "heading": "Starting at community radio",
+        "body": "Almost every South African radio personality started at community radio. Community stations give you airtime, an audience (even if small), and the opportunity to develop your on-air skills without the pressure of commercial ratings. Many community stations have weekend slots available for new DJs. This is where you make your mistakes, find your voice, and build your demo reel. Bouul can connect you with community radio stations seeking programming."
+      },
+      {
+        "heading": "Find radio DJ opportunities on Bouul",
+        "body": "Whether you're looking for a radio DJ for your event, a voiceover artist, or guidance on breaking into radio, Bouul connects you with experienced professionals. Browse profiles, listen to demo reels, and book through the app with escrow protection."
+      }
+    ]
+  },
+  {
+    "id": "dj-mobile-006",
+    "tag": "Mobile DJ",
+    "title": "The Mobile DJ Business: How to Build a DJ Career That Goes Wherever the Party Is",
+    "subtitle": "Mobile DJs bring the party to any location. Here's how to build a successful mobile DJ operation in South Africa.",
+    "image": "/scenes/mobile_dj.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your DJ business has no repeat bookings (and what mobile DJs are doing differently)",
+    "problemBody": "You're a DJ. You're good at mixing. You have decent gear. But the bookings are inconsistent. You do a wedding, the couple is happy, but they never refer you. You play a club gig, the promoter says 'we'll call you,' and they don't. The problem isn't your mixing — it's that you're running your DJ career as a hobby, not a business. Mobile DJs who succeed treat every gig as a product. They have a consistent setup process, a clear pricing structure, professional contracts, an online booking system, and a follow-up process for reviews and referrals. They show up on time with the right gear, dressed appropriately, with backup equipment. They understand that DJing is 20% mixing and 80% professionalism, client communication, and business management. If you want consistent bookings, you need to shift from 'I'm a DJ who takes gigs' to 'I run a mobile DJ service.'",
+    "bouulSolution": [
+      "Bouul helps mobile DJs build professional profiles that attract clients — with verified reviews, equipment listings, and transparent pricing",
+      "DJs can list their services, upload mixes, share their rider, and manage bookings through the Bouul platform",
+      "Bouul escrow protects both DJs and clients — DJs get paid for completed gigs, clients only pay when satisfied"
+    ],
+    "partsNeeded": [
+      "Portable PA system with speakers, subwoofer, and stands for vehicle transport",
+      "DJ controller/laptop with backup unit and full music library",
+      "Lighting kit — uplighting, dance floor light, and ambient setup",
+      "Cables, extension cords, gaffer tape, and a reliable vehicle for transport"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Client booking: 2-8 weeks before event. Client consultation: 2 weeks. Setup and sound check: 1-2 hours before event start. Event duration as booked. Pack-down: 30-60 min after event.",
+    "aiPromptExample": "\"Proposal for a mobile DJ service: targeting private parties and small weddings in Cape Town, audience size 30-100, portable setup suitable for homes and small venues, offering DJ + MC + basic lighting package at R4,500 per event. Need marketing plan to attract first 10 clients.\"",
+    "aiDiagnosisOutput": "\"Business analysis: Cape Town mobile DJ market has strong demand for private events and intimate weddings. R4,500 is competitive for DJ+MC+lighting package. Target market: couples planning micro-weddings, milestone birthday hosts, corporate team events. Marketing: Bouul profile with mix samples, Google Business listing, networking with event planners and wedding coordinators (they control client referrals). First 10 clients strategy: offer referral discount, collect video testimonials at early events, partner with 2-3 small wedding venues as their preferred DJ supplier. Equipment: portable PA fitting in a sedan (critical for Cape Town parking). Backup power for load-shedding (essential for SA events).\"",
+    "escrowGuarantee": "Bouul Escrow protects both DJ and client. DJs receive payment after successful event completion. Clients release funds only when service is delivered as agreed. No chasing payments, no disputes without recourse.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — mobile DJ standards cover portable equipment safety, transport protocols, venue power management, and professional conduct across multiple event types.",
+    "articleSections": [
+      {
+        "heading": "Your gear is your product — treat it that way",
+        "body": "A mobile DJ's equipment is their primary asset. Invest in quality gear that's portable, reliable, and appropriately sized for the venues you target. A wedding couple at a 120-guest farm wedding needs different sound than a corporate event in a conference room. Build your kit with modularity in mind — speakers that work for a range of venue sizes, lighting that can scale up or down, and a backup for every critical component. Gaffer tape, spare cables, extension cords, a power strip, and a small toolkit should live permanently in your transport case. Load-shedding is a reality in South Africa — a UPS battery backup for your DJ equipment is non-negotiable."
+      },
+      {
+        "heading": "The client management workflow",
+        "body": "Every booking follows the same workflow: inquiry response within 24 hours, consultation call or meeting to understand the event, written quote with clear inclusions, contract with terms and cancellation policy, deposit (typically 50%) to confirm booking, pre-event check-in (1-2 weeks before), event day setup and performance, post-event follow-up with a thank-you and review request. This professional process builds trust, reduces misunderstandings, and generates referrals. Bouul simplifies this by handling the booking, payment, and review system within the app."
+      },
+      {
+        "heading": "Growing from solo to a DJ company",
+        "body": "The most successful mobile DJ operations grow beyond the solo operator. The next step is hiring additional DJs who work under your brand, bringing in a dedicated MC for events that need announcements, and eventually adding a second rig for simultaneous bookings. This scales your revenue without scaling your hours. Bouul's platform supports DJ businesses with multiple operators, letting you manage a team under one profile with individual DJ listings."
+      },
+      {
+        "heading": "Build your mobile DJ business on Bouul",
+        "body": "Bouul gives mobile DJs a professional platform to attract clients, showcase their work, and manage bookings with escrow-protected payments. Create your profile, upload mix samples, list your equipment package, and start getting bookings from clients who are ready to hire. Your next gig is one profile away."
+      }
+    ]
+  }
+]

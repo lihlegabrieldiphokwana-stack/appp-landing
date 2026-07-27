@@ -1,0 +1,278 @@
+[
+  {
+    "id": "couples-massage",
+    "tag": "spas",
+    "title": "Couples Massage: Shared Relaxation for Two",
+    "subtitle": "A guide to booking and experiencing a couples massage at an SA spa - side-by-side relaxation done right.",
+    "image": "/scenes/couples-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is couples massage just two massages in the same room?",
+    "problemBody": "A couples massage involves two therapists working simultaneously on two clients in the same treatment room. The therapists coordinate their pace, pressure, and techniques so both partners finish at the same time. It is not a different technique - the experience is in the shared relaxation and the coordinated timing. Cost in SA: R500-R1,200 per couple for 60 minutes. A same-sex couples massage is booked the same way.",
+    "bouulSolution": [
+      "Bouul lists spas with couples massage rooms - not all spas have a double-treatment room layout.",
+      "Discuss pressure preferences individually with each therapist before the session starts.",
+      "Bouul Escrow protects you if one partner is left waiting while the other finishes."
+    ],
+    "partsNeeded": [
+      "Two massage tables positioned side by side",
+      "Two therapists working in sync",
+      "Coordinated oils and aromatherapy scents",
+      "Champagne or herbal tea to finish the experience"
+    ],
+    "guidePricing": "R500-R1,200 per couple for 60 min; R700-R1,600 per couple for 90 min",
+    "timeline": "60 min standard; 90 min for full couples spa experience",
+    "aiPromptExample": "Describe the ideal couples massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended couples massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Room Setup",
+        "body": "A proper couples massage room has two tables with enough space between them for each therapist to move freely. The tables are positioned so partners can see each other when face-up. Soft lighting, ambient music, and a shared aromatherapy diffuser create the atmosphere. The therapists coordinate their movements to start and end together."
+      },
+      {
+        "heading": "Coordinating Preferences",
+        "body": "Each partner should have their own pressure and focus area discussion with their assigned therapist before the session. One partner can request deep tissue while the other wants gentle relaxation - the therapists adjust their individual techniques accordingly."
+      },
+      {
+        "heading": "Is Couples Massage Romantic or Therapeutic?",
+        "body": "It can be either. Many SA couples book a couples massage for anniversaries or Valentine's Day as a shared relaxation experience. Others book for a shared wellness day without romantic expectations. The therapists treat it professionally either way - you set the tone."
+      },
+      {
+        "heading": "Same-Sex Couples",
+        "body": "Couples massage is available to same-sex couples with the same booking process. If you prefer male or female therapists for both partners, specify this when booking on Bouul. If your partner is not your romantic partner (friend, sibling, parent), this is also common - just book a standard couples massage."
+      }
+    ]
+  },
+  {
+    "id": "spa-day",
+    "tag": "spas",
+    "title": "The Ultimate Spa Day: What to Expect from an SA Spa Experience",
+    "subtitle": "Half-day, full-day, and overnight spa packages - what is included, what to bring, and how to make the most of your time.",
+    "image": "/scenes/spa-day.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "What does a full spa day actually include?",
+    "problemBody": "A spa day package in SA typically includes 2-4 treatments (massage, facial, body wrap, manicure, or pedicure), access to wet facilities (sauna, steam room, pool, jacuzzi), and a meal or refreshments. Half-day packages cost R600-R1,500 and full-day packages R1,200-R3,000 at mid-range SA spas. Premium destinations (like those in the Cape Winelands or Magaliesberg) charge R2,000-R5,000 for full-day luxury packages.",
+    "bouulSolution": [
+      "Bouul spa listings show real facility photos and treatment descriptions - check the wet area and meal quality in reviews.",
+      "Arrive 15-30 minutes early to complete intake forms and change into your robe.",
+      "Bouul Escrow protects you if booked treatments are cancelled or shortened without notice."
+    ],
+    "partsNeeded": [
+      "Comfortable robe and slippers (provided by the spa)",
+      "Swimsuit for wet facilities",
+      "Water bottle and flip-flops",
+      "Book or magazine for relaxation time between treatments"
+    ],
+    "guidePricing": "R600-R1,500 for half-day; R1,200-R3,000 for full day (mid-range); R2,000-R5,000 for premium/luxury full day",
+    "timeline": "3-4 hours for half-day; 6-8 hours for full day",
+    "aiPromptExample": "Describe the ideal spa day experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended spa day plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Spa Day Itinerary",
+        "body": "A typical full spa day: arrive, change into robe, enjoy the steam room or sauna (20-30 min), first treatment (massage, 60 min), break with herbal tea and light snack, second treatment (facial or body treatment, 60 min), lunch (often included), third treatment (manicure or pedicure, 45-60 min), final relaxation time in the pool or lounge area, departure.\nTreatments are spaced with adequate relaxation time between them - the day should not feel rushed."
+      },
+      {
+        "heading": "Wet Facilities Etiquette",
+        "body": "Saunas, steam rooms, and pools are shared spaces. Shower before entering. Use a towel to sit on. Keep your voice low. No phones in wet areas. No photography. In co-ed facilities, swimwear is required. Many SA spas separate male and female wet areas for single-gender use."
+      },
+      {
+        "heading": "What to Bring vs What Is Provided",
+        "body": "Spas provide: robe, towel, slippers, lockers, toiletries (shampoo, conditioner, body wash, lotion), hair dryers, and refreshments. You bring: swimsuit, flip-flops (if you prefer your own), water bottle, and a book if you want to read between treatments. Valuables stay in the locker - most SA spa lockers are key-operated."
+      },
+      {
+        "heading": "Tipping Etiquette",
+        "body": "Tipping is not mandatory at SA spas but is appreciated. Standard gratuity is 10-15% of the treatment cost. Some spas include a service charge in the package price - check your bill before adding a tip. Cash tips are preferred and can be handed directly to your therapist in an envelope."
+      }
+    ]
+  },
+  {
+    "id": "hydrotherapy",
+    "tag": "spas",
+    "title": "Hydrotherapy: Water-Based Healing and Relaxation",
+    "subtitle": "How SA spas use water therapies - from jacuzzis and plunge pools to Vichy showers and thalassotherapy.",
+    "image": "/scenes/hydrotherapy.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is hydrotherapy just sitting in a hot tub?",
+    "problemBody": "Hydrotherapy is a structured therapeutic approach using water at different temperatures, pressures, and compositions to treat specific conditions. It is far more than a hot tub. Modalities include contrast therapy (alternating hot and cold water to stimulate circulation), Vichy shower (warm water jets applied while lying down), thalassotherapy (seawater-based treatments), and jacuzzi hydro-massage. Sessions cost R300-R800 as standalone treatments or are included in spa packages.",
+    "bouulSolution": [
+      "Bouul hydrotherapy services specify the type of water therapy offered - book based on your therapeutic goal, not just the experience.",
+      "Hydrate well before and after - hydrotherapy can be more dehydrating than expected due to heat and mineral absorption.",
+      "Bouul Escrow protects you if the water temperature or hygiene standards are not professionally maintained."
+    ],
+    "partsNeeded": [
+      "Hydrotherapy pool or jacuzzi with adjustable jet pressure",
+      "Vichy shower rail with 5-7 adjustable spray jets",
+      "Cold plunge pool (10-15C) and warm pool (34-36C)",
+      "Salt additives or essential oils for therapeutic effect"
+    ],
+    "guidePricing": "R300-R800 standalone; often included in full spa day packages; R150-R400 for jacuzzi or steam room access only",
+    "timeline": "20-45 min per hydrotherapy session",
+    "aiPromptExample": "Describe the ideal hydrotherapy experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hydrotherapy plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Contrast Therapy",
+        "body": "Alternating between hot (38-42C) and cold (10-15C) water stimulates circulation, reduces muscle inflammation, and boosts the immune system. The standard protocol: 3 minutes hot followed by 1 minute cold, repeated 3-4 times, ending on cold. This is commonly used in SA spas attached to sports recovery centres.\nContrast therapy should not be used by clients with heart conditions, high blood pressure, or during pregnancy."
+      },
+      {
+        "heading": "Vichy Shower Treatment",
+        "body": "A horizontal shower with 5-7 adjustable warm water jets positioned along a rail above the treatment table. The client lies face-up while the jets move along the body, and the therapist applies body treatments or massage in combination with the water flow. It is deeply relaxing and excellent for lymphatic drainage.\nThe Vichy shower originated in the thermal spa town of Vichy, France. Several SA luxury spas have installed Vichy rails."
+      },
+      {
+        "heading": "Thalassotherapy",
+        "body": "Seawater-based treatments using heated seawater, seaweed wraps, and marine mud. The mineral content of seawater (magnesium, potassium, calcium) is absorbed through the skin during immersion. SA coastal spas in the Western Cape and KwaZulu-Natal specialise in thalassotherapy using local seawater."
+      },
+      {
+        "heading": "Hydrotherapy Contraindications",
+        "body": "Avoid hydrotherapy if you have: uncontrolled high blood pressure, heart disease, epilepsy, open wounds or skin infections, or are in the first trimester of pregnancy. Hot water therapy during the third trimester should be limited to 10-15 minutes maximum."
+      }
+    ]
+  },
+  {
+    "id": "sauna-steam-room",
+    "tag": "spas",
+    "title": "Sauna and Steam Room: Dry Heat vs Wet Heat Benefits",
+    "subtitle": "The differences between Finnish saunas and steam rooms, their health benefits, and SA spa etiquette.",
+    "image": "/scenes/sauna-steam-room.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Which is better - sauna or steam room?",
+    "problemBody": "Both saunas and steam rooms offer health benefits through different mechanisms. A Finnish sauna (70-100C, 10-20% humidity) produces intense dry heat for deep sweating and cardiovascular conditioning. A steam room (40-50C, 100% humidity) produces moist heat that opens airways and is gentler on the skin. Many SA spas offer both in their wet facility areas, included in the spa day or as standalone access for R100-R300.",
+    "bouulSolution": [
+      "Bouul spa listings specify sauna type (Finnish, infrared, or steam) - choose based on your preference.",
+      "Shower before entering. Sit on a towel. No phones. Limit sessions to 15-20 minutes.",
+      "Bouul Escrow protects you if the facilities are not at the correct operating temperature or are unhygienic."
+    ],
+    "partsNeeded": [
+      "Finnish sauna with heated stones and ladle for optional steam bursts",
+      "Steam room with continuous steam generator",
+      "Cold plunge pool or bucket shower for contrast therapy",
+      "Towels, water dispenser, and cooling-off area"
+    ],
+    "guidePricing": "R100-R300 for standalone access; R200-R500 for sauna/steam plus cold plunge circuit; included in most spa day packages",
+    "timeline": "10-20 min per session (max 25 min); repeat 2-3 times with cold exposure in between",
+    "aiPromptExample": "Describe the ideal sauna steam room experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended sauna steam room plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Finnish Sauna Protocol",
+        "body": "The traditional Finnish sauna cycle: heat up for 10-20 minutes, then cool down with a cold shower or plunge (30 seconds-2 minutes), then rest for 10-15 minutes. Repeat 2-3 times. The final cool-down should be gradual - a warm shower, then cool, then rest. The optional steam burst (throwing water on hot stones) is called loyly and is not always expected by first-timers.\nSA spas with Finnish saunas typically pre-heat to 80-90C. Infrared saunas operate at a lower temperature (45-60C) for longer sessions."
+      },
+      {
+        "heading": "Steam Room Benefits",
+        "body": "Steam rooms are preferred for respiratory benefits - the warm, moist air helps clear sinuses, loosen phlegm, and soothe asthma symptoms. The lower temperature is more tolerable for clients who find dry saunas too intense. The high humidity hydrates the skin (unlike dry sauna, which can dehydrate)."
+      },
+      {
+        "heading": "Hydration Is Critical",
+        "body": "You lose significant fluid through sweating in both saunas and steam rooms. Drink 500ml-1L of water spread across your sauna/steam session. Dehydration symptoms include dizziness, headache, and nausea. If you feel any of these, leave the heat immediately and drink water while sitting in a cool area."
+      },
+      {
+        "heading": "After Your Heat Session",
+        "body": "Cool down gradually. A cold plunge feels intense but constricts blood vessels and pushes blood back toward your organs. A warm/cool shower is a gentler alternative. Rest for at least 10 minutes before getting dressed. Avoid alcohol for 2 hours after a heat session."
+      }
+    ]
+  },
+  {
+    "id": "body-wrap",
+    "tag": "spas",
+    "title": "Body Wraps: Detox, Firm, and Nourish Your Skin",
+    "subtitle": "From seaweed to mud to clay - how SA spa body wraps work and what they actually achieve.",
+    "image": "/scenes/body-wrap.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Do body wraps actually detox or is it just marketing?",
+    "problemBody": "Body wraps involve applying a treatment product (clay, mud, seaweed, or gel) to the body, wrapping the client in thermal blankets or plastic, and allowing the ingredients to absorb for 20-40 minutes. While the toxic claims are overstated, body wraps do temporarily firm the skin through hydration, draw impurities from pores through osmotic action, and leave skin feeling significantly smoother and more toned. Results last 3-7 days. Cost: R400-R1,000.",
+    "bouulSolution": [
+      "Bouul spa therapists explain the specific benefits of each wrap type - choose based on your goals (firming, hydration, or mineral absorption).",
+      "Drink plenty of water before and after - some clients feel lightheaded during the wrap from the warm insulation.",
+      "Bouul Escrow protects you if the wrap causes a skin reaction or burns from over-heating."
+    ],
+    "partsNeeded": [
+      "Treatment product (seaweed, clay, mud, or gel)",
+      "Thermal blanket or plastic wrap for insulation",
+      "Warm towels for removal",
+      "Moisturiser or firming lotion for post-wrap application"
+    ],
+    "guidePricing": "R400-R1,000 for a single body wrap; R600-R1,500 for wrap with a massage or scrub combination",
+    "timeline": "45-75 min depending on the wrap type and included treatments",
+    "aiPromptExample": "Describe the ideal body wrap experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended body wrap plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Seaweed Wraps",
+        "body": "Seaweed (specifically kelp) is rich in iodine, magnesium, and trace minerals absorbed through the skin during the wrap. The wrap stimulates circulation, reduces water retention, and leaves skin feeling firm and energised. SA coastal seaweed is harvested sustainably in the Western Cape for use in premium spa treatments.\nSeaweed wraps are not recommended for clients with shellfish allergies or hyperthyroidism (due to iodine content)."
+      },
+      {
+        "heading": "Clay and Mud Wraps",
+        "body": "Clay wraps (using green clay, bentonite, or Rhassoul) draw impurities from the skin through absorption. Mud wraps (using thermal mud or peat) deliver minerals and warmth to soothe aching joints and muscles. Both are particularly effective for clients with oily or congested skin on the body."
+      },
+      {
+        "heading": "The Wrap Process",
+        "body": "You are exfoliated first (dry brush or scrub), then the treatment product is applied to the body, you are wrapped in a thermal blanket or plastic, the therapist leaves the room while you rest for 20-40 minutes, the product is removed with warm towels, and moisturiser is applied. You may feel warm and relaxed after the experience."
+      },
+      {
+        "heading": "Post-Wrap Care",
+        "body": "Avoid showering for 2-3 hours after a body wrap to allow the active ingredients to continue absorbing. Drink a full glass of water immediately after. The firming effect is most visible in the first 24 hours and fades over 3-7 days as the skin returns to normal hydration levels."
+      }
+    ]
+  },
+  {
+    "id": "aromatherapy",
+    "tag": "spas",
+    "title": "Aromatherapy: Essential Oils for Mind and Body Wellness",
+    "subtitle": "How SA spas use essential oils in massage, diffusers, and steam treatments for therapeutic effect.",
+    "image": "/scenes/aromatherapy.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is aromatherapy scientifically proven or just nice smells?",
+    "problemBody": "Aromatherapy uses concentrated plant essential oils for therapeutic benefits through inhalation and skin absorption. Research supports that specific oils affect the limbic system (the emotional centre of the brain) and can reduce anxiety, improve sleep, relieve pain, and support immune function. In SA spa settings, aromatherapy is most commonly delivered through massage oils, steam inhalation, and room diffusion. A 60-minute aromatherapy massage costs R400-R850.",
+    "bouulSolution": [
+      "Bouul aromatherapy specialists should have certification from the Aromatherapy Association of SA (AASA) or equivalent.",
+      "Disclose any allergies, asthma, or epilepsy before your session - some oils trigger seizures or respiratory reactions.",
+      "Bouul Escrow protects you if the blend causes a skin reaction or if the therapist uses non-therapeutic grade oils."
+    ],
+    "partsNeeded": [
+      "Pure essential oils (lavender, peppermint, eucalyptus, tea tree, chamomile, rosemary, etc.)",
+      "Carrier oils (jojoba, sweet almond, grapeseed for dilution)",
+      "Diffuser or steam inhaler for aromatic delivery",
+      "Blending bottles and droppers for custom blends"
+    ],
+    "guidePricing": "R400-R850 for 60 min aromatherapy massage; R150-R350 for essential oil steam or diffuser add-on; R500-R1,000 for full aromatherapy spa treatment",
+    "timeline": "60 min for standard aromatherapy massage; 60-90 min for full treatment",
+    "aiPromptExample": "Describe the ideal aromatherapy experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended aromatherapy plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Essential Oil Safety",
+        "body": "Essential oils are highly concentrated and must be diluted in carrier oils before skin application. Undiluted oils cause chemical burns. Some oils are phototoxic (bergamot, citrus) and increase sun sensitivity. Others (clary sage, rosemary) should be avoided during pregnancy. Bouul therapists are trained in safe dilution ratios for each oil."
+      },
+      {
+        "heading": "Oil Selection by Goal",
+        "body": "Relaxation and sleep: lavender, chamomile, ylang-ylang. Energy and focus: peppermint, rosemary, lemon. Pain relief: eucalyptus, ginger, black pepper. Stress reduction: frankincense, sandalwood, rose. Respiratory support: eucalyptus, tea tree, pine. Your Bouul therapist should select oils based on your stated goal for the session."
+      },
+      {
+        "heading": "Inhalation vs Topical Application",
+        "body": "Inhalation (through diffusers or steam) delivers the aroma directly to the limbic system and works within seconds. Topical application (through massage oils) allows the compounds to absorb through the skin into the bloodstream over 20-60 minutes. Both routes are used in a comprehensive aromatherapy treatment."
+      },
+      {
+        "heading": "SA-Grown Essential Oils",
+        "body": "South Africa produces several high-quality essential oils: Cape chamomile (Eriocephalus punctulatus), Buchu (Agathosma betulina), and African wormwood (Artemisia afra). These indigenous oils have unique therapeutic properties and are becoming more common in SA spa treatments."
+      }
+    ]
+  }
+]

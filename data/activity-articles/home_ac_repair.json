@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ac_gas_refill",
+    "tag": "AC Repair",
+    "title": "AC Gas Refill: Why Your Split Unit Is Blowing Warm Air",
+    "subtitle": "When your air conditioner blows warm air on a 38°C Highveld afternoon, a refrigerant top-up is often the fix. Here is exactly what it involves, what it costs, and how Bouul keeps you from getting ripped off.",
+    "image": "/scenes/ac_gas_refill.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your AC is running but pushing nothing but warm, humid air. The compressor kicks on, the outdoor fan spins, but the relief never comes.",
+    "problemBody": "Low refrigerant is the most common cause of a struggling split-unit AC. Over time, micro-leaks at flare-nut connections or Schrader valves let the gas escape. The compressor runs hotter, the coil never gets cold enough, and your electricity bill climbs because the unit never cycles off.",
+    "bouulSolution": [
+      "Bouul's vetted HVAC technicians arrive with a manifold gauge set and an electronic leak detector — no guesswork, no 'let's just top it up and see'.",
+      "We pressure-test the system, locate the leak source, repair the joint or valve, evacuate the line-set with a vacuum pump, and recharge to the manufacturer's exact spec (typically 900 g R410A for a 12 000 BTU unit).",
+      "Every job comes with a 90-day workmanship guarantee held in Bouul escrow. If that gas leaks again within 90 days, we send the tech back at no charge."
+    ],
+    "partsNeeded": [
+      "R410A refrigerant (900 g – 1.2 kg per 12 000 BTU unit)",
+      "Schrader valve core replacement kit",
+      "Flare-nut torque sealant or Nylog gasket",
+      "Vacuum pump oil and ISO 32 flush"
+    ],
+    "guidePricing": "R950 – R1 850 (gas + labour; varies with refrigerant weight and outdoor unit accessibility)",
+    "timeline": "1 – 2 hours on-site",
+    "aiPromptExample": "Diagnose why my 12 000 BTU Samsung split-unit AC is blowing warm air. The outdoor unit fan runs, the indoor fan runs, but air temp at the vent is 28°C. No error codes on the display.",
+    "aiDiagnosisOutput": "Likely low refrigerant due to a micro-leak. Check standing pressure on the low-side Schrader — if below 100 psi (R410A at 25°C ambient), evacuate and weigh-in the charge. Inspect flare nuts and valve cores with electronic detector before recharging.",
+    "escrowGuarantee": "90-day workmanship guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10147 (refrigerating systems) and SANS 10106 (installation, maintenance, repair of air-conditioning equipment). Electricians must be registered with the Electrical Contracting Board of South Africa (ECB) where hard-wiring is involved.",
+    "articleSections": [
+      {
+        "heading": "How Refrigerant Works in Your Split Unit",
+        "body": "Your AC doesn't 'create' cold air — it moves heat from inside to outside using refrigerant as the carrier. The gas cycles through the compressor, condenser coil, expansion valve, and evaporator coil. When the charge drops below spec (typically 900 g for a 12 000 BTU unit), the evaporator can't absorb enough indoor heat, and the air that passes over it feels barely cool."
+      },
+      {
+        "heading": "Common Leak Points",
+        "body": "Flare-nut connections where the copper line-set meets the indoor and outdoor units are the most frequent offenders — thermal cycling loosens them over years of use. Schrader valve cores (the same type as in car tyres) can also develop pinhole leaks. Less common: pinholes in the copper line-set itself from rubbing against a wall penetration, or corrosion on the outdoor coil from coastal salt air."
+      },
+      {
+        "heading": "Why Recharging Without a Leak Fix is a Waste",
+        "body": "A technician who just connects a gauge and tops up the gas is charging you for a temporary fix. The refrigerant will leak out again — usually faster because the higher pressure after a fresh charge pushes harder on the same weak spot. Bouul's process requires locating and repairing the leak before any gas goes back in."
+      },
+      {
+        "heading": "The Bouul Leak-Repair Process",
+        "body": "Step 1: Static pressure test — see if the system holds pressure with nitrogen. Step 2: Electronic leak detector sweep of all joints, valves, and the coil face. Step 3: Repair — tighten the flare nut, replace the Schrader core, or braze the pinhole. Step 4: Vacuum dehydration — pull the line-set down to 500 microns to remove moisture. Step 5: Weigh-in the exact factory charge from the nameplate."
+      },
+      {
+        "heading": "What You Should Pay",
+        "body": "A legitimate gas refill with leak detection and repair runs R950 – R1 850 in South Africa, depending on your location and how hard the outdoor unit is to reach. A 'top-up only' job at R500 – R700 is cheaper upfront but will need repeating. A full system evacuation and recharge with a documented leak repair is the only durable option."
+      },
+      {
+        "heading": "When to Replace Instead of Refill",
+        "body": "If the compressor has been running dry for months, internal damage is likely — metal particles from worn bearings circulate through the system and clog the expansion valve. If the evaporator coil is rusted through (common in units older than 10–12 years), replacement is usually cheaper than a full coil swap. Bouul technicians will advise honestly and never push a replacement you don't need."
+      }
+    ]
+  },
+  {
+    "id": "ac_compressor_repair",
+    "tag": "AC Repair",
+    "title": "Compressor Repair: When Your AC's Heart Fails",
+    "subtitle": "The compressor is the most expensive component in your split unit. Here is how to tell if it is truly dead or just struggling, what repair actually involves, and when replacement makes more sense.",
+    "image": "/scenes/ac_compressor_repair.png",
+    "readTime": "8 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your outdoor unit hums loudly but the fan spins slowly, or it trips the breaker the moment it tries to start. Some nights it works, other nights it doesn't — and you can hear the strain from two rooms away.",
+    "problemBody": "A failing compressor draws excess current, heats up the contactor, and eventually seizes. Running it in this state risks a locked-rotor condition that can melt the start capacitor or burn out the windings entirely. A seized compressor means a full system replacement in many cases, so catching the warning signs early matters.",
+    "bouulSolution": [
+      "Bouul's technicians start with a multimeter check of winding resistance and a capacitor microfarad test before declaring the compressor dead — many 'failed' compressors are actually just bad capacitors.",
+      "If the compressor is genuinely seized, we attempt a hard-start kit with a higher-torque start capacitor. If that fails, we quote a compressor replacement with full system flush, filter dryer replacement, and new contactor.",
+      "All compressor work carries a 1-year parts-and-labour guarantee held in Bouul escrow. If the replacement compressor fails within 12 months, we replace it free, including gas and labour."
+    ],
+    "partsNeeded": [
+      "Replacement rotary or scroll compressor (matched to BTU rating)",
+      "Start capacitor (typically 35–70 µF) and run capacitor",
+      "Bi-directional filter dryer (liquid line)",
+      "R410A refrigerant recharge (full system weight)"
+    ],
+    "guidePricing": "R3 500 – R7 500 (compressor replacement including gas, filter dryer, and labour)",
+    "timeline": "3 – 6 hours on-site; system ready for use same day",
+    "aiPromptExample": "My 18 000 BTU AC compressor hums for 3 seconds then clicks off. Outdoor fan runs. Capacitor visually OK. What is my next diagnostic step before calling a contractor?",
+    "aiDiagnosisOutput": "Hard-start scenario. Measure start capacitor — if below 70% of rated µF, replace it. Check compressor winding resistance between all three terminals (C-R, C-S, R-S); if any reading is open or shorted to ground, the winding is burnt and replacement is needed. Also test the contactor coil resistance — an open coil prevents the compressor from receiving power.",
+    "escrowGuarantee": "1-year parts-and-labour guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10147 (refrigerating systems). The compressor replacement must be performed by a registered refrigeration mechanic (SAQCC Gas registration). System must be evacuated to below 500 microns before recharging. All recovered refrigerant must be handled per SANS 10147 Annex A.",
+    "articleSections": [
+      {
+        "heading": "Compressor Failure: Scroll vs Reciprocating",
+        "body": "Most modern South African split units use scroll compressors, which are more durable than the older reciprocating type. Scroll failures are usually electrical (burnt windings from voltage sags, which are common in SA) or mechanical (worn scroll tips after 10+ years). Reciprocating compressors fail more often on valve reeds and piston rings. The repair approach differs: scroll compressors are replaced as a sealed unit; reciprocating compressors can sometimes be rebuilt."
+      },
+      {
+        "heading": "The Capacitor Trap",
+        "body": "A failed start capacitor produces exactly the same symptoms as a seized compressor — humming, hard starting, clicking off. Yet a capacitor costs R150–R350 and takes 15 minutes to replace. Unscrupulous contractors have been known to quote 'compressor replacement' when only the capacitor is faulty. Bouul's diagnostic checklist requires a verified capacitor test before any compressor diagnosis is given."
+      },
+      {
+        "heading": "Compressor Replacement: What the Job Entails",
+        "body": "Recover the remaining refrigerant into a recovery cylinder (never vented to atmosphere — illegal under SANS 10147). Remove the burnt compressor, flush the line-set with nitrogen to clear acid and carbon deposits from the burn-out. Install the new compressor with a fresh filter dryer. Braze with Silfos or 15% silver rod. Pressure test with nitrogen to 400 psi. Evacuate to below 500 microns. Recharge with the nameplate weight of R410A. Test run for 30 minutes."
+      },
+      {
+        "heading": "When to Replace the Whole Unit",
+        "body": "If the compressor fails and the unit is older than 10 years, a complete outdoor unit replacement (condenser + compressor) often costs only R2 000–R3 000 more than a compressor-only swap. You get a new compressor, new coil, new fan motor, fresh gas, and a manufacturer warranty. Bouul technicians will present both quotes so you can make an informed choice."
+      },
+      {
+        "heading": "The Cost Breakdown",
+        "body": "Compressor unit: R2 500–R5 000 (aftermarket, matched to BTU). Filter dryer: R150–R300. R410A gas (1.2–1.8 kg): R500–R1 000. Labour: R800–R1 500. Total: R3 950–R7 800. Bouul quotes are fixed upfront — no price surprises when the job is done."
+      },
+      {
+        "heading": "Preventing Compressor Failure",
+        "body": "Most compressor failures in SA are caused by voltage fluctuations (brownouts in summer) and poor maintenance. Install a voltage protector/stabiliser on the AC's dedicated circuit breaker. Clean the condenser coils every 6 months. Replace the air filter monthly during high-use seasons. These three steps can extend compressor life from 8 to 15+ years."
+      }
+    ]
+  },
+  {
+    "id": "ac_duct_cleaning",
+    "tag": "AC Repair",
+    "title": "Duct Cleaning: Why Your AC Smells Musty and Your Allergies Are Worse",
+    "subtitle": "If your central AC or ducted system blows air that smells like wet socks, the ducts are almost certainly harbouring mould, dust mites, and bacteria. Here is what proper duct cleaning entails and why it matters for your health.",
+    "image": "/scenes/ac_duct_cleaning.png",
+    "readTime": "6 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Every time the AC kicks on, a musty, earthy smell fills the room. You wake up congested, you sneeze more than usual, and no amount of air freshener masks the odour.",
+    "problemBody": "Ducted AC systems accumulate dust, pollen, pet dander, and mould spores in the return air ducts and plenum. In South Africa's high-humidity coastal regions or damp Highveld summers, condensation inside the ducts creates the perfect breeding ground for black mould. The same air circulates past your family every time the system runs.",
+    "bouulSolution": [
+      "Bouul's certified duct cleaners use a truck-mounted HEPA vacuum system with negative air pressure — not a shop vac. They seal the supply registers, agitate the duct walls with compressed air whips, and capture every particle before it enters your living space.",
+      "We test the HVAC coil and drain pan for mould and biofilm on site. If the evaporator coil is contaminated, we apply an EPA-registered coil sanitiser that kills mould without harmful residues.",
+      "All duct cleaning includes a before-and-after inspection report with photos, and a 30-day odour-free guarantee held in Bouul escrow."
+    ],
+    "partsNeeded": [
+      "HEPA vacuum filtration unit with negative air machine",
+      "Compressed air whip kit and rotary brush attachments",
+      "EPA-registered antimicrobial coil sanitiser (EnviroCON or equivalent)",
+      "Mastic or foil tape for register seal re-bonding"
+    ],
+    "guidePricing": "R1 800 – R4 500 (varies with number of supply registers, return air drops, and duct length)",
+    "timeline": "2 – 5 hours depending on system size and duct accessibility",
+    "aiPromptExample": "My ducted AC blows air that smells musty when I first turn it on each morning. The smell fades after 20 minutes but returns the next day. What is the most likely cause and what should I ask a contractor to check?",
+    "aiDiagnosisOutput": "Likely microbial growth on the evaporator coil or in the condensate drain pan. The morning-on cycle produces the strongest smell because moisture condenses on the coil overnight. Check the drain pan for standing water and biofilm; inspect the coil face under UV light for mould colonies. A P-trap brush-out and coil sanitisation should resolve it. If the smell persists, schedule a full duct cleaning.",
+    "escrowGuarantee": "30-day odour-free guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10147 (ducted air-conditioning systems). NADCA (National Air Duct Cleaners Association) standards for source removal. All cleaning must follow SA ventilation hygiene guidelines. Technicians should use negative air pressure containment at the air handler.",
+    "articleSections": [
+      {
+        "heading": "Why Ducts Get Dirty",
+        "body": "Every home generates dust — skin cells, fabric fibres, cooking particles, outdoor pollutants. The return air duct pulls all of it into the system. Over months and years, a layer of fine dust builds up on the interior duct surfaces. In humid conditions, this dust absorbs moisture and becomes a growth medium for mould, bacteria, and dust mites."
+      },
+      {
+        "heading": "Health Effects of Dirty Ducts",
+        "body": "Contaminated ducts circulate allergens and microbial VOCs through every room. Symptoms include persistent sneezing, watery eyes, morning headaches, fatigue, and worsened asthma. Children and elderly family members are most vulnerable. South Africa's high TB and asthma prevalence makes indoor air quality a genuine health concern."
+      },
+      {
+        "heading": "What Proper Duct Cleaning Looks Like",
+        "body": "A proper cleaning uses source removal — you must physically dislodge and extract the contamination, not just spray a sanitiser into the vents. The process: seal all supply registers, create negative pressure at the air handler, insert compressed air whips or rotary brushes into each duct run, agitate the walls, and vacuum everything out via the negative air machine."
+      },
+      {
+        "heading": "What Duct Cleaning Does NOT Include",
+        "body": "A R500 'special' where someone sprays a fogger into one return vent and calls it done is not duct cleaning. True cleaning is labour-intensive and equipment-heavy. Bouul's minimum standard: every register is sealed, every duct run is mechanically agitated, and the entire system is under constant negative pressure during cleaning. No shortcuts."
+      },
+      {
+        "heading": "Frequency: When Should You Clean?",
+        "body": "The NADCA standard recommends every 3–5 years for most homes. Clean sooner if: you have pets, anyone in the home has asthma or allergies, you recently did renovations (drywall dust is destructive to HVAC coils), or you notice visible mould in the registers. Bouul includes a free inspection camera check with every service call."
+      }
+    ]
+  },
+  {
+    "id": "ac_thermostat_replacement",
+    "tag": "AC Repair",
+    "title": "Thermostat Replacement: Why Your AC Won't Reach The Right Temperature",
+    "subtitle": "The thermostat works fine for some hours and then sticks. Your AC runs constantly but never seems to hit the temperature you set, or it short-cycles on and off every few minutes. The cause: bad thermostat.",
+    "image": "/scenes/ac_thermostat.png",
+    "readTime": "6 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You set the AC to 22°C but the room feels like 26°C. The unit runs for 10 minutes, shuts off for 3, then runs again. Or it ignores your commands entirely, stuck on a temperature you didn't choose.",
+    "problemBody": "Thermostats fail from corroded contacts due to humidity, dead backup batteries that reset the setpoint, a stuck relay that keeps the compressor running non-stop, or outdated mercury-bulb thermostats that lose calibration over decades. In South Africa, power surges during load-shedding transitions are a common cause of electronic thermostat failure.",
+    "bouulSolution": [
+      "Bouul technicians carry universal compatibility adapters for all major brands — Honeywell, Danfoss, Johnson Controls, and local brands like IntelliSys. We test the old thermostat's wiring against the new unit before any installation.",
+      "We mount the new thermostat at the correct height (1.5 m from the floor, away from direct sunlight and drafts) and configure the heat anticipator or cycle rate for your specific AC model.",
+      "All thermostat replacements include a 90-day calibration guarantee — if the temperature reading drifts by more than 1°C in either direction, we re-calibrate or replace at no charge."
+    ],
+    "partsNeeded": [
+      "Replacement thermostat (digital programmable or smart/WiFi model)",
+      "Backup batteries (AA or AAA lithium, depending on model)",
+      "Wall plate and mounting anchors",
+      "Thermostat wire (4–7 conductor, 18 AWG) if existing wiring is damaged"
+    ],
+    "guidePricing": "R450 – R1 200 (basic digital 7-day programmable) or R1 200 – R2 500 (WiFi/smart thermostat with app control, installed)",
+    "timeline": "30 – 60 minutes for replacement; 90 minutes if new wiring is needed",
+    "aiPromptExample": "My AC runs all day but the room is always 3–4°C above the setpoint. I changed the thermostat's batteries but nothing changed. The thermostat display shows the correct time and temperature reading. What should I check next?",
+    "aiDiagnosisOutput": "Check if the thermostat is in the correct mode (cool vs heat, not fan-only). Verify the setpoint differential — some thermostats default to a 3°C swing. Measure voltage at the thermostat's R and Y terminals — if you have 24 VAC but the compressor never kicks on, the relay inside the thermostat is likely stuck open. Replace the thermostat. If voltage is absent, the issue is upstream (transformer or wiring harness).",
+    "escrowGuarantee": "90-day calibration guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10106 (air-conditioning installation). The thermostat circuit runs 24 VAC low-voltage wiring. Hard-wired line-voltage thermostats require a registered electrician per the Electrical Installation Regulations, 2009.",
+    "articleSections": [
+      {
+        "heading": "Mechanical vs Digital vs Smart Thermostats",
+        "body": "Older homes often have mechanical mercury-bulb thermostats that rely on a bi-metallic strip. They drift over time and contain hazardous mercury. Digital programmable thermostats are the standard replacement — accurate to 0.5°C, with 7-day scheduling. Smart thermostats add WiFi control, geofencing, and usage reports. In SA, smart adoption is growing but most homes still use basic digital models."
+      },
+      {
+        "heading": "Wiring: Why It Matters",
+        "body": "Thermostat wiring looks simple — typically 4–7 colour-coded wires — but the wrong connection can short the 24 V transformer or damage the control board. A common DIY mistake is assuming the wire colours match the new thermostat's labels. Bouul's technicians always trace each wire back to the air handler terminal before connecting."
+      },
+      {
+        "heading": "Placement Problems",
+        "body": "A thermostat placed above a stove, in direct afternoon sun, or in a hallway with poor airflow will give false readings and cause the AC to run too long or not enough. Standard placement is on an interior wall, 1.5 m from the floor, away from heat sources and drafts. Bouul can relocate it during replacement if needed."
+      },
+      {
+        "heading": "Smart Thermostats and Load Shedding",
+        "body": "WiFi thermostats lose connectivity during load-shedding and may reset to default schedules when power returns. Many modern smart thermostats have onboard memory that retains settings for up to 72 hours. Bouul recommends models with backup memory if you're considering a smart option."
+      },
+      {
+        "heading": "The Cost Breakdown",
+        "body": "Basic 7-day programmable thermostat: R250–R500 retail. WiFi/smart thermostat: R600–R1 800 retail. Labour: R200–R400. Total: R450–R2 500. Bouul quotes are all-inclusive with no separate travel fee."
+      }
+    ]
+  },
+  {
+    "id": "ac_split_unit_install",
+    "tag": "AC Repair",
+    "title": "Split Unit Installation: What A Professional Install Looks Like",
+    "subtitle": "Installing a split-unit air conditioner is much more than bolting the indoor head to a wall and connecting two copper pipes. Here is the full process, the common mistakes that ruin performance, and what you should pay for a proper install.",
+    "image": "/scenes/ac_split_unit_install.png",
+    "readTime": "9 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your new AC arrived this morning and your brother-in-law says he can install it this weekend. But you have heard horror stories — units that never cool properly, gas leaks after three months, water dripping from the indoor unit onto your couch.",
+    "problemBody": "An improperly installed split-unit AC can lose 30% or more of its rated efficiency. Common installation errors: the copper line-set has sharp bends that restrict refrigerant flow, the condensate drain slopes the wrong way, the vacuum pull is skipped (trapping moisture in the system), or the outdoor unit is placed in direct sun against a wall with no airflow.",
+    "bouulSolution": [
+      "Bouul's certified installers follow a 14-point checklist: proper indoor unit height (2.2 m minimum), line-set bending radius never below 10 cm, flare-nut torque to spec, triple-evacuation vacuum to 500 microns, leak test with nitrogen hold, and outdoor unit clearance of 1 m on all sides.",
+      "We run the system for 30 minutes after installation, measuring delta-T across the evaporator (should be 8–12°C), amp draw on the compressor, and condensate flow rate. You get a signed commissioning report with all readings.",
+      "All installations include a 1-year workmanship guarantee held in Bouul escrow — not just the manufacturer's warranty on the unit itself."
+    ],
+    "partsNeeded": [
+      "Copper line-set (insulated suction line + liquid line, pre-flared or field-flared)",
+      "Communication and power cable (armoured 4-core + earth, SANS compliant)",
+      "Condensate drain pipe (25 mm PVC, with gradient), P-trap, and insulation",
+      "Outdoor unit wall brackets (galvanised steel, rated for unit weight + wind load)"
+    ],
+    "guidePricing": "R2 500 – R5 500 (12 000 BTU basic install, line-set up to 5 m, standard wall mount; increases with line-set length or second-storey access)",
+    "timeline": "3 – 6 hours for a single split-unit; multi-head systems require 1–2 days",
+    "aiPromptExample": "I bought a 12 000 BTU Midea split unit and want to install it myself. I am comfortable with the wall bracket and drilling. What are the critical steps where most DIY installs fail, and should I have a pro do the gas line and electrical?",
+    "aiDiagnosisOutput": "DIY installs fail at three points: (1) Flare connections — the copper flare must be perfectly concentric and the nut torqued to 34–40 Nm. Under-torque leaks immediately; over-torque splits the flare. (2) Vacuum dehydration — skipping this leaves moisture in the line-set, destroying the compressor within months. (3) Electrical — the isolator must be rated for the full locked-rotor amp draw. Have a qualified HVAC tech commission the gas and electrical connections; you can do the wall work and pipe routing yourself.",
+    "escrowGuarantee": "1-year workmanship guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10106 (air-conditioning installation). SANS 10147 (refrigerating systems). Electrical connection must comply with the Electrical Installation Regulations, 2009. Installer must hold SAQCC Gas registration.",
+    "articleSections": [
+      {
+        "heading": "The 14-Point Install Checklist",
+        "body": "Bouul's installation standard covers: indoor unit location at 2.2 m+, wall reinforcement, line-set hole sleeve to prevent copper chafing, insulation continuity, flare-nut torque (34–40 Nm for liquid line, 50–60 Nm for suction), nitrogen leak test at 400 psi, triple-evacuation to 500 microns, standing vacuum hold for 20 minutes, charge verification by superheat/subcooling, delta-T measurement (8–12°C), condensate drain slope (minimum 1 in 50), earth bond verification, antivibration pads, and 30-minute system run-in."
+      },
+      {
+        "heading": "Line-Set: The Most Common Failure Point",
+        "body": "The copper pipes connecting indoor and outdoor units are the most vulnerable part of any split-unit install. Sharp bends under 10 cm radius create flow restrictions. Uninsulated suction lines cause condensation drips inside walls. Burrs on cut pipe ends enter the system and clog the expansion valve. Bouul uses pre-flared line-sets where possible and insulates the full suction line length."
+      },
+      {
+        "heading": "Electrical: Why It Needs a Pro",
+        "body": "A 12 000 BTU split unit draws about 6–8 A running but up to 30 A locked-rotor. The circuit needs: an MCB rated for locked-rotor current, correct cable gauge (at least 2.5 mm for 15 m runs), earth leakage protection, and a local isolator within 1.5 m of the outdoor unit. Non-compliant electrical work is the leading cause of AC-related fires in South Africa."
+      },
+      {
+        "heading": "Outdoor Unit Placement",
+        "body": "The outdoor unit needs 1 m clearance on all sides, shade from afternoon sun (direct sun increases discharge pressure by 15–20%), a level mount within 3°, and 30 cm clearance above the service valves for gauge access. Bouul provides a diagram of placement options before drilling begins."
+      },
+      {
+        "heading": "Why You Shouldn't Skip the Commissioning Report",
+        "body": "A commissioning report records: standing vacuum pressure before charge, refrigerant weight added, high-side and low-side pressures at runtime, delta-T, amp draw, and condensate flow. Without it, you have no recourse if the unit performs poorly. Bouul provides a digital report via the app within 24 hours."
+      }
+    ]
+  },
+  {
+    "id": "ac_fan_motor_repair",
+    "tag": "AC Repair",
+    "title": "Fan Motor Repair: When Your AC's Fan Won't Spin",
+    "subtitle": "The indoor fan that pushes cool air or the outdoor fan that rejects heat has stopped spinning. Without it, your AC is just an expensive wall ornament.",
+    "image": "/scenes/ac_fan_motor.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You hear the compressor kick on, feel the wall unit shudder, but almost no air comes out of the vents. Or the outdoor fan sits motionless while the compressor screams inside. The breaker trips occasionally.",
+    "problemBody": "Fan motors fail from worn bearings (a dry grinding sound), a seized motor shaft (the fan won't spin even when pushed), burnt windings (smells like burnt copper), or a failed run capacitor (the motor hums but won't start). Running with a failing fan motor can overheat the compressor.",
+    "bouulSolution": [
+      "Bouul technicians test the fan motor's capacitor, winding resistance, and insulation-to-ground before declaring the motor dead. A failed capacitor on an indoor blower motor costs R150 to fix — a full motor replacement is R1 500+.",
+      "If replacement is needed, we match the motor to OEM spec (shaft diameter, RPM, mounting bracket orientation, CFM rating) and replace the run capacitor as standard practice.",
+      "Every fan motor replacement includes a 1-year parts-and-labour guarantee held in Bouul escrow."
+    ],
+    "partsNeeded": [
+      "Replacement fan motor (OEM or equivalent, matching shaft length and mounting holes)",
+      "Run capacitor (rated for motor's microfarad spec)",
+      "Fan blade assembly (if the existing blade is cracked or the bore is worn)",
+      "Motor mounting grommets and vibration isolators"
+    ],
+    "guidePricing": "R1 200 – R2 800 (indoor blower motor) or R1 500 – R3 500 (outdoor condenser fan motor, including capacitor)",
+    "timeline": "1 – 2 hours on-site",
+    "aiPromptExample": "My AC's outdoor fan won't spin. I can hear the compressor humming but the fan is stopped. I pushed the fan blade with a stick — it spins freely. The unit trips the breaker after about 30 seconds. What diagnostic checks before calling a tech?",
+    "aiDiagnosisOutput": "Likely failed run capacitor on the outdoor fan motor. The capacitor provides the phase shift to start the fan — without it, the motor hums but won't rotate, drawing locked-rotor amps until the breaker trips. Disconnect power, discharge the capacitor with a resistor, and measure microfarads — if below 70% of rated value, replace it (R150–R250 part). If the capacitor tests good, check winding resistance: an open winding or short to ground means the motor is burnt.",
+    "escrowGuarantee": "1-year parts-and-labour guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10147 (refrigerating systems). Electrical work must be performed by a qualified technician per the Electrical Installation Regulations. Capacitors must be safely discharged before handling.",
+    "articleSections": [
+      {
+        "heading": "Indoor vs Outdoor Fan Motors",
+        "body": "Indoor fan motors (blowers) move air across the evaporator coil at 800–1 200 RPM. Outdoor fan motors move air across the condenser coil at higher RPM and face the elements — rain, heat, dust. They fail more often. The diagnostic approach is the same but parts differ."
+      },
+      {
+        "heading": "Capacitor: The Most Common Culprit",
+        "body": "Single-phase fan motors use a capacitor to create the rotating magnetic field. When the capacitor degrades (electrolyte dries out over time), the motor loses starting torque. It hums, may spin slowly, and eventually stops. Replacing the capacitor is a R150–R250 fix. Bouul replaces the capacitor on every fan motor service call."
+      },
+      {
+        "heading": "Bearing Failure: When the Motor Grinds",
+        "body": "Sleeve bearings (common on lower-end units) dry out and make a scraping sound. Ball bearings eventually develop play. If caught early, bearings can be re-greased on some motor types. If the shaft has worn the bearing race, the entire motor must be replaced."
+      },
+      {
+        "heading": "Burning Smell: Immediate Shutdown Required",
+        "body": "A burning smell means motor windings are overheating. The varnish insulation on the copper wire breaks down, creating the classic 'electrical fire' smell. Continuing to run the unit can short-circuit the winding and damage the compressor contactor. Switch off at the isolator and call a technician."
+      },
+      {
+        "heading": "Preventing Fan Motor Failure",
+        "body": "Annual coil cleaning prevents the outdoor fan from working against a dirty, high-pressure condenser. Keep the area around the outdoor unit clear of leaves. Apply silicone-based lubricant to the motor shaft once a year where accessible. Bouul includes a fan motor inspection with every AC service."
+      }
+    ]
+  }
+]

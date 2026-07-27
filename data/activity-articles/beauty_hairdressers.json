@@ -1,0 +1,282 @@
+[
+  {
+    "id": "hair-cut-style",
+    "tag": "hairdressers",
+    "title": "The Perfect Haircut & Styling: What Every Client Should Know Before Booking",
+    "subtitle": "From consultation chair to final blow-dry - how to get the haircut you actually want, every time.",
+    "image": "/scenes/hair-cut-style.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why do so many walk out disappointed?",
+    "problemBody": "A bad haircut isnt just about length - its about face shape, hair texture, and a stylist who didnt listen. South Africans spend an estimated R800-R1,500 per salon visit, and nearly 1 in 3 clients say their last haircut wasnt what they asked for. The real gap? No structured consultation before the scissors come out.",
+    "bouulSolution": [
+      "Book only vetted stylists with verified portfolios and real client reviews on Bouul.",
+      "Use the in-app consultation template to describe your desired shape, length, and maintenance level before arrival.",
+      "Bouul Escrow holds your payment until you confirm you are happy with the result."
+    ],
+    "partsNeeded": [
+      "Professional scissors (shears) set - straight, thinning, texturising",
+      "Wide-tooth comb and tail comb for sectioning",
+      "Blow-dryer with concentrator nozzle",
+      "Styling products: heat protectant, mousse, and finishing spray"
+    ],
+    "guidePricing": "R250-R650 for womens cut and style; R180-R350 for mens cut; R350-R800 for long/thick hair including blow-dry",
+    "timeline": "30-60 minutes for most cuts; 60-90 minutes with blow-dry styling",
+    "aiPromptExample": "Describe the ideal hair cut style experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hair cut style plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Consultation Gap",
+        "body": "Most haircut disappointment starts before the first snip. A rushed hello and a vague reference photo are not a consultation. A thorough consultation takes 5-10 minutes: the stylist should examine your hair texture, density, and natural parting; discuss your daily styling routine; and use a hand-mirror to show you the proposed length and shape from all angles.\nSAHA-certified salons train stylists in the LOr\u00e9al Professionnel Consultation Method, which includes a full strand analysis before any cutting begins. If your stylist hasnt picked up a section of your hair to assess porosity and elasticity, you havent had a consultation."
+      },
+      {
+        "heading": "Face Shape and Haircut Architecture",
+        "body": "The geometry of your face determines which haircut shapes flatter you most. Oval faces can pull off almost any cut. Round faces benefit from long layers and volume at the crown to elongate. Square faces soften with wispy layers around the jawline. Heart-shaped faces suit side-swept fringes and chin-length bobs.\nProfessional stylists use the seven-face-shape system taught in CIDESCO-accredited programs across SA training academies. Ask your Bouul-booked stylist which shape they see and how the proposed cut works with it."
+      },
+      {
+        "heading": "Blow-Dry vs Air-Dry Reality",
+        "body": "A salon blow-dry looks perfect because the stylist uses a round brush technique, sectioning hair into quadrants and directing each section with tension and heat. At home, most clients lack the arm strength and coordination to replicate this.\nAsk your stylist for a wash-and-wear cut - one that looks 80% as good air-dried with the right products. This is standard practice for low-maintenance clients and saves you hours of frustration between salon visits."
+      },
+      {
+        "heading": "Maintenance Scheduling",
+        "body": "A great haircut doesnt last forever. Most shapes need a refresh every 6-8 weeks to maintain the line and prevent split ends travelling up the shaft. Clients who stretch to 12+ weeks often come in for a drastic shape correction that costs more than a regular trim.\nUse Bouul to set a recurring booking reminder every 6 weeks. Many Bouul stylists offer a loyalty discount for repeat clients who book their next appointment before leaving the salon."
+      },
+      {
+        "heading": "SA Hair Texture Diversity",
+        "body": "South African salons serve an incredibly diverse range of hair types - from fine straight (Type 1) to coily/kinky (Type 4C). Not every stylist is trained on every texture. A stylist who excels at European-texture blowouts may struggle with African-texture braiding or relaxer application.\nBouul profiles list each stylists specialty textures and training credentials. Filter by Type 3/4 specialists if you have curly, coily, or kinky hair. This prevents the Cinderella effect - inviting the wrong stylist for your texture."
+      }
+    ]
+  },
+  {
+    "id": "colour-services",
+    "tag": "hairdressers",
+    "title": "Hair Colour Done Right: From Highlights to Global Colour",
+    "subtitle": "Everything you need to know before committing to a colour service - cost, upkeep, and finding a colourist who respects your hair health.",
+    "image": "/scenes/colour-services.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why does salon colour cost so much - and is it worth it?",
+    "problemBody": "Many South Africans are surprised when a full head of foils comes in at R1,200-R2,500 and a global colour at R800-R1,500. The price reflects the product cost (professional colour lines like Wella or LOr\u00e9al are not the same as box dye), the stylists training, and the time involved - typically 90 minutes to 2.5 hours. Box dye from Clicks at R89 seems cheaper until you factor in uneven results, brassiness, and corrective colour sessions that cost double.",
+    "bouulSolution": [
+      "Book a colourist who specialises in your target shade and base colour - Bouul profiles include specialisation badges for blondes, brunettes, reds, and fashion colours.",
+      "Request a strand test 48 hours before your appointment to confirm processing time and minimise damage risk.",
+      "Bouul Escrow protects you if the result is significantly different from your agreed reference photos."
+    ],
+    "partsNeeded": [
+      "Professional colour brush and bowl set",
+      "Sectioning clips (minimum 6)",
+      "Timing device for accurate processing",
+      "Aftercare: colour-safe shampoo, conditioner, and weekly bond-repair treatment"
+    ],
+    "guidePricing": "R800-R1,500 for global/single-process colour; R1,200-R2,500 for full highlights; R400-R900 for semi-permanent/toner; R200-R500 for root touch-up between full colours",
+    "timeline": "60-90 minutes for global colour; 90-150 minutes for full highlights with toner",
+    "aiPromptExample": "Describe the ideal colour services experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended colour services plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Strand Test",
+        "body": "A responsible colourist will always perform a strand test - taking a small subsection of hair, applying the formula, and checking development every 5 minutes. This tells the colourist exactly how your hair processes. Skipping this step is the leading cause of over-processed, damaged colour results.\nIn SA, the Occupational Health and Safety Act requires salons to maintain a patch test record for every new colour client - confirming you are not allergic to PPD or other colour ingredients. Bouul colourists are required to document this before your first appointment."
+      },
+      {
+        "heading": "Level and Tone System",
+        "body": "Professional colour is described by level (1=black to 10=lightest blonde) and tone (warm, neutral, cool, ash). When you say I want caramel highlights, your colourist translates that into a specific level and tone combination.\nMiscommunication happens when clients use shampoo-commercial descriptions (honey blonde, chocolate brown) that mean different things to different people. Bring reference photos on your phone and ask your colourist to identify the level and tone in the photo before mixing colour."
+      },
+      {
+        "heading": "Upkeep Reality Check",
+        "body": "Roots grow at about 1-1.5 cm per month. A global colour needs root touch-ups every 4-6 weeks. Highlights can stretch to 8-10 weeks because the regrowth is less obvious. Balayage is the lowest-maintenance option - 12-16 weeks between appointments because the colour is painted freehand and grows out softly.\nAdd the cost of a root touch-up (R200-R500) into your monthly beauty budget if you choose global colour. Balayage costs more upfront (R1,500-R2,500) but saves money over 12 months because you need fewer appointments."
+      },
+      {
+        "heading": "Corrective Colour - The Expensive Fix",
+        "body": "Corrective colour - fixing a bad box dye job, removing black box dye, or fixing patchy highlights - is the most expensive colour service. It costs 2-3x what the original service would have because it often requires multiple sessions with weeks of recovery between them.\nNever attempt to DIY-fix a colour mistake. Bouul colourists report that 80% of corrective work they do is on clients who tried to fix a problem with another box dye. Postpone your event, book a Bouul corrective colour consultation, and budget for 2-3 sessions."
+      }
+    ]
+  },
+  {
+    "id": "blow-dry",
+    "tag": "hairdressers",
+    "title": "The Art of the Blow-Dry: Salon Finish vs Home Reality",
+    "subtitle": "Why a salon blow-dry costs what it does, how to make it last, and when to book one for maximum value.",
+    "image": "/scenes/blow-dry.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why cant I replicate my salon blow-dry at home?",
+    "problemBody": "A salon blow-dry is a skilled service, not just drying hair. Professional stylists spend years perfecting tension, direction, and heat control. The difference is dramatic - and frustrating for clients who spend R250-R500 on a blow-dry that falls flat after one wash. The secret isnt magic; its technique, tools, and product layering that most clients dont have at home.",
+    "bouulSolution": [
+      "Book a blow-dry specialist who uses the same technique each time - consistency means you know exactly what you are paying for.",
+      "Ask your stylist to teach you the brush roll technique during your appointment - most are happy to show you the key movement.",
+      "Bouul escrow means you dont pay for a blow-dry that doesnt hold - flag it and the team works it out."
+    ],
+    "partsNeeded": [
+      "Professional-grade blow-dryer (1800-2200 watts with ionic technology)",
+      "Round brushes in 3 diameters (small for curls, medium for volume, large for smoothing)",
+      "Heat protectant spray, volumising mousse, and flexible-hold hairspray",
+      "Sectioning clips and a fine-tooth tail comb"
+    ],
+    "guidePricing": "R250-R500 for a standard blow-dry; R350-R650 for a blow-dry with curls or waves; R150-R300 for a quick rough-dry and style",
+    "timeline": "25-40 minutes for a standard blow-dry; 40-60 minutes for a full blown-out style with curls",
+    "aiPromptExample": "Describe the ideal blow dry experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended blow dry plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Four-Zone Technique",
+        "body": "Professional blow-dries follow a strict four-zone sectioning pattern: nape, mid-back crown, and fringe. Each zone is dried completely before moving to the next. The stylist uses tension - pulling the hair taut with the brush while directing the airflow down the hair shaft - to close the cuticle and maximise shine.\nMost at-home attempts fail because clients skip sectioning entirely, waving the dryer around randomly while brushing. The result is frizzy, uneven, and falls flat in hours. Even partial sectioning into top and bottom halves dramatically improves the result."
+      },
+      {
+        "heading": "Product Layering Matters",
+        "body": "A salon blow-dry uses 3-5 products layered in a specific order: (1) heat protectant on wet hair, (2) volumising mousse at the roots, (3) a smoothing cream or blow-dry lotion on the mid-lengths and ends, (4) a lightweight oil for shine at the end, and (5) a flexible-hold hairspray as the final set.\nEach product has a specific function. Using a single 2-in-1 product skips critical steps. Bouul stylists recommend asking which products they used and buying travel sizes of the same line to replicate the effect at home."
+      },
+      {
+        "heading": "Sleeping on Your Blow-Dry",
+        "body": "The number-one enemy of a lasting blow-dry is sleep friction. Cotton pillowcases absorb moisture and create frizz. Silk or satin pillowcases reduce friction significantly and help a blow-dry last 2-3 days instead of 1.\nA loose pineapple ponytail (gathered at the very top of your head) with a silk scrunchie preserves volume overnight. South African beauty retailers like Sorbet and Clicks now stock affordable silk pillowcases from R150-R300."
+      },
+      {
+        "heading": "Booking for Events",
+        "body": "A blow-dry booked for a wedding or event should be done the day of, not the night before. Even the best-preserved blow-dry loses 30-40% of its volume overnight. For evening events, book a midday appointment that leaves time for the style to settle before you get ready.\nBouul allows you to book with time-of-day specificity - morning blow-dries tend to have more availability, while late-afternoon slots on weekends book out 2-3 weeks in advance in major metros like Johannesburg, Cape Town, and Durban."
+      }
+    ]
+  },
+  {
+    "id": "relaxer",
+    "tag": "hairdressers",
+    "title": "Hair Relaxer Services: Safe Straightening in South Africa",
+    "subtitle": "Everything you need to know about chemical relaxers - from the lye vs no-lye decision to aftercare that keeps your hair healthy.",
+    "image": "/scenes/relaxer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is relaxing safe for my hair?",
+    "problemBody": "Chemical relaxers remain one of the most popular hair-straightening methods in SA, with an estimated 40% of black South African women having used a relaxer at some point. The concern is damage - over-processed hair that breaks, thins, or develops straight-curl breakage points. The risk comes from incorrect application, overlapping on previously relaxed hair, and poor aftercare, not the relaxer itself when properly used by a trained professional.",
+    "bouulSolution": [
+      "Book a Bouul stylist trained specifically in African-texture chemical services - not all hairdressers are qualified to apply relaxers safely.",
+      "Schedule a strand and scalp test 48 hours before your full application to check sensitivity and processing time.",
+      "Use Bouul Escrow for peace of mind - if the result is uneven, over-processed, or causes scalp injury, you are protected."
+    ],
+    "partsNeeded": [
+      "Relaxer cream (lye or no-lye formulation)",
+      "Protective base cream for scalp and hairline",
+      "Neutralising shampoo and deep-conditioning treatment",
+      "Wide-tooth comb for application and smoothing"
+    ],
+    "guidePricing": "R350-R800 for a relaxer service (short hair); R600-R1,200 for medium-to-long hair; R200-R400 for touch-up/retouch only (new growth)",
+    "timeline": "60-90 minutes for a full application; 45-60 minutes for a retouch",
+    "aiPromptExample": "Describe the ideal relaxer experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended relaxer plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Lye vs No-Lye",
+        "body": "Lye relaxers (sodium hydroxide) are stronger, process faster, and give more complete straightening. No-lye relaxers (calcium hydroxide or guanidine carbonate) are gentler on the scalp but can leave hair more brittle over time because they require more manipulation to achieve the same result.\nNo-lye relaxers are generally recommended for fine or previously damaged hair. Lye relaxers suit coarse, resilient hair that has not been chemically treated. Your Bouul stylist should explain which formulation they use and why it suits your hair type."
+      },
+      {
+        "heading": "The Retouch Schedule",
+        "body": "Relaxers should only be applied to new growth - never to previously relaxed hair. Overlapping causes the relaxed section to over-process and eventually break off at the demarcation line. The standard retouch interval is 6-10 weeks, depending on how fast your hair grows.\nClients who stretch to 12+ weeks risk breakage at the natural demarcation point because the new growth creates tension where the two textures meet. Use Bouul bookings to stay on a consistent 8-week retouch schedule."
+      },
+      {
+        "heading": "Post-Relaxer Aftercare",
+        "body": "The first 72 hours after a relaxer are critical. The hair cuticle is still open and vulnerable. Avoid washing, tight ponytails, and heat styling for at least 3 days. Use a pH-balancing shampoo and a bond-repairing deep conditioner weekly. Protein treatments every 4-6 weeks help maintain strength at the straight-curl transition point.\nSouth African brands like Dark and Lovely and Creme of Nature offer affordable aftercare lines designed specifically for relaxed hair. Look for the Relaxed and Natural section at Dis-Chem or Clicks."
+      },
+      {
+        "heading": "When Not to Relax",
+        "body": "Relaxers should not be applied to hair that has been coloured, bleached, or previously chemically treated with another straightening method (like keratin or Brazilian treatments) within the last 6 weeks. Hair that is already damaged, breaking, or shedding excessively should be treated with protein and moisture treatments for at least 4 weeks before any chemical service.\nYour Bouul stylist will perform a snap test - if a wet strand snaps instead of stretching, your hair is not strong enough for a relaxer. Book a restorative treatment first and reschedule the relaxer."
+      }
+    ]
+  },
+  {
+    "id": "extensions",
+    "tag": "hairdressers",
+    "title": "Hair Extensions in SA: Tape-In, Clip-In, Sew-In, and Micro-Link Compared",
+    "subtitle": "The complete guide to choosing the right extension method for your hair type, lifestyle, and budget.",
+    "image": "/scenes/extensions.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Which extension method is right for me?",
+    "problemBody": "The SA hair extension market is one of the largest in Africa, with tape-in, clip-in, sew-in (weave), and micro-link methods all widely available. Prices range from R1,500 for basic clip-ins to R8,000+ for premium hand-tied micro-links with human hair. The wrong choice can damage your natural hair - micro-links on fine hair cause traction alopecia; sew-ins on thin edges cause permanent hairline loss.",
+    "bouulSolution": [
+      "Bouul profiles show each stylists extension speciality - tape-in requires different training from micro-links.",
+      "Book a consultation first to discuss your hair density, lifestyle, and budget before committing to a method.",
+      "Read real client reviews on Bouul to see how different extension types held up over weeks of wear."
+    ],
+    "partsNeeded": [
+      "Extension hair wefts or individual strands (Remy human hair recommended)",
+      "Sectioning clips and rat-tail comb",
+      "Specialised tools per method: tape strips, micro-beads, weaving thread and needle",
+      "Aftercare: extension-safe shampoo, leave-in conditioner, and detangling brush"
+    ],
+    "guidePricing": "R1,500-R3,500 for tape-in extensions (full head with installation); R800-R2,500 for clip-in extensions (set only); R2,500-R6,000 for sew-in/weave with leave-out; R4,000-R8,000+ for micro-link/micro-bead extensions",
+    "timeline": "45-90 minutes for tape-in installation; 10-15 minutes for clip-in application; 2-4 hours for sew-in; 2-3 hours for micro-links",
+    "aiPromptExample": "Describe the ideal extensions experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended extensions plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Tape-In Extensions",
+        "body": "Tape-ins are pre-taped wefts that are sandwiched between two thin sections of your natural hair. They lie flat, are comfortable to sleep on, and last 6-8 weeks before needing to be moved up. They are the most popular semi-permanent method in SA because they are quick to install and remove without heat or glue.\nBest for: Medium to thick hair that can hide the tape sandwich. Not ideal for very fine hair where the tapes may be visible or cause slipping."
+      },
+      {
+        "heading": "Sew-In / Weave Extensions",
+        "body": "Sew-in extensions involve cornrowing your natural hair flat against the scalp and sewing wefted hair onto the braids using a curved needle and thread. This method completely protects your natural hair underneath and can last 6-12 weeks. The key is not making the braids too tight - tension around the hairline causes traction alopecia that may be permanent.\nBest for: Medium to thick hair, particularly African-texture hair. The braids need to be firm but not painful. If your eyes lift when the braider pulls, the tension is too high."
+      },
+      {
+        "heading": "Micro-Link / Micro-Bead Extensions",
+        "body": "Micro-links attach individual strands of extension hair using small silicone-lined beads and specialised pliers. No heat, no glue, no braiding. They move naturally with your head and last 8-12 weeks. They are the most expensive method because installation is highly skilled and time-consuming.\nBest for: All hair types, but micro-links on fine hair risk the beads slipping or causing breakage. Your Bouul stylist should assess your hair density at the consultation. Micro-links require professional removal - never cut them out."
+      },
+      {
+        "heading": "The Human Hair vs Synthetic Question",
+        "body": "Only human hair extensions can be heat-styled, coloured, and washed repeatedly. Synthetic hair has advanced significantly but still melts on contact with flat irons above 180C and has a shorter lifespan.\nSouth African extensions are predominantly sourced from Indian, Brazilian, and Chinese markets. Remy human hair (all cuticles aligned in the same direction) is the gold standard and tangles significantly less than non-Remy hair. Bouul stylists are required to disclose the hair origin and grade at the consultation."
+      }
+    ]
+  },
+  {
+    "id": "bridal-styling",
+    "tag": "hairdressers",
+    "title": "Bridal Hair Styling: What Every Bride Needs to Know",
+    "subtitle": "Your wedding hair is one of the most-photographed elements of your big day. Heres how to plan it right - from trial to bouquet toss.",
+    "image": "/scenes/bridal-styling.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why is bridal hair so expensive - and how do I book the right stylist?",
+    "problemBody": "Bridal hair in SA typically costs R800-R2,500, with premium stylists charging R3,000+ for a trial plus day-of service. The cost reflects the pressure - one chance to get it right, a fixed timeline, and the need for the style to last 12+ hours through hairspray, wind, dancing, and tears. Many brides book whoever their venue recommends without checking their portfolio for their specific hair length and texture.",
+    "bouulSolution": [
+      "Book your Bouul bridal stylist 6-12 months in advance for peak-season weddings (September-April in SA).",
+      "Schedule your trial 4-8 weeks before the wedding with your actual veil/hair accessories to test compatibility.",
+      "Use Bouul Escrow for peace of mind - if your stylist cancels last minute, the platform helps find a replacement."
+    ],
+    "partsNeeded": [
+      "High-quality styling tools: professional-grade dryer, curling wands, flat iron",
+      "Strong-hold hairspray, volumising powder, and texturising spray",
+      "Bobby pins, hairpins, and elastics in the correct colour for the brides hair",
+      "Emergency kit: extra pins, small hairspray, and a folding comb for the maid of honour to carry"
+    ],
+    "guidePricing": "R800-R2,500 for day-of bridal styling (includes trial at many studios); R400-R1,000 for additional bridal party members; R300-R600 for flower girls or junior attendants",
+    "timeline": "60-90 minutes for the bride; 30-45 minutes per bridal party member; trial session typically 60-90 minutes on a separate day",
+    "aiPromptExample": "Describe the ideal bridal styling experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended bridal styling plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Trial Is Non-Negotiable",
+        "body": "A trial run 4-8 weeks before the wedding is essential. Bring your veil, headpiece, or any hair accessories. Wear a white or ivory top to see how the style looks against a light colour. Take photos from all angles - front, side, back, and top. If something bothers you in photos, the stylist can adjust.\nMost Bouul bridal specialists include one trial in their package. If not, budget R400-R800 extra for the trial session. Never skip this step."
+      },
+      {
+        "heading": "Veil Compatibility",
+        "body": "Heavy veils with combs can pull on voluminous updos. Lighter, fingertip-length veils work with almost any style. If your veil has a comb attachment, ask your stylist to secure it into your style during the trial to make sure the placement works.\nSome brides opt for a hair vine or scattered pins instead of a traditional veil - these are lighter and easier to secure in any hair type. Your Bouul stylist can advise which accessories work best for your chosen style."
+      },
+      {
+        "heading": "Timeline Management",
+        "body": "Your hairstyling slot should be scheduled 2.5-3 hours before the ceremony for the bride alone, with an additional 30-45 minutes per bridal party member. The stylist typically starts with the bridal party at least 30 minutes before the brides slot to warm up and dial in technique.\nHave your emergency kit packed: your stylist will give you spare pins and a mini hairspray. Pass these to your maid of honour, not your mother - she will be too emotional to remember where she put them."
+      },
+      {
+        "heading": "Weather Contingency",
+        "body": "South African weddings face diverse weather - Cape Town wind, Highveld thunderstorms, and Durban humidity. Ask your stylist about weatherproofing: extra hairspray layers, additional pinning for windy conditions, and anti-humidity products for coastal weddings.\nAn updo is statistically more wind-resistant than half-up styles or loose curls. If you have your heart set on loose waves for a Cape Town summer wedding, accept that you may need touch-ups and ask your MOH to carry the emergency kit."
+      }
+    ]
+  }
+]

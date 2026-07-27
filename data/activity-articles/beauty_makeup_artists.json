@@ -1,0 +1,278 @@
+[
+  {
+    "id": "bridal-makeup",
+    "tag": "makeup-artists",
+    "title": "Bridal Makeup: Looking Like You on Your Big Day",
+    "subtitle": "From trial to aisle - how to book, brief, and trust your SA bridal makeup artist for flawless photos.",
+    "image": "/scenes/bridal-makeup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why does bridal makeup cost so much - and how do I avoid looking cakey?",
+    "problemBody": "Bridal makeup in SA ranges from R1,200-R3,500 for the bride, covering the trial (4-8 weeks before the wedding), the wedding day application, and often a touch-up kit. Premium artists with editorial or international training charge R4,000+. The cost reflects HD-ready application, photography-tested products (flashback-proof formulas), and the pressure of a one-shot event. Bad bridal makeup shows in photos: flashback from SPF in foundations, mismatched neck lines, and creased concealer.",
+    "bouulSolution": [
+      "Bouul bridal makeup artists show real wedding galleries - look for consistent work across different skin tones and face shapes.",
+      "Schedule your trial wearing a white top to see the makeup against your wedding dress colour.",
+      "Bouul Escrow protects you if the artist cancels last minute - the platform helps find a replacement."
+    ],
+    "partsNeeded": [
+      "HD foundation and concealer palette with flashback-free formulas",
+      "Setting spray and translucent powder for longevity",
+      "False eyelashes (individual or strip, pre-cut)",
+      "Touch-up kit for the bride: blotting papers, powder puff, lipstick"
+    ],
+    "guidePricing": "R1,200-R3,500 for bridal (includes trial); R400-R1,000 per bridal party member; R250-R500 per junior attendant/flower girl",
+    "timeline": "60-90 min for the bride; 30-45 min per bridal party member; trial 60-90 min",
+    "aiPromptExample": "Describe the ideal bridal makeup experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended bridal makeup plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Trial Process",
+        "body": "A bridal makeup trial takes 60-90 minutes and should end with you looking in the mirror and feeling like yourself, but polished. Bring reference photos but also communicate what you dont like. The trial is the time to adjust foundation shade, lash style, and lippie colour. Take photos with and without flash to check for flashback.\nMost Bouul bridal artists include one trial session. If not, budget R500-R1,000 extra."
+      },
+      {
+        "heading": "Photography Considerations",
+        "body": "HD and flash photography requires specific product choices: avoid SPF in foundation (causes flashback), use mattifying products for the T-zone, apply slightly more blush than looks natural in the mirror (photos wash colour out), and set everything with a translucent powder and setting spray.\nAsk your Bouul artist what products they use for photography. If they cant name specific flashback-free foundations, consider another artist."
+      },
+      {
+        "heading": "The Wedding Day Timeline",
+        "body": "The brides makeup slot should be 2-2.5 hours before the ceremony. Bridal party members go first (the artist warms up technique), then the mother of the bride, then the bride last. The trial run helps confirm this timeline. Have your bouquet and getting-ready outfit chosen before the artist arrives."
+      },
+      {
+        "heading": "Touch-Up Strategy",
+        "body": "Your Bouul artist provides a mini touch-up kit: blotting papers, powder puff, and the lipstick shade. Hand these to your maid of honour, not your mother or the bride. Schedule a 10-minute touch-up after the formal photos and before the reception for optimal results."
+      }
+    ]
+  },
+  {
+    "id": "event-makeup",
+    "tag": "makeup-artists",
+    "title": "Event Makeup: Matric Dance, Gala, and Special Occasion Beauty",
+    "subtitle": "A complete guide to booking makeup for SA events - from matric farewells to corporate galas.",
+    "image": "/scenes/event-makeup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "How do I make sure my event makeup lasts all night?",
+    "problemBody": "Event makeup needs to survive dancing, emotional moments, hot lights, and a full evening. A professional event makeup service in SA costs R400-R1,200 for a full face, depending on the artists level and the complexity of the look. The key differences from everyday makeup: primer matched to your skin type, layered long-wear products, careful powdering, and a final setting spray that locks everything in place for 8-12 hours.",
+    "bouulSolution": [
+      "Bouul makeup artists list their event experience - look for matric dance and gala galleries in their portfolio.",
+      "Arrive with a clean, moisturised face - no existing makeup. Bring photos of the look you want and your outfit/accessories.",
+      "Bouul Escrow protects you if the makeup creases, fades, or causes a reaction within 4 hours of application."
+    ],
+    "partsNeeded": [
+      "Long-wear foundation and concealer",
+      "Waterproof eyeliner and mascara",
+      "Setting powder, blotting papers, and setting spray",
+      "Lip stain + lipstick combo for all-night wear"
+    ],
+    "guidePricing": "R400-R1,200 for full face event makeup; R250-R600 for express event makeup (30 min, less complex); R150-R300 for touch-up only",
+    "timeline": "45-60 min for full face event look; 30-35 min for express service",
+    "aiPromptExample": "Describe the ideal event makeup experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended event makeup plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Consultation Brief",
+        "body": "Tell your artist: (1) the event type and duration, (2) your outfit colour and neckline, (3) your comfort level with makeup (natural vs full glam), (4) any skin sensitivities, and (5) whether there will be photography. The artist should recommend a look that complements your outfit without competing."
+      },
+      {
+        "heading": "Photography-Ready Prep",
+        "body": "Event makeup needs to read well in photos. Avoid SPF in foundation (flashback). Use a shade darker than your everyday foundation if you will be under stage or event lights (they wash you out). Blush and bronzer should be slightly stronger than you would choose for daytime."
+      },
+      {
+        "heading": "Lasting-Power Techniques",
+        "body": "Professional event makeup uses: a gripping primer, layers of cream and powder products (cream blush set with powder blush), waterproof everything for emotional moments, translucent powder pressed into the T-zone, and a thorough setting spray mist. Your artist will explain the products they are using and why."
+      },
+      {
+        "heading": "Removal and Aftercare",
+        "body": "Remove event makeup thoroughly with a double-cleanse method (oil-based cleanser first, then water-based). Heavy event makeup can clog pores if left on overnight. Use a hydrating sheet mask afterwards to replenish skin that has been under layers of product for 12+ hours."
+      }
+    ]
+  },
+  {
+    "id": "natural-makeup",
+    "tag": "makeup-artists",
+    "title": "Natural Makeup: The No-Makeup Makeup Look",
+    "subtitle": "How to achieve that effortless, glowing, I woke up like this look without it looking like you tried.",
+    "image": "/scenes/natural-makeup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Does natural makeup really take skill - or is it just less product?",
+    "problemBody": "The natural makeup look is surprisingly difficult to execute well. It requires precise shade matching (foundation that disappears into the skin), minimal but strategic product placement, and a light hand that knows when to stop. A professional natural makeup session costs R350-R800. It takes nearly as long as a full glam look because the blending and layering must be seamless to remain invisible.",
+    "bouulSolution": [
+      "Bouul natural-makeup specialists have a no-foundation or skin-like portfolio - you should not be able to tell they are wearing makeup.",
+      "Bring a photo of yourself with your ideal skin day - not a photo of a model with completely different features.",
+      "Bouul Escrow protects you if the makeup looks heavy or obvious despite requesting a natural finish."
+    ],
+    "partsNeeded": [
+      "Light-coverage foundation or tinted moisturiser",
+      "Concealer that matches the skin exactly (no brightening for natural looks)",
+      "Cream blush, bronzer, and highlighter (blend seamlessly into skin)",
+      "Clear brow gel and tinted lip balm"
+    ],
+    "guidePricing": "R350-R800 for full face natural makeup; R250-R500 for express natural (30 min); R100-R200 for skin tint and brows only",
+    "timeline": "40-60 min for full natural look; 25-35 min for express",
+    "aiPromptExample": "Describe the ideal natural makeup experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended natural makeup plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Skin Prep Makes or Breaks Natural Makeup",
+        "body": "Natural makeup relies on great skin underneath. The artist focuses significant time on prep: cleanse, hydrate, prime - and only then applies the minimal product needed. If the skin is dehydrated or textured, the natural look shows it.\nYour Bouul artist may recommend a professional facial 1-2 weeks before a major event to get the skin in optimal condition for a natural makeup application."
+      },
+      {
+        "heading": "The One-Shade Rule",
+        "body": "In natural makeup, the foundation should match the neck exactly - there is no contour to create a different colour. The concealer matches the skin, not brighter. The bronzer is barely warmer than the skin tone. The blush looks like a natural flush, not a separate colour. When done correctly, you should not be able to tell where the makeup ends and the real skin begins."
+      },
+      {
+        "heading": "Strategic Placement",
+        "body": "Natural makeup places product only where needed: a dab of concealer where you have discolouration, a sweep of bronzer where the sun naturally hits, a touch of cream blush on the apples of the cheeks, and a clear gel through the brows. Less is in fact more - but only if the placement is exact.\nIf you can see the makeup, the artist used too much or the wrong shade. Tell them you want to look like your skin but better."
+      },
+      {
+        "heading": "Natural for Different Skin Tones",
+        "body": "Natural makeup looks different on every skin tone. On lighter skin, it means barely-there blush and a tinted balm. On medium and tan skin, it includes a warm bronzer and a sheer lip colour. On darker skin tones, it focuses on skin-evening tints, a flush of cream blush in berry tones, and a tinted lip oil."
+      }
+    ]
+  },
+  {
+    "id": "editorial-makeup",
+    "tag": "makeup-artists",
+    "title": "Editorial and Avant-Garde Makeup: Art on the Face",
+    "subtitle": "For photoshoots, fashion shows, and creative projects - editorial makeup is a different skill from beauty makeup.",
+    "image": "/scenes/editorial-makeup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is editorial makeup just heavy beauty makeup?",
+    "problemBody": "Editorial makeup is designed for camera, not real life. It uses exaggerated shapes, unconventional colours, and techniques that look intentionally artistic rather than naturally beautiful. An editorial makeup session in SA costs R800-R2,500+ depending on the complexity and whether the artist is established in the fashion industry. The makeup must photograph well from all angles and in challenging lighting conditions.",
+    "bouulSolution": [
+      "Bouul editorial artists show their publication portfolio - check for magazine covers, fashion week credits, or ad campaigns.",
+      "Discuss the creative brief in detail before booking - editorial work is collaborative and the artist needs direction.",
+      "Bouul Escrow protects you if the finished look does not match the agreed creative brief."
+    ],
+    "partsNeeded": [
+      "Professional face paints and cream pigments in extended colour ranges",
+      "Precision brushes and sponges for sharp lines and blending",
+      "Setting sprays, barrier sprays, and skin prep for long wear under hot studio lights",
+      "SFX supplies (glitter, foil, prosthetics, liquid latex) for avant-garde work"
+    ],
+    "guidePricing": "R800-R2,500+ for full editorial look; R1,000-R3,000+ for concept-driven avant-garde work",
+    "timeline": "60-120 min depending on complexity of the concept",
+    "aiPromptExample": "Describe the ideal editorial makeup experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended editorial makeup plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Creative Brief",
+        "body": "Editorial makeup starts with a creative brief describing the concept, colour palette, mood references, and practical requirements (how long the makeup needs to last, what the subject will be doing, whether it needs to survive wardrobe changes). The artist should contribute their own ideas and references.\nSA editorial artists are concentrated in Johannesburg (fashion week) and Cape Town (editorial and advertising). Bouul helps you find artists by city."
+      },
+      {
+        "heading": "Technique Over Product",
+        "body": "Editorial makeup is about technique, not product volume. The ability to create a razor-sharp graphic eyeliner, a perfectly diffused colour gradient, or a geometric block of colour requires years of practice. The canvas (skin) must be perfectly prepped even for avant-garde looks."
+      },
+      {
+        "heading": "Skin Preparation for Editorial",
+        "body": "Even creative, unconventional looks require a flawless base. The skin underneath must be clean, hydrated, and primed for whatever is being applied, whether that is standard foundation or face paint. Barrier sprays protect the skin under heavy pigments. Proper removal at the end is critical."
+      },
+      {
+        "heading": "Collaboration with Other Departments",
+        "body": "Editorial makeup works in coordination with hair, wardrobe, and photography. The makeup artist should communicate with the photographer about lighting (certain colours read differently under different light temperatures) and with wardrobe about colour clashes. A standalone artist who doesnt collaborate produces looks that photograph poorly."
+      }
+    ]
+  },
+  {
+    "id": "airbrush-makeup",
+    "tag": "makeup-artists",
+    "title": "Airbrush Makeup: Flawless, Lightweight, and Camera-Ready",
+    "subtitle": "The professional application method that delivers streak-free, long-lasting coverage for events and photography.",
+    "image": "/scenes/airbrush-makeup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is airbrush makeup really better than traditional application?",
+    "problemBody": "Airbrush makeup uses a compressed air device to spray a fine mist of foundation onto the skin, creating an even, streak-free layer that looks like skin but provides medium-to-full coverage. It is particularly popular for weddings, events, and photography because it is transfer-resistant, waterproof, and lasts 12-16 hours. In SA, airbrush makeup costs R600-R1,500 for a full face and is typically a premium add-on rather than a standalone service.",
+    "bouulSolution": [
+      "Bouul airbrush artists must confirm specific airbrush training - traditional makeup training does not cover this method.",
+      "Airbrush foundation offers more shade precision because the artist can blend multiple shades to match your exact undertone.",
+      "Bouul Escrow protects you if the result is streaky, uneven, or does not last the agreed time."
+    ],
+    "partsNeeded": [
+      "Airbrush machine (Iwata or Dinair professional models)",
+      "Airbrush foundation in the clients exact shade match",
+      "Reusable silicone airbrush cup and cleaning solution",
+      "Compressed air canister or silent compressor"
+    ],
+    "guidePricing": "R600-R1,500 for full face airbrush; R400-R800 add-on to bridal or event service",
+    "timeline": "45-70 min for full airbrush application including eye and lip makeup",
+    "aiPromptExample": "Describe the ideal airbrush makeup experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended airbrush makeup plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "How Airbrush Application Differs",
+        "body": "Airbrush applies makeup in ultra-fine layers that build coverage without heaviness. The mist dries almost instantly on contact with the skin, so the artist must work quickly and confidently. Traditional sponge or brush application can absorb product and create drag on the skin; airbrush has no contact and no product waste.\nThe result is a second-skin finish that is virtually undetectable even in HD photography."
+      },
+      {
+        "heading": "Coverage and Longevity",
+        "body": "Airbrush foundation provides medium-to-full coverage that is buildable. Because it is silicone-based and water-resistant, it lasts significantly longer than traditional foundation - 12-16 hours without touch-ups. It is also transfer-resistant (does not rub off on white clothing or your partners shoulder).\nSA summer weddings: airbrush makeup is the top recommendation because it withstands heat, humidity, and tears without breaking down."
+      },
+      {
+        "heading": "Shade Customisation",
+        "body": "Airbrush artists can custom-mix shades by blending two or more foundation shades in the airbrush cup. This means a perfect match for hard-to-match undertones (olive, neutral, or custom blends). The shade can be adjusted by face zone - lighter in the centre, slightly warmer at the perimeter."
+      },
+      {
+        "heading": "Post-Application Care",
+        "body": "Airbrush makeup should be removed with an oil-based cleanser (the silicone formula is waterproof and resists regular cleansers). Double cleansing is recommended. Airbrush finishes can last through light sweating and tears but should still be removed thoroughly before sleep."
+      }
+    ]
+  },
+  {
+    "id": "makeup-lessons",
+    "tag": "makeup-artists",
+    "title": "Makeup Lessons: Learn to Do Your Own Makeup Like a Pro",
+    "subtitle": "One-on-one makeup lessons that teach you the techniques - not just the products - for your everyday face.",
+    "image": "/scenes/makeup-lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a lesson really teach me to do my own makeup better?",
+    "problemBody": "Many South Africans spend thousands on makeup products without knowing how to use them effectively. A professional makeup lesson (R500-R1,500 for 60-120 minutes) teaches you the techniques specific to your face shape, skin type, and preferences. The artist works on one half of your face while you follow along on the other, or talks you through each step as you apply to your full face. The result is skills that last a lifetime.",
+    "bouulSolution": [
+      "Bouul makeup artists offering lessons should have teaching experience - not all great makeup artists make great teachers.",
+      "Bring your own makeup kit to the lesson so the artist can teach you with the products you already own.",
+      "Bouul Escrow protects you if the lesson is rushed, impersonal, or does not include hands-on practice time."
+    ],
+    "partsNeeded": [
+      "Makeup products the client already owns (to teach using what they have)",
+      "Professional brushes and tools for the client to try and buy later",
+      "Hand mirror and good task lighting",
+      "Workbook or product recommendation sheet to take home"
+    ],
+    "guidePricing": "R500-R1,500 for 60-120 min one-on-one lesson; R350-R800 for group lesson (2-4 people); R200-R400 for express technique session (30 min, single skill focus)",
+    "timeline": "60-90 min for a comprehensive lesson; 90-120 min with product recommendations and practice",
+    "aiPromptExample": "Describe the ideal makeup lessons experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended makeup lessons plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Half-Face Technique",
+        "body": "The standard lesson structure: the artist completes one half of your face while explaining each step, then you replicate the steps on the other half under their guidance. This lets you see exactly what the technique should look like at each stage and correct your application in real time.\nAsk your Bouul artist if they use the half-face method. It is the most effective teaching format for makeup lessons."
+      },
+      {
+        "heading": "Product Recommendations vs Sales",
+        "body": "A good lesson focuses on technique first - what brushes to use, how to blend, where to place colour. Product recommendations come second and should include alternatives at different price points. An artist who focuses primarily on selling you products they sell is giving a sales pitch, not a lesson.\nBouul artists are assessed on lesson quality, not product sales. Reviews mention whether the lesson was technique-focused or product-pushing."
+      },
+      {
+        "heading": "Brow Mapping as a Skill",
+        "body": "Brow mapping - measuring where your brows should start, arch, and end relative to your nose and eye - is one of the most valuable skills a makeup lesson can teach. Once you know your brow shape, you can fill them correctly with any product, every time."
+      },
+      {
+        "heading": "Practicing Between Lessons",
+        "body": "The best way to improve is to practice the techniques within 48 hours of the lesson while the memory is fresh. Bouul artists often offer a discount on a second lesson 2-4 weeks later if you book both at the first session."
+      }
+    ]
+  }
+]

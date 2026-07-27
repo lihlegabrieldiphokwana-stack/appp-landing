@@ -1,0 +1,302 @@
+[
+  {
+    "id": "counsel-anxiety-001",
+    "tag": "Anxiety",
+    "title": "Breaking Free from Anxiety: Practical Tools for Calmer Days",
+    "subtitle": "Understand your anxiety triggers and build coping strategies that actually work",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why fighting your anxiety makes it worse",
+    "problemBody": "Anxiety is the most common mental health challenge in South Africa, affecting 1 in 5 adults. The instinct is to avoid what scares you but avoidance reinforces anxiety. The brain learns that the only way to stay safe is to keep avoiding, which shrinks your world. A professional counsellor helps you break this cycle through evidence-based techniques like CBT and exposure therapy.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R400",
+    "timeline": "8-12 sessions over 3-4 months",
+    "aiPromptExample": "I have constant worrying that makes it hard to sleep and concentrate at work. I feel tense all the time. Is this something counselling can help with?",
+    "aiDiagnosisOutput": "Your symptoms of chronic worry, sleep disturbance, and tension are consistent with Generalised Anxiety Disorder (GAD). Cognitive Behavioural Therapy (CBT) teaches you to identify anxious thought patterns, challenge their validity, and respond differently. For moderate to severe cases, counselling combined with medication (SSRI) produces the best outcomes.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Your Anxiety",
+        "body": "Anxiety is not weakness - it is your brain alarm system stuck in the on position. Common forms include GAD (constant worry), social anxiety (fear of judgment), panic disorder (sudden intense fear attacks), and specific phobias. Each responds to different therapeutic approaches."
+      },
+      {
+        "heading": "CBT Techniques That Work",
+        "body": "Cognitive Behavioural Therapy is the most researched approach for anxiety. You learn to identify cognitive distortions (catastrophising, black-and-white thinking), challenge them with evidence, and replace them with balanced thoughts."
+      },
+      {
+        "heading": "Mindfulness and Grounding",
+        "body": "When anxiety peaks, your brain is in fight-or-flight mode. Grounding techniques - 5-4-3-2-1, deep breathing (4-7-8 pattern), and progressive muscle relaxation - bring you back to the present moment."
+      },
+      {
+        "heading": "Lifestyle Factors",
+        "body": "Sleep, exercise, caffeine, and alcohol all significantly affect anxiety levels. Reducing caffeine after noon, daily movement (even 20 min walking), and 7-8 hours of sleep can reduce baseline anxiety by 30-40%."
+      },
+      {
+        "heading": "When to Seek Help",
+        "body": "If anxiety interferes with your daily life for more than 2 weeks, professional help is warranted. If you have thoughts of harming yourself, call SADAG (0800 567 567) or go to your nearest emergency centre."
+      }
+    ]
+  },
+  {
+    "id": "counsel-depression-001",
+    "tag": "Depression",
+    "title": "Finding Light Again: Counselling for Depression and Low Mood",
+    "subtitle": "Depression is not weakness - it is a treatable condition. You deserve support.",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why you cannot just snap out of it",
+    "problemBody": "Depression affects neurotransmitters, sleep architecture, appetite regulation, and cognitive function. It is a biological and psychological condition, not a character flaw. Telling someone with depression to think positive is like telling someone with a broken leg to just walk it off. In South Africa, where access to mental health care is limited, many suffer in silence.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R400",
+    "timeline": "12-20 sessions over 3-6 months",
+    "aiPromptExample": "I have felt empty and exhausted for months. Nothing brings me joy anymore. I struggle to get out of bed. Is this depression and can counselling really help?",
+    "aiDiagnosisOutput": "Your symptoms - anhedonia, fatigue, low motivation, and persistent low mood lasting months - meet the clinical criteria for Major Depressive Disorder. Interpersonal Therapy (IPT) and CBT are both first-line treatments with strong evidence. Therapy helps you identify the thoughts and situations maintaining your depression and rebuild routines that support recovery.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Depression",
+        "body": "Depression is more than sadness. It is a persistent state where the brain chemistry that regulates mood, motivation, and reward stops functioning properly. Symptoms include low mood, loss of interest, changes in appetite or sleep, fatigue, and feelings of worthlessness."
+      },
+      {
+        "heading": "Therapy Approaches That Work",
+        "body": "CBT for depression focuses on behavioural activation - scheduling activities that provide a sense of accomplishment or pleasure even when you don't feel like doing them. Interpersonal Therapy addresses relationship issues. Both have strong evidence for mild to moderate depression."
+      },
+      {
+        "heading": "Building Your Support System",
+        "body": "Recovery requires more than therapy sessions. Your counsellor helps you identify safe people in your life, rebuild social connections that depression may have eroded, and communicate your needs effectively."
+      },
+      {
+        "heading": "Medication Considerations",
+        "body": "For moderate to severe depression, therapy combined with antidepressant medication (SSRIs like fluoxetine or citalopram) is more effective than either alone. Your counsellor can refer you to a GP or psychiatrist."
+      },
+      {
+        "heading": "Relapse Prevention",
+        "body": "Recovery is not linear. Setbacks are normal. Your counsellor helps you create a relapse prevention plan: identify early warning signs (withdrawing, sleep changes), list coping strategies, and establish a crisis support network."
+      }
+    ]
+  },
+  {
+    "id": "counsel-grief-001",
+    "tag": "Grief",
+    "title": "Navigating Loss: Counselling Support When Grief Feels Overwhelming",
+    "subtitle": "Grief is a journey, not a disorder - but you do not have to walk it alone",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why grief does not follow a neat 5-stage timeline",
+    "problemBody": "The idea that grief happens in 5 neat stages (denial, anger, bargaining, depression, acceptance) is a myth. Real grief is messy, unpredictable, and deeply personal. South Africa's high rates of violent crime,交通事故, and HIV-related loss mean many people carry complicated grief that does not follow any textbook pattern. Complicated grief - where the pain stays intense and life feels stuck for months or years - responds well to specialised grief counselling.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R400",
+    "timeline": "6-12 sessions, open-ended",
+    "aiPromptExample": "My mother died 8 months ago and I still cry every day. People tell me I should be moving on but I feel like the pain is getting worse. Is something wrong with me?",
+    "aiDiagnosisOutput": "What you are describing may be complicated grief, where the acute pain of loss does not naturally integrate over time. This is not a disorder - it is a specific form of grief that benefits from targeted therapy. Complicated Grief Therapy (CGT) is an evidence-based approach that helps you process the loss while also re-engaging with life. Key components include revisiting the story of the death, addressing avoided situations, and finding a new connection with the person you lost.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Grief",
+        "body": "Grief is the natural response to loss. It affects you emotionally (sadness, anger, numbness), physically (fatigue, changed appetite), cognitively (difficulty concentrating, disbelief), and socially (withdrawal, changed relationships). There is no right way to grieve and no set timeline."
+      },
+      {
+        "heading": "Complicated vs Normal Grief",
+        "body": "Normal grief gradually becomes less intense over time. Complicated grief stays intense and intrusive, making it hard to function. Signs: intense yearning, difficulty accepting the death, avoiding reminders, feeling life is meaningless. Professional help can make a significant difference."
+      },
+      {
+        "heading": "Grief Counselling Approaches",
+        "body": "CGT helps you process the loss while rebuilding a life worth living. Narrative therapy allows you to tell the story of your loss in a way that integrates it into your life story. Support groups connect you with others who understand."
+      },
+      {
+        "heading": "Supporting a Grieving Person",
+        "body": "If someone you know is grieving, the most important thing is presence, not advice. Say I am here for you rather than they are in a better place. Offer specific help (I will bring dinner on Tuesday) rather than let me know if you need anything."
+      },
+      {
+        "heading": "When Grief Becomes Depression",
+        "body": "Grief and depression can overlap but are different. Grief comes in waves and is usually mixed with positive memories. Depression is persistent low mood without relief. If you cannot feel any positive emotions at all for weeks, you may have developed depression on top of grief."
+      }
+    ]
+  },
+  {
+    "id": "counsel-trauma-001",
+    "tag": "Trauma",
+    "title": "Healing After Trauma: Reclaiming Your Sense of Safety",
+    "subtitle": "Trauma changes your brain - but with the right support, healing is possible",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why trauma is not just a bad memory",
+    "problemBody": "Trauma is not just about remembering a terrible event. It is about your nervous system getting stuck in a state of high alert, even when the danger has passed. South Africans face unique trauma risks - violent crime, road accidents, gender-based violence, and historical community trauma. The hypervigilance, flashbacks, nightmares, and emotional numbness that follow are your brain's way of trying to protect you. But when these responses do not fade, they become their own problem. Trauma-focused therapy can help your nervous system settle back to baseline.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R450",
+    "timeline": "12-20 sessions, longer for complex trauma",
+    "aiPromptExample": "I was hijacked 4 months ago. I cannot sleep, I jump at every loud noise, and I have stopped going out. My friends say I need to just get over it but I feel like I am losing my mind. What should I do?",
+    "aiDiagnosisOutput": "You are describing symptoms consistent with Post-Traumatic Stress Disorder (PTSD): hypervigilance, startle response, avoidance behaviours, and sleep disturbance following a traumatic event. These are normal responses to an abnormal event, not signs of weakness. Trauma-Focused Cognitive Behavioural Therapy (TF-CBT) or Eye Movement Desensitisation and Reprocessing (EMDR) are both highly effective. TF-CBT helps you process the traumatic memory in a safe way. EMDR uses bilateral stimulation to help the brain reprocess the memory so it no longer triggers such intense reactions.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "How Trauma Affects the Brain",
+        "body": "When you experience trauma, your amygdala (alarm system) becomes overactive, your hippocampus (context processing) shrinks, and your prefrontal cortex (rational thinking) goes offline. This is why you can feel terrified in a safe situation - your brain has not updated its threat assessment."
+      },
+      {
+        "heading": "PTSD Symptoms and Diagnosis",
+        "body": "PTSD has 4 symptom clusters: intrusive memories (flashbacks, nightmares), avoidance (staying away from triggers), negative changes in thinking and mood (numbness, detachment), and changes in reactivity (hypervigilance, anger, sleep problems). Symptoms lasting more than a month warrant a diagnosis."
+      },
+      {
+        "heading": "EMDR Therapy",
+        "body": "EMDR involves recalling the traumatic event while receiving bilateral stimulation (side-to-side eye movements or tapping). This mimics the brain natural processing that happens during REM sleep and helps the memory get filed away properly so it no longer feels like it is happening right now."
+      },
+      {
+        "heading": "Building Safety and Stability",
+        "body": "Before processing trauma, your counsellor helps you build safety skills: grounding techniques, emotional regulation strategies, and a stable daily routine. This phase is especially important if the trauma was prolonged or occurred in childhood."
+      },
+      {
+        "heading": "The South African Context",
+        "body": "In South Africa, trauma is often compounded by systemic factors: crime, inequality, and limited access to mental health care. Your counsellor understands this context and will not minimise the real dangers you face while helping you rebuild a sense of agency and safety."
+      }
+    ]
+  },
+  {
+    "id": "counsel-marriage-001",
+    "tag": "Marriage Counselling",
+    "title": "Strengthening Your Relationship: Marriage Counselling That Creates Real Change",
+    "subtitle": "Every relationship hits rough patches - getting help is a sign of strength, not failure",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why couples wait too long to seek help",
+    "problemBody": "The average couple waits 6 years of being unhappy before seeking counselling. By that point, negative communication patterns are deeply entrenched. Criticism, defensiveness, contempt, and stonewalling - what renowned researcher John Gottman calls the Four Horsemen of the Apocalypse - predict divorce with over 90% accuracy. Marriage counselling is not about assigning blame. It is about identifying the patterns that keep you stuck, learning to communicate differently, and rebuilding the friendship and intimacy that brought you together.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R500 per session (couples)",
+    "timeline": "10-20 sessions over 3-6 months",
+    "aiPromptExample": "My partner and I fight constantly about money, parenting, and chores. We love each other but we are exhausted. Can marriage counselling actually help us or are we just not compatible?",
+    "aiDiagnosisOutput": "Constant conflict around specific topics often masks deeper issues about power, respect, and emotional connection. The good news is that almost all couples can improve their relationship with the right tools. Gottman Method Couples Therapy focuses on replacing conflict patterns with gentle start-ups, accepting influence from each other, and building shared meaning. The goal is not to stop disagreeing but to disagree without damaging the relationship.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Relationship Patterns",
+        "body": "Every couple develops patterns. Healthy couples have more positive than negative interactions (5:1 ratio). Unhealthy patterns include criticism (attacking character), defensiveness (playing victim), contempt (disrespectful mockery), and stonewalling (shutting down). Your counsellor helps you identify and change your specific patterns."
+      },
+      {
+        "heading": "Communication Skills That Work",
+        "body": "The gentle start-up: say I feel X about Y instead of You always do Z. The speaker-listener technique: one person speaks, the other paraphrases what they heard, then switches. These simple techniques prevent the escalation that makes productive conversation impossible."
+      },
+      {
+        "heading": "Rebuilding Trust",
+        "body": "Trust is rebuilt through small, consistent actions, not grand gestures. Apologies must include acknowledging the specific harm, expressing genuine remorse, making amends, and changing behaviour. Trust is measured by whether your partner's actions match their words over time."
+      },
+      {
+        "heading": "Conflict Resolution Strategies",
+        "body": "Not all conflicts can be resolved. 69% of couple conflicts are perpetual problems rooted in personality differences or core values. The goal is not to solve them but to manage them with understanding and humour. Solvable problems need structured problem-solving."
+      },
+      {
+        "heading": "When to Seek Counselling",
+        "body": "Consider counselling when the same fights keep happening, you feel lonely in the relationship, you have stopped sharing your inner world, or you are considering separation. The earlier you come, the easier the work."
+      }
+    ]
+  },
+  {
+    "id": "counsel-work-stress-001",
+    "tag": "Work Stress",
+    "title": "Thriving at Work: Counselling for Burnout, Stress, and Career Challenges",
+    "subtitle": "Work should not cost you your health - learn to set boundaries and find balance",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why the hustle culture is making you sick",
+    "problemBody": "South Africa has one of the highest rates of workplace stress globally. Long hours, job insecurity, toxic management, and the pressure to always be available have created a mental health crisis in the workplace. Burnout - characterised by exhaustion, cynicism, and reduced professional efficacy - is now officially recognised by the WHO as an occupational phenomenon. Pushing through does not work. You cannot hustle your way out of burnout. Workplace counselling helps you identify the sources of stress, set boundaries, and make sustainable changes.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R400",
+    "timeline": "6-12 sessions",
+    "aiPromptExample": "I dread going to work every day. I am exhausted all the time, I have become cynical about my job, and I feel like nothing I do is good enough. Is this burnout and can counselling help before I quit?",
+    "aiDiagnosisOutput": "Your symptoms - exhaustion, cynicism, and reduced sense of accomplishment - are the three dimensions of burnout as defined by the Maslach Burnout Inventory. Yes, counselling can help before you reach the point of quitting. The approach has three parts: (1) managing your stress response (relaxation, sleep, exercise), (2) identifying which specific aspects of your job are causing burnout (workload, control, reward, community, fairness, values), and (3) making changes where possible.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "What Burnout Looks Like",
+        "body": "Burnout develops gradually. Early signs: feeling tired after a full weekend, dreading Sunday evenings, becoming irritable with colleagues, losing interest in work you used to enjoy. Late signs: physical symptoms (headaches, stomach issues), emotional numbness, and feeling completely detached from your work."
+      },
+      {
+        "heading": "The Six Causes of Burnout",
+        "body": "Research identifies 6 mismatches that cause burnout: workload (too much, too little control), control (micromanagement), reward (insufficient recognition), community (toxic workplace relationships), fairness (perceived inequity), and values (ethical conflicts between personal and organisational values)."
+      },
+      {
+        "heading": "Setting Boundaries at Work",
+        "body": "Boundaries are not rude - they are sustainable. Learn to say no to non-essential requests, protect your lunch break, stop checking email after hours, and communicate your capacity honestly. Your counsellor helps you practice these conversations."
+      },
+      {
+        "heading": "Coping Strategies That Help",
+        "body": "Mindfulness reduces the stress response. Exercise (especially aerobic) clears stress hormones. Hobbies and activities completely unrelated to work create psychological detachment. Strong social support outside work buffers against workplace stress."
+      },
+      {
+        "heading": "When to Consider Changing Jobs",
+        "body": "Sometimes the healthiest choice is to leave. If you have tried individual changes, boundary-setting, and even conversations with management but the environment remains toxic, leaving is not failure - it is self-preservation. Your counsellor helps you plan a thoughtful exit."
+      }
+    ]
+  }
+]

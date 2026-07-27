@@ -1,0 +1,262 @@
+[
+  {
+    "id": "bizconsult-01",
+    "tag": "Strategy",
+    "title": "Strategic Planning for SMEs: Building a Roadmap That Works",
+    "subtitle": "From vision to execution — a practical strategy framework for growing businesses",
+    "image": "/scenes/pro_bizconsult_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Over 70% of SME strategies fail at execution",
+    "problemBody": "South African SMEs face a unique strategic challenge: high volatility with limited resources. Most SMEs have a strategy that lives in the founder’s head. The result is reactive decision-making. A proper strategic plan is a practical, measurable, and adaptable framework.",
+    "bouulSolution": [
+      "Your Bouul-matched consultant conducts a strategic review: market position, competitive landscape, financial health, operational capacity, and growth potential.",
+      "We produce a strategic plan with: vision refresh, 3-year objectives, 12-month roadmap, KPIs, and resource requirements.",
+      "Quarterly strategy reviews track progress, adjust priorities, and keep the plan relevant."
+    ],
+    "partsNeeded": [
+      "Current business plan or strategy document (if one exists)",
+      "Financial statements for the last 2-3 years",
+      "Customer and revenue data by product line or channel",
+      "Competitor analysis or market research (if available)"
+    ],
+    "guidePricing": 8500,
+    "timeline": "Strategic review and plan: 2-3 weeks. Quarterly reviews: recurring half-day sessions.",
+    "aiPromptExample": "A 12-employee cleaning services company with R4.5m turnover wants to grow to R10m in 3 years. Draft a strategy framework with: market sizing, competitive positioning (residential vs commercial vs industrial), a 3-phase growth plan, and key hires needed at each phase.",
+    "aiDiagnosisOutput": "SA cleaning services market estimated at R18bn annually. Commercial segment (55%) growing at 7% CAGR. Client currently 70% residential, 30% commercial. To reach R10m by year 3, they need 25% CAGR. Recommendation: pivot to 50/50 residential/commercial by year 2. Key hires: commercial sales manager (year 1, R360k), operations supervisor (year 2, R300k). Capital requirement: R400k for equipment. Breakeven on new hires: month 8.",
+    "escrowGuarantee": "Strategy fees are held in escrow. Payment releases when the strategic plan is delivered and you confirm it addresses your growth objectives.",
+    "pirbStandard": "SACPCMP (SA Council for the Project and Construction Management Professions) and IMCSA (Institute of Management Consultants SA) standards apply.",
+    "articleSections": [
+      {
+        "heading": "The 3-horizon strategy framework",
+        "body": "The 3-horizon model separates strategy into immediate (0-6 months), medium-term (6-18 months), and long-term (18-36 months) horizons. Horizon 1: defend and extend core business. Horizon 2: build new revenue streams. Horizon 3: create options for the future. A Bouul consultant structures each horizon with specific KPIs, resource allocation, and review cadences."
+      },
+      {
+        "heading": "SWOT analysis that drives decisions",
+        "body": "A useful SWOT is specific and ranked. Pair each strength with an opportunity, pair each weakness with a threat, and prioritise actions by impact and feasibility. A generic SWOT is useless. A specific SWOT drives targeted action. Bouul consultants facilitate SWOT sessions with the management team."
+      },
+      {
+        "heading": "The balanced scorecard for SMEs",
+        "body": "The balanced scorecard translates strategy into operational measures across four perspectives: financial, customer, internal processes, and learning and growth. SMEs track 3-5 KPIs per perspective. Bouul consultants set up a balanced scorecard dashboard with quarterly targets."
+      },
+      {
+        "heading": "Resource allocation: the strategic budget",
+        "body": "Most SMEs allocate budget incrementally. Strategic resource allocation starts from zero: which activities directly support strategic objectives? A good rule: 70% of resources to core business, 20% to growth initiatives, 10% to experimental. If your budget does not match these proportions, your strategy and spending are misaligned."
+      }
+    ]
+  },
+  {
+    "id": "bizconsult-02",
+    "tag": "Financial Modelling",
+    "title": "Building a Financial Model That Your Investors Will Trust",
+    "subtitle": "Three-statement models, scenario analysis, and valuation for SA businesses",
+    "image": "/scenes/pro_bizconsult_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "80% of investor-ready pitch decks fail because the financial model doesn't hold up to scrutiny",
+    "problemBody": "Investors and funders in South Africa see hundreds of pitch decks annually. The ones that get funded have financial models that work — not spreadsheets with numbers that don't tie. Most SME financial models have fundamental errors: circular references, inconsistent assumptions, no working capital management, and missing tax calculations. The result is that investors spend the meeting questioning the numbers instead of discussing the business.",
+    "bouulSolution": [
+      "Your Bouul-matched consultant builds a three-statement financial model (income statement, balance sheet, cash flow) in a clean, auditable structure.",
+      "We include sensitivity analysis (best case, base case, worst case) and key financial ratios (gross margin, EBITDA, ROI, payback period).",
+      "The model is delivered with full documentation: assumption notes, formula transparency, and a user guide so you can update it yourself."
+    ],
+    "partsNeeded": [
+      "Historical financial statements (last 2-3 years if available)",
+      "Revenue model: pricing, unit volumes, customer acquisition cost, churn rate",
+      "Cost structure: fixed costs breakdown, variable cost per unit, staff costs",
+      "Funding requirement and planned use of funds"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Full three-statement financial model: 1-2 weeks. Model review and fix: 3-5 business days.",
+    "aiPromptExample": "A SaaS startup with 200 customers at R850/month has raised R2m seed funding and needs a Series A financial model. Revenue is growing at 8% month-on-month. Write a model framework including: MRR build-up (new customers, churn, expansion revenue), gross margin calculation, CAC payback period, Rule of 40 calculation, and burn-down analysis.",
+    "aiDiagnosisOutput": "Key metrics: Current MRR R170k, churn 4.5% monthly, NRR 105%, CAC R12k, LTV R85k, LTV/CAC ratio 7.1. Rule of 40: 8% revenue growth + -15% EBITDA margin = -7 (below 40 threshold — needs improvement). 12-month projection with 8% MoM growth: MRR reaches R438k by month 12, ARR R5.3m. Burn-down at current team cost of R380k/month: runway 5.3 months from current R2m. Recommendation: reduce burn to R300k/month immediately or close Series A within 4 months.",
+    "escrowGuarantee": "Financial modelling fees are held in escrow. Payment releases when the completed model is delivered and you confirm the outputs match your business data.",
+    "pirbStandard": "SAICA — Bouul financial modelling consultants are SAICA Chartered Accountants with expertise in financial modelling best practices (FAST standard).",
+    "articleSections": [
+      {
+        "heading": "The three-statement model explained",
+        "body": "A proper financial model has three interconnected statements. The income statement shows revenue, costs, and profit. The balance sheet shows assets, liabilities, and equity. The cash flow statement shows operating, investing, and financing cash flows. Every item should trace from one statement to another. Revenue drives receivables. Depreciation flows from fixed assets. Tax calculated on profit drives a liability. The most common error is building statements in isolation."
+      },
+      {
+        "heading": "Scenario analysis for uncertain markets",
+        "body": "SA businesses need three scenarios: base case (most likely assumptions), upside case (faster growth, better margins), and downside case (recession, load-shedding, currency shock). Each scenario should have a defined probability and a clear trigger that tells you when to switch between scenarios. Sensitivity analysis (what happens if revenue drops 20% or costs rise 15%) identifies the key risk factors."
+      },
+      {
+        "heading": "Investor-ready assumptions",
+        "body": "Investors test assumptions aggressively. Common questions: why is customer acquisition cost projected to drop by 40% in year 2? Why does gross margin jump from 45% to 65% without explanation? Every assumption line must have a stated basis: industry benchmark, historical data, or reasonable estimate. Assumptions without basis are the fastest way to lose investor confidence."
+      },
+      {
+        "heading": "Valuation methods for SA SMEs",
+        "body": "Common valuation methods: discounted cash flow (DCF — projects future cash flows and discounts them back), comparable company analysis (multiple of EBITDA or revenue compared to peers), and asset-based valuation (net asset value). For SA SMEs under R50m revenue, DCF adjusted for country risk premium (typically 3-5% added to WACC) is most appropriate."
+      }
+    ]
+  },
+  {
+    "id": "bizconsult-03",
+    "tag": "Operations",
+    "title": "Operations Optimisation for Growing SMEs",
+    "subtitle": "Systems, processes, and workflows that scale",
+    "image": "/scenes/pro_bizconsult_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Founders spend 60% of their time on operational firefighting instead of strategic growth",
+    "problemBody": "As SMEs grow from R1m to R5m in revenue, the operational complexity multiplies. The founder can no longer personally approve every purchase, respond to every client query, or manage every employee. Without operational systems, the business becomes the bottleneck. Process documentation, workflow automation, and delegation become critical. Yet most SMEs have no documented processes, no delegation framework, and no performance metrics beyond revenue.",
+    "bouulSolution": [
+      "Your Bouul-matched operations consultant conducts a process audit: map all key workflows, identify bottlenecks, and measure cycle times.",
+      "We design standard operating procedures (SOPs) for core business processes — documented, measured, and assigned to accountable team members.",
+      "A performance dashboard is implemented with leading and lagging indicators for each department."
+    ],
+    "partsNeeded": [
+      "Current process documentation (if any)",
+      "Organisational chart showing roles and reporting lines",
+      "IT systems list (ERP, CRM, project management, accounting software)",
+      "Customer feedback or complaint data"
+    ],
+    "guidePricing": 7500,
+    "timeline": "Process audit: 1 week. SOP design and implementation: 2-3 weeks. Dashboard setup: 1 week.",
+    "aiPromptExample": "A 25-person logistics company has no documented processes. Drivers self-route, dispatch uses WhatsApp, and invoicing happens 30 days after delivery. Draft an operations improvement plan with 90-day milestones covering: route optimisation software, dispatch system, digital POD capture, and automated invoicing.",
+    "aiDiagnosisOutput": "Current state assessment: route planning is ad-hoc (estimated 20% fuel waste), dispatch uses WhatsApp only (no GPS tracking), PODs are paper-based (15% missing rate), invoicing delay averages 30 days (R240k in unbilled work). 90-day plan: day 1-30 implement dispatch and GPS tracking system (cost R35k setup + R8k/month), day 30-60 digital POD capture with driver mobile app (R25k), day 60-90 automated invoicing linked to POD capture (R15k). Estimated annual savings: R180k fuel, R90k lost POD revenue, R40k admin time. ROI: 7 months.",
+    "escrowGuarantee": "Operations consulting fees are held in escrow. Payment releases when SOPs are delivered and the performance dashboard is operational.",
+    "pirbStandard": "SACPCMP — Bouul operations consultants follow the SACPCMP operational excellence framework and Lean Six Sigma methodology.",
+    "articleSections": [
+      {
+        "heading": "The process audit: finding your bottlenecks",
+        "body": "Map every key business process end-to-end. For each step, measure: cycle time (how long it takes), handoff count (how many people touch it), error rate, and cost. The bottlenecks are the steps with the longest cycle times, most handoffs, or highest error rates. Common SME bottlenecks: quoting (takes 5 days but actual work is 2 hours), invoicing (delayed 20 days because manual), and client onboarding (multiple data re-entry across systems)."
+      },
+      {
+        "heading": "SOPs that people actually use",
+        "body": "SOPs fail when they are 50-page documents that nobody reads. Effective SOPs are: one page per process, written at a Grade 10 reading level, with screenshots or diagrams, and stored where the work happens (a three-ring binder, a Google Drive folder, or an SOP software tool). Each SOP must have a named owner and an annual review date."
+      },
+      {
+        "heading": "Delegation: the founder's bottleneck",
+        "body": "Most founders are stuck doing work they should have delegated 2 years ago. The delegation framework: list every task you do personally for 4 weeks. Categorise by: do only I can do (CEO work), someone else can do but I haven't trained them (delegation opportunity), and someone already does but I keep checking (trust gap). Bouul operations consultants help founders transition from operator to manager."
+      }
+    ]
+  },
+  {
+    "id": "bizconsult-04",
+    "tag": "Market Entry",
+    "title": "Entering New Markets: A Strategic Framework for SA Businesses",
+    "subtitle": "Expanding into new cities, provinces, or African markets without overextending",
+    "image": "/scenes/pro_bizconsult_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "70% of SA SME expansions into new geographic markets fail within the first 18 months",
+    "problemBody": "Expanding into a new market — whether a new city in South Africa or a new African country — is a high-risk strategic move. Most SA SMEs underestimate the costs (you need 3x more capital than you think), overestimate the demand (your brand recognition is lower than at home), and misunderstand the regulatory environment (new licenses, tax registrations, labour laws). The result is a failed expansion that drains resources from the core business.",
+    "bouulSolution": [
+      "Your Bouul-matched consultant conducts a market entry feasibility study: market sizing, competitive analysis, regulatory requirements, and entry timeline.",
+      "We develop an entry strategy: market positioning, pricing strategy (localised), distribution model, and local partner identification.",
+      "A 12-month entry roadmap is delivered with milestones, capital requirements, risk mitigation strategies, and exit criteria."
+    ],
+    "partsNeeded": [
+      "Your core business plan and financial model",
+      "Target market research (population, GDP, income levels, competitor landscape)",
+      "Existing customer data (who buys from you and why)",
+      "Any existing connections or partners in the target market"
+    ],
+    "guidePricing": 15000,
+    "timeline": "Feasibility study: 2-3 weeks. Market entry strategy: 1-2 weeks. (SARB approvals for cross-border capital movements: 4-8 weeks.)",
+    "aiPromptExample": "A Durban-based clothing manufacturer wants to enter the Botswana market. They manufacture school uniforms and corporate workwear. Write a market entry brief covering: demand assessment (Botswana's school population, corporate sector size), regulatory requirements (Company and Intellectual Property Authority of Botswana registration, BURS tax registration), distribution options (direct vs agent), and the capital requirement for the first 12 months.",
+    "aiDiagnosisOutput": "Botswana market assessment: total addressable market — 395,000 school children (primary + secondary), 12,000+ registered companies in Gaborone alone. Regulatory: company registration with CIPA (10-14 business days, P2,000 fee), BURS tax registration (7 days), work permit for SA manager (4-8 weeks, not guaranteed — quota system applies to certain sectors). Distribution: recommended — appoint Botswanan agent (10-15% commission) for first 24 months rather than opening a branch. Capital requirement: R650k (stock R300k, marketing R100k, legal/registration R50k, working capital R200k). Breakeven: estimated month 16.",
+    "escrowGuarantee": "Market entry consulting fees are held in escrow. Payment releases when the feasibility study and entry strategy documents are delivered and reviewed.",
+    "pirbStandard": "SACPCMP international business standards — Bouul market entry consultants have demonstrated experience in cross-border business expansion across SADC.",
+    "articleSections": [
+      {
+        "heading": "Feasibility study: what every market entry needs",
+        "body": "A feasibility study answers: is the market large enough? Can we compete? Can we operate profitably? It covers market sizing (TAM, SAM, SOM), competitive analysis (direct competitors, substitutes, barriers to entry), regulatory requirements (licenses, registrations, work permits), and a 3-year financial projection. The study should answer the question: 'If everything goes well, how long to breakeven?' If the answer is more than 24 months, the risk may be too high."
+      },
+      {
+        "heading": "Entry modes: agent, branch, or subsidiary",
+        "body": "An appointed agent or distributor is the lowest-risk entry mode (no permanent establishment, minimal regulatory burden, prototype cost). A branch office gives you direct control but creates a permanent establishment with full tax obligations. A subsidiary (registering a company in the target country) offers the most control but the highest setup cost and regulatory burden. For most SA SMEs entering SADC markets, an agent model for 12-24 months with an option to establish a branch is optimal."
+      },
+      {
+        "heading": "Currency and capital controls",
+        "body": "The South African Reserve Bank (SARB) regulates cross-border capital movements. You need SARB approval to invest capital into a foreign subsidiary or branch (Exchange Control Ruling 7.13). De minimis allowance (up to R10m per company per year) has simpler reporting. Dividends and profits repatriated back to SA are subject to withholding tax in the host country (typically 5-15% under Double Taxation Agreements)."
+      }
+    ]
+  },
+  {
+    "id": "bizconsult-05",
+    "tag": "Turnaround",
+    "title": "Business Turnaround: Reversing Decline Before It's Too Late",
+    "subtitle": "Diagnosing the crisis, stabilising cash flow, and rebuilding profitability",
+    "image": "/scenes/pro_bizconsult_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "80% of business failures are caused by a crisis that was visible 12 months before the collapse",
+    "problemBody": "Business failure in South Africa rarely happens overnight. The warning signs — declining gross margins, increasing debtor days, declining cash reserves, and staff turnover — are visible 6-18 months before the collapse. Most owners ignore or rationalise these signs until the crisis is acute: the bank account is empty, suppliers are on COD, and SARS is sending final demands. Turnaround is possible if action is taken early. A successful turnaround follows three phases: stabilise (stop the bleeding), restructure (fix the business model), and grow (return to sustainable profitability).",
+    "bouulSolution": [
+      "Your Bouul-matched turnaround consultant conducts a 48-hour diagnostic: cash position, creditor pressure, debtor collectability, revenue trajectory, and cost structure.",
+      "We develop a 90-day stabilisation plan: emergency cash preservation (creditor negotiations, debtor collection blitz, discretionary spend freeze), operational restructuring, and a revised financial forecast.",
+      "A full turnaround plan is delivered with a 12-month timeline, clear milestones, and exit criteria."
+    ],
+    "partsNeeded": [
+      "Latest management accounts (profit and loss, balance sheet, cash flow)",
+      "Debtor age analysis and creditor age analysis",
+      "Cash flow forecast (at least 13 weeks)",
+      "SARS correspondence (penalties, final demands, payment arrangements)"
+    ],
+    "guidePricing": 18000,
+    "timeline": "48-hour diagnostic and stabilisation plan. Full turnaround plan: 2-3 weeks. Implementation support: 3-6 months.",
+    "aiPromptExample": "A retail business with R24m turnover has R1.2m in the bank, owes R2.8m to creditors (R600k overdue 60+ days), has a SARS PAYE debt of R340k, and debtor days of 55. Revenue is flat. Gross margin dropped from 38% to 32% over 12 months. Write a 90-day stabilisation plan prioritising cash preservation and creditor negotiations.",
+    "aiDiagnosisOutput": "Crisis level: Moderate (cash-positive by R1.2m but overdue creditors of R600k and SARS debt of R340k create immediate pressure). Days of cash: 18 at current burn rate of R65k/day. 90-day plan: days 1-14 cash preservation — negotiate 60-day payment terms with top 3 creditors, implement debtor collection blitz targeting R400k recovery from 60+ day accounts, freeze all non-essential spend. Days 15-45 cost restructuring — review gross margin decline, identify 6% drop causes (pricing erosion, input cost increase, or product mix shift), implement corrective pricing. Days 45-90 SARS payment arrangement — submit R340k payment plan, target R10k/month plus current PAYE. Critical: reduce debtor days from 55 to 40 — releases R250k cash.",
+    "escrowGuarantee": "Turnaround consulting fees are held in escrow. Payment releases in tranches aligned to stabilisation milestones verified by a Bouul financial review.",
+    "pirbStandard": "SAICA Turnaround Management — Bouul turnaround consultants hold SAICA membership with additional certifications in business rescue and turnaround management (BRTP).",
+    "articleSections": [
+      {
+        "heading": "The 48-hour cash diagnostic",
+        "body": "The first step in any turnaround is understanding exactly how much cash you have and how long it will last. Calculate: current cash ÷ average daily operating cash burn = days of cash remaining. If days remaining < 30, you are in crisis mode. The cash preservation checklist: stop all discretionary spending immediately, freeze non-essential hiring, negotiate payment terms with creditors, launch a debtor collection blitz (call every overdue debtor within 48 hours), and assess asset sales."
+      },
+      {
+        "heading": "Creditor negotiations that work",
+        "body": "Creditors prefer a payment plan to no payment at all. Approach each creditor with a proposal, not a problem. Propose a realistic payment plan: say exactly how much you can pay and when. Offer something upfront (even 10%) to show good faith. Provide a written forecast showing when full payments will resume. The worst thing you can do is avoid communication — that triggers legal action. Most SA creditors will accept a payment plan if you are transparent."
+      },
+      {
+        "heading": "Business rescue vs informal turnaround",
+        "body": "Business rescue is a formal process under Chapter 6 of the Companies Act. A business rescue practitioner is appointed, takes control of the company from the directors, and has 6 months to develop a rescue plan. Informal turnaround is a voluntary process where the directors remain in control and work with external consultants. Informal turnaround is preferred when management is capable and creditors are cooperative. Formal rescue is needed when a company is technically insolvent, has multiple legal threats, and lacks management credibility."
+      }
+    ]
+  },
+  {
+    "id": "bizconsult-06",
+    "tag": "SME Growth",
+    "title": "Systematic SME Growth: From R5m to R20m Without Breaking the Business",
+    "subtitle": "The predictable growth framework for SA service businesses",
+    "image": "/scenes/pro_bizconsult_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Less than 5% of SA SMEs ever grow beyond R20m in annual revenue",
+    "problemBody": "The jump from R5m to R20m is the hardest transition in an SME's life cycle. At R5m, the founder is still the key operator. At R20m, the business must run on systems, not on the founder. Most SMEs get stuck at R5-10m because the founder refuses to delegate, the operating model doesn't scale, or the business can't attract the calibre of talent needed for the next level.",
+    "bouulSolution": [
+      "Your Bouul-matched growth consultant assesses your current growth ceiling: revenue concentration, founder dependency, operational capacity, and team capability gaps.",
+      "We build a systematic growth engine: repeatable sales process, scalable service delivery model, key hire plan, and management systems.",
+      "A 24-month growth plan delivers specific milestones for revenue, team size, systems, and profitability targets."
+    ],
+    "partsNeeded": [
+      "Financial statements for the last 2 years",
+      "Customer data: top customers by revenue, retention rates, average contract value",
+      "Sales pipeline and conversion rates",
+      "Organisational chart and team salary costs"
+    ],
+    "guidePricing": 22000,
+    "timeline": "Growth assessment and plan: 2-3 weeks. Implementation support: monthly check-ins over 12-24 months.",
+    "aiPromptExample": "A cleaning services company with R5.2m revenue, 8 commercial clients, and 42 staff wants to reach R20m in 3 years. The founder personally manages all key accounts. Write a growth plan covering: account management restructure, sales team build-out, geographic expansion, and the systems needed to move from founder-led sales to a scalable sales model.",
+    "aiDiagnosisOutput": "Current state: R5.2m revenue with 8 clients = R650k average contract value. Top 2 clients = 55% of revenue (high concentration risk). Founder personally handles all account management (scalability bottleneck). Growth path to R20m: option A (deepen existing clients — increase share of wallet from 40% to 70% across current accounts, target R11m), option B (add 12 new mid-size clients at R400k each, target R4.8m), option C (enter 2 new cities with 3 anchor clients each, target R5m). Combined: R20.8m. Key hires: sales manager (year 1), operations manager (year 1), 2 regional managers (year 2). Systems needed: CRM implementation, standardised service delivery playbook, automated reporting. Founder must exit account management by month 9.",
+    "escrowGuarantee": "SME growth consulting fees are held in escrow. Payment releases when the growth plan is delivered and at each implementation milestone confirmed by both parties.",
+    "pirbStandard": "SAICA — Bouul SME growth consultants are experienced business strategists with SAICA or SACPCMP accreditation.",
+    "articleSections": [
+      {
+        "heading": "Revenue concentration: the hidden risk",
+        "body": "If your top 3 clients represent more than 40% of revenue, your business is at risk. Losing any one of them creates a cash crisis. The growth plan must diversify your client base before scaling. Rule of thumb: no single client > 15% of revenue, top 3 combined < 35%. If you are over-concentrated, the first growth step is a controlled diversification program — not aggressive scaling."
+      },
+      {
+        "heading": "From founder-led to systems-led",
+        "body": "The founder is the best salesperson, account manager, and operations manager in the early stage. But the founder is also a single point of failure. The transition to systems-led requires: documenting every process the founder performs (even intuitively), hiring a operations or sales manager before the founder feels ready, creating management dashboards that give visibility without the founder's direct involvement, and accepting a temporary drop in quality during the transition."
+      },
+      {
+        "heading": "The economic model of scaling",
+        "body": "As revenue grows, costs should grow slower. Unit economics (revenue per employee, gross margin per service line, customer acquisition cost) should improve with scale. If your cost structure is scaling linearly with revenue, you are scaling without leverage. Target: as revenue doubles, headcount grows by 60% and overhead by 40%. The gap between revenue growth and cost growth is your scaling leverage."
+      }
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "weekly_pool_service",
+    "tag": "Pool Cleaners",
+    "title": "Weekly Pool Cleaning Service",
+    "subtitle": "Keep your pool crystal clear and chemically balanced with hassle-free weekly professional service.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your pool looks like a swamp and testing the water feels like chemistry homework.",
+    "problemBody": "A neglected pool turns green within days in summer. Balancing pH, alkalinity, and chlorine manually is a chore most pool owners dread. Without regular maintenance, algae blooms, filters clog, and the pump works overtime. A weekly pro service keeps the water inviting and prevents costly equipment damage.",
+    "bouulSolution": [
+      "We match you with registered pool service technicians who handle weekly chemical balancing and physical cleaning.",
+      "Escrow holds your payment and releases only after each service is logged and you confirm satisfaction.",
+      "Zola AI tracks your pool's chemical history and flags trends before they become problems."
+    ],
+    "partsNeeded": [
+      "Chlorine (calcium hypochlorite granules or trichlor tablets)",
+      "pH adjuster (sodium bisulphate to lower, sodium carbonate to raise)",
+      "Algaecide (copper-based or quaternary ammonium compound)",
+      "Pool net, brush, and leaf rake for skimming and wall cleaning"
+    ],
+    "guidePricing": "R350 - R650 per weekly visit",
+    "timeline": "Duration: 30 - 60 Minutes per visit",
+    "aiPromptExample": "I have a 50,000 litre concrete pool in Midrand. The water is slightly cloudy and I'm getting green patches on the floor between services. Current weekly service only skims and adds chlorine. I use the pool daily in summer.",
+    "aiDiagnosisOutput": "Pool assessment: 50,000 litre concrete pool, heavy daily use. Cloudy water + green patches suggests free chlorine is dropping to zero between services — combined chlorine (chloramines) likely elevated. Recommend: (1) shock treatment with calcium hypochlorite to break chloramines, (2) test cyanuric acid (CYA) level — if over 60ppm, chlorine is locked up and ineffective, partial drain may be needed, (3) brush walls and floor weekly to prevent algae adhesion. Feedback for service provider: ensure free chlorine stays 1-3ppm at all times, not just right after treatment. Budget for additional chemicals: R150-R350/month above base service. Escrow ensures chemical dosing is verified before sign-off.",
+    "escrowGuarantee": "Your payment is held in escrow per visit. Funds release only after the technician logs the chemical reading and you confirm the pool is clean and balanced.",
+    "pirbStandard": "Pool service technicians in SA should be certified by the Institute of Plumbing South Africa (IOPSA) for equipment work, and use SANS 10116 compliant pool chemicals. Commercial-grade test kits should read free chlorine, combined chlorine, pH, TA, CH, and CYA.",
+    "articleSections": [
+      {
+        "heading": "What a Weekly Service Actually Does",
+        "body": "A thorough weekly service includes: skim surface debris, brush walls and floor, vacuum the pool (manual or automatic), empty skimmer baskets, backwash the filter if pressure is high, test and balance all chemical levels (free chlorine, pH, total alkalinity, calcium hardness, stabiliser), and add necessary chemicals. If your service just drops a chlorine tablet and leaves, you're paying for a top-up, not a service."
+      },
+      {
+        "heading": "The Chlorine-Stabiliser Balance",
+        "body": "Cyanuric acid (stabiliser or conditioner) protects chlorine from UV breakdown, which is essential in SA's intense sun. But too much CYA (above 60ppm) locks the chlorine so it can't sanitise. The only fix is partial draining and refilling. A good technician tests CYA monthly and adjusts your chlorine type accordingly — non-stabilised calcium hypochlorite for high-CYA pools, trichlor tablets for normal levels."
+      },
+      {
+        "heading": "Why Cloudy Water After Heavy Use",
+        "body": "Swimming introduces organic matter — sunscreen, sweat, hair products — that consume chlorine rapidly. After a pool party or daily use in summer, chlorine levels can drop to zero within hours. The result is cloudy, bacteria-friendly water. A good service will account for usage patterns and may recommend a non-chlorine shock (potassium monopersulfate) after heavy use days."
+      },
+      {
+        "heading": "Summer vs Winter Protocol",
+        "body": "Summer (October-March): weekly visits essential, chlorine consumption doubles, algae risk is highest, run pump 8-10 hours daily. Winter (May-August): visits can reduce to fortnightly, chlorine demand drops, run pump 4-6 hours daily. Many SA pool services offer a seasonal schedule that switches automatically — make sure yours does."
+      }
+    ]
+  },
+  {
+    "id": "algae_treatment",
+    "tag": "Pool Cleaners",
+    "title": "Algae Treatment and Removal",
+    "subtitle": "Kill green, black, and mustard algae fast with professional chemical treatment and deep cleaning.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your pool is green, slimy, and no amount of chlorine seems to fix it.",
+    "problemBody": "Algae spores are everywhere in SA's warm climate — they blow in, wash in, and once established, normal chlorine levels won't touch them. Algae tints the water green, coats surfaces with slime, and feeds bacteria. A targeted algae treatment program kills the infestation and prevents recurrence.",
+    "bouulSolution": [
+      "We connect you with pool technicians who diagnose algae type and administer the correct chemical treatment.",
+      "Escrow holds your payment until the water clears to your satisfaction.",
+      "Zola AI identifies algae type from your description and recommends the treatment approach before the technician arrives."
+    ],
+    "partsNeeded": [
+      "Algaecide (specific to algae type — copper-based for green, quaternary for black/mustard)",
+      "Chlorine shock (calcium hypochlorite at 30ppm for superchlorination)",
+      "Pool brush (stainless steel for concrete, nylon for vinyl/fibre-glass)",
+      "Flocculant or clarifier to settle dead algae for vacuuming"
+    ],
+    "guidePricing": "R500 - R1,500 (treatment and clearing)",
+    "timeline": "Duration: 2 - 5 Days to clear",
+    "aiPromptExample": "My pool in Bloemfontein has turned completely green over the last 4 days. I've added 4kg of granular chlorine but it cleared for 2 hours then went green again. The pool is a 40,000 litre concrete pool with a sand filter.",
+    "aiDiagnosisOutput": "Probable green algae bloom. Adding chlorine that clears temporarily then reverts indicates either: (1) cyanuric acid (CYA) too high — chlorine is locked, (2) phosphates feeding regrowth faster than chlorine can oxidise, or (3) filter running insufficient hours. Recommended protocol: test CYA (partial drain if over 60ppm). Superchlorinate to 30ppm free chlorine. Add phosphate remover. Brush walls and floor vigorously 3x over 48 hours to break biofilm. Run pump 24 hours until clear. Backwash filter every 8 hours during treatment. Budget estimate R700-R1,200 for chemicals. If black algae spots are present (black dots that feel hard), treatment protocol changes to copper-based algaecide and stainless steel brushing.",
+    "escrowGuarantee": "Funds are held until the pool returns to clear, swimmable condition. If the first treatment doesn't clear it within 5 days, the technician returns at no extra chemical cost.",
+    "pirbStandard": "Algaecides used in SA must be registered with the Department of Agriculture, Land Reform and Rural Development under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act. Always check registration before application.",
+    "articleSections": [
+      {
+        "heading": "Green Algae vs Black Algae vs Mustard Algae",
+        "body": "Green algae is the most common — it floats in the water and coats surfaces, responds to chlorination and brushing. Black algae forms hard black dots on concrete surfaces with deep roots — it needs stainless steel brushing and copper-based algaecide. Mustard algae looks like yellow-brown dust on walls — the trickiest to kill because it's chlorine-resistant and can survive in the filter. Correct identification is essential."
+      },
+      {
+        "heading": "The Phosphates-Fuel Algae Cycle",
+        "body": "Phosphates enter pools from leaves, fertilisers, bird droppings, and even some tap water. They are algae food. If your chlorine demand is abnormally high (pools that turn green at the slightest drop in chlorine), test phosphates. A phosphate level above 500ppb feeds algae faster than chlorine can kill it. Phosphate remover (lanthanum-based) drops levels within 24 hours."
+      },
+      {
+        "heading": "Why Algae Keeps Coming Back",
+        "body": "Algae recurrence usually means one of three things: the CYA level is too high (chlorine can't work), the filter isn't running enough hours per day (water volume should turn over once every 6-8 hours), or the pool has biofilm in pipes or on porous surfaces. A one-time treatment won't fix underlying system issues."
+      },
+      {
+        "heading": "Preventing Future Algae Blooms",
+        "body": "After successful treatment, maintain a consistent chlorine level of 1-3ppm, brush walls weekly to prevent biofilm formation, run the pump 8-10 hours daily in summer, and test water chemistry weekly. Consider a phosphate remover maintenance dose every 2-3 months if phosphates are a recurring issue. With consistent care, most SA pools can go years between significant algae outbreaks."
+      }
+    ]
+  },
+  {
+    "id": "filter_cleaning",
+    "tag": "Pool Cleaners",
+    "title": "Pool Filter Cleaning and Replacement",
+    "subtitle": "A clean filter is the heart of a healthy pool — professional cleaning extends filter life and improves water quality.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your pool stays cloudy no matter how much chlorine you add. The filter isn't filtering.",
+    "problemBody": "A dirty or damaged filter can't remove particles, no matter how perfectly balanced your chemistry is. Most SA pool owners don't clean their filter elements often enough, and many don't know what kind of filter they have. Regular professional cleaning and periodic replacement restores flow and keeps the water sparkling.",
+    "bouulSolution": [
+      "We connect you with pool technicians who service all filter types — sand, cartridge, and diatomaceous earth (DE).",
+      "Escrow holds payment until filter pressure and flow rate are restored to specification.",
+      "Zola AI helps you identify your filter type and sends reminders for cleaning and element replacement."
+    ],
+    "partsNeeded": [
+      "Filter cleaner (degreasing solution for cartridge filters)",
+      "Filter sand (silica sand grade 16/30 for sand filters) or cartridge replacement elements",
+      "DE powder for diatomaceous earth filters",
+      "O-rings, gaskets, and lubricant (silicone-based) for reassembly"
+    ],
+    "guidePricing": "R350 - R1,200 (cleaning service), R800 - R3,500 (media or element replacement)",
+    "timeline": "Duration: 1 - 3 Hours",
+    "aiPromptExample": "My sand filter pressure gauge reads 250 kPa when the pump is running. Normal is 100-150. Backwashing helps for about 1 day then it climbs again. The sand has never been changed in 7 years. Pool in Pretoria, 60,000 litre.",
+    "aiDiagnosisOutput": "Sand filter assessment: pressure 250 kPa = 60-70% over clean pressure = severely clogged. Sand in a 600mm filter should last 5-7 years — at 7 years it's due for replacement. Sand degrades over time (sharp edges round off), reducing filtration efficiency. The backwash-only-for-a-day symptom confirms the media is exhausted. Recommend: replace sand with grade 16/30 silica filter sand (approx 100-150kg for a standard 600mm filter). Budget for sand replacement R1,200-R2,000. Also inspect laterals (the plastic fingers at the bottom of the tank) — they crack with age and let sand into the pool. A pressure gauge replacement (R150-R250) is good practice during sand change. Escrow milestone: filter disassembled, laterals inspected, sand replaced, system test run (pressure back to 100-150 kPa).",
+    "escrowGuarantee": "Your payment is held until the filter is serviced and the pressure gauge shows normal operating range after a 30-minute test run.",
+    "pirbStandard": "Pool filter systems in SA should comply with SANS 1519 for swimming pool circulation systems. Replacement sand must be SA Bureau of Standards compliant silica sand, not builder's sand (which contains silt and fines that clog the system).",
+    "articleSections": [
+      {
+        "heading": "Sand Filter Media — Not All Sand Is Equal",
+        "body": "Pool filter sand is specifically graded silica sand (size 16/30 mesh), not the sand from your garden. Builder's sand contains fine silt that passes through and appears as cloudy water. Proper filter sand costs R250-R400 per 25kg bag and lasts 5-7 years. Using the wrong sand means replacing it again in 6 months."
+      },
+      {
+        "heading": "Cartridge Filter Cleaning Frequency",
+        "body": "Cartridge filters should be hosed off every 2-4 weeks and deep-cleaned with a degreasing solution every 3-6 months. Most pool services include the rinse in their weekly visit. If your filter pressure rises by more than 50% of clean pressure, the cartridge needs cleaning immediately."
+      },
+      {
+        "heading": "When to Replace vs Clean",
+        "body": "Sand: replace every 5-7 years. Cartridge elements: replace every 1-2 years (or when cleaning no longer brings pressure down). DE grids: replace every 3-5 years. Trying to extend media life beyond these limits just means higher pump electricity bills and worse water quality."
+      },
+      {
+        "heading": "The Backwash Mistake Most Owners Make",
+        "body": "Backwashing a sand filter for longer than 2-3 minutes wastes water — most of the dirt comes out in the first 30 seconds of backwash. Recommended procedure: backwash for 60-90 seconds or until sight glass runs clear, then rinse for 15-20 seconds, then return to filter. Backwashing too frequently (more than weekly) also indicates media needs replacement."
+      }
+    ]
+  },
+  {
+    "id": "pool_pump_repair",
+    "tag": "Pool Cleaners",
+    "title": "Pool Pump Repair and Replacement",
+    "subtitle": "A noisy, leaking, or non-starting pump needs professional diagnosis before it damages your filtration system.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your pump is making sounds like a dying lawnmower and the pool is starting to stagnate.",
+    "problemBody": "The pump is the engine of your pool system. When it runs rough, leaks, or won't prime, water stops circulating — chemicals stagnate, algae takes hold, and the filter can't work. Many pump problems can be repaired inexpensively, but ignoring them leads to motor burnout and a full replacement.",
+    "bouulSolution": [
+      "We connect you with IOPSA-certified pool pump technicians who diagnose and repair all major brands.",
+      "Escrow ensures you don't pay for a repair that doesn't fix the problem.",
+      "Zola AI helps diagnose pump symptoms (noise, leaks, or failure to prime) before you contact a technician."
+    ],
+    "partsNeeded": [
+      "Mechanical seal (replacement when pump leaks — most common repair)",
+      "Capacitor (start or run capacitor for motor not starting)",
+      "Motor bearings (when pump is noisy)",
+      "O-ring kit for pump lid, drain plugs, and pipe connections"
+    ],
+    "guidePricing": "R1,200 - R5,500 (repair), R6,000 - R15,000 (new pump supply and installation)",
+    "timeline": "Duration: 1 - 3 Days (including diagnosis and parts sourcing)",
+    "aiPromptExample": "My pool pump in Durban is leaking water from underneath the motor housing. It's a Speck pump, about 4 years old. It starts and runs but the leak is getting worse — it's losing about 5cm of water from the pool every 24 hours.",
+    "aiDiagnosisOutput": "Pump diagnosis: leaking from underside of motor housing = failed mechanical seal. Speck pump, 4 years old, is in the typical seal-failure window (2-4 years in coastal areas — salt air accelerates seal wear). Water loss through the leak is secondary to pump cavitation risk — a leaking seal lets air in, which can cause the pump to lose prime and run dry, burning out the motor. Recommendation: replace mechanical seal immediately (R350-R700 part, R800-R1,200 labour). Coastal note: Durban's salt air also attacks the motor housing — check for corrosion of the fan cover and winding insulation. If motor is corroded internally, replacement pump is more cost-effective. Budget for repair: R1,500-R2,000. Budget for replacement (same or equivalent Speck pump): R8,000-R12,000 installed. Escrow: diagnose first, quote approved before work begins.",
+    "escrowGuarantee": "A diagnostic visit is covered by escrow — you approve the repair quote before any parts are ordered. Payment for the repair only releases after the pump runs leak-free for 24 hours.",
+    "pirbStandard": "Pool pump installations in SA must comply with SANS 10142 (Wiring of Premises) and should be installed by a registered electrician with wireman's license. Pump repairs involving electrical disconnection must be done by an IOPSA-certified technician or licensed electrician.",
+    "articleSections": [
+      {
+        "heading": "Pump Doesn't Start — Capacitor vs Motor",
+        "body": "If the pump hums but doesn't spin, the start capacitor has failed. A R150-R250 capacitor swap fixes it. If there's no sound at all (no hum), check the breaker and pump timer first — the motor could be burned out, but 80% of 'dead pump' calls are electrical supply issues, not motor failure."
+      },
+      {
+        "heading": "The Mechanical Seal — Most Common Leak",
+        "body": "The mechanical seal is a ceramic and carbon ring that seals the rotating shaft where it exits the motor. It wears down over 2-5 years. A leaking seal looks like water dripping from under the motor. The repair is straightforward for a trained technician (30-60 minutes), but it involves disassembling the pump and motor. Never run a pump with a leaking seal — the water eventually reaches the motor windings and it's a total loss."
+      },
+      {
+        "heading": "Variable Speed Pumps in SA",
+        "body": "Variable speed pumps (VSPs) are becoming standard in SA pool installations because they use 50-70% less electricity than single-speed pumps. The higher upfront cost (R10k-R15k vs R6k-R8k single speed) pays back in 18-24 months through lower Eskom bills. In metros with load shedding, a VSP with a wide voltage tolerance range is a smart investment."
+      },
+      {
+        "heading": "Sizing Your Pump Correctly",
+        "body": "A pump that's too big creates excessive pressure, wastes electricity, and can damage the filter. A pump that's too small can't turn over your pool's volume in 8 hours. The general rule: pump flow rate in litres per hour should equal your pool volume in litres divided by 6 (for an 8-hour turnover). A 60,000-litre pool needs a 10,000 LPH pump."
+      }
+    ]
+  },
+  {
+    "id": "leak_detection",
+    "tag": "Pool Cleaners",
+    "title": "Pool Leak Detection and Repair",
+    "subtitle": "Losing water faster than evaporation accounts for? Professional leak detection finds the hidden crack.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You're topping up the pool every week and you can't find where the water is going.",
+    "problemBody": "Normal evaporation in SA summer is about 5-10mm per day. If you're losing more than that — especially in winter when evaporation drops to 3-5mm — you have a leak. Hidden leaks in concrete shells, pipework, or fittings waste water and can undermine your pool structure over time.",
+    "bouulSolution": [
+      "We connect you with pool leak detection specialists who use dye testing, pressure testing, and electronic listening equipment.",
+      "Escrow protects your payment — diagnose first, quote the repair, then release on completion.",
+      "Zola AI helps you perform a basic bucket test to confirm a leak before calling in a professional."
+    ],
+    "partsNeeded": [
+      "Dye test kit (food colouring or specialised pool dye for crack identification)",
+      "Pressure test gauge and adaptors for pipework testing",
+      "Hydraulic cement or epoxy resin for crack repair (concrete pools)",
+      "Patch kit for fibre-glass pool shell or vinyl liner repair"
+    ],
+    "guidePricing": "R1,200 - R3,500 (detection only), R2,500 - R8,000 (detection and repair combined)",
+    "timeline": "Duration: 1 - 2 Days (detection and repair)",
+    "aiPromptExample": "My pool in Johannesburg is losing about 2cm of water per day in winter. I've checked for obvious cracks. No trees nearby. The pump runs for 6 hours a day. The water stops losing when the pump is off.",
+    "aiDiagnosisOutput": "Leak indicators: water loss 20mm/day in winter (normal evaporation is 2-4mm/day). Loss stops when pump is off — THIS IS CRITICAL. It means the leak is in the return-side plumbing (pressurised pipe) — water pushes out when the pump runs but doesn't suck in when it's off. Possible locations: return line fitting at the wall, chlorinator connection, or a cracked pipe underground between pump and pool. Recommendation: (1) bucket test to confirm, (2) pressure test return-side plumbing, (3) if pipe fails, locate with electronic listening device. Budget R1,800-R3,000 for detection. If repair involves excavating a pipe, add R2,000-R4,000 for concrete cutting and patch. Escrow workflow: pay detection fee only; approve repair quote separately.",
+    "escrowGuarantee": "The detection visit is covered by escrow — you receive a written diagnosis and quote before any repair work begins. Repair payment releases only after the leak is confirmed sealed.",
+    "pirbStandard": "Leak detection in SA is not a regulated trade but reputable technicians use calibrated pressure testing equipment traceable to SA standards and carry professional indemnity insurance. Pool repair work must comply with SANS 10089 (Swimming Pool Construction and Repair).",
+    "articleSections": [
+      {
+        "heading": "The Bucket Test — DIY Confirmation",
+        "body": "Before calling a leak specialist, do the bucket test. Fill a bucket with pool water and place it on the second step of the pool. Mark the water level inside the bucket and the pool water level on the outside of the bucket. Run the pump on normal cycle for 24 hours. If the pool level dropped more than the bucket level, you have a leak (bucket measures only evaporation). This simple test saves paying for a service call on a non-leak."
+      },
+      {
+        "heading": "Structure vs Plumbing Leaks",
+        "body": "A structural leak (through the pool shell or lining) loses water at a constant rate regardless of pump operation. A plumbing leak only loses water when the pump runs. This single distinction tells you 80% of what you need to know. Plumbing leaks are usually cheaper to fix than finding a hairline crack in the shell."
+      },
+      {
+        "heading": "The Dye Test Method",
+        "body": "For suspected structural cracks, the technician does a dye test. The pump is turned off and water stops moving, then concentrated pool dye is squirted near the suspected crack. If the dye is drawn into the crack, it's leaking. This is the most reliable way to identify exactly where the shell is failing."
+      },
+      {
+        "heading": "Trees and Structural Leaks",
+        "body": "Tree roots (especially plane trees, weeping willows, and gum trees) can grow through hairline cracks in concrete pools, opening them into significant leaks. If you have large trees within 5m of your pool, root intrusion should be high on the suspect list. Removal involves cutting roots and sealing the crack — but the tree may need to go if roots are extensive."
+      }
+    ]
+  },
+  {
+    "id": "acid_wash",
+    "tag": "Pool Cleaners",
+    "title": "Pool Acid Wash",
+    "subtitle": "Strip away years of stains, scale, and algae staining with a professional acid wash restoration.",
+    "image": "/scenes/pool_cleaners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your pool plaster is stained, rough, and covered in calcium deposits. It looks like an abandoned quarry.",
+    "problemBody": "Over years, pool plaster accumulates mineral stains (brown iron and copper deposits), calcium scale (white crust), and embedded algae staining that won't brush off. An acid wash strips the top 0.5-1mm of plaster, revealing clean fresh surface underneath. It's the most dramatic transformation a tired pool can have — short of replastering.",
+    "bouulSolution": [
+      "We connect you with pool renovation specialists who perform acid washes safely and neutralise waste water.",
+      "Escrow holds your payment until the pool is filled, balanced, and sparkling.",
+      "Zola AI helps you decide between an acid wash and full replaster based on your pool's age and condition."
+    ],
+    "partsNeeded": [
+      "Muriatic acid (hydrochloric acid, 28-32% pool grade)",
+      "Sodium bicarbonate (baking soda) for neutralisation",
+      "Acid-resistant sprayer, stiff brush, and personal protective equipment (PPE)",
+      "Test kit for pH after refill and soda ash to rebalance"
+    ],
+    "guidePricing": "R3,500 - R8,000 (standard residential pool)",
+    "timeline": "Duration: 2 - 4 Days (wash, neutralise, refill, rebalance)",
+    "aiPromptExample": "My concrete pool in Pietermaritzburg has dark brown stains on the floor and walls that won't brush off. The plaster is 12 years old. There are white calcium deposits at the waterline. I want to know if I should acid wash or replaster.",
+    "aiDiagnosisOutput": "Pool surface assessment: 12-year-old plaster with brown staining (likely iron or copper from unadjusted well water or older copper algaecides) and calcium scale at waterline. Acid wash recommendation: YES — acid wash will remove both staining and scale effectively if the plaster base is sound. NOT suitable if: plaster is delaminating (hollow sound when tapped), has visible cracks wider than 2mm, or has rough exposed aggregate. Check for delamination by tapping a coin on the floor — a hollow ring means the plaster has separated from the shell. If plaster is sound, acid wash is R3,500-R7,000 vs replaster R25,000-R50,000. Timeline: drain 1 day, wash and neutralise 1 day, refill and rebalance 1-2 days. Important: you cannot swim for 7 days after an acid wash (pH needs to settle and plaster must re-cure). Escrow milestones: drain completed → wash and neutralisation inspected → refill and water balanced → final clearance.",
+    "escrowGuarantee": "Payment releases in stages: draining and preparation, acid wash and neutralisation, refill and chemical balancing. Full release only after the water passes a chemical test.",
+    "pirbStandard": "Acid washing of swimming pools in SA must be done in compliance with municipal effluent disposal regulations. The acid-contaminated water must be neutralised to pH 6-9 before being released into the stormwater or sewer system. Dumping untreated acid water is illegal and subject to fines under the National Water Act (Act 36 of 1998).",
+    "articleSections": [
+      {
+        "heading": "Acid Wash vs Replaster — How to Decide",
+        "body": "Acid wash removes 0.5-1mm of plaster. If your plaster is sound but stained, an acid wash is the economical fix (R3k-R8k). If the plaster is pitted, cracked, delaminating, or beyond 15 years old, an acid wash will expose the problem without fixing it — you need replastering (R25k-R55k). The coin-tap test (listening for hollow sounds) is a reliable DIY indicator."
+      },
+      {
+        "heading": "The Neutralisation Step (Non-Negotiable)",
+        "body": "The acid wash creates highly acidic water (pH 1-2) that is loaded with dissolved minerals. This water must be neutralised to pH 6-9 before draining. Dumping acidic water into a municipal stormwater system is illegal and damages concrete infrastructure. A professional contractor will add sodium bicarbonate or soda ash to the drained water, test pH, and only release it once compliant."
+      },
+      {
+        "heading": "What Happens If You Skip the Acid Wash and Go Straight to Replaster",
+        "body": "Some contractors push for replastering because it's a bigger job. But if the existing plaster is sound, you're spending R30k+ unnecessarily. Always get a second opinion before committing to replaster. An acid wash extends plaster life by 3-5 years at a fraction of the cost."
+      },
+      {
+        "heading": "Post-Acid Wash Care",
+        "body": "For 7 days after an acid wash: do not swim, do not add salt to a salt chlorinator, maintain pH at 7.2-7.4, and brush the walls and floor daily with a nylon brush. The fresh plaster surface is porous and needs time to cure. Swimming too early stains the surface with body oils and sunscreen."
+      }
+    ]
+  }
+]

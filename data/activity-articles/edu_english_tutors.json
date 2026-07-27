@@ -1,0 +1,278 @@
+[
+  {
+    "id": "eng-grammar-mastery",
+    "tag": "Grammar",
+    "title": "Grammar Foundations for Academic and Professional Writing",
+    "subtitle": "Parts of speech, sentence structure, tenses, and punctuation in the South African English curriculum",
+    "image": "/scenes/edu_grammar_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Weak grammar is the hidden barrier to academic success across all subjects",
+    "problemBody": "South African learners who struggle with English grammar do not only underperform in English class — they lose marks in every written subject. History essays, biology explanations, and even mathematics problem statements require grammatical competence. The CAPS English curriculum introduces grammar systematically in the intermediate phase, but classroom time constraints often mean that parts of speech, sentence types, and punctuation are covered superficially. By high school, learners with grammatical gaps find themselves unable to construct complex sentences, leading to simplified writing that examiners penalise for lack of sophistication.",
+    "bouulSolution": [
+      "A diagnostic grammar assessment mapping the learner's competence across 15 grammatical categories, from basic parts of speech to complex subordinate clauses",
+      "Weekly one-on-one sessions using a structured grammar programme that progresses from sentence-level to paragraph-level and then to full composition",
+      "Integrated proofreading exercises where the learner edits real writing samples, building the habit of self-correction"
+    ],
+    "partsNeeded": [
+      "Device with word processing software (Google Docs or Microsoft Word) for writing and editing exercises",
+      "A grammar reference workbook provided by the tutor",
+      "A collection of the learner's recent school essays and assignments for diagnostic analysis",
+      "Access to an English dictionary (Oxford South African School Dictionary recommended)"
+    ],
+    "guidePricing": 170,
+    "timeline": "8 to 12 weeks for foundational grammar mastery",
+    "aiPromptExample": "Create a grammar diagnostic exercise for a Grade 9 English Home Language learner. Include 15 questions covering subject-verb agreement, tense consistency, pronoun-antecedent agreement, and punctuation of direct speech. Each question should be a sentence with one error for the learner to identify and correct. Provide an answer key with explanations referencing CAPS grammar standards.",
+    "aiDiagnosisOutput": "Grammar diagnostic results. Score: 55%. Strengths: basic parts of speech identified correctly, simple present and past tense accurate. Gaps: subject-verb agreement with compound subjects (score 2/10), consistent tense across complex sentences (score 3/10), colon and semicolon usage (score 1/10). Writing sample analysis shows short, simple sentence patterns. Recommended: Lessons 4 through 9 of the grammar pathway, with emphasis on compound and complex sentence construction.",
+    "escrowGuarantee": "Lesson-by-lesson escrow release. If the learner's grammar score does not improve by 25 percentage points after 8 sessions, sessions 9 through 12 are provided at no cost.",
+    "pirbStandard": "All tutors are SACE-registered English language specialists who teach according to CAPS Home Language and First Additional Language standards as prescribed by the DBE.",
+    "articleSections": [
+      {
+        "heading": "The Grammar Gap in South African Schools",
+        "body": "International assessments such as PIRLS reveal that South African learners have among the lowest reading comprehension and language proficiency rates in the world. While many factors contribute to this outcome, grammatical weakness is a consistent factor. Learners who cannot reliably identify verbs, subjects, and objects cannot parse complex examination instructions, write persuasively, or edit their own work. The problem compounds each year: Grammar 8 instruction assumes mastery of Grammar 7, and learners who fall behind in the intermediate phase rarely catch up through classroom instruction alone."
+      },
+      {
+        "heading": "From Parts of Speech to Complex Sentences",
+        "body": "Our grammar programme is structured as a staircase with 15 steps. Each step includes a diagnostic check to confirm the learner is ready to advance. The first five sessions cover the core parts of speech (nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions, interjections) with a focus on how each functions in a sentence. Sessions 6 through 9 tackle sentence types (simple, compound, complex, compound-complex) and common errors in construction. Sessions 10 through 12 focus on punctuation, tense consistency, and active versus passive voice in academic writing."
+      },
+      {
+        "heading": "Real Writing, Real Editing",
+        "body": "Grammar rules are best learned in context. Each session includes a 15-minute editing exercise where the learner corrects a passage containing deliberate errors. The passages are drawn from a bank of writing samples matched to the learner's grade level. As the learner advances, the passages become more sophisticated — from short paragraphs in Grade 8 to full editorial pieces in Grade 12. This practice builds the proofreading habit that examiners reward in the editing section of Paper 1 and the essay section of Paper 2."
+      },
+      {
+        "heading": "Connecting Grammar to Examination Performance",
+        "body": "The CAPS English Paper 1 includes a dedicated editing and language structures section worth approximately 15 to 20 marks. Additionally, markers of essay and transactional writing papers explicitly assess grammatical accuracy through their rubric, with penalties for persistent error. Our programme tracks not only grammar exercise scores but also the learner's performance on school English assessments, demonstrating the direct correlation between grammatical improvement and overall English marks. Parents receive a monthly grammar progress report showing error-rate reduction over time."
+      }
+    ]
+  },
+  {
+    "id": "eng-essay-writing",
+    "tag": "Essay Writing",
+    "title": "Academic Essay Writing for Senior Phase and FET English",
+    "subtitle": "Argument structure, thesis development, evidence integration, and stylistic fluency for South African English learners",
+    "image": "/scenes/edu_essay_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Essay writing is the highest-weighted single skill in the matric English examinations",
+    "problemBody": "The matric English Paper 3 allocates 80 to 100 marks to essay and transactional writing — the largest mark allocation of any single paper across all subjects. Yet marking reports consistently show that learners lose marks not because they lack ideas, but because they cannot structure an argument, develop a thesis, or integrate textual evidence effectively. The typical matric essay submission shows weak introductions, underdeveloped body paragraphs, and conclusions that merely repeat the introduction. Without targeted intervention, this pattern persists throughout the learner's academic career.",
+    "bouulSolution": [
+      "A 10-session essay writing intensive that covers the five-paragraph structure, thesis formulation, topic sentences, evidence integration, and conclusion techniques",
+      "Live essay drafting during sessions with real-time feedback from the tutor on structure, coherence, and language use",
+      "A personalised essay bank containing 25+ model essays written at the learner's grade level, annotated to show structural choices and vocabulary use"
+    ],
+    "partsNeeded": [
+      "A word processor (Google Docs recommended for collaborative editing)",
+      "The school's prescribed literature texts for textual essay practice",
+      "A folder of the learner's past essays for diagnostic analysis",
+      "A notebook for maintaining a personal vocabulary journal and essay structure templates"
+    ],
+    "guidePricing": 190,
+    "timeline": "8 to 10 weeks to produce well-structured, exam-ready essays consistently",
+    "aiPromptExample": "Generate a Grade 11 English Home Language essay prompt on the theme of justice in any prescribed South African novel. Provide a sample five-paragraph essay outline with thesis statement, three topic sentences, and suggested textual evidence for each paragraph. Include a marking rubric aligned to the CAPS Paper 3 assessment criteria.",
+    "aiDiagnosisOutput": "Essay diagnostic complete. Learner's most recent essay scored 52%. Strengths: good vocabulary range, engaging opening hook. Weaknesses: no clear thesis statement, body paragraphs lack topic sentences, conclusion introduces new ideas. Evidence cited but not analysed (quoting without commentary). Score breakdown: Content 14/30, Structure 10/25, Language 18/25, Tone 10/20. Starting point: Session 1 thesis development, Session 2 paragraph structure. Target 70% within 10 sessions.",
+    "escrowGuarantee": "Per-session escrow release. If the learner does not improve their essay marks by at least two rubric levels within 8 sessions, the remaining 2 sessions are free.",
+    "pirbStandard": "SACE-registered English educators following the CAPS Home Language and First Additional Language assessment standards for essay writing, as published by the DBE.",
+    "articleSections": [
+      {
+        "heading": "The Anatomy of a High-Scoring Matric Essay",
+        "body": "DBE marking memoranda for Paper 3 essays reveal a consistent pattern: high-scoring essays have a clear thesis in the introduction, body paragraphs that each make one point supported by evidence, and a conclusion that synthesises rather than summarises. The rubric allocates marks across content (30%), structure (25%), language (25%), and tone (20%). Our programme breaks each of these categories into teachable sub-skills. Learners receive the exact rubric their examiners will use, demystifying what markers are looking for."
+      },
+      {
+        "heading": "Thesis Development — The Most Overlooked Skill",
+        "body": "A strong thesis statement is the single highest-leverage element of any essay, yet many learners do not know what one is. Our tutors teach a three-part thesis formula: the topic, the claim, and the roadmap. For example: 'William Kentridge's use of charcoal animation in his apartheid-era works (topic) reveals the provisional and fragile nature of historical memory (claim), as demonstrated through his layering techniques, his erasure-and-redraw process, and his choice of subject matter (roadmap).' Once a learner can produce a three-part thesis consistently, the rest of the essay writes itself."
+      },
+      {
+        "heading": "Evidence Integration — Beyond Quotation",
+        "body": "One of the most persistent weaknesses in learner essays is the 'quote-dump' — a quotation inserted without introduction or analysis. Our programme teaches the PEEL method: Point (state the argument), Evidence (provide a quotation or example), Explanation (analyse how the evidence supports the point), Link (connect to the next paragraph or the thesis). Learners practise this formula in every session until it becomes second nature. By the end of the programme, typical learners improve their evidence-integration rubric scores from Level 2 to Level 5 or higher."
+      },
+      {
+        "heading": "Transactional Writing — The Companion Skill",
+        "body": "While essays are the focus, our programme also covers transactional writing formats required in the CAPS Paper 3: letters, speeches, dialogues, newspaper articles, and minutes. These shorter forms demand concise, format-aware writing with appropriate register. Our tutors provide templates for each format, but more importantly, teach learners how to adapt their writing voice from formal (essay) to semi-formal (letter) to conversational (dialogue). This versatility signals to the examiner that the learner is in full control of their writing."
+      }
+    ]
+  },
+  {
+    "id": "eng-literature-study",
+    "tag": "Literature",
+    "title": "Analysing Prescribed Literature for CAPS English",
+    "subtitle": "Critical reading, character analysis, thematic exploration, and exam-ready literary essays for matric candidates",
+    "image": "/scenes/edu_literature_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "The literature section of the English examination is where the distinction is won or lost",
+    "problemBody": "Paper 2 of the matric English exam is devoted entirely to literature and is worth 80 marks for Home Language and 70 marks for First Additional Language. It covers poetry, novels, drama, and short stories. Many learners underestimate the depth of analysis required. They read the texts but cannot produce the sustained critical analysis that the marking rubric demands. Common pitfalls include plot summary disguised as analysis, generic character descriptions that could apply to any novel, and a failure to engage with the contextual factors — historical, social, political — that shape literary texts.",
+    "bouulSolution": [
+      "A close-reading programme for each prescribed text, broken into manageable sections with discussion questions, character maps, and thematic trackers",
+      "Model literature essay paragraphs demonstrating analysis at Level 6 and Level 7 (80-100%) for every prescribed text on the current DBE literature list",
+      "Audio study guides for each text — 15-minute chapter summaries and analyses that learners can listen to during commutes or breaks"
+    ],
+    "partsNeeded": [
+      "Copies of all prescribed texts for the learner's grade and language level (Home Language or First Additional Language)",
+      "A literature notebook for character tables, theme charts, and quotation banks",
+      "Access to the DBE's past Paper 2 examination papers and marking memoranda",
+      "Highlighters and sticky notes for active reading of physical texts"
+    ],
+    "guidePricing": 200,
+    "timeline": "12 to 16 weeks to cover all prescribed texts in examination depth",
+    "aiPromptExample": "Generate a literature essay question on the theme of identity in a prescribed South African novel. Provide a full model answer at a Level 6 (80%) standard, including an introduction with thesis, three body paragraphs with textual evidence and analysis, and a synthesising conclusion. Annotate the model answer to show where each assessment criterion is satisfied.",
+    "aiDiagnosisOutput": "Literature assessment complete. Learner familiar with the plot of all prescribed texts but has not engaged with critical analysis. Practice essay scored: Content 12/30, Structure 8/20, Language 10/15, Critical Analysis 8/25 — total 38/90 (42%). Strengths: accurate plot recall, good vocabulary. Gaps: no engagement with social and historical context, character analysis stays at surface level, quotations not integrated. Recommended: contextual study of apartheid and post-apartheid literature starting session 1.",
+    "escrowGuarantee": "Lesson-by-lesson release. Guarantee: if the learner's Paper 2 mark does not improve by 15 percentage points from baseline after 12 sessions, the remaining 4 sessions are fully refunded.",
+    "pirbStandard": "All literature tutors hold SACE registration with subject specialisation in English literature and demonstrated knowledge of the current DBE prescribed works list.",
+    "articleSections": [
+      {
+        "heading": "The CAPS Literature Landscape — What Learners Must Cover",
+        "body": "The DBE prescribes a specific set of literary works for each grade and language level, rotating selections every three to five years. The current Home Language list includes a novel, a drama, a poetry anthology, and a short story collection. First Additional Language learners study a novel and a drama, plus poetry. The Paper 2 examination tests each genre separately, and learners must answer at least one essay question and one contextual question per genre. Our programme ensures complete coverage of every text on the learner's specific list."
+      },
+      {
+        "heading": "Beyond Plot Summary — Teaching Critical Analysis",
+        "body": "The single most important shift a literature learner must make is moving from recounting what happened to analysing why it matters. Our tutors use a structured questioning framework: What does this character's action reveal about the theme? How does the author's choice of language affect the reader's response? What historical or social conditions are being critiqued? These questions are practised in every session until they become automatic. Learners compile a quotation bank for each text, organised by theme and character, which becomes their primary revision resource."
+      },
+      {
+        "heading": "Character Analysis That Impresses Examiners",
+        "body": "Examiners report that the most common weakness in character analysis essays is the 'shopping list' approach — describing what a character does in each chapter without any analytical thread. Our programme teaches learners to identify a character's function in the text: do they represent a particular worldview, serve as a foil to the protagonist, or embody the novel's central conflict? This functional analysis transforms character essays from descriptive accounts into critical arguments that attract high marks."
+      },
+      {
+        "heading": "Poetry Analysis — The Section Most Learners Dread",
+        "body": "Poetry consistently produces the lowest scores on the Paper 2 literature exam because it demands precise engagement with language, structure, and sound devices. Our poetry sessions are structured around the FIGURE method: Form (stanza structure, rhyme scheme), Imagery (metaphor, simile, personification), Grammar (sentence length, punctuation choices), Unusual Language (diction, word choice), Rhythm (metre, stress patterns), and Effect (how all of these create meaning). Learners who master this framework approach poetry with confidence rather than anxiety."
+      }
+    ]
+  },
+  {
+    "id": "eng-comprehension-skills",
+    "tag": "Comprehension",
+    "title": "Reading Comprehension for CAPS English Success",
+    "subtitle": "Literal, inferential, and evaluative comprehension strategies for South African English learners from Grade 4 to matric",
+    "image": "/scenes/edu_comprehension_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "South Africa's reading crisis directly limits every learner's academic ceiling",
+    "problemBody": "The 2021 PIRLS study found that 81% of South African Grade 4 learners cannot read for meaning in any language — the worst performance of any participating country. This crisis does not end in primary school. High school learners routinely struggle with the comprehension sections of their English examinations, not because they cannot read the words, but because they cannot extract implicit meaning, identify the author's purpose, or evaluate the effectiveness of an argument. CAPS Paper 1 allocates 30 marks to comprehension, and poor performance here drags down overall English marks across all grades.",
+    "bouulSolution": [
+      "A structured comprehension programme with 40 graded reading passages drawn from South African news, literature, and academic sources",
+      "Systematic teaching of the three levels of comprehension: literal (what the text says), inferential (what the text implies), and evaluative (what the reader thinks about the text)",
+      "Weekly timed comprehension exercises under examination conditions, with detailed feedback on question technique and answer phrasing"
+    ],
+    "partsNeeded": [
+      "A dedicated reading practice notebook",
+      "Printed or digital reading passages provided by the tutor (weekly)",
+      "A timer or stopwatch for timed practice sessions",
+      "Access to a good dictionary and thesaurus"
+    ],
+    "guidePricing": 165,
+    "timeline": "6 to 10 weeks for measurable improvement across all three comprehension levels",
+    "aiPromptExample": "Create a Grade 10 English Home Language comprehension passage of approximately 400 words on a topic relevant to South African learners (such as water conservation or young democracy). Write 10 questions covering literal, inferential, and evaluative levels. Provide a memorandum with model answers that demonstrate the level of detail expected in the CAPS examination.",
+    "aiDiagnosisOutput": "Comprehension diagnostic results. Passage level matched to Grade 9 Home Language. Score: 58%. Literal questions: 8/10 correct. Inferential questions: 3/10 correct. Evaluative questions: 1/10 correct. Learner can locate explicit information but cannot read between the lines or form and support an opinion. Answer quality: short, incomplete sentences. Recommended: 4 sessions on inferential reading strategies, 3 sessions on evaluative response construction, 2 sessions on answer phrasing. Target 75% within 9 sessions.",
+    "escrowGuarantee": "Per-session escrow release. If the learner's comprehension section score does not improve by 20 percentage points after 10 sessions, the remaining sessions in the programme are free.",
+    "pirbStandard": "SACE-registered English educators using CAPS-aligned assessment criteria for reading and viewing across the intermediate, senior, and FET phases.",
+    "articleSections": [
+      {
+        "heading": "The Three Levels of Comprehension — What Examiners Test",
+        "body": "The CAPS examination systematically tests three levels of comprehension. Literal questions ask learners to locate and retrieve information explicitly stated in the text — they test the ability to read carefully and accurately. Inferential questions require learners to read between the lines, drawing conclusions from evidence that is implied but not stated. Evaluative questions ask learners to engage critically with the text: Do they agree with the author? Is the argument persuasive? What alternative perspective is missing? Each level requires a different reading strategy, and our programme teaches all three explicitly."
+      },
+      {
+        "heading": "Reading Faster Without Losing Understanding",
+        "body": "Time pressure is a significant factor in comprehension performance. Many learners read the passage several times because they lack confidence, leaving insufficient time for the written answers. Our programme includes speed-reading drills that train learners to extract key information on a first pass: highlighting the thesis statement, topic sentences, and key transitions. With practice, learners reduce their first-reading time by 30-40%, freeing time for answer construction."
+      },
+      {
+        "heading": "The Language of Examination Questions",
+        "body": "Learners often lose marks because they do not understand what the question is asking. Words like 'discuss', 'compare', 'contrast', 'analyse', 'evaluate', and 'justify' appear routinely in comprehension questions, but few learners can distinguish between them. Our tutors spend a full session on question vocabulary, ensuring learners can identify what type of answer each verb requires. A simple heuristic — 'Discuss means two or more paragraphs with evidence, Compare means similarities and differences, Evaluate means give your opinion with reasons' — dramatically improves answer relevance."
+      },
+      {
+        "heading": "Building a Personal Reading Habit",
+        "body": "Comprehension improves most when learners read widely outside of examination practice. Our programme encourages learners to read at least one South African news article per day, one opinion piece per week, and one short story per month. We provide a curated reading list with articles matched to the learner's interests — sports, music, technology, or current affairs. The reading habit is tracked through a simple online log, and the tutor references the learner's chosen articles in sessions to demonstrate that comprehension skills transfer to any text."
+      }
+    ]
+  },
+  {
+    "id": "eng-oral-communication",
+    "tag": "Oral",
+    "title": "Oral Communication and Prepared Speaking for the CAPS Curriculum",
+    "subtitle": "Speech writing, presentation skills, debate structure, and confidence-building for South African English learners",
+    "image": "/scenes/edu_oral_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Oral assessments carry significant marks in the CAPS continuous assessment model, yet receive the least classroom preparation",
+    "problemBody": "The CAPS SBA (School-Based Assessment) framework allocates marks for oral communication across multiple terms: prepared speeches, unprepared speeches, conversations, and debates. Combined, oral assessments contribute substantially to the learner's final mark. However, classroom time for oral preparation is minimal. Learners are given a speech topic and left to prepare independently, often without instruction on speech structure, vocal technique, body language, or audience engagement. The result is anxiety-ridden presentations that do not reflect the learner's actual ability.",
+    "bouulSolution": [
+      "A step-by-step speech-building framework: topic selection, thesis formulation, three-point structure, memorable introduction and conclusion, and cue-card preparation",
+      "Live practice sessions via video call where the tutor provides real-time feedback on eye contact, pacing, volume, gestures, and vocal variety",
+      "Recorded practice presentations with annotated feedback — learners watch their own recording alongside the tutor's commentary"
+    ],
+    "partsNeeded": [
+      "Device with a camera and microphone for video practice sessions",
+      "A small notebook or cue cards for speech notes",
+      "A timer for practising within time limits",
+      "Recording software (smartphone camera is sufficient) for self-review"
+    ],
+    "guidePricing": 175,
+    "timeline": "4 to 8 sessions to prepare a specific oral assessment or build general presentation confidence",
+    "aiPromptExample": "Generate a prepared speech of 3 minutes on the topic 'Social media: a tool for connection or isolation?' suitable for a Grade 11 English Home Language SBA assessment. Include a structure breakdown (introduction, three body points, conclusion), suggested rhetorical devices, and word count guidance. Provide a peer-assessment rubric aligned to CAPS SBA oral criteria.",
+    "aiDiagnosisOutput": "Oral assessment complete. The learner presented a 2-minute prepared speech on climate change. Score based on CAPS SBA rubric: Content 12/20, Structure 6/15, Delivery 8/20, Language 10/15. Total 36/70 (51%). Strengths: good topic knowledge, appropriate vocabulary. Gaps: speech was read from full script (no eye contact), pacing too fast, no gestures, weak conclusion. Recommended: 2 sessions on cue-card technique, 2 sessions on vocal delivery, 2 sessions on non-verbal communication.",
+    "escrowGuarantee": "Lesson-by-lesson escrow release. If the learner does not improve their SBA oral mark by at least two rubric levels after 6 sessions, the programme cost is refunded in full.",
+    "pirbStandard": "All tutors are SACE-registered with training in oral communication pedagogy aligned to the CAPS English curriculum for Home Language and First Additional Language.",
+    "articleSections": [
+      {
+        "heading": "The Weight of Oral Assessments in the CAPS System",
+        "body": "Oral communication is formally assessed in every term of the Senior Phase and FET phase. The SBA portfolio for English includes at least one prepared speech, one unprepared speech or conversation, and one group discussion or debate per year. These assessments contribute between 15 and 25% of the annual SBA mark, which in turn counts 25% toward the final matric mark. For learners aiming for university entry, every percentage point matters, and a strong oral mark can compensate for weaker performance in written examinations."
+      },
+      {
+        "heading": "Speech Structure — The Template That Never Fails",
+        "body": "Every successful speech follows a proven structure: hook the audience in the first 15 seconds, state your thesis, make three main points with supporting evidence, address a counterargument, and conclude with a memorable call to action or reflection. Our programme provides learners with a speech template that works for any topic. Once the template is internalised, the learner no longer experiences the 'blank page' problem when starting a speech. The template also serves as the basis for cue cards — a single card per point, with keywords only."
+      },
+      {
+        "heading": "Delivery Techniques That Command Attention",
+        "body": "Content matters, but delivery determines how content is received. Our tutors coach learners on the four dimensions of vocal delivery: volume (project without shouting), pace (slow down for emphasis, speed up for energy), pitch (avoid monotone by varying intonation), and pausing (silence before a key point signals importance). Non-verbal communication receives equal attention: stance, gesture, eye contact, and facial expression. The combined effect of strong content and confident delivery transforms a presentation from average to outstanding."
+      },
+      {
+        "heading": "Debate and Group Discussion Skills",
+        "body": "Beyond prepared speeches, the CAPS curriculum includes unprepared speaking, debates, and group discussions. These assessments test the learner's ability to think on their feet and engage with others' ideas. Our programme covers the structure of formal debating (proposition versus opposition, rebuttal format, Points of Information), as well as less formal discussion skills (active listening, turn-taking, building on others' contributions, disagreeing respectfully). These skills not only improve oral marks but also prepare learners for university tutorials and professional environments."
+      }
+    ]
+  },
+  {
+    "id": "eng-business-english",
+    "tag": "Business English",
+    "title": "Business English for Professional Communication",
+    "subtitle": "Formal correspondence, report writing, meeting skills, and professional vocabulary for South African learners and young professionals",
+    "image": "/scenes/edu_business_english_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "The gap between classroom English and professional workplace English is wider than most learners realise",
+    "problemBody": "While CAPS English prepares learners for academic writing, many matriculants enter the workplace or tertiary education unable to write a professional email, prepare a business report, or participate effectively in a meeting. The register, tone, vocabulary, and format of professional communication are rarely taught in schools. This gap disproportionately affects learners from under-resourced schools, where classroom English instruction may not include any business communication component. The result is that capable young South Africans underperform in interviews, internships, and entry-level positions due to communication style rather than ability.",
+    "bouulSolution": [
+      "A structured business English programme covering professional emails, formal letters, report writing, minutes of meetings, memos, and CVs",
+      "Mock workplace scenarios (handling a complaint, requesting information, presenting a proposal) practised in session with detailed feedback",
+      "A professional vocabulary builder — 200 business terms with usage examples drawn from South African corporate contexts"
+    ],
+    "partsNeeded": [
+      "A word processor (Google Docs recommended for collaborative editing)",
+      "An email account for practising professional email composition",
+      "A notebook for business vocabulary and template collection",
+      "Access to sample business documents (provided by the tutor)"
+    ],
+    "guidePricing": 195,
+    "timeline": "6 to 10 weeks to professional communication competence",
+    "aiPromptExample": "Generate a business email writing exercise for a university applicant requesting information about a bursary programme at a South African company. The email must include a subject line, formal salutation, clear purpose statement, three specific questions, appropriate closing, and professional signature block. Provide a model answer and a common-errors checklist.",
+    "aiDiagnosisOutput": "Business English diagnostic complete. The learner submitted a sample email requesting internship information. Assessment: Salutation appropriate, purpose statement present but buried. Structure score: 5/10 (no paragraph breaks, information presented in one block). Register: informal language (use of 'hey', 'gonna'). Vocabulary: basic — no business-specific terms used. No signature block. Recommended: 3 sessions on structure and format, 2 sessions on register and tone, 2 sessions on business vocabulary, 1 session on CV and cover letter writing.",
+    "escrowGuarantee": "Per-session escrow release. If the learner's professional writing does not meet the tutor-agreed standard after 8 sessions, the remaining sessions are free.",
+    "pirbStandard": "SACE-registered English educators with additional qualifications or experience in business communication. Content aligns with national professional communication standards.",
+    "articleSections": [
+      {
+        "heading": "Why Business English Matters Beyond the CAPS Curriculum",
+        "body": "The CAPS English curriculum focuses on academic literacy — the ability to analyse texts, construct arguments, and write formal essays. While these skills are foundational, they do not directly translate to the specific formats and registers of professional communication. A business report differs fundamentally from an academic essay: it uses headings, bullet points, executive summaries, and recommendations. Professional emails require a concise, purpose-first structure that contradicts the essay's introduction-body-conclusion model. Our programme explicitly bridges this gap."
+      },
+      {
+        "heading": "The Five Formats Every Professional Needs",
+        "body": "Our programme covers the five most common professional writing formats that South African employers expect. Formal emails: subject lines, salutations, purpose statements, call-to-action, and signature blocks. Letters of motivation: personal narrative, evidence of suitability, alignment with organisational values. Meeting minutes: action-oriented recording with decisions and assigned responsibilities. Business reports: executive summary, findings, recommendations. CVs and cover letters: SA-standard format with achievement-focused bullet points. Each format is practised until the learner can produce it independently."
+      },
+      {
+        "heading": "Register, Tone, and Appropriateness",
+        "body": "One of the hardest skills for learners transitioning from academic to professional English is adjusting register — the level of formality appropriate to the context. Our programme teaches a register spectrum, from formal (board reports, client proposals) through semi-formal (internal emails, team updates) to informal (office chat, instant messages). Learners practise selecting the appropriate register for different scenarios. The goal is not to eliminate informality but to develop the discernment to choose the right level for each situation."
+      },
+      {
+        "heading": "Business Vocabulary for the South African Workplace",
+        "body": "The professional workplace has its own vocabulary — terms like 'stakeholder engagement', 'deliverable', 'key performance indicator', 'due diligence', 'escalation procedure', and 'return on investment'. Many of these terms are unfamiliar to school leavers, creating an immediate vocabulary gap in interviews and early work experience. Our programme introduces 200 essential business terms, each taught in context and practised in writing exercises. Learners build a personal glossary that becomes a lifelong reference, and the tutor provides SA-specific examples to ensure relevance to the local business environment."
+      }
+    ]
+  }
+]

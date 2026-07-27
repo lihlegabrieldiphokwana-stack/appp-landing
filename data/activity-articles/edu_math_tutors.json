@@ -1,0 +1,278 @@
+[
+  {
+    "id": "math-algebra-mastery",
+    "tag": "Algebra",
+    "title": "Mastering Algebraic Expressions in the CAPS Curriculum",
+    "subtitle": "From monomials to quadratic factorisation — a step-by-step guide to algebraic fluency for South African high school learners",
+    "image": "/scenes/edu_algebra_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Algebra is the single biggest filter in South African high school mathematics",
+    "problemBody": "Nearly 60% of Grade 10 learners in South Africa fail their first algebraic expressions assessment. The CAPS curriculum introduces monomials, binomials, trinomials, and factorisation within a single term, leaving many students overwhelmed. Once a learner falls behind in algebra, every subsequent topic — from functions to calculus — becomes an uphill battle. The gap widens with each term, often resulting in a choice between Mathematical Literacy and Pure Maths before Grade 10 is finished.",
+    "bouulSolution": [
+      "One-on-one online tutoring with a SACE-registered maths specialist who diagnoses exactly which algebraic concept the learner has not consolidated",
+      "Structured CAPS-aligned learning path that breaks algebra into 12 micro-skills — each mastered before the next begins",
+      "Weekly practice worksheets with real-time marking and error analysis emailed to both parent and learner"
+    ],
+    "partsNeeded": [
+      "Laptop, tablet, or smartphone with a stable internet connection",
+      "A quiet workspace and a mathematics exercise book (preferably quadrille-ruled)",
+      "CASIO fx-82ZA Plus scientific calculator (CAPS-approved)",
+      "Printed or digital CAPS reference sheets provided by the tutor"
+    ],
+    "guidePricing": 185,
+    "timeline": "8 to 12 weeks for full algebraic fluency depending on current level",
+    "aiPromptExample": "Generate 10 algebraic expression problems for a Grade 10 CAPS learner who can add and subtract monomials but cannot yet factorise trinomials. Include step-by-step worked solutions and indicate which CAPS assessment standard each problem targets. Provide three extension problems for learners who finish early.",
+    "aiDiagnosisOutput": "Learner assessment completed. Strengths: monomial addition, substitution. Gaps: trinomial factorisation (x² + bx + c), difference of two squares, simplifying rational algebraic fractions. Recommended starting point: Lesson 4 of the algebra pathway — factorisation by common factor. Estimated 9 sessions to bridge to grade-level competency. Parent report emailed.",
+    "escrowGuarantee": "Funds released lesson-by-lesson after each 55-minute session is completed. If the learner does not show improvement after 4 sessions, remaining funds are refunded.",
+    "pirbStandard": "All tutors hold SACE registration and follow CAPS assessment standards as published by the Department of Basic Education.",
+    "articleSections": [
+      {
+        "heading": "Why Algebra Forms the Foundation of Every Maths Topic",
+        "body": "Algebraic manipulation is the language of all senior-phase and FET mathematics. From functions and graphs in Grade 10 to differential calculus in Grade 12, every topic assumes the learner can rearrange equations, expand brackets, and factorise fluently. The CAPS Mathematics Paper 1 exam allocates approximately 35% of marks to algebraic manipulation directly, and nearly every remaining question requires algebraic reasoning. Learners who master algebra by the end of Grade 10 position themselves for 70% or higher in their final matric exams."
+      },
+      {
+        "heading": "The CAPS Algebra Progression — What Learners Must Know Each Year",
+        "body": "In Grade 8, algebraic expressions are introduced through number patterns and simple equations. Grade 9 expands to products, factorisation, and algebraic fractions. Grade 10 is the critical year: trinomial factorisation, the quadratic formula, and algebraic fraction simplification are covered extensively. Grade 11 introduces complex fractions, exponential and logarithmic equations. Grade 12 consolidates everything through optimisation, calculus, and financial mathematics. Our tutors align every session to these CAPS milestones so no time is wasted on material outside the learner's current curriculum."
+      },
+      {
+        "heading": "How Our Diagnostic Assessment Pinpoints the Exact Gap",
+        "body": "Every new learner completes a 30-minute online diagnostic that maps their algebraic knowledge across 12 micro-skills, from monomial operations through to quadratic inequalities. The AI-assisted analysis produces a skill matrix showing which concepts are consolidated, which are developing, and which are absent. The tutor uses this matrix to build a personalised learning plan, skipping topics the learner has already mastered and dedicating sessions to the specific gaps holding them back. The diagnostic is reassessed every 6 sessions to track progress."
+      },
+      {
+        "heading": "Weekly Practice and Real-Time Error Analysis",
+        "body": "Between sessions, learners receive a curated worksheet of 8 to 12 problems targeting their current skill level. The worksheet is submitted online and marked by the tutor within 24 hours, with detailed feedback on each incorrect answer. Error patterns — such as sign errors, incorrect factorisation, or misapplied distributive law — are flagged and addressed in the next session. Parents receive a fortnightly progress summary showing marks achieved, time spent, and the next three skills on the learning path."
+      }
+    ]
+  },
+  {
+    "id": "math-geometry-success",
+    "tag": "Geometry",
+    "title": "Conquering Euclidean Geometry Through Visual Thinking",
+    "subtitle": "Rigorous proofs, circle theorems, and analytical geometry made accessible for South African matric candidates",
+    "image": "/scenes/edu_geometry_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Euclidean geometry accounts for the highest mark-loss of any matric maths topic",
+    "problemBody": "The 2024 National Senior Certificate diagnostic report shows that geometry questions consistently produce the lowest average scores across all mathematics papers. Learners struggle with the logical sequencing of proofs, applying circle theorems in unfamiliar configurations, and translating word problems into geometric diagrams. In many schools, geometry is rushed in the fourth term or skipped entirely because teachers run out of time, leaving learners to grapple with theorems independently months before their final exams.",
+    "bouulSolution": [
+      "Live geometry tuition using a shared digital whiteboard where the tutor constructs diagrams step-by-step alongside the learner",
+      "Proof framework templates for each of the 12 CAPS geometry theorems — memorisation aids and reasoning scaffolds included",
+      "Weekly timed past-paper geometry sections under exam conditions, marked and debriefed in the following session"
+    ],
+    "partsNeeded": [
+      "Device with screen-sharing capability and a stylus or touchscreen for diagram drawing",
+      "A geometry set (compass, protractor, ruler, set squares) for physical practice",
+      "Hardcopy or PDF of the CAPS-aligned theorem list published by the DBE",
+      "Access to the SA National Senior Certificate past papers from 2018 to 2024 (freely available on the DBE website)"
+    ],
+    "guidePricing": 210,
+    "timeline": "10 to 14 weeks to reach 70%+ on Paper 2 geometry section",
+    "aiPromptExample": "Generate 5 Euclidean geometry proof questions for a Grade 12 learner preparing for Paper 2. Each question should combine at least two circle theorems. Provide a full memorandum with mark allocation per statement and reason, following the DBE examination guidelines. Include a common-error table showing the three mistakes most frequently made on each question.",
+    "aiDiagnosisOutput": "Initial geometry assessment complete. Learner scores 52%. Theorems secured: vertically opposite angles, angles on a straight line, alternate angles. Theorems absent: cyclic quadrilateral properties, tangent-chord theorem, proportionality theorem. Proof structure score: 3/10 — reasons frequently omitted or misstated. Recommended: theorem retrieval drills (sessions 1-2), then two-theorem chain proofs (sessions 3-6). Target: 70% within 10 sessions.",
+    "escrowGuarantee": "Funds held in escrow and released after each completed session. If the learner's geometry section mark does not improve by 15 percentage points within 8 sessions, the remaining sessions are fully refunded.",
+    "pirbStandard": "Tutors meet SACE subject specialisation requirements for senior-phase and FET mathematics. All proof methodologies conform to DBE examination guidelines.",
+    "articleSections": [
+      {
+        "heading": "Why Euclidean Geometry is the Decider in Matric Mathematics",
+        "body": "Paper 2 of the matric mathematics exam allocates approximately 40 to 50 marks to Euclidean geometry across two questions. These questions are designed to differentiate between a pass and a distinction. The DBE's diagnostic reports consistently show that less than 30% of candidates score full marks on the geometry section. The challenge lies not in memorising theorems — most learners can list them — but in selecting and sequencing the correct theorems to construct a logical proof. This is a reasoning skill that requires deliberate practice with immediate feedback."
+      },
+      {
+        "heading": "The 12 CAPS Theorems and the Order They Should Be Taught",
+        "body": "Our curriculum maps the 10 examination-relevant theorems plus 2 rider theorems across a structured 14-session programme. We begin with the parallel-line theorems that underpin all subsequent geometry, move through triangle properties and congruency, then tackle circle theorems in a carefully ordered sequence. Each new theorem is introduced through a discovery exercise on the digital whiteboard before formal proof is attempted. The programme culminates in multi-theorem rider questions that mirror the style and difficulty of the final examination."
+      },
+      {
+        "heading": "From Diagram Recognition to Formal Proof",
+        "body": "One of the biggest obstacles learners face is recognising which theorem applies when they see a diagram. Our tutors train learners to annotate diagrams systematically: marking equal angles, identifying cyclic quadrilaterals, and labelling given lengths. This visual annotation habit, reinforced over multiple sessions, dramatically improves proof construction speed. By session 8, most learners can identify the correct theorem chain within 30 seconds of reading a question — a skill that directly translates to exam time management."
+      },
+      {
+        "heading": "Exam Technique for Geometry: Timing and Presentation",
+        "body": "In addition to mathematical content, our sessions cover examination technique specific to geometry. Learners are taught how to allocate marks between statements and reasons, how to present proofs in the accepted two-column format without scribbling out, and how to manage time by attempting the easier rider before the harder one. Each learner completes a timed geometry past paper every second week, which is then marked against the official DBE memorandum and debriefed in full."
+      }
+    ]
+  },
+  {
+    "id": "math-trigonometry-foundations",
+    "tag": "Trigonometry",
+    "title": "Trigonometry from First Principles for Matric Success",
+    "subtitle": "Ratios, identities, graphs, and 3D applications — a complete trigonometry toolkit for Grade 11 and 12 learners",
+    "image": "/scenes/edu_trigonometry_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Trigonometry is the most commonly skipped topic in South African maths revision",
+    "problemBody": "According to education analysts, trigonometry is the topic most frequently left for 'last-minute revision' — and the one learners regret ignoring most when matric results arrive. The combination of memorisation (special angles, identities), abstract graphing (sine, cosine, tangent functions), and applied problem-solving (2D and 3D models) creates a uniquely challenging topic. Many learners master the calculator work but cannot handle the proof-based questions that carry the highest marks in the matric exam.",
+    "bouulSolution": [
+      "Structured 16-session trigonometry pathway covering ratios, special angles, identities, reduction formulae, equations, graphs, and 3D applications",
+      "Interactive graphing tools during online sessions that allow learners to manipulate sine and cosine functions in real time",
+      "Past-paper trigonometry analysis showing which question types the learner consistently loses marks on, with targeted drills for each"
+    ],
+    "partsNeeded": [
+      "CASIO fx-82ZA Plus or similar CAPS-approved scientific calculator",
+      "Graph paper and a trigonometry reference sheet (provided by the tutor)",
+      "Internet-connected device capable of running a shared whiteboard and graphing applet",
+      "Access to the DBE's trigonometry past paper compilation (Years 2016 to 2024)"
+    ],
+    "guidePricing": 195,
+    "timeline": "12 to 16 weeks for full curriculum coverage and exam readiness",
+    "aiPromptExample": "Create a 5-question trigonometry test for a Grade 12 learner who can calculate basic ratios (sin, cos, tan of acute angles) but cannot apply reduction formulae or solve trigonometric equations. Include one 3D application problem. Provide an answer key with marking rubric aligned to the CAPS Paper 2 examination guidelines.",
+    "aiDiagnosisOutput": "Trigonometry diagnostic results. Strengths: special angle tables memorised, calculator proficiency. Gaps: reduction formulae for angles > 90 degrees, general solution of trig equations, identity proofs requiring factorisation. 3D applications score: 0/10 — no experience. Starting point: Lesson 5 (reduction formulae) with remedial 3D visualisation exercises integrated from session 1. Estimated 14 sessions to exam readiness.",
+    "escrowGuarantee": "Lesson-by-lesson escrow release. If the learner cannot pass a trigonometry benchmark assessment (60% threshold) after 8 sessions, the remaining 8 sessions are fully refunded.",
+    "pirbStandard": "All trigonometry instruction follows the CAPS FET Mathematics curriculum as gazetted by the DBE. Tutors are SACE-registered with a minimum 65% pass rate in their learner cohort.",
+    "articleSections": [
+      {
+        "heading": "The CAPS Trigonometry Landscape — What is Assessed and How",
+        "body": "In the FET phase, trigonometry is examined across three areas: trigonometric functions and graphs (Paper 1), trigonometric identities, equations and general solutions (Paper 1), and 2D/3D applications (Paper 2). The combined weighting is approximately 25 to 35 marks across both papers. Learners often do not realise that 3D trigonometry, worth 8 to 12 marks, is one of the most accessible high-mark sections — the mark allocation is generous because the DBE expects low performance. Strong preparation in this section can yield marks that other learners leave on the table."
+      },
+      {
+        "heading": "Mastering Reduction Formulae and the CAST Diagram",
+        "body": "The CAST diagram is the single most powerful tool in trigonometry, yet it is poorly taught in many classrooms. Our tutors spend at least two sessions ensuring the learner can fluently reduce any trigonometric ratio of an angle greater than 90 degrees to an acute angle ratio. We use colour-coded quadrant diagrams and mnemonic devices (All Students Take Coffee) to make the system stick. Once reduction formulae are automatic, solving trigonometric equations becomes a matter of algebraic manipulation rather than memorisation."
+      },
+      {
+        "heading": "From Identities to General Solutions",
+        "body": "Trigonometric identities — particularly the square identity and the quotient identity — are the gateway to proving more complex relationships. Our tutors teach identity proofs as a systematic process of starting with the more complex side and simplifying using known identities, rather than random algebraic manipulation. General solutions are introduced as a logical extension of solving basic equations, with careful attention to the period of each function. Learners practise writing solutions in the format required by the DBE memorandum."
+      },
+      {
+        "heading": "3D Applications — The Marks Most Learners Miss",
+        "body": "The 3D trigonometry question on Paper 2 is often feared, but it follows a predictable pattern. Our programme dedicates four sessions to 3D applications, beginning with simple right-angled triangles in a 3D context and progressing to multi-step problems involving the sine and cosine rules in three dimensions. Learners are taught a consistent problem-solving approach: sketch the 3D diagram, identify the relevant 2D triangles, and solve each triangle systematically. By session 14, most learners can tackle the DBE's most difficult 3D questions with confidence."
+      }
+    ]
+  },
+  {
+    "id": "math-calculus-prep",
+    "tag": "Calculus",
+    "title": "Calculus for Matric: Differentiation, Optimisation, and Exam Strategy",
+    "subtitle": "From first principles to sketching cubic graphs — the complete Grade 12 calculus toolkit",
+    "image": "/scenes/edu_calculus_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Calculus carries the highest mark allocation of any single topic in the matric mathematics Paper 1 exam",
+    "problemBody": "Calculus is worth between 35 and 45 marks in the Grade 12 final examination, yet many learners do not allocate proportional study time. The topic spans first principles, rules of differentiation, sketching cubic functions, optimisation problems, and the rate-of-change applications that connect maths to real-world scenarios. Learners who rush through calculus in the third term often find themselves unable to complete the calculus section within exam time limits, losing marks that are essential for a distinction.",
+    "bouulSolution": [
+      "A 14-session calculus programme that covers every CAPS-required calculus skill, with each session including a timed past-paper question",
+      "Live step-by-step cubic graph sketching on a shared whiteboard, with immediate feedback on concavity, stationary points, and intercepts",
+      "Optimisation problem bank organised by difficulty level, with worked solutions showing the mark allocation per step as per DBE conventions"
+    ],
+    "partsNeeded": [
+      "CAPS-approved scientific calculator (CASIO fx-82ZA Plus preferred)",
+      "Graph paper for sketching practice and quadrille exercise book",
+      "Access to past Paper 1 examinations from 2018 to 2024",
+      "Reliable internet connection for online whiteboard and video sessions"
+    ],
+    "guidePricing": 220,
+    "timeline": "10 to 14 weeks to calculus exam readiness at 70%+ accuracy",
+    "aiPromptExample": "Generate a 4-question calculus test for a Grade 12 learner who can differentiate using the power rule but cannot sketch cubic graphs or solve optimisation problems. Include one first-principles question, one cubic graph sketching question with full analysis, and one optimisation problem with an economic context. Provide a marking memorandum with partial-mark allocation.",
+    "aiDiagnosisOutput": "Calculus diagnostic complete. Learner score: 58%. Differentiates confidently using power rule and product rule. Cannot determine stationary points from a cubic derivative. Optimisation score: 1/10 — cannot translate word problems into mathematical models. Graph sketching score: 2/10 — axes not labelled, no indication of concavity. Recommended: 4 sessions on graph analysis and sketching, 4 sessions on optimisation modelling, 2 sessions on exam technique. Target 75%+ within 12 sessions.",
+    "escrowGuarantee": "Funds held in escrow and released per session. Guaranteed improvement: if assessment scores do not increase by 20 percentage points after 10 sessions, the final 4 sessions are free.",
+    "pirbStandard": "SACE-registered tutors with demonstrated track record of calculus instruction. All content aligns with the CAPS Grade 12 Mathematics curriculum and DBE examination guidelines.",
+    "articleSections": [
+      {
+        "heading": "Why Calculus Determines the Distinction Boundary",
+        "body": "Analysis of matric results over the past five years shows that learners scoring 80% or higher in mathematics consistently achieve above 70% on the calculus section of Paper 1. Because calculus carries such a heavy mark weight — typically the longest section on the paper — strong performance here can lift an overall mark from a standard pass to a distinction. Conversely, weak calculus performance effectively caps the learner at 65% regardless of performance on other topics, because the marks lost in calculus cannot be compensated elsewhere."
+      },
+      {
+        "heading": "From First Principles to Efficient Differentiation",
+        "body": "The CAPS curriculum requires learners to understand differentiation from first principles, though the examination typically allocates only 3 to 5 marks to this skill. Our tutors ensure learners can execute a first-principles derivation accurately but do not over-invest time here at the expense of other calculus skills. The majority of sessions focus on the differentiation rules — power, product, quotient, and chain rules — which carry the bulk of calculus marks. Learners practise each rule in isolation before combining them in examination-type questions."
+      },
+      {
+        "heading": "Mastering Cubic Graph Sketching",
+        "body": "Cubic function analysis and sketching is the most heavily weighted single skill in the calculus section, often worth 10 to 15 marks. Our programme teaches a systematic six-step method: find intercepts, differentiate to find the derivative, solve for stationary points, classify stationary points using the second derivative, determine concavity, and sketch. Learners practise this sequence until it becomes automatic, using past-paper questions to build speed. The shared whiteboard allows the tutor to catch common errors — such as miscalculating the y-coordinate of stationary points — before they become habits."
+      },
+      {
+        "heading": "Optimisation — Translating Words into Mathematics",
+        "body": "Optimisation problems represent the peak difficulty in school calculus because they require the learner to read a paragraph of text, identify variables, write a function, differentiate, solve, and interpret the answer in context. Our tutors have developed a structured approach: circle the quantity to be optimised, express it in terms of one variable using the given constraints, differentiate, solve for the variable, and check for a maximum or minimum using the second derivative test. We maintain a bank of 30+ optimisation problems ranging from simple geometric contexts to complex economic scenarios."
+      }
+    ]
+  },
+  {
+    "id": "math-statistics-applied",
+    "tag": "Statistics",
+    "title": "Data Handling and Statistics in the CAPS Curriculum",
+    "subtitle": "From univariate analysis to regression — practical statistics for senior-phase and FET learners",
+    "image": "/scenes/edu_statistics_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Statistics is the most under-prepared section of Paper 2, yet it offers the most predictable marks",
+    "problemBody": "Despite being worth 15 to 20 marks on the matric Paper 2 exam, statistics is often treated as an afterthought in classroom teaching. The five-number summary, box-and-whisker plots, variance, standard deviation, and scatter plots are formula-driven and highly predictable — any learner who practises the question types can secure these marks. Yet the DBE diagnostic reports show that fewer than 40% of candidates achieve full marks on the statistics question. The most common errors involve misreading data, incorrect use of the calculator's statistical functions, and confusing standard deviation with variance.",
+    "bouulSolution": [
+      "Step-by-step calculator training for all CASIO statistical functions — single-variable and bivariate analysis, regression, and correlation coefficients",
+      "Past-paper statistics question bank with worked solutions showing the exact mark allocation and memorandum phrasing",
+      "Real-world data projects where learners analyse SA economic or demographic data, building intuitive understanding alongside examination technique"
+    ],
+    "partsNeeded": [
+      "CASIO fx-82ZA Plus calculator with statistical mode functionality",
+      "Graph paper for box-and-whisker and scatter plot construction",
+      "Printed or digital copies of DBE statistics past papers (2018-2024)",
+      "Access to Statistics South Africa open datasets for enrichment activities"
+    ],
+    "guidePricing": 175,
+    "timeline": "6 to 8 weeks for full statistics curriculum coverage",
+    "aiPromptExample": "Generate a statistics question for Grade 12 learners based on a dataset of household electricity usage in a South African township. Require calculation of mean, median, standard deviation, and construction of a box-and-whisker plot. Include a bivariate analysis section requiring calculation of Pearson's correlation coefficient and the least-squares regression line.",
+    "aiDiagnosisOutput": "Statistics assessment results. Score: 48%. Can calculate mean and median but struggles with standard deviation interpretation. Box-and-whisker plot construction score: 4/10 — outliers not identified. Regression and correlation: not attempted. Calculator statistical mode: unfamiliar. Starting point: two sessions on calculator functions, two on univariate analysis, two on bivariate analysis, one on exam technique. Target 80% within 7 sessions.",
+    "escrowGuarantee": "Per-session escrow release. If the learner does not achieve 75% or higher on a mock statistics assessment after 6 sessions, the 7th session is free.",
+    "pirbStandard": "SACE-registered mathematics tutors with FET mathematics specialisation. All assessment materials align with the CAPS Mathematical Literacy and Mathematics curricula as applicable.",
+    "articleSections": [
+      {
+        "heading": "The Predictable Pattern of CAPS Statistics Questions",
+        "body": "The DBE statistics question follows a remarkably consistent structure year-on-year. Question 1 of the statistics section typically covers univariate data: the five-number summary, box-and-whisker plot, and calculation of standard deviation. Question 2 introduces bivariate data: scatter plot, Pearson's correlation coefficient, and the least-squares regression line. By practising the 10 most recent past papers, learners can anticipate the exact question formats and mark distributions. Our tutors have compiled a question-type frequency table that shows which sub-skills appear every year versus those that rotate."
+      },
+      {
+        "heading": "Calculator Proficiency — The Overlooked Skill",
+        "body": "Nearly 20% of marks lost in statistics are attributable to calculator errors rather than conceptual misunderstanding. The CASIO fx-82ZA Plus has a powerful statistical mode, but many learners have never been shown how to use it properly. Our programme includes dedicated calculator training in the first session: entering data, clearing previous data, using the frequency table, calculating single-variable statistics (mean, sum, sum of squares, standard deviation), and performing linear regression. Learners practise until they can execute each function without referencing the manual, freeing mental bandwidth for data interpretation during the exam."
+      },
+      {
+        "heading": "Interpreting Statistics — Beyond the Calculations",
+        "body": "The DBE increasingly emphasises interpretation over computation. Questions that ask 'What does the standard deviation tell you about the spread of the data?' or 'Is the correlation strong or weak? Justify your answer' carry significant marks. Our sessions focus on developing the vocabulary and reasoning skills needed for these interpretive questions. Learners practise writing concise, memorandum-aligned justifications using terms such as 'positively skewed', 'outlier', 'strong negative correlation', and 'variance'. This vocabulary drill pays dividends in the examination because the marking rubric awards specific marks for correct terminology."
+      },
+      {
+        "heading": "Real-World Data Projects for Deep Understanding",
+        "body": "To build intuition that supports examination performance, each learner completes a real-world data analysis project using Statistics South Africa data. Past projects have included analysing unemployment trends by province, comparing household expenditure patterns across income deciles, and examining the correlation between education level and income. These projects make the abstract statistical concepts tangible and give learners authentic examples they can recall during the exam. The project is completed online over four weeks, with the tutor providing feedback at each milestone."
+      }
+    ]
+  },
+  {
+    "id": "math-problem-solving-skills",
+    "tag": "Problem Solving",
+    "title": "Mathematical Problem-Solving for Olympiad and Higher-Order Thinking",
+    "subtitle": "Strategic reasoning, pattern recognition, and non-routine problem-solving for top-performing high school learners",
+    "image": "/scenes/edu_problem_solving_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "The CAPS curriculum under-develops the higher-order thinking skills that top universities and scholarships demand",
+    "problemBody": "South African mathematics competitions such as the SA Mathematics Olympiad (SAMO) and the UCT Mathematics Competition require learners to solve non-routine problems that bear little resemblance to standard CAPS examination questions. These competitions — and increasingly, the NBT mathematics section — test the ability to recognise patterns, break down unfamiliar problems, and apply multiple mathematical domains to a single question. Learners who train only on textbook exercises are systematically under-prepared for these assessments, losing opportunities for university admission advantages and scholarship consideration.",
+    "bouulSolution": [
+      "Weekly problem-solving sessions using past SAMO, AMC, and NBT question papers, with structured debriefs on solution strategies",
+      "A framework for approaching unfamiliar problems: understand, plan, execute, and review — adapted from Polya's problem-solving method",
+      "Monthly mock competition rounds with timed conditions and detailed feedback on solution-writing quality"
+    ],
+    "partsNeeded": [
+      "A mathematics exercise book dedicated to problem-solving practice",
+      "Access to past SAMO and AMC question papers (provided by the tutor)",
+      "Scientific calculator and basic geometry set",
+      "A notebook for maintaining a personal 'problem-solving strategies' reference"
+    ],
+    "guidePricing": 230,
+    "timeline": "Ongoing — learners typically see measurable improvement after 8 to 12 weeks of weekly sessions",
+    "aiPromptExample": "Generate 4 non-routine mathematics problems suitable for a Grade 10 learner preparing for the SAMO first round. Problems should draw from number theory, combinatorics, geometry, and algebra. Provide detailed solutions with multiple approaches where possible, and indicate the key insight required for each problem.",
+    "aiDiagnosisOutput": "Problem-solving assessment complete. Learner score on SAMO first-round paper: 42%. Strengths: routine algebra and calculation speed. Gaps: combinatorial reasoning (scored 1/8), unfamiliar problem formats cause freezing. Solution-writing quality: poor — steps not explained, answers presented without justification. Recommended: 4 sessions on combinatorics and counting principles, 4 sessions on solution-writing and proof structure, ongoing exposure to novel problem formats. Target: SAMO second-round qualification.",
+    "escrowGuarantee": "Funds released per session. If the learner's SAMO/competition score does not improve over their baseline after 12 sessions, 4 additional sessions are provided free of charge.",
+    "pirbStandard": "Tutors are mathematics educators with experience coaching SA Mathematics Olympiad participants. SACE-registered with proven track records in competition preparation.",
+    "articleSections": [
+      {
+        "heading": "Why Problem-Solving is a Distinct Skill from Curriculum Mathematics",
+        "body": "CAPS mathematics primarily tests procedural fluency — the ability to execute learned algorithms. Problem-solving, as assessed in competitions and NBTs, requires strategic thinking: deciding which algorithm to apply when the path is not obvious, translating an unfamiliar situation into a mathematical model, and verifying the reasonableness of the answer. Research consistently shows that learners with strong problem-solving skills outperform their peers in first-year university mathematics regardless of their matric score. Developing these skills requires deliberate practice with problems that are carefully chosen to be just beyond the learner's current ability level."
+      },
+      {
+        "heading": "The Polya Framework in Practice",
+        "body": "Every problem-solving session follows George Polya's four-step method. Step one — Understand: the learner restates the problem in their own words and identifies what is given and what is sought. Step two — Plan: the learner considers analogous problems, works backwards, draws a diagram, or simplifies the problem. Step three — Execute: the learner carries out the plan systematically. Step four — Review: the learner checks the answer, considers alternative approaches, and reflects on what made the problem difficult. This metacognitive training transforms how learners approach all mathematics, including CAPS examinations."
+      },
+      {
+        "heading": "Number Theory and Combinatorics — The Competition Gatekeepers",
+        "body": "Number theory and combinatorics are almost entirely absent from the CAPS curriculum but dominate mathematics competitions. Our programme introduces these topics through accessible problems: divisibility rules, modular arithmetic, the pigeonhole principle, counting principles, and basic probability in combinatorial contexts. Learners discover that these topics rely less on memorisation and more on logical reasoning and systematic enumeration — skills that transfer directly to improved performance in the standard curriculum. The enjoyment factor is high, and many learners report that these sessions rekindle their interest in mathematics."
+      },
+      {
+        "heading": "Preparing for NBT Mathematics Through Problem-Solving Training",
+        "body": "The NBT Mathematics Test is the gateway to most South African university programmes, yet the majority of learners sitting it have never seen the question style. Our problem-solving programme explicitly prepares learners for the NBT by using past NBT-style questions that test conceptual understanding beyond procedural fluency. The timed mock tests in sessions 10 to 12 replicate the NBT format exactly, including the multiple-choice structure and the two-hour time limit. By the time they sit the actual test, learners have developed both the mathematical reasoning and the test-taking stamina needed to succeed."
+      }
+    ]
+  }
+]

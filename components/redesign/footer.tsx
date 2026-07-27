@@ -24,6 +24,7 @@ const columns: Array<{ title: string; links: Array<{ href: string; label: string
   {
     title: "Support",
     links: [
+      { href: "/tutorials", label: "Tutorials & Guides" },
       { href: "/faq", label: "Help centre" },
       { href: "/contact", label: "Contact us" },
       { href: "/safety", label: "Safety" },

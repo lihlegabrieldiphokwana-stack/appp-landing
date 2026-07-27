@@ -1,0 +1,278 @@
+[
+  {
+    "id": "daily_office_cleaning",
+    "tag": "Office Cleaning",
+    "title": "Daily Office Cleaning Service",
+    "subtitle": "Consistent daily cleaning keeps your workspace hygienic, professional and productive",
+    "image": "/scenes/cleaning_office_daily.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dirty offices lower employee morale, increase sick leave and damage professional image",
+    "problemBody": "An office that looks clean at a glance still harbours bacteria on high-touch surfaces, dust in ventilation grilles and grime on floors that builds up over days. In South Africa, where load-shedding can cause erratic HVAC operation, dust and air quality issues are amplified. The average office desk harbours 400 times more bacteria than a toilet seat, yet many daily cleaning routines skip desk surfaces, door handles and shared equipment. The Occupational Health and Safety Act (Act 85 of 1993) requires employers to maintain clean premises, but the legal minimum doesn't cover comprehensive hygiene.",
+    "bouulSolution": [
+      "Daily after-hours or pre-opening cleaning: all surfaces, floors, bathrooms and kitchen wiped down",
+      "High-touch point sanitisation: door handles, light switches, elevator buttons, reception counter",
+      "Waste removal and bin replacement, restroom restocking, floor vacuuming and mopping"
+    ],
+    "partsNeeded": [
+      "Hospital-grade disinfectant (SABS-approved)",
+      "Microfiber cloths and mops (colour-coded system)",
+      "Commercial HEPA vacuum",
+      "Restroom sanitiser and paper product refills"
+    ],
+    "guidePricing": "R 120 – R 250 per hour per cleaner (minimum 2 hours per visit)",
+    "timeline": "1–3 hours per visit depending on office size (typically after-hours)",
+    "aiPromptExample": "\"Describe a daily office cleaning routine for a 200m² South African office space, covering high-touch sanitisation, floor care and restroom hygiene under OHSA requirements.\"",
+    "aiDiagnosisOutput": "\"Bacterial hotspots detected on door handles, light switches and kitchen kettle handle. Dust accumulation in HVAC return vents. Restroom floor shows biofilm near drain. Recommended: daily quaternary ammonium disinfectant on all touch points, HVAC vent cleaning weekly, and weekly deep restroom scrub.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released daily after photographic evidence of completed checklist is uploaded",
+    "pirbStandard": "OHSA Act 85 of 1993 Section 8; HASA daily office cleaning protocol; SANS 1828:2018 disinfectant standard",
+    "articleSections": [
+      {
+        "heading": "The High-Touch Sanitisation Priority",
+        "body": "Research shows that 80% of office infections are transmitted through high-touch surfaces. Our daily cleaning prioritises these contact points: door handles and push plates, light switches, desk surfaces, phone handsets, keyboards, mouse devices, elevator call buttons, handrails, reception counters, break room appliances (kettle, microwave, fridge handles), bathroom taps and toilet flush buttons. Each point is wiped with a disposable disinfectant cloth containing a quaternary ammonium compound with a minimum contact time of 5 minutes. This reduces bacterial load by 99.9% and significantly reduces cross-contamination risk."
+      },
+      {
+        "heading": "Zoned Cleaning for Open-Plan Offices",
+        "body": "Open-plan offices present a unique cleaning challenge — the continuous carpet makes it difficult to isolate zones. Our cleaning team uses a zoned approach: the office is divided into sectors (A, B, C, etc.), and each zone receives a complete clean before moving to the next. This ensures every desk, every aisle and every corner receives equal attention. The carpet is vacuumed with a commercial-grade HEPA unit in overlapping passes, and hard floors are mopped with the two-bucket system. Desks are cleared of crumbs and debris, and monitor screens are dusted with anti-static wipes."
+      },
+      {
+        "heading": "Waste Management and Recycling",
+        "body": "South African regulations under the National Environmental Management: Waste Act require businesses to implement waste separation. Our daily service includes a waste management component: general waste is collected and bagged; recyclables (paper, plastic, glass, cans) are separated into designated bins; and confidential paper shredding is available on request. All waste is removed from the premises daily to prevent odours and pest attraction. For offices with limited storage, we coordinate collection schedules with municipal or private waste services."
+      },
+      {
+        "heading": "After-Hours vs Pre-Opening",
+        "body": "We offer two scheduling options for daily office cleaning. After-hours (evening): cleaning takes place after staff have left, allowing thorough work without disruption — ideal for open-plan areas, thorough vacuuming and restroom deep cleaning. Pre-opening (early morning): focused on reception, boardrooms and restrooms, completed before the first staff member arrives at 07:00. Many clients choose a hybrid approach — full after-hours clean three times per week with a pre-opening touch-up on the remaining days. The Bouul commercial portal allows you to adjust the schedule online."
+      }
+    ]
+  },
+  {
+    "id": "after_hours_office_cleaning",
+    "tag": "Office Cleaning",
+    "title": "After-Hours Office Cleaning",
+    "subtitle": "Full-service cleaning conducted outside business hours to eliminate workplace disruption",
+    "image": "/scenes/cleaning_after_hours.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Cleaning during office hours disrupts productivity and leaves staff uncomfortable",
+    "problemBody": "When cleaners work around occupied desks, vacuum noise interrupts phone calls and meetings, chemical fumes affect air quality, and staff feel their personal workspace has been invaded. Many office managers respond by restricting cleaners to light duties during the day, leaving deep cleaning tasks undone. Over weeks, this accumulates into a visibly dirty office with sticky floors, dusty ventilation, and a neglected feel that reflects poorly on the business. In South Africa's competitive commercial property market, the cleanliness standard of your office directly impacts client perception and lease renewal decisions.",
+    "bouulSolution": [
+      "All cleaning performed after 17:00 or before 06:00 — zero disruption to the working day",
+      "Full spectrum of tasks: vacuuming, mopping, sanitising, dusting, restroom deep cleaning, kitchen deep clean",
+      "Electronic access integration: cleaners access the building via secure code, no key handover needed"
+    ],
+    "partsNeeded": [
+      "Silent-rated HEPA vacuum (below 60dB for early morning)",
+      "Hospital-grade disinfectant and cleaning chemicals",
+      "Secure access management system",
+      "Communication logbook for daily updates"
+    ],
+    "guidePricing": "R 150 – R 280 per hour per cleaner (after-hours premium)",
+    "timeline": "2–4 hours per session depending on office size",
+    "aiPromptExample": "\"Describe an after-hours office cleaning schedule for a 300m² South African office with 30 workstations, a boardroom, kitchen and two restrooms, ensuring zero disruption during business hours.\"",
+    "aiDiagnosisOutput": "\"Office shows visual cleanliness but dust accumulates on overhead cable trays and window sills. Kitchen area has greasy microwave turntable and fridge door handles. Restroom grout shows early mould development. Recommended: weekly extended after-hours clean including high dusting and kitchen deep clean.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when photographic evidence of all checklist items is submitted before 08:00",
+    "pirbStandard": "HASA after-hours protocol; SANS 1828:2018 chemical standard; OHSA provisions for after-hours worker safety",
+    "articleSections": [
+      {
+        "heading": "Minimising Office Disruption",
+        "body": "Our after-hours cleaning is designed to be invisible to your staff. The team enters after your last employee has left, using secure access codes that are logged and audited. Silent-rated vacuum cleaners (below 60dB) ensure no noise bleeds into neighbouring offices. No chemical fumes linger because the workspace is vacant for 10+ hours before the next occupancy. Staff arrive each morning to a freshly cleaned, sanitised and restocked office — they never see the cleaning happen. The same invisible service is available for early-morning pre-opening cleans."
+      },
+      {
+        "heading": "The Comprehensive Checklist",
+        "body": "Every after-hours clean follows a detailed checklist that covers: all workstation surfaces (desks, monitors, keyboards, phones) sanitised; all hard floors mopped with correct floor-type product; all carpets vacuumed with HEPA filtration; all restrooms deep-cleaned (toilets, urinals, sinks, mirrors, floors); all kitchen and break room areas cleaned (sinks, countertops, microwave interior, fridge exterior, kettle descaled); all waste bins emptied, liners replaced and recycling sorted; all high-touch points sanitised; and a final walk-through inspection. The completed checklist is photographed and uploaded to the Bouul portal."
+      },
+      {
+        "heading": "Secure Building Access",
+        "body": "We maintain a secure access management system for all after-hours work. Cleaning team members are vetted, reference-checked and bound by confidentiality agreements. Building access is managed through PIN codes, biometrics or security fobs, with entry and exit times logged. We coordinate with building management and security companies to ensure smooth access. For buildings with after-hours security personnel, we provide a monthly staff list with photographs. All our equipment is clearly branded, and team members wear identifiable uniforms."
+      },
+      {
+        "heading": "Communication and Quality Control",
+        "body": "A logbook is maintained at the office reception or communicated digitally through the Bouul portal. Each cleaning session's completion time, any issues noted, and restocking requirements are recorded. Office managers receive a daily notification when cleaning is complete, with photographs of key areas. Monthly quality inspections are conducted by our supervisory team, and the results are shared in a quarterly performance report. If any area does not meet the agreed standard, it is re-cleaned at no charge within 24 hours."
+      }
+    ]
+  },
+  {
+    "id": "desk_sanitising_and_workstation_hygiene",
+    "tag": "Office Cleaning",
+    "title": "Desk Sanitising and Workstation Hygiene",
+    "subtitle": "Deep clean and sanitise every workstation to reduce office illness transmission",
+    "image": "/scenes/cleaning_desk_sanitising.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "The average office desk harbours 400 times more bacteria than a toilet seat",
+    "problemBody": "Despite appearing clean, office desks are among the most contaminated surfaces in any workplace. Studies have found that desks, keyboards and phones carry bacteria counts far exceeding those found on restroom fixtures. The typical South African office worker eats lunch at their desk, leaving food crumbs that feed bacterial colonies. Mobile phones placed on desks, handbags and briefcases brought from public transport, and shared equipment like printers and coffee machines create a continuous cycle of contamination that contributes to the estimated 15 million sick days taken annually in South Africa.",
+    "bouulSolution": [
+      "Every workstation cleaned daily: desk surface, keyboard wiped, phone handset sanitised, monitor dusted",
+      "Hospital-grade disinfectant applied with verified contact time on all high-touch surfaces",
+      "Personal items (photos, plants, organisers) carefully lifted and returned to exact positions"
+    ],
+    "partsNeeded": [
+      "Alcohol-based surface sanitiser (70% IPA, SABS-approved)",
+      "Anti-static screen wipes for monitors",
+      "Keyboard cleaning gel and compressed air duster",
+      "Microfiber cloths (individual use per workstation)"
+    ],
+    "guidePricing": "R 40 – R 80 per workstation per visit (discounts for 20+ workstations)",
+    "timeline": "3–5 minutes per workstation; 20 workstations completed in 1–2 hours",
+    "aiPromptExample": "\"Describe a workstation sanitisation protocol for an open-plan South African office, including keyboard deep cleaning, phone sanitisation and monitor dusting.\"",
+    "aiDiagnosisOutput": "\"High bacterial load on desk surface near the phone and keyboard area. Keyboard crevices contain food debris and skin cells. Phone handset shows biofilm on earpiece. Mouse surface has degraded from hand oils. Recommended: daily alcohol wipe on all hard surfaces, weekly keyboard crevice cleaning with gel, and quarterly deep clean with UV-C wand.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when bacterial swab tests of 3 random workstations show 99.9% reduction",
+    "pirbStandard": "SANS 1828:2018 sanitisation standard; OHSA Section 8 general duty to maintain hygienic workplace; HASA workstation protocol",
+    "articleSections": [
+      {
+        "heading": "The Hidden Contamination Map",
+        "body": "Research conducted internationally and adopted by the NICD in South Africa shows a consistent pattern of office contamination. The telephone mouthpiece carries the highest bacterial count of any desk item due to proximity to the mouth. The spacebar of a keyboard harbours more bacteria than a public toilet flush button. The desk surface nearest the user, where hands rest, accumulates skin cells, food debris and hand-sanitiser residue that forms a biofilm. Our sanitisation protocol targets every item on the desk systematically, working from cleanest to dirtiest to avoid cross-contamination."
+      },
+      {
+        "heading": "Keyboard Deep Cleaning",
+        "body": "Keyboards are among the most difficult items to clean effectively. Our process begins by disconnecting the keyboard and turning it upside down to dislodge loose debris. Compressed air is used to blow out particles from between keys. A cleaning gel is pressed onto the keyboard surface — it flows into the gaps between keys and, when lifted, pulls out embedded dirt and bacteria. The key surfaces are then wiped with an alcohol-based sanitiser. For shared keyboards (reception, hot desks), we recommend a weekly deep clean and provide individual keyboard covers that can be sanitised daily."
+      },
+      {
+        "heading": "Phone and Headset Sanitisation",
+        "body": "Office phone handset and headsets are among the most personal and most contaminated items in any workspace. The earpiece and mouthpiece collect skin oils, earwax, saliva droplets and skin cells — a perfect breeding environment for bacteria. Our protocol uses a non-drip alcohol wipe on all surfaces of the handset, with special attention to the earpiece and mouthpiece grilles. The handset cord is wiped with a damp cloth to remove dust and hand oils. For headsets shared across shifts (common in call centres), we recommend a daily deep sanitisation between users."
+      },
+      {
+        "heading": "After-Cleaning Disinfection Persistence",
+        "body": "After sanitising, we apply a surface protector that creates an antimicrobial barrier lasting 24–48 hours. This film contains a quaternary ammonium compound that continues killing bacteria and viruses between cleaning visits. The protector is invisible, non-stick and safe for all desk surfaces. For high-risk environments — medical offices, schools, reception areas — we offer a UV-C wand treatment that provides additional sterilisation without chemicals. The Bouul portal tracks each workstation's cleaning and sanitisation history."
+      }
+    ]
+  },
+  {
+    "id": "kitchen_and_break_room_cleaning",
+    "tag": "Office Cleaning",
+    "title": "Office Kitchen and Break Room Cleaning",
+    "subtitle": "Thorough cleaning of shared food preparation and eating areas",
+    "image": "/scenes/cleaning_break_room.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Office kitchens are the most contaminated spaces in any workplace due to shared use and inadequate cleaning",
+    "problemBody": "The office break room — with its shared fridge, microwave, kettle and sink — is a hotspot for bacterial cross-contamination. Food spills in the microwave, milk spills in the fridge, and coffee stains on counters accumulate rapidly. In many South African offices, the kitchen cleaning budget is insufficient for the volume of use, leading to sour-smelling fridges, sticky floors and a breeding ground for pests. The Occupational Health and Safety Act requires that food preparation areas be maintained to a hygienic standard, yet the office kitchen is often the most neglected room in the building.",
+    "bouulSolution": [
+      "Complete break room clean: all appliances emptied, cleaned inside and out, surfaces sanitised, floors scrubbed",
+      "Fridge clean-out: old food discarded, shelves removed and washed, interior wiped with food-safe sanitiser",
+      "Microwave interior steam-cleaned, kettle descaled with citric acid, sink drain treated with enzyme cleaner"
+    ],
+    "partsNeeded": [
+      "Food-safe surface sanitiser (SABS 1828:2018)",
+      "Citric acid descaler for kettle and coffee machine",
+      "Enzyme drain cleaner for sink and drain",
+      "Stainless steel polish for appliance exteriors"
+    ],
+    "guidePricing": "R 150 – R 350 per session (small kitchen to full break room with appliances)",
+    "timeline": "30–60 minutes depending on kitchen size and use volume",
+    "aiPromptExample": "\"Describe an office break room cleaning procedure for a South African office kitchen with a fridge, microwave, kettle, coffee machine and dishwasher.\"",
+    "aiDiagnosisOutput": "\"Fridge interior has spilled milk residue and old food items past expiry. Microwave has baked-on food splatters. Kettle shows lime scale buildup (hard water area). Sink drain has biofilm and early odour. Recommended: fridge deep clean with food-safe sanitiser, microwave steam cleaning, kettle descaling, and enzyme drain treatment.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all appliances are clean inside and out and the kitchen passes a hygiene inspection",
+    "pirbStandard": "SANS 1828:2018 kitchen sanitisation; OHSA Section 9 (food preparation areas); HASA commercial kitchen protocol",
+    "articleSections": [
+      {
+        "heading": "The Kitchen Contamination Chain",
+        "body": "The office kitchen is a perfect system for bacterial spread. The chain begins with raw food brought in by staff, stored in a shared fridge, prepared on shared counters, cooked in a shared microwave, and eaten from shared utensils. Each point in this chain is a cross-contamination risk. Our approach breaks this chain by systematically cleaning each link: the fridge (the coldest link, where spills grow mould), the microwave (the hottest link, where splatters carbonise), the counter (the work link, where raw and cooked items meet), and the sink (the wet link, where biofilm thrives). Each link is cleaned with the appropriate product."
+      },
+      {
+        "heading": "Appliance Deep Cleaning",
+        "body": "The office microwave requires weekly deep cleaning. We use a steam bowl (water and lemon juice heated for 5 minutes) to loosen food splatters, then wipe all surfaces with a food-safe sanitiser. The fridge is emptied; all items are inspected for expiration, and any old or unlabeled food is respectfully discarded. Shelves and drawers are removed, washed in warm soapy water, dried and replaced. The kettle is descaled with food-grade citric acid — especially important in South Africa's hard-water areas. The coffee machine receives a full descaling and cleaning cycle. All appliance exteriors are polished with stainless steel cleaner."
+      },
+      {
+        "heading": "Pest Prevention",
+        "body": "A neglected office kitchen attracts pests. Crumbs under the toaster, spills behind the fridge, and uncovered bins are invitations to cockroaches, ants and rodents. Our cleaning includes moving all appliances to clean behind and underneath them. We inspect for signs of infestation (droppings, egg cases, gnaw marks) and report findings to the office manager. We also recommend a quarterly pest control treatment for the kitchen area. The Bouul portal includes a kitchen hygiene tracker that alerts you when cleaning is due and when pest treatments are scheduled."
+      },
+      {
+        "heading": "Stock Management and Restocking",
+        "body": "Beyond cleaning, we offer break room management services. We can monitor stock levels of tea, coffee, sugar, milk, dishwashing liquid, hand soap, paper towels and bin liners, and notify you when restocking is needed. For offices that prefer a full-service approach, we offer automated restocking as part of the cleaning contract. All stock is sourced from South African suppliers and delivered directly to your office. The Bouul portal allows you to set par levels for each consumable and receive automated replenishment alerts."
+      }
+    ]
+  },
+  {
+    "id": "boardroom_cleaning",
+    "tag": "Office Cleaning",
+    "title": "Boardroom and Meeting Room Cleaning",
+    "subtitle": "Immaculate presentation for your most important business meetings",
+    "image": "/scenes/cleaning_boardroom.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Boardrooms create the strongest impression on clients, but are often cleaned last",
+    "problemBody": "The boardroom is the face of your business. When clients or investors visit, the cleanliness of the boardroom signals your attention to detail and professional standards. Yet in many offices, boardroom cleaning is squeezed between other priorities — the table has water rings, the whiteboard has ghosting, the AV equipment is dusty, and the carpet shows chair marks. In South Africa's business culture, where relationship-building and face-to-face meetings are central to deal-making, a neglected boardroom can undermine months of sales effort.",
+    "bouulSolution": [
+      "Boardroom cleaning prioritised and scheduled before all other office areas on meeting days",
+      "Conference table polished, chairs cleaned of marks, whiteboard/glass board streak-free",
+      "AV equipment dusted, cables organised, floor vacuumed or mopped — complete presentation readiness"
+    ],
+    "partsNeeded": [
+      "Wood polish for timber conference tables (or appropriate surface cleaner)",
+      "Whiteboard cleaner and conditioner",
+      "Anti-static screen cloth for monitors and televisions",
+      "Carpet spot cleaner for chair marks"
+    ],
+    "guidePricing": "R 80 – R 150 per boardroom per visit",
+    "timeline": "15–30 minutes per boardroom",
+    "aiPromptExample": "\"Describe a boardroom cleaning protocol for a South African corporate office preparing for a client presentation, including table polishing, whiteboard cleaning and AV dusting.\"",
+    "aiDiagnosisOutput": "\"Conference table shows water ring marks and dull surface from wax buildup. Whiteboard has marker ghosting from incomplete erasing over 3+ months. AV equipment has fine dust on screens and in ventilation slots. Carpet shows castor wheel tracks near seating positions. Recommended: table strip and re-polish, whiteboard deep clean with specialist solution, electronic dusting with anti-static cloth.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when photographic evidence confirms boardroom is presentation-ready",
+    "pirbStandard": "HASA commercial presentation cleaning standard; SANS 1828:2018 surface care",
+    "articleSections": [
+      {
+        "heading": "Client-Ready Standards",
+        "body": "Our boardroom cleaning follows a client-ready standard that goes beyond ordinary office cleaning. The conference table is polished to a streak-free shine — we use a wood polish that restores the natural grain without a greasy residue. All six chairs are wiped, their castor wheels cleaned of tangled hair and fibres, and the chair legs checked for scuff marks. The whiteboard or glass board is cleaned with a dedicated solution that removes ghosting (residual marker ink that accumulates over months). Fresh markers and an eraser are placed on the sill. The AV remote is sanitised and placed in its designated position."
+      },
+      {
+        "heading": "AV Equipment Care",
+        "body": "Boardroom AV equipment — televisions, projectors, video conferencing cameras, soundbars — is a significant investment and a common failure point during presentations. Our cleaning protocol includes: dusting all equipment with anti-static cloths (never sprays near electronics), polishing screen surfaces with approved screen cleaner, cleaning camera lenses with a lens cloth, checking cable management and re-securing loose cables, and testing that the AV system powers on and produces a clear image. Any technical issues are reported to the facilities manager immediately."
+      },
+      {
+        "heading": "Between-Meeting Turnaround",
+        "body": "For offices that host multiple client meetings in a single day, we offer a between-meeting turnaround service. Within 30 minutes of a meeting ending, a cleaner enters to: clear and wipe the table, remove any used glasses or cups, spot-clean the carpet, freshen the air, restock water and glasses, and sanitise high-touch points. The room is reset to presentation-ready condition before the next attendees arrive. This service is especially valuable for serviced offices, co-working spaces and law firms."
+      },
+      {
+        "heading": "Quarterly Deep Clean",
+        "body": "Beyond the daily or per-meeting clean, boardrooms benefit from a quarterly deep clean that includes: professional carpet extraction (to remove chair-wheel compaction and spills), full windows and blinds cleaning, leather seat conditioning (if applicable), electronic equipment ventilation dust removal, and a complete cable audit to ensure the technology setup is tidy and functional. The Bouul portal schedules these quarterly services automatically and tracks the maintenance history of each boardroom."
+      }
+    ]
+  },
+  {
+    "id": "office_carpet_vacuuming",
+    "tag": "Office Cleaning",
+    "title": "Office Carpet Vacuuming and Maintenance",
+    "subtitle": "Daily HEPA vacuuming preserves carpet life and improves office air quality",
+    "image": "/scenes/cleaning_carpet_vacuum.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Infrequent vacuuming allows abrasive grit to grind down carpet fibres, reducing lifespan by half",
+    "problemBody": "Carpet manufacturers estimate that 85% of carpet wear is caused by dry soil being ground into the pile by foot traffic, not by the cleaning process. Every footstep crushes soil particles against carpet fibres like sandpaper, cutting, fraying and dulling the pile. In South African offices, where outdoor dust from red soil, construction and unpaved parking areas is tracked in daily, the abrasive load on carpets is significantly higher than in carpet standards labs. Without daily HEPA vacuuming, office carpets in Johannesburg, Pretoria and other inland areas can show visible wear in 12–18 months rather than the expected 5–7 years.",
+    "bouulSolution": [
+      "Daily vacuuming of all carpeted areas with commercial-grade HEPA-filter backpack vacuum",
+      "Overlapping passes in traffic lanes, systematic grid pattern in open areas, edge detail with crevice tool",
+      "Weekly deep vacuum with beater-bar unit for high-traffic areas to agitate and extract deep-set soil"
+    ],
+    "partsNeeded": [
+      "Commercial-grade HEPA backpack vacuum",
+      "Upright vacuum with beater bar for weekly deep cleaning",
+      "Crevice tool and upholstery attachment for edges and furniture",
+      "Walk-off mat system at entry points"
+    ],
+    "guidePricing": "R 80 – R 150 per hour (per cleaner for vacuuming, typically 1–2 hours per visit)",
+    "timeline": "Daily pass: 30–60 minutes per 100m²; weekly deep vacuum: 60–90 minutes per 100m²",
+    "aiPromptExample": "\"Describe a daily carpet vacuuming protocol for a South African corporate office with 400m² of broadloom carpet in open-plan and enclosed spaces.\"",
+    "aiDiagnosisOutput": "\"Traffic lane compaction visible in main corridor and kitchen approach path. Entrapment of red dust in entry area fibres. Edge dust accumulation along skirting boards. Recommended: daily backpack HEPA vacuum with traffic lane focus, weekly beater-bar deep cleaning, quarterly professional hot water extraction.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when daily vacuum logs and monthly carpet condition photos are uploaded",
+    "pirbStandard": "HASA commercial vacuum protocol; SANS 10232-1 carpet maintenance; OHSA Section 8 (clean work environment)",
+    "articleSections": [
+      {
+        "heading": "The 85% Rule of Carpet Wear",
+        "body": "The carpet industry's 85% rule states that the vast majority of carpet wear is caused by dry soil, not by cleaning. Each grain of sand or grit tracked into the office acts as an abrasive blade. Under foot pressure, these particles cut the carpet fibres, breaking the light-reflecting properties of the yarn. The result is a visible traffic lane that appears as a dark, worn path. The solution is straightforward: intercept and remove the soil before it is ground in. Our daily vacuuming program, combined with a walk-off mat system at every entry, can reduce abrasive wear by 80% and double carpet replacement intervals."
+      },
+      {
+        "heading": "Backpack vs Upright Vacuums",
+        "body": "Commercial offices benefit from a strategic combination of vacuum types. Backpack vacuums, worn by the operator, are the industry standard for daily cleaning. They allow free movement around desks and obstacles, reduce fatigue (the operator is not pushing a heavy machine), and the HEPA-filtration exhaust is directed above the operator (not kicking dust at floor level). Upright vacuums with beater bars are reserved for weekly deep cleaning — the beater bar agitates the carpet pile to loosen embedded soil that daily vacuuming misses. Both units carry HEPA filters that capture 99.97% of particles."
+      },
+      {
+        "heading": "Traffic Lane Strategy",
+        "body": "Not all carpet areas require equal vacuuming effort. Our protocol uses a traffic-density map to allocate vacuuming time: high-traffic lanes (entry paths, corridors, kitchen approaches) receive overlapping passes and a weekly beater-bar treatment; medium-traffic zones (open-plan aisles, cubicle paths) receive standard daily vacuuming; low-traffic zones (perimeter areas, storage rooms) receive vacuuming every second day. This targeted approach ensures the highest-wear areas receive the most attention without wasting effort on low-traffic zones. The Bouul portal generates the traffic-density map based on your office layout."
+      },
+      {
+        "heading": "Walk-Off Mat Systems",
+        "body": "The most effective soil control measure is prevention. A walk-off mat system at every office entry can capture up to 70% of the soil that would otherwise reach the carpet. The system consists of three zones: the exterior scraper mat (removes mud and gravel), the interior absorbent mat (captures moisture and fine dust), and the transition mat (final wipe before carpet). Our service includes mat placement consultation, weekly mat cleaning (the Bouul team picks up dirty mats, cleans them at our facility and returns them clean), and quarterly mat replacement assessments."
+      }
+    ]
+  }
+]

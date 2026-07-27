@@ -1,0 +1,278 @@
+[
+  {
+    "id": "hw-grade4-7",
+    "tag": "Homework Help",
+    "title": "Homework Help for Grade 4-7: Building Strong Academic Foundations",
+    "subtitle": "Support your child through the transition to senior primary with structured, individualised homework assistance",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Most SA parents spend 45 minutes per evening on homework battles instead of actual learning",
+    "problemBody": "The shift from Foundation Phase to Intermediate Phase is the biggest academic transition in the SA schooling system. Learners switch from learning to read to reading to learn, encounter formal assessments in multiple subjects, and face a dramatic increase in homework volume. Most parents want to help but struggle with CAPS updates and work schedules. Without structured support, learners develop homework avoidance patterns that persist through high school.",
+    "bouulSolution": [
+      "A qualified tutor works with the learner 2-4 times per week in 45-minute sessions completing homework and reinforcing classroom learning",
+      "The tutor communicates weekly with the classroom teacher via a progress sheet covering work completed, areas of difficulty, and recommended practice",
+      "Study skills are built alongside homework: time management, assignment breakdown, and self-checking strategies"
+    ],
+    "partsNeeded": [
+      "School textbooks, workbooks, and CAPS-aligned worksheets",
+      "Quiet, well-lit homework space with minimal distractions",
+      "Internet-connected device for online research",
+      "Stationery: pens, pencils, ruler, calculator, highlighters"
+    ],
+    "guidePricing": 190,
+    "timeline": "Ongoing — 2-4 sessions per week for the school term",
+    "aiPromptExample": "Create a 4-week homework plan for a Grade 5 learner struggling with maths (fractions) and English comprehension. Include CAPS-aligned weekly goals, practice exercises, and assessment checkpoints.",
+    "aiDiagnosisOutput": "Grade 5: strong oral participation but written gaps — fractions (cannot find common denominators), decimals (confuses tenths/hundredths), English comprehension (reads accurately but cannot infer). Homework completion rate 40%. Recommended 3 sessions/week.",
+    "escrowGuarantee": "Funds released per session. If homework completion does not improve within 8 weeks, 4 extra sessions free.",
+    "pirbStandard": "Tutors hold a bachelor's degree or final-year teaching qualification. SACE registration where applicable. Background screening required.",
+    "articleSections": [
+      {
+        "heading": "The Grade 4-7 Transition: What Changes and Why It Matters",
+        "body": "The move from Foundation Phase to Intermediate Phase brings fundamental changes: learners must read to learn, subjects multiply, homework volume triples, and formal assessments begin. Learners who do not adapt in Grade 4 are at significant risk of falling behind permanently. Homework support during these years is essential intervention, not optional enrichment."
+      },
+      {
+        "heading": "Common Homework Challenges by Subject",
+        "body": "Mathematics: the shift from concrete to abstract thinking with fractions, decimals, and word problems. Languages: reading comprehension and creative writing demands increase. Natural Sciences: formal scientific reports and experimental method introduced."
+      },
+      {
+        "heading": "Building Executive Function Skills",
+        "body": "Homework develops planning, organisation, time management, and self-monitoring — skills that predict academic success better than IQ. Our tutors build them explicitly alongside subject content."
+      },
+      {
+        "heading": "Parent Involvement Without the Battles",
+        "body": "When a tutor handles daily homework, parents can step back into a supportive role. We provide a weekly summary highlighting what was learned, areas needing practice, and ways parents can help without creating conflict."
+      }
+    ]
+  },
+  {
+    "id": "hw-grade8-9",
+    "tag": "Homework Help",
+    "title": "Homework Help for Grade 8-9: Navigating the Senior Phase Successfully",
+    "subtitle": "Build academic habits and subject mastery for the FET phase",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Grade 9 is the most failed year in SA schools",
+    "problemBody": "Grades 8-9 present a perfect storm: the transition to high school, increased subject complexity (Algebra, Natural Sciences, EMS), and adolescent developmental upheaval. Learners who fall behind in Grade 8 rarely catch up and are at high risk of dropping out before Matric.",
+    "bouulSolution": [
+      "A specialist tutor provides 2-3 sessions per week targeting problem subjects while maintaining progress in others",
+      "Structured homework completion plus exam preparation: past papers, study guides, and test-taking strategies",
+      "Subject choice guidance for Grade 10 selection aligned to strengths and career interests"
+    ],
+    "partsNeeded": [
+      "School textbooks and previous test papers for each subject",
+      "Scientific calculator approved for CAPS exams",
+      "Atlas for Geography, lab notebook for Science, financial calculator for EMS",
+      "Access to past provincial exam papers and marking guidelines"
+    ],
+    "guidePricing": 210,
+    "timeline": "Ongoing — 2-3 sessions per week throughout the school year",
+    "aiPromptExample": "6-week intervention for a Grade 8 learner who failed Maths Term 1. Cover algebra foundations, negative numbers, geometry basics, and word problems. Include CAPS alignment and milestones.",
+    "aiDiagnosisOutput": "Grade 8, Maths Term 1: 32%. Root causes: algebra missing (cannot simplify 2x+3x), negative numbers not understood, word problems avoided. Study habits: no revision schedule, homework skipped 3+/week. Recommended 3 sessions/week for 6 weeks.",
+    "escrowGuarantee": "Per-session release. If year-end average does not improve by 10 percentage points from Term 1 baseline, 4 extra sessions free.",
+    "pirbStandard": "Tutors hold a bachelor's degree in their teaching subjects. SACE registration required. Background screening.",
+    "articleSections": [
+      {
+        "heading": "The High School Transition Shock",
+        "body": "Learners go from one teacher to 7-10 subject teachers with different expectations, homework schedules, and assessment styles. Organisational demands multiply. Learners who thrived in primary often lack systems needed for high school."
+      },
+      {
+        "heading": "Subject-Specific Challenges in Grade 8-9",
+        "body": "Maths shifts to algebra — abstract thinking. Natural Sciences requires formal reports. EMS introduces accounting. Social Sciences demands extended writing and source analysis. Each subject has unique cognitive demands."
+      },
+      {
+        "heading": "The Critical Grade 9 Year",
+        "body": "Grade 9 determines subject choices for Grades 10-12 and ultimately university access and careers. Our tutors include subject choice guidance, helping learners make informed decisions with real data."
+      },
+      {
+        "heading": "Building Study Systems That Scale",
+        "body": "Active recall, spaced repetition, summarisation, and past paper practice must be developed in Grade 8-9. Our tutors build these skills systematically. Learners who master them find the FET phase manageable."
+      }
+    ]
+  },
+  {
+    "id": "hw-grade10-12",
+    "tag": "Homework Help",
+    "title": "Homework Help for Grade 10-12: Mastering the FET Phase for Matric Success",
+    "subtitle": "Targeted support for the years that determine university access",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Over 250,000 learners drop out between Grade 10 and Matric",
+    "problemBody": "The FET phase (Grades 10-12) introduces specialised content: Euclidean Geometry, Organic Chemistry, Financial Accounting. Learners must balance multiple subjects at higher cognitive levels while preparing for externally moderated finals. Many who managed in Grade 9 hit a wall in Grade 10.",
+    "bouulSolution": [
+      "A specialist FET tutor provides 2-3 sessions per week on curriculum content, past papers, and exam technique",
+      "Tracks performance against university entrance requirements and adjusts focus accordingly",
+      "Comprehensive exam prep begins 3 months before finals: revision timetables, mock exams, feedback"
+    ],
+    "partsNeeded": [
+      "Subject textbooks and CAPS-approved study guides for each FET subject",
+      "Scientific calculator (CASIO fx-82ZA or equivalent)",
+      "Past exam papers (last 5 years) with marking guidelines",
+      "Graph paper, tracing paper, geometry set, lab coat for practicals"
+    ],
+    "guidePricing": 240,
+    "timeline": "Ongoing — 2-3 sessions per week with intensification during exam periods",
+    "aiPromptExample": "12-week Matric prep plan for a Grade 12 learner taking Maths, Physical Sciences, Accounting, English. Target: Bachelor's pass for engineering. Include weekly content schedule and past paper milestones.",
+    "aiDiagnosisOutput": "Grade 12 June prelims: Maths 48%, Physical Sciences 42%, Accounting 56%, English 65%. Key gaps: Calculus differentiation, Trig equations, Chemical equilibrium, Cash flow statements. Recommended 3 sessions/week until September exams.",
+    "escrowGuarantee": "Per-session release. If learner does not achieve Bachelor's Degree pass after a full year of weekly sessions, 8 extra exam-prep sessions free.",
+    "pirbStandard": "FET tutors hold a relevant university degree with minimum 3 years teaching experience. SACE registration required.",
+    "articleSections": [
+      {
+        "heading": "The Grade 10 Jump: Why Learners Fall Behind",
+        "body": "Grade 10 is a step change in cognitive demand. Maths introduces Euclidean Geometry proofs. Sciences move from descriptive to quantitative. Learners who succeeded through memorisation find that strategy no longer works."
+      },
+      {
+        "heading": "Matric Examinations: What It Takes to Pass",
+        "body": "NSC exams assess three levels: recall (30%), application (50%), problem-solving (20%). A Bachelor's pass requires 40% in Home Language, 50% in four subjects, 30% in two. Engineering requires 60%+ in Maths and Science."
+      },
+      {
+        "heading": "Past Paper Practice: The Most Effective Strategy",
+        "body": "Practicing past papers under timed conditions is the most effective exam prep. Our tutors begin past paper drill from Term 2 of Grade 11, marking papers against official guidelines to identify gaps early."
+      },
+      {
+        "heading": "Managing Exam Stress",
+        "body": "The Matric year is extremely stressful. Our tutors are trained to recognise burnout signs and adjust pace. Learners who manage stress effectively perform up to 15% better in exams."
+      }
+    ]
+  },
+  {
+    "id": "hw-assignment-help",
+    "tag": "Homework Help",
+    "title": "Assignment Help: Research, Essays, and Projects",
+    "subtitle": "Structured guidance for school and university assignments across all subjects",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Most learners submit assignments without understanding the rubric",
+    "problemBody": "Learners consistently lose marks not because they lack knowledge, but because they do not understand the assessment rubric, manage time poorly, or rush submissions. Assignment panic leads to accidental plagiarism and substandard submissions.",
+    "bouulSolution": [
+      "The tutor works through the assignment: deconstruct brief, research, structure, draft, edit",
+      "Citation and referencing guidance ensures academic integrity compliance",
+      "Draft feedback before submission helps the learner improve before final grading"
+    ],
+    "partsNeeded": [
+      "Full assignment brief, rubric, and supplementary materials",
+      "Internet access and relevant online databases or library resources",
+      "Referencing guide (Harvard, APA, or MLA as required)",
+      "Previous marked assignments for benchmarking"
+    ],
+    "guidePricing": 200,
+    "timeline": "1-4 sessions per assignment depending on complexity",
+    "aiPromptExample": "Step-by-step breakdown for Grade 11 History: 'Analyse the causes and consequences of the Soweto Uprising of 1976.' Provide research question, source list, essay structure, thesis options, and Chicago referencing checklist.",
+    "aiDiagnosisOutput": "1500-word essay on Soweto Uprising. Current status: topic chosen, no structure, no research. Available time: 10 days. Recommended 4 sessions: research, outline, write, edit.",
+    "escrowGuarantee": "Per-session release. If assignment does not improve by one grade level, final session free.",
+    "pirbStandard": "Tutors hold a university degree in the relevant subject. Familiar with SA curriculum and university assessment standards. Plagiarism checking included.",
+    "articleSections": [
+      {
+        "heading": "Understanding the Assignment Brief",
+        "body": "The most common mistake is not reading the brief and rubric carefully. Our tutors start every session by analysing what is being assessed and how marks are allocated."
+      },
+      {
+        "heading": "Research Skills for SA Learners",
+        "body": "Tutors guide learners in search queries, source evaluation, note-taking, and organising findings. These skills transfer to every future assignment."
+      },
+      {
+        "heading": "Essay Structure and Argument",
+        "body": "A strong essay has a clear thesis, structured argument, and evidence-based conclusion. The P.E.E.L. method (Point, Evidence, Explanation, Link) is taught as a foundational structure."
+      },
+      {
+        "heading": "Academic Integrity",
+        "body": "Plagiarism has serious consequences. Our tutors teach proper citation, paraphrasing, and quotation use. Every assignment is checked for plagiarism before submission."
+      }
+    ]
+  },
+  {
+    "id": "hw-study-skills",
+    "tag": "Homework Help",
+    "title": "Study Skills: Learning How to Learn",
+    "subtitle": "Evidence-based techniques that improve grades by an average of 15%",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "80% of SA learners do not know how to study effectively",
+    "problemBody": "SA schools rarely teach study skills. Most learners default to re-reading and highlighting — the least effective techniques. Effective methods like active recall, spaced repetition, and interleaving are almost unknown. Learners study for hours with minimal results.",
+    "bouulSolution": [
+      "A study skills specialist assesses current methods and introduces evidence-based techniques",
+      "Creates a personalised study system: timetables, note-taking (Cornell, mind maps), revision strategies",
+      "Progress tracked through improved test scores and system adapted across the year"
+    ],
+    "partsNeeded": [
+      "Current textbooks and study materials",
+      "Previous test papers with marks and feedback",
+      "Notebook for Cornell note-taking",
+      "Timer or app for Pomodoro technique"
+    ],
+    "guidePricing": 180,
+    "timeline": "6-8 weekly sessions with independent system by Session 6",
+    "aiPromptExample": "6-session programme for a Grade 11 learner studying 15 hrs/week achieving 55-65%. Cover active recall, spaced repetition, Cornell notes, subject-specific methods for Maths and History.",
+    "aiDiagnosisOutput": "Studies 15 hrs/week using re-reading (5h), highlighting (3h), summaries (4h), past papers (3h). Low-utility methods dominate. Recommended: replace with active recall and spaced repetition, adopt Cornell notes, increase past paper practice to 6h/week.",
+    "escrowGuarantee": "Per-session release. If average does not improve by 5 percentage points within 12 sessions, 3 extra sessions free.",
+    "pirbStandard": "Specialists hold a qualification in educational psychology or learning support. Evidence-based techniques aligned with SA curriculum.",
+    "articleSections": [
+      {
+        "heading": "Active Recall: The Most Effective Technique",
+        "body": "Actively retrieving information from memory doubles retention vs re-reading. Techniques include self-testing, flashcards, teaching others, and brain dumps."
+      },
+      {
+        "heading": "Spaced Repetition",
+        "body": "The Forgetting Curve shows 50% of new info lost within 24 hours. Spaced repetition revisits material at increasing intervals: 1, 3, 7, 14, 30 days. Our specialists set up systems using Anki or a simple spreadsheet."
+      },
+      {
+        "heading": "Subject-Specific Study Strategies",
+        "body": "Maths: concept understanding plus practice. History: chronological frameworks and source analysis. Science: diagrams and mnemonics. Languages: vocabulary in context and extensive reading."
+      },
+      {
+        "heading": "The Pomodoro Technique",
+        "body": "25 minutes focused work, 5-minute break. After 3-4 cycles, a longer 15-30 minute break. This structure prevents burnout and maintains concentration."
+      }
+    ]
+  },
+  {
+    "id": "hw-reading-support",
+    "tag": "Homework Help",
+    "title": "Reading Support: Building Literacy from Foundation Phase to FET",
+    "subtitle": "Targeted intervention for learners who have fallen behind in reading proficiency",
+    "image": "/scenes/edu_homework_help.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "78% of SA Grade 4 learners cannot read for meaning",
+    "problemBody": "PIRLS consistently shows SA has the lowest reading literacy rate of participating countries. 78% of Grade 4 learners cannot read for meaning. This cascades: learners who cannot read proficiently by Grade 4 cannot access the curriculum in higher grades.",
+    "bouulSolution": [
+      "A literacy specialist assesses reading level and creates an individualised plan",
+      "Weekly sessions focus on specific gaps: phonics, sight words, fluency, vocabulary, comprehension",
+      "Reading material matched to interest and ability level, progressively increasing in complexity"
+    ],
+    "partsNeeded": [
+      "Age-appropriate books at the learner's current reading level",
+      "Phonics cards or systematic phonics programme",
+      "Reading log to track progress and new vocabulary",
+      "Library membership or digital reading platform"
+    ],
+    "guidePricing": 175,
+    "timeline": "2 sessions per week for 12-24 weeks to achieve one reading level improvement",
+    "aiPromptExample": "12-week intervention for a Grade 5 learner reading at Grade 2 level. Cover phonics (vowel digraphs, blends), sight words (Fry's second 100), fluency (repeated reading), and comprehension strategies.",
+    "aiDiagnosisOutput": "Grade 5, reading age Grade 2.5. Phonics: struggles with blends and vowel digraphs. Sight words: under 50 wpm. Fluency: word-by-word. Comprehension: literal 60%, inferential 20%. Recommended 2 sessions/week for 12 weeks.",
+    "escrowGuarantee": "Per-session release. If reading age does not improve by one year within 24 sessions, 6 extra sessions free.",
+    "pirbStandard": "Specialists hold literacy education or remedial teaching qualifications. Evidence-based phonics methods used (Jolly Phonics, THRASS, or CAPS-aligned).",
+    "articleSections": [
+      {
+        "heading": "The Reading Crisis in SA Schools",
+        "body": "81% of Grade 4 learners cannot read for meaning. The DBE Reading Panel recommends daily instruction and individualised support. Our programme implements these recommendations."
+      },
+      {
+        "heading": "Phonics: The Foundation",
+        "body": "Systematic phonics teaches letter-sound relationships. Learners who master phonics can decode unfamiliar words independently. Our programme progresses through letter sounds, blending, consonant blends, vowel digraphs, and multisyllabic words."
+      },
+      {
+        "heading": "Reading Fluency and Comprehension",
+        "body": "Fluency bridges decoding and comprehension. Word-by-word readers cannot remember what they read. Our programme uses repeated reading, paired reading, and assisted reading to build fluency."
+      },
+      {
+        "heading": "Supporting Reading at Home",
+        "body": "Parents receive guidance on reading aloud, questions to ask during reading, choosing books at the right level, and creating a reading-friendly home environment."
+      }
+    ]
+  }
+]

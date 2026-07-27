@@ -1,0 +1,210 @@
+[
+  {
+    "id": "burst_pipe_emergency",
+    "tag": "Emergency Plumbing",
+    "title": "Burst Pipe Emergency Repair",
+    "subtitle": "How to shut off your water, book a certified plumber in minutes, and get your home back to dry with Zola AI damage assessment.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "A pipe bursts in the middle of the night — water is spreading fast, and you can't find the main valve.",
+    "problemBody": "A burst pipe escalates from a drip to a flood within minutes. Structural damage, mould risk, and electrical hazards compound by the hour. Most home insurance excesses in South Africa range from R2,000 to R5,000, but that only helps once the leak is stopped. The real nightmare is finding a PIRB-registered plumber who answers at 2 AM during load-shedding, when electric sump pumps are offline and the water just keeps rising.",
+    "bouulSolution": [
+      "Tap 'Emergency Plumbing' on Bouul — no phone call, no forms. Bouul shows nearest PIRB-registered plumbers ranked by arrival time and verified emergency response ratings.",
+      "Your booking triggers a priority alert. The plumber receives your location, burst type (copper/PVC/flexi-hose), and water shut-off status so they arrive with the right fittings.",
+      "Zola AI opens a diagnostic session within seconds: snap the burst area and your water meter, and Zola assesses damage class, estimates drying+restoration timeline, and holds the quote in escrow."
+    ],
+    "partsNeeded": [
+      "Copper or PVC replacement pipe (size-matched to existing line)",
+      "Compression or push-fit couplers and a new shut-off valve",
+      "PTFE thread seal tape and pipe joint compound",
+      "Pipe cutter, adjustable spanner, and a wet-vac for extraction"
+    ],
+    "guidePricing": "R850 – R2,500",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Upload a photo of the burst pipe and your water meter reading. Say: 'Pipe burst in the kitchen ceiling, water is pooling. Main valve is stuck — can't shut it off.'",
+    "aiDiagnosisOutput": "Burst Type: Copper pipe, pinhole rupture. Damage Class: Class 3 (water absorption into ceiling board). Estimated Drying Time: 3–5 days with industrial dehumidifiers. Escrow Quote: R1,850 includes pipe repair, drywall patch, and 48-hour moisture check.",
+    "escrowGuarantee": "Funds are released 24 hours after you confirm the repair holds pressure and the area is drying as expected. If the plumber fails to show within the ETA window, your full booking amount is immediately released back to your wallet.",
+    "pirbStandard": "PIRB Registered Plumber (Class I or II) — SANS 10252-1 compliance for water supply and drainage installations. All repairs warranted per the PIRB Code of Conduct.",
+    "articleSections": [
+      { "heading": "What a Burst Pipe Emergency Looks Like", "body": "A burst pipe can happen for several reasons: a frozen copper line that splits during a cold snap, a corroded steel joint that finally gives way, or a flexi-hose on your geyser that blows under pressure. South African homes with uninsulated roof spaces are especially vulnerable during winter cold fronts. The water can travel along ceiling boards, down walls, and into electrical fittings before you even locate the source." },
+      { "heading": "How Bouul Gets a Plumber to You Fast", "body": "Open Bouul and tap the 'Emergency Plumbing' quick-action card. No forms, no call centre — just your location and a short description of the emergency. Bouul's network shows you available PIRB-registered plumbers in your area, ranked by their verified emergency response time. Each plumber's profile displays their PIRB registration number, insurance details, and real customer ratings for emergency callouts." },
+      { "heading": "Zola AI Visual Damage Assessment", "body": "Once your booking is accepted, Zola AI activates. Take a photo of the burst area, the water meter, and any pooling water. Zola's computer vision identifies the pipe material, rupture type, and estimates the water damage classification. It generates a scope of work and a fixed-price quote that's held in digital escrow — no surprise charges if additional drywall removal or dehumidification is needed." },
+      { "heading": "South African Compliance & Standards", "body": "All Bouul plumbers are PIRB-registered (Plumbing Industry Registration Board) and work to SANS 10252-1 standards for water supply and drainage. Geyser-related work follows SANS 10254. Every repair comes with a PIRB-compliant certificate of workmanship. Bouul verifies these credentials before any plumber is activated on the platform." },
+      { "heading": "Digital Escrow: Your Money Is Safe", "body": "Your payment is held in digital escrow from the moment you book. The funds are only released to the plumber after you confirm the repair is complete, holds pressure, and the area is drying as expected. If the plumber doesn't arrive within the confirmed ETA window, the full amount is automatically refunded. No chasing, no disputes — just protection." },
+      { "heading": "How to Prepare While You Wait", "body": "If you can safely reach it, turn off your main water supply valve (usually outside the house or under the kitchen sink). Switch off the geyser breaker at your DB board. Take photos of the damage for insurance purposes. Clear the area around the burst so the plumber has immediate access. Bouul's app shows you the plumber's real-time ETA after booking." }
+    ]
+  },
+  {
+    "id": "blocked_drain_clearing",
+    "tag": "Drain Cleaning",
+    "title": "Blocked Drain Clearing & Sewer Line Repair",
+    "subtitle": "How to unclog a blocked drain using Bouul, Zola AI sewer camera diagnostics, and PIRB-approved clearing methods.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "The sink won't drain, the shower is backing up, and that smell is getting worse by the hour.",
+    "problemBody": "Blocked drains are one of the most common — and most unpleasant — plumbing emergencies in South African homes. From kitchen sinks clogged with cooking oil and food scraps to bathroom drains choked with hair and soap scum, a blockage disrupts your entire household. Sewer line blockages are worse: raw sewage backing up into your bath or shower is a health hazard that needs immediate professional attention before bacteria spreads.",
+    "bouulSolution": [
+      "Open Bouul and select 'Blocked Drain' under Plumbing. Describe the location (kitchen sink, shower, main sewer line) and the symptoms — Bouul matches you with a plumber who has the right drain-clearing equipment.",
+      "Your selected plumber arrives with a drain snake, high-pressure water jetter, or sewer camera depending on the blockage type assessed through Zola AI.",
+      "Zola AI reviews your photos and symptoms to distinguish between a simple sink blockage and a collapsed sewer line — saving you the cost of unnecessary excavation."
+    ],
+    "partsNeeded": [
+      "Drain snake (manual or electric auger)",
+      "High-pressure water jetter (up to 150 bar)",
+      "CCTV sewer inspection camera",
+      "Enzyme-based drain cleaner and rubber gloves"
+    ],
+    "guidePricing": "R450 – R1,800",
+    "timeline": "Duration: 30 Min – 2 Hours",
+    "aiPromptExample": "Upload a photo of the blocked drain and describe: 'Kitchen sink is completely blocked, water is backing up. There's a foul smell. When I run the washing machine, water comes up in the shower.'",
+    "aiDiagnosisOutput": "Blockage Location: Main sewer line beyond the house connection. Likely Cause: Grease build-up combined with foreign object. Sewer Line Integrity: No visible collapse on camera preview — high-pressure jetting likely sufficient. Escrow Estimate: R950 includes CCTV inspection and hydro-jetting.",
+    "escrowGuarantee": "Funds are held in escrow and released only after you confirm the drain is flowing freely and the CCTV camera shows a clear line. If the blockage returns within 48 hours, the re-clear is free.",
+    "pirbStandard": "PIRB-registered plumbers following SANS 10252-2 for drainage. CCTV inspection reports provided. All work guaranteed against the PIRB Code of Conduct.",
+    "articleSections": [
+      { "heading": "Why Blocked Drains Need a Professional", "body": "DIY drain chemicals are corrosive and can damage PVC pipes, especially in older South African homes with mixed plumbing materials. A plunger only works for surface clogs. For blockages deeper in the system — the 'T-junction' under your foundation, or the sewer line connection to the municipal mains — you need a professional with a drain auger or high-pressure water jetter." },
+      { "heading": "Booking a Drain Plumber on Bouul", "body": "Open Bouul and select 'Plumbing' then 'Blocked Drain.' Describe the location, how long it's been blocked, and any associated smells or backups. Bouul's matching algorithm selects a plumber with commercial drain-clearing equipment — not just a basic toolbox — and shows their PIRB credentials, insurance status, and customer ratings for similar drain jobs." },
+      { "heading": "Zola AI: Camera Inspection Analysis", "body": "Zola AI reviews your photo of the blocked drain and your symptom description to assess whether this is a simple sink blockage or a deeper sewer line issue. It recommends whether a CCTV camera inspection is needed before work starts, so you're not paying for exploratory digging. The AI estimates the blockage depth, likely cause (grease, tree roots, foreign object), and the right clearing method." },
+      { "heading": "What the Plumber Does", "body": "First, the plumber confirms the blockage location. For simple clogs, a manual or electric auger breaks through the obstruction. For stubborn blockages, a high-pressure water jetter blasts the pipe clean. If the blockage is recurring, the plumber runs a CCTV camera through the line to check for pipe damage, tree root intrusion, or collapsed sections — and shows you the footage." },
+      { "heading": "Escrow & Guarantee", "body": "Your payment sits in Bouul's escrow until you confirm the drain is running freely. Most blockages come with a 48-hour guarantee: if the water backs up again within two days, the plumber returns at no extra charge. The full CCTV inspection report is yours to keep." }
+    ]
+  },
+  {
+    "id": "geyser_installation_repair",
+    "tag": "Hot Water",
+    "title": "Geyser Installation & Heating Element Repair",
+    "subtitle": "How to book a certified geyser installer on Bouul, understand Zola AI thermal diagnostics, and navigate SANS 10254 compliance.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "The water went cold mid-shower — and it's winter. Your geyser is leaking, tripping the breaker, or just not heating.",
+    "problemBody": "A geyser failure in a South African winter is an emergency. Cold showers, no hot water for washing dishes or laundry, and the risk of the geyser bursting and flooding your ceiling. The average South African household uses a 150-litre electric geyser, and when the element burns out or the thermostat fails, you need a certified installer who can diagnose the problem without wasting time replacing parts that aren't broken.",
+    "bouulSolution": [
+      "Select 'Geyser Repair' or 'Geyser Installation' under Plumbing on Bouul. Choose between element replacement, thermostat fix, or full geyser replacement — or let Zola AI diagnose the issue from your photos.",
+      "Bouul matches you with a plumber who holds a Wireman's Licence and PIRB registration — required by South African law for any electrical water heating work.",
+      "Zola AI analyses the geyser make, model, and visible symptoms from your photos to determine whether a simple element swap will work or if the geyser needs full replacement."
+    ],
+    "partsNeeded": [
+      "Geyser element (1.5 kW, 2 kW, 3 kW or 4 kW — matched to your unit)",
+      "Thermostat (element or combined type)",
+      "Temperature and pressure relief valve (TPR valve)",
+      "Sacrificial anode rod and isolation valve set"
+    ],
+    "guidePricing": "R950 – R5,500",
+    "timeline": "Duration: 1 – 4 Hours",
+    "aiPromptExample": "Upload a photo of your geyser, the distribution board, and any leaking water. Say: '150L Kwikot geyser. Water is lukewarm, the element trips the breaker after 10 minutes. There's a small drip from the overflow pipe.'",
+    "aiDiagnosisOutput": "Geyser: Kwikot 150L (2018 model). Diagnosis: Element burnout due to calcium build-up — thermostat reading 45°C, not reaching setpoint. TPR valve weeping (normal for pressure fluctuation). No tank corrosion visible. Escrow Quote: R1,650 includes new 3kW element, thermostat, and system flush.",
+    "escrowGuarantee": "Funds are released 48 hours after installation, giving you time to verify the geyser holds temperature, doesn't trip the breaker, and shows no leaks. Element and thermostat carry a 12-month warranty through Bouul.",
+    "pirbStandard": "PIRB Registered Plumber + Wireman's Licence (for electrical geyser work). SANS 10254 compliance for geyser installation and safety. COC (Certificate of Compliance) provided for all electrical work.",
+    "articleSections": [
+      { "heading": "Common Geyser Problems in South Africa", "body": "The most frequent geyser failures in SA are: blown element (mineral build-up from hard water), faulty thermostat, leaking TPR valve, and corroded tank (especially in older Kwikot or Atlas units). Load-shedding also stresses geysers — repeated power cycling accelerates element wear. A leaking geyser should never be ignored: it can rust through the ceiling and collapse within days." },
+      { "heading": "Booking a Certified Geyser Installer on Bouul", "body": "Bouul only lists plumbers who hold both PIRB registration and a valid Wireman's Licence for geyser electrical work. When you book through 'Geyser Repair' or 'Geyser Installation', Bouul verifies these credentials. You can see the installer's certification numbers, insurance details, and real customer reviews for previous geyser jobs before confirming." },
+      { "heading": "Zola AI Thermal Diagnostics", "body": "Take a photo of your geyser — the nameplate showing make, model, and year — plus the distribution board (DB) and any visible leaks. Zola AI identifies the geyser type and common failure patterns for that model. It distinguishes between an element failure (water lukewarm, breaker trips), a thermostat fault (water scalding hot or barely warm), and a tank failure (continuous leaking, rusty water)." },
+      { "heading": "COC & Compliance Requirements", "body": "All geyser electrical work in South Africa requires a Certificate of Compliance (COC). Bouul ensures your installer provides one. Without a COC, your home insurance may not cover geyser-related damage. The COC verifies that the geyser is installed to SANS 10254 standards, the TPR valve is correctly piped, and the electrical circuit is properly rated and bonded." },
+      { "heading": "Escrow & Warranty", "body": "Your payment is held in escrow for 48 hours after the installation. This gives you two full days to test that the geyser maintains set temperature, doesn't trip the breaker during load-shedding recovery, and shows no drips. Replacement elements and thermostats carry a 6-12 month warranty. If the same part fails within warranty, Bouul arranges a free replacement callout." }
+    ]
+  },
+  {
+    "id": "leaking_toilet_repair",
+    "tag": "Toilet & Sanitaryware",
+    "title": "Leaking Toilet Repair & Cistern Replacement",
+    "subtitle": "How to fix a running toilet, replace a cistern mechanism, or install new sanitaryware through Bouul.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "That toilet has been running for days and your water bill is climbing — or it won't flush at all.",
+    "problemBody": "A running toilet can waste up to 200 litres of water per day in South African homes, adding hundreds of rand to your municipal bill. A toilet that won't flush properly, leaks from the base, or has a cracked cistern is worse — it's unsanitary, inconvenient, and can damage your bathroom flooring. Many homeowners try DIY repairs first, only to make the problem worse by mixing incompatible cistern mechanisms from different brands.",
+    "bouulSolution": [
+      "Select 'Toilet Repair' under Plumbing on Bouul. Describe whether the toilet is running, not flushing, leaking from the base, or has a cracked cistern — or upload a photo for Zola AI diagnosis.",
+      "Bouul matches you with a plumber experienced in sanitaryware repair — not all plumbers specialise in toilet mechanisms and concealed cisterns.",
+      "Your booking is recorded, and the plumber arrives with a range of common cistern mechanisms (fluidmaster, grohe, local SA brands) so they can fix it in one visit."
+    ],
+    "partsNeeded": [
+      "Cistern inlet valve (ball-valve or pressure-reducing type)",
+      "Flush mechanism (syphon or push-button diaphragm)",
+      "Pan connector and wax seal (for base leaks)",
+      "Flexi-hose connector and isolation valve"
+    ],
+    "guidePricing": "R350 – R1,200",
+    "timeline": "Duration: 30 Min – 1.5 Hours",
+    "aiPromptExample": "Upload a photo of the toilet cistern (open the lid) and the base. Say: 'Toilet runs constantly, water trickles into the bowl. Handle sticks sometimes. No visible leak at the base.'",
+    "aiDiagnosisOutput": "Issue: Worn inlet valve seal — water bypasses the shut-off at the fill line. Flush mechanism: Diaphragm intact but handle linkage stiff. Cistern: No cracks. Escrow Estimate: R480 includes new inlet valve, handle linkage adjustment, and cistern flush test.",
+    "escrowGuarantee": "Payment is released after you confirm the toilet fills properly, stops filling at the correct water level, flushes cleanly with one press, and shows no leaks at the base or supply line.",
+    "pirbStandard": "PIRB-registered plumber. Work complies with SANS 10252-2 for sanitary plumbing. Water-saving devices (dual-flush mechanisms) fitted per municipal water conservation bylaws where applicable.",
+    "articleSections": [
+      { "heading": "The Cost of a Running Toilet", "body": "A toilet that runs continuously wastes roughly 25-50 litres per hour — that's 600-1,200 litres per day. At South African municipal water rates (around R15-R25 per kilolitre depending on the municipality and stepped tariff), that's an extra R200-R500 per month on your bill. The fix is usually a R30-R90 inlet valve seal that takes a plumber 15 minutes to replace." },
+      { "heading": "Booking Toilet Repair on Bouul", "body": "Under 'Plumbing' on Bouul, select 'Toilet Repair.' Describe the symptoms: running water, poor flush, leak at base, or cracked cistern. The booking form asks you which type of cistern you have (concealed wall-hung, standard close-coupled, or low-profile) so the plumber can bring the right parts. You'll see verified ratings from other customers who've had similar sanitaryware repairs." },
+      { "heading": "Zola AI Cistern Diagnostics", "body": "Upload a photo of the inside of your cistern with the lid off. Zola AI identifies the cistern brand, the type of inlet valve (brass ball-valve or modern pressure-reducing) and flush mechanism. It can spot a worn rubber seal, a cracked float arm, or a calcified diaphragm — and tells you exactly which part needs replacing before the plumber arrives." },
+      { "heading": "What to Expect from a Toilet Repair", "body": "The plumber will turn off the isolation valve, flush to empty the cistern, remove the faulty mechanism, install the new part, and test for proper fill level and clean flush. If the leak is at the base, the toilet may need to be removed and the pan connector replaced. A new wax seal ensures odour-free operation. Most repairs take under an hour." }
+    ]
+  },
+  {
+    "id": "water_leak_detection",
+    "tag": "Leak Detection",
+    "title": "Water Leak Detection & Underground Pipe Repair",
+    "subtitle": "How to find hidden water leaks with Zola AI acoustic diagnostics and Bouul's leak detection specialists.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "Your water bill doubled this month but there's no visible leak anywhere in the house.",
+    "problemBody": "A hidden underground water leak is one of the most frustrating problems a homeowner can face. The water meter is spinning, you're being hit with high municipal water charges, and you can't find a wet patch anywhere. These are usually underground pipe leaks — in the garden, under the driveway, or beneath the concrete slab of your house. Traditional detection means digging up half your property. Modern detection uses acoustic sensors and thermal imaging, and Bouul connects you to plumbers who have this equipment.",
+    "bouulSolution": [
+      "Select 'Leak Detection' under Plumbing on Bouul. Upload a photo of your water meter reading and describe the unusual consumption pattern.",
+      "Bouul matches you with a leak detection specialist who carries acoustic listening sticks, ground microphones, and thermal imaging cameras — not just a shovel.",
+      "Zola AI correlates your water meter readings with your household size and typical consumption patterns to estimate leak size and approximate location before the specialist arrives."
+    ],
+    "partsNeeded": [
+      "Acoustic listening stick or ground microphone",
+      "Thermal or infrared camera",
+      "Pipe locator / cable avoidance tool (CAT)",
+      "Excavation tools and PVC/copper repair couplers"
+    ],
+    "guidePricing": "R1,200 – R4,500",
+    "timeline": "Duration: 1 – 4 Hours (detection + same-day repair)",
+    "aiPromptExample": "Upload a photo of your water meter and your latest municipal bill. Say: 'Water usage jumped from 15kl to 45kl per month. No visible leaks anywhere. I've checked all the taps and toilets. The meter is still spinning when everything is off.'",
+    "aiDiagnosisOutput": "Analysis: Consumption anomaly detected — 200% increase consistent with a pressurised leak. Household baseline: 4 occupants, 520L/day. Current: 1,500L/day. Estimated Leak Size: 5-8 litres/minute. Likely Location: Garden irrigation line or main supply pipe between meter and house. Escrow Quote: R2,200 includes acoustic detection survey, one excavation point, and pipe repair.",
+    "escrowGuarantee": "Funds are released after you confirm the leak is stopped, the meter no longer spins with all taps off, and your water pressure is restored. If the specialist can't locate the leak within the quoted scope, no payment is taken.",
+    "pirbStandard": "PIRB-registered leak detection specialists. SANS 10252-1 compliant repairs. All excavations restored to a safe condition. Water conservation advice provided.",
+    "articleSections": [
+      { "heading": "The Signs of a Hidden Leak", "body": "A sudden spike in your municipal water bill is the clearest sign. Check your water meter at night: note the reading before bed, don't use any water, and check again first thing. If the meter moved, you have a leak. Other signs: damp patches in the garden that never dry out, a warm spot on the concrete floor (for hot water pipes), low water pressure, or the sound of running water when all taps are off." },
+      { "heading": "How Leak Detection Works", "body": "Professional leak detectors use acoustic methods: a listening stick placed on pipes and fittings amplifies the hissing sound of escaping water. Ground microphones pinpoint the loudest point. Thermal cameras show temperature differences caused by leaking water. Pipe locators trace the exact path of underground pipes so the excavation is minimal — often just one small hole instead of a trench across your entire garden." },
+      { "heading": "Zola AI Consumption Analysis", "body": "Upload your water meter reading and municipal bill to Bouul. Zola AI calculates your household's typical daily consumption based on occupancy and compares it to your current usage. It estimates the leak rate, the likely pressure at the leak point, and whether the leak is on the supply side (continuous) or drainage side (intermittent). This helps the specialist choose the right tools before they arrive." },
+      { "heading": "Escrow Protection for Detection Services", "body": "Leak detection is an investigative service, and Bouul's escrow handles it fairly. If the specialist cannot locate the leak within the agreed scope, you pay nothing. Once the leak is found and repaired, escrow releases funds only after you verify the meter holds steady. If the repair fails and the leak reappears, Bouul coordinates a free follow-up within the warranty period." }
+    ]
+  },
+  {
+    "id": "tap_basin_installation",
+    "tag": "Fixture Installation",
+    "title": "New Basin, Tap, or Mixer Installation",
+    "subtitle": "How to install a new basin, kitchen sink, or mixer tap through Bouul — from choosing fixtures to final connection.",
+    "image": "/scenes/plumbers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Plumbing Operations Team",
+    "problemHeadline": "You bought a beautiful new basin or tap set, but now you need someone who can plumb it in properly — not just connect the flexi-hoses.",
+    "problemBody": "Installing a new basin or tap seems straightforward until you realise the waste pipe doesn't align with your existing plumbing, the water supply lines need repositioning, or the wall-mounted basin needs proper reinforcement for South African masonry walls. A poorly installed basin leads to leaks, mould, and expensive wall damage. Even a simple mixer tap replacement needs the right tools and sealing techniques to avoid pinhole leaks behind your vanity.",
+    "bouulSolution": [
+      "Select 'Tap/Basin Installation' under Plumbing on Bouul. Upload photos of your existing setup and the new fixture you want installed.",
+      "Bouul matches you with a plumber experienced in sanitaryware fitting — they bring the correct waste kits, sealants, and wall fixings for your specific fixture type.",
+      "Zola AI reviews your photos to confirm the new fixture is compatible with your existing plumbing layout and identifies any additional parts you need (extended waste pipes, offset connectors) before the job starts."
+    ],
+    "partsNeeded": [
+      "Flexi-hose connectors (hot and cold, braided stainless steel)",
+      "Bottle trap or P-trap waste kit (sized to the basin weir outlet)",
+      "Plumber's putty or silicone sealant (for tap flanges and basin seals)",
+      "Adjustable spanner, basin wrench, and PTFE tape"
+    ],
+    "guidePricing": "R350 – R1,500",
+    "timeline": "Duration: 1 – 2 Hours",
+    "aiPromptExample": "Upload photos of your existing basin plumbing (under-sink pipes) and the new tap or basin. Say: 'Replacing a pedestal basin with a wall-hung model. The existing waste pipe comes out of the wall at 200mm height — I think the new basin needs it lower.'",
+    "aiDiagnosisOutput": "Compatibility Check: New basin waste outlet is 32mm vs existing 40mm pipe — a reducing connector is needed. Supply lines: Existing copper 15mm compression, new tap uses 10mm flexi-hoses. Wall Bracket: Wall-hung basin requires cavity anchors for drywall or expansion bolts for brick. Escrow Estimate: R680 includes plumbing connections, waste adaptation, and wall fixing.",
+    "escrowGuarantee": "Funds are released after you confirm the basin drains freely, no water leaks from any connection under the basin or behind the wall, and both hot and cold taps operate correctly.",
+    "pirbStandard": "PIRB-registered plumber. SANS 10252-2 compliance for sanitary plumbing. Water-efficient fittings (5-star or higher rating) recommended per SA water conservation guidelines.",
+    "articleSections": [
+      { "heading": "Why Fixture Installation Requires a Pro", "body": "A basin or tap that leaks behind the vanity can go undetected for weeks, soaking particle-board cabinet bases and causing mould. The most common DIY mistakes: using flexi-hoses that are too long (they kink and reduce flow), not seating the tap flange seal correctly, and failing to support wall-hung basins into the brickwork rather than just the plaster. A professional installation ensures the connections are watertight, the drainage has the correct fall, and the fixture is safely secured." },
+      { "heading": "Booking Your Installation on Bouul", "body": "Under 'Plumbing', select 'Tap & Basin Installation.' Upload photos of the existing plumbing — the supply pipes, waste pipe exit point, and the space where the new fixture will go. Also upload a photo or link of the new fixture. Bouul uses this to match you with a plumber who has experience with that type of fixture. Review their verified customer ratings and PIRB credentials before confirming." },
+      { "heading": "Zola AI Compatibility Checker", "body": "Before the plumber arrives, Zola AI scans your photos and checks compatibility. It identifies your existing pipe sizes (the standard South African 15mm copper for supply and 32mm or 40mm PVC for waste), measures the waste outlet height, and checks whether the new fixture will align. It flags any additional parts needed — like an offset waste connector or extended flexi-hoses — so the plumber brings everything in one trip." },
+      { "heading": "What the Installation Includes", "body": "The plumber isolates the water supply, removes the old fixture (if applicable), installs the new basin bracket or pedestal, fits the basin, connects the waste (trap and pipework), connects the hot and cold supply via flexi-hoses, seals the tap flange to the basin surface, and tests for leaks. They'll also check that the basin doesn't rock and the pipes don't rattle behind the wall." }
+    ]
+  }
+]

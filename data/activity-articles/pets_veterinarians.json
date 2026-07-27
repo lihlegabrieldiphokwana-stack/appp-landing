@@ -1,0 +1,278 @@
+[
+  {
+    "id": "vet-001",
+    "tag": "veterinarians",
+    "title": "Annual Checkups: What Your Vet Looks For and Why",
+    "subtitle": "That yearly visit is about more than vaccinations - it's your pet's health baseline.",
+    "image": "/scenes/vet-checkup.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "You haven't taken your dog for a checkup in 3 years because 'he seems fine.'",
+    "problemBody": "Dogs and cats age 5-7 times faster than humans. A 'seems fine' pet may have early kidney disease, dental abscesses, arthritis, or heart murmurs that are invisible to an untrained eye. By the time you notice weight loss, increased thirst, or stiffness, the disease is often advanced. SA veterinary surveys show that 60% of dogs over 7 have periodontal disease requiring treatment and 30% of cats over 10 have chronic kidney disease - both are manageable if caught early, but expensive when diagnosed in crisis.",
+    "bouulSolution": [
+      "Bouul connects you to SAVA-registered vets with transparent, upfront pricing for annual wellness exams",
+      "Wellness packages bundle exam + vaccines + parasite prevention at 15-25% below individual pricing",
+      "Digital health records shared with you after every visit - your pet's history follows them anywhere"
+    ],
+    "partsNeeded": [
+      "Vaccination card (R50-R100 for new one if lost)",
+      "Faeces sample (fresh, within 6 hours) for parasite check",
+      "Fasting (8-12 hours) if bloodwork is planned",
+      "Medical history from previous vets (free, request transfer)"
+    ],
+    "guidePricing": "R300-R600 for wellness exam; R350-R500 for bloodwork; R150-R250 for faecal float; R100-R200 for heartworm test. Package: R600-R1,200 for full wellness.",
+    "timeline": "30-60 minutes for a standard annual checkup with vaccinations",
+    "aiPromptExample": "Analyse annual bloodwork results for a 9-year-old Labrador with increased thirst and subtle weight loss over 3 months.",
+    "aiDiagnosisOutput": "Bloodwork: BUN 38 mg/dL (ref 7-27), Creatinine 2.1 mg/dL (ref 0.5-1.8), SDMA 18 mcg/dL (ref 0-14). Urine specific gravity 1.015. Interpretation: early-moderate chronic kidney disease (IRIS Stage 2). Recommendation: switch to renal support diet (Hill's k/d or Royal Canin Renal), start oral omega-3 fatty acids (800mg EPA+DHA/day), recheck SDMA in 30 days. Projected cost: diet R180-R250/month, supplements R80-R120/month. Prognosis: good with early management - expect 2-3 more quality years.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If the vet performs a procedure without your prior consent, we refund the unauthorised cost.",
+    "pirbStandard": "SAVA (South African Veterinary Association) Practice Standards: Annual exam must include dental assessment, body condition score, heart/lung auscultation, abdominal palpation, and joint evaluation. Bloodwork recommended for all pets over 7 years.",
+    "articleSections": [
+      {
+        "heading": "The Head-to-Tail Exam Explained",
+        "body": "A thorough annual exam takes 30-60 minutes. The vet starts at the head: checking eyes (cataracts, glaucoma, retinal issues), ears (infection, mites, polyps), teeth and gums (periodontal disease is the most common SA pet health issue - 80% of dogs over 3 have some stage), and lymph nodes. Moving down: heart and lungs (auscultation detects murmurs, arrhythmias, and lung crackles), abdomen (palpation of liver, kidneys, spleen, and bladder for masses or pain), joints and spine (arthritis, hip dysplasia, slipped discs), skin and coat (parasites, lumps, hotspots, allergies), and finally the anal glands and genitalia."
+      },
+      {
+        "heading": "Vaccination Schedule for SA Pets",
+        "body": "Core vaccines for dogs: DHPP (Distemper, Hepatitis, Parvovirus, Parainfluenza) - puppy series at 6, 9, 12, and 16 weeks, then booster at 1 year, then every 3 years. Rabies - first at 12-16 weeks, booster at 1 year, then every 3 years (SA legal requirement). Core for cats: FVRCP (Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia) - kitten series at 6, 9, 12, and 16 weeks, booster at 1 year, then every 3 years. Non-core: Kennel cough (Bordetella) for boarding dogs, Feline Leukaemia for outdoor cats. Vaccination costs: R100-R200 per vaccine. Your Bouul vet sends digital reminders when boosters are due."
+      },
+      {
+        "heading": "Senior Pet Bloodwork: What the Numbers Mean",
+        "body": "For pets over 7, annual bloodwork is essential. A standard senior panel (R350-R500) includes: full blood count (anaemia, infection, inflammation), biochemistry profile (kidney values - BUN, Creatinine, SDMA; liver values - ALT, ALP, GGT; glucose; protein; electrolytes), and thyroid (T4 for cats is critical - hyperthyroidism affects 10% of cats over 10). Many SA vets now include SDMA as a kidney disease screen - it detects kidney decline months before creatinine rises. Heartworm test (R100-R200) is recommended annually in SA's endemic regions, especially coastal KZN and Mpumalanga."
+      },
+      {
+        "heading": "Dental Assessment: The Most Overlooked Health Issue",
+        "body": "Your vet checks for: plaque and tartar buildup (graded 1-4), gingivitis (red, bleeding gums), periodontal pockets (gum recession exposing tooth roots), mobile or fractured teeth, and oral masses. Grade 1-2 needs a professional dental clean (R800-R2,000 under anaesthetic). Grade 3-4 may need extractions (R200-R500 per tooth added). Untreated dental disease causes: chronic pain (pets hide pain instinctively), bacterial seeding to heart, liver, and kidneys, and tooth root abscesses requiring surgical removal. Annual dental checks plus daily tooth brushing (yes, for dogs) prevent 80% of dental disease."
+      }
+    ]
+  },
+  {
+    "id": "vet-002",
+    "tag": "veterinarians",
+    "title": "Vaccinations: What Every SA Pet Owner Must Know",
+    "subtitle": "Core vs non-core vaccines and the legal requirements for travel and boarding.",
+    "image": "/scenes/vet-vaccinations.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your boarding kennel rejected your booking because your dog's rabies vaccine expired 3 months ago.",
+    "problemBody": "South African law requires rabies vaccination for all dogs and cats - it's not optional. Yet 40% of SA pets are not up-to-date on core vaccines according to SAVA surveys. Boarding kennels, grooming salons, and daycare facilities all require proof of current vaccinations. An expired vaccine means denied services, cancelled holidays, and R500-R1,000 in emergency same-day vaccination fees. Worse: parvovirus is endemic in SA and kills unvaccinated puppies quickly - treatment costs R3,000-R8,000 with no guarantee of survival.",
+    "bouulSolution": [
+      "Bouul's digital vaccine tracker sends reminders 4 weeks before each booster date - you never miss a window",
+      "Booking a Bouul vet includes automatic verification of your pet's vaccine status before the appointment",
+      "Bouul stores digital copies of your vaccine certificates accessible from any device, shareable with kennels instantly"
+    ],
+    "partsNeeded": [
+      "Existing vaccine card (R50-R100 for replacement)",
+      "Microchip number (R150-R400 if not already chipped)",
+      "Rabies certificate (free, issued at vaccination)",
+      "Boarding or travel requirements list for non-core vaccines"
+    ],
+    "guidePricing": "R100-R200 per vaccine; R300-R500 for puppy/kitten series (3-4 visits); R150-R250 for annual booster; R50-R100 administration fee",
+    "timeline": "10-15 minutes per vaccine visit; puppy series spans 6-16 weeks of age",
+    "aiPromptExample": "Determine which vaccines are legally required and recommended for a cat that will be boarded for 2 weeks and travel to a cat show.",
+    "aiDiagnosisOutput": "Cat: adult DSH, travel to cat show + boarding. Legal requirements: Rabies (SA law, all cats). Core required: FVRCP (boarding requirement - every 3 years). Recommended: Feline Leukaemia if outdoor access during travel. Show requirement: FVRCP within 12 months (most SA cat shows require annual, not 3-year). Recommendation: FVRCP booster now (R200), Rabies check (valid if within 3 years). Add: microchip check - show entry requires microchip (R350 if not done). Total: R550-R700 depending on chip status.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If a vaccine reaction requires emergency treatment, we cover the first R1,000 of the vet bill.",
+    "pirbStandard": "SAVA Vaccination Protocol: Core vaccines every 3 years after adult boosters. Rabies every 3 years (SA legal requirement). Non-core annually if risk exists. Vaccines must be stored at 2-8C and administered by a registered veterinarian.",
+    "articleSections": [
+      {
+        "heading": "Core vs Non-Core: What's the Difference?",
+        "body": "Core vaccines are essential for all SA pets regardless of lifestyle: Rabies (legal requirement), DHPP for dogs (Distemper, Hepatitis, Parvovirus, Parainfluenza), and FVRCP for cats (Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia). Non-core vaccines depend on lifestyle risk: Kennel Cough (Bordetella bronchiseptica) for dogs that board, attend daycare, or visit dog parks; Feline Leukaemia for outdoor cats or multi-cat households; Canine Influenza for dogs in high-density urban areas (emerging in SA). Your Bouul vet recommends based on your pet's actual lifestyle, not a one-size-fits-all schedule."
+      },
+      {
+        "heading": "The Puppy/Kitten Vaccination Timeline",
+        "body": "First visit (6-8 weeks): first DHPP/FVRCP + deworming. Second (9-11 weeks): second DHPP/FVRCP + first rabies discussion. Third (12-14 weeks): third DHPP/FVRCP + rabies vaccine if old enough. Fourth (16-18 weeks): final DHPP/FVRCP + booster rabies + microchip. Socialisation warning: puppies CAN start controlled socialisation from 8 weeks despite incomplete vaccines - the 'wait until 16 weeks' myth causes more behavioural problems than it prevents. Carry your puppy to clean areas, avoid dog parks and unknown dog feces until 2 weeks after final booster."
+      },
+      {
+        "heading": "Vaccine Side Effects: What's Normal vs Emergency",
+        "body": "Normal (mild, 24-48 hours): slight lethargy, mild fever, reduced appetite, local swelling at injection site (small pea-sized lump). Emergency (immediate vet visit): facial swelling (hives), vomiting or diarrhoea within 2 hours, difficulty breathing, collapse. True vaccine allergies occur in about 1 in 1,000 pets and are treatable with antihistamines. Your vet will observe your pet for 15-30 minutes post-vaccination. Vaccine-associated sarcoma (FISS) in cats is very rare (1 in 10,000-30,000) and is why vets now use specific injection sites for different vaccines."
+      },
+      {
+        "heading": "Vaccine Storage and Validity for SA Conditions",
+        "body": "Vaccines must be stored at 2-8 degrees Celsius continuously - the cold chain. Load-shedding breaks the cold chain if fridges cycle on and off repeatedly. Reputable SA vets use medical-grade vaccine fridges with battery backup and temperature logging. When vaccines get too warm, they lose effectiveness (the pet appears 'vaccinated' but has no immunity). Your Bouul-listed vets confirm their cold chain protocol including backup generator/UPS coverage during load-shedding stages 4-6."
+      }
+    ]
+  },
+  {
+    "id": "vet-003",
+    "tag": "veterinarians",
+    "title": "Spay and Neuter: Costs, Recovery, and Timing",
+    "subtitle": "The full guide to sterilisation - from pre-op bloodwork to post-op cone removal.",
+    "image": "/scenes/vet-spay.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your 6-month-old female dog just had her first heat and you're cleaning blood off every surface.",
+    "problemBody": "An unspayed female dog will have two heat cycles per year, each lasting 2-3 weeks with bleeding, behavioural changes, and risk of pyometra (uterine infection, fatal without emergency surgery costing R5,000-R15,000). Unneutered males have higher risks of testicular cancer, prostate disease, and roaming behaviour (30% of SA road accidents involving dogs are unneutered males roaming for a mate). Spaying before the first heat reduces mammary cancer risk to 0.5% - after the first heat it rises to 8%, and after the second to 26%.",
+    "bouulSolution": [
+      "Bouul vets provide transparent all-inclusive pricing: pre-op bloodwork, anaesthesia, surgery, pain relief, and post-op check",
+      "Pre-surgical bloodwork is mandatory through Bouul - it detects hidden issues that make anaesthesia risky",
+      "Laser spay/neuter option available at select Bouul vets - reduces bleeding, pain, and recovery time by 50%"
+    ],
+    "partsNeeded": [
+      "Pre-surgical bloodwork panel (R350-R600)",
+      "Elizabethan collar (R100-R250, soft cone or inflatable preferred)",
+      "Post-op recovery suit (R150-R350 for a surgical onesie)",
+      "Pain medication (R80-R200, usually 3-5 days of NSAIDs)"
+    ],
+    "guidePricing": "R1,500-R2,500 for male neuter (standard scalpel); R2,500-R4,500 for female spay; laser add-on R500-R1,000. High-volume/low-cost clinics offer R400-R800.",
+    "timeline": "Surgery 30-60 minutes; hospital stay 4-8 hours; recovery 10-14 days for full healing, restricted activity for 7 days",
+    "aiPromptExample": "Assess anaesthesia risk for a 10-year-old female Boxer needing spay - she has a grade 2 heart murmur and is 5kg overweight.",
+    "aiDiagnosisOutput": "Patient: 10-year-old Boxer, overweight (32kg target 27kg), grade 2/6 left apical systolic murmur (likely myxomatous mitral valve disease). Anaesthesia risk: ASA 3 (significant systemic disease). Recommendations: pre-op echocardiogram (R2,500-R3,500) to confirm mitral valve status and rule out pulmonary hypertension. Pre-op bloodwork including cardiac troponin. IV fluids during surgery, intra-op ECG monitoring, post-op ICU monitoring for 12 hours. Higher cost: R4,500-R6,500 due to monitoring requirements. Alternative: discuss risk/benefit - at this age, pyometra risk may warrant proceeding despite murmur.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If the standard 10-14 day recovery requires a second surgical intervention due to vet error, we refund the surgery cost.",
+    "pirbStandard": "SAVA Surgical Standards: Pre-anaesthetic bloodwork mandatory for all pets over 7 years. Intra-operative monitoring must include pulse oximetry, ECG, and blood pressure. Post-operative analgesia must be provided for minimum 3 days.",
+    "articleSections": [
+      {
+        "heading": "Optimal Timing: When Should You Sterilise?",
+        "body": "Traditional SA practice recommends 6 months for both dogs and cats. Newer research suggests: small breed dogs (under 15kg adult weight) can be spayed at 6 months; large breed dogs (over 25kg) benefit from waiting until 12-18 months to allow growth plate closure (reduces orthopaedic risk); cats can be spayed from 4 months (paediatric spay). For male dogs, waiting until 12-18 months for large breeds allows full physical maturation. Discuss with your Bouul vet - optimal timing varies by breed, size, and lifestyle. Many SA animal welfare organisations perform early-age spay/neuter (8-12 weeks) for shelter animals."
+      },
+      {
+        "heading": "The Surgery Day: What to Expect",
+        "body": "Drop-off (7:30-9am) with an empty stomach (no food after 8pm previous night, water allowed until morning). Pre-op exam and bloodwork if not done earlier. Pre-medication (sedative + pain relief) given 30 minutes before anaesthesia. IV catheter placed. Induction (propofol) then maintenance on gas anaesthesia (isoflurane or sevoflurane). Surgery: male neuter takes 10-20 minutes (two small incisions on scrotum); female spay takes 20-40 minutes (flank or midline incision). Recovery in warm kennel until awake and able to stand. Pick-up typically 3-6pm with discharge instructions."
+      },
+      {
+        "heading": "Recovery at Home: 10 Days of Care",
+        "body": "Keep the e-collar or recovery suit on for 7-10 days full-time. No running, jumping, or stair climbing for 7 days (harder than it sounds for an energetic dog - crate rest may be needed). No bathing or swimming for 14 days. Check the incision twice daily for redness, swelling, discharge, or licking. Small amount of bruising is normal. No licking allowed - if the collar isn't working, get a longer one. Activity restriction is the most important factor - 90% of post-spay complications (seroma, infection, incisional hernia) are caused by too much activity too soon."
+      },
+      {
+        "heading": "Cost Comparisons and Community Programmes",
+        "body": "Private SA vets charge R1,500-R4,500. Low-cost clinics (SPCA, Animal Anti-Cruelty League, community clinics) charge R400-R800 - these are safe but don't include IV fluids, intra-op monitoring, or pre-op bloodwork. Mobile spay/neuter units operate in underserved areas. If cost is a barrier, your Bouul booking can find subsidised options in your area. The long-term cost of not sterilising (pyometra treatment R5,000-R15,000, testicular cancer treatment R3,000-R8,000, accident treatment from roaming R2,000-R20,000) far exceeds the one-time surgery cost."
+      }
+    ]
+  },
+  {
+    "id": "vet-004",
+    "tag": "veterinarians",
+    "title": "Pet Dental Cleaning: More Than Just Fresh Breath",
+    "subtitle": "Why your vet recommended a dental scale and polish under anaesthetic.",
+    "image": "/scenes/vet-dental.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog's breath could knock a vulture off a carcass but you thought 'that's just how dogs smell.'",
+    "problemBody": "Halitosis (bad breath) in pets is not normal - it's the most obvious sign of periodontal disease. By the time you notice the smell, your pet likely has significant tartar buildup, gingivitis, and possibly loose teeth or abscesses. The bacteria from dental disease enter the bloodstream and damage the heart, liver, and kidneys. SA veterinary dentists report that 85% of dogs and 70% of cats over 3 years have some stage of dental disease. A professional dental clean under anaesthetic reverses gum disease and prevents tooth loss.",
+    "bouulSolution": [
+      "Bouul-listed vets provide detailed pre-dental quotes including: anaesthesia, monitoring, scale/polish, fluoride, and any expected extractions",
+      "Pre-anaesthetic bloodwork is mandatory through Bouul - dental patients are often older and higher anaesthetic risk",
+      "Digital dental radiography included at partner vets - 60% of dental pathology is below the gumline and invisible to the naked eye"
+    ],
+    "partsNeeded": [
+      "Pre-anaesthetic bloodwork (R350-R600)",
+      "IV catheter + fluids during procedure (R200-R400)",
+      "Dental radiographs (R300-R600, typically 2-4 images)",
+      "Post-procedure antibiotics and pain relief (R150-R300)"
+    ],
+    "guidePricing": "R800-R1,500 for scale and polish only; R1,500-R3,000 with radiographs; R2,500-R5,000 with extractions; add R350-R800 for surgical extractions",
+    "timeline": "Procedure: 45-90 minutes depending on severity and extractions needed; recovery: soft food for 7-10 days post-extraction",
+    "aiPromptExample": "Estimate the number of extractions needed for a 7-year-old Maltese with mobile teeth and gum recession noted on exam.",
+    "aiDiagnosisOutput": "Dental assessment: severe generalised periodontitis (Stage 3-4). Gingival recession 4-6mm on upper premolars, furcation exposure on mandibular first molars. Mobility: 4 teeth grade 2 (mobile), 2 teeth grade 3 (very mobile, likely need extraction). Radiographs likely to show 30-50% bone loss around affected teeth. Recommended: full mouth radiographs (4 views minimum, R400), likely extraction of 4-6 teeth (R1,200-R3,000 at R200-R500 per tooth). Total estimate: R3,500-R5,500. Post-op: soft food for 10 days, antibiotics 7 days, pain relief 5 days.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If dental radiographs are recommended but not taken, the dental fee is refunded.",
+    "pirbStandard": "SAVA Dental Standards: Dental procedures must be performed under general anaesthetic (NOT 'anaesthesia-free' dental cleaning - this is not considered veterinary standard in SA). Full oral examination including probing depths and radiographs recommended for all dental patients.",
+    "articleSections": [
+      {
+        "heading": "Why 'Anaesthesia-Free' Dental Cleaning Is Not Recommended",
+        "body": "Non-anaesthetic dental cleaning (where a technician scrapes visible tartar while the pet is awake) is cosmetic only. It cannot clean below the gumline where 60% of pathology lives. Worse: it damages the enamel surface, making plaque adhere faster. The procedure is stressful for the pet, can cause aspiration of debris, and gives owners a false sense of security. The SAVA position statement is clear: professional dental cleaning requires general anaesthetic with endotracheal intubation (to protect the airway) and full oral assessment including probing and radiographs."
+      },
+      {
+        "heading": "What Happens During a Professional Dental Clean",
+        "body": "Under general anaesthetic: the vet performs a full oral examination including measurement of periodontal pockets (normal is 1-3mm, >4mm indicates disease). Each tooth is charted for mobility, recession, and furcation exposure. Full-mouth dental radiographs are taken (small breed dogs often have hidden pathology under visible teeth). Supragingival (above gum) and subgingival (below gum) scaling with ultrasonic and hand scalers. Polishing to smooth the enamel surface. Fluoride or dental sealant application. Irrigation and suction of debris. Extractions if needed - surgical (flap elevation and closure) or simple."
+      },
+      {
+        "heading": "Home Dental Care: Daily Brushing Is the Gold Standard",
+        "body": "Daily tooth brushing reduces plaque by 70-80% and prevents dental disease progression. Use a pet-specific toothpaste (never human toothpaste - xylitol is toxic to dogs, and fluoride causes stomach upset). Finger brushes or dual-sided toothbrushes work well. Start slowly: let your pet lick the toothpaste for a few days, then introduce the brush for a few seconds, gradually increasing to 30 seconds per side. For pets who won't tolerate brushing: dental diets (Hill's t/d, Royal Canin Dental), water additives, dental chews (Vetradent, Virbac C.E.T.), and plaque-off powder. None are as effective as brushing but every bit helps."
+      },
+      {
+        "heading": "Breed-Specific Dental Risks in SA",
+        "body": "Small breed dogs (Maltese, Yorkies, Chihuahuas, Dachshunds) have the highest dental disease rates - their teeth are large relative to jaw size, causing crowding that traps food and plaque. Brachycephalic breeds (Pugs, French Bulldogs, Boxers) often have rotated, crowded, or missing teeth. Sighthounds (Greyhounds, Whippets) commonly have fractured teeth from racing accidents. Cats (especially Persians and Exotics) are prone to feline resorptive lesions (FORLs) - painful dental decay below the gumline visible only on radiographs. Your Bouul vet knows breed-specific risks and tailors the dental plan accordingly."
+      }
+    ]
+  },
+  {
+    "id": "vet-005",
+    "tag": "veterinarians",
+    "title": "Emergency Vet Visits: When to Go and What to Expect",
+    "subtitle": "Every minute counts. Here's how to handle a pet emergency in SA.",
+    "image": "/scenes/vet-emergency.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog ate a grape and your regular vet is closed. Now it's 11pm on a Saturday.",
+    "problemBody": "Pet emergencies happen at the worst possible times - after hours, on weekends, during public holidays, or during load-shedding when you can't charge your phone. Knowing which symptoms are truly urgent vs which can wait until morning saves your pet's life and your pocket (after-hours emergency fees are R600-R1,500 just for consultation vs R300-R600 during regular hours). SA's most common pet emergencies: toxin ingestion (chocolate, grapes, xylitol, rat poison), hit-by-car, bloat/GDV, snakebite, and heatstroke.",
+    "bouulSolution": [
+      "Bouul's 24/7 emergency chat connects you to a triage nurse within 5 minutes - they tell you if it's an emergency or can wait",
+      "Your Bouul account stores your pet's medical history, vaccine status, and microchip number - accessible to any emergency vet you visit",
+      "Pre-registered emergency vet details for your area: the closest 24-hour facility with current wait times and cost estimates"
+    ],
+    "partsNeeded": [
+      "Microchip number or ID (R150-R400 if not yet chipped)",
+      "Any packaging or remnants of ingested substances (free, critical for treatment)",
+      "Your pet's medical history if available (free, digital copy from Bouul)",
+      "Emergency contact number and transport plan (pre-loaded in Bouul profile)"
+    ],
+    "guidePricing": "After-hours consultation: R600-R1,500. Emergency stabilization and IV fluids: R1,500-R4,000. Toxin ingestion treatment: R2,000-R6,000. Emergency surgery: R5,000-R20,000.",
+    "timeline": "Triage within 15 minutes of arrival; stabilization 30-60 minutes; diagnostics 30-120 minutes; surgery within 2-4 hours for time-critical cases",
+    "aiPromptExample": "Triage a call: 2-year-old Labrador ate 200g of 70% dark chocolate 45 minutes ago. Dog weighs 30kg, no symptoms yet.",
+    "aiDiagnosisOutput": "Ingestion: 200g 70% dark chocolate = 280mg/kg theobromine (toxic dose = 20mg/kg, severe toxicity >60mg/kg). Severity: MODERATE-SEVERE (9x toxic threshold). Action: EMERGENCY - induce vomiting now if within 2 hours. Estimated cost: R1,500-R3,500 (induce vomiting + activated charcoal + IV fluids + 12-hour monitoring). Expected symptoms without treatment: vomiting, diarrhoea, hyperactivity, tremors, seizures, cardiac arrhythmia starting within 2-4 hours. Escort to 24-hour vet immediately. Call ahead to prepare decontamination supplies. Do NOT induce vomiting at home unless instructed (aspiration risk).",
+    "escrowGuarantee": "Bouul Escrow holds payment for planned procedures. Emergency credit: eligible Bouul members can access up to R5,000 in emergency vet care with 30-day repayment.",
+    "pirbStandard": "SAVA Emergency Standards: Emergency facilities must have a veterinarian on-site 24/7 or within 30 minutes call-out. Must have in-house bloodwork, radiography, and IV fluid therapy. Stabilisation before diagnostics is the standard of care.",
+    "articleSections": [
+      {
+        "heading": "Is It an Emergency? The Five Critical Signs",
+        "body": "Five signs that require IMMEDIATE veterinary attention: (1) Difficulty breathing - open-mouth breathing, blue/pale gums, noisy breathing, neck extended. (2) Trauma - hit by car, fall from height, fight with another animal, obvious fracture or wound. (3) Toxin ingestion - chocolate, grapes/raisins, xylitol (sugar-free gum), rat poison, lily ingestion (cats), paracetamol, ibuprofen. (4) Collapse or seizure - inability to stand, unconsciousness, uncontrolled shaking. (5) GDV/Bloat - unproductive retching, distended abdomen, restlessness, excessive drooling - especially in deep-chested breeds (Great Danes, Labs, GSDs). If in doubt, call your Bouul triage nurse."
+      },
+      {
+        "heading": "SA-Specific Emergencies: Snakebite and Heatstroke",
+        "body": "Snakebite season in SA is September-April. Puff adders (most common, cytotoxic venom), Mozambique spitting cobras (neurotoxic + cytotoxic), and Cape cobras (neurotoxic) are the main culprits. Signs: sudden pain, swelling, bleeding from puncture wounds, weakness, paralysis. What to do: stay calm, carry your pet (don't let them walk - it spreads venom), go to the nearest vet with antivenom. Do NOT cut the wound, suck venom, or apply a tourniquet. Heatstroke: SA summer temperatures above 35C are deadly for brachycephalic breeds (bulldogs, pugs, Frenchies). Signs: excessive panting, bright red gums, staggering, collapse. Treatment: immediate cooling with cool (not cold) water on belly and paws, then transport to vet."
+      },
+      {
+        "heading": "Load-Shedding and Emergency Vet Care",
+        "body": "During load-shedding, emergency vets run on generators or inverters. Before visiting: confirm the facility is open (some reduce hours during extended outages). Bring a fully charged phone and portable charger. Have cash or card payment ready - EFT may not process during outages. If your regular vet is closed, your Bouul booking lists 3 backup emergency contacts ranked by distance and confirmed load-shedding backup capability. Some SA emergency vets now offer WhatsApp-based triage during load-shedding hours."
+      },
+      {
+        "heading": "Building a Pet Emergency Kit",
+        "body": "Every SA pet owner should have: emergency vet numbers (3 options minimum) programmed into your phone, a pet first aid kit (R300-R600 from your vet), hydrogen peroxide 3% (induce vomiting ONLY if instructed by vet), clean towels and a blanket, a muzzle (even friendly dogs bite when in pain), a pet carrier or crate, and a copy of medical records. Store the kit in an accessible location with a torch and portable power bank for load-shedding. Your Bouul profile can generate a personalised emergency kit checklist based on your pet's species, breed, and health conditions."
+      }
+    ]
+  },
+  {
+    "id": "vet-006",
+    "tag": "veterinarians",
+    "title": "X-Rays and Imaging: When Your Pet Needs More Than an Exam",
+    "subtitle": "From digital radiography to ultrasound and CT scans - what each tool reveals.",
+    "image": "/scenes/vet-xray.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog has been limping for 3 weeks and the vet says 'we need an X-ray to know for sure.'",
+    "problemBody": "A physical exam can tell your vet a lot, but it can't see through bone, soft tissue, or the abdominal wall. Lameness, vomiting, coughing, or seizures could have dozens of causes that only imaging can differentiate. Without X-rays, you might treat for arthritis when the problem is a bone tumour, or treat for a stomach bug when the dog has a foreign body obstruction. SA veterinary radiologists report that 1 in 4 abdominal X-rays reveals an unexpected finding - a swallowed object, an enlarged organ, or a tumour the exam missed.",
+    "bouulSolution": [
+      "Bouul-listed vets with digital radiography (not outdated film X-rays) - instant images with lower radiation, sharable to specialists electronically",
+      "Advanced imaging referrals (ultrasound, CT, MRI) coordinated through Bouul - we book the specialist and include imaging reports in your pet's digital file",
+      "Radiology specialist review option (R200-R400 add-on) - a board-certified SA radiologist reviews your pet's images for a second opinion"
+    ],
+    "partsNeeded": [
+      "Sedation or anaesthesia for X-rays (R200-R500) - most pets need to be still for diagnostic images",
+      "Radiograph package - per-view pricing (R200-R400 per view, typically 2-4 views needed)",
+      "Contrast study (R500-R1,500) if soft tissue detail is needed",
+      "Digital image CD or USB (R100-R200, for specialist referral)"
+    ],
+    "guidePricing": "R400-R800 for 2-view chest X-rays; R500-R1,000 for abdominal X-rays; R800-R1,500 for limb/joint series; R1,500-R3,000 for abdominal ultrasound; R4,000-R8,000 for CT scan; R6,000-R12,000 for MRI",
+    "timeline": "Radiographs: 10-20 minutes; Ultrasound: 20-45 minutes; CT/MRI: 30-60 minutes under general anaesthetic",
+    "aiPromptExample": "Interpret thoracic radiographs: an 8-year-old Boxer with a dry cough and exercise intolerance, worse at night.",
+    "aiDiagnosisOutput": "Radiograph findings (2-view chest): enlarged cardiac silhouette (vertebral heart score 12.5, normal <10.5). Dorsal tracheal elevation visible. Interstitial pattern in caudal lung lobes. Caudal vena cava enlarged. Interpretation: cardiogenic pulmonary oedema - congestive heart failure (likely arrhythmogenic right ventricular cardiomyopathy - Boxer-specific). Recommendation: echocardiogram within 24 hours, start pimobendan + furosemide + benazepril pending cardiology consult. Prognosis: fair with medication, 12-24 month expected survival with ACE inhibitor + pimobendan therapy. Estimated monthly medication cost: R300-R600.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If imaging is recommended but the results are not properly explained to you (images shown and findings discussed), we refund the imaging fee.",
+    "pirbStandard": "SAVA Imaging Standards: Digital radiography strongly preferred over film. Radiographs must be of diagnostic quality (not just 'checked'). Full 2-view orthogonal views (lateral + VD/DV) required for chest and abdominal studies. Sedation or anaesthesia used if patient positioning causes stress.",
+    "articleSections": [
+      {
+        "heading": "Digital X-Ray: The Workhorse of Veterinary Imaging",
+        "body": "Digital radiography has replaced film in most SA veterinary hospitals. Benefits: 80-90% less radiation than film, instant images (no chemical processing), ability to adjust contrast and brightness after capture, easy sharing with specialists via email or cloud platforms. Two views (lateral and VD/DV) are standard for chest and abdomen - a single view misses 30-40% of findings. Orthopaedic studies typically need 2-4 views of the affected limb including the joint above and below, plus the same view of the opposite limb for comparison."
+      },
+      {
+        "heading": "Ultrasound: Seeing Soft Tissue in Real Time",
+        "body": "Ultrasound is non-invasive, uses no radiation, and shows soft tissue structures in real time. It's the gold standard for: pregnancy diagnosis and fetal viability assessment, bladder stones and urinary tract disease (much more sensitive than X-ray for bladder stones), abdominal organ evaluation (liver, spleen, kidneys, adrenal glands, pancreas), cardiac evaluation (echocardiogram), and guided needle aspirations (FNA) of masses. Unlike X-rays, ultrasound requires a skilled operator and a cooperative patient. Your vet may recommend a board-certified SA radiologist for complex cases."
+      },
+      {
+        "heading": "CT and MRI: When the Basics Aren't Enough",
+        "body": "CT (computed tomography) creates 3D cross-sectional images perfect for: nasal disease (tumours, fungal infection), complex fractures (pelvis, spine, skull), lung metastases, middle/inner ear disease, and surgical planning for tumour removal. MRI (magnetic resonance imaging) shows soft tissue detail better than CT, used for: brain tumours, spinal cord compression (IVDD), joint cartilage evaluation, and chronic lameness of unknown origin. Both require general anaesthesia in pets and are available at specialist referral hospitals in SA's major cities (Johannesburg, Cape Town, Durban)."
+      },
+      {
+        "heading": "Radiation Safety in Veterinary Practice",
+        "body": "SA law requires: anyone holding a pet for X-rays must wear a lead gown, thyroid shield, and dosimeter badge. The owner should never be in the X-ray room without protective gear. Owners are not permitted to hold their own pets for radiographs during pregnancy. Digital X-rays emit minimal scatter radiation but safety protocols still apply. Your Bouul-vetted facility follows all SA radiation safety regulations and staff wear monitoring badges (checked quarterly by an external radiation safety officer)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "full_detail",
+    "tag": "Car Detailing",
+    "title": "Full Car Detail: Restoring Showroom Shine on Every Surface",
+    "subtitle": "More than a wash \u2014 interior deep clean, paint decontamination, and protection",
+    "image": "/scenes/auto_full_detail.png",
+    "problemHeadline": "Your car needs more than a quick wash.",
+    "problemBody": "A standard wash cleans the surface. A full detail addresses bonded contaminants on paint, ground-in dirt in fabric seats, and bacteria in air-con vents. UV damage and bird droppings etch clear coat quickly in SA. A detail every 6 months preserves paint and can add R8 000\u2013R15 000 to resale value.",
+    "bouulSolution": [
+      "Vetted detailers use multi-stage process: pre-wash, contact wash, iron decon, clay bar, polish, wax or sealant",
+      "Interior gets steam cleaning, leather conditioning, carpet extraction, UV-safe plastic dressing",
+      "Escrow holds payment until you inspect every panel \u2014 no water spots, swirl marks, or missed areas"
+    ],
+    "partsNeeded": [
+      "pH-neutral car shampoo and snow foam",
+      "Clay bar kit or synthetic mitt for decontamination",
+      "Microfiber towels (separate colours per task)",
+      "Paint sealant or carnauba wax (Collinite 845, Meguiars)"
+    ],
+    "guidePricing": "R800 \u2013 R2 200 (sedan); R1 200 \u2013 R3 000 (SUV/bakkie)",
+    "timeline": "3\u20136 hours",
+    "aiPromptExample": "2018 VW Tiguan white. Paint feels rough from bonded contaminants. Kids stained rear seats. Need full detail in Centurion.",
+    "aiDiagnosisOutput": "Tiguan 2018 \u2014 bonded contaminants, light swirls, fabric stain rear, carpet spill. Full detail: snow foam, iron decon, clay, polish, sealant. Interior steam + extractor. Est. R1 400\u2013R2 000.",
+    "escrowGuarantee": "Walk around in direct sunlight checking for swirls. Feel paint for smoothness. Check glass for streaks. Release when satisfied.",
+    "pirbStandard": "MIWA Detailing Standards; NCR consumables compliance",
+    "articleSections": [
+      {
+        "heading": "What is included in a full detail",
+        "body": "Snow foam pre-wash, two-bucket contact wash, iron decontamination spray, clay bar treatment, machine polish, protective wax or sealant. Interior: steam cleaning, fabric extraction, leather conditioning, plastic trim dressing, glass cleaning, air-con vent treatment."
+      },
+      {
+        "heading": "Why paint decontamination matters in SA",
+        "body": "SA roads have high tar content \u2014 drive in Gauteng and you pick up tar spots weekly. Iron fallout from factories embeds in clear coat. Decon spray dissolves particles chemically so the clay bar does not push them across paint causing scratches."
+      },
+      {
+        "heading": "Paint correction vs detail",
+        "body": "Single-stage machine polish removes light swirl marks. Two-stage correction (cutting compound + finishing polish) removes deeper scratches. For daily drivers, single-stage with quality sealant suffices. Bouul detailers assess paint and quote the right level."
+      },
+      {
+        "heading": "Leather vs fabric interior care",
+        "body": "Fabric seats in humidity trap moisture \u2014 hot-bonnet extraction forces steam and solution deep into fibres. Leather needs cleaning and conditioning to prevent cracking in dry Highveld winters. Bouul uses pH-neutral cleaners that will not discolour interiors."
+      },
+      {
+        "heading": "Aftercare for lasting results",
+        "body": "Use pH-neutral shampoo for hand washes, no automatic car washes. Dry with clean microfiber towels in straight lines. Apply spray sealant every 2\u20133 months. A good detail lasts 4\u20136 months."
+      },
+      {
+        "heading": "How a detail adds resale value",
+        "body": "Buyers on AutoTrader and Facebook Marketplace judge by paint. Faded paint and stained interiors suggest poor maintenance. A detail before listing can add R8 000\u2013R15 000 to a R150 000\u2013R300 000 car."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "paint_correction",
+    "tag": "Car Detailing",
+    "title": "Paint Correction: Erasing Swirl Marks and Restoring Deep Gloss",
+    "subtitle": "Machine polishing removes years of paint damage \u2014 here is how it works",
+    "image": "/scenes/auto_paint_correction.png",
+    "problemHeadline": "Is your paint dull and swirled?",
+    "problemBody": "Every wash eventually leaves micro-scratches called swirl marks. In direct sunlight your paint looks spider-webbed. SA automatic car washes are a major culprit \u2014 nylon brushes trap dirt from previous cars. Paint correction removes a microscopic clear coat layer to reveal fresh paint beneath, restoring 80\u201395% of original gloss.",
+    "bouulSolution": [
+      "Detailers assess paint thickness with a gauge before polishing to avoid burn-through",
+      "Multi-stage machine polish (cut, refine, finish) using professional DA polishers and SABS-approved compounds",
+      "Escrow protects payment \u2014 inspect under halogen lighting; release only when every panel passes"
+    ],
+    "partsNeeded": [
+      "Paint thickness gauge",
+      "Dual-action polisher (Rupes or Flex) with cutting, polishing, and finishing pads",
+      "Compounds: heavy-cut, medium-cut, finishing polish (3M Perfect-It or Menzerna)",
+      "IPA panel wipe to remove polishing oils before final inspection"
+    ],
+    "guidePricing": "R2 500 \u2013 R5 500 (single-stage, sedan); R4 000 \u2013 R8 000 (two-stage, SUV)",
+    "timeline": "4\u201310 hours depending on condition",
+    "aiPromptExample": "2015 BMW 320i in black sapphire. Automatic car washes for years \u2014 terrible swirls. Scared about clear coat thickness since polished before at a Sandton car spa.",
+    "aiDiagnosisOutput": "320i 2015 Black \u2014 severe swirls. Measure clear coat: >120 microns = two-stage safe. <100 microns = one-stage only. Est. two-stage R5 000\u2013R7 000.",
+    "escrowGuarantee": "Inspect under direct sunlight. Look for haze, holograms, or uneven gloss. Payment stays frozen until the correction meets the agreed level.",
+    "pirbStandard": "SANS 10100-5 paint finish standards; MIWA Paint and Body Standards",
+    "articleSections": [
+      {
+        "heading": "Single-stage vs two-stage correction",
+        "body": "Single-stage: fine cutting compound removes light swirls \u2014 appropriate for well-maintained paint. Two-stage: heavy-cut compound removes deeper scratches then finishing polish restores gloss \u2014 6\u201310 hours for a sedan. Your detailer advises after a test spot."
+      },
+      {
+        "heading": "Paint thickness: the critical measurement",
+        "body": "Factory clear coat is 40\u201360 microns. Each polish removes 3\u20138 microns. If previously polished, remaining clear coat may be too thin. Below 80 microns, only ultra-fine finishing polish is safe."
+      },
+      {
+        "heading": "Why black paint is hardest",
+        "body": "Black shows every imperfection. Lighter colours hide defects. Black heats up more in SA sun, causing compounds to dry faster. Good detailers work in shade specifically for black cars."
+      },
+      {
+        "heading": "Common SA paint defects",
+        "body": "Swirl marks: removed by polishing. Water spots: may need wet-sanding if etched. Scratches: fingernail test \u2014 if nail catches, through clear coat. Oxidation: correction restores colour dramatically."
+      },
+      {
+        "heading": "Maintaining corrected paint",
+        "body": "Apply ceramic coating or sealant after correction. Hand wash with two-bucket method, no automatic car washes. Spray detailer after each wash. With good care, corrected paint stays swirl-free 2\u20133 years."
+      },
+      {
+        "heading": "Who should not get correction",
+        "body": "Thin clear coat (under 90 microns) \u2014 stick with fine polish and wax. Soon to sell \u2014 a detail with wax may be more cost-effective. Paint chips or peeling clear coat \u2014 correction will not help; you need a respray."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "ceramic_coating",
+    "tag": "Car Detailing",
+    "title": "Ceramic Coating: Permanent Protection or Marketing Hype?",
+    "subtitle": "What a proper coating does and does not do in South African conditions",
+    "image": "/scenes/auto_ceramic_coating.png",
+    "problemHeadline": "Should you ceramic coat your car?",
+    "problemBody": "Ceramic coatings range from R1 500 quick sprays to R15 000+ professional 9H-grade applications. A true coating bonds to clear coat, creating a hydrophobic chemically resistant barrier lasting 2\u20135 years. It does not prevent scratches, fix existing swirls, or replace washing. 90% of the result is in paint correction before coating.",
+    "bouulSolution": [
+      "Detailers insist on proper correction before coating \u2014 coating over swirls locks imperfections under permanently",
+      "They apply true 9H SiO2-based professional coating (Gtechniq, Carpro, or Kamikaze), not spray-on sealants",
+      "Escrow protects you until coating has cured evenly \u2014 no high spots, no rainbowing"
+    ],
+    "partsNeeded": [
+      "Ceramic coating kit (professional-grade SiO2/quartz, 9H hardness)",
+      "Paint correction pads and compounds for preparation",
+      "IPA wipe-down solution to remove all polishing oils",
+      "Applicator blocks, suede cloths, and curing lamps"
+    ],
+    "guidePricing": "R4 500 \u2013 R9 000 (1\u20133 year coating, sedan); R2 500 \u2013 R5 000 extra for correction prep",
+    "timeline": "1\u20132 days including correction and curing",
+    "aiPromptExample": "2022 Hilux Double Cab white, daily driver, parked outside in Durban heat. Light scratches on load bin sides from timber. Need coating advice.",
+    "aiDiagnosisOutput": "Hilux 2022 white \u2014 scratches on load bin need single-stage correction before coating. Durban coastal climate: coating provides salt spray protection. Est. R6 000\u2013R9 000 including 5-year coating.",
+    "escrowGuarantee": "After 24 hour cure, check water beads into tight droplets. If uneven or high spots visible, funds held until fixed.",
+    "pirbStandard": "SANS 1519 for automotive coating systems; MIWA Detailing Standards",
+    "articleSections": [
+      {
+        "heading": "What ceramic coating actually does",
+        "body": "Creates a semi-permanent molecular bond with clear coat. Hydrophobic \u2014 water beads and runs off carrying dirt. Resists chemical etching from bird droppings and tree sap. Provides UV protection. Makes washing dramatically easier."
+      },
+      {
+        "heading": "What it does NOT do",
+        "body": "Despite 9H hardness marketing, coatings do not prevent scratches. 9H measures pencil scratch resistance on glass, not rock-chip resistance. Coating gets swirl marks if improperly washed. It does not replace PPF for stone chips on your bonnet."
+      },
+      {
+        "heading": "1-year vs 5-year coatings",
+        "body": "Entry consumer coatings (R1 500\u2013R3 000) use lower SiO2 content, last 6\u201312 months. Professional (R4 500\u2013R10 000) uses 70\u201385% SiO2, lasts 3\u20135 years. Price difference is material cost and labour-intensive correction before application."
+      },
+      {
+        "heading": "Coating in SA climate",
+        "body": "SA highveld UV degrades unprotected clear coat faster. Coating UV resistance is valuable. In Cape Town and Durban, salt spray attacks coating as a sacrificial barrier. Coastal longevity is reduced: a 5-year coating may last 3 years in Umhlanga."
+      },
+      {
+        "heading": "Maintenance for warranty validity",
+        "body": "Most coatings need a pH-neutral wash every 4\u20136 weeks. Some require annual top-up booster spray. Avoid automatic car washes \u2014 alkaline chemicals degrade coatings. Monthly hand wash plus quarterly Bouul maintenance wash keeps it performing."
+      },
+      {
+        "heading": "The full process",
+        "body": "Day 1: wash, decon, clay bar, paint correction. Evening: IPA panel wipe. Day 2: first coating layer, flash, buff. Some need 2\u20133 layers with 1\u20132 hour cure between. Final 24-hour indoor cure \u2014 no water during this period."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "interior_deep_clean",
+    "tag": "Car Detailing",
+    "title": "Interior Deep Clean: Removing Stains, Odours, and Grime",
+    "subtitle": "Your cabin collects more bacteria than you think \u2014 a professional deep clean restores it",
+    "image": "/scenes/auto_interior_deep_clean.png",
+    "problemHeadline": "When was your car interior last properly cleaned?",
+    "problemBody": "Car interiors trap dust, food particles, pet dander, and moisture \u2014 bacteria and mould thrive here, especially in SA humid coastal regions. Fabric seats hold deep-set stains. Air-con vents blow dust and allergens. A professional deep clean goes beyond surface wipe-down: extracting contaminants from deep within fabrics and sanitising every surface.",
+    "bouulSolution": [
+      "HEPA-filter vacuum, steam-clean fabric seats and carpets, hot-bonnet extraction on every surface",
+      "pH-balanced leather cleaning and conditioning, UV-blocking plastic dressing, air-con system sanitisation",
+      "Escrow holds payment until all surfaces pass \u2014 no sticky residue, no lingering odours, carpets dry in 4 hours"
+    ],
+    "partsNeeded": [
+      "Hot water extractor or steam cleaner with upholstery attachment",
+      "Microfiber towels (interior-specific, multiple colours)",
+      "pH-neutral fabric cleaner and leather cleaner/conditioner (Colourlock or Gtechniq)",
+      "Soft detailing brushes for dash, vents, stitching, crevices"
+    ],
+    "guidePricing": "R600 \u2013 R1 800 (sedan); R900 \u2013 R2 500 (SUV/bakkie/van)",
+    "timeline": "2\u20135 hours depending on size and condition",
+    "aiPromptExample": "2014 RAV4, two kids and a German Shepherd. Carpets musty after Western Cape rainy season. Chocolate milk spill under passenger seat. Fabric seats.",
+    "aiDiagnosisOutput": "RAV4 2014 \u2014 musty odour from moisture in jute underlay, protein stain needs enzyme cleaner. Full extraction clean, enzyme treatment, UV dryer, cabin deodoriser. Est. R1 000\u2013R1 500.",
+    "escrowGuarantee": "Check surfaces, press carpets for dryness, smell for mustiness. Release only when the interior feels and smells clean.",
+    "pirbStandard": "SANS 10230 for vehicle interior hygiene; MIWA Detailing Standards",
+    "articleSections": [
+      {
+        "heading": "What a professional interior detail includes",
+        "body": "Remove mats, vacuum everything including under seats. Brush fabric, apply cleaner, agitate, extract. Clean all hard surfaces \u2014 different chemicals for plastic, vinyl, and leather. Clean windows with ammonia-free glass cleaner. Treat leather, dress plastics with UV block, apply fabric protector."
+      },
+      {
+        "heading": "Steam cleaning vs extraction",
+        "body": "Steam cleaning (130\u2013160\u00b0C) sanitises \u2014 excellent for leather stitching and vents. Hot water extraction injects cleaner under pressure and vacuums it with dissolved dirt \u2014 superior for heavy stains. Most professionals use both."
+      },
+      {
+        "heading": "Pet hair and odour removal",
+        "body": "Pet hair needs pumice stone or rubber brush. Enzyme cleaners break down urine proteins. Ozone treatment kills bacteria in the air-con system. Masking with air fresheners is temporary."
+      },
+      {
+        "heading": "Leather cleaning properly done",
+        "body": "Leather pores trap body oils and dye transfer \u2014 these break down the finish, causing cracks. Professional clean uses pH-balanced cleaner agitated with a soft brush. Conditioner replaces natural oils lost to cleaning and UV exposure."
+      },
+      {
+        "heading": "Air-con cleaning benefit",
+        "body": "Professional detail includes cleaning the evaporator \u2014 the source of stale sock smell. Foam cleaner or fogger sanitises the evaporator and ducts, eliminating odours and improving air quality for allergy sufferers."
+      },
+      {
+        "heading": "How often to deep clean",
+        "body": "Daily drivers: every 6 months. Families with kids or pets: 3\u20134 months. Ride-share (Uber, Bolt): 2\u20133 months. Essential before selling. In between: weekly vacuum and monthly surface wipe-down prevents build-up."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "engine_bay_clean",
+    "tag": "Car Detailing",
+    "title": "Engine Bay Cleaning: Safe Process, Real Benefits",
+    "subtitle": "A clean bay helps spot leaks and extends component life",
+    "image": "/scenes/auto_engine_bay.png",
+    "problemHeadline": "Should you pressure-wash your engine bay?",
+    "problemBody": "A dirty engine bay traps grime against wiring connectors, hoses, and metal. In SA this accelerates corrosion (coastal salt) and degrades rubber hoses. A proper clean degreases oil residue, revealing minor leaks before they become major failures. But modern engines have sensitive electronics that cannot handle direct high-pressure spray.",
+    "bouulSolution": [
+      "Detailers protect ECU, alternator, air intake, and fuse box with bags before any water touches the bay",
+      "Low-pressure rinse, biodegradable degreaser, and brushes \u2014 never a pressure washer directly on components",
+      "Escrow protects \u2014 inspect for moisture in connectors and check dash for warning lights before releasing"
+    ],
+    "partsNeeded": [
+      "Biodegradable engine degreaser (water-based, citrus)",
+      "Detailing brushes (various sizes for hose crevices)",
+      "Low-pressure sprayer or hose with shower nozzle",
+      "Water-based dressing for hoses and plastics (not silicone which attracts dust)"
+    ],
+    "guidePricing": "R400 \u2013 R1 200 (4-cylinder); R600 \u2013 R1 800 (V6/V8/large SUV)",
+    "timeline": "1\u20132 hours",
+    "aiPromptExample": "2019 Ford Ranger 2.0 Diesel. Off-road near Rustenburg \u2014 engine bay caked in dried mud. Safe to hose down or need a pro?",
+    "aiDiagnosisOutput": "Ranger 2019 \u2014 dried mud around alternator, starter, belt tensioner. Do not pressure wash \u2014 risk to diesel fuel connectors. Cool-engine degrease, low-pressure rinse, leaf blower dry, inspect induction. Est. R600\u2013R1 000.",
+    "escrowGuarantee": "After cleaning, start the engine. No warning lights, no rough idle? Release funds. If any dash light appears, payment stays frozen.",
+    "pirbStandard": "SANS 10100-5 engine bay cleaning; RMI Electrical Component Protection standards",
+    "articleSections": [
+      {
+        "heading": "The correct engine bay cleaning process",
+        "body": "Engine must be cool. Cover ECU, alternator, fuse box, air intake. Apply degreaser bottom-up. Agitate with brushes. Low-pressure rinse \u2014 never a pressure washer on modern bays. Start engine to evaporate moisture, then apply water-based dressing."
+      },
+      {
+        "heading": "Why pressure washing is dangerous",
+        "body": "Modern engines have weather-resistant not waterproof connectors. High-pressure water (>1 000 PSI) forces past seals, causing intermittent faults and corrosion. BMW, Mercedes, and VW electronics are particularly sensitive. Pressure washers also kill alternator voltage regulators."
+      },
+      {
+        "heading": "The leak-detection benefit",
+        "body": "A clean bay reveals leaks immediately. Fresh oil shows bright against clean surfaces \u2014 on a dirty engine it soaks into grime unnoticed. Bouul detailers flag any signs of fresh fluid in the inspection report."
+      },
+      {
+        "heading": "Dressing: the controversial step",
+        "body": "Silicone spray on plastics attracts dust, creating a mess within a week. Water-based dressings provide UV protection and satin finish without attracting dust. Bouul uses these sparingly, never on belts or pulleys."
+      },
+      {
+        "heading": "When not to clean yourself",
+        "body": "Exposed cold-air intakes risk hydrolock. Known electrical issues (Range Rover AJV8, BMW N-series, Audi MultiTronic) need professional care. Deteriorating under-bonnet insulation absorbs water and sags."
+      },
+      {
+        "heading": "Maintaining a clean bay",
+        "body": "After professional cleaning, occasional wipes when checking oil suffice. Avoid driving on dusty roads with engine hot \u2014 heat bakes dust on. If you off-road frequently, schedule bay inspection every 6\u201312 months."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "headlight_restoration",
+    "tag": "Car Detailing",
+    "title": "Headlight Restoration: Brighter, Safer, and Legal Again",
+    "subtitle": "Cloudy headlights reduce beam output by up to 70%. Restore them to 95% of new clarity.",
+    "image": "/scenes/auto_headlight_restoration.png",
+    "problemHeadline": "Cannot see well at night? Headlights may be the problem.",
+    "problemBody": "Headlights are polycarbonate plastic that oxidises and yellows under UV. In SA highveld sun, headlights cloud after 3\u20135 years, reducing light output up to 70%. Restoration involves sanding, polishing, and sealing. It costs a fraction of replacement and lasts 12\u201324 months with quality UV sealant.",
+    "bouulSolution": [
+      "Wet-sanding (400 to 3 000 grit) to remove oxidation, then machine-polish to clear transparency",
+      "UV-blocking clear coat or dedicated headlight sealant preventing re-yellowing for 12\u201324 months",
+      "Escrow holds payment until you check beam pattern at night \u2014 clean and focused, release funds"
+    ],
+    "partsNeeded": [
+      "Wet/dry sandpaper (400, 800, 1 500, 3 000 grit)",
+      "Distilled water spray bottle for constant lubrication",
+      "UV-resistant headlight sealant or 2K clear coat",
+      "Machine polisher with plastic-specific compound"
+    ],
+    "guidePricing": "R400 \u2013 R1 000 per pair (sedan); R600 \u2013 R1 500 per pair (SUV)",
+    "timeline": "1\u20132 hours per pair",
+    "aiPromptExample": "2012 Honda Civic. Headlights so yellow they look orange. Quoted R4 500 per side for new ones from Honda. Is restoration viable?",
+    "aiDiagnosisOutput": "Civic 2012 \u2014 severe UV oxidation surface only. Restoration viable: sand + polish + UV clear coat. 95% clarity. Est. R500\u2013R800 per pair. Check internal reflector is not burnt.",
+    "escrowGuarantee": "Check headlights at night \u2014 beam white and focused. No sanding haze. If clarity clouds within 60 days, Bouul arranges re-treatment free.",
+    "pirbStandard": "SANS 1394 for automotive lighting; NRCS headlight compliance",
+    "articleSections": [
+      {
+        "heading": "When restoration works vs replacement needed",
+        "body": "If clouding is on the outside surface (polycarbonate lens), restoration works. Fingernail test: if hazy layer is on top, restoration fixes it. If inside the lens or reflector bowl is burnt/peeling, replacement is needed."
+      },
+      {
+        "heading": "The sanding process explained",
+        "body": "Start 400-grit (remove heavy oxidation), progress 800, 1 500, 3 000 grit to refine surface. Machine-polish with plastic compound restores optical clarity. Each restoration removes ~0.1 mm plastic \u2014 headlights can be restored 3\u20135 times over the car life."
+      },
+      {
+        "heading": "Why UV sealant matters",
+        "body": "Restored bare polycarbonate is extremely UV vulnerable. Within 2\u20134 months in SA sun the lens yellows worse than before. 2K urethane or dedicated headlight sealant extends clarity to 12\u201324 months."
+      },
+      {
+        "heading": "Night-time difference",
+        "body": "Clear headlight: 800\u20131 200 lumens. Heavily oxidised: 300\u2013500 lumens \u2014 like driving with parking lights. Restoration brings back 700\u20131 100 lumens. Dramatic on unlit SA roads like the N1 outside town. Also reduces glare for oncoming traffic."
+      },
+      {
+        "heading": "DIY vs professional",
+        "body": "DIY kits (R150\u2013R300 at Midas) work but results last 3\u20136 months because the sealant is low-quality. Professional restoration with 2K UV clear coat lasts 1\u20132 years. Bouul detailers have specialist compounds and UV-curing equipment."
+      },
+      {
+        "heading": "Roadworthy and headlight condition",
+        "body": "When selling, the RWC includes headlight condition. Cloudy lenses are a failure item. Restoration costs R400\u2013R1 000 \u2014 a fraction of new assemblies (R3 000\u2013R8 000 each). Essential pass strategy if selling."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  }
+]

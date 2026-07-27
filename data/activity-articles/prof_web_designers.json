@@ -1,0 +1,258 @@
+[
+  {
+    "id": "webdesign-01",
+    "tag": "Website Build",
+    "title": "Building a Business Website That Actually Works for Your SA Business",
+    "subtitle": "From brief to launch: what every business owner needs to know",
+    "image": "/scenes/pro_webdesign_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "75% of SA SMEs have a website that generates zero business inquiries",
+    "problemBody": "Having a website is not the same as having a website that works. Most South African SME websites fail on at least one critical dimension: they are not mobile-optimised (over 70% of SA web traffic is mobile), they load too slowly (3+ seconds for the first meaningful paint), they have no clear call-to-action, or they are designed for the owner's taste rather than the customer's needs. A website that works is fast, mobile-first, conversion-optimised, and easy to update. A website that does not work is an expensive digital brochure that nobody reads.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer conducts a discovery session: business goals, target audience, competitor websites, functionality requirements, and content structure.",
+      "We build a mobile-first, conversion-optimised website: fast loading (under 2 seconds), clear CTAs, booking or inquiry functionality, and content management system.",
+      "Post-launch: you receive training to update content, plus a 30-day support period for bug fixes and adjustments."
+    ],
+    "partsNeeded": [
+      "Business logo, brand colours, and fonts (or we design them as part of the build)",
+      "Website content: text copy for each page, images, videos, team photos",
+      "Domain name (or we register it) and hosting details",
+      "Functionality list: contact form, booking system, e-commerce, blog, gallery, maps"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Standard 5-page business website: 2-3 weeks. E-commerce website: 4-6 weeks. Content management system training: 1 hour post-launch.",
+    "aiPromptExample": "A Durban-based dental practice is building a new website. They want 5 pages: Home, About, Services, Contact, Blog. Write a content structure brief: what goes on each page, the call-to-action for each page, the key information dental patients need before booking, and recommended SA-specific features (medical aid logos, WhatsApp click-to-chat, Google Business Profile integration).",
+    "aiDiagnosisOutput": "Page structure: Home — hero section with professional clinic photo, value proposition ('Gentle, Modern Dentistry in Durban'), 3 key differentiators, patient testimonial carousel, prominent 'Book Appointment' CTA, WhatsApp click-to-chat button. About — dentist qualifications and experience, clinic philosophy, team photos. Services — 6-8 service cards (General Checkup, Teeth Whitening, Fillings, Crowns, Root Canals, Emergency Dentistry, Invisalign, Paediatric Dentistry) each with description, price range, and book button. Contact — interactive Google Map, address, phone, email, contact form, medical aid logos (Discovery, Momentum, Bonitas, Fedhealth), practice hours. Blog — dentistry tips, patient education articles. Technical: Google Business Profile integration for local SEO, Facebook Pixel for retargeting, WhatsApp API for click-to-chat (critical for SA users). Estimated budget: R18k-R25k for a professional 5-page site with CMS.",
+    "escrowGuarantee": "Website build fees are held in escrow. Payment releases in milestones: 30% on wireframe approval, 30% on design approval, 40% on launch and your confirmation of satisfaction.",
+    "pirbStandard": "IAB SA — Bouul web designers follow IAB SA standards for web accessibility, responsive design, and user experience guidelines.",
+    "articleSections": [
+      {
+        "heading": "Mobile-first: the SA reality",
+        "body": "South Africa has one of the highest mobile internet usage rates in the world — over 70% of web traffic comes from mobile devices. Google uses mobile-first indexing, meaning it primarily uses the mobile version of your site for ranking and indexing. A mobile-first website is designed for small screens first, then adapted for desktop. Key requirements: touch-friendly buttons (minimum 44x44px), readable text without zooming, single-column layouts, and fast loading on 3G/4G networks."
+      },
+      {
+        "heading": "Conversion-optimised design",
+        "body": "A conversion-optimised website guides visitors toward a specific action. Every page should have one primary CTA. Home page: 'Book Now' or 'Get a Quote'. Service pages: 'Schedule a Consultation'. Contact page: standard contact form plus WhatsApp click-to-chat. Best practices: above-the-fold CTA (visible without scrolling), contrasting button colour, action-oriented button text ('Get My Free Quote' not 'Submit'), minimal form fields (name, phone, email is enough)."
+      },
+      {
+        "heading": "Content management systems for SA businesses",
+        "body": "A CMS lets you update your website without technical skills. WordPress powers 43% of all websites globally and is the most popular CMS in SA. Alternatives: Webflow (visual design-focused, higher learning curve), Wix/Squarespace (all-in-one, simpler but less customisable), Shopify (for e-commerce). Your Bouul web designer recommends a CMS based on your technical comfort, content update frequency, and budget."
+      },
+      {
+        "heading": "Website speed: the performance standard",
+        "body": "Google's benchmark is Largest Contentful Paint under 2.5 seconds. For SA users on mobile networks, this is challenging but achievable. Key speed factors: image optimisation (compress to WebP format), lazy loading (images load as user scrolls), minimal plugins, fast hosting with SA-based CDN (Content Delivery Network), and code minification. A 1-second delay in mobile load time can reduce conversions by up to 20%."
+      }
+    ]
+  },
+  {
+    "id": "webdesign-02",
+    "tag": "E-commerce",
+    "title": "Building an E-commerce Store for the South African Market",
+    "subtitle": "Platform selection, payment gateways, mobile checkout, and delivery logistics",
+    "image": "/scenes/pro_webdesign_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "60% of SA e-commerce transactions are abandoned due to poor checkout experience",
+    "problemBody": "South African e-commerce is growing at 20% annually but cart abandonment rates remain high at 60-70%. The main reasons: unexpected delivery costs (50% of abandonments), complicated checkout process (25%), website not loading or crashing (10%), and limited payment methods (15%). SA shoppers expect specific payment options (EFT, PayFast, SnapScan, Masterpass, and buy-now-pay-later), transparent delivery costs upfront, and a mobile checkout that works on any device.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer recommends the right e-commerce platform for your needs: Shopify, WooCommerce, or a custom build — based on product count, budget, and technical requirements.",
+      "We build your store with: clean product pages, mobile-optimised checkout, payment gateway integration (PayFast, Yoco, Ozow, SnapScan), and delivery cost calculator.",
+      "Post-launch: inventory management training, order fulfilment workflow setup, and 30-day performance monitoring."
+    ],
+    "partsNeeded": [
+      "Product catalogue (names, descriptions, prices, images, SKUs, categories)",
+      "Payment gateway selection (PayFast, Yoco, Ozow, SnapScan — or all of them)",
+      "Delivery logistics: shipping zones, rates, courier service agreements",
+      "Domain name and hosting (or store domain settings)"
+    ],
+    "guidePricing": 25000,
+    "timeline": "Standard e-commerce store (up to 100 products): 4-6 weeks. Custom development: 8-12 weeks.",
+    "aiPromptExample": "A Cape Town-based home décor business wants to sell online. They have 80 products across 6 categories. Average order value is R850. Target customers are SA women aged 28-55. Write an e-commerce strategy brief covering: platform recommendation, payment gateways (SA-specific), mobile checkout optimisation, and the delivery cost strategy (free delivery threshold to reduce abandonment).",
+    "aiDiagnosisOutput": "Platform recommendation: Shopify — best for physical products under 500 SKUs, SA payment gateway integration (PayFast and Ozow), mobile-optimised checkout, and professional product page templates. Monthly cost: R500-R1,500 plus transaction fees. Payment gateways: PayFast (2-4% per transaction, R100/month), Yoco (for in-person + online payments), SnapScan (popular in Cape Town), Ozow (EFT payments, growing in SA). Delivery strategy: free delivery on orders over R800 (incentivises upsell from R850 AOV), flat rate R99 for orders under R800 within Cape Town metro, tiered rates for national delivery (R120-R250 depending on zone). Abandonment recovery: automated email follow-up at 2 hours and 24 hours after cart abandonment. Expected conversion rate: 2-3% with optimised mobile checkout.",
+    "escrowGuarantee": "E-commerce build fees are held in escrow. Milestone payments: 25% design approval, 25% development complete, 25% testing sign-off, 25% launch confirmed.",
+    "pirbStandard": "IAB SA and PCI DSS compliance — Bouul e-commerce developers follow PCI DSS security standards for payment card data handling.",
+    "articleSections": [
+      {
+        "heading": "Payment gateways for SA e-commerce",
+        "body": "SA shoppers expect multiple payment options. PayFast: most popular, supports credit/debit cards, EFT, and instant EFT. Yoco: POS + online, widely used in retail and hospitality. Ozow: instant EFT (no card needed), growing rapidly. SnapScan: QR-code based, popular in Western Cape. Masterpass: digital wallet by Mastercard. Buy-now-pay-later (BNPL): PayJustNow and Mobicred are gaining traction. Each gateway charges 2-5% per transaction. Bouul web designers integrate the right mix for your target market."
+      },
+      {
+        "heading": "Delivery strategy that converts",
+        "body": "Unexpected delivery cost is the #1 reason for cart abandonment. Strategies that work: free delivery threshold (set at 20-30% above your average order value to incentivise upsell), flat rate delivery for standard orders, and transparent cost display on product pages before checkout. Partner with SA courier services like The Courier Guy, Fastway, DPD Laser, or Pargo for collection points (growing in SA for customers who can't receive at home)."
+      },
+      {
+        "heading": "Product pages that sell",
+        "body": "Product pages are the most important pages on your e-commerce store. Include: high-quality images (minimum 4 angles, zoom capability), detailed descriptions (not just manufacturer copy — write for your customer), size/colour/variant selectors with stock availability visible, price with VAT clearly stated (SA law requires inclusive pricing), customer reviews with photos, and related product recommendations. Estimated budget: R8,000-R15,000 for professional product photography for 80 products."
+      }
+    ]
+  },
+  {
+    "id": "webdesign-03",
+    "tag": "Redesign",
+    "title": "When to Redesign Your Website: Signs, Process, and ROI",
+    "subtitle": "Knowing when your current site is costing you business",
+    "image": "/scenes/pro_webdesign_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Most SMEs wait until traffic drops 50% before redesigning — by then they've lost thousands in revenue",
+    "problemBody": "A website has a typical lifespan of 2-3 years before it starts losing effectiveness. The signs are subtle: declining organic traffic (Google penalises outdated design), increasing bounce rate (visitors leave because the site looks dated or loads slowly), falling conversion rates (CTA placement and messaging are stale), and a growing gap between the website and what competitors are doing. Most SME owners ignore these signs until traffic drops by 50% or more. By then, the cost of the redesign is higher because you are rebuilding from a position of weakness.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer conducts a website performance audit: Google Analytics data (traffic, bounce rate, conversion rate), page speed test, mobile usability test, and competitor comparison.",
+      "We develop a redesign brief: site structure improvements, UX/UI enhancements, content refresh, new functionality, and SEO improvements.",
+      "The redesigned website is built, tested, and launched with a 30-day performance tracking period to measure the improvement."
+    ],
+    "partsNeeded": [
+      "Current website access (FTP, CMS, or admin credentials)",
+      "Google Analytics access (or we set it up)",
+      "Content for updated pages (new text, new images, updated team bios)",
+      "Competitor websites that you admire (3-5 examples)"
+    ],
+    "guidePricing": 18000,
+    "timeline": "Performance audit: 1 week. Redesign process: 3-5 weeks. Launch and tracking: 1 week.",
+    "aiPromptExample": "A Johannesburg law firm's website was built in 2019 and looks dated. Traffic has dropped 30% year-on-year. Bounce rate is 65%. Write a website redesign brief covering: modern legal website design trends (clean, professional, trust-building), content restructuring (practice area pages, attorney profiles, case results), mobile optimisation, and conversion path improvements.",
+    "aiDiagnosisOutput": "Current site assessment: designed 2019, non-responsive (not mobile-optimised), average load time 4.2 seconds, bounce rate 65% (industry benchmark 45-55%), organic traffic down 30% YoY. Redesign scope: clean modern design with professional photography, mobile-first responsive build, page speed target under 2 seconds. Content restructure: practice area pages (comprehensive 800+ word pages targeting specific keywords like 'business lawyer Johannesburg'), attorney profiles (professional headshots, bios with personal touch and qualifications), and case results (anonymised summaries building trust). CTA improvement: prominent 'Free Initial Consultation' CTA on every page, sticky mobile consultation button, WhatsApp click-to-chat. Estimated traffic recovery: +40% in 6 months with proper SEO implementation alongside the redesign. Budget: R25k-R40k.",
+    "escrowGuarantee": "Redesign fees are held in escrow. Payment releases on milestone completion: 30% audit and brief, 40% design and development, 30% launch and confirmation.",
+    "pirbStandard": "IAB SA accessibility standards — Bouul web designers ensure redesigned sites meet WCAG 2.1 accessibility standards.",
+    "articleSections": [
+      {
+        "heading": "Signs your website needs a redesign",
+        "body": "Six warning signs: (1) your website looks older than 2 years (design trends move fast), (2) your bounce rate is above 60% on mobile (SA mobile users are impatient), (3) your page load time is over 3 seconds (Google penalises slow sites), (4) your conversion rate is below 1% (a well-designed site should convert 2-5%), (5) you cannot update content yourself (outdated CMS or custom code), and (6) your competitors' sites look better than yours. If 3 or more apply, a redesign will pay for itself."
+      },
+      {
+        "heading": "The redesign process: from audit to launch",
+        "body": "Phase 1 — Audit and discovery: analytics review, user research, stakeholder interviews, competitor analysis. Phase 2 — Strategy: site architecture, content plan, UX wireframes, visual direction. Phase 3 — Design: visual mockups for all page templates, mobile and desktop versions, review cycles. Phase 4 — Development: CMS build, frontend development, third-party integrations, QA testing. Phase 5 — Launch: DNS migration, 301 redirects, performance testing, monitoring. Each phase includes client review and approvals before proceeding."
+      },
+      {
+        "heading": "ROI of a website redesign",
+        "body": "A successful redesign typically delivers: 20-40% increase in organic traffic (better SEO foundation), 15-30% increase in conversion rate (better UX and CTA placement), 30-50% reduction in bounce rate (faster loading, better mobile experience), and 10-25% increase in average session duration (better content). Calculate the ROI: if your current site generates R20,000/month in leads and a redesign increases that by 20%, the monthly increase is R4,000. At a redesign cost of R30,000, payback is 7.5 months."
+      }
+    ]
+  },
+  {
+    "id": "webdesign-04",
+    "tag": "Landing Pages",
+    "title": "High-Converting Landing Pages for SA Campaigns",
+    "subtitle": "Designing focused pages that turn traffic into leads",
+    "image": "/scenes/pro_webdesign_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Generic homepages convert at 2% — a targeted landing page converts at 15% or more",
+    "problemBody": "Sending paid traffic to your homepage is one of the most expensive mistakes in digital marketing. The homepage has too many options, too many CTAs, and no single focus. A landing page is a standalone page designed for one purpose: getting the visitor to take one specific action. A well-designed landing page consistently converts at 10-20% versus 1-3% for a homepage. For SA businesses running Google Ads or Facebook campaigns, the landing page determines whether the campaign generates leads or wastes budget.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer creates a dedicated landing page for each campaign or offer: single goal, single CTA, no navigation menu (no distractions).",
+      "We follow conversion-optimised design principles: compelling headline, benefit-driven copy, social proof (testimonials, logos), clear CTA button, and mobile-optimised form.",
+      "A/B testing is set up: two versions of the landing page run simultaneously to determine which converts better."
+    ],
+    "partsNeeded": [
+      "Campaign or offer details (what are you promoting?)",
+      "Target audience description (who is this for?)",
+      "Copy: headline, subheadline, bullet points, testimonials, CTA text",
+      "Images or video assets for the page"
+    ],
+    "guidePricing": 5000,
+    "timeline": "Single landing page: 3-5 business days. A/B testing setup: additional 30 days for data collection.",
+    "aiPromptExample": "An accounting firm is running a Google Ads campaign for 'tax return filing Cape Town'. Design brief for a landing page targeting this keyword: headline options, trust elements (SAICA registration, client logos), form fields (name, phone, email, estimated income), and the offer (free tax health check with every return filing).",
+    "aiDiagnosisOutput": "Landing page structure: Hero section — headline option A 'Cape Town Tax Returns — Filed Fast for R2,250' or option B 'Stop Overpaying Tax — Expert Cape Town Accountants'. Trust bar: SAICA Accredited, 500+ Returns Filed, 4.9 Google Rating (use real numbers). Social proof: 2-3 client testimonial quotes with photos, logos of well-known clients. Offer section: 'Book Your Return Filing — Get a Free Tax Health Check (Value R800)'. Form: 4 fields — Name, Phone, Email, Estimated Annual Income (dropdown). CTA button: 'Claim My Free Tax Health Check'. No navigation menu, no footer links, no multiple CTAs. Mobile: single-column layout, sticky CTA button at the bottom. Expected conversion rate: 12-18% from paid traffic.",
+    "escrowGuarantee": "Landing page fees are held in escrow. Payment releases when the page is published and tracking confirms it is functioning correctly.",
+    "pirbStandard": "IAB SA — Bouul landing page designers follow IAB SA standards for conversion optimisation and ethical lead generation.",
+    "articleSections": [
+      {
+        "heading": "The 5 elements of a high-converting landing page",
+        "body": "A landing page needs five elements to convert. (1) A compelling headline that states the single value proposition. (2) Supporting copy that explains the benefit, not just the feature. (3) Social proof: testimonials, case study results, client logos, or numbers. (4) A clear, focused CTA with action-oriented text. (5) A form that asks for the minimum information needed. Remove all distractions: no navigation menu, no sidebar, no links to other pages."
+      },
+      {
+        "heading": "A/B testing: data-driven optimisation",
+        "body": "A/B testing runs two versions of a landing page to 50% of traffic each, measures which converts better, and then implements the winner. Test one variable at a time: headline, CTA button colour, hero image, form length, or page layout. Statistical significance requires 100+ conversions per variation. A/B testing typically improves conversion rates by 15-30% per test. Bouul web designers set up A/B testing using Google Optimize or built-in platform tools."
+      },
+      {
+        "heading": "Mobile landing pages for SA users",
+        "body": "70%+ of SA traffic is mobile. A mobile landing page must: load in under 2 seconds (AMP or lightweight build), have a sticky CTA button visible at all times, show the form above the fold or present a 'tap to call' button, and use large text and touch-friendly buttons. Mobile landing pages should be even more minimal than desktop versions — one headline, one image, one CTA."
+      }
+    ]
+  },
+  {
+    "id": "webdesign-05",
+    "tag": "SEO Setup",
+    "title": "SEO-First Web Design: Building Your SA Website for Google Rankings",
+    "subtitle": "Technical SEO foundations that should be built in, not bolted on",
+    "image": "/scenes/pro_webdesign_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "70% of SA SME websites have technical SEO issues that prevent them from ranking on Google",
+    "problemBody": "Most SME websites are designed for looks, not for Google. By the time the SEO specialist is brought in (6-12 months after launch), the website has foundational issues that are expensive to fix: missing meta descriptions, duplicate content, no schema markup, broken internal links, missing sitemaps, and no canonical tags. SEO should be built into the website from day one — the URL structure, content hierarchy, page speed, and mobile responsiveness are all SEO decisions. Retrofitting SEO costs 3-5x more than building it in from the start.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer builds SEO foundations into every page: semantic HTML structure (H1, H2, H3 hierarchy), optimised title tags and meta descriptions, schema markup (LocalBusiness, FAQ, Review), and clean URL structure.",
+      "Technical SEO is implemented: XML sitemap, robots.txt, canonical URLs, page speed optimisation, mobile-first responsive design, and SSL/HTTPS.",
+      "A post-launch SEO report covers: indexing status, Core Web Vitals, keyword targeting, internal link structure, and recommendations for ongoing optimisation."
+    ],
+    "partsNeeded": [
+      "Target keywords list (primary and secondary per page)",
+      "Content for each page (pre-written or provided during build)",
+      "Google Search Console access (or we set it up)",
+      "Google Analytics property (or we set it up)"
+    ],
+    "guidePricing": 3000,
+    "timeline": "SEO foundations built during website development (not an add-on). Post-launch SEO report: 1 week after launch.",
+    "aiPromptExample": "A Pretoria-based electrician is building a new website targeting 'electrician Pretoria', 'emergency electrician Pretoria East', 'electrical certificate of compliance Pretoria', and 'ceiling fan installation Pretoria'. Write an SEO-first page structure with: URL slugs, H1 headings, meta descriptions (under 160 characters), and schema markup types for each page.",
+    "aiDiagnosisOutput": "Recommended page structure: 1. Home page — URL: /, H1: 'Pretoria Electrician | Same-Day Electrical Services', meta: 'Professional electrician in Pretoria. Same-day emergency call-outs, electrical COCs, installations and repairs. Call now for a free quote.', schema: LocalBusiness + ElectricalContractor. 2. Emergency page — URL: /emergency-electrician-pretoria-east, H1: 'Emergency Electrician Pretoria East — 24/7 Call-Out', meta: 'Need an emergency electrician in Pretoria East? Available 24/7 for urgent electrical repairs, power outages, and electrical faults within 60 minutes.', schema: LocalBusiness + EmergencyService + Service area: Pretoria East suburbs. 3. COC page — URL: /electrical-certificate-of-compliance-pretoria, H1: 'Electrical COC in Pretoria — R950 Fixed Fee', meta: 'Get your Electrical Certificate of Compliance in Pretoria. R950 fixed fee for standard homes. Issued within 24 hours of inspection.', schema: LocalBusiness + Service. 4. Ceiling fan page as blog or service page. Technical: breadcrumb schema on all pages, FAQ schema on service pages, review schema for testimonial section.",
+    "escrowGuarantee": "SEO setup fees are held in escrow. Payment releases with the final website delivery and confirmation that all SEO foundations are in place.",
+    "pirbStandard": "IAB SA SEO standards — Bouul web designers follow IAB SA and Google Webmaster Guidelines for ethical, white-hat SEO practices.",
+    "articleSections": [
+      {
+        "heading": "Semantic HTML: the foundation of SEO-friendly websites",
+        "body": "Google uses HTML heading structure to understand page content. A proper structure has one H1 (primary title, matches the page's focus keyword), H2s for main sections, and H3s for subsections. The page should read like a well-organised document to both users and Google. Content management systems should enforce this structure — you should not have multiple H1s or skip heading levels."
+      },
+      {
+        "heading": "Schema markup: speaking Google's language",
+        "body": "Schema markup is code that helps Google understand the context of your content. For SA local businesses: LocalBusiness schema (name, address, phone, hours, geo-coordinates), Service schema (list services and service areas), Review schema (star ratings for Google snippet display), and FAQ schema (mobile-friendly FAQ display). Pages with rich snippets (star ratings, FAQ, pricing) get 30% higher click-through rates from search results."
+      },
+      {
+        "heading": "Page speed as an SEO factor",
+        "body": "Google's Core Web Vitals are ranking signals. Three metrics matter: Largest Contentful Paint (LCP — loading performance, target under 2.5 seconds), First Input Delay (FID — interactivity, target under 100ms), and Cumulative Layout Shift (CLS — visual stability, target under 0.1). SA websites on shared hosting often fail CLS (shifting layouts from slow-loading fonts or images). Bouul web designers build for Core Web Vitals from the first line of code."
+      }
+    ]
+  },
+  {
+    "id": "webdesign-06",
+    "tag": "Maintenance",
+    "title": "Website Maintenance: Keeping Your Site Secure, Fast, and Up-to-Date",
+    "subtitle": "Why your website needs ongoing care and what happens if you neglect it",
+    "image": "/scenes/pro_webdesign_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "30% of SA SME websites have been hacked or infected with malware — most don't know it",
+    "problemBody": "A website is not a one-time project — it is an ongoing asset that needs maintenance. Outdated CMS platforms, plugins, and themes are the most common attack vectors for hackers. A hacked website can: redirect visitors to malicious sites, send spam emails from your domain, steal customer data, get blacklisted by Google (removed from search results entirely), and destroy your brand reputation. The average cost to clean a hacked website in SA is R8,000-R25,000. Regular maintenance (updates, backups, security scans) costs a fraction of that.",
+    "bouulSolution": [
+      "Your Bouul-matched web designer sets up a maintenance plan: weekly security scans, monthly CMS and plugin updates, quarterly content backups, and uptime monitoring.",
+      "We monitor your website performance: page speed, uptime (99.9% target), broken links, and form functionality.",
+      "Monthly reports show: security status, update history, performance metrics, and any issues found and resolved."
+    ],
+    "partsNeeded": [
+      "Website platform details (CMS, version, hosting provider)",
+      "Admin access (CMS and hosting panel)",
+      "Critical contact information (who to reach if the site goes down)",
+      "Content update requests (ongoing)"
+    ],
+    "guidePricing": 1500,
+    "timeline": "Monthly maintenance plan. Urgent security fixes: within 6 hours. Content updates: within 48 hours of request.",
+    "aiPromptExample": "A business owner has a WordPress website that hasn't been updated in 14 months. The admin panel shows 12 plugin updates and 3 core updates pending. Write an explanation of the security risks of not updating: known vulnerabilities, common attack vectors, Google blacklisting risk, and what the 14-month update includes (security patches, PHP compatibility, bug fixes).",
+    "aiDiagnosisOutput": "Security risk: Very High. 14 months without updates means the site is exposed to known vulnerabilities. Top 5 threats: (1) SQL injection via unpatched contact form plugin, (2) Cross-site scripting (XSS) via outdated theme, (3) Remote code execution via old WordPress core, (4) Brute force login vulnerability (no security plugin), (5) Malware injection via compromised plugin. Google flags compromised sites with a 'This site may be hacked' warning — this alone can kill traffic by 90%+. Required action: immediate manual update, security audit, malware scan, and password reset for all admin accounts. Estimated cleanup cost if hacked: R15k-R25k vs monthly maintenance cost of R1,500.",
+    "escrowGuarantee": "Maintenance fees are billed monthly and held in escrow for the service period. Service credit if uptime falls below 99.5%.",
+    "pirbStandard": "IAB SA and POPI Act — Bouul maintenance services ensure websites remain POPI-compliant with updated privacy policies and secure data handling.",
+    "articleSections": [
+      {
+        "heading": "The monthly maintenance checklist",
+        "body": "Core updates: apply CMS, plugin, and theme updates. Compatibility check: verify all plugins work with the latest CMS version. Security scan: run malware detector, check file integrity, review user accounts for unauthorised additions. Backup: full website backup (files + database) stored off-site. Performance check: page speed test, uptime check, broken link scan. Form test: submit each contact form to verify it works. Content review: check for expired offers, outdated team members, or broken images."
+      },
+      {
+        "heading": "Security: the cost of neglect",
+        "body": "A compromised website can cost you: Google blacklisting (removed from search — costs R12,000-R25,000 to resolve), data breach notification costs under POPI Act, customer trust damage (often permanent), and downtime (lost revenue during restoration). The average hacked website takes 2-5 days to restore. For a business generating R5,000/day from the website, that's R10,000-R25,000 in lost revenue plus restoration costs."
+      },
+      {
+        "heading": "Backup strategy: your safety net",
+        "body": "A proper backup strategy has the 3-2-1 rule: 3 copies of your data, on 2 different media types, with 1 copy stored off-site. Automated daily backups to cloud storage (Google Drive, Dropbox, AWS S3). Tested monthly by restoring a backup to a staging environment to verify it works. Without tested backups, you have no backup at all."
+      }
+    ]
+  }
+]

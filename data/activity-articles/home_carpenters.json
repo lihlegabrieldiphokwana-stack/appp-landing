@@ -1,0 +1,230 @@
+[
+  {
+    "id": "carpenter_custom_cupboards",
+    "tag": "Built-In Cupboards",
+    "title": "Custom Built-In Wardrobe & Bedroom Storage",
+    "subtitle": "Custom fitted bedroom wardrobes with soft-close hinges and sliding doors",
+    "image": "/scenes/furniture_assembly.png",
+    "readTime": "5 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Stock wardrobes waste space and fail to fit non-standard ceiling heights",
+    "problemBody": "Off-the-shelf furniture leaves awkward dust-collecting gaps and lacks custom shelving options.",
+    "bouulSolution": [
+      "Custom design, precision cutting, and professional installation of built-in cupboards",
+      "Choice of MelaWood, SupaWood, or solid timber finishes with soft-close hardware",
+      "Escrow holds 50% deposit until installation is 100% complete and level"
+    ],
+    "partsNeeded": [
+      "Track saw & plunge router",
+      "Laser level & stud finder",
+      "Blum soft-close hinges & runners",
+      "Melamine edging iron & trimmer"
+    ],
+    "guidePricing": "R4,500 – R16,000",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Request wardrobe quote: '3-meter wall-to-wall built-in cupboard with sliding mirror doors in Bryanston.'",
+    "aiDiagnosisOutput": "Scope: 3m x 2.4m MelaWood BIC, 6 drawers, double hanging rails. Escrow Quote: R9,800.",
+    "escrowGuarantee": "Escrow released upon door alignment, smooth track motion, and site cleanup.",
+    "pirbStandard": "Institute of Timber Construction (ITC-SA) & SANS 10082 Carpentry Standards.",
+    "articleSections": [
+      {
+        "heading": "Precision Laser Level Alignment",
+        "body": "Carpenters utilize 360° laser levels to ensure plumb cabinet carcasses even on uneven floors."
+      },
+      {
+        "heading": "Edge Banding Durability",
+        "body": "Impact-resistant 2mm PVC edging is applied to drawer fronts for long-lasting wear."
+      }
+    ]
+  },
+  {
+    "id": "carpenter_door_hanging",
+    "tag": "Door Hanging",
+    "title": "Solid Wood Door Hanging & Lock Fitting",
+    "subtitle": "Precision fitting, planing, and hanging of interior and exterior solid doors",
+    "image": "/scenes/carpentry.png",
+    "readTime": "4 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Ill-fitting doors rub against frames, stick during humid weather, or leak drafts",
+    "problemBody": "Hanging heavy hardwood doors requires precise mortising that amateur DIY ruined.",
+    "bouulSolution": [
+      "Master carpenter trims, mortises, and hangs solid hardwood or hollow-core doors",
+      "Includes rebate cutting for weather-stripping and precision mortise lock installation",
+      "Escrow protection released after testing smooth latching and zero frame drag"
+    ],
+    "partsNeeded": [
+      "Electric hand planer & chisel set",
+      "Hinge mortise jig & router",
+      "Door jack & level",
+      "Heavy-duty brass ball-bearing hinges"
+    ],
+    "guidePricing": "R450 – R1,200 per door",
+    "timeline": "Duration: 1 – 2 Hours per door",
+    "aiPromptExample": "Book door hanging: 'Hang 3 new solid Meranti internal doors including lock fitting.'",
+    "aiDiagnosisOutput": "Scope: Trim 3 doors to size, mortise 3x hinges per door, install mortise locks. Escrow: R1,800.",
+    "escrowGuarantee": "Escrow released after testing smooth swing and latch engagement.",
+    "pirbStandard": "ITC-SA Timber Door Installation Standard.",
+    "articleSections": [
+      {
+        "heading": "Seasonal Expansion Trimming",
+        "body": "Carpenters calculate 2mm expansion gaps to ensure doors don't stick during humid summer months."
+      },
+      {
+        "heading": "Ball-Bearing Hinge Support",
+        "body": "Heavy solid wood doors are hung with 3 triple-ball-bearing brass hinges for silent operation."
+      }
+    ]
+  },
+  {
+    "id": "carpenter_timber_decking",
+    "tag": "Timber Decking",
+    "title": "Wooden Deck Construction & Balau Restoration",
+    "subtitle": "Custom hardwood outdoor decking, balustrades, and timber sealing",
+    "image": "/scenes/gardening.png",
+    "readTime": "5 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Unsealed timber decks warp, splinter, and rot under harsh South African sun",
+    "problemBody": "Sub-standard deck joists built on bare soil sink and collapse within 2 seasons.",
+    "bouulSolution": [
+      "Engineering-backed substructure framing using CCA treated pine joists on concrete footings",
+      "Hardwood Balau, Garapa, or Thermo-treated pine decking boards with hidden fasteners",
+      "Escrow protection released after structure load-testing and protective oiling"
+    ],
+    "partsNeeded": [
+      "Mitre saw & cordless impact driver",
+      "Hidden deck fastener clips & stainless screws",
+      "CCA treated structural joists (50x152mm)",
+      "UV-resistant timber deck oil"
+    ],
+    "guidePricing": "R1,200 – R2,800 per m²",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Quote wooden deck: '25m² outdoor deck around pool area using Balau hardwood.'",
+    "aiDiagnosisOutput": "Area: 25m². Substructure: CCA Treated Pine. Decking: 19x90mm Balau. Escrow Quote: R38,000.",
+    "escrowGuarantee": "Escrow released after final inspection of joist spacing and deck oil application.",
+    "pirbStandard": "ITC-SA Timber Decking Code of Practice & SANS 10082.",
+    "articleSections": [
+      {
+        "heading": "CCA Treated Substructure Protection",
+        "body": "Joists are elevated off damp soil on concrete pads and coated with bituminous sealant."
+      },
+      {
+        "heading": "Hidden Fastener Finish",
+        "body": "Decking boards are secured using hidden clips for a smooth, screw-free surface underfoot."
+      }
+    ]
+  },
+  {
+    "id": "carpenter_kitchen_countertops",
+    "tag": "Countertop Fitting",
+    "title": "Wooden & Composite Countertop Installation",
+    "subtitle": "Precision cutting and joining for wooden butcher-block and composite kitchen tops",
+    "image": "/scenes/interior_design.png",
+    "readTime": "4 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Uneven countertop joints harbor bacteria and warp when exposed to sink water",
+    "problemBody": "Cutting sink cutout holes without proper support leads to cracked or splintered countertops.",
+    "bouulSolution": [
+      "Expert carpenter cuts sink and hob openings with waterproof edge sealing",
+      "Seamless mason's mitre joints using Worktop connecting bolts and waterproof glue",
+      "Escrow released after sink fitment and food-safe oiling"
+    ],
+    "partsNeeded": [
+      "Plunge router & mason's mitre jig",
+      "Jigsaw with down-cut blades",
+      "Worktop connector bolts & biscuit jointer",
+      "Food-grade mineral counter oil"
+    ],
+    "guidePricing": "R1,500 – R4,500",
+    "timeline": "Duration: 3 – 6 Hours",
+    "aiPromptExample": "Book countertop install: 'Fit 3.6m solid oak butcher block kitchen countertop with sink cutout.'",
+    "aiDiagnosisOutput": "Scope: 2x Mason mitre joins, 1x Undermount sink cutout, 1x Hob cutout. Escrow Quote: R2,800.",
+    "escrowGuarantee": "Escrow released after checking joint tightness and waterproof seal.",
+    "pirbStandard": "Kitchen Specialists Association (KSA) Installation Standard.",
+    "articleSections": [
+      {
+        "heading": "Waterproof Cutout Sealing",
+        "body": "All sink and tap cutouts are sealed with two coats of marine polyurethane to prevent water ingress."
+      },
+      {
+        "heading": "Mason's Mitre Precision",
+        "body": "Worktops are joined using routed mason mitre joints pulled tight with underside draw-bolts."
+      }
+    ]
+  },
+  {
+    "id": "carpenter_skirting_cornice",
+    "tag": "Skirting & Cornice",
+    "title": "Skirting Board & Architectural Moulding Installation",
+    "subtitle": "Precision mitred skirting board, architrave, and decorative cornice fitting",
+    "image": "/scenes/painting_service.png",
+    "readTime": "4 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Gapping skirting corners and sloppy joints ruin the look of newly laid flooring",
+    "problemBody": "Walls in SA homes are rarely 90° straight, causing standard 45° mitre joints to open up.",
+    "bouulSolution": [
+      "Professional carpenter copes inside corners and bisects angle mitres for seamless fits",
+      "Installation of MDF, hardwood, or pine skirting boards with hidden masonry fixings",
+      "Escrow holds funds until all joints are filled and sanded flush"
+    ],
+    "partsNeeded": [
+      "Compound mitre saw & coping saw",
+      "Pneumatic finish nailer & compressor",
+      "Masonry plug fixings & adhesive",
+      "Wood filler & sandpaper"
+    ],
+    "guidePricing": "R65 – R120 per meter",
+    "timeline": "Duration: 1 Day",
+    "aiPromptExample": "Quote skirting install: 'Install 45 meters of 140mm white MDF skirting boards in living rooms.'",
+    "aiDiagnosisOutput": "Length: 45m. Material: 140mm Ogee MDF. Joints: Coped internal, mitred external. Escrow Quote: R3,600.",
+    "escrowGuarantee": "Escrow released after joint inspection and flush filling.",
+    "pirbStandard": "ITC-SA Finish Carpentry Standard.",
+    "articleSections": [
+      {
+        "heading": "Coped Inside Corners",
+        "body": "Inside corners are coped rather than simple-mitred, ensuring joints stay tight even if walls settle."
+      },
+      {
+        "heading": "Masonry Anchor Technique",
+        "body": "Skirtings are secured using dual fixings — masonry drive anchors and high-tack adhesive."
+      }
+    ]
+  },
+  {
+    "id": "carpenter_staircase_repair",
+    "tag": "Staircase Repair",
+    "title": "Wooden Staircase, Tread & Balustrade Repair",
+    "subtitle": "Fixing squeaky steps, loose handrails, and damaged timber treads",
+    "image": "/scenes/carpentry.png",
+    "readTime": "4 min read",
+    "author": "Bouul Carpentry Team",
+    "problemHeadline": "Creaking stair treads and loose balustrades pose a serious family fall risk",
+    "problemBody": "Worn stair treads weaken over time, while wobbling handrails fail to support body weight.",
+    "bouulSolution": [
+      "Structural repair of stair stringers, replacement of damaged treads, and tight balustrade anchoring",
+      "Elimination of tread squeaks using underside wedge blocking and structural adhesive",
+      "Escrow released after load-testing handrails and squeak-free walk test"
+    ],
+    "partsNeeded": [
+      "Pneumatic pin nailer & pocket hole jig",
+      "Hardwood tread replacements",
+      "Structural polyurethane wood glue",
+      "Heavy-duty wall handrail brackets"
+    ],
+    "guidePricing": "R1,200 – R4,800",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Book stair repair: 'Fix 4 squeaky wooden treads and re-anchor loose staircase balustrade.'",
+    "aiDiagnosisOutput": "Scope: Re-wedge 4 treads from underside, anchor new heavy-duty handrail bracket. Escrow: R1,800.",
+    "escrowGuarantee": "Escrow released after testing handrail firmness and tread silence.",
+    "pirbStandard": "SANS 10400-B Structural Timber & Safety Standard.",
+    "articleSections": [
+      {
+        "heading": "Underside Wedge Blocking",
+        "body": "Squeaks are eliminated by driving glued hardwood wedges into the tread-riser joints from below."
+      },
+      {
+        "heading": "Balustrade Load Anchoring",
+        "body": "Handrails are anchored into solid wall studs using heavy-duty steel mounting brackets."
+      }
+    ]
+  }
+]

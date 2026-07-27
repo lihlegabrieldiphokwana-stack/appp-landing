@@ -1,0 +1,224 @@
+[
+  {
+    "id": "fin_retirement_planning",
+    "tag": "Retirement Planning",
+    "title": "Retirement Portfolio & Pension Transfer Planning",
+    "subtitle": "Structuring tax-efficient retirement annuities, pension transfers, and living annuities",
+    "image": "/scenes/pro_bizconsult_01.png",
+    "readTime": "5 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "Outliving your retirement savings or paying unnecessary tax on pension drawdowns is a major risk",
+    "problemBody": "Inflation and poor asset allocation erode purchasing power during retirement years.",
+    "bouulSolution": [
+      "Certified Financial Planner (CFP) analyzes replacement ratios and tax-bracket optimization",
+      "Structuring living annuities, guaranteed annuities, and offshore asset diversification",
+      "Escrow released after delivery of signed Financial Planning Report and FAIS disclosure"
+    ],
+    "partsNeeded": [
+      "Financial planning analysis software",
+      "Tax-bracket drawdown calculator",
+      "Asset allocation matrix"
+    ],
+    "guidePricing": "R2,500 – R7,500",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Book financial advisor: 'Analyze current R4.2m pension fund for retirement at age 62.'",
+    "aiDiagnosisOutput": "Scope: Replacement Ratio Calculation + Living Annuity Drawdown Model (4.5%) + Tax Plan. Escrow: R4,500.",
+    "escrowGuarantee": "Escrow released upon client receipt of signed CFP advice record.",
+    "pirbStandard": "FSCA (Financial Sector Conduct Authority) Registered FSP & CFP® Professional.",
+    "articleSections": [
+      {
+        "heading": "Tax-Free Lump Sum Drawdown",
+        "body": "Advisors optimize the R550,000 tax-free retirement lump sum threshold under SA tax law."
+      },
+      {
+        "heading": "Sustainable Living Annuity Drawdowns",
+        "body": "Recommending safe 4% to 5% annual drawdown rates to preserve capital over 25+ years."
+      }
+    ]
+  },
+  {
+    "id": "fin_investment_wealth_mgmt",
+    "tag": "Wealth Management",
+    "title": "Investment Portfolio & Wealth Management",
+    "subtitle": "Custom unit trust, ETF, and offshore investment portfolio management",
+    "image": "/scenes/pro_accountants.png",
+    "readTime": "5 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "Leaving excess cash in low-interest bank accounts loses real value against inflation",
+    "problemBody": "Un-diversified investment portfolios exposed to a single stock or currency carry high risk.",
+    "bouulSolution": [
+      "Category II Discretionary Financial Services Provider builds customized local and global portfolios",
+      "Tax-efficient TFSA (Tax-Free Savings Account) and offshore offshore feeder fund allocation",
+      "Escrow released after portfolio setup and investment statement delivery"
+    ],
+    "partsNeeded": [
+      "Morningstar portfolio analytics",
+      "Risk tolerance questionnaire",
+      "Offshore allowance application"
+    ],
+    "guidePricing": "R1,500 – R5,000",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Book wealth manager: 'Invest R500,000 lump sum for long-term growth across SA and global equity.'",
+    "aiDiagnosisOutput": "Portfolio Plan: 60% Global Equity ETF + 30% SA Top 40 + 10% Income Fund. Escrow: R3,200.",
+    "escrowGuarantee": "Escrow released after investment account activation and trade confirmation.",
+    "pirbStandard": "FSCA Category II Licensed FSP.",
+    "articleSections": [
+      {
+        "heading": "Offshore Asset Diversification",
+        "body": "Utilizing individual R1m single discretionary allowances to invest in hard-currency USD/EUR assets."
+      },
+      {
+        "heading": "Tax-Free Savings Account Maximization",
+        "body": "Structuring annual R36,000 TFSA contributions for 100% tax-free growth."
+      }
+    ]
+  },
+  {
+    "id": "fin_estate_planning_tax",
+    "tag": "Estate Tax",
+    "title": "Estate Duty & Capital Gains Tax Optimization",
+    "subtitle": "Structuring trusts and estate plans to minimize Estate Duty and Executor fees",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "Up to 25% of an estate's value can be lost to Estate Duty, CGT, and executor fees upon death",
+    "problemBody": "Heirs often face frozen assets or are forced to sell family property to pay estate taxes.",
+    "bouulSolution": [
+      "Certified Financial Planner calculates Estate Duty liabilities and structures liquidity policies",
+      "Forming Family Trusts and utilizing Section 4(q) spousal deductions to eliminate tax drag",
+      "Escrow released after delivery of comprehensive Estate Liquidity Report"
+    ],
+    "partsNeeded": [
+      "Estate duty calculation model",
+      "Trust deed template",
+      "Liquidity shortfall analyzer"
+    ],
+    "guidePricing": "R3,500 – R9,500",
+    "timeline": "Duration: 3 – 7 Days",
+    "aiPromptExample": "Quote estate plan: 'Audit R12m estate to minimize 20% Estate Duty and executor fees.'",
+    "aiDiagnosisOutput": "Report: Liquidity Analysis + Spousal Abatement Setup + R2m Life Cover for Taxes. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released upon delivery of signed Estate Advice Record.",
+    "pirbStandard": "FSCA Registered FSP & Fiduciary Institute SA Member.",
+    "articleSections": [
+      {
+        "heading": "Section 4(q) Spousal Abatement",
+        "body": "Bequests to a surviving spouse are 100% exempt from Estate Duty under SA tax legislation."
+      },
+      {
+        "heading": "Estate Liquidity Planning",
+        "body": "Ensuring sufficient cash or life cover exists to pay Master fees and CGT without selling property."
+      }
+    ]
+  },
+  {
+    "id": "fin_business_buy_sell",
+    "tag": "Buy & Sell Agreements",
+    "title": "Business Assurance & Buy and Sell Agreements",
+    "subtitle": "Funding business partner succession with buy-and-sell life insurance policies",
+    "image": "/scenes/pro_bizconsult_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "The unexpected death of a business partner can force you into business with their surviving spouse",
+    "problemBody": "Without buy-and-sell funding, surviving partners rarely have the cash to buy out a deceased partner's shares.",
+    "bouulSolution": [
+      "FAIS accredited advisor drafts valuation-backed Buy & Sell agreements funded by life policies",
+      "Ensures tax-free payout under Section 10(1)(gH) of the Income Tax Act",
+      "Escrow released after delivery of fully executed policy contracts and agreement"
+    ],
+    "partsNeeded": [
+      "Share valuation agreement",
+      "Section 10 tax compliance checklist",
+      "Life assurance policy schedule"
+    ],
+    "guidePricing": "R4,500 – R12,000",
+    "timeline": "Duration: 1 – 2 Weeks",
+    "aiPromptExample": "Quote buy & sell: 'Structure R5m buy & sell agreement between 2 equal company directors.'",
+    "aiDiagnosisOutput": "Scope: 2x R5m Life Policies + Cross-Option Agreement + Tax Audit. Escrow: R7,500.",
+    "escrowGuarantee": "Escrow released after policy issuance and signed agreement delivery.",
+    "pirbStandard": "FSCA Registered FSP & Corporate Assurance Specialist.",
+    "articleSections": [
+      {
+        "heading": "Section 10(1)(gH) Tax Exemption",
+        "body": "Structuring policies so life payouts to surviving business partners are 100% exempt from Income Tax."
+      },
+      {
+        "heading": "Share Valuation Benchmark",
+        "body": "Agreements include annual valuation formulas to prevent disputes over share values."
+      }
+    ]
+  },
+  {
+    "id": "fin_offshore_tax_emigration",
+    "tag": "Offshore Tax",
+    "title": "Offshore Allowance & Tax Emigration Planning",
+    "subtitle": "Navigating SARS financial surveillance, SARS tax clearance, and offshore transfers",
+    "image": "/scenes/pro_tax.png",
+    "readTime": "5 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "SARB currency controls and complex SARS approval processes block offshore fund transfers",
+    "problemBody": "Transferring large funds offshore without a SARS AIT (Approved International Transfer) clearance incurs penalties.",
+    "bouulSolution": [
+      "Tax Practitioner obtains SARS AIT Clearance for amounts up to R10 million per calendar year",
+      "Structuring tax emigration and foreign exchange clearance with authorized dealers",
+      "Escrow released upon delivery of official SARS AIT PIN certificate"
+    ],
+    "partsNeeded": [
+      "SARS eFiling AIT application portal",
+      "SARB exchange control compliance checklist",
+      "Foreign currency conversion platform"
+    ],
+    "guidePricing": "R3,500 – R12,500",
+    "timeline": "Duration: 1 – 3 Weeks",
+    "aiPromptExample": "Book tax clearance: 'Obtain SARS AIT tax clearance to transfer R2.5m offshore.'",
+    "aiDiagnosisOutput": "Scope: Statement of Assets & Liabilities + SARS AIT Application + Forex Booking. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released after SARS issues official AIT PIN certificate.",
+    "pirbStandard": "SAIT (South African Tax Institute) Registered Tax Practitioner.",
+    "articleSections": [
+      {
+        "heading": "SARS AIT Pin Clearance",
+        "body": "Compiling asset/liability proof to obtain SARS AIT approval for offshore investment."
+      },
+      {
+        "heading": "Exchange Rate Margin Lock",
+        "body": "Accessing wholesale institutional forex margins (under 0.5%) for Rand-to-USD transfers."
+      }
+    ]
+  },
+  {
+    "id": "fin_education_savings_plan",
+    "tag": "Education Savings",
+    "title": "Education Savings & Endowment Structuring",
+    "subtitle": "Structuring tax-efficient savings plans for university and school fees",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Financial Team",
+    "problemHeadline": "Private school and university tuition fees rise at 2% to 3% above CPI inflation every year",
+    "problemBody": "Saving in a standard bank account fails to keep pace with skyrocketing education costs.",
+    "bouulSolution": [
+      "Advisor models future education cost targets and selects high-growth tax-sheltered endowments",
+      "Includes premium waiver benefits so savings continue if a parent dies or becomes disabled",
+      "Escrow released after policy delivery and investment allocation"
+    ],
+    "partsNeeded": [
+      "Education inflation projection model",
+      "Endowment tax wrapper calculator",
+      "Premium waiver benefit policy"
+    ],
+    "guidePricing": "R1,200 – R3,500",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Book education plan: 'Structure 15-year university savings plan for newborn child.'",
+    "aiDiagnosisOutput": "Target: R450k in 15 years. Contribution: R1,200/month in Tax-Free Unit Trust. Escrow: R1,800.",
+    "escrowGuarantee": "Escrow released after investment account setup.",
+    "pirbStandard": "FSCA Registered FSP & Certified Financial Planner.",
+    "articleSections": [
+      {
+        "heading": "Premium Waiver Disability Protection",
+        "body": "If the breadwinner becomes disabled, the insurer pays all remaining monthly contributions until university graduation."
+      },
+      {
+        "heading": "Tax-Sheltered Endowment Wrapper",
+        "body": "High-income earners save at a capped 30% tax rate inside an endowment structure."
+      }
+    ]
+  }
+]

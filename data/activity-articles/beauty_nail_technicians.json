@@ -1,0 +1,278 @@
+[
+  {
+    "id": "gel-manicure",
+    "tag": "nail-technicians",
+    "title": "Gel Manicure: Long-Lasting Colour That Actually Stays",
+    "subtitle": "The complete guide to gel nails in SA - cost, process, removal, and how to prevent damage.",
+    "image": "/scenes/gel-manicure.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why does my gel manicure chip within a week?",
+    "problemBody": "A gel manicure should last 2-3 weeks without chipping, lifting, or peeling. When it fails early - within days - the cause is almost always improper prep: the nail plate wasnt dehydrated, the cuticle wasnt fully removed, or the colour was applied too close to the skin. A professional gel manicure in SA costs R250-R550 and includes shaping, cuticle work, dehydrator, base coat, 2-3 colour coats, and top coat - each layer UV-cured for the correct time.",
+    "bouulSolution": [
+      "Bouul nail technicians list brand training - look for CND, Gelish, or OPI certification.",
+      "Never peel off gel polish - this removes layers of your natural nail plate.",
+      "Bouul Escrow protects you if the gel lifts, chips, or peels within 3 days."
+    ],
+    "partsNeeded": [
+      "UV/LED lamp (48W minimum)",
+      "Gel base coat, colour polishes, top coat",
+      "Nail buffer, cuticle pusher, dehydrator",
+      "Lint-free wipes and isopropyl alcohol"
+    ],
+    "guidePricing": "R250-R550 for a standard gel manicure; R300-R650 with nail art; R100-R200 for a colour change only",
+    "timeline": "30-45 minutes for a full gel manicure; 20-30 minutes for a colour change",
+    "aiPromptExample": "Describe the ideal gel manicure experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended gel manicure plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Five-Step Prep",
+        "body": "Professional gel application starts with five prep steps: (1) shape the nail, (2) gently push back and trim cuticles, (3) lightly buff the nail surface to remove shine, (4) apply dehydrator to remove moisture, (5) apply primer for adhesion. Skipping any step reduces gel longevity by 50% or more.\nMost early-failure gel manicures fail because the dehydrator or primer was skipped. Nails naturally have an oil layer that prevents gel from bonding directly."
+      },
+      {
+        "heading": "Curing Time Is Critical",
+        "body": "Each gel layer must cure under a UV/LED lamp for the exact time specified by the brand - typically 30-60 seconds for LED and 2 minutes for UV lamps. Under-cured gel looks set but will wrinkle, peel, or cause contact dermatitis. Over-cured gel becomes brittle and lifts at the edges.\nThe lamp wattage matters. A 48W LED lamp cures most gels in 30 seconds. Cheap 12W lamps from Dis-Chem or Clicks may take 4+ minutes and still not cure properly. Bouul technicians invest in professional lamps."
+      },
+      {
+        "heading": "Safe Removal Protocol",
+        "body": "Professional removal: (1) gently buff the top coat seal, (2) soak cotton pads in acetone, (3) place on each nail, (4) wrap in aluminium foil, (5) wait 10-15 minutes, (6) push the softened gel off with a cuticle stick - never scrape. Peeling or picking gel polish off removes the top layers of your natural nail, causing thin, weak, and sensitive nails.\nBouul nail technicians include removal in their service menu. Always book professional removal rather than attempting at-home removal with drugstore acetone."
+      },
+      {
+        "heading": "Gel Allergy Awareness",
+        "body": "Repeated exposure to uncured gel products can cause acrylate allergy - presenting as red, itchy, blistered skin around the nails and on the eyelids and neck. This allergy is permanent: once developed, you cannot use any gel or acrylic products again, including dental composites.\nChoose Bouul technicians who use a no-touch application technique (gel never touches the skin). If you develop itching around your nails after gel manicures, stop using gel products and see a dermatologist."
+      }
+    ]
+  },
+  {
+    "id": "acrylic-nails",
+    "tag": "nail-technicians",
+    "title": "Acrylic Nails: Extensions That Last - The SA Guide",
+    "subtitle": "Everything about acrylic nail extensions - cost, durability, maintenance, and finding a technician who gets the apex right.",
+    "image": "/scenes/acrylic-nails.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Do acrylics ruin your natural nails?",
+    "problemBody": "Acrylic nails have a bad reputation for damaging natural nails - but properly applied and removed acrylics do not damage the nail plate. Damage comes from aggressive filing (using an electric file on the natural nail), incorrect removal (prying off), or wearing extensions for too long without breaks. A full set of acrylics costs R350-R750 and lasts 3-4 weeks before a fill is needed.",
+    "bouulSolution": [
+      "Bouul-listed nail techs must show certification from SAAHNO (SA Association of Health and Nail Oncology) or CIDESCO for nail extension services.",
+      "A proper consultation includes discussing your lifestyle - acrylics are not recommended for contact sports or heavy manual work.",
+      "Bouul Escrow protects you if the set lifts within 7 days or if the apex is visibly incorrect."
+    ],
+    "partsNeeded": [
+      "Acrylic powder (polymer) and liquid monomer",
+      "Acrylic brush (kolinsky or synthetic)",
+      "Nail forms or tips",
+      "Electric nail file with variable speed control"
+    ],
+    "guidePricing": "R350-R750 for a full set of acrylics; R250-R500 for a fill/refill (2-4 weeks); R600-R1,000 for acrylics with gel colour overlay or nail art",
+    "timeline": "60-90 minutes for a full set; 45-60 minutes for a fill",
+    "aiPromptExample": "Describe the ideal acrylic nails experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended acrylic nails plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Apex Structure",
+        "body": "The apex is the highest point of the acrylic enhancement, located at the stress area about one-third of the way down the nail from the cuticle. A correctly structured apex distributes force along the nail and prevents breakage. A flat apex breaks easily; a too-high apex looks lumpy and unnatural.\nIf your extensions break repeatedly at the same spot, the apex is likely in the wrong position. A well-structured set should handle everyday tasks without breakage."
+      },
+      {
+        "heading": "Liquid-to-Powder Ratio",
+        "body": "The acrylic bead is formed by dipping the brush into monomer (liquid), then into polymer (powder), creating a bead on the brush. The ratio affects consistency: a dry bead (too much powder) is difficult to shape and sets with bubbles; a wet bead (too much liquid) runs into the cuticles and causes lifting. Skilled technicians adjust the ratio for each application zone.\nIf you see bubbles in your finished acrylics, the technicians bead ratio was incorrect. This is a sign of inexperience."
+      },
+      {
+        "heading": "Fill Schedule",
+        "body": "Acrylic fills should be done every 2-3 weeks for growing nails, extending to 3-4 weeks if your nails grow slowly. Waiving longer than 4 weeks between fills creates a pressure point at the regrowth line where the natural nail flexes against the rigid acrylic, causing the natural nail to thin at that point.\nClients who consistently wait 5+ weeks between fills develop stress lines across the natural nail (onycholysis). Book your next Bouul fill before leaving the salon."
+      },
+      {
+        "heading": "Acrylic Removal",
+        "body": "Professional removal: the technician clips down the length, drills the bulk of the acrylic away, then wraps the remaining layer in acetone-soaked cotton for 10-15 minutes until the acrylic softens enough to be gently pushed off. Never twist, pry, or bite acrylics off - this removes nail plate layers.\nYour natural nails after proper removal should look healthy, not thin or ridged. If your nails are consistently damaged after removal, the technician is not removing correctly."
+      }
+    ]
+  },
+  {
+    "id": "pedicure",
+    "tag": "nail-technicians",
+    "title": "The Complete Pedicure: Beyond Pretty Toenails",
+    "subtitle": "Foot health, callus care, nail cutting technique, and why a professional pedicure costs what it does in SA.",
+    "image": "/scenes/pedicure.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a pedicure actually improve foot health?",
+    "problemBody": "A professional pedicure is not just about painting toenails. It includes proper nail cutting (straight across to prevent ingrown toenails), cuticle care, callus reduction, and foot massage. SA podiatrists recommend professional pedicures every 4-6 weeks for people with diabetes, poor circulation, or thickened nails. Cost ranges from R200-R600, with medical pedicures at the higher end.",
+    "bouulSolution": [
+      "Bouul lists foot health specialisation badges for pedicurists with advanced training.",
+      "Clients with diabetes should always inform their technician before the service - they require a medical-grade pedicure with sterile tools.",
+      "Bouul Escrow protects you if the service causes injury or infection from unhygienic tools."
+    ],
+    "partsNeeded": [
+      "Professional foot file and callus rasp",
+      "Toenail clippers (straight-edge), cuticle nippers",
+      "Foot soak basin with antibacterial solution",
+      "Moisturising foot cream and cuticle oil"
+    ],
+    "guidePricing": "R200-R450 for a standard pedicure; R350-R600 for a medical or spa pedicure with extended callus care",
+    "timeline": "30-50 minutes for a standard pedicure; 60-75 minutes for a deluxe spa pedicure",
+    "aiPromptExample": "Describe the ideal pedicure experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended pedicure plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Nail Cutting Technique",
+        "body": "Toenails should always be cut straight across, not curved. Curved cutting creates sharp corners that dig into the skin as the nail grows, causing ingrown toenails. The best home-care routine: clip straight across after a bath when nails are soft, file any sharp corners, and never cut cuticles - push them back gently.\nSA podiatrists report that 60% of ingrown toenails they treat are caused by incorrect home nail cutting. A professional pedicure resets your nails to the correct shape."
+      },
+      {
+        "heading": "Callus vs Corn vs Verruca",
+        "body": "A callus is a broad area of thickened skin from pressure and friction - manageable with regular filing and moisturiser. A corn is a small, defined plug of hard skin with a central core - needs professional removal. A verruca (plantar wart) is a viral infection that looks like a callus but has tiny black dots and pinpoints when squeezed - requires a podiatrist, not a pedicurist.\nIf the technician says this needs a doctor, listen. Attempting to file a verruca spreads the virus to other parts of your foot."
+      },
+      {
+        "heading": "Tools and Hygiene Standards",
+        "body": "Proper tool hygiene means: metal tools are autoclave-sterilised between clients, files and buffers are single-use or sterilised, foot basins are disinfected with hospital-grade solution between each client, and the technician wears gloves throughout the service.\nLook for the SA Department of Health infection-control certificate displayed at the salon. Bouul requires all nail technicians to confirm their hygiene certification."
+      },
+      {
+        "heading": "Post-Pedicure Maintenance",
+        "body": "The day after a pedicure: apply moisturiser to feet morning and night, wear open-toe shoes or flip-flops for 24 hours to prevent nail polish from marking, and apply SPF to feet if wearing sandals in SA sun. Schedule your next pedicure at 4-6 week intervals.\nBetween appointments, a weekly 10-minute routine - file calluses after bathing, apply urea-based foot cream, and trim nails if needed - keeps the pedicure looking fresh for longer."
+      }
+    ]
+  },
+  {
+    "id": "nail-art",
+    "tag": "nail-technicians",
+    "title": "Nail Art in SA: From Simple to Show-Stopping",
+    "subtitle": "Express yourself through nail art - cost, durability, and how to brief a technician for the best results.",
+    "image": "/scenes/nail-art.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why does nail art cost so much?",
+    "problemBody": "Nail art ranges from a simple accent nail (R50-R150 extra) to full-hand hand-painted designs (R500-R1,500+). The cost reflects the time - hand-painting a detailed floral design can take 30-45 minutes per hand, and fine brushes used for detail are expensive and require specialist cleaning. 3D art, embedded elements, and chrome or cat-eye finishes add to both cost and skill level.",
+    "bouulSolution": [
+      "Bouul nail art galleries show each technicians speciality - look for the specific style you want (botanical, geometric, cartoon, abstract).",
+      "Bring reference photos - but be realistic about what can be achieved on your nail shape and length.",
+      "Bouul Escrow protects you if the finished art significantly differs from your agreed design."
+    ],
+    "partsNeeded": [
+      "Detail brushes (various sizes: 000 for fine lines, 2 for filling)",
+      "Nail art paints (gel or acrylic, highly pigmented)",
+      "Stamping plates, dotting tools, and striping tape",
+      "Top coat for sealing art and chrome/aurora powders"
+    ],
+    "guidePricing": "R50-R200 extra for an accent nail or simple stamping; R200-R500 extra for hand-painted designs per hand; R500-R1,500+ for full-hand complex art with 3D elements",
+    "timeline": "Additional 15-45 minutes depending on complexity",
+    "aiPromptExample": "Describe the ideal nail art experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended nail art plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Reference Brief",
+        "body": "A good nail art reference includes: (1) a photo of the design, (2) your nail shape and length preference, (3) the colour palette you want (even if different from the photo), and (4) a note about your daily activities. A detailed floral design wont last if you type on a keyboard 8 hours a day.\nThe technician should sketch or describe the design on one practice nail before committing to the full set. If they cannot show you what they plan to do, the end result is uncertain."
+      },
+      {
+        "heading": "Sealing and Longevity",
+        "body": "Nail art requires proper sealing with a thick gel top coat. Raised 3D elements (crystals, studs, charms) are more prone to catching on hair and clothing and may not last as long as flat designs. Embedded elements under gel last significantly longer than glued-on-surface elements.\nChrome, cat-eye, and magnetic finishes are sealed within the gel layers and do not catch on things. They are the most durable nail art options."
+      },
+      {
+        "heading": "Nail Art for Short Nails",
+        "body": "Short nails can absolutely wear nail art - the key is scaling the design to fit the available space. Small geometric shapes, vertical lines, and negative-space designs elongate short nails. Large floral designs and horizontal bands shorten them visually.\nTell your technician I have short nails - can you adapt the design? A skilled artist will resize the pattern to complement your nail length."
+      },
+      {
+        "heading": "SA Nail Art Trends",
+        "body": "Current SA nail art trends include: earthy tones with gold foil, abstract colour blocking, Safari-inspired animal prints (zebra stripes, leopard spots), botanicals with proteas and aloes, and incorporation of traditional African pattern motifs. Chrome and aurora finishes remain popular for evening and event wear.\nBouul tracks trending nail art styles by booking data. Look at the popular tags on each technicians Bouul profile to see what their clients are requesting most."
+      }
+    ]
+  },
+  {
+    "id": "dip-powder",
+    "tag": "nail-technicians",
+    "title": "Dip Powder Nails: The Durable Alternative to Gel and Acrylic",
+    "subtitle": "Everything you need to know about dip powder nails in SA - odour-free, durable, and increasingly popular.",
+    "image": "/scenes/dip-powder.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is dip powder really stronger than gel?",
+    "problemBody": "Dip powder nails involve layering coloured powder over a bonding base coat, sealed with an activator and top coat. No UV lamp is needed. Dip powder is harder and more impact-resistant than gel but softer and more flexible than acrylic. It is odour-free (unlike acrylic monomer) and suitable for people with gel allergies. Full set costs R300-R600 and lasts 3-5 weeks.",
+    "bouulSolution": [
+      "Bouul lists dip powder specialists - not all nail technicians are trained in this method.",
+      "If you are allergic to gel polish, dip powder is typically a safe alternative (no methacrylate monomers).",
+      "Bouul Escrow protects you if the dip lifts, cracks, or discolours within 5 days of application."
+    ],
+    "partsNeeded": [
+      "Dip powder colours (SNS, Kiara Sky, or Revel brands)",
+      "Bond, activator, and top coat liquids",
+      "Nail buffer, cuticle pusher, and dust brush",
+      "Lint-free wipes for cleaning between layers"
+    ],
+    "guidePricing": "R300-R600 for a full set of dip powder nails; R250-R450 for a dip fill",
+    "timeline": "45-60 minutes for a full set; 30-45 minutes for a fill",
+    "aiPromptExample": "Describe the ideal dip powder experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended dip powder plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Layer Application",
+        "body": "Dip powder application: base coat is applied to one nail at a time, the finger is dipped into the powder at an angle, excess is brushed off, and the process is repeated for 2-3 coats per nail. Each coat is dried naturally - no lamp. After all coats, an activator is applied to harden the layers, then the nail is buffed and shaped, and finally a top coat is applied.\nThe key to smooth dip nails is brushing off excess powder between dips. If too much powder builds up, the nail looks thick and lumpy."
+      },
+      {
+        "heading": "Dip vs Acrylic vs Gel",
+        "body": "Dip powder: no odour, no lamp, 3-5 week wear, moderate strength, easy removal (acetone soak). Acrylic: strong monomer smell, no lamp, strongest hold for extensions, 3-4 weeks between fills, filing required for removal. Gel: mild odour, needs UV lamp, flexible and natural looking, 2-3 week wear, acetone soak removal.\nChoose dip powder if you want durability without the film layer thickness of gel or the smell of acrylic. Choose acrylic if you need length extensions or maximum strength."
+      },
+      {
+        "heading": "Hygiene and Contamination",
+        "body": "Dip powder hygiene is a significant concern - multiple clients dipping into the same powder jar can transfer bacteria and fungus between clients. Reputable technicians use a pour-over method or individual portion cups for each client.\nBouul requires dip technicians to confirm their hygiene protocol. If you see a community dip jar, ask for a fresh portion."
+      },
+      {
+        "heading": "Removal Process",
+        "body": "Dip powder removal: file the top layer to break the seal, soak in acetone for 10-15 minutes, push the softened product off with a cuticle stick. Do not pry or peel. Peeling dip powder off removes natural nail layers and causes peeling and thinning.\nBetween appointments, apply cuticle oil daily to prevent the dip from lifting at the cuticle line. Lifting allows moisture to get under the dip and can cause fungal growth."
+      }
+    ]
+  },
+  {
+    "id": "nail-repair",
+    "tag": "nail-technicians",
+    "title": "Split and Broken Nails: Professional Repair in SA",
+    "subtitle": "Dont cut that nail down - professional repair can save a broken or split nail and keep your set looking complete.",
+    "image": "/scenes/nail-repair.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a broken nail really be fixed?",
+    "problemBody": "A cracked or split nail can be professionally repaired using silk wrap, fibreglass, or gel overlay techniques. The cost is typically R100-R300 per nail and takes about 10-15 minutes per repair. Depending on the break location, a repaired nail can last the same duration as the rest of the set. Repairs are most effective when the break is less than 50% across the nail width.",
+    "bouulSolution": [
+      "Bouul nail technicians can assess the break from a photo - send a picture before booking to confirm repairability.",
+      "A break at the cuticle line (nail fold) may not be repairable and may require removing the nail entirely.",
+      "Bouul Escrow protects you if the repair lifts or fails within 48 hours."
+    ],
+    "partsNeeded": [
+      "Silk wrap fabric or fibreglass mesh",
+      "Nail glue (cyanoacrylate) and resin/activator",
+      "Cuticle scissors, buffer, and fine file",
+      "Gel overlay kit if using gel repair method"
+    ],
+    "guidePricing": "R100-R200 per nail for silk or fibreglass repair; R150-R300 per nail for gel overlay repair; often included free for existing clients during the regrowth period",
+    "timeline": "10-15 minutes per nail for a silk repair; 15-20 minutes per nail for a gel repair",
+    "aiPromptExample": "Describe the ideal nail repair experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended nail repair plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Break Assessment",
+        "body": "The location of the break determines repairability: a break in the free edge (tip) is easily repaired, a break across the nail bed requires reinforcement, a break at the cuticle or nail fold usually cannot be saved. The break depth matters too - if the nail plate has split into the nail bed tissue, the repair wont hold.\nA repair that starts bleeding needs medical attention, not nail repair. Go to a clinic."
+      },
+      {
+        "heading": "Silk and Fibreglass Technique",
+        "body": "Silk or fibreglass repair: a piece of fabric is cut to cover the break, nail glue is applied to bond the fabric to the nail, resin is brushed over the top and dried, then the repair is buffed smooth and sealed with gel or acrylic overlay. The fabric acts as a scaffold that holds the broken pieces together.\nThis technique works best for cracks and splits that have straight edges. Jagged breaks may need to be filed smooth before repair."
+      },
+      {
+        "heading": "The Tea Bag Myth",
+        "body": "The viral hack of using a tea bag to repair a broken nail does work as an emergency measure - the paper tea bag acts as a fibreglass substitute. However, the bond is weaker than professional materials and lasts only 1-3 days. Its fine for getting through a weekend event but should be replaced with a professional repair.\nTell your Bouul technician if you have a tea-bag repair underneath - they need to remove it completely before doing a proper fix."
+      },
+      {
+        "heading": "Prevention and Strengthening",
+        "body": "Regular nail oil application, avoiding using nails as tools (opening cans, peeling labels), and wearing gloves for washing dishes and cleaning are the best prevention. A nail hardener or builder gel layer adds impact protection. Biotin supplements (available over the counter at Dis-Chem and Clicks) can improve nail plate thickness over 3-6 months.\nIf your nails are consistently breaking in the same spot, the natural nail at that spot may be thin or damaged from a previous overlift."
+      }
+    ]
+  }
+]

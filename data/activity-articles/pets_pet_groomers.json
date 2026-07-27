@@ -1,0 +1,279 @@
+[
+  {
+    "id": "groom-001",
+    "tag": "pet-grooming",
+    "title": "Full Groom Package: What Every First-Time Pet Owner Should Know",
+    "subtitle": "From fluffy teddy trims to summer cuts — here's exactly what happens during a professional full groom.",
+    "image": "/scenes/groom-full-groom.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your clumsy home trim left your doodle looking like a lawnmower victim and the knots are already back.",
+    "problemBody": "Clipper burn, uneven patches, and a traumatised pet are the hallmarks of a DIY groom gone wrong. Without professional equipment (clipper speed control, professional-grade blades, proper table restraint), you risk nicking skin, over-heating blades that burn, and missing the sanitary areas that cause matting and infections. Most owners who try at home give up after one attempt.",
+    "bouulSolution": [
+      "We match you with SAPCA-registered groomers verified for breed-specific cuts and safety protocols",
+      "All listed groomers carry public liability insurance and use professional-grade, sanitised equipment",
+      "Transparent pricing per breed size — no surprises at drop-off"
+    ],
+    "partsNeeded": [
+      "Professional clipper + blade set (R800–R2,500)",
+      "Grooming table with arm restraint (R1,500–R4,000)",
+      "Dematting rake + undercoat rake (R250–R600)",
+      "Professional shampoo + conditioner (R200–R500)"
+    ],
+    "guidePricing": "R250–R550 (small breed), R350–R700 (medium), R450–R1,000 (large)",
+    "timeline": "60–90 minutes for a full groom; de-shedding and dematting add 20–40 minutes",
+    "aiPromptExample": "Diagnose matting severity and clipper-burn risk for a 6-month-old Goldendoodle with a poodle-style clip request.",
+    "aiDiagnosisOutput": "Severity: moderate matting behind ears and tail plume. Clipper-burn risk: moderate if blade #10 is used without coolant spray. Recommendation: pre-groom dematting session with undercoat rake, followed by #7F blade body clip with #10 snap-on comb. Charge R80–R120 extra for dematting.",
+    "escrowGuarantee": "Bouul Escrow holds your grooming payment until collection. Not satisfied? You have 24 hours to raise a dispute.",
+    "pirbStandard": "SANS 1071: Pet Grooming Facilities — hygiene, equipment sterilization, and animal handling protocols per SA Pet Care Association (SAPCA) guidelines.",
+    "articleSections": [
+      {
+        "heading": "What a Full Groom Includes",
+        "body": "A professional full groom is far more than a haircut. The process begins with a thorough brush-out to remove loose fur and identify any matting. This is followed by a pre-bath clip (for heavily matted coats), a hydrobath with breed-appropriate shampoo and conditioner, ear cleaning with veterinarian-approved solution, nail trimming (not grinding unless specified), sanitary trim around genitals and paws, and finally the breed-specific or requested style clip. Most SA groomers finish with a light cologne spray and a bow or bandana."
+      },
+      {
+        "heading": "Choosing Between Clipper and Scissor Finishes",
+        "body": "Clipper finishes are faster, cheaper, and ideal for active dogs who need low-maintenance coats. Common clipper lengths in SA range from #10 (1.6mm, surgical short) for sanitary areas to #4 (9.5mm, teddy bear length) for bodies. Scissor finishing costs R100–R300 extra but gives a show-dog polish — essential for Poodles, Bichons, and Schnauzers. Your Bouul-matched groomer will advise on what suits your dog's coat type and your maintenance commitment."
+      },
+      {
+        "heading": "Matting: The Hidden Health Risk",
+        "body": "Mats aren't just unsightly. They trap moisture against the skin, creating a breeding ground for bacterial and fungal infections. Tight mats restrict blood flow and can cause painful bruising. In severe cases, haematomas form under the matted area. Professional groomers in SA see 'shave-downs' daily — where the only humane option is to remove all fur with a #10 or #7F blade. This costs the same as a full groom (R350–R700) but leaves a very short coat. Regular 4–6 week grooming prevents this."
+      },
+      {
+        "heading": "Pricing by Breed & Coat Type",
+        "body": "South African groomers typically price by size (Teacup: R250–R350, Small: R300–R450, Medium: R400–R600, Large: R550–R850, Giant: R700–R1,200) and add surcharges for double coats (R50–R100), matting (R50–R200), aggressive behaviour (R50–R150), and flea baths (R50–R80). Your Bouul booking locks in the price upfront — no walk-in surprises."
+      }
+    ]
+  },
+  {
+    "id": "groom-002",
+    "tag": "pet-grooming",
+    "title": "Breed Clip Guide: Matching Coat Style to South African Seasons",
+    "subtitle": "Summer cuts vs winter coats — what each breed needs and when.",
+    "image": "/scenes/groom-breed-clip.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your Pom looks bald after the 'summer cut' you requested and now he shivers at night.",
+    "problemBody": "Many SA pet owners ask for a 'summer cut' without realising that double-coated breeds (Huskies, Golden Retrievers, Pomeranians) need their undercoat blown out, not shaved. Shaving damages the coat's natural insulation and can cause permanent alopecia. The dog overheats differently without the proper undercoat management, and regrowth may never return to its original texture.",
+    "bouulSolution": [
+      "Breed-specific clip guides built into every Bouul groomer profile — you'll see exactly what style your breed gets",
+      "Groomers certified in double-coat management using high-velocity dryers and undercoat rakes (not clippers)",
+      "Season-adjusted recommendations: summer undercoat blowout vs winter full coat maintenance"
+    ],
+    "partsNeeded": [
+      "High-velocity force dryer (R2,500–R6,000)",
+      "Undercoat rake (R200–R450)",
+      "Slicker brush (R150–R350)",
+      "Breed-specific clipper blade set (R400–R1,200)"
+    ],
+    "guidePricing": "R300–R600 for double-coat maintenance; R450–R900 for full breed clip; R100–R200 extra for severe shedding",
+    "timeline": "45–90 minutes depending on coat density and desired finish",
+    "aiPromptExample": "Recommend summer clip style for a Golden Retriever in Durban (humid subtropical climate) who spends weekends at the beach.",
+    "aiDiagnosisOutput": "Climate: humid subtropical (Durban). Coat type: double coat. Recommendation: high-velocity blowout to remove undercoat (R180 add-on), not a shave. Body: #5F blade (6.5mm) with scissor feathering on tail and legs. Avoid shaving back — sunburn risk. Suggest breed-standard trim with 60% undercoat reduction. Tail: flag-style, not poodle-style. R550–R650 total.",
+    "escrowGuarantee": "Bouul Escrow protects your payment. If the clip doesn't match your agreed style, raise a dispute within 24 hours.",
+    "pirbStandard": "SAPCA Grooming Code of Practice §4.3: Double-coat breeds must not be shaved unless medically necessary (veterinarian letter required).",
+    "articleSections": [
+      {
+        "heading": "Why Double Coats Should Never Be Shaved",
+        "body": "A double coat consists of a soft, dense undercoat (insulation) and a coarser guard-hair topcoat (weather protection). Shaving destroys this architecture. The guard hair grows back slower, if at all, leaving a patchy, fuzzy outer layer that mats easily and provides zero insulation. SA groomers report that 1 in 3 'summer cut' requests for Golden Retrievers or Huskies involves correcting a previous shave. The correct approach is a thorough undercoat blowout with a high-velocity dryer, followed by light trimming of feathering and paw pads only."
+      },
+      {
+        "heading": "Seasonal Grooming Calendar for SA",
+        "body": "Spring (Sep–Nov): Heavy undercoat blowout — book a de-shedding session every 4–6 weeks as the winter coat releases. Summer (Dec–Feb): Light maintenance — shorter clips (#4–#5F) for single-coated breeds; undercoat management for double coats. Add a flea and tick bath. Autumn (Mar–May): Coat-prep season — let the coat grow for winter insulation. Book a conditioning treatment. Winter (Jun–Aug): Minimal grooming — longer clips (#3–#4) for warmth. Avoid shaving entirely. Most SA groomers offer seasonal package deals (R900–R1,500 for all four seasonal grooms)."
+      },
+      {
+        "heading": "Breed-Specific Style Guide",
+        "body": "Poodle: Continental or Sporting clip — 4–6 week intervals essential. Cockapoo / Labradoodle: Teddy bear clip (#4 body, #10 feet) is South Africa's most requested doodle cut. Bichon Frise: Round head, powder-puff body (#5F). Schnauzer: Short body (#7F), longer legs and beard. Westie: Rolled coat preferred (hand-stripping, R500–R800). Cocker Spaniel: Show or pet clip — feathering on ears and legs. Yorkshire Terrier: Floor-length or puppy clip. Your Bouul groomer carries a portfolio of past breed clips — ask to see examples."
+      },
+      {
+        "heading": "Hand-Stripping vs Clipping for Wire-Coated Breeds",
+        "body": "Hand-stripping is the traditional method for wire-coated terriers (West Highland White, Fox, Scottish, and Airedale Terriers). It pulls dead guard hair from the root, maintaining coat texture and colour. Clipping softens the coat and dulls the rich colours. Hand-stripping costs R500–R800 vs R350–R500 for a clip and should be done every 8–12 weeks. Only about 15% of SA groomers offer hand-stripping — your Bouul match filters for this skill automatically."
+      }
+    ]
+  },
+  {
+    "id": "groom-003",
+    "tag": "pet-grooming",
+    "title": "Nail Trim Essentials: Avoiding the Quick",
+    "subtitle": "One bad snip can mean a bleeding paw and a fearful dog. Here's how pros do it safely.",
+    "image": "/scenes/groom-nail-trim.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "You nicked the quick, now your dog flinches every time you pick up the clippers.",
+    "problemBody": "Cutting into the quick (the blood vessel inside the nail) is painful, causes profuse bleeding, and creates lasting nail-trim anxiety. With dark nails — very common in black and brown dogs — the quick is invisible, making home trims a gamble. Bloody paw prints across the tile floor and a trembling dog aren't unusual outcomes. Quicked dogs often develop lifelong aggression toward paw handling.",
+    "bouulSolution": [
+      "Professional groomers use dremel grinders with speed control — gradual, safe removal with virtually zero quick risk",
+      "They know the 'pink line' angle for light nails and the 45-degree bevel technique for dark nails",
+      "If bleeding occurs (rare for pros), they have Kwik Stop styptic powder applied instantly — no trauma"
+    ],
+    "partsNeeded": [
+      "Guillotine or scissor-style nail clippers (R120–R350)",
+      "Nail grinder / dremel with low-speed setting (R400–R1,200)",
+      "Styptic powder or Kwik Stop (R80–R160)",
+      "Nail file / emery board (R20–R50)"
+    ],
+    "guidePricing": "R50–R100 standalone; included in full groom packages (R250–R550); grinding add-on R30–R50",
+    "timeline": "5–15 minutes depending on dog size and nail condition",
+    "aiPromptExample": "Assess quick visibility and recommend trim technique for a 40kg Boerboel with black, thick nails and previous quick trauma.",
+    "aiDiagnosisOutput": "Breed: Boerboel. Nail type: thick black, quick not visible. Previous trauma: yes. Risk: high. Recommendation: dremel grinder at 10,000 RPM with 60-grit sanding band. Technique: small passes, checking for the black-dot centre indicator every 2 passes. Stop at first sign of oval centre dot (quick proximity). Apply Kwik Stop as preventive. Session cost: R80 standalone. Home maintenance: weekly dremel touch-ups only.",
+    "escrowGuarantee": "Your payment is held by Bouul Escrow. If the trim causes injury requiring vet attention, we cover the consultation up to R500.",
+    "pirbStandard": "SAPCA Grooming Code §5.2: Nail trimming must not exceed 2mm from the quick. Grinding preferred for dark-nailed breeds. Styptic powder must be on hand.",
+    "articleSections": [
+      {
+        "heading": "The Anatomy of a Dog Nail",
+        "body": "A dog's nail is a curved structure with an outer hard shell (keratin) and an inner 'quick' — a bundle of blood vessels and nerves. In white or clear nails, the quick is visible as a pinkish core. In black nails, you look for the 'black dot' or 'oval' indicator that appears at the nail tip as you grind closer to the quick. Quick length determines how short you can safely cut. Dogs that walk on pavement naturally wear nails shorter. Dogs that only walk on grass — common in SA suburbs — often have long quicks that recede slowly with regular trimming."
+      },
+      {
+        "heading": "Clip vs Grind: Which Is Better?",
+        "body": "Clipping is faster (3–5 minutes) but carries higher quick risk. Grinding is slower (8–15 minutes) but allows millimeter-by-millimeter removal. Grinding also smooths the sharp edge that clipped nails leave, which is the edge that scratches your legs and furniture. For anxious dogs, grinding is quieter and gentler. Most SA groomers offer both but recommend grinding for dark-nailed breeds, puppies (to condition them early), and any dog with previous quick trauma."
+      },
+      {
+        "heading": "What to Do If the Quick Is Cut",
+        "body": "Stay calm — your dog feeds off your anxiety. Apply styptic powder (Kwik Stop) directly to the bleeding tip. If you don't have powder, dip the nail into cornflour or baking soda and apply firm pressure for 2 minutes. A bar of soap can also work in an emergency. If bleeding continues beyond 10 minutes, visit the vet — this could indicate a clotting disorder (R350–R600 for a consultation). Your Bouul-matched groomer carries styptic powder on every table and will apply it before you even notice there's a problem."
+      },
+      {
+        "heading": "How Often Should Nails Be Trimmed?",
+        "body": "Most dogs need nail trims every 3–4 weeks. You should hear a gentle clicking on tile floors — if the clicking is loud and frequent, the nails are overdue. Overgrown nails can splay the toes, strain the tendons, and cause arthritis over time. The 'dewclaw' is especially important — it doesn't touch the ground and can curl right around into the pad if left untrimmed, causing a painful ingrown nail."
+      }
+    ]
+  },
+  {
+    "id": "groom-004",
+    "tag": "pet-grooming",
+    "title": "Ear Cleaning: Why Cotton Buds Are the Enemy",
+    "subtitle": "Vet-approved ear care for floppy-eared breeds prone to infections in humid SA climates.",
+    "image": "/scenes/groom-ear-clean.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your Cocker Spaniel's ears smell like stale chips and she's shaking her head constantly.",
+    "problemBody": "Floppy-eared breeds (Cocker Spaniels, Basset Hounds, Labs) are prone to moisture trapping in the ear canal. In SA's humid regions (Durban, Cape Town winter, Mpumalanga), this creates a perfect environment for yeast and bacterial infections. Cotton buds push debris deeper into the horizontal canal, compacting wax against the eardrum. What started as a mild itch becomes a full-blown otitis with green discharge, swelling, and pain.",
+    "bouulSolution": [
+      "Professional groomers use veterinarian-recommended ear solutions (Epi-Otic, Virbac) that dissolve wax without irritation",
+      "Cotton balls and finger-wraps clean the outer ear only — the ear canal is left to self-clean",
+      "Groomers identify early infection signs (redness, odour, discharge) and flag them before they worsen"
+    ],
+    "partsNeeded": [
+      "Veterinary ear cleaning solution (R120–R280)",
+      "Cotton balls (R30–R50)",
+      "Cotton rounds or finger cots (R40–R90)",
+      "Ear drying powder (R80–R160, for hairy ear canals like Poodles)"
+    ],
+    "guidePricing": "R50–R80 as standalone; always included in full groom; medical ear flush at vet R250–R500",
+    "timeline": "5–10 minutes for a routine clean",
+    "aiPromptExample": "Flag early otitis signs in a Cocker Spaniel with brown waxy discharge and head shaking, photographed in ear canal.",
+    "aiDiagnosisOutput": "Ear inspection result: brown, coffee-ground discharge with yeasty odour. Erythema present in vertical canal. Pain response on ear base palpation positive. Severity: moderate — treatable without vet if caught within 48 hours. Recommendation: professional ear flush with antifungal solution, twice weekly for 2 weeks. If green/yellow pus appears: vet visit mandatory. Bouul groomer notes: flag for owner, offer medicated ear cleanse add-on R60.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If a post-groom ear infection develops within 48 hours, we cover the vet check.",
+    "pirbStandard": "SAPCA Grooming Code §4.7: Ear cleaning must use cotton balls only (no cotton buds). Solution must be veterinary-approved pH-balanced. Hairy ear canals may be plucked with haemostat forceps, not waxed.",
+    "articleSections": [
+      {
+        "heading": "Why Floppy Ears Are Trouble",
+        "body": "A floppy ear creates a closed, warm, humid environment — essentially a petri dish. The vertical ear canal folds over, trapping moisture after baths, swimming, or even morning dew on the lawn. In SA's summer rainfall regions, this is a year-round problem. Cocker Spaniels top the list with a 45% otitis prevalence rate in SA veterinary surveys. Basset Hounds (30%), Labrador Retrievers (25%), and Golden Retrievers (20%) follow. Regular ear cleaning every 2–4 weeks dramatically reduces infection rates."
+      },
+      {
+        "heading": "The Right Cleaning Technique",
+        "body": "Fill the ear canal with solution until it pools at the opening. Gently massage the base of the ear for 20–30 seconds — you'll hear a squelching sound. Let your dog shake its head (this brings debris up from the deep canal). Wipe away the loosened wax and solution from the outer ear with a cotton ball. Never go deeper than your first knuckle. Repeat until the cotton ball comes away clean. Add drying powder for hairy canals to keep the ear dry between cleans."
+      },
+      {
+        "heading": "Plucking Ear Hair: Necessary Evil?",
+        "body": "Poodles, Schnauzers, and Doodles have hair growing inside the ear canal that traps wax and moisture. Plucking periodically (every 8–12 weeks) improves airflow. Some groomers pluck with haemostat forceps; others prefer to clip the visible hair only. Plucking can cause micro-abrasions that lead to infection if done incorrectly. Your Bouul-matched groomer will assess whether ear plucking is appropriate for your breed — and if topical anaesthetic should be applied beforehand."
+      },
+      {
+        "heading": "When to Skip the Groomer and Go to the Vet",
+        "body": "Green or yellow pus, foul 'sweet' or 'musty' odour, severe swelling of the ear flap, pain when touching the ear base, head tilt, or loss of balance all indicate a deep ear infection or ruptured eardrum. Do not clean the ear — take your dog to the vet immediately. A vet visit for otitis costs R350–R800 including medication. Chronic cases may require ear cytology (R250–R400) to identify the specific pathogen."
+      }
+    ]
+  },
+  {
+    "id": "groom-005",
+    "tag": "pet-grooming",
+    "title": "De-Shedding: Taming the Fur Tsunami",
+    "subtitle": "Double-coated breeds shed enough fur to build another dog. Here's how pro groomers keep it under control.",
+    "image": "/scenes/groom-deshedding.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your German Shepherd is leaving fur drifts across every surface and your vacuum is on its last legs.",
+    "problemBody": "Seasonal shedding for double-coated breeds like German Shepherds, Huskies, and Golden Retrievers releases enough fur to fill a pillowcase every few weeks. Loose hair floats through your home, embeds in upholstery, and triggers allergies. Brushing at home with a standard brush only skims the surface — the dense undercoat mats and sheds in clumps. Without professional de-shedding, the loose coat stays trapped, causing skin irritation and overheating.",
+    "bouulSolution": [
+      "High-velocity force dryers blow out 90% of loose undercoat in 20–30 minutes — something home brushes can't achieve",
+      "Professional de-shedding tools (FURminator, Coat King) remove the undercoat without cutting the guard hairs",
+      "De-shedding treatment + bath + blow-dry in a single session leaves your home fur-free for 4–6 weeks"
+    ],
+    "partsNeeded": [
+      "High-velocity force dryer (R2,500–R6,000)",
+      "Undercoat rake (R200–R450)",
+      "Slicker brush (R150–R350)",
+      "De-shedding shampoo + conditioner with omega fatty acids (R250–R600)"
+    ],
+    "guidePricing": "R150–R350 standalone de-shedding; R400–R700 de-shedding + bath package; R100–R200 extra for severe shedding",
+    "timeline": "20–40 minutes for de-shedding treatment; 45–70 minutes with bath and dry",
+    "aiPromptExample": "Estimate undercoat density and de-shedding duration for an 18-month-old Husky that has never had professional grooming.",
+    "aiDiagnosisOutput": "Breed: Siberian Husky. Age: 18 months. Coat status: first professional groom, full undercoat intact. Shedding level: critical — estimated 200g–300g loose undercoat. Duration: 35 minutes force dry + undercoat rake. Risk: high — may need sedation-level restraint for first-timer (owner present recommended). Cost: R350 including conditioner treatment. Home maintenance: weekly undercoat rake brushing recommended for next 4 weeks to maintain results.",
+    "escrowGuarantee": "Bouul Escrow secures your payment. Not satisfied with the shed reduction? Raise a dispute within 24 hours.",
+    "pirbStandard": "SAPCA Grooming Code §4.4: De-shedding must use de-matting/undercoat tools appropriate to coat type. High-velocity dryers must not exceed 50°C output at 30cm distance.",
+    "articleSections": [
+      {
+        "heading": "Why De-Shedding Matters Beyond Clean Floors",
+        "body": "Excess undercoat isn't just messy — it's unhealthy. Trapped loose fur insulates the skin, preventing proper cooling in summer and causing overheating. Mats form where loose undercoat tangles with guard hairs, pulling on the skin and causing pain. Undercoat compaction also hides skin issues — hotspots, parasites, and early infections go unnoticed until they're severe. Regular de-shedding (every 4–8 weeks during heavy shedding seasons) keeps the skin breathing and your dog comfortable."
+      },
+      {
+        "heading": "De-Shedding vs Furminator at Home",
+        "body": "Home FURminator use is beneficial but limited. The FURminator removes about 30–40% of loose undercoat. A professional high-velocity dryer blows out 85–95%. The difference is the force: home dryers move air at 30–50 mph; commercial velocity dryers (like the K9-II or Double K) deliver 120–150 mph, penetrating to the skin and lifting undercoat from the root. One professional session equals about 6–8 home brushing sessions. After a professional de-shed, your home brushings maintain the result with much less effort."
+      },
+      {
+        "heading": "Breed-Specific Shedding Patterns",
+        "body": "German Shepherd: Heavy shed year-round, massive blowout twice a year (spring + autumn). Husky / Malamute: Huge bi-annual blowouts — 'blowing the coat' releases clumps you can pull by hand. Golden / Labrador Retriever: Moderate continuous shed, heavier in spring. Pomeranian: Constant fluff shedding, mats quickly if undercoat isn't managed. Belgian Malinois: Moderate shed, finer hair that embeds in fabric. Bouul's booking system notes your breed's shedding pattern and recommends optimal scheduling."
+      },
+      {
+        "heading": "Seasonal Shed Guide for SA Owners",
+        "body": "Spring (Sep–Nov): Peak de-shedding season — book every 4 weeks. The winter coat releases rapidly as temperatures rise. Summer (Dec–Feb): Moderate — every 6–8 weeks. Grass seeds and burrs are common, ask your groomer to check paws and ears. Autumn (Mar–May): Coat thickens — book a de-shed before winter. Winter (Jun–Aug): Minimal shedding — every 8–10 weeks. Focus on skin health with conditioner treatments as dry winter air can cause dandruff."
+      }
+    ]
+  },
+  {
+    "id": "groom-006",
+    "tag": "pet-grooming",
+    "title": "Flea & Tick Baths: Seasonal Protection for SA Pets",
+    "subtitle": "Africa's toughest parasites need more than a supermarket shampoo.",
+    "image": "/scenes/groom-flea-bath.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog is scratching raw patches into its skin and you found a tick behind its ear the size of a grape.",
+    "problemBody": "South Africa is home to the brown dog tick (Rhipicephalus sanguineus), the yellow dog tick (Haemaphysalis elliptica), and the cat flea (Ctenocephalides felis) — all vectors for deadly diseases. Biliary (babesiosis), ehrlichiosis, and anaplasmosis are endemic in SA and can kill an untreated dog within days. Over-the-counter flea treatments from supermarkets are often ineffective due to growing resistance. A single flea bath without ongoing prevention provides only 24–48 hours of relief.",
+    "bouulSolution": [
+      "Professional medicated flea baths use veterinary-grade insecticides (fipronil or permethrin-based) far stronger than shop brands",
+      "Groomers apply proper technique — 10-minute soak period, massaging into the skin, not just the coat surface",
+      "Your Bouul groomer partners with local vets to ensure proper rotation of actives, preventing chemical resistance"
+    ],
+    "partsNeeded": [
+      "Veterinary-grade flea shampoo (R200–R450)",
+      "Flea comb (R60–R150)",
+      "Tick remover tool (R40–R100)",
+      "Post-bath spot-on treatment (R80–R250)",
+      "Disposable gloves (R30–R60)"
+    ],
+    "guidePricing": "R80–R150 flea bath add-on to full groom; R200–R350 standalone treatment; R100–R200 for severe infestation",
+    "timeline": "15–25 minutes for bath + comb; 30–45 minutes for full flea treatment with dry",
+    "aiPromptExample": "Differentiate between flea allergy dermatitis and seasonal dry skin for a Staffordshire Bull Terrier in Gauteng.",
+    "aiDiagnosisOutput": "Symptoms: scratching concentrated around tail base, lower back, and inner thighs. Skin condition: red papules, small scabs, thinning hair on rump. Flea dirt present (black specks turning red on wet cotton wool). Severity: moderate flea allergy dermatitis (FAD). Recommendation: medicated flea bath with oatmeal-based soothing conditioner post-wash. Prescription-strength flea prevention (Nexgard or Bravecto) required — the bath is relief, not prevention. Cost: R250 including bath + flea comb + conditioner.",
+    "escrowGuarantee": "If a tick-borne illness develops within 14 days of a Bouul-booked flea bath, we cover the diagnostic test up to R400.",
+    "pirbStandard": "SAPCA Grooming Code §4.8: Insecticidal baths must use SAPCA-registered products only. Contact time minimum 10 minutes. Groomer must wear protective gloves. Ticks must be removed with tick twisters (not fingers).",
+    "articleSections": [
+      {
+        "heading": "The SA Parasite Threat Landscape",
+        "body": "South Africa's warm climate means fleas and ticks are a year-round problem — not seasonal as in Europe. Brown dog ticks are the primary biliary vector, with peak activity October–May in inland provinces and year-round in coastal KZN and Cape Town. Flea populations explode in summer (December–February) when warmth and humidity are highest. The SA Veterinary Association reports that 1 in 5 dogs presenting with fever in Gauteng tests positive for a tick-borne disease. The cost of treating biliary (R2,000–R8,000) dwarfs the cost of prevention (R100–R250 per treatment)."
+      },
+      {
+        "heading": "What a Professional Flea Bath Actually Does",
+        "body": "A professional flea bath starts with a wet-down using warm water, then application of medicated shampoo massaged into the skin — not just the coat. The shampoo must sit for 10 minutes to kill adult fleas and ticks. After rinsing, the groomer runs a flea comb through the entire coat to remove dead fleas and eggs. A post-bath lice/flea spray or spot-on treatment extends protection. Important: the bath kills adults present on the dog at that moment. It does not break the environmental flea life cycle — eggs, larvae, and pupae in your home and yard continue hatching for up to 6 months. Ongoing prevention is essential."
+      },
+      {
+        "heading": "Prevention Protocols After the Bath",
+        "body": "Within 24 hours of the flea bath, apply a vet-prescribed monthly treatment: Nexgard Spectra (R250–R400), Bravecto (R400–R700 for 3-month chew), Simparica (R200–R350 monthly), or Frontline Plus (R100–R200 monthly). Collars like Seresto (R600–R900, 8-month protection) are popular for SA outdoor dogs. Yard treatment with Fipronil-based spray every 3 months breaks the lifecycle. Your Bouul grooming booking includes a printable prevention calendar customised to your area's parasite season."
+      },
+      {
+        "heading": "Signs of Tick-Borne Disease to Watch For",
+        "body": "After a tick bite, monitor for these signs over 7–21 days: fever (above 39.2°C), lethargy, loss of appetite, dark or red urine (biliary), pale gums, swollen lymph nodes, lameness shifting between legs (ehrlichiosis), bruising or nosebleeds. If you see any of these, request a 4DX snap test at your vet (R350–R500) which tests for heartworm, ehrlichiosis, anaplasmosis, and Lyme disease in a single blood sample. Early treatment dramatically improves outcomes — biliary with treatment has a 85–90% survival rate."
+      }
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "driveway_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "Driveway Pressure Washing",
+    "subtitle": "Remove oil stains, tyre marks, moss and years of embedded grime from your driveway",
+    "image": "/scenes/cleaning_driveway.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Driveways accumulate oil stains, tyre marks and organic growth that standard cleaning cannot touch",
+    "problemBody": "Your driveway is the first thing visitors see when approaching your home, yet it is often the most neglected surface on the property. Over time, concrete or paving surfaces develop dark stains from vehicle oil leaks, tyre marks, and a general grey discolouration from embedded dirt. In South Africa's climate, where summer rainfall encourages organic growth, driveways also develop moss, algae and weeds in cracks and joints, particularly in shaded areas and at the edges. These growths make the surface slippery when wet and can cause concrete spalling (surface flaking) during cold weather. Acid rain and industrial pollution also etch exposed concrete, creating a porous surface that absorbs every future stain more readily.",
+    "bouulSolution": [
+      "Pre-treatment with industrial-grade degreaser for oil and fuel stains, dwell time for maximum penetration",
+      "Hot water pressure washing at 3,000–4,000 PSI with surface cleaner attachment for uniform results",
+      "Weed and moss removal from joints, followed by joint sand replenishment"
+    ],
+    "partsNeeded": [
+      "Hot water pressure washer (3,000–4,000 PSI, 15–20 L/min flow)",
+      "Surface cleaner attachment (rotating bar for even coverage)",
+      "Industrial-grade concrete degreaser",
+      "Joint sand or sealant for crack repair"
+    ],
+    "guidePricing": "R 300 – R 800 per driveway (single to double width, standard length)",
+    "timeline": "1–3 hours depending on size and soil level",
+    "aiPromptExample": "\"Describe a driveway pressure washing service for a double-width concrete driveway in a South African home, including oil stain treatment and weed removal.\"",
+    "aiDiagnosisOutput": "\"Oil stains at parking positions on concrete surface. Tyre marks at entry point. Moss growth in shaded edge joints. General grey discolouration from embedded soil. Recommended: degreaser pre-treatment on oil stains, hot water pressure wash with surface cleaner, weed removal from joints, and concrete sealant recommendation.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when driveway is uniformly clean, oil stains removed, and joints are weed-free",
+    "pirbStandard": "SANS 10120 (concrete care); HASA pressure washing standard; SANS 1828:2018 chemical safety for degreasers",
+    "articleSections": [
+      {
+        "heading": "The Pressure Washing Difference",
+        "body": "Pressure washing uses high-pressure water (measured in PSI — pounds per square inch) combined with high flow rate (litres per minute, or L/min) to dislodge dirt from hard surfaces. Our hot water pressure washers heat the water to 80–100°C, which is significantly more effective at breaking down oil and grease than cold water. The surface cleaner attachment uses a rotating bar with two high-pressure jets that create a uniform cleaning pattern without the 'striping' effect of a single wand. The combination of heat, pressure and chemical pre-treatment removes years of accumulated grime in a single pass."
+      },
+      {
+        "heading": "Oil and Fuel Stain Treatment",
+        "body": "Oil and fuel stains are the most common driveway issue in South African homes. These stains penetrate the porous concrete surface and can become permanent if not treated. Our treatment begins with an industrial-grade degreaser applied directly to the stain and agitated with a stiff-bristle brush. The degreaser is left to dwell for 15–30 minutes, allowing it to penetrate the concrete and emulsify the oil. The pressure washer then flushes the emulsified oil out of the concrete pores. For older, set-in stains, a poultice of degreaser and absorbent material may be applied and left overnight before washing."
+      },
+      {
+        "heading": "Weed and Moss Management",
+        "body": "Joints between paving stones or concrete sections are the weak points in any driveway. They collect moisture, dirt and organic matter that support weed growth and moss. Over time, the weed roots widen the joints and destabilise the paving. Our service includes: removing visible weeds by hand or with a weeding tool, applying a targeted herbicide to joints (environmentally safe, SABS-approved), pressure washing the joint area to remove moss and algae, and replenishing joint sand or applying a joint stabilising sealant. For concrete driveways, we seal expansion joints to prevent further weed growth."
+      },
+      {
+        "heading": "Post-Cleaning Protection",
+        "body": "After pressure washing, we recommend applying a concrete or paving sealant that protects the surface from future staining, reduces water absorption (which prevents moss and algae growth), and makes future cleaning easier. For exposed aggregate paving, sealant also prevents the aggregate stones from becoming loose. The sealant is applied by roller or sprayer after the surface has dried completely (typically 24 hours after washing). We also recommend scheduling biannual pressure washing (spring and autumn) for driveways to prevent heavy soil accumulation. The Bouul app schedules your driveway maintenance and sends seasonal reminders."
+      }
+    ]
+  },
+  {
+    "id": "patio_and_pool_deck_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "Patio and Pool Deck Pressure Washing",
+    "subtitle": "Restore your outdoor living surfaces to their original colour and slip-free condition",
+    "image": "/scenes/cleaning_patio.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Patios and pool decks become slippery and discoloured from algae, moss and accumulated dirt",
+    "body": "Patios, pool decks and outdoor entertainment areas are exposed to the elements year-round. In South Africa's climate — with summer rainfall, high humidity in coastal regions and intense sun — these surfaces collect a combination of organic growth (algae, moss, mildew), atmospheric pollution, leaf tannin stains, and general dust and grime. The resulting surface is not only unattractive but dangerous: algae and moss growth make paving extremely slippery when wet, posing a slip hazard around pools and entertainment areas. The same sun that fades your pool cover also UV-degrades the surface of paving stones, making them appear lighter and chalky over time.",
+    "bouulSolution": [
+      "Pre-treatment with algae and moss killing solution, dwell time for complete kill before pressure washing",
+      "Hot water pressure washing at 2,500–3,500 PSI with surface cleaner for even restoration",
+      "Final treatment with anti-algae sealant that prevents regrowth for 12–18 months"
+    ],
+    "partsNeeded": [
+      "Hot water pressure washer with adjustable pressure control",
+      "Surface cleaner attachment for even coverage",
+      "Algae and moss pre-treatment chemical (SABS-approved)",
+      "Anti-algae and UV-protectant sealant"
+    ],
+    "guidePricing": "R 250 – R 600 per area (standard patio to large pool deck)",
+    "timeline": "1–3 hours depending on area size and growth level",
+    "aiPromptExample": "\"Describe a patio and pool deck pressure washing service for a South African home with an L-shaped pool deck, focusing on algae removal and slip-resistance restoration.\"",
+    "aiDiagnosisOutput": "\"Algae growth on shaded pool deck corners and under patio furniture. Moss in paving joints. Leaf tannin stains from overhanging trees. Surface is slippery with visible biofilm. Recommended: algae pre-treatment, hot water pressure wash, joint cleaning, anti-algae sealant application for slip resistance.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all visible algae and moss are removed and the surface passes a slip-resistance test",
+    "pirbStandard": "SANS 10085 (slip resistance on wet surfaces); SANS 10120 (paving care); HASA pressure washing standard; OHSA Section 10 (public safety)",
+    "articleSections": [
+      {
+        "heading": "Algae and Slip Hazards",
+        "body": "Algae growth on paving is not just cosmetic — it creates a serious slip hazard. The green biofilm that grows on shaded, damp paving contains microscopic organisms that produce a slippery mucous layer. When the surface gets wet (from rain, pool splash or morning dew), this layer becomes as slippery as ice. Pool decks are particularly hazardous because swimmers walk barefoot on wet surfaces. Our pre-treatment uses a quaternary ammonium compound that kills algae at the cellular level, followed by a pressure wash that removes the dead biofilm. The final sealant contains algaecide that prevents regrowth and maintains slip resistance."
+      },
+      {
+        "heading": "Surface Type Considerations",
+        "body": "Different patio and pool deck surfaces require different pressure and techniques. Concrete paving: can handle 3,500 PSI with a surface cleaner. Clay pavers (common in SA homes): lower pressure (2,500 PSI) to avoid surface damage. Natural stone (slate, sandstone, bluestone): lowest pressure with a wide fan spray — never use a surface cleaner or turbo nozzle on natural stone, as it will etch the surface. Tiled pool decks: medium pressure with a tile-specific cleaning solution. Timber decking: the lowest pressure setting with a timber-specific cleaner — never use a turbo nozzle. Our technicians select the correct pressure and technique for each surface."
+      },
+      {
+        "heading": "Pool Deck Drainage Considerations",
+        "body": "When cleaning pool decks, water runoff management is critical. The cleaning water may contain algae, moss, chemicals and dislodged dirt. We take care to ensure runoff does not enter the pool (which would affect pool chemistry and potentially damage pool equipment). We block drains near the pool edge, collect runoff with absorbent booms, and direct waste water into garden beds or drainage systems away from the pool. For pool deck cleaning, we use only pool-safe cleaning chemicals — products that are harmless to pool water chemistry and won't affect pH, chlorine or alkalinity levels."
+      },
+      {
+        "heading": "Pool Deck Frequent Maintenance",
+        "body": "Pool decks in South Africa benefit from frequent lighter cleaning rather than annual heavy cleaning. We recommend a quarterly mild pressure wash (2,000 PSI, cold water) to keep algae in check, combined with an annual hot water deep clean and sealant application. Pool chemical splashes (chlorine, acid, salt from salt-chlorinated pools) can etch paving over time, particularly sandstone and concrete. Rinsing the deck with a garden hose after pool use reduces chemical buildup. The Bouul app's pool area maintenance schedule coordinates your deck cleaning with pool servicing for a complete outdoor refresh."
+      }
+    ]
+  },
+  {
+    "id": "house_exterior_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "House Exterior Pressure Washing",
+    "subtitle": "Remove atmospheric grime, mould and cobwebs from your home's exterior walls",
+    "image": "/scenes/cleaning_house_exterior.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Exterior walls accumulate a layer of grime that makes even well-maintained homes look neglected",
+    "body": "The exterior of your home is constantly exposed to airborne dirt, vehicle exhaust, industrial pollution, pollen, mould spores and cobweb accumulation. Over time, these build into a visible layer that dulls the original paint colour and creates an unkempt appearance. In South Africa, where many homes have light-coloured exterior walls (cream, white, light grey), this soiling is particularly visible. Black mould growth on south-facing and shaded walls is common in humid coastal areas and during the Highveld summer rainfall season. Cobwebs accumulate at windows, eaves and light fittings. The result is a home that looks older and less cared for than it is.",
+    "bouulSolution": [
+      "Pre-wetting of garden plants and covering of electrical outlets before washing begins",
+      "Low-pressure soft washing technique for painted surfaces: chemical cleaning + gentle rinse, no paint damage",
+      "Cobweb removal from eaves, window frames, light fittings and corners"
+    ],
+    "partsNeeded": [
+      "Pressure washer with adjustable pressure (low for soft wash, high for masonry)",
+      "Soft wash chemical solution (sodium hypochlorite-based for mould removal)",
+      "Surface cleaning detergent for general grime",
+      "Garden plant covers and plastic sheeting for protection"
+    ],
+    "guidePricing": "R 500 – R 1,500 (2-bedroom house to 4-bedroom house, single storey)",
+    "timeline": "2–5 hours depending on house size and soil level",
+    "aiPromptExample": "\"Describe a house exterior pressure washing service for a single-storey South African home with painted plaster walls, including mould removal and plant protection.\"",
+    "aiDiagnosisOutput": "\"Black mould growth on south-facing wall and in shaded corners. General atmospheric grime on all surfaces. Cobwebs at eaves and window frames. Paint shows no major peeling but surface is dulled. Recommended: soft wash with mould-killing solution, low-pressure rinse, cobweb removal, and annual exterior cleaning schedule.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all walls are uniformly clean, mould is removed and cobwebs are gone",
+    "pirbStandard": "SANS 10120 (exterior wall care); OHSA Section 8 (working at heights safety); HASA soft wash protocol",
+    "articleSections": [
+      {
+        "heading": "Soft Wash vs Pressure Wash",
+        "body": "For painted exterior walls and delicate surfaces, we use the 'soft wash' method rather than high-pressure washing. Soft wash uses a specialised cleaning solution applied at low pressure (500–1,000 PSI), combined with a gentle rinse. The cleaning solution — typically a sodium hypochlorite-based formula with surfactants — does the cleaning work, not the pressure. This kills mould, algae and lichen at the root, removes atmospheric grime, and rinses clean without damaging the paint, forcing water behind siding, or damaging window seals. High-pressure washing on painted walls can strip paint, force water into cavities, and damage sealants."
+      },
+      {
+        "heading": "Mould and Algae Removal",
+        "body": "Exterior wall mould is a common problem in South Africa, particularly on south-facing walls that receive little direct sunlight and on walls shaded by trees or neighbouring buildings. The mould appears as black or dark green patches that spread upward from the ground level. Our mould treatment uses a sodium hypochlorite solution at a concentration of 2–3% (stronger than domestic bleach but safe for exterior surfaces) applied with a low-pressure sprayer. The solution dwells for 10–15 minutes to kill the mould at the root. The wall is then rinsed with clean water at low pressure. An anti-mould additive in the final rinse inhibits regrowth for 6–12 months."
+      },
+      {
+        "heading": "Plant and Property Protection",
+        "body": "Before any exterior cleaning begins, we take comprehensive protective measures. All garden plants near the house are pre-wetted with water to prevent chemical absorption. Delicate plants are covered with plastic sheeting. Electrical outlets, light fittings and outdoor switches are sealed with waterproof covers. Air conditioning units are covered. The driveway and paths are wetted to prevent cleaning solution from drying on them. After cleaning, all plants are rinsed with clean water to remove any chemical residue. Our cleaning solutions are biodegradable and formulated for exterior use, but we take the same precautions as if they were industrial-strength."
+      },
+      {
+        "heading": "Cobweb and Insect Nest Removal",
+        "body": "Exterior wall cleaning includes thorough cobweb removal from all accessible areas: under eaves, around window and door frames, in corners of gables, behind downpipes, on light fittings, and around garage doors. Cobwebs trap dust and pollen, creating dark, unsightly patches. Old spider egg sacs and insect nests (wasp or mud-dauber) are removed where safely accessible. A long-reach brush and pole attachment allows access to high corners without a ladder where possible. After removal, we recommend applying a residual insect repellent around light fittings and eaves to discourage immediate web rebuilding."
+      }
+    ]
+  },
+  {
+    "id": "pool_deck_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "Pool Deck Pressure Washing and Sealing",
+    "subtitle": "A clean, sealed pool deck is safer, more attractive and easier to maintain",
+    "image": "/scenes/cleaning_pool_deck.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Pool decks accumulate algae, chemical residue and wear that create safety and appearance issues",
+    "body": "The pool deck is one of the most demanding surfaces in any home. It is constantly exposed to pool water (which contains chlorine, salt or acid), sun, rain, leaves, sunscreen oils, tanning lotions and barefoot traffic. This combination creates a surface that is prone to algae growth in shaded areas, chemical etching from pool water splashes, staining from leaf tannins and sunscreen, and a general dulling of the original colour. The slip hazard of an algae-covered pool deck is a real safety concern, particularly for children and elderly family members. In South Africa's pool-friendly climate, where pools are used year-round in many regions, pool deck maintenance is a recurring need.",
+    "bouulSolution": [
+      "Pre-treatment with pool-safe algae killer (no harm to pool water chemistry)",
+      "Hot water pressure washing with surface cleaner for uniform restoration",
+      "Application of pool-deck sealant that resists chlorine, salt, UV and algae growth"
+    ],
+    "partsNeeded": [
+      "Hot water pressure washer with adjustable pressure",
+      "Surface cleaner attachment for paving",
+      "Pool-safe algae killing solution",
+      "Pool deck sealant (algaecide-infused, UV-resistant)"
+    ],
+    "guidePricing": "R 250 – R 600 per pool deck area (small to large)",
+    "timeline": "1–3 hours depending on area size",
+    "aiPromptExample": "\"Describe a pool deck pressure washing and sealing service for a South African home with travertine paving around a swimming pool, including chemical splash management.\"",
+    "aiDiagnosisOutput": "\"Algae growth on shaded edges of pool deck near garden. Chlorine-etched areas where pool water has splashed onto stone. Sunscreen and tanning oil residue on seating area around loungers. Leaf tannin stains under tree canopy. Recommended: pool-safe algae treatment, hot water pressure wash with reduced pressure for natural stone, sealant application for protection.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when pool deck is clean, algae-free, sealed and passes a wet slip-resistance test",
+    "pirbStandard": "SANS 10085 (slip resistance standard); SANS 10120 (paving care); HASA pool deck protocol; pool-safe chemical compliance",
+    "articleSections": [
+      {
+        "heading": "Pool Deck Surface Types",
+        "body": "Pool decks in South Africa are made from various materials, each requiring specific care. Travertine (natural stone, very popular around SA pools): requires low pressure and a stone-safe cleaner to avoid etching the porous surface. Concrete paving (cast concrete pavers): can handle standard pressure washing and is best sealed with a concrete sealer. Ceramic or porcelain tiles: low pressure with mild detergent — avoid harsh chemicals that can damage the grout. Exposed aggregate: very durable but the stones can loosen if pressure is too high. Timber decking around pools: extremely sensitive — low pressure with timber deck cleaner and annual oiling for protection. We match our technique to your specific pool deck material."
+      },
+      {
+        "heading": "Chemical Management",
+        "body": "Pool decks face constant chemical exposure from pool water. Chlorinated water (most common in SA) bleaches organic stains but also etches stone surfaces over time. Salt water (from salt-chlorinated pools) accelerates corrosion of steel reinforcement in concrete and causes spalling. Acid washes spill over onto decking and create light-coloured patches. Our cleaning includes a pH-neutralising rinse that neutralises any residual acid or chlorine on the deck surface. The sealant we apply creates a chemical barrier that prevents future pool chemical penetration, preserving the colour and integrity of the deck surface."
+      },
+      {
+        "heading": "The Sealing Process",
+        "body": "Sealing is the most important step in pool deck maintenance. A quality sealant: prevents water absorption (which causes freeze-thaw damage and algae growth), blocks chemical penetration, provides UV protection against fading, makes future cleaning easier (dirt sits on the sealant rather than penetrating the surface), and contains algaecide that prevents regrowth for 12–18 months. The sealant is applied after the surface has been pressure washed and fully dried (24 hours minimum). We apply two coats with a roller or sprayer, ensuring complete and even coverage. The sealed surface is ready for foot traffic within 24 hours."
+      },
+      {
+        "heading": "Seasonal Pool Deck Schedule",
+        "body": "Pool decks in South Africa benefit from a seasonal maintenance schedule. Spring: annual deep clean and sealant reapplication after winter. Summer: monthly maintenance rinse of the deck surface (remove sunscreen residue, leaf stains and pool chemical splashes). Autumn: leaf removal and pre-winter clean. Winter: less frequent cleaning needed but still monitor for algae in shaded areas. The Bouul app coordinates your pool deck maintenance with your pool servicing schedule, ensuring both are done in the same visit to minimise disruption."
+      }
+    ]
+  },
+  {
+    "id": "roof_tile_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "Roof Tile Cleaning",
+    "subtitle": "Remove moss, lichen and atmospheric grime from your roof tiles safely",
+    "image": "/scenes/cleaning_roof_tiles.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Moss and lichen on roof tiles trap moisture that damages tiles and causes leaks",
+    "body": "Roof tiles are exposed to the harshest conditions of any part of your home — relentless sun, rain, wind and temperature extremes. Over time, they develop moss, lichen and algae growth, particularly on south-facing slopes and in shaded areas. These growths are not just cosmetic: moss holds moisture against the tile surface, which can lead to tile deterioration, and the roots of lichen can penetrate the tile surface, causing microscopic cracks. In South Africa, where clay and concrete roof tiles are common, moss is particularly prevalent in coastal regions with high humidity and in the mist belt areas of KwaZulu-Natal and Mpumalanga. A moss-covered roof also reduces the home's kerb appeal and can negatively affect property value.",
+    "bouulSolution": [
+      "Low-pressure soft wash application of moss and lichen killing solution, applied from the ridge down",
+      "Dwell time for complete kill (20–30 minutes), then low-pressure rinse — no tile dislodgement risk",
+      "Application of moss-inhibiting treatment that prevents regrowth for 2–3 years"
+    ],
+    "partsNeeded": [
+      "Pressure washer with low-pressure soft wash attachment",
+      "Moss and lichen killing solution (SABS-approved, biodegradable)",
+      "Safety harness, roof ladder and fall protection equipment",
+      "Gutter protection covers to prevent debris from entering downpipes"
+    ],
+    "guidePricing": "R 1,000 – R 2,500 (standard house roof, single storey)",
+    "timeline": "2–5 hours depending on roof size and growth level; treatment results visible within 2 weeks",
+    "aiPromptExample": "\"Describe a roof tile cleaning service for a South African home with concrete roof tiles and heavy moss growth, including safety considerations and regrowth prevention.\"",
+    "aiDiagnosisOutput": "\"Heavy moss growth on south-facing roof slope and in shaded valleys. Lichen patches on exposed tiles. Roof valleys have leaf and moss debris accumulation. Gutters partially blocked by moss fragments. Recommended: soft wash moss treatment with extended dwell time, low-pressure rinse, debris removal from valleys and gutters, moss-inhibitor application.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when roof is free of visible green growth and treatment is uniformly applied",
+    "pirbStandard": "SANS 10400 (roof access safety); OHSA working-at-height regulations; HASA roof cleaning protocol; SANS 1828:2018 chemical safety",
+    "articleSections": [
+      {
+        "heading": "Roof Cleaning Safety",
+        "body": "Roof cleaning is one of the most dangerous domestic cleaning services. Our technicians are fully trained in working-at-height safety and use a full fall protection system: roof ladder hooking over the ridge tile, full-body harness attached to a roof anchor with a shock-absorbing lanyard, and a second safety line as backup. Work is never performed on wet roofs, in windy conditions, or during thunderstorms. All equipment is inspected before each use. We carry public liability insurance that covers roof work — ask to see our certificate before scheduling. Safety is non-negotiable, and any technician who compromises safety is immediately removed from the team."
+      },
+      {
+        "heading": "Soft Wash vs High Pressure on Roofs",
+        "body": "High-pressure washing on a roof is dangerous and damaging. The pressure can force water under the tiles into the roof cavity, dislodge tiles (particularly interlocking concrete tiles), and damage the tile surface. Our roof cleaning uses soft wash exclusively — low-pressure application of a moss-killing chemical solution that does the work over time. The solution kills moss, lichen and algae at the root. The dead growth remains on the roof initially and weathers away over 2–4 weeks. Alternatively, for a faster result (at extra cost), we do a very low-pressure rinse that removes the dead growth without disturbing the tiles."
+      },
+      {
+        "heading": "Moss Growth and Tile Damage",
+        "body": "Moss on roof tiles is not just cosmetic — it causes measurable damage. Moss holds moisture against the tile surface, extending the wetting time after rain and accelerating freeze-thaw damage during cold winters (common in the Highveld and Drakensberg regions). Moss roots can penetrate the surface of clay tiles, causing microscopic fissures that grow over time. Lichen secretes acids that etch the tile surface. The accumulated debris also blocks valleys and gutters, leading to water backup and potential roof leaks. Regular moss treatment every 2–3 years prevents this damage cycle and extends roof tile life."
+      },
+      {
+        "heading": "Valley and Gutter Clearing",
+        "body": "The roof cleaning process includes clearing the valleys (the internal corners where roof slopes meet) of accumulated moss, leaves and debris. Gutters are cleared of any moss fragments or debris that entered during cleaning. We use gutter protection covers during the cleaning to prevent debris from entering downpipes. After cleaning, we flush the gutters with water to ensure clear flow. We also inspect the roof for any damaged or dislodged tiles, cracked ridge capping, or failing mortar. Any issues found are documented with photographs and reported for repair."
+      }
+    ]
+  },
+  {
+    "id": "fence_pressure_washing",
+    "tag": "Pressure Washing",
+    "title": "Fence Cleaning",
+    "subtitle": "Remove weathering, moss and discolouration from wooden, metal and concrete fences",
+    "image": "/scenes/cleaning_fence.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Fences weather faster than any other exterior structure and are often the most neglected",
+    "body": "Fences are the unsung workhorses of property maintenance — they provide privacy, security and boundary definition, but they are rarely maintained. Wooden fences weather to a grey, splintered appearance within 1–2 years if untreated. Metal fences (wrought iron, steel palisade) develop rust in coastal areas and industrial zones. Concrete and precast walls grow moss and algae and develop a dirty, stained appearance. In South Africa, where boundary fences are a prominent feature of almost every property, a neglected fence significantly detracts from the overall appearance of the home. Moreover, a weathered wooden fence is more susceptible to rot and insect damage, shortening its lifespan by years.",
+    "bouulSolution": [
+      "Wooden fences: soft wash with wood-safe cleaner, stain removal, and recommendation for re-oiling or sealing",
+      "Metal fences: degreasing, rust treatment with converter, pressure wash, and recommendation for repainting",
+      "Concrete walls: mould and algae treatment, pressure wash, and sealant application for long-term protection"
+    ],
+    "partsNeeded": [
+      "Pressure washer with adjustable pressure (low for wood, high for concrete)",
+      "Wood-safe cleaning solution (sodium percarbonate-based)",
+      "Metal degreaser and rust converter",
+      "Concrete mould treatment and sealant"
+    ],
+    "guidePricing": "R 300 – R 1,000 depending on fence type and length (standard suburban boundary)",
+    "timeline": "1–4 hours depending on fence length, material and condition",
+    "aiPromptExample": "\"Describe a fence cleaning service for a South African property with a treated pine wooden fence, a metal palisade gate and a concrete boundary wall.\"",
+    "aiDiagnosisOutput": "\"Wooden fence has greyed from UV exposure and has moss growth at ground level. Metal palisade shows surface rust at welds and base. Concrete wall has black mould on shaded sections. Recommended: wood-safe soft wash for timber, rust converter plus pressure wash for metal, mould treatment plus sealant for concrete.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all fence sections are clean, mould/moss removed and any treatment recommendation provided",
+    "pirbStandard": "SANS 10120 (timber and metal care); OHSA working-at-height for tall fences; HASA fence cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "Wooden Fence Care",
+        "body": "Wooden fences in South Africa suffer from two main issues: UV greying and mould growth. UV radiation breaks down the lignin in wood fibres, causing the surface to turn grey and become rough. Mould grows on the damp lower sections of the fence, particularly near garden beds and where fence panels meet the ground. Our wooden fence cleaning uses a sodium percarbonate-based solution (an oxygen bleach) that removes both UV-greyed surface wood and mould stains without damaging the wood fibres. The solution is applied at low pressure, left to dwell for 15 minutes, then rinsed at medium pressure. After drying, we strongly recommend applying a wood oil or stain that restores colour and provides UV protection."
+      },
+      {
+        "heading": "Metal Fence Rust Management",
+        "body": "Metal fences in South Africa face significant corrosion challenges, particularly in coastal areas (Cape Town, Durban, Port Elizabeth) where salt spray accelerates rust. Our metal fence cleaning begins with a degreasing wash to remove atmospheric grime and salt residue. We then apply a rust converter to any rusted areas — this chemically converts iron oxide (rust) into a stable iron tannate that can be painted over. The entire fence is then pressure washed to remove loose paint, dirt and converted rust residue. After drying, we recommend a rust-inhibiting primer and metal paint for full restoration. For wrought iron fences, we also check and repair any loose finials or decorative elements."
+      },
+      {
+        "heading": "Concrete Wall Restoration",
+        "body": "Concrete boundary walls and precast fences develop a distinctive soiling pattern: black mould on shaded areas (north-facing in SA? actually south-facing is shaded), green algae at the base where moisture collects, and general grey grime from atmospheric pollution. The rough surface of concrete provides a perfect anchor for mould spores. Our concrete wall treatment uses a sodium hypochlorite solution (similar to exterior walls but stronger, as concrete is more durable) applied with a low-pressure sprayer. After dwell time (15–20 minutes), the wall is pressure washed at 2,500–3,000 PSI. We then apply a clear concrete sealant that prevents future mould growth and makes the wall easier to clean."
+      },
+      {
+        "heading": "Maintenance Schedule by Fence Type",
+        "body": "Different fence materials need different maintenance schedules. Treated timber: clean and re-oil every 18–24 months. Untreated timber: clean immediately and treat with preservative, then maintain every 12 months. Wrought iron: inspect for rust annually, clean and repaint every 3–5 years. Palisade fencing: clean and rust-check annually. Concrete walls: clean every 2–3 years with sealant renewal. The Bouul app tracks your fence maintenance schedule and sends reminders based on your fence type, local climate and the time since the last service."
+      }
+    ]
+  }
+]

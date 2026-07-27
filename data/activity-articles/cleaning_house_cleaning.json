@@ -1,0 +1,278 @@
+[
+  {
+    "id": "weekly_standard_clean",
+    "tag": "House Cleaning",
+    "title": "Weekly Standard House Clean",
+    "subtitle": "Keep your home consistently spotless with a professional weekly service",
+    "image": "/scenes/cleaning_weekly_standard.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dust, grime and daily mess build up faster than most households can manage",
+    "problemBody": "Between work, school runs and social commitments, finding time for a thorough weekly clean is nearly impossible. Surface wiping and quick vacuum passes miss the deep dust that settles on skirting boards, behind furniture and in air vents. Over weeks, this accumulated grime triggers allergy flare-ups, attracts pests and makes a home feel tired rather than refreshed. Many South African households resort to rushed Saturday morning cleans that leave corners, ceiling corners and under-sofa areas untouched.",
+    "bouulSolution": [
+      "Trained cleaning professional arrives with full kit including HASA-approved disinfectants and microfiber cloths",
+      "Systematic room-by-room approach: dusting top-to-bottom, vacuuming, mopping and surface sanitising",
+      "60–90 minute session covers all living areas, bedrooms, kitchen and bathroom to a checklist standard"
+    ],
+    "partsNeeded": [
+      "HASA-approved all-purpose disinfectant",
+      "Microfiber dusting cloths (colour-coded per room)",
+      "HEPA-filter vacuum cleaner",
+      "Flat-head mop with washable pad"
+    ],
+    "guidePricing": "R 250 – R 450 per session (1-bedroom to 4-bedroom home)",
+    "timeline": "60–90 minutes per session",
+    "aiPromptExample": "\"Describe a weekly house cleaning routine for a 3-bedroom home in South Africa, using HASA cleaning standards, including dusting, mopping and bathroom sanitising.\"",
+    "aiDiagnosisOutput": "\"High dust accumulation on horizontal surfaces and pet dander on soft furnishings detected. Recommended: weekly HEPA vacuum cycle, damp microfiber dusting, and bathroom disinfection with SABS-approved quaternary ammonium compound.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released only after you confirm the clean meets the checklist standard",
+    "pirbStandard": "SANS 10160 & HASA Commercial Cleaning Standard – chemical dilution ratios and contact times enforced",
+    "articleSections": [
+      {
+        "heading": "Why Weekly Cleaning Matters",
+        "body": "Consistency is the cornerstone of a healthy home. A weekly professional clean prevents the build-up of allergens, bacteria and stubborn grime that makes deep cleans far more labour-intensive. HASA guidelines recommend domestic cleaning at minimum every 7 days for occupied homes, with high-touch surfaces like light switches, door handles and remote controls disinfected weekly. In South Africa's climate, dust from open windows and pollen from gardens accelerates surface soiling, making the weekly cadence particularly important for allergy and asthma sufferers."
+      },
+      {
+        "heading": "Our Room-by-Room Approach",
+        "body": "Our professionals follow a strict top-to-bottom, left-to-right protocol. Bedrooms: dust all surfaces including picture rails and lampshades, vacuum under beds, wipe mirrors and window sills. Living areas: dust electronics with anti-static cloth, vacuum upholstery, clean skirting boards. Kitchen: wipe appliance exteriors, clean countertops with food-safe sanitiser, sweep and mop. Bathroom: apply HASA-recommended disinfectant to all surfaces, scrub shower glass, clean toilet interior and exterior, polish mirrors. No room is skipped and every session ends with a final walk-through inspection."
+      },
+      {
+        "heading": "Products and Equipment Standards",
+        "body": "All cleaning chemicals used meet SABS 1828:2018 standards for household disinfectants. Microfiber cloths are colour-coded — blue for glass, green for kitchen, yellow for bathroom, red for toilets — eliminating cross-contamination risk. HEPA-filter vacuums trap 99.97% of airborne particles, crucial for households with carpets or pets. Mop heads are washed at 90°C between sessions. Our professionals carry their own kit so your home's equipment stays untouched."
+      },
+      {
+        "heading": "Customising Your Clean",
+        "body": "Every home is different. You can add focus areas at no extra cost — extra attention to the kitchen backsplash, pet-hair removal from the couch, or a deeper clean of the braai area. The Bouul app lets you leave notes for your cleaner before each session and rate the outcome. If something was missed, we schedule a free follow-up within 48 hours. Weekly clients also receive a complimentary monthly deep clean of one high-traffic area."
+      }
+    ]
+  },
+  {
+    "id": "deep_kitchen_clean",
+    "tag": "House Cleaning",
+    "title": "Deep Kitchen Clean",
+    "subtitle": "Tackle grease, grime and hidden food debris for a truly hygienic cooking space",
+    "image": "/scenes/cleaning_deep_kitchen.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Kitchen surfaces look clean but harbour grease, bacteria and hidden food residue",
+    "problemBody": "Daily wiping of counters and a quick sink scrub leave behind the real problem areas: the stove-top crevices, range hood filter, splashback tile grout and the gap between counter and fridge. Cooking oil aerosolises during frying and settles as a tacky film on cabinets, extractor fan blades and ceiling corners. This greasy layer traps dust and bacteria, creating a biofilm that standard cleaning cloths can't penetrate. In South African homes where pap, stews and deep-frying are daily staples, kitchen grease accumulation is especially pronounced and poses a fire risk on range hoods.",
+    "bouulSolution": [
+      "Complete kitchen strip-down: all appliances pulled out, cabinets emptied and every surface degreased",
+      "Extractor fan disassembled, filter soaked in degreasing solution and blades scrubbed individually",
+      "Oven interior, hob, splashback and tile grout treated with SABS-approved degreaser and steam-cleaned"
+    ],
+    "partsNeeded": [
+      "Industrial-grade kitchen degreaser (SABS 1828-compliant)",
+      "Stainless steel cleaner and polish",
+      "Tile grout brush and steam cleaner attachment",
+      "Microfiber glass cloth for streak-free surfaces"
+    ],
+    "guidePricing": "R 350 – R 600 for a full kitchen deep clean (standard to large kitchen)",
+    "timeline": "90–120 minutes",
+    "aiPromptExample": "\"Describe a deep kitchen cleaning procedure for a South African home with a gas hob, tiled splashback and extractor fan, using HASA-recommended degreasing methods.\"",
+    "aiDiagnosisOutput": "\"Grease buildup on extractor fan blades and filter (fire risk), biofilm on splashback grout, and food debris trapped in hob crevices. Required: alkaline degreaser soak, steam grout treatment, and stainless steel polish for surfaces.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when you confirm all surfaces are grease-free and the kitchen passes a white-glove inspection",
+    "pirbStandard": "SANS 1828:2018 – chemical contact times for degreasers enforced; steam temperature verified above 80°C for sanitisation",
+    "articleSections": [
+      {
+        "heading": "The Hidden Kitchen Hazards",
+        "body": "A kitchen that looks clean can still harbour dangerous bacteria. Studies by the National Institute for Communicable Diseases (NICD) show that kitchen sponges and cloths are among the most contaminated items in any home. Grease traps on range hoods, when left uncleaned, become fire hazards — the Johannesburg Fire Department has reported kitchen fires originating from grease-saturated filters. Our deep kitchen clean eliminates these risks by targeting every surface with industrial-grade degreasers and steam at 80°C+, which kills 99.9% of bacteria including E. coli and Salmonella."
+      },
+      {
+        "heading": "Step-by-Step Degreasing Protocol",
+        "body": "We begin by removing all items from counters and cabinets. The extractor fan is disassembled and its filter soaked in a hot alkaline degreaser for 20 minutes. The hob — whether gas, ceramic or induction — is treated with a dedicated cleaner that breaks down burnt-on food without scratching. Splashback tiles and grout receive a targeted steam blast followed by a grout brush scrub. Every cabinet door front and handle is wiped, and the kickboard area under base units is vacuumed. Finally, the entire kitchen is wiped down with a neutral pH cleaner and all stainless steel is polished."
+      },
+      {
+        "heading": "Appliance-Specific Care",
+        "body": "Different kitchen appliances need different treatments. Stainless steel is cleaned with a dedicated polish that follows the grain to avoid scratching. The oven interior receives a non-caustic paste applied to all surfaces, left to dwell for the recommended contact time, then wiped clean. The fridge exterior and top (often forgotten) are cleaned, and the rubber door seals are wiped with antibacterial solution. The microwave interior is steam-cleaned using a vinegar solution to loosen food splatters without chemical residue. Each appliance is restored to a like-new appearance."
+      },
+      {
+        "heading": "Ongoing Maintenance Tips",
+        "body": "Between deep cleans, simple habits extend the results. Wipe the hob and splashback after every cooking session with a microfiber cloth. Run the extractor fan for five minutes after cooking to clear residual grease vapour. Soak the range hood filter in hot water and dish soap once a month. Our Bouul app sends reminders for when your kitchen is due for its next deep clean, and regular weekly clients get a discounted rate on the deep kitchen add-on."
+      }
+    ]
+  },
+  {
+    "id": "bathroom_scrub_and_sanitise",
+    "tag": "House Cleaning",
+    "title": "Bathroom Scrub and Sanitise",
+    "subtitle": "Eliminate mould, soap scum and bacteria from every bathroom surface",
+    "image": "/scenes/cleaning_bathroom_scrub.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Bathrooms are the highest-moisture zone in any home, making them a breeding ground for mould and bacteria",
+    "problemBody": "Soap scum, hard-water deposits and black mould in grout lines are more than cosmetic problems. Bathroom humidity combined with organic matter from soap and skin cells creates ideal conditions for mould spores to colonise grout, silicone seals and shower curtains. In South Africa's varying climate — humid summers in coastal regions and stuffy bathrooms in winter — mould growth accelerates. Black mould (Stachybotrys chartarum) can trigger respiratory issues, while hard-water scale from many municipal supplies leaves glass shower doors looking permanently foggy no matter how often they're wiped.",
+    "bouulSolution": [
+      "Full bathroom disassembly: shower caddy, bottles, bathmat and towel rail cleared, then every surface scrubbed",
+      "Grout and silicone seals treated with anti-mould solution, steam-cleaned and dried",
+      "Shower glass polished with hard-water remover, toilet descaled inside and out, and mirrors polished streak-free"
+    ],
+    "partsNeeded": [
+      "Anti-mould spray (hydrogen peroxide-based, SABS-approved)",
+      "Hard-water scale remover for glass and chrome",
+      "Toilet descaling gel and rim block",
+      "Microfiber glass and bathroom cloths (colour-coded)"
+    ],
+    "guidePricing": "R 200 – R 400 per bathroom (guest bathroom to master ensuite)",
+    "timeline": "45–75 minutes per bathroom",
+    "aiPromptExample": "\"Generate a bathroom cleaning protocol for a South African home with hard water, including anti-mould grout treatment, shower glass descaling and toilet sanitisation.\"",
+    "aiDiagnosisOutput": "\"Black mould detected in shower grout lines and silicone sealant (health risk). Hard-water scale on glass shower door reducing transparency. Toilet bowl has uric-acid ring below water line. Recommended: steam treatment with tea-tree oil anti-mould solution, citric-acid scale remover, and pumice stone for toilet ring.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released only after you confirm all mould removed, glass streak-free and no sanitary residue",
+    "pirbStandard": "SANS 1828:2018 – disinfectant contact times (minimum 5 minutes on wet surfaces); HASA bathroom cleaning protocol enforced",
+    "articleSections": [
+      {
+        "heading": "Understanding Bathroom Biofilm",
+        "body": "Biofilm is a slimy layer of bacteria, fungi and organic matter that forms on wet surfaces. In bathrooms, it appears as pinkish residue around drains and taps (Serratia marcescens) or the black spots in grout (Aspergillus niger). These biofilms protect bacteria from regular cleaning agents. Our anti-mould treatment uses a hydrogen peroxide-based solution that penetrates the biofilm matrix, followed by steam at 80°C to kill spores at the root. This two-step approach prevents regrowth for 4–6 weeks, compared to bleach which only whitens the surface."
+      },
+      {
+        "heading": "Hard-Water Challenge in SA",
+        "body": "Many South African municipalities supply hard water with high calcium and magnesium content. When water evaporates on shower glass, it leaves white mineral deposits that bond to the surface. Standard glass cleaners cannot dissolve these deposits. Our hard-water treatment uses a food-grade citric acid solution that chelates the minerals, followed by a razor-blade scrape on stubborn spots and a final glass polish. Chrome fixtures receive a separate treatment to avoid acid damage to the plating."
+      },
+      {
+        "heading": "Toilet Sanitisation Protocol",
+        "body": "The toilet is the highest-risk surface in any bathroom. Our protocol begins with flushing to lower the water level, applying descaling gel under the rim and in the bowl, and leaving it for 10 minutes. The exterior, including the often-neglected base and back, is wiped with antibacterial solution. The flush buttons, lid and seat hinges receive individual attention. A pumice stone is used to remove stubborn uric-acid rings on porcelain without scratching. The floor around the toilet base is mopped with disinfectant."
+      },
+      {
+        "heading": "Ventilation and Mould Prevention",
+        "body": "After cleaning, we advise on bathroom ventilation improvements. Simply running the extractor fan for 30 minutes after each shower reduces humidity by 40–60%. For bathrooms without fans, we recommend leaving the door open and wiping down shower walls with a squeegee after use. The Bouul app includes a bathroom-care guide and schedules your next deep bathroom clean based on your home's specific humidity conditions."
+      }
+    ]
+  },
+  {
+    "id": "full_home_dusting",
+    "tag": "House Cleaning",
+    "title": "Full Home Dusting and Allergy Control",
+    "subtitle": "Eliminate dust mites, pollen and allergens from every surface",
+    "image": "/scenes/cleaning_dusting.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Standard dusting spreads particles into the air instead of removing them",
+    "problemBody": "Feather dusters and dry cloths simply redistribute dust, sending fine particles airborne where they settle again within hours. For allergy and asthma sufferers in South Africa, where high pollen seasons and dry winters already challenge respiratory health, this ineffective dusting cycle worsens symptoms. Dust mites thrive in the warm interior of homes, feeding on dead skin cells shed by occupants and pets. Their waste particles are a primary asthma trigger. A typical South African bed can harbour up to 2 million dust mites, and standard cleaning barely touches this problem.",
+    "bouulSolution": [
+      "Damp microfiber dusting technique captures and removes particles rather than spreading them",
+      "Top-to-bottom protocol: ceiling fans, high shelves, window sills, furniture, then floors — no surface missed",
+      "HEPA vacuum of upholstery, curtains and mattresses for comprehensive allergen reduction"
+    ],
+    "partsNeeded": [
+      "Colour-coded microfiber dusting cloths (damp and dry)",
+      "HEPA-filter vacuum with upholstery and crevice tools",
+      "Anti-allergen spray (enzyme-based, HASA-approved)",
+      "Extendable duster for ceiling fans and high surfaces"
+    ],
+    "guidePricing": "R 200 – R 400 (1-bedroom to 4-bedroom home)",
+    "timeline": "45–90 minutes depending on home size",
+    "aiPromptExample": "\"Describe a full-home dusting protocol for a South African home with carpeted bedrooms and tiled living areas, focusing on allergen removal using HEPA filtration and damp microfiber methods.\"",
+    "aiDiagnosisOutput": "\"High dust load on ceiling fan blades, lamp shades and behind entertainment unit. Dust mite allergen detected in bedroom carpets and curtains. Recommended: damp microfiber top-to-bottom dusting, HEPA vacuum with beater bar on carpets, and enzyme spray on soft furnishings.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when you confirm no visible dust on any surface and improved air quality",
+    "pirbStandard": "SANS 10160 – HEPA filtration standard for allergen removal; HASA dusting protocol (damp cloth, never dry dusting)",
+    "articleSections": [
+      {
+        "heading": "The Problem with Dry Dusting",
+        "body": "Traditional feather dusters and dry cloths create a static charge that attracts dust but then releases it at the slightest movement. Studies show that dry dusting can increase airborne particulate levels by up to 30% immediately after cleaning. Our damp microfiber approach uses cloths with millions of split fibres that trap dust particles through capillary action and electrostatic attraction. The cloth is dampened with water or a HASA-approved anti-allergen solution, ensuring particles stay captured and are removed from the home entirely when the cloth is washed."
+      },
+      {
+        "heading": "High-Altitude Dust Management",
+        "body": "South Africa's Highveld region experiences particularly dusty conditions due to dry winters, veld fires and wind-blown soil. Homes in Gauteng, the Free State and parts of Limpopo accumulate dust 2–3 times faster than coastal homes. Our protocol accounts for regional variation — the Bouul app adjusts recommended cleaning frequency based on your location and the current Air Quality Index (AQI). During Highveld winter, we recommend weekly professional dusting rather than the standard fortnightly."
+      },
+      {
+        "heading": "Allergen Hotspots",
+        "body": "Not all surfaces accumulate allergens equally. Our professionals prioritise: bedrooms (mattresses, pillows, under-bed areas), living rooms (upholstery, curtains, electronics), and high-touch surfaces (light switches, remote controls, door frames). Pet owners receive special attention to sofas and bedding where dander accumulates. We also treat air conditioning vents and return-air grilles, which recirculate dust throughout the home if neglected."
+      },
+      {
+        "heading": "Post-Cleaning Air Quality",
+        "body": "After our full-home dusting service, we recommend running all ceiling fans on low for 10 minutes to redistribute any residual particles onto surfaces where they can be captured. We then run a final vacuum pass. Clients with severe allergies can opt for our air purifier add-on service, which includes cleaning of existing purifier filters and placement optimisation. The Bouul app tracks your home's allergy score and schedules pre-emptive dusting ahead of high-pollen season."
+      }
+    ]
+  },
+  {
+    "id": "floor_mopping_and_polishing",
+    "tag": "House Cleaning",
+    "title": "Floor Mopping and Surface Polishing",
+    "subtitle": "Restore shine to tiles, vinyl, laminate and wooden floors with professional techniques",
+    "image": "/scenes/cleaning_floor_mopping.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Mopping with dirty water and wrong products leaves floors dull, sticky and unhygienic",
+    "problemBody": "Most household mopping does more harm than good. A single bucket of water used across multiple rooms spreads bacteria from the kitchen to the living room. Incorrect cleaning products strip sealants from tiled floors, cloud vinyl surfaces and leave laminate flooring with a hazy residue. In South African homes, where outdoor-to-indoor traffic carries red dust, mud and garden debris, floors take a heavy beating. Many homeowners resort to over-wetting floors in an attempt to clean them, which damages wooden floorboards and causes grout to deteriorate prematurely.",
+    "bouulSolution": [
+      "Two-bucket mopping system (clean rinse water + cleaning solution) prevents cross-contamination between rooms",
+      "Floor-type specific products: pH-neutral for vinyl and laminate, stone-safe for tiles, specialised wood cleaner for timber floors",
+      "Double mopping pass: first with cleaning solution, second with clean water — then buff dry with microfiber"
+    ],
+    "partsNeeded": [
+      "Flat-head microfiber mop with washable pads",
+      "Two-bucket system with wringer",
+      "Floor-type specific cleaner (SABS-approved)",
+      "Microfiber buffing cloths for streak-free finish"
+    ],
+    "guidePricing": "R 150 – R 350 (1-bedroom flat to 4-bedroom house, all floors)",
+    "timeline": "30–75 minutes depending on floor area and type",
+    "aiPromptExample": "\"Describe the correct mopping procedure for a South African home with a mix of ceramic tiles, vinyl flooring and wooden floorboards, including product selection and technique.\"",
+    "aiDiagnosisOutput": "\"Soap residue and mineral deposits on ceramic tiles causing dull appearance. Laminate flooring has visible water damage at tongue-and-groove joints. Wooden floorboards show stripped sealant near high-traffic entry points. Recommended: pH-neutral cleaner for vinyl, stone-safe alkaline for tiles, and specialised wood soap with minimal water for timber.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all floor surfaces are streak-free, residue-free and properly dried",
+    "pirbStandard": "SANS 10160 – floor cleaning chemical standards; HASA two-bucket mopping protocol; slip-resistance maintained (SANS 10085)",
+    "articleSections": [
+      {
+        "heading": "The Two-Bucket Method Explained",
+        "body": "The two-bucket system is the industry standard for hygienic floor cleaning. Bucket A contains the cleaning solution at the correct dilution ratio. Bucket B contains clean rinse water. The mop is dipped in Bucket A, wrung, applied to the floor, then rinsed in Bucket B and wrung before returning to Bucket A. This prevents dirty water from contaminating the cleaning solution. The result: every mopping pass applies clean product, and bacteria-laden water is removed from the system. HASA mandates this system for all professional floor cleaning in South Africa."
+      },
+      {
+        "heading": "Floor-Type Specific Care",
+        "body": "Each flooring material requires specific care. Ceramic and porcelain tiles withstand alkaline cleaners but their grout lines are porous and require sealing. Vinyl and LVT (luxury vinyl tile) are sensitive to alkaline products and need pH-neutral cleaners to prevent yellowing. Laminate flooring is essentially compressed fibreboard with a photographic layer — excess moisture causes irreversible swelling at the joints. Solid wooden floors need specialised wood soap and minimal water, applied with a barely-damp mop. Our professionals assess your flooring before starting and select the correct product from our range."
+      },
+      {
+        "heading": "The SA Red Dust Factor",
+        "body": "South Africa's interior regions experience significant red dust infiltration, particularly during the dry winter months. This fine, iron-oxide rich dust is abrasive and can scratch floor surfaces if walked on or swept incorrectly. Our entry-point protocol places heavy-duty doormats at all external doors and uses a dry microfiber dust mop before any wet mopping. This captures the abrasive particles and prevents them from being ground into the floor surface during the mopping process."
+      },
+      {
+        "heading": "Drying and Finishing",
+        "body": "Correct drying is as important as correct cleaning. After the final rinse pass, we use clean, dry microfiber cloths to buff the floor dry, preventing water spots and slip hazards. For tiled floors, this buffing restores the natural shine. For wooden floors, we apply a maintenance coat of wood polish every third clean. The Bouul app includes a floor-care tracker that logs which products were used and when your floor sealant needs reapplication."
+      }
+    ]
+  },
+  {
+    "id": "ceiling_fan_and_light_fixture_cleaning",
+    "tag": "House Cleaning",
+    "title": "Ceiling Fan and Light Fixture Cleaning",
+    "subtitle": "Remove dust build-up on high surfaces for cleaner air and brighter rooms",
+    "image": "/scenes/cleaning_ceiling_fans.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Ceiling fans and light fixtures accumulate thick dust that recirculates every time they're switched on",
+    "problemBody": "The blades of a ceiling fan can collect a startling amount of dust in just a few weeks — up to 2mm of compacted grime in homes with open windows or high ceilings. Every time the fan runs, this dust is launched into the air, settling on furniture, bedding and in lungs. Light fixtures, particularly pendant lights and chandeliers, trap dust and dead insects that dim the light output and create fire risks when bulbs overheat. In South African homes with high ceilings, especially in older Johannesburg and Cape Town properties, accessing and cleaning these fixtures requires specialised equipment and technique.",
+    "bouulSolution": [
+      "Professional-grade extendable pole with microfiber fan-duster attachment reaches all ceiling fans safely",
+      "Light fixtures carefully removed (where possible), cleaned, polished and re-installed",
+      "Final pass HEPA vacuum of any debris that falls during cleaning"
+    ],
+    "partsNeeded": [
+      "Extendable telescopic pole (up to 4 metres)",
+      "Microfiber fan-duster head with dust-trapping pockets",
+      "Lint-free cloths for glass and metal light fixtures",
+      "Step ladder with stabiliser bar"
+    ],
+    "guidePricing": "R 120 – R 250 (3–6 ceiling fans and associated light fixtures)",
+    "timeline": "30–60 minutes",
+    "aiPromptExample": "\"Describe the correct procedure for cleaning ceiling fans and light fixtures in a South African home with 3-metre ceilings, including safety considerations and dust containment.\"",
+    "aiDiagnosisOutput": "\"Dust layer of 1–2mm on all ceiling fan blades (high recirculation risk). Pendant light shades have heat-damaged dust crust near bulbs. Dead insects in recessed downlight covers. Recommended: microfiber pocket duster on fans, gentle vacuum on light shades, and insect screen installation on external vents.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all fan blades are dust-free and light fixtures are clean and correctly re-installed",
+    "pirbStandard": "HASA high-reach cleaning safety protocol; SANS 10142 (wiring of premises) – fixtures handled with power isolated",
+    "articleSections": [
+      {
+        "heading": "Why Ceiling Fan Dust is Different",
+        "body": "Ceiling fan blades accumulate a unique type of dust: it's electrostatically charged and compacted by airflow. The leading edge of a blade collects more dust than the trailing edge, creating an aerodynamic imbalance that reduces fan efficiency. Studies show a heavily dusted fan moves 20–30% less air than a clean one, meaning your air conditioner or heater works harder to compensate. Our microfiber pocket duster slides over each blade and traps the dust within the fabric, preventing it from falling onto furniture below."
+      },
+      {
+        "heading": "High-Ceiling Challenges in SA",
+        "body": "Many South African homes feature ceilings 3 metres or higher, particularly in older houses in suburbs like those in Johannesburg and Cape Town where airflow and heat management were primary design considerations. Reaching these fans safely requires telescopic poles of 3–4 metres and the correct stabilisation technique. Our professionals are trained in HASA's high-reach safety protocol, which includes never over-reaching, maintaining three points of contact on ladders, and using pole attachments rather than climbing onto furniture."
+      },
+      {
+        "heading": "Light Fixture Care",
+        "body": "Light fixtures require careful handling. Before any cleaning, power to the circuit is isolated. Glass shades are removed, washed in warm soapy water, dried completely and polished with a lint-free cloth. Crystal chandeliers receive an alcohol-based spray that evaporates without residue. Bulbs are wiped with a dry cloth (never wet — the heat differential can cause shattering). Recessed downlights have their covers removed, cleared of dead insects with a soft brush, and replaced. We also check for any signs of overheating or pest infestation around light fittings."
+      },
+      {
+        "heading": "Seasonal Schedule",
+        "body": "Ceiling fans should be cleaned at the start of each season, particularly spring and summer when fan use peaks. In South Africa, the summer rainfall season brings increased dust and pollen, making spring cleaning of fans especially important. The Bouul app includes ceiling fan cleaning in its seasonal maintenance reminders and offers a bundled discount when combined with window or deep cleaning services."
+      }
+    ]
+  }
+]

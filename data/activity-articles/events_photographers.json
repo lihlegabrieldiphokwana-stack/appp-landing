@@ -1,0 +1,278 @@
+[
+  {
+    "id": "photo-wedding-001",
+    "tag": "Wedding Photography",
+    "title": "How to Choose Your Wedding Photographer Without Regretting Every Single Photo",
+    "subtitle": "A practical guide to finding the person who will capture the one day that really, really matters.",
+    "image": "/scenes/wedding_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why so many couples end up with 300 photos of the cake and none of their grandmother crying",
+    "problemBody": "You book a photographer based on Instagram. The feed is beautiful. The price is right. Then the wedding day comes, and the person who shows up is not the one in the DM's. The photos arrive six weeks late. Half are poorly lit. Your uncle is mid-blink in every single group shot. The cake is photographed from seventeen angles, but the moment your grandmother saw you in your dress — nowhere. This is the single biggest vendor regret in South African weddings, and it happens because couples don't know what to ask before they sign.",
+    "bouulSolution": [
+      "Bouul matches you with photographers whose actual recent work matches your venue, skin tones, and lighting conditions — not just their highlight reel",
+      "All Bouul photographers are vetted for backup equipment, contract clarity, and delivery timelines before they appear in your search",
+      "Bouul's escrow holds payment until you've received and reviewed your full gallery, giving you leverage if the work doesn't arrive"
+    ],
+    "partsNeeded": [
+      "Camera body (at least two, one as backup)",
+      "Lenses — 24-70mm f/2.8 (standard), 70-200mm (portraits), 35mm (candid), 85mm (detail)",
+      "Lighting — off-camera flash, diffuser, reflectors for reception",
+      "Memory cards and portable drives for on-site backup"
+    ],
+    "guidePricing": 6500,
+    "timeline": "Book 8-12 months before wedding. Engagement shoot 3-6 months before. Full gallery delivered within 4 weeks.",
+    "aiPromptExample": "\"Write a brief for a wedding photographer covering: venue is an outdoor farm wedding in Stellenbosch at 2 PM summer, 80 guests, couple is mixed-race (light and dark skin tones), style is documentary with some posed family formals, must have backup body and rain contingency.\"",
+    "aiDiagnosisOutput": "\"Detected: mixed-skin-tone wedding party, high-contrast outdoor lighting at 2 PM, limited shade at venue. Recommended: Photographer must bring a reflector and diffuser. Minimum 35mm f/1.4 for low-light reception. Backup body non-negotiable.\"",
+    "escrowGuarantee": "Bouul Escrow holds 100% of the photography fee. Funds release only after you confirm receipt of the full edited gallery. If the photographer misses the contractual delivery date, you get a partial or full refund automatically.",
+    "pirbStandard": "SANS 10378: Event Photography Services — covers equipment standards, backup requirements, delivery timelines, and image usage rights for professional photography in South Africa.",
+    "articleSections": [
+      {
+        "heading": "What to look for before you book",
+        "body": "Start with the portfolio, but don't stop at the highlights. Ask to see a full wedding gallery — from getting-ready through to the last dance. A good photographer will have no problem showing you an unedited, complete set. Look for consistent exposure across indoor and outdoor shots, natural skin tones (not just the filtered versions), and coverage of moments, not just poses. Check that they've shot at a venue similar to yours before. A photographer who only works in studios will struggle with a farm wedding at high noon."
+      },
+      {
+        "heading": "The questions most couples forget to ask",
+        "body": "Ask about backups — not just camera bodies, but memory cards, hard drives, and what happens if their gear is stolen or damaged. Ask about the contract's delivery timeline in writing, not just a verbal 'two to three weeks.' Ask who will actually shoot your wedding — many studios send a junior while you paid for the senior photographer's portfolio. Ask about image rights: can you print your own photos? Can you post them on social media? Some photographers retain copyright and license images restrictively."
+      },
+      {
+        "heading": "Lighting is everything",
+        "body": "The single biggest difference between professional and amateur wedding photos is lighting. A good photographer manages natural light, supplementing with off-camera flash and reflectors when needed. For a summer afternoon wedding, harsh overhead light creates unflattering shadows under eyes and chins. Ask your photographer how they plan to handle your specific ceremony time and venue conditions. If they say 'I'll fix it in post' without a lighting strategy, that's a red flag."
+      },
+      {
+        "heading": "The Bouul difference for wedding photography",
+        "body": "Bouul's platform lets you see verified reviews from real couples who booked through the app. You can compare packages side by side, check availability instantly, and read actual turnaround times. Our escrow system means you never pay the full amount upfront without protection. If the photos don't arrive on time, or the quality doesn't match the portfolio, you have recourse. No chasing refunds through WhatsApp. No blocked numbers."
+      }
+    ]
+  },
+  {
+    "id": "photo-portrait-002",
+    "tag": "Portrait Photography",
+    "title": "The Complete Guide to Booking a Professional Portrait Photographer in South Africa",
+    "subtitle": "Whether it's for LinkedIn, your personal brand, or a gift for Mom, here's how to get portraits you'll actually like.",
+    "image": "/scenes/portrait_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why most people hate every photo of themselves and how to finally break the cycle",
+    "problemBody": "You need a professional headshot. Your company is updating the website, or you're launching a personal brand, or your mom has been asking for a family portrait for three years. You find a photographer on Instagram, show up nervous, smile awkwardly for ten minutes, and leave with 50 photos where you look like a hostage at a work function. You pick the least bad one and swear off cameras forever. It doesn't have to be this way — but most people don't know how to prepare or what they're paying for.",
+    "bouulSolution": [
+      "Bouul connects you with portrait photographers who specialise in your specific need — corporate headshots, personal branding, family portraits, or creative editorial",
+      "Every Bouul photographer provides a style guide and preparation checklist before your session so you show up ready",
+      "Bouul escrow protects your payment until you've received and approved the final edited images"
+    ],
+    "partsNeeded": [
+      "Studio strobes with softboxes for even lighting",
+      "Backgrounds — seamless paper, muslin, or portable backdrop",
+      "Prime lenses — 85mm f/1.4 (classic portrait), 50mm f/1.8 (full-body), 135mm f/2 (compressed look)",
+      "Tethering cable and monitor for live preview during the shoot"
+    ],
+    "guidePricing": 1800,
+    "timeline": "Book 2-4 weeks ahead. Proof gallery within 48 hours. Final edited images within 7 business days.",
+    "aiPromptExample": "\"Create a portrait photography brief: corporate headshots for a law firm, 15 staff members, head-and-shoulders on a grey background, neutral expression with slight smile, consistent lighting across all subjects, deliver 2 retouched finals per person within 5 business days.\"",
+    "aiDiagnosisOutput": "\"Brief analysis: mixed skin tones among 15 subjects require calibrated lighting to avoid overexposure on lighter skin or underexposure on darker skin. Recommend 3-point lighting setup with a honeycomb grid for consistency. Grey background rated neutral for all skin tones. Recommended lens: 85mm f/1.4 at f/4 for sharpness with eye autofocus.\"",
+    "escrowGuarantee": "Bouul Escrow holds your portrait session fee until you receive and approve the final edited gallery. If the photographer delivers late or the quality doesn't match their portfolio, your payment is protected.",
+    "pirbStandard": "SANS 10378: Event Photography Services — also covers portrait sessions including equipment, retouching standards, turnaround times, and model release requirements.",
+    "articleSections": [
+      {
+        "heading": "Know what style you want before you search",
+        "body": "Portrait photography ranges from corporate headshots to editorial fashion to natural-light lifestyle. The photographer who nails dramatic studio lighting may be terrible at the soft, candid look you want in a park. Before you search on Bouul, decide what you need the photos for. LinkedIn and company websites call for clean, consistent headshots. Personal branding allows more creative freedom. Family portraits work best with natural light and minimal posing. Each requires a different photographer skill set."
+      },
+      {
+        "heading": "How to prepare for your portrait session",
+        "body": "A good photographer sends a preparation guide before your shoot. This covers what to wear (solid colours, no busy patterns), what to bring (a change of clothes, water, hair and makeup for touch-ups), and whether to arrive with a clean-shaven or styled look. Avoid heavy facetime or new skincare products the day before — you don't want a breakout on shoot day. Sleep well. Hydrate. Arrive 10 minutes early to settle in. The best portraits happen when you're relaxed, not rushed."
+      },
+      {
+        "heading": "The editing expectation conversation",
+        "body": "Portrait photography is 30% shooting and 70% editing. Ask upfront what retouching is included. Standard retouching covers skin smoothing, blemish removal, colour correction, and cropping. High-end retouching (body shaping, background replacement, complex compositing) costs extra. Be clear about how many final images you're paying for and how many rounds of revisions are included. A reputable photographer will put this in writing."
+      },
+      {
+        "heading": "Why Bouul makes portrait bookings painless",
+        "body": "Bouul lets you compare portrait photographers by specialisation, package pricing, and real client reviews. You can see whether they've shot corporate headshots, creative personal branding, or family portraits — and how their clients rated the experience. Booking is done through the app, payment is held in escrow, and you only release funds once you're happy with the final images. No awkward payment conversations. No chasing for edits."
+      }
+    ]
+  },
+  {
+    "id": "photo-event-003",
+    "tag": "Event Photography",
+    "title": "How to Get Professional Event Photos Without Hiring a Full-Time Paparazzo",
+    "subtitle": "Corporate events, product launches, and galas need documentation. Here's how to do it right without blowing the budget.",
+    "image": "/scenes/event_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "The curse of the 'we had an event but nobody took a good photo' syndrome",
+    "problemBody": "You've spent weeks planning a corporate gala, product launch, or networking event. The venue looks great. The catering is on point. The speakers are lined up. But afterwards, when it's time to post on social media, update the website, or send a press release — there are no usable photos. The ones you do have are blurry, badly lit, or feature someone mid-chew. Hiring a proper event photographer seems expensive, but the cost of having no visual record of your event is far higher.",
+    "bouulSolution": [
+      "Bouul lists event photographers by coverage duration, group size experience, and delivery speed — so you find the right fit for your specific event type",
+      "Photographers on Bouul provide clear packages showing what you get: edited photos, raw files, online gallery, and turnaround time",
+      "Payment is held in escrow and released only after you've received the full gallery and approved the quality"
+    ],
+    "partsNeeded": [
+      "Wide-angle zoom 16-35mm for venue and crowd shots",
+      "Fast prime 50mm or 35mm for candid moments in low light",
+      "Speedlight with bounce card for reception/indoor lighting",
+      "Portable hard drive for on-site backup and quick handover"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Book 4-8 weeks before event. Photographer arrives 30 min early for setup shots. Highlight gallery within 24 hours. Full gallery within 7-14 business days.",
+    "aiPromptExample": "\"Generate a brief for event photography: corporate awards dinner in Sandton, 200 guests, 4-hour coverage, red carpet arrivals, keynote speeches, awards ceremony, table candid shots, group photos of department teams. Deliver 50 edited highlights within 24 hours and full gallery within 7 days.\"",
+    "aiDiagnosisOutput": "\"Event analysis: Low-light ballroom environment requires flash or fast glass. Red carpet needs coordinated arrival management. 200 guests across 4 hours means 10-15 shots per 30 min — photographer needs to move fast. Group shots after awards require organised assembly. Recommend 35mm f/1.4 for candids and 24-70mm f/2.8 for structured shots.\"",
+    "escrowGuarantee": "Bouul Escrow protects your event photography fee. Funds release only after you confirm receipt of the full gallery meeting the agreed scope. If the photographer misses the event or delivers substandard work, you're covered.",
+    "pirbStandard": "SANS 10378: Event Photography Services — covers equipment, coverage standards, delivery timelines, and backup requirements for professional event photography.",
+    "articleSections": [
+      {
+        "heading": "Know your must-have shots before you book",
+        "body": "Different events need different coverage. A corporate gala needs red carpet arrivals, keynote speakers, award recipients, and networking candids. A product launch needs detail shots of the product, reactions from attendees, and the unveiling moment. A networking breakfast needs candid interaction shots, venue overviews, and headshots of key attendees. Write a shot list before you brief your photographer and share it with them at least a week before the event."
+      },
+      {
+        "heading": "The difference between hiring a photographer and hiring coverage",
+        "body": "Many event organisers hire a photographer based on hourly rate without considering what's included. Does the rate cover travel time? How many edited photos do you get per hour? Do you get an online gallery or just a USB stick? Do they deliver a same-day highlights reel for social media? Clarify all of this before booking. A photographer who charges R1,500 per hour but delivers 10 photos is more expensive than one who charges R2,500 per hour and delivers 80."
+      },
+      {
+        "heading": "Why delivery speed matters for events",
+        "body": "For corporate events, photos lose value fast. The best time to post event photos is within 24-48 hours, while the energy and attention are still fresh. Ask your photographer about highlight delivery — some offer a same-night or next-morning batch of 30-50 edited photos for immediate social media use, with the full gallery following within a week. This dual-delivery approach gives you speed without sacrificing quality."
+      },
+      {
+        "heading": "Bouul makes event photography simple",
+        "body": "Browse photographers by event type and duration on Bouul. Compare packages that clearly state how many photos you'll receive, delivery timelines, and whether prints or albums are included. Read reviews from other event organisers. Book directly through the app. Your payment stays in escrow until the gallery lands. No invoices to chase. No quality disputes without recourse."
+      }
+    ]
+  },
+  {
+    "id": "photo-product-004",
+    "tag": "Product Photography",
+    "title": "The Small Business Guide to Listing Photos That Actually Sell",
+    "subtitle": "Stop losing sales because your product photos look like they were taken in a dark garage.",
+    "image": "/scenes/product_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your beautiful products aren't selling online (hint: it's the photos)",
+    "problemBody": "You've spent weeks perfecting your product. The quality is excellent. The pricing is competitive. The packaging looks great in person. But your online listings are collecting dust. Customers click away after two seconds. The culprit is almost always the photography. Great products photographed poorly look cheap. The same product photographed well commands a higher price and converts better. But professional product photography feels like an expense you can't justify when you're already stretched thin — until you calculate what bad photos are costing you in lost sales.",
+    "bouulSolution": [
+      "Bouul connects small businesses with product photographers who offer affordable package shoots — per-item rates that fit startup budgets",
+      "You can see portfolios showing actual product work, not just lifestyle shoots, so you know they can handle your category",
+      "Bouul escrow protects your payment until all edited product images are delivered and approved"
+    ],
+    "partsNeeded": [
+      "Lightbox or table-top studio for consistent lighting",
+      "Macro lens 100mm f/2.8 for detail and texture shots",
+      "Tripod for sharpness and consistent framing across a product line",
+      "Colour calibration card for accurate white balance across all images"
+    ],
+    "guidePricing": 2500,
+    "timeline": "Book 1-2 weeks ahead. Shoot day typically 2-4 hours for 10-20 products. Edited images delivered within 5 business days.",
+    "aiPromptExample": "\"Create a product photography brief: handmade ceramic mugs, matte glaze in earth tones, need 3 angles per mug (front, top, 3/4), clean white background, consistent lighting across 12 mugs, colour-accurate to the actual glaze, deliver 36 edited images.\"",
+    "aiDiagnosisOutput": "\"Product analysis: Matte ceramic surfaces are prone to glare and reflection. Recommend cross-polarised lighting to eliminate hot spots. Colour calibration essential — earthy glazes shift under LED. White background requires at least 2 stops overexposure on background vs. product for clean separation. Tripod mandatory for consistent product-to-product framing.\"",
+    "escrowGuarantee": "Bouul Escrow holds your product photography fee until all edited images are delivered and approved. If the colour accuracy or quality doesn't match the agreed brief, you can dispute before releasing funds.",
+    "pirbStandard": "SANS 10378: Event Photography Services — applicable sections for commercial and product photography including colour accuracy standards and delivery specifications.",
+    "articleSections": [
+      {
+        "heading": "The three-shot minimum for every product",
+        "body": "Every product listing needs at least three angles: a hero shot (front-facing, well-lit, showing the full product), a detail shot (close-up of texture, material, or unique feature), and an in-context or scale shot (showing the product being used or next to something familiar for size reference). For clothing, add a flat lay and a worn shot. For food products, add an open or prepared shot. Each additional image increases conversion by approximately 10-15%."
+      },
+      {
+        "heading": "Consistency is what separates amateur from professional",
+        "body": "When a customer scrolls through your product catalogue, the photos should look like they all belong to the same brand. That means consistent lighting, consistent background, consistent framing, and consistent editing. A professional product photographer delivers this by shooting every item in the same setup with a calibrated workflow. This consistency builds brand trust. Amateur photos where each listing looks like it was shot on a different phone in different lighting erode that trust immediately."
+      },
+      {
+        "heading": "Colour accuracy matters more than you think",
+        "body": "Customers return products most often because 'it didn't look like the photo.' This is almost always a colour accuracy problem. Professional product photographers use colour calibration cards to ensure the white balance in the photo matches reality. They shoot in RAW, not JPEG, giving them full control over colour grading in post-production. When you book through Bouul, ask potential photographers how they handle colour calibration. The ones who talk about colour cards and RAW shooting know what they're doing."
+      },
+      {
+        "heading": "Bouul connects you with product photographers who fit your budget",
+        "body": "Bouul's platform makes it easy to find product photographers who offer small-business-friendly packages. You can compare per-product rates, read reviews from other business owners, and see portfolios that demonstrate consistency. Booking is done through the app, and your payment is protected by escrow until you're satisfied. No more chasing freelancers on Facebook Marketplace. No more guessing whether the person behind the camera knows what they're doing."
+      }
+    ]
+  },
+  {
+    "id": "photo-realestate-005",
+    "tag": "Real Estate Photography",
+    "title": "Why Your Property Listing Gets 3 Views (And How to Fix It With One Photographer Booking)",
+    "subtitle": "The difference between a property that sells in a week and one that sits for months is often just better photos.",
+    "image": "/scenes/realestate_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "The R6,000 mistake that real estate agents keep making with their listings",
+    "problemBody": "A property in Bedfordview listed at R2.2 million. Good location, decent finishes, well-priced for the area. It sat on the market for 67 days. The agent reduced the price twice. Finally sold for R1.95 million. The photos? Taken with a phone, in the middle of a cloudy afternoon, rooms looking dark, proportions looking cramped. The agent saved R2,500 on a professional photographer and lost R250,000 on the sale price. This isn't an unusual story. It happens every day across South Africa. Professional real estate photography is one of the highest-ROI investments a seller or agent can make.",
+    "bouulSolution": [
+      "Bouul lists real estate photographers who specialise in property — wide-angle work, HDR bracketing, twilight exteriors, and floor plans",
+      "You can see portfolios of actual property shoots, not just general photography, so you know they understand real estate angles",
+      "Bouul escrow protects your payment until the full set of property images is delivered and accepted"
+    ],
+    "partsNeeded": [
+      "Wide-angle lens 16-24mm for interior room shots",
+      "Tripod for HDR bracketing and consistent multi-shot blending",
+      "Speedlights or off-camera flash for lighting dark rooms and balancing window exposure",
+      "Drone (licensed) for aerial exterior and neighbourhood context shots"
+    ],
+    "guidePricing": 3500,
+    "timeline": "Book within 3-7 days of listing confirmation. Shoot takes 1-3 hours depending on property size. Edited gallery delivered within 48 hours.",
+    "aiPromptExample": "\"Write a real estate photography brief: 3-bedroom house in Durban North, modern interior, large garden with pool, need 20 photos including 10 interior HDR, 2 exterior wide, 2 garden/pool, 2 kitchen detail, 2 bathroom, 1 aerial (drone), 1 twilight front elevation. Deliver virtual tour URL if available.\"",
+    "aiDiagnosisOutput": "\"Property analysis: Large windows in living area create high dynamic range — HDR bracketing essential to avoid blown-out window views with correctly exposed interiors. Pool/area shots best at golden hour. Modern interior benefits from slightly warm colour temperature. Drone shot should capture house in relation to proximity to beach/major road. Estimated 2-hour shoot, 4-hour edit.\"",
+    "escrowGuarantee": "Bouul Escrow holds your real estate photography fee. Payment releases only after the full set of images is delivered and meets the agreed shot list. If the photos don't do the property justice, you're protected.",
+    "pirbStandard": "SANS 10378: Event Photography Services — covers property photography including wide-angle standards, HDR techniques, and delivery formats for real estate listings.",
+    "articleSections": [
+      {
+        "heading": "Why phone photos are costing you thousands",
+        "body": "Even the latest smartphone cameras can't match a professional real estate photographer's setup. The key difference isn't megapixels — it's lens width, lighting control, and post-processing. A professional wide-angle lens captures an entire room in one shot without the barrel distortion that phone wide-angle modes create. Professional HDR bracketing balances bright windows with darker interior areas so you can see the view and the room simultaneously. And professional retouching corrects colour casts from different light sources (warm lamps + cool window light = messy mix without correction)."
+      },
+      {
+        "heading": "The twilight shot that sells houses",
+        "body": "The single most impactful real estate photo is the twilight exterior. Shot during the 'blue hour' — the 20-30 minutes after sunset when the sky is a deep navy blue and the interior lights of the house create a warm glow through the windows — this photo makes a property look like a home. It creates emotional connection. Listings with a professional twilight shot sell faster and for closer to asking price. If your photographer doesn't offer twilight, find one who does."
+      },
+      {
+        "heading": "Virtual tours and floor plans: the new minimum",
+        "body": "Post-pandemic buyers expect more than photos. Virtual tours (even simple Matterport or Zillow-style walkthroughs) dramatically increase listing engagement. Floor plans give buyers a spatial understanding that photos can't communicate. Many real estate photographers now offer these as add-ons or package inclusions. On Bouul, you can filter photographers who offer virtual tour services and see examples of their floor plan quality."
+      },
+      {
+        "heading": "Bouul makes hiring a real estate photographer straightforward",
+        "body": "Find photographers who specialise in property photography on Bouul. Compare their portfolios of actual properties, not just their general work. Check reviews from other agents and sellers. See what's included in each package — number of photos, HDR or flash, twilight option, drone, virtual tour. Book directly, pay through escrow, and only release funds when the gallery meets your expectations. Your property deserves better than phone photos."
+      }
+    ]
+  },
+  {
+    "id": "photo-newborn-006",
+    "tag": "Newborn Photography",
+    "title": "A Parent's Guide to Newborn Photography That Captures the Tiny Details",
+    "subtitle": "Those first few weeks go by in a blur. Professional photos freeze them forever.",
+    "image": "/scenes/newborn_photographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why 'I'll just use my phone' is the photo regret every parent eventually feels",
+    "problemBody": "The first weeks with a newborn are a sleep-deprived haze of feeds, nappies, and wonder. You tell yourself you'll take plenty of photos. And you do — hundreds of phone shots of the baby sleeping, yawning, wrapped in that blanket your aunt knitted. But somehow, none of them really capture what those early days felt like. The light is never right. Your hands are always in the frame. The background is always messy. Months later, you wish you'd booked a professional. But by then, those fleeting newborn poses — the curled-up froggy position, the tiny fingers wrapped around yours — are gone forever.",
+    "bouulSolution": [
+      "Bouul connects you with newborn photographers who are trained in infant safety and posing — because newborn photography is a specialised skill",
+      "You can view portfolios showing real newborn sessions (not styled stock images) so you know the photographer's actual style",
+      "Bouul escrow protects your payment until the final gallery is delivered and you're happy"
+    ],
+    "partsNeeded": [
+      "Macro lens 100mm for detail shots — tiny toes, eyelashes, fingers",
+      "Studio heating to keep the room warm for undressed newborn poses",
+      "Softboxes for gentle, diffused lighting — no harsh shadows on baby",
+      "Beanbags, wraps, props, and backdrops specifically for newborn positioning"
+    ],
+    "guidePricing": 2500,
+    "timeline": "Book during second trimester for the photographer's availability. Session within the first 14 days after birth. Gallery delivered within 10-14 business days.",
+    "aiPromptExample": "\"Draft a newborn photography brief: 10-day-old baby, parents want natural-light lifestyle style at home, focus on detail shots (toes, fingers, lips), family candid, baby in nursery, no heavy props or themed setups, deliver 25 edited images, neutral warm tones.\"",
+    "aiDiagnosisOutput": "\"Session analysis: Home natural-light session requires timing window with best available light — typically 10 AM-2 PM. Limited control over backgrounds — scout rooms beforehand. Newborn safety: baby must be warm, never left unattended on elevated surfaces, support head at all times. Recommended: 50mm f/1.4 for lifestyle shots, 100mm macro for details. Warn parents that session may take 2-3 hours with breaks for feeding and settling.\"",
+    "escrowGuarantee": "Bouul Escrow holds your newborn photography fee. Funds release only after you receive and approve the full edited gallery. If for any reason the session can't proceed as planned, you're covered.",
+    "pirbStandard": "SANS 10378: Event Photography Services — newborn photography section covers safety protocols, studio hygiene, posing standards, and client communication guidelines.",
+    "articleSections": [
+      {
+        "heading": "Book before the baby arrives",
+        "body": "Newborn photography has a very narrow window. The ideal time is between 5-14 days after birth, when babies are still sleepy enough to curl into those iconic poses. After two weeks, they become more alert and less flexible. Most good newborn photographers book 2-3 months in advance. If you wait until after the baby arrives, you'll likely miss the window with the photographers who have the right skills. Book during your second trimester. If you're reading this after the baby is here, book immediately and explain the situation — some photographers keep emergency slots for late bookings."
+      },
+      {
+        "heading": "Safety is the most important qualification",
+        "body": "Newborn posing requires specific training. Those adorable photos of babies sleeping in baskets, hanging in slings, or supported in the 'froggy' pose are achieved through composite imaging and careful support — not by putting babies in unsafe positions. A qualified newborn photographer knows how to safely pose, support, and soothe a newborn throughout a session. They keep the studio warm, take breaks for feeding, and never force a pose. When browsing photographers on Bouul, ask about their newborn safety training. Any professional should be happy to discuss it."
+      },
+      {
+        "heading": "What a typical session looks like",
+        "body": "A newborn session usually takes 2-3 hours. This sounds long, but it includes feeding breaks, settling time, and nappy changes. The photographer works around the baby's schedule, not the other way around. Sessions often start with wrapped poses while the baby is sleepiest, then move to unwrapped detail shots, then to family and sibling shots. The parents should dress in neutral, simple colours — solid whites, creams, greys, or soft pastels work best. Avoid busy patterns that distract from the baby."
+      },
+      {
+        "heading": "Bouul makes finding a newborn photographer easy",
+        "body": "Search Bouul for photographers who specialise in newborns. Read reviews from other parents. Look at portfolios that show real sessions, not just styled marketing images. Compare packages that include digital files, prints, or albums. Book through the app with escrow protection for your payment. When you find the right photographer, book early and rest easy knowing you'll have beautiful photos of those fleeting first weeks."
+      }
+    ]
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "skip_rubble_mini_hire",
+    "tag": "Mini Skip Hire",
+    "title": "2m³ Mini Skip Hire & Building Rubble Removal",
+    "subtitle": "Drop-and-collect mini skips for residential renovations, garden refuse, and site rubble",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Piling building rubble on driveways blocks access and incurs council fines",
+    "problemBody": "Hiring unverified rubble trucks often results in illegal dumping in velds and rivers.",
+    "bouulSolution": [
+      "2m³ or 3m³ mini skip delivered to your driveway for up to 3 days loading time",
+      "Prompt collection and legal dumping at accredited municipal landfill sites",
+      "Escrow released after skip collection and dumping slip verification"
+    ],
+    "partsNeeded": [
+      "2m³ heavy-duty steel mini skip",
+      "Hydraulic skip trailer / bakkie loader",
+      "High-visibility reflective markers",
+      "Landfill disposal slip"
+    ],
+    "guidePricing": "R650 – R1,200 per drop",
+    "timeline": "Duration: 2 – 3 Days Load Time",
+    "aiPromptExample": "Book mini skip: 'Deliver 2m³ mini skip to home in Randburg for bathroom renovation rubble.'",
+    "aiDiagnosisOutput": "Scope: 2m³ Skip + 3-Day Placement + Collection & Legal Disposal. Escrow: R850.",
+    "escrowGuarantee": "Escrow released upon collection of loaded skip from driveway.",
+    "pirbStandard": "IWMSA (Institute of Waste Management Southern Africa) Accredited Transporter.",
+    "articleSections": [
+      {
+        "heading": "Driveway Protective Placement",
+        "body": "Skips are placed on wooden blocks to prevent scratching or cracking driveway brick paving."
+      },
+      {
+        "heading": "Legal Municipal Landfill Dumping",
+        "body": "All waste is disposed of at accredited landfills, providing legal dumping receipts."
+      }
+    ]
+  },
+  {
+    "id": "skip_commercial_6m_hire",
+    "tag": "6m³ Skip Hire",
+    "title": "6m³ Heavy Commercial Skip Hire",
+    "subtitle": "Large 6m³ skip containers for major construction sites, shopfitting, and factory waste",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Large construction projects generate massive waste volumes that swamp small skips",
+    "problemBody": "Overfilled skips spill debris on public roads during transit, creating hazardous driving conditions.",
+    "bouulSolution": [
+      "6m³ open-top steel skip containers delivered by heavy roll-off truck",
+      "Flexible placement durations for commercial contractors and high-volume renovations",
+      "Escrow released after collection and certified waste disposal"
+    ],
+    "partsNeeded": [
+      "6m³ roll-off steel skip container",
+      "Heavy-duty skip truck with chain hoist",
+      "Tarp cover for transit"
+    ],
+    "guidePricing": "R1,800 – R3,500 per drop",
+    "timeline": "Duration: 3 – 7 Days",
+    "aiPromptExample": "Quote 6m³ skip: '6m³ skip container for commercial building renovation in Rosebank.'",
+    "aiDiagnosisOutput": "Scope: 6m³ Heavy Skip + 7-Day Site Placement + Collection & Disposal. Escrow: R2,400.",
+    "escrowGuarantee": "Escrow released after skip collection.",
+    "pirbStandard": "IWMSA & SANS Waste Management Standard.",
+    "articleSections": [
+      {
+        "heading": "Chain-Hoist Roll-Off Capability",
+        "body": "Heavy trucks place 6m³ skips precisely in designated construction loading bays."
+      },
+      {
+        "heading": "Overhead Tarp Containment",
+        "body": "Loaded skips are covered with heavy tarpaulins before transit to prevent road debris spillage."
+      }
+    ]
+  },
+  {
+    "id": "skip_garden_refuse_removal",
+    "tag": "Garden Skip",
+    "title": "Garden Waste & Tree Felling Refuse Skip",
+    "subtitle": "Dedicated organic waste skips for major garden cleanups, tree branches, and lawn turf",
+    "image": "/scenes/gardening.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Piles of cut tree branches and garden refuse rot on lawns and attract snakes and rodents",
+    "problemBody": "Municipal black bins are far too small for seasonal garden trimming and tree felling waste.",
+    "bouulSolution": [
+      "Clean green-waste skips dedicated exclusively to compostable garden refuse",
+      "Waste is transported directly to organic composting facilities rather than landfill",
+      "Escrow released after skip collection"
+    ],
+    "partsNeeded": [
+      "2m³ / 6m³ Green waste skip",
+      "Branch compaction tools",
+      "Composting facility receipt"
+    ],
+    "guidePricing": "R600 – R1,500",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Book garden skip: '2m³ skip for tree branch removal and garden cleanup in Pretoria.'",
+    "aiDiagnosisOutput": "Scope: 2m³ Green Waste Skip + Collection + Composting Recycling. Escrow: R750.",
+    "escrowGuarantee": "Escrow released after collection.",
+    "pirbStandard": "IWMSA Organic Recycling Standard.",
+    "articleSections": [
+      {
+        "heading": "100% Organic Composting Diversion",
+        "body": "Garden waste is diverted from landfills to commercial composting sites to produce nutrient-rich soil."
+      },
+      {
+        "heading": "Branch Compaction Tip",
+        "body": "Heavy tree branches are cut to 1-meter lengths for maximum skip volume utilization."
+      }
+    ]
+  },
+  {
+    "id": "skip_electronic_waste_e_waste",
+    "tag": "E-Waste Skip",
+    "title": "E-Waste & Electronics Recycling Disposal",
+    "subtitle": "Compliant disposal and recycling for old computers, office electronics, and appliances",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Dumping electronic waste in general landfills leaks toxic heavy metals into groundwater",
+    "problemBody": "POPIA regulations mandate secure destruction of hard drives contained inside old office PCs.",
+    "bouulSolution": [
+      "Secure e-waste collection bins for computers, monitors, cabling, and office equipment",
+      "100% recycling via EWASA accredited processing facilities with destruction certificates",
+      "Escrow released after delivery of EWASA E-Waste Recycling Certificate"
+    ],
+    "partsNeeded": [
+      "Lockable e-waste collection bin",
+      "Hard drive destruction puncher",
+      "EWASA recycling certificate"
+    ],
+    "guidePricing": "R1,200 – R4,500",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Book e-waste drop: 'E-waste collection for 50 old desktop computers and monitors.'",
+    "aiDiagnosisOutput": "Scope: E-Waste Intake + Hard Drive Destruction + EWASA Recycling Certificate. Escrow: R2,800.",
+    "escrowGuarantee": "Escrow released upon delivery of certified destruction report.",
+    "pirbStandard": "EWASA (E-Waste Association of South Africa) Certified Recycler.",
+    "articleSections": [
+      {
+        "heading": "Zero-Landfill E-Waste Policy",
+        "body": "100% of circuit boards, copper, and glass are processed for material recovery."
+      },
+      {
+        "heading": "Physical Hard Drive Punching",
+        "body": "Hard drives undergo physical hydraulic hole-punching to ensure total data destruction."
+      }
+    ]
+  },
+  {
+    "id": "skip_hazardous_waste_disposal",
+    "tag": "Hazardous Waste",
+    "title": "Hazardous Chemical & Asbestos Waste Disposal",
+    "subtitle": "Legal containment, transport, and disposal of hazardous industrial and asbestos waste",
+    "image": "/scenes/roofers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Illegal disposal of asbestos tiles, solvent paint tins, or oil waste carries massive criminal fines",
+    "problemBody": "Handling friable asbestos sheets without protective suits causes irreversible lung damage.",
+    "bouulSolution": [
+      "Department of Labour registered hazardous waste handling with manifest tracking",
+      "Specialized double-bagged containment for asbestos cement roof sheets and chemical drums",
+      "Escrow released after delivery of official Hazardous Waste Disposal Manifest"
+    ],
+    "partsNeeded": [
+      "UN-approved hazardous waste drums",
+      "200-micron heavy-duty asbestos bags",
+      "Hazmat suits & PAPR respirators",
+      "Waste manifest documentation"
+    ],
+    "guidePricing": "R3,500 – R18,000",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Quote hazmat removal: 'Safe removal and disposal of 40m² broken asbestos roof sheets.'",
+    "aiDiagnosisOutput": "Scope: Hazmat Crew + Double Bagging + Approved Class H Landfill Disposal. Escrow: R8,500.",
+    "escrowGuarantee": "Escrow released upon delivery of Class H Landfill Manifest.",
+    "pirbStandard": "Department of Labour Asbestos Abatement Regulations & NEM:WA Compliant.",
+    "articleSections": [
+      {
+        "heading": "Triple-Seal Asbestos Containment",
+        "body": "Asbestos sheets are wetted with PVA binder, wrapped in 200-micron plastic, and sealed with hazmat tape."
+      },
+      {
+        "heading": "Manifest Chain of Custody",
+        "body": "Every kilogram of hazardous waste is tracked from site removal to final Class H landfill burial."
+      }
+    ]
+  },
+  {
+    "id": "skip_event_waste_clean",
+    "tag": "Event Waste",
+    "title": "Event & Festival Waste Management Skip Fleet",
+    "subtitle": "Complete waste bin deployment, litter picking, and skip collection for outdoor events",
+    "image": "/scenes/events_decorators.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Post-event litter and overflowing trash bins destroy venue relationships",
+    "problemBody": "Managing waste for 1,000+ event attendees requires structured bin placement and continuous clearing.",
+    "bouulSolution": [
+      "Deployment of wheelie bins, 6m³ skips, and mobile cleaning crews for weddings, sports, and festivals",
+      "Continuous venue litter clearing during event and complete site sweep after conclusion",
+      "Escrow released after final venue owner cleanup sign-off"
+    ],
+    "partsNeeded": [
+      "240L Wheelie bins with color lids",
+      "6m³ Heavy-duty skip containers",
+      "Litter picker tools & heavy bags",
+      "Recycling sorting station"
+    ],
+    "guidePricing": "R3,500 – R15,000",
+    "timeline": "Duration: Event Duration",
+    "aiPromptExample": "Quote event waste: 'Waste management for outdoor concert with 1,500 guests in Stellenbosch.'",
+    "aiDiagnosisOutput": "Scope: 20x 240L Bins + 2x 6m³ Skips + 6-Man Cleanup Crew. Escrow: R8,200.",
+    "escrowGuarantee": "Escrow released after venue owner inspects spotless grounds.",
+    "pirbStandard": "IWMSA Event Waste Management Standard.",
+    "articleSections": [
+      {
+        "heading": "Color-Coded Recyclable Sorting",
+        "body": "Bins are color-coded for cans, plastic, and general waste to maximize event recycling rates."
+      },
+      {
+        "heading": "Post-Event Midnight Sweep",
+        "body": "Mobile cleaning crews perform a total perimeter sweep immediately after event conclusion."
+      }
+    ]
+  }
+]

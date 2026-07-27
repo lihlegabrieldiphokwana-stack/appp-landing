@@ -1,0 +1,278 @@
+[
+  {
+    "id": "walk-001",
+    "tag": "dog-walking",
+    "title": "The Solo Walk: Why Your Dog Needs One-on-One Time",
+    "subtitle": "Not every dog is a pack animal. Here's why solo walks build better behaviour.",
+    "image": "/scenes/walk-solo.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog pulls like a sled dog on every walk and you're dreading the next outing.",
+    "problemBody": "Leash pulling is the #1 complaint from SA dog owners. Dogs pull because they're over-aroused, anxious, or simply untrained for loose-leash walking. In a solo walk, the walker's full attention is on one dog — addressing pulling immediately with consistent pressure-and-release cues, reinforcing calm behaviour, and matching pace to the dog's temperament. Without this focus, bad habits compound. The dog learns that pulling works (it gets them where they want to go), and the behaviour escalates over time.",
+    "bouulSolution": [
+      "Solo walks focus entirely on your dog's pace, training level, and route preferences",
+      "Walkers trained in Tellington TTouch and loose-leash methods — no choke chains or harsh corrections",
+      "GPS-tracked route shared live with you; photo updates at turn-around points"
+    ],
+    "partsNeeded": [
+      "Front-clip harness (R200–R500)",
+      "4–6ft leash (R100–R250)",
+      "Poop bags + dispenser (R40–R100)",
+      "High-value training treats (R50–R150)"
+    ],
+    "guidePricing": "R80–R150 per 30-min solo walk; R120–R200 per 60-min walk; R50 surcharge for reactive dogs",
+    "timeline": "30 or 60 minutes; daily or as booked",
+    "aiPromptExample": "Determine if a 2-year-old rescue Staffie's pulling is excitement-based or anxiety-based from owner's video.",
+    "aiDiagnosisOutput": "Behaviour observed: lunging forward with stiff tail, ears forward, mouth open (not panting). Body language: high arousal, not fear. Likely cause: excitement-based pulling from insufficient outlet. Recommendation: 30-min solo walk daily, start with 5-min decompression walk (sniffing, no pulling), then 20-min structured pace walking, finish 5-min cool-down. Use front-clip harness, treat for eye contact every 30 seconds. Pulling should reduce 60% within 2 weeks.",
+    "escrowGuarantee": "Your payment is held by Bouul Escrow. If the walker is more than 10 minutes late, the walk is free.",
+    "pirbStandard": "SAPCA Dog Walking Code: Walkers must carry ID, first aid kit, and water. Maximum 4 dogs per walker in public spaces. GPS tracking recommended.",
+    "articleSections": [
+      {
+        "heading": "Solo Walking Benefits Beyond Behaviour",
+        "body": "A solo walk is a focused bonding opportunity. Your walker can identify subtle signs — a limp, a tender paw, stiffness after waking — that are missed in group settings. Solo walks also accommodate medical needs: post-surgery recovery mobility, senior dog slow-paced sniffari walks, or high-energy breeds that need a jog interval. For rescue dogs, solo walks build trust with a new handler before group walks are introduced."
+      },
+      {
+        "heading": "The Right Equipment Matters",
+        "body": "Flat collars are for ID tags, not for walking — they put pressure on the trachea and can cause coughing and neck damage. A front-clip harness (like the Easy Walk or Balance Harness) steers the dog sideways when they pull, making pulling unrewarding. Martingale collars work for sighthounds with narrow heads (Greyhounds, Whippets). Retractable leashes are strongly discouraged — they break under sudden load, can cause severe burns, and prevent the walker from maintaining control."
+      },
+      {
+        "heading": "How Often Is Enough?",
+        "body": "Most adult dogs need at least one 30-minute walk daily. High-energy breeds (Border Collies, Malinois, Huskies, Vizslas) need 60–90 minutes of varied exercise — including off-lead park time or structured play. Puppies need shorter, more frequent walks: 5 minutes per month of age, up to twice daily. Senior dogs benefit from two shorter walks (20 minutes) rather than one long walk. Your Bouul walker adjusts intensity based on breed, age, and vet recommendations."
+      },
+      {
+        "heading": "Hot Pavement Warning for SA Summers",
+        "body": "On summer days (December–February), SA pavement can reach 60°C+ by 10am. Before a walk, place the back of your hand on the pavement for 7 seconds — if it's too hot for your hand, it's too hot for your dog's paws. Walk on grass or in shaded parks during peak heat. Bouul walkers in SA are trained to check pavement temperature before every walk and will switch to dirt trails or grass verges when tar is too hot."
+      }
+    ]
+  },
+  {
+    "id": "walk-002",
+    "tag": "dog-walking",
+    "title": "Group Walks: Socialisation Without the Chaos",
+    "subtitle": "How structured pack walks build calm, confident dogs.",
+    "image": "/scenes/walk-group.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog goes berserk when it sees another dog on leash and you can't enjoy a walk anymore.",
+    "problemBody": "Leash reactivity — barking, lunging, spinning — often stems from frustration (wants to greet but can't) or fear (feels trapped by the leash). Group walks with a professional handler rewires this response. The pack dynamic provides a calming influence: dogs in a structured line walk more calmly than dogs walking alone, as they follow the pack leader's energy. Without controlled socialisation, reactive behaviour worsens and may escalate to aggression.",
+    "bouulSolution": [
+      "Structured pack walks with no more than 4 dogs per handler — SA legal ratio for professional walkers",
+      "Walkers match dogs by energy level and temperament, not size — a calm Great Dane can walk with a calm Jack Russell",
+      "Sessions build neutral responses: dogs learn to pass other dogs calmly without greeting every one"
+    ],
+    "partsNeeded": [
+      "Front-clip or back-clip harness (R200–R500)",
+      "4ft short leash for pack formation (R100–R200)",
+      "Muzzle if reactive (R100–R250, Baskerville style)",
+      "Treat pouch for handler (R60–R150)"
+    ],
+    "guidePricing": "R60–R120 per group walk session; R350–R600 for 5-session socialisation pack; R100 surcharge for first-timer assessment",
+    "timeline": "45–60 minutes per group walk",
+    "aiPromptExample": "Assess whether a 3-year-old rescue Greyhound is ready for group walks based on 3 solo walk reports.",
+    "aiDiagnosisOutput": "Greyhound profile: 3 years, rescue, 6 months in home. Solo walk reports: no resource guarding, moderate prey drive (chases cats), neutral to passing dogs at 10m+ distance, no lunging, some whale eye when dogs pass at 3m. Readiness: borderline ready, but first group walk must be low-density (1–2 calm dogs max), parallel walk format (dogs on opposite sides of street, 15m apart, gradually decreasing). Pre-condition: 3 more solo walks with desensitisation at closer distances. Not recommended for standard pack yet.",
+    "escrowGuarantee": "Payment held by Bouul Escrow. If your dog is injured during a group walk due to handler error, we cover vet costs up to R1,000.",
+    "pirbStandard": "SAPCA Dog Walking Code §2.3: Maximum 4 dogs per walker. Dogs with known aggression toward people or dogs must wear a muzzle. Walkers must carry a canine first aid kit.",
+    "articleSections": [
+      {
+        "heading": "The Pack Leader Principle",
+        "body": "Dogs are descended from pack animals and instinctively look for leadership. A confident handler who walks with purpose — shoulders back, leash loose, consistent pace — signals safety to the pack. This is why group walks with a professional often improve behaviour faster than solo walks with a nervous owner. The dog relaxes into the pack structure and stops feeling responsible for scanning for threats. Most SA group walkers do a 10-minute 'decompression walk' before the structured pack formation begins."
+      },
+      {
+        "heading": "Group Walk Etiquette",
+        "body": "Dogs are walked in a staggered line — never face-to-face approaching. Walkers pass other dogs at 5m+ distance, using a 45-degree angle approach to reduce direct confrontation. Greetings are brief (3–5 seconds) and only when all dogs show loose, wiggly body language. No on-leash nose-to-nose greetings allowed — it's the most common trigger for leash reactivity. Water breaks are given every 15 minutes in summer."
+      },
+      {
+        "heading": "Assessing Your Dog for Group Walks",
+        "body": "Your Bouul walker conducts a 15-minute temperament assessment before your dog's first group walk. They evaluate: reaction to other dogs on leash (distance threshold), resource guarding (food, toys, water), handling sensitivity (can they be touched by strangers), and recall response. Dogs that fail any category start with parallel walks (walking near other dogs without interacting) before graduating to full pack walks. This graduated exposure is the gold standard for socialisation."
+      },
+      {
+        "heading": "The SA Context: Parks and Pavements",
+        "body": "SA group walks happen in designated off-lead parks, greenbelts, and coastal promenades — not on busy roads. Popular SA group walking routes include Johannesburg's Delta Park (dog-friendly 3km trail), Cape Town's Green Point Park, Durban's Umgeni River Bird Park trails, and Pretoria's Rietondale Park. Your walker knows the dog-friendly entrances, available shade, and water points at each location."
+      }
+    ]
+  },
+  {
+    "id": "walk-003",
+    "tag": "dog-walking",
+    "title": "Puppy Walks: Building Confidence One Step at a Time",
+    "subtitle": "The critical socialisation window is 8–16 weeks. Here's how professional puppy walks set the foundation.",
+    "image": "/scenes/walk-puppy.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your 12-week-old puppy hides behind the couch at every street noise and refused to walk past the gate.",
+    "problemBody": "The first 16 weeks of a puppy's life are the critical socialisation period. Every sound, surface, person, and animal they encounter during this window shapes their adult temperament. Missing this window creates a fearful, reactive adult dog that's difficult to rehabilitate. Puppies who aren't properly socialised are 4x more likely to develop anxiety disorders and are the most surrendered age group at SA shelters — 35% of surrendered dogs under 2 years cite behavioural issues as the primary reason.",
+    "bouulSolution": [
+      "Puppy-specific walkers trained in positive reinforcement socialisation — no corrections, only rewards",
+      "Structured exposure to SA urban sounds: minibus taxis, load-shedding generators, street vendors, school children",
+      "Short, frequent walks (10–15 min) matched to vaccine schedule and physical development"
+    ],
+    "partsNeeded": [
+      "Puppy-sized harness (R150–R350, Italian-style for small breeds)",
+      "Lightweight 4ft leash (R80–R180)",
+      "High-value soft treats (R50–R150, cheese or liver)",
+      "Puppy-safe water bottle + travel bowl (R80–R200)"
+    ],
+    "guidePricing": "R80–R130 per 15–20 min puppy walk; R350–R500 for 5-session socialisation starter; R50 surcharge for unsocialised (older) puppies",
+    "timeline": "10–20 minutes per session, 2–3 times daily for optimal socialisation",
+    "aiPromptExample": "Design a 2-week socialisation plan for a 10-week-old rescue puppy that has never been on a leash and shows fear of outdoor noises.",
+    "aiDiagnosisOutput": "Puppy: 10 weeks, rescue, no previous handling. Fear baseline: moderate — startles at gate sounds, refuses to pass threshold. Plan: Week 1 — Day 1-2: sit at open front door with treats while traffic passes (10 min). Day 3-4: step onto driveway, return immediately (5 min). Day 5-7: walk to first lamppost and back (10 min). Week 2 — introduce different surfaces (gravel, grass, pavement). Introduce one new sound per walk (generator, taxi hooter, gate motor). Success marker: puppy initiates walking across all thresholds by day 14.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If the walker uses aversive methods (choke, prong, or shock), the session is free.",
+    "pirbStandard": "SAPCA Puppy Walking Protocol: No aversive equipment. Maximum 15-minute sessions until 16 weeks. 5+ exposures per walk (sounds, surfaces, people, animals, objects). Handler must carry high-value rewards at all times.",
+    "articleSections": [
+      {
+        "heading": "The Critical Window: Why Every Day Counts",
+        "body": "Between 8–16 weeks, a puppy's brain is primed for social learning — it's called the 'critical socialisation period.' After 16 weeks, the brain's plasticity decreases, and new experiences can trigger fear instead of curiosity. The SA Veterinary Association recommends your puppy meets 100+ people, visits 20+ different locations, and experiences 30+ different sounds and surfaces before 16 weeks. A professional puppy walker systematically ticks these boxes in a controlled, positive way."
+      },
+      {
+        "heading": "Surfaces and Sounds: The SA Urban Landscape",
+        "body": "SA puppies need exposure to: tar pavement (hot and cold), paving bricks, astroturf, gravel, sand, grass, mud, puddles, grates, hills, and stairs. Sound exposure should include: minibus taxi hooters (a uniquely SA sound), load-shedding generator rumble, gate motors, electric fence crackle, garden workers singing, traffic, trains (where applicable), dogs barking behind fences, and school children playing. Each exposure is paired with treats to create a positive association."
+      },
+      {
+        "heading": "Physical Development: Don't Overdo It",
+        "body": "A puppy's growth plates don't close until 12–18 months depending on breed. Over-exercise (especially forced walking on hard surfaces) can cause joint damage and contribute to hip dysplasia, elbow dysplasia, and arthritis. The 5-minute rule is a good guide: 5 minutes of structured walking per month of age, twice daily. So a 12-week-old (3 month) puppy gets 15-minute walks. Let your puppy set the pace — if they lie down, rest. Bouul puppy walkers are trained on age-appropriate exercise limits."
+      },
+      {
+        "heading": "Vaccine Safety and Walking",
+        "body": "Puppies can start walking in safe areas from their first vaccination series (6–8 weeks) but avoid high-traffic dog areas until 2 weeks after their final booster (16–18 weeks). Parvovirus is endemic in SA and can survive in soil for years. Safe early walking spots: your own garden, clean pavements in low-dog-traffic areas, and puppy-safe indoor spaces (hardware stores that allow dogs). Your Bouul puppy walker strictly follows your vet's advice on when public park walks are safe."
+      }
+    ]
+  },
+  {
+    "id": "walk-004",
+    "tag": "dog-walking",
+    "title": "Extended Hikes: Trail Walking for Adventurous Dogs",
+    "subtitle": "From Kloofing companions to mountain trail buddies — what it takes to hit the SA trails with your dog.",
+    "image": "/scenes/walk-hike.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your high-energy Border Collie has more stamina than you and you're both bored of the same pavement loop.",
+    "problemBody": "High-energy and working breeds (Border Collies, Malinois, Huskies, Australian Shepherds, Jack Russells) need more than a neighbourhood stroll. Without sufficient physical and mental stimulation, they develop destructive behaviours — digging, chewing furniture, excessive barking, and fence running. Many SA owners of working breeds surrender their dogs because they can't meet their exercise needs. A 5–10km trail hike provides the equivalent of 3–4 regular walks in physical exertion and mental stimulation.",
+    "bouulSolution": [
+      "Professional trail walkers with wilderness first aid certification and SA trail knowledge",
+      "Custom route planning based on fitness level — flat riverside trails for beginners, kloofing routes for advanced",
+      "GPS tracking with real-time location sharing; pre-hydrated meals and water breaks included"
+    ],
+    "partsNeeded": [
+      "Daypack for water + bowls (R200–R500)",
+      "Cooling vest for SA summers (R300–R700)",
+      "First aid kit with tick remover + paw pad wraps (R150–R350)",
+      "Lightweight long line (R120–R250) for off-lead sections"
+    ],
+    "guidePricing": "R200–R400 per extended hike (60–90 min); R350–R600 for half-day trail (2–3 hours); R150 surcharge for transport to trailhead",
+    "timeline": "60–180 minutes depending on trail length and dog fitness",
+    "aiPromptExample": "Plan a conditioning schedule to prepare a sedentary 4-year-old Labrador for the Lions Head trail in Cape Town.",
+    "aiDiagnosisOutput": "Dog: 4-year-old Labrador, current fitness: sedentary (15-min walks, overweight by 3kg). Goal: Lions Head (5.5km, moderate, some chain sections). Plan: Week 1-2: 20-min walks on gentle inclines. Week 3-4: 30-min walks with 50m elevation gain. Week 5-6: 45-min walks with 100m elevation + 2kg weighted pack. Week 7-8: 60-min walks on technical terrain. Lions Head ready by week 8. Risks: paw pad abrasion on sandstone — start with booties. Heat risk moderate — hike before 8am.",
+    "escrowGuarantee": "Bouul Escrow protects your payment. If the walker abandons the trail or fails to provide adequate water breaks in summer, the session is refunded.",
+    "pirbStandard": "SAPCA Trail Walking Protocol: Maximum 3 dogs per handler on trails. Water must be offered every 20 minutes in summer. Walkers must carry a canine-specific first aid kit including paw bandage material.",
+    "articleSections": [
+      {
+        "heading": "SA's Best Dog-Friendly Trails",
+        "body": "Cape Town: Lions Head (early morning, off-lead allowed below chain section), Silvermine River Walk (flat, swimming spots), Cecilia Forest (shaded, moderate). Johannesburg: Kloofendal Nature Reserve (4.5km, moderate), Modderfontein Reserve (7km trails), Walter Sisulu Botanical Garden (R30 entry, waterfalls). Durban: Umhlanga Lighthouse Trail (coastal 3km), Burman Bush (2.5km forest trail). Drakensberg: Cathedral Peak (extreme, only for fit dogs). Garden Route: Robberg Nature Reserve (6.5km coastal). Always check current dog policy — SA reserves frequently change rules."
+      },
+      {
+        "heading": "Trail Safety Essentials",
+        "body": "Summer hikes must start before 7am to avoid heatstroke. Carry 500ml–1L of water per 5km per dog. Paw pad checks every 2km on rocky terrain — hot rocks can cause severe pad burns. Snake safety: SA trails have puff adders, Mozambique spitting cobras, and tree snakes. A snake avoidance training session (R400–R800) is recommended. Tick check within 2 hours of finishing — SA bush ticks transmit biliary (babesiosis) which can kill within 48 hours of symptom onset."
+      },
+      {
+        "heading": "Trail Etiquette for Dogs",
+        "body": "Always yield to hikers without dogs (step off the trail and have your dog sit until they pass). Cyclists and mountain bikers need 3m+ clearance — many dogs find bikes triggering. Keep your dog within sight and recall range at all times. On multi-use trails, your dog should be under voice control before going off-lead. Pack out all waste — SA trail conservancies have limited waste management and dog waste contaminates water sources. Bouul trail walkers carry biodegradable waste bags and a small trowel for burying waste outside trail perimeters."
+      },
+      {
+        "heading": "Building Trail Fitness Gradually",
+        "body": "Don't take a couch-dog on a 15km hike. Build trail fitness over 6–8 weeks: start with 20-minute flat walks, add gentle hills in week 3, moderate inclines in week 4, technical terrain in week 5–6, and distance increases of 10% per week after that. Signs of overexertion: excessive panting that doesn't stop after 2 minutes rest, reluctance to continue, stumbling, red or white gums. Stop immediately if any of these appear. Dogs hide pain — by the time they show it, they're already very uncomfortable."
+      }
+    ]
+  },
+  {
+    "id": "walk-005",
+    "tag": "dog-walking",
+    "title": "Drop-In Visits: Midday Relief for SA Working Owners",
+    "subtitle": "Your 9-to-5 doesn't have to mean your dog holds it for 9 hours.",
+    "image": "/scenes/walk-dropin.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "You rushed home through lunch-hour traffic and your dog had already had an accident on the carpet.",
+    "problemBody": "Adult dogs should not hold their bladder for more than 6–8 hours. Puppies and seniors need more frequent breaks. If you work a standard SA workday (8:00–17:00 plus commute), your dog is left for 9–10 hours. This leads to urinary tract infections, kidney stress, and anxiety from prolonged confinement. The result is 'spacing' — a coping mechanism where dogs dissociate, appearing calm but actually experiencing chronic low-level stress that manifests as destructive behaviour.",
+    "bouulSolution": [
+      "Booked drop-in visits timed to your work schedule — 15, 30, or 45 minute windows",
+      "Potty break + fresh water + 10-minute play session — your dog gets attention, not just a garden dash",
+      "Photo and video updates sent to your phone so you can see your happy dog mid-workday"
+    ],
+    "partsNeeded": [
+      "Safety-proofed garden or pee pad area (R50–R200 for pads)",
+      "Slow-feeder bowl or puzzle toy for enrichment visit add-on (R100–R350)",
+      "Indoor camera (optional, R300–R800)",
+      "Emergency contact card left with walker (free)"
+    ],
+    "guidePricing": "R60–R100 per 15-min visit; R90–R150 per 30-min visit; R130–R200 per 45-min visit; R20 surcharge for after-hours (after 7pm or before 6am)",
+    "timeline": "15–45 minutes per visit, typically 1 visit per 8-hour workday",
+    "aiPromptExample": "Design an optimal mid-day break schedule for a 10-month-old Labrador whose owners work 7:30–17:30 in Centurion with a 45-minute commute.",
+    "aiDiagnosisOutput": "Owners: away 10.5 hours daily (7:30–17:30 + 45min commute each way). Dog: 10-month-old Labrador, adolescent stage, not fully reliable bladder. Recommendation: 2 mid-day visits needed. Visit 1: 10:30 (3 hours after departure) — 20-min potty + play. Visit 2: 14:00 (3.5 hours before return) — 15-min potty + puzzle feeder (prevents boredom destruction). Schedule cost: R190/day for both visits. Puppy will be reliable for single visit by 14–16 months old.",
+    "escrowGuarantee": "Your payment is held by Bouul Escrow. If a walker no-shows without 2 hours notice, the visit is free and we cover urgent backup.",
+    "pirbStandard": "SAPCA Pet Sitting Code: Drop-in visits must include fresh water, feeding if requested, brief play/attention, and photo confirmation within 15 minutes of departure.",
+    "articleSections": [
+      {
+        "heading": "When One Visit Isn't Enough",
+        "body": "Puppies under 6 months need a visit every 3–4 hours. Senior dogs (10+ years) often need more frequent breaks due to declining kidney function. Dogs with medical conditions (Cushing's, diabetes, kidney disease) need timed visits aligned with medication and elimination needs. High-energy working breeds left alone for 9+ hours develop anxiety and destructive behaviours even with a single midday visit — consider doggy daycare 2–3 days per week as a supplement."
+      },
+      {
+        "heading": "What Your Drop-In Walker Covers",
+        "body": "A standard 30-minute drop-in includes: let out for potty break (10 min), fresh water refill (2 min), play or training session (10 min), feeding if requested (5 min), and brief health check (3 min). Add-ons include: medication administration (R20), indoor play for rainy days (same price, swap outdoor for indoor stimulation), and refresher training (R30 extra). Your walker sends a report card with mood rating, potty success, and a photo."
+      },
+      {
+        "heading": "Load-Shedding Considerations",
+        "body": "When load-shedding hits during your workday, your dog may be stuck in a dark house with no ventilation and electric gate/fence systems disabled. Bouul walkers check the Eskom schedule before every visit. They ensure your dog has access to (non-electric) open-air areas. Your walking plan notes which gates are manual and which locks need keys during power outages. A backup water bowl strategy is pre-agreed since water pumps may not work during prolonged outages."
+      },
+      {
+        "heading": "Setting Up Your Home for a Drop-In Visit",
+        "body": "Leave your walker's access route clear: gate code or key location, pathway to the indoor area, visibility of the garden. Leave your dog's leash, harness, poop bags, food (pre-portioned), and any medication in a single visible location. Post-emergency contact details including your vet's number and your after-hours number. A quick 2-minute handover video sent via Bouul's chat pre-visit is ideal. Most SA walkers do a free key-pickup visit the day before your first booking."
+      }
+    ]
+  },
+  {
+    "id": "walk-006",
+    "tag": "dog-walking",
+    "title": "Running with Your Dog: Couch to 5K with a Canine Partner",
+    "subtitle": "Your dog doesn't just run beside you — it reads your pace, your breathing, and your route.",
+    "image": "/scenes/walk-run.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog has endless energy and you need motivation to stick to a running routine.",
+    "problemBody": "High-energy breeds (Weimaraners, Vizslas, Dalmatians, Pointers) need 60+ minutes of strenuous exercise daily. Without it, they find their own outlets — digging, escaping, destructive chewing. Meanwhile, SA owners struggle to stay motivated for solo runs. A professional running-walker provides the accountability and structure both you and your dog need. For owners who can't run themselves, Bouul's runners handle the high-intensity workout your dog needs.",
+    "bouulSolution": [
+      "Run-walk interval sessions matching your dog's fitness level — from couch-to-5K to half-marathon distance",
+      "Pacing based on canine gait analysis: dogs trot at 6–8 km/h, canter at 10–15 km/h, gallop at 15–25 km/h",
+      "GPS-tracked route with elevation profile and pace data shared with you after every session"
+    ],
+    "partsNeeded": [
+      "Belt-style hands-free leash (R200–R500)",
+      "Canine hydration pack or vest (R300–R700)",
+      "Reflective gear for early morning or evening runs (R100–R300)",
+      "Trail-specific boots for rocky terrain (R200–R600)"
+    ],
+    "guidePricing": "R120–R200 per 30-min run; R180–R300 per 60-min run; R250–R400 per 10km+ distance run",
+    "timeline": "30–90 minutes depending on distance and conditioning",
+    "aiPromptExample": "Design an 8-week couch-to-5K program for a 2-year-old Labrador with no running experience and a slightly overweight owner aiming to run with their dog.",
+    "aiDiagnosisOutput": "Dog: 2-year-old Labrador, 4kg overweight, no running history. Owner: beginner runner, wants dog as running partner. Program: Week 1: 20-min walk-run (1 min run / 2 min walk, 3x/week). Week 2: 22-min (2 min run / 2 min walk). Week 3: 25-min (3 min run / 2 min walk). Week 4: 28-min (5 min run / 2 min walk). Week 5: 30-min continuous gentle run. Week 6: 35-min run at varied pace. Week 7: 40-min trail run. Week 8: 5K continuous run. Safety: check paw pads daily, no runs above 28°C, rest day between run days.",
+    "escrowGuarantee": "Bouul Escrow protects your payment. If a runner exceeds the agreed pace or distance without consent, the session is refunded.",
+    "pirbStandard": "SAPCA Canine Running Protocol: No running for puppies under 12 months (growth plates). Maximum 15km per session. Water every 15 minutes. Rest day after every run day. Walkers must be trained in canine heatstroke recognition.",
+    "articleSections": [
+      {
+        "heading": "Before You Start: Vet Clearance Is Essential",
+        "body": "Before starting a running program, your dog needs a veterinary checkup (R350–R600) including: hip and elbow evaluation (breeds prone to dysplasia), heart auscultation (cardiac issues can be fatal under exertion), and weight assessment. Dogs with brachycephalic syndrome (French Bulldogs, Pugs, English Bulldogs) should NOT be running partners — they cannot pant enough to cool themselves during sustained exercise. Joint supplements (glucosamine + chondroitin, R200–R400/month) are recommended for running dogs over 30kg."
+      },
+      {
+        "heading": "Pacing and Gait Matching",
+        "body": "The ideal running pace for most medium-to-large dogs is 8–10 min/km — a steady trot. Your dog should run beside or slightly ahead, not pulling. The leash should maintain a J-shape (loose curve), not a tension line. If your dog is pulling, slow down — the pace is too fast. If your dog is lagging, stop — the dog needs a break or the distance is too long. Canine heat regulation is primarily through panting, not sweating, so pace is limited by their cooling capacity, not their muscle endurance."
+      },
+      {
+        "heading": "SA Heat: When Running Is Unsafe",
+        "body": "Never run with your dog above 28°C ambient temperature. On a 25°C day, tar surface can reach 40°C+ by midday. In SA summer (December–February), runs must happen before 7am or after 7pm. Signs of canine heat exhaustion: excessive drooling, bright red gums, staggering, vomiting, collapsing. Treatment: immediately stop, pour cool (not cold) water on belly, paws, and groin. Offer small amounts of water. Cool tap water is 20–25°C — that's ideal; iced water can cause shock."
+      },
+      {
+        "heading": "Post-Run Recovery",
+        "body": "After a run: offer water in small amounts (gulping causes bloat, especially in deep-chested breeds like Great Danes, Labs, and GSDs). Cool down with a 5-minute walk. Check paw pads for cuts, abrasions, or embedded stones. A post-run inspection for ticks is critical in SA — running through tall grass is high-risk for tick exposure. Feed a meal at least 30 minutes after the run, not before (bloat risk). Your Bouul runner includes a 5-minute cool-down walk in every session."
+      }
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "diet-weight-loss-001",
+    "tag": "Weight Loss",
+    "title": "Sustainable Weight Loss: Science-Based Nutrition That Actually Works",
+    "subtitle": "Ditch the fad diets and learn evidence-based eating tailored to South African foods",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why most diets fail within 3 months",
+    "problemBody": "The South African weight-loss industry is worth billions yet obesity rates keep climbing. Fad diets produce short-term results followed by regain because they do not address underlying habits, psychological triggers, and metabolic adaptations. A registered dietitian helps you build sustainable eating patterns that work with South African food culture, not against it.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R480",
+    "timeline": "3-6 months with fortnightly follow-ups",
+    "aiPromptExample": "I have tried banting and intermittent fasting but keep regaining weight. I am a 35-year-old mother with evening emotional eating. What works long-term?",
+    "aiDiagnosisOutput": "Weight cycling has likely lowered your resting metabolic rate. The key is not another restrictive diet but (1) stabilising blood sugar with balanced meals, (2) addressing emotional eating triggers, and (3) a moderate calorie deficit (300-500 kcal/day) using familiar South African foods.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Why Fad Diets Fail",
+        "body": "Restrictive diets trigger metabolic adaptation - your body burns fewer calories at rest. When you return to normal eating, weight comes back. A dietitian works with your metabolism, not against it."
+      },
+      {
+        "heading": "Your Personalised Nutrition Plan",
+        "body": "Your plan is built around your actual life: foods available in your area, cooking skills, budget, cultural preferences, and family needs. No expensive supplements or hard-to-find ingredients."
+      },
+      {
+        "heading": "Realistic Weight Loss Targets",
+        "body": "Healthy loss is 0.5-1 kg per week. Faster loss means water and muscle, not fat. Your dietitian tracks more than the scale: measurements, energy levels, blood work, and how your clothes fit."
+      },
+      {
+        "heading": "Emotional Eating and Habits",
+        "body": "Most overeating is not about hunger. It is triggered by stress, boredom, loneliness, or habit. A dietitian helps you identify triggers and build alternative responses - the skill that keeps weight off permanently."
+      },
+      {
+        "heading": "Support Between Sessions",
+        "body": "Message your dietitian between appointments for quick questions, meal photo reviews, and accountability check-ins. This continuity makes the difference between regaining and maintaining."
+      }
+    ]
+  },
+  {
+    "id": "diet-diabetes-001",
+    "tag": "Diabetes Management",
+    "title": "Eating Well with Diabetes: Blood Sugar Control Through Smart Nutrition",
+    "subtitle": "South Africa has the highest diabetes rate in Africa - but diet can turn it around",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why medication alone is never enough",
+    "problemBody": "South Africa faces a diabetes epidemic with over 4.5 million diagnosed adults. While medication manages blood sugar acutely, nutrition is the foundation. Carb counting, GI awareness, meal timing, and portion control directly affect HbA1c. A dietitian helps you design a meal pattern that stabilises blood sugar without feeling deprived.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R520",
+    "timeline": "Monthly initially, then quarterly",
+    "aiPromptExample": "I was diagnosed with type 2 diabetes 6 months ago. My HbA1c is 9.2 despite metformin. Can a dietitian really help lower this?",
+    "aiDiagnosisOutput": "HbA1c of 9.2% (average glucose 11.5 mmol/L) is well above the target of 7%. Yes, dietitian intervention can make a significant difference. The approach is to distribute carbohydrates evenly, pair them with protein and fibre, choose low-GI SA staples (sweet potato, samp, whole-grain pap), and time meals consistently with medication.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Carbohydrates",
+        "body": "Carbs have the biggest impact on blood sugar but are not the enemy. Your dietitian teaches you carb counting and choosing the right carbs from everyday SA foods: samp, beans, whole grains, and vegetables."
+      },
+      {
+        "heading": "Building Your Plate",
+        "body": "The plate method: fill half with non-starchy veg, quarter with lean protein, quarter with carbs. This simple visual works for any cuisine."
+      },
+      {
+        "heading": "Reading Food Labels",
+        "body": "Learn to spot hidden sugars (dextrose, maltose, fruit juice concentrate) and understand serving sizes. Most people are shocked by how much sugar is in common supermarket items."
+      },
+      {
+        "heading": "Eating Out and Social Events",
+        "body": "Diabetes does not mean no braais or celebrations. Learn which dishes to prioritise, portion estimation, and how to manage alcohol (which can cause delayed hypoglycaemia)."
+      },
+      {
+        "heading": "Monitoring and Adjusting",
+        "body": "Pattern management - looking at blood glucose readings over time to identify what works. CGMs are increasingly available in SA and provide real-time feedback."
+      }
+    ]
+  },
+  {
+    "id": "diet-sports-nutrition-001",
+    "tag": "Sports Nutrition",
+    "title": "Fuel Your Performance: Sports Nutrition for Athletes and Active South Africans",
+    "subtitle": "What you eat before, during, and after exercise determines how far you can go",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why your training results are limited by food",
+    "problemBody": "You can train as hard as you like, but if nutrition is not aligned with training load, results plateau. Carb timing affects performance. Protein distribution affects muscle synthesis. Hydration in our hot climate affects everything. A sports dietitian designs a nutrition strategy that fuels performance exactly when you need it.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R550",
+    "timeline": "Ongoing with seasonal training adjustments",
+    "aiPromptExample": "I am training for the Comrades Marathon. I hit a wall around 50 km in long runs. What am I missing nutritionally?",
+    "aiDiagnosisOutput": "Hitting the wall at 50 km indicates inadequate carbohydrate availability. You need 60-90 g of carbohydrate per hour during the event starting from hour 1. Specific adjustments: periodised carb loading 48 hrs before long runs, practicing race-day nutrition in training, and post-run protein within 30 minutes.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Pre-Training Fuel",
+        "body": "Eat 2-3 hours before training: carb-rich, moderate protein, low fibre and fat. SA options: oats with banana, peanut butter toast, or a maas smoothie."
+      },
+      {
+        "heading": "During-Exercise Nutrition",
+        "body": "For sessions over 60 min, 30-60g carb per hour. Practice your nutrition strategy in training, not on race day. Gels, sports drinks, or real food - whatever works for your gut."
+      },
+      {
+        "heading": "Recovery Nutrition",
+        "body": "The 30-minute window post-training is when muscles are most receptive. Aim for 3:1 or 4:1 carb-to-protein ratio. A post-training snack improves recovery dramatically."
+      },
+      {
+        "heading": "Hydration in the SA Climate",
+        "body": "South Africa heat accelerates fluid loss. Weigh before and after training to determine sweat rate. Replace 125-150% of losses within 2 hours. Electrolytes essential for sessions over 90 min."
+      },
+      {
+        "heading": "Supplements That Work",
+        "body": "Creatine monohydrate, caffeine, beta-alanine, and carb-electrolyte drinks have strong evidence. Your dietitian advises what is appropriate for your goals, saving money on products that do not deliver."
+      }
+    ]
+  },
+  {
+    "id": "diet-gut-health-001",
+    "tag": "Gut Health",
+    "title": "Heal Your Gut: Nutrition for Digestion, Bloating, and Long-Term Gut Health",
+    "subtitle": "South Africans suffer from digestive issues more than we admit - there is a dietary solution",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why chronic bloating is not something to live with",
+    "problemBody": "Gas, bloating, and irregular bowel movements affect millions but are rarely discussed. Many turn to probiotics or elimination diets without understanding what is happening. The gut microbiome is influenced by everything you eat. A dietitian trained in gastroenterology nutrition identifies likely triggers, tests hypotheses systematically, and rebuilds a healthy gut environment.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R500",
+    "timeline": "6-12 weeks for initial protocol",
+    "aiPromptExample": "I have been bloated every day for 2 years. Cutting gluten and dairy did not help. What could be going on?",
+    "aiDiagnosisOutput": "Daily bloating with failed broad eliminations suggests more specific triggers. Consider testing for SIBO (lactulose breath test), fructose/lactose malabsorption, or FODMAP intolerance. A low-FODMAP diet under dietitian supervision is the gold standard for identifying triggers.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Understanding Your Gut Microbiome",
+        "body": "Your gut contains trillions of bacteria affecting digestion, immunity, mood, and weight. Diet is the single biggest factor shaping your microbiome. Processed foods, low fibre, and artificial sweeteners disrupt the balance."
+      },
+      {
+        "heading": "Common Triggers in the SA Diet",
+        "body": "Refined maize meal, white bread, high-sugar cereals, and processed meats can be problematic. But triggers are highly individual."
+      },
+      {
+        "heading": "The FODMAP Approach",
+        "body": "FODMAPs are fermentable carbs causing gas and bloating in sensitive people. A low-FODMAP diet temporarily removes high-FODMAP foods, then systematically reintroduces them as a diagnostic tool."
+      },
+      {
+        "heading": "Probiotics and Prebiotics",
+        "body": "Probiotics introduce beneficial bacteria. Prebiotics (fibre that feeds good bacteria) are equally important. Fermented SA foods like maas are natural probiotics."
+      },
+      {
+        "heading": "Long-Term Gut Maintenance",
+        "body": "The goal is a diverse, fibre-rich diet nourishing your microbiome. Different plant foods feed different bacteria species. Variety is key."
+      }
+    ]
+  },
+  {
+    "id": "diet-meal-plans-001",
+    "tag": "Meal Plans",
+    "title": "Custom Meal Plans: Nutrition Designed for Your Life, Not a Generic Template",
+    "subtitle": "Stop guessing what to eat - get a weekly plan built around your goals, budget, and kitchen",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why generic meal plans never work long-term",
+    "problemBody": "Generic meal plans from social media do not account for your calorie needs, allergies, cooking skills, cultural preferences, or budget. Following a plan that does not fit your life leads to frustration and abandonment. A registered dietitian builds a meal plan with your input, using foods you like from your local SA supermarket. It is a flexible framework, not a rigid prescription.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R420",
+    "timeline": "Plan in first session, reviewed every 2 weeks",
+    "aiPromptExample": "I want to eat healthier but am overwhelmed by conflicting info online. How does a dietitian actually build a meal plan?",
+    "aiDiagnosisOutput": "A meal plan starts with your data: age, weight, activity, medical history, food preferences, budget, and cooking time. We calculate energy and macronutrient needs. Then I build sample days using foods you eat and show you the pattern so you can swap meals within the same nutritional framework. The goal is for you to learn principles, not follow a plan forever.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Your Personalised Assessment",
+        "body": "We start with a comprehensive intake covering health history, dietary patterns, lifestyle, goals, and medical conditions. Good nutrition advice must be individualised."
+      },
+      {
+        "heading": "Building Your Framework",
+        "body": "You get a flexible framework: sample meals, portion guides using hand-size measurements, a swap list for variety, and a weekly prep strategy fitting your schedule."
+      },
+      {
+        "heading": "Shopping and Budget",
+        "body": "Your plan includes a realistic grocery list with SA brands and pricing. No imported superfoods. We work with what is at Checkers, Shoprite, Pick n Pay, and your local spaza."
+      },
+      {
+        "heading": "Family Considerations",
+        "body": "If you cook for a family, no separate meals. Small adjustments - extra veg here, different starch portion there - mean one meal serves everyone."
+      },
+      {
+        "heading": "Adjusting Over Time",
+        "body": "Your plan is not static. As tastes, schedules, or goals change, we adjust. Follow-up sessions are where real learning happens - you report what worked and we refine together."
+      }
+    ]
+  },
+  {
+    "id": "diet-pregnancy-001",
+    "tag": "Pregnancy Nutrition",
+    "title": "Eating for Two: Essential Nutrition Guidance for a Healthy Pregnancy",
+    "subtitle": "What you eat during pregnancy shapes your baby's health for life",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why eating for two is the wrong advice",
+    "problemBody": "The old advice of eating for two is not just outdated - it is harmful. Calorie needs increase only modestly (about 300 extra calories in the third trimester), but nutrient needs increase significantly. Folate, iron, calcium, iodine, and DHA all play critical roles in fetal development. A dietitian helps you meet your increased nutrient needs without excessive weight gain, manages pregnancy symptoms through diet, and addresses conditions like gestational diabetes and anaemia common in South African pregnancies.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul secure platform",
+      "Receive a personalised care plan tailored to your needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R480",
+    "timeline": "2-3 sessions across pregnancy + postnatal",
+    "aiPromptExample": "I am 14 weeks pregnant and feel nauseous all day. I am struggling to eat vegetables and worry my baby is not getting enough nutrients. What should I do?",
+    "aiDiagnosisOutput": "First-trimester nausea (hyperemesis in severe cases) is extremely common and does not typically harm the baby - your body has nutrient stores. The priority is eating what you can tolerate. Small, frequent meals (every 2-3 hours), ginger tea, vitamin B6 (25mg 3x daily), and eating a dry cracker before getting out of bed can help. Prenatal vitamins fill gaps. Your dietitian can help you find nutrient-dense foods that do not trigger nausea.",
+    "escrowGuarantee": "Your payment is held securely in escrow. Full refund if not satisfied.",
+    "pirbStandard": "Practitioners registered with the relevant SA statutory council (HPCSA/SANC/ASCHP).",
+    "articleSections": [
+      {
+        "heading": "Key Nutrients in Pregnancy",
+        "body": "Folate (400-800 mcg) prevents neural tube defects. Iron requirements double - 27mg daily. Calcium (1000mg) supports baby bone development. Iodine (220mcg) is critical for brain development. DHA (200mg) supports eye and brain development. Prenatal supplements should cover these basics."
+      },
+      {
+        "heading": "Managing Common Symptoms",
+        "body": "Nausea: small frequent meals, ginger, B6. Heartburn: avoid lying down after eating, smaller meals, identify trigger foods. Constipation: increase fibre (fruits, vegetables, whole grains) and water. This is very common in SA pregnancies."
+      },
+      {
+        "heading": "Weight Gain Guidelines",
+        "body": "Recommended gain depends on pre-pregnancy BMI. Normal weight: 11.5-16 kg. Overweight: 7-11.5 kg. Obese: 5-9 kg. Excessive gain increases risks of gestational diabetes, large baby, and C-section. Inadequate gain increases risk of low birth weight."
+      },
+      {
+        "heading": "Gestational Diabetes",
+        "body": "GDM affects up to 15% of SA pregnancies. Risk factors: family history, previous GDM, BMI over 30, previous large baby. Management: blood glucose monitoring, carbohydrate-controlled diet, exercise. Most cases resolve after delivery but increase future type 2 diabetes risk."
+      },
+      {
+        "heading": "Postnatal Nutrition",
+        "body": "Your nutritional needs remain high during breastfeeding (additional 500 calories/day). Continue prenatal vitamins. Iron stores need replenishing if you lost blood during delivery. Your dietitian can help with postnatal weight loss without compromising milk supply."
+      }
+    ]
+  }
+]

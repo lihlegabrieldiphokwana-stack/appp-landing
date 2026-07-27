@@ -1,0 +1,278 @@
+[
+  {
+    "id": "plan-corporate-001",
+    "tag": "Corporate Event Planning",
+    "title": "How to Plan a Corporate Event That Actually Impresses (Not Just Another Boring Breakfast)",
+    "subtitle": "The difference between an event people remember and one they skip starts here.",
+    "image": "/scenes/corporate_event_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your corporate event had 30% no-shows and nobody knows why",
+    "problemBody": "You sent the invites. You booked the venue. You organised the catering. The day arrives and more than a quarter of your guest list doesn't show. The ones who do come leave before the closing remarks. The feedback forms say 'nice event' — which everyone knows means 'forgettable.' You spent R150,000 and got a room full of people checking their phones. This is the reality of most corporate events in South Africa. The problem isn't budget — it's that corporate event planning is a specialised skill that most managers don't have time to develop. They're thrown into event planning as a side project, and the event underwhelms accordingly.",
+    "bouulSolution": [
+      "Bouul connects you with certified corporate event planners who handle everything from concept to execution",
+      "You can compare planners by event type — conferences, awards dinners, networking sessions, team building, product launches",
+      "Bouul escrow protects your event budget with milestone-based payments tied to planner deliverables"
+    ],
+    "partsNeeded": [
+      "Event management software for guest list, RSVPs, and check-in",
+      "Venue contract with clear cancellation policy",
+      "AV equipment — projector, screen, sound system, lectern, microphones",
+      "On-site coordinator for day-of logistics management"
+    ],
+    "guidePricing": 25000,
+    "timeline": "Start planning 8-12 weeks before event. Venue booking 6-8 weeks out. Final headcount 1 week before. Event day. Post-event report within 5 business days.",
+    "aiPromptExample": "\"Create a brief for a corporate networking event: 150 professionals in the fintech sector, Cocktail-style in Sandton, 6 PM-9 PM on a Thursday, need icebreaker activities, two sponsored bars, a keynote speaker (15 min), and a networking app integration. Budget R200,000.\"",
+    "aiDiagnosisOutput": "\"Event analysis: Thursday evening networking in Sandton — traffic and parking are major concerns. Recommend valet or subsidised Uber codes for attendees. Cocktail format works for 150 pax but needs adequate high-top tables and servers circulating. Icebreaker activities must be low-commitment — think conversation-starter cards, not trust falls. Fintech crowd is tech-literate — QR check-in and digital networking profiles expected. Budget of R200,000 is tight for premium Sandton venue + bar + AV — recommend allocating R80-100k for venue alone.\"",
+    "escrowGuarantee": "Bouul Escrow protects your corporate event budget. Payments release on milestones: venue booking approval, supplier deposits managed, event execution, and post-event reconciliation. If the planner misses critical deadlines, you have leverage.",
+    "pirbStandard": "SANS 10407: Event Management Services — covers corporate event planning standards, risk management, supplier coordination, attendee safety, and post-event reporting for South African events.",
+    "articleSections": [
+      {
+        "heading": "Define success before you start",
+        "body": "Most corporate events fail because nobody defined what success looks like. Is the goal networking connections, product awareness, team morale, or client retention? Each goal drives a completely different event format. A networking event needs different seating, timing, and activities than a product launch. Write a one-page event brief that states the goal, target audience, and desired outcome before you brief a planner. This brief is the foundation everything else builds on."
+      },
+      {
+        "heading": "The venue makes or breaks the event",
+        "body": "In South Africa's major cities, venue availability is the tightest constraint. Sandton and Cape Town CBD venues book out 2-3 months in advance for weekdays, and weekends are even tighter. Start venue research immediately after settling on a date. Look for venues with built-in AV (most corporate venues have this, saving you R15,000-30,000 on equipment rental), adequate parking, wheelchair access, and backup power (load-shedding is still a reality). Your Bouul planner will have venue relationships that can unlock availability you can't find on your own."
+      },
+      {
+        "heading": "Catering for the corporate crowd",
+        "body": "Corporate event catering must account for dietary requirements, timing, and format. A breakfast event needs light, easy-to-eat options while standing. A lunch event needs more substantial food. An evening event with drinks needs substantial finger food — people drink more when they've eaten well. Always confirm dietary requirements in the RSVP and communicate these to the caterer at least 10 days before. Bouul's platform lets you coordinate caterers alongside your event planner, with all dietary tracking handled through the app."
+      },
+      {
+        "heading": "Find your corporate event planner on Bouul",
+        "body": "Bouul makes it easy to find experienced corporate event planners. Browse profiles, compare portfolios of past events, and read reviews from other companies. Book directly through the app with escrow-protected payment. Your event should be more than a room full of people checking their phones."
+      }
+    ]
+  },
+  {
+    "id": "plan-wedding-002",
+    "tag": "Wedding Planning",
+    "title": "The South African Wedding Planning Timeline That Actually Works",
+    "subtitle": "From engagement to 'I do' — a month-by-month plan that keeps your sanity intact.",
+    "image": "/scenes/wedding_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why planning a wedding without a timeline is like building a house without blueprints",
+    "problemBody": "You're engaged. Congratulations. Now the questions start. 'Have you set a date?' 'Where's the venue?' 'How many guests?' 'What about the dress?' 'The caterer?' 'The photographer?' 'The DJ?' Within a week, you're drowning in spreadsheets, WhatsApp groups, and opinions from everyone you've ever met. The average South African wedding takes 12-18 months to plan. Without a structured timeline, you'll book a venue that's too small, a photographer who's unavailable, and a caterer who doesn't know what a sit-down dinner requires. The stress builds until you're ready to elope. Here's how to avoid that.",
+    "bouulSolution": [
+      "Bouul connects you with wedding planners who provide structured timelines and vendor coordination",
+      "You can find planners by style — full-service planning, partial coordination, or day-of management",
+      "Bouul escrow protects your planner fees and coordinates vendor payments through the platform"
+    ],
+    "partsNeeded": [
+      "Wedding planning software or spreadsheet with budget tracker",
+      "Vendor contract templates with clear terms and cancellation policies",
+      "Guest list manager with RSVP tracking",
+      "On-the-day coordinator (separate from the couple) for logistics"
+    ],
+    "guidePricing": 35000,
+    "timeline": "Engagement to wedding: 12-18 months. Venue booking: 10-14 months out. Major vendors: 8-10 months. Details: 3-6 months. Final run-through: 1 month before.",
+    "aiPromptExample": "\"Create a wedding planning timeline: 120-guest wedding in Pretoria, outdoor garden ceremony, indoor reception, budget R250,000, engagement date 1 March 2026, target wedding date October 2027. Couple wants full-service planning. Generate month-by-month checklist.\"",
+    "aiDiagnosisOutput": "\"Planning analysis: 18-month timeline is comfortable for R250k budget across 120 guests. Pretoria garden ceremony best in early Oct (spring weather, jacaranda season). Key risk: Oct popular month in Gauteng — venue must be booked within first 2 months. Budget allocation guide: venue+catering 50% (R125k), photography/videography 15% (R37.5k), attire+beauty 10% (R25k), décor+flowers 12% (R30k), entertainment 8% (R20k), misc 5% (R12.5k). Recommend planner focused on Pretoria venues with existing vendor relationships.\"",
+    "escrowGuarantee": "Bouul Escrow protects your wedding planning investment. Funds release on agreed milestones: initial payment for planning, vendor booking triggers for deposits, and final payment after successful event execution.",
+    "pirbStandard": "SANS 10407: Event Management Services — wedding planning section covers vendor vetting standards, contract management, timeline requirements, and client communication protocols.",
+    "articleSections": [
+      {
+        "heading": "Full-service vs. partial vs. day-of coordination",
+        "body": "Wedding planners offer three levels of service. Full-service planning handles everything from budget creation to vendor booking to on-the-day management. Prices range from R25,000 to R60,000. Partial planning helps with specific aspects — vendor recommendations, timeline creation, or décor coordination — and costs R10,000-20,000. Day-of coordination (R5,000-10,000) takes over 2-4 weeks before the wedding to manage logistics, run the rehearsal, and coordinate vendors on the day. Choose based on your budget, time, and experience level."
+      },
+      {
+        "heading": "The three budget traps every couple hits",
+        "body": "Trap one: The guest list. Every additional 10 guests adds R8,000-12,000 to the overall cost (catering, seating, favours, invitations). Be ruthless with the guest list early. Trap two: The dress. Wedding dresses in South Africa cost R15,000-40,000. Set a firm budget and don't try on dresses outside it. Trap three: Décor. Flowers and décor costs escalate quickly. A structured planner will help you allocate realistically and spot overruns before they happen."
+      },
+      {
+        "heading": "Why you need a day-of coordinator even if you have no planner",
+        "body": "Even if you plan everything yourself, hire a day-of coordinator. They handle the logistics on the day so you and your family can actually enjoy the wedding. They liaise with vendors, manage the timeline, handle emergencies (and there will be emergencies), and ensure the reception setup matches your vision. Without one, a family member ends up managing the caterer instead of watching the ceremony. Bouul lists day-of coordinators as a standalone service."
+      },
+      {
+        "heading": "Find your wedding planner on Bouul",
+        "body": "Bouul connects you with vetted wedding planners across South Africa. Compare packages, view past wedding portfolios, read real reviews from couples, and book through the app with escrow-protected payments. Whether you need full planning or just day-of coordination, Bouul makes finding the right person straightforward."
+      }
+    ]
+  },
+  {
+    "id": "plan-birthday-003",
+    "tag": "Birthday Party Planning",
+    "title": "The Art of the Adult Birthday Party: How to Throw a Party People Actually Want to Attend",
+    "subtitle": "Turning 30, 40, or 50 deserves more than a WhatsApp group and a reservation at a pub.",
+    "image": "/scenes/birthday_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why that 'surprise party' turned into 12 people awkwardly eating chips in a lounge",
+    "problemBody": "You want to throw a birthday party for yourself or someone you love. But every time you try, it ends up the same way: a rushed WhatsApp invite, a few friends who RSVP but don't show, a reservation at a noisy pub where you can't hear each other talk, or a house party where the same three people end up doing dishes while everyone wonders when it's acceptable to leave. Adult birthday parties don't have to be disappointing. The problem is that nobody treats them like real events — they treat them like casual get-togethers and hope for the best. A milestone birthday deserves proper planning.",
+    "bouulSolution": [
+      "Bouul connects you with event planners who specialise in private parties — birthdays, anniversaries, and milestone celebrations",
+      "You can find planners who handle everything from guest list management to venue selection to catering coordination",
+      "Bouul escrow protects your party budget with milestone-based payments"
+    ],
+    "partsNeeded": [
+      "Venue or venue setup (tent, furniture, lighting)",
+      "Catering package matching guest count and dietary needs",
+      "Entertainment — DJ, live band, or playlist with sound system",
+      "Decorations and theme coordination"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Start planning 6-8 weeks ahead. Venue booking 4-6 weeks out. Guest list and RSVPs 3 weeks before. Final planning 1 week before. Party day.",
+    "aiPromptExample": "\"Plan a 40th birthday party: 50 guests, Johannesburg, garden party theme, 3 PM-10 PM on a Saturday in November, sit-down dinner, DJ for evening dancing, photo booth, welcome drinks on arrival. Budget R60,000.\"",
+    "aiDiagnosisOutput": "\"Party analysis: November in Johannesburg — afternoon thunderstorms likely. Garden party needs tent cover for seating area and backup indoor option. 50 guests for sit-down dinner requires 6-7 tables of 8 or round tables. DJ for evening dancing needs power backup (load-shedding schedule check). Photo booth needs attendant and prop table. Welcome drinks on arrival — 1.5 drinks per person for first hour. Key budget allocation: venue+tent 35%, catering 30%, entertainment 20%, décor 10%, misc 5%.\"",
+    "escrowGuarantee": "Bouul Escrow protects your party budget. Payments release on agreed milestones — venue deposit, vendor payments, and final satisfaction. If the setup doesn't match the agreed briefing, you have recourse.",
+    "pirbStandard": "SANS 10407: Event Management Services — private party planning section covers venue safety, catering standards, noise management, and guest experience guidelines.",
+    "articleSections": [
+      {
+        "heading": "The guest list is your budget driver",
+        "body": "Everything in a party scales with the guest count. The venue size, the catering quantity, the bar tab, the seating, even the size of the cake. Your first decision should be the maximum guest count, and everything else flows from there. For milestone birthdays (30, 40, 50), the sweet spot is usually 40-80 guests — enough for energy and variety, but still intimate enough for the guest of honour to spend time with everyone. A Bouul planner can help you match the guest count to the budget from day one."
+      },
+      {
+        "heading": "The party timeline that works",
+        "body": "A great party has a structure, even if it feels relaxed. Welcome drinks and snacks for the first hour (guests arrive, mingle, settle in). Sit-down or buffet meal for the next 1.5 hours. Speeches and toasts (keep them short — 2-3 minutes max per speaker). Then open the dance floor or move to the entertainment portion. The party should wind down naturally — a 7-hour party feels complete; a 4-hour party often feels rushed. The Bouul planner will build this timeline into the booking so everyone knows the flow."
+      },
+      {
+        "heading": "Entertainment beyond a playlist",
+        "body": "A Spotify playlist through a portable speaker works for a braai, but a milestone birthday deserves more. A DJ or live band transforms the energy. A photo booth creates a physical memory guests take home. Lawn games (for afternoon parties) or a cigar bar (for evening events) add texture. Even a dedicated photo area with a backdrop elevates the experience. Bouul makes it easy to book entertainment alongside your planner so everything is coordinated."
+      },
+      {
+        "heading": "Plan your birthday party on Bouul",
+        "body": "Bouul connects you with event planners who treat adult birthday parties with the seriousness they deserve. Browse portfolios, compare packages, and read reviews. Book through the app with escrow-protected payment. Your 40th shouldn't feel like a high school house party."
+      }
+    ]
+  },
+  {
+    "id": "plan-conference-004",
+    "tag": "Conference Planning",
+    "title": "How to Plan a Conference That Doesn't Suck (A South African Guide)",
+    "subtitle": "The conference formula that keeps delegates engaged, exhibitors happy, and sponsors coming back.",
+    "image": "/scenes/conference_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your conference had 200 registered but only 80 showed up on Day 2",
+    "problemBody": "You planned a conference. The speakers were booked. The venue looked professional. The programme was packed. Day 1 starts strong — 180 delegates, good energy, decent networking at tea. Day 2: 80 delegates. Day 3: 45. Sponsors are watching the empty seats and wondering if they'll renew. The feedback forms arrive and they all say the same thing: 'Too many sales pitches.' 'Too long between breaks.' 'The talks didn't connect to each other.' 'I felt like I was in school.' Conference planning is a craft, and most organisations in South Africa treat it as a logistics exercise rather than a content and experience design challenge.",
+    "bouulSolution": [
+      "Bouul connects you with experienced conference planners who focus on content flow, attendee experience, and sponsor ROI",
+      "You can compare planners by conference scale, industry specialisation, and past delegate satisfaction ratings",
+      "Bouul escrow protects your conference budget with milestone-based vendor payments"
+    ],
+    "partsNeeded": [
+      "Multi-room AV setup with stage lighting, screens, and switching",
+      "Registration and check-in system with badge printing",
+      "Speaker management system for presentation collection and timing",
+      "Exhibition hall layout with power, data, and signage for sponsors"
+    ],
+    "guidePricing": 85000,
+    "timeline": "Start planning 4-6 months before. Venue booking 3-4 months out. Speaker confirmation 2-3 months. Programme finalised 1 month before. Conference days. Post-event report within 2 weeks.",
+    "aiPromptExample": "\"Plan a 2-day industry conference: 300 delegates, renewable energy sector, Cape Town ICC, plenary hall for 300 + 2 breakout rooms for 80 each, 20 exhibition stands, gala dinner on night 1. Budget R1.2 million. Need sustainability-themed elements throughout.\"",
+    "aiDiagnosisOutput": "\"Conference analysis: Cape Town ICC has excellent AV but tight load-in windows. 300 delegates over 2 days needs strong Day 2 programme to prevent drop-off — recommend workshops and hands-on sessions Day 2 vs. presentations. Renewable energy theme means digital programme, no printed materials, plant-based catering options, carbon offset tracking. 20 exhibition stands need floorplan with high-traffic allocation. Gala dinner for 300 requires venue within walking distance of ICC. Budget adequate at R1.2M — allocate R400k venue+AV, R250k catering, R200k speaker+content, R200k exhibition, R150k gala dinner.\"",
+    "escrowGuarantee": "Bouul Escrow holds and disburses your conference budget on vendor milestone schedule. Venue deposit, speaker fees, catering finalisation, and post-event settlement all flow through escrow. If a vendor underperforms, payment can be held.",
+    "pirbStandard": "SANS 10407: Event Management Services — conference-specific standards include accessibility requirements, speaker management protocols, AV specifications, and attendee safety guidelines.",
+    "articleSections": [
+      {
+        "heading": "Content is the conference",
+        "body": "Delegates don't attend for the venue or the catering — they attend for the content. The single most important role in a conference is the content curator. This person selects speakers who have something new to say, structures sessions so each talk builds on the last, and ensures variety in format (keynotes, panels, workshops, fireside chats). If your conference planning process starts with logistics before content, you'll have a well-organised empty room. Brief your Bouul planner on content goals first."
+      },
+      {
+        "heading": "The Day 2 problem and how to fix it",
+        "body": "Multi-day conferences lose 30-50% of delegates after Day 1. The fix is structural. Day 2 should be fundamentally different from Day 1 — more interactive, more practical, more conversational. Run workshops instead of presentations. Facilitate working groups instead of panels. Organise site visits or practical demonstrations. If Day 2 is just more talks, people won't come back. A good conference planner designs the programme so delegates actively want to be there on Day 2."
+      },
+      {
+        "heading": "Sponsor integration done right",
+        "body": "Sponsors fund the conference. But delegates resent being sold to. The balance is designing sponsor touchpoints that genuinely add value — sponsored networking sessions (not sponsored talks), sponsored practical resources (charging stations, hydration stations, notebook and pen), and exhibition time built into the programme without competing with content. Bouul helps you find planners who understand sponsor integration as a design challenge, not a revenue exercise."
+      },
+      {
+        "heading": "Plan your conference on Bouul",
+        "body": "Bouul connects you with conference planners who treat attendee experience as seriously as logistics. Compare portfolios of past conferences, read delegate satisfaction ratings, and see how planners handle content curation, speaker management, and sponsor integration. Book through the app with escrow-protected payment. Your delegates deserve a conference they'll actually attend."
+      }
+    ]
+  },
+  {
+    "id": "plan-product-launch-005",
+    "tag": "Product Launch Planning",
+    "title": "How to Launch a Product in South Africa That People Actually Talk About",
+    "subtitle": "The launch event is your product's first impression. Make it count.",
+    "image": "/scenes/product_launch_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your product launch generated 50 Instagram posts and zero sales",
+    "problemBody": "You've built something great. A new product, a new service, a new brand. You decide to launch with an event. You book a trendy venue, invite media and influencers, prepare a presentation, and hope for the best. The event happens. People show up. They take pictures. They eat the canapés. They leave. The social media coverage is decent. But sales don't move. Email sign-ups don't spike. Nobody seems to remember the product a week later. The problem is that most product launches are designed as parties, not as marketing events. An effective product launch is a strategic marketing execution with measurable outcomes — not a celebration with a press release attached.",
+    "bouulSolution": [
+      "Bouul connects you with event planners who specialise in product launches and understand marketing-driven event design",
+      "You can find planners who integrate pre-event hype, launch-day experience, and post-event conversion into their planning",
+      "Bouul escrow protects your launch budget with milestone-based payments tied to deliverables"
+    ],
+    "partsNeeded": [
+      "Venue with adequate branding and product display space",
+      "AV system for product demonstration presentation or video",
+      "Product demonstration stations or interactive displays",
+      "Media and influencer check-in with press kit distribution"
+    ],
+    "guidePricing": 35000,
+    "timeline": "Start planning 8-12 weeks before launch. Venue and concept: 8 weeks. Invitations and media outreach: 4-6 weeks. Event execution. Post-event follow-up campaign: within 1 week.",
+    "aiPromptExample": "\"Plan a product launch event: new premium skincare line launching in Cape Town, 80 guests including beauty editors, influencers, and retail buyers, experiential format with product testing stations, brand story presentation, gift bags. Budget R150,000. Goal is 50% conversion on wholesale orders within 30 days.\"",
+    "aiDiagnosisOutput": "\"Launch analysis: Skincare launch needs strong visual identity — product displays must be well-lit, with mirrors and testing areas. 80 guests in experiential format needs flow — greet, brand story (15 min), free exploration of stations, then checkout with gift bags. Beauty editors need press kits with product info and high-res images. Influencers need content creation zones with good lighting for their own content (this is where organic reach comes from). Gift bag value should equal or exceed perceived ticket value. Wholesale order conversion requires on-site ordering capability — tablet or QR code for immediate wholesale orders.\"",
+    "escrowGuarantee": "Bouul Escrow protects your product launch budget. Payments release on milestones: concept approval, venue and supplier deposits, event execution, and post-event conversion reporting. If the launch doesn't deliver the agreed attendee experience, you have recourse.",
+    "pirbStandard": "SANS 10407: Event Management Services — product launch standards cover demonstration protocols, media management, sampling compliance, and post-event measurement requirements.",
+    "articleSections": [
+      {
+        "heading": "The launch event is not the launch strategy",
+        "body": "A two-hour event cannot carry the entire launch of a product. The event is the centrepiece of a campaign that starts weeks before and continues weeks after. Pre-event: teasers to your mailing list and social channels, press embargoes for media, influencer unboxing deliveries timed to arrive pre-event. Post-event: recap content within 24 hours, press release distribution, influencer content syndication, and a post-event offer for those who couldn't attend. A Bouul planner will design the full campaign arc, not just the party."
+      },
+      {
+        "heading": "The demonstration experience",
+        "body": "If your product can be touched, tasted, tried, or tested, the event must make that frictionless. A skincare product needs testers, mirrors, and good lighting to see results. A tech product needs working demos with staff trained to walk through features in 60 seconds. A food product needs samples prepared fresh, not sitting on a table. A service product needs a visual story of what the service does. The demonstration experience is what turns attendees into advocates. The venue is just the container."
+      },
+      {
+        "heading": "Media and influencer management",
+        "body": "Journalists and influencers at your launch have been to 10 events this month. Standing out requires respect for their time and a clear value exchange. Send a briefing document before the event: what's being launched, key messages, product price and availability, high-res images, your media contact. Don't expect them to write about your product because you fed them a canapé. Give them a story. The event is the context; the story is what gets coverage. Bouul planners include media and influencer coordination in their launch packages."
+      },
+      {
+        "heading": "Plan your product launch on Bouul",
+        "body": "Bouul connects you with event planners who understand marketing-driven events. Compare launch portfolios, read client testimonials, and see how planners integrate pre- and post-event strategy. Book through Bouul with escrow protection. Your product's first impression deserves professional planning."
+      }
+    ]
+  },
+  {
+    "id": "plan-team-building-006",
+    "tag": "Team Building Events",
+    "title": "Team Building That Doesn't Make Your Employees Cringe: A South African Guide",
+    "subtitle": "The activities that actually build trust, communication, and collaboration (no trust falls required).",
+    "image": "/scenes/team_building_planner.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your team building event had a 60% attendance rate and everyone was on their phone",
+    "problemBody": "It's that time of year again. The company team building. You book a venue, plan some activities, and hope for the best. The morning starts with an icebreaker that makes everyone uncomfortable. Then comes the trust fall exercise — which nobody actually trusts. Then the ropes course, where the competitive people get frustrated and the non-competitive people check out. Lunch is a buffet where people sit with their usual work friends. By 3 PM, more than half the team has 'meetings' to get back to. The feedback forms say 'it was fine' — the corporate kiss of death. Team building has a bad reputation because most of it is designed by people who don't understand what actually builds teams. True team building isn't about activities. It's about creating shared experiences that reveal how people work together.",
+    "bouulSolution": [
+      "Bouul connects you with event planners who specialise in team building experiences that are actually effective",
+      "You can find planners offering activities suited to your team size, culture, and goals — from problem-solving challenges to community service to adventure days",
+      "Bouul escrow protects your team building budget with milestone-based vendor payments"
+    ],
+    "partsNeeded": [
+      "Facilitator trained in team dynamics and group facilitation",
+      "Activity-specific equipment based on chosen team building format",
+      "Catering appropriate for activity level (light for active events, substantial for workshop-style)",
+      "Debrief and feedback collection system for measuring team outcomes"
+    ],
+    "guidePricing": 18000,
+    "timeline": "Book 4-6 weeks ahead. Team needs assessment: 3 weeks. Activity selection and logistics: 2 weeks. Event day. Debrief report within 1 week.",
+    "aiPromptExample": "\"Design a team building event: 30-person marketing team, hybrid company (some remote, some office-based in Durban), half-day event, goal is to improve cross-departmental communication and trust, no physical competition (team has varying fitness levels), R50,000 budget includes lunch.\"",
+    "aiDiagnosisOutput": "\"Team analysis: 30-person hybrid team needs activities that level the playing field between office-based and remote staff who may not know each other well. Recommend collaborative problem-solving format — escape room style challenge or social impact project (building school supplies kits, etc). No physical competition removes exclusion risk. Hybrid format means designing for the in-person group with video call-in for remote participants. Budget of R50k covers facilitator (R12k), venue (R15k), lunch (R8k), activity materials (R10k), misc (R5k). Follow-up debrief essential — survey team dynamics 2 weeks post-event.\"",
+    "escrowGuarantee": "Bouul Escrow protects your team building investment. Payments release on milestones: event planning approval, facilitator booking, event execution, and post-event outcomes report. If the event doesn't align with agreed objectives, you have recourse.",
+    "pirbStandard": "SANS 10407: Event Management Services — team building standards cover facilitator qualifications, activity safety protocols, inclusivity requirements, and outcome measurement guidelines.",
+    "articleSections": [
+      {
+        "heading": "Team building is about outcomes, not activities",
+        "body": "Before you book anything, define what your team actually needs. Better communication? Cross-departmental trust? Problem-solving skills? Creative collaboration? Each outcome maps to a different type of activity. Communication challenges need activities that require delegation and feedback loops. Trust issues need activities that reveal reliability. Problem-solving skills need puzzles and scenarios. Your Bouul planner will do a team needs assessment before designing the event — the activity is the vehicle, not the destination."
+      },
+      {
+        "heading": "The social impact option",
+        "body": "One of the most effective team building formats in South Africa is the social impact project. Teams spend a day building school furniture, packing food parcels, painting a community centre, or assembling sanitation kits. The shared experience of doing meaningful work together builds genuine bonds — and it removes the 'this is a waste of time' cynicism that many team activities generate. It's also photographable and shareable, giving the company positive social content. Bouul lists planners who specialise in social impact team building."
+      },
+      {
+        "heading": "Measuring ROI on team building",
+        "body": "Team building is an investment, and like any investment, it should be measured. Pre-event baseline: survey the team on trust levels, communication effectiveness, and cross-departmental collaboration. Post-event follow-up (2-4 weeks later): survey again and compare. Retention data: do teams that participate in effective team building show lower turnover? A professional Bouul planner includes measurement in their proposal so you can see whether the investment paid off."
+      },
+      {
+        "heading": "Plan your team building on Bouul",
+        "body": "Bouul connects you with team building specialists who focus on measurable outcomes, not generic activities. Compare their approaches, read reviews from other companies, and find the right format for your team culture. Book through Bouul with escrow protection. Your team deserves better than trust falls."
+      }
+    ]
+  }
+]

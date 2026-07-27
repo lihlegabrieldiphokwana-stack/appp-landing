@@ -1,0 +1,278 @@
+[
+  {
+    "id": "band-wedding-001",
+    "tag": "Wedding Band",
+    "title": "Live Band vs. DJ for Your Wedding: The Honest Guide for South African Couples",
+    "subtitle": "Both options can deliver an incredible wedding reception. The right choice depends on your venue, budget, and crowd.",
+    "image": "/scenes/wedding_band.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the 'live band' decision is the most argued-about wedding choice — and how to actually decide",
+    "problemBody": "You're planning the wedding reception. One of you wants a live band. The other thinks a DJ is better value. Your mother-in-law says live music is more elegant. Your best friend says DJs keep the dance floor packed. The argument goes in circles because you don't have a framework for deciding. A live band at a wedding costs R15,000-35,000 for a 4-piece ensemble. A good DJ costs R5,000-10,000. But cost isn't the only factor. A live band creates energy that a DJ can't replicate — the visual performance, the spontaneous energy, the way a live horn section hits. But a DJ offers more musical variety (any song ever recorded), seamless transitions, and often more volume control. Neither is 'better.' They're different tools for different wedding visions.",
+    "bouulSolution": [
+      "Bouul lets you compare live bands and DJs side by side — repertoire lists, sample recordings, video performances, and packages",
+      "You can filter bands by size, genre specialisation, and wedding-specific experience",
+      "Bouul escrow protects your entertainment booking fee until the performance is successfully delivered"
+    ],
+    "partsNeeded": [
+      "PA system sized to venue capacity",
+      "Stage monitors for band members to hear each other",
+      "Lighting rig for stage presence and dance floor",
+      "Backline instruments (drums, amplifiers, keyboards) — some bands bring their own, some require venue kit"
+    ],
+    "guidePricing": 22000,
+    "timeline": "Book 8-12 months before wedding. Repertoire discussion: 2-3 months before. First dance song arrangement: 6 weeks. Sound check on the day: 2 hours before guest arrival.",
+    "aiPromptExample": "\"Book a wedding band brief: 100-guest wedding in Cape Town, band needed for reception (7 PM-midnight), must play cocktail jazz for first hour, then transition to party set for dancing, mix of current pop, 70s/80s classics, and South African favourites, vocalist must handle MC duties for first dance and announcements. Budget R30,000 including sound and lighting.\"",
+    "aiDiagnosisOutput": "\"Reception analysis: 100 guests in Cape Town venue — band size recommendation: 4-5 piece (keys, guitar, bass, drums, 1-2 vocalists). Cocktail jazz (first hour) needs keys-focused arrangement. Transition to party set must be smooth — band needs pop, classic rock, SA favourites in repertoire. Vocalist as MC means hiring a performer with strong microphone presence beyond just singing. Budget of R30k is adequate for a 4-5 piece band with sound — lighting may be extra. Load-in access at Cape Town venue must be confirmed (stairs, distance from parking).\"",
+    "escrowGuarantee": "Bouul Escrow protects your wedding band fee. Payment releases after the reception is complete. If the band cancels last minute, arrives late, or doesn't perform the agreed repertoire, your payment is protected.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — live band standards cover equipment safety, sound level compliance, performance duration, and professional conduct at wedding events.",
+    "articleSections": [
+      {
+        "heading": "Band size determines everything",
+        "body": "A duo (guitar and vocalist) creates intimate ambience but can't fill a dance floor. A trio adds a cajon or keys for more texture. A 4-piece (drums, guitar/bass, keys, vocalist) is the minimum for a wedding reception that transitions from dinner ambience to dance party. A 5-7 piece adds horns, backing vocalists, or percussion for a fuller sound. Each additional member adds R3,000-6,000 to the total cost. Choose the size based on your venue size, guest count, and how important a 'big band' sound is to you."
+      },
+      {
+        "heading": "The first dance song arrangement",
+        "body": "A live band's version of your first dance song will sound different from the recorded version. This can be beautiful (a unique arrangement that's just for you) or disappointing (if the band can't replicate the feel of the original). Request a sample of the band covering a similar style song before booking. Some bands offer to record a custom first dance arrangement as an add-on. Confirm this during the Bouul booking process so there are no surprises."
+      },
+      {
+        "heading": "Working with the band's set list",
+        "body": "Unlike a DJ who can play any song immediately, a band works from a prepared repertoire. Most wedding bands have 60-80 songs in their active set list. Review this before booking to ensure it covers the genres your crowd will love. If there are specific must-play songs, confirm them in the contract. Some bands learn new songs for an additional fee. The bigger the repertoire, the more flexible the band is on the night."
+      },
+      {
+        "heading": "Book your wedding band on Bouul",
+        "body": "Browse live bands on Bouul by size, genre, and budget. Watch performance videos, review repertoire lists, and read reviews from real couples. Book through Bouul with escrow protection. Your wedding music should be live, loud, and unforgettable."
+      }
+    ]
+  },
+  {
+    "id": "band-jazz-002",
+    "tag": "Jazz Trio",
+    "title": "The Jazz Trio: South Africa's Most Underrated Corporate Event Booking",
+    "subtitle": "Why a jazz trio is the perfect soundtrack for upscale corporate events, private dinners, and gallery openings.",
+    "image": "/scenes/jazz_trio.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your corporate event's background music playlist is making you look cheap",
+    "problemBody": "You've gone to great lengths to organise a premium corporate event. A top Sandton venue. High-end catering. An impressive guest list. Then the 'background music' is a Spotify playlist through the venue's ceiling speakers. The music is fine — nobody's complaining — but it doesn't add anything. It doesn't elevate the atmosphere. It doesn't signal that this is a special event. A live jazz trio costs R8,000-15,000 for a 2-3 hour corporate function. That's a fraction of your overall event budget. But it completely transforms the atmosphere. The visual of live musicians, the quality of live acoustic sound, the sophistication it signals — it changes how guests perceive the event. A jazz trio isn't just entertainment. It's an atmospheric investment that makes everything else look better.",
+    "bouulSolution": [
+      "Bouul connects you with jazz ensembles ranging from solo piano to full quartets — each with sample recordings and venue suitability profiles",
+      "You can filter by ensemble size, style (traditional jazz, Cape jazz, Afro-jazz, contemporary), and event type experience",
+      "Bouul escrow protects your entertainment booking until the performance is successfully delivered"
+    ],
+    "partsNeeded": [
+      "Compact PA suitable for background music levels (often the venue's system is sufficient)",
+      "Stage area or performance corner with basic lighting",
+      "Piano or keyboard (provided by venue or band brings their own)",
+      "Minimal setup time — jazz trios typically need 30 minutes to set up and sound check"
+    ],
+    "guidePricing": 10000,
+    "timeline": "Book 2-4 weeks ahead for corporate events, 4-8 weeks for private functions. Repertoire and timing discussion: 1 week before. Setup: 30-45 minutes before guest arrival.",
+    "aiPromptExample": "\"Book a jazz trio for a corporate cocktail event: 80 guests, upscale Cape Town hotel, 6 PM-9 PM, background music for networking, style should be Cape jazz and smooth jazz, subtle and professional — music supports conversation, doesn't compete. Trio or quartet welcome. Budget R15,000.\"",
+    "aiDiagnosisOutput": "\"Venue analysis: Upscale Cape Town hotel — venue likely has in-house PA; confirm compatibility with trio's setup. 80 guests with networking focus means music at conversation-supporting volume (65-75 dB). Cape jazz style is ideal — melodic, recognisable to local guests, sophisticated. 3-hour set: 45 min on, 15 min break (×3). Trio recommendation: keys, upright or electric bass, drums/percussion. Quartet adds second horn (sax or trumpet) for fuller sound. Budget of R15k is appropriate for premium Cape Town corporate hire. Load-in via hotel loading bay — confirm access timing.\"",
+    "escrowGuarantee": "Bouul Escrow protects your jazz trio booking. Payment releases after the event. If the performance quality or timing doesn't meet agreed standards, you're covered.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — live acoustic music standards cover volume management in background-music contexts, instrument safety, and professional presentation for corporate events.",
+    "articleSections": [
+      {
+        "heading": "When to choose a jazz trio over other live music",
+        "body": "Jazz trios excel in settings where the music supports rather than dominates. Corporate networking events, cocktail hours, gallery openings, private dinners, and wedding ceremony music are perfect for jazz. The trio creates atmosphere without forcing attention. Unlike a DJ or full band, a jazz trio adds sophistication without competing with conversation. The investment is visible — guests see live musicians — but the sound stays at the appropriate level."
+      },
+      {
+        "heading": "South African jazz styles to consider",
+        "body": "South Africa has a rich jazz tradition. Cape jazz (Abdullah Ibrahim, Winston Mankunku Ngozi) is melodic and soulful, perfect for Cape Town events. Township jazz (Spokes Mashiyane, West Nkosi) has a livelier, danceable feel. Afro-jazz blends traditional African rhythms with jazz harmony — ideal for events that want a uniquely South African atmosphere. A professional jazz trio should be able to adapt their style to your event's tone. Discuss repertoire preferences during the booking process on Bouul."
+      },
+      {
+        "heading": "The format: sets versus continuous play",
+        "body": "A jazz trio typically performs in sets — 40-45 minutes of playing, followed by a 15-minute break. For events under 2 hours, a single continuous set works. For 3-4 hour events, three sets with breaks. During breaks, background music from the venue's system fills the silence. Some trios offer continuous play with rotation (one musician rests while the other two continue), but this limits the repertoire and energy. Discuss set format during the Bouul booking consultation."
+      },
+      {
+        "heading": "Book a jazz trio on Bouul",
+        "body": "Find jazz musicians on Bouul who understand the balance between presence and ambience. Listen to sample recordings, check their event type experience, and confirm their setup requirements. Book through Bouul with escrow protection. Your corporate event deserves a soundtrack that elevates the room."
+      }
+    ]
+  },
+  {
+    "id": "band-acoustic-003",
+    "tag": "Acoustic Duo",
+    "title": "The Acoustic Duo: Intimate Live Music That Fits Any Small Venue",
+    "subtitle": "Two musicians, acoustic instruments, and the ability to transform any space into something special.",
+    "image": "/scenes/acoustic_duo.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your small venue wedding didn't need a 10-piece band — and what worked better",
+    "problemBody": "You're planning a small wedding. 40 guests. An intimate venue — a boutique hotel, a wine farm, a family property. You think you need a band for the reception. But a full band in a small space is overwhelming. The sound is too loud. The setup dominates the room. The band feels like they're playing a stadium, not your intimate gathering. What you actually need is an acoustic duo. Two musicians — usually guitar and vocals, sometimes with a second instrument — who fill the space with warm, natural sound. No massive PA. No drum kit taking up a quarter of the room. No sound levels that force guests to shout. Just beautiful live music that enhances the intimacy of the occasion. The acoustic duo is the most versatile, cost-effective option for small venues — and most couples don't even know to look for one.",
+    "bouulSolution": [
+      "Bouul lists acoustic duos perfect for small venues, intimate weddings, and relaxed events — with sample recordings and venue suitability ratings",
+      "You can filter duos by style (folk, pop acoustic, jazz standards, South African classics), and confirm they can work without a full PA",
+      "Bouul escrow protects your booking until the performance is delivered to your satisfaction"
+    ],
+    "partsNeeded": [
+      "Two acoustic instruments — typically guitar and second instrument (cajon, second guitar, violin, or keyboard)",
+      "Compact PA system (typically 2 speakers and a small mixer) — some duos work completely unplugged",
+      "Minimal setup area — a corner of the room or a small stage area",
+      "Song list appropriate for the venue and guest profile"
+    ],
+    "guidePricing": 6000,
+    "timeline": "Book 4-8 weeks before event. Repertoire discussion: 2 weeks. Setup: 30 min before guest arrival. Performance: as agreed (typically 2-3 hours with breaks).",
+    "aiPromptExample": "\"Book an acoustic duo for an intimate wedding: 40 guests, wine farm in Franschhoek, ceremony and reception at same venue, need ceremony music (processional and signing), then cocktail hour background, then dinner music. Style: acoustic covers of jazz standards and South African classics. Setup must be discreet — no large PA visible. Budget R7,000.\"",
+    "aiDiagnosisOutput": "\"Venue analysis: Franschhoek wine farm — outdoor ceremony likely, reception indoors or under cover. Acoustic duo works perfectly for 40 guests. Ceremony: guitarist plays processional and signing music (instrumental). Cocktail hour: gentle covers, acoustic level. Dinner: warm background. Low-volume setup means no large PA — compact active speakers or unplugged in intimate space. Repertoire should include SA classics (The Moon Is Hiding, specials) and jazz standards. Budget of R7k is appropriate for premium wine valley booking. Load-in through venue's service entrance.\"",
+    "escrowGuarantee": "Bouul Escrow protects your acoustic duo booking. Payment releases after the event. If the duo cancels, arrives late, or doesn't perform agreed repertoire, your payment is protected.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — acoustic performance standards cover volume management in intimate settings, instrument setup safety, and professional conduct at private events.",
+    "articleSections": [
+      {
+        "heading": "The acoustic advantage for small venues",
+        "body": "An acoustic duo brings live music without overwhelming a small space. They don't need a drum kit, large PA, or monitor system. They can set up in a corner of the room and fill the space naturally. For venues where space is tight (boutique hotels, restaurant private rooms, family gardens, small wine farms), acoustic duos are the perfect entertainment choice. They create atmosphere without dominating the room visually or audibly."
+      },
+      {
+        "heading": "What makes a great acoustic duo",
+        "body": "The best acoustic duos have tight vocal harmonies, strong musical chemistry, and a repertoire that suits the event's tone. They can adjust their volume to match the room's energy — quieter during dinner, slightly more energetic as the evening progresses. They read the room and adapt. A duo who only plays at one volume, one tempo, or one energy level will feel flat or intrusive. When listening to samples on Bouul, listen for dynamics — do they play soft and build energy? That's the sign of a versatile duo."
+      },
+      {
+        "heading": "Repertoire flexibility matters",
+        "body": "An acoustic duo for a small wedding or private event should have a versatile song list — jazz standards, acoustic versions of current pop, South African classics, and perhaps some original material. They should be willing to learn a specific song for the ceremony or first dance (usually for an additional fee). The right duo doesn't just play songs — they curate the evening's soundtrack across the ceremony, cocktail hour, dinner, and wind-down phases."
+      },
+      {
+        "heading": "Book an acoustic duo on Bouul",
+        "body": "Browse acoustic duos on Bouul by style and venue type. Listen to sample recordings, review song lists, and confirm their unplugged or compact-PA setup. Book through Bouul with escrow protection. Your intimate venue deserves live music that fits the space."
+      }
+    ]
+  },
+  {
+    "id": "band-covers-004",
+    "tag": "Covers Band",
+    "title": "The Covers Band: Why Playing Other People's Songs Is Actually the Smartest Gig Strategy",
+    "subtitle": "For venues, events, and audiences, a great covers band is worth more than any original act.",
+    "image": "/scenes/covers_band.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your 100% original music band is struggling for gigs while the covers band down the road is booked every weekend",
+    "problemBody": "You're in an original music band. You write your own songs. You've released an EP. You're committed to your artistic vision. But booking gigs is a struggle. Venues don't call back. Event organisers ask about your song list and lose interest when they realise you don't play covers. Meanwhile, a covers band — unashamedly playing other people's hits — is booked every Friday, Saturday, and Sunday. Weddings, corporate events, festivals, private parties. R10,000-25,000 per gig. The covers band isn't 'selling out.' They're providing a service that the market actually wants. Event organisers don't book bands to showcase artistic vision. They book bands to make the crowd happy, keep the energy up, and create a memorable experience. A covers band delivers that consistently. The original band delivers that only when their aesthetic happens to match what the crowd wants.",
+    "bouulSolution": [
+      "Bouul connects covers bands with event organisers who need crowd-pleasing live music for weddings, corporate events, and private parties",
+      "Bands can showcase their repertoire lists, performance videos, and audience reviews — showing events organisers exactly what they'll get",
+      "Bouul escrow protects both bands and organisers — bands get paid for completed gigs, organisers pay when satisfied"
+    ],
+    "partsNeeded": [
+      "Full PA system appropriate for venue size (typically 100-500 capacity)",
+      "Monitor system for band members to hear themselves on stage",
+      "Stage lighting rig for visual presence",
+      "Extensive song repertoire covering multiple genres and decades"
+    ],
+    "guidePricing": 15000,
+    "timeline": "Book 4-12 weeks before event (weddings: 6-12 months). Repertoire planning: 3-4 weeks. Event day: sound check 2 hours before, performance as agreed. Pack-down within 1 hour of finish.",
+    "aiPromptExample": "\"Book a covers band for a corporate year-end function: 200 staff, mixed ages 22-60, venue in Johannesburg, need a 3-hour party set covering 80s pop, 90s dance, 2000s rock, current pop, and South African braai classics. Band should have a female and male vocalist for variety. Budget R20,000 including sound and lighting.\"",
+    "aiDiagnosisOutput": "\"Event analysis: 200 staff across broad age range — 3-hour set with multigenerational appeal. Song selection should flow: 80s openers (everyone knows), 90s dance (peak party age), 2000s rock (late 30s/early 40s crowd), current pop (younger staff), SA braai classics for singalong finale. Dual vocalists (male+female) add coverage across genres. Budget R20k appropriate for 5-piece covers band with sound and basic lighting. Venue in Johannesburg — confirm load-in access for band's vehicle.\"",
+    "escrowGuarantee": "Bouul Escrow protects both covers bands and event organisers. Bands receive payment after successful gig completion. Organisers release funds only when the performance meets agreed standards.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — covers band standards cover repertoire licensing (SAMRO compliance), equipment safety, performance professionalism, and audience engagement.",
+    "articleSections": [
+      {
+        "heading": "Building the set list that works everywhere",
+        "body": "A successful covers band has a repertoire of 60-100 songs that work across weddings, corporate events, and private parties. The set list must cover multiple genres (pop, rock, R&B, soul, South African favourites, dance) and multiple decades (70s through current). The band needs to read the room and adjust — if the crowd is older, lean into 70s and 80s; if younger, prioritise current pop and Afrobeats. The Bouul platform lets covers bands showcase their repertoire ranges so event organisers can see the breadth before booking."
+      },
+      {
+        "heading": "SAMRO compliance and licensing",
+        "body": "Covers bands in South Africa must comply with SAMRO (Southern African Music Rights Organisation) licensing. Venues that host live music should have a SAMRO licence that covers performance royalties. Bands performing original material should register with SAMRO to collect royalties. Discuss licensing with the venue and organisers before the event. Bouul helps bands and organisers confirm licensing responsibilities during the booking process."
+      },
+      {
+        "heading": "From covers band to event brand",
+        "body": "The most successful covers bands don't just play music — they build an event brand. They have a consistent look, a regular lineup, a social media presence that showcases gig highlights, and a referral network with event planners and venue managers. They treat every gig as a marketing opportunity. They collect video testimonials. They build relationships with wedding coordinators who book them year after year. Bouul gives covers bands the platform to build this brand presence and attract recurring bookings."
+      },
+      {
+        "heading": "Find covers band gigs on Bouul",
+        "body": "Whether you're a covers band looking for gigs or an event organiser needing crowd-pleasing live music, Bouul connects supply with demand. Bands: create a profile, upload performance videos, list your repertoire, and start getting bookings. Organisers: browse bands by style and budget, read reviews, and book with escrow protection."
+      }
+    ]
+  },
+  {
+    "id": "band-gospel-005",
+    "tag": "Gospel Band",
+    "title": "Booking Gospel Music for Events: A Guide for South African Organisers",
+    "subtitle": "Gospel music brings a unique energy to events. Here's how to book the right group for the right occasion.",
+    "image": "/scenes/gospel_band.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the wrong gospel group can make your event feel like a church service (when you wanted a celebration)",
+    "problemBody": "You're organising an event where gospel music is appropriate — a memorial service, a church anniversary, a community celebration, or a multicultural corporate event that wants to include a spiritual element. You book a gospel group based on a recommendation. They arrive, set up, and start performing. But the tone is wrong. The music is too reverent for what you planned. Or conversely, it's too energetic, and the solemn moment you were curating feels disrupted. Gospel music spans a vast range — from traditional hymns and a cappella chorales to high-energy praise and worship with full band. The key is matching the style to the event's tone. Not every gospel group can do every style. Choosing the wrong one creates a mismatch that affects the entire event atmosphere.",
+    "bouulSolution": [
+      "Bouul lists gospel groups and choirs with clear style classifications — traditional, contemporary praise, gospel choir, a cappella, or full band",
+      "You can filter by group size (soloist to full choir), repertoire style, and event type experience",
+      "Bouul escrow protects your booking fee until the performance is successfully delivered"
+    ],
+    "partsNeeded": [
+      "PA system appropriate for vocal-focused performances (clear mid-range reproduction is critical)",
+      "Stage setup for choir (risers if needed, space for movement)",
+      "Backline if full band — keys, bass, drums, guitars",
+      "Warm-up and green room space for the group before performance"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Book 4-8 weeks ahead. Repertoire discussion and rehearsal: 2-3 weeks. Technical rider and sound check timing: 1 week. Event setup 1.5 hours before performance.",
+    "aiPromptExample": "\"Book a gospel group for a memorial service: 200 guests, church venue in Soweto, 2-hour service, need traditional hymns and contemporary gospel mix, group should be 6-12 voices with keyboard accompaniment, tone should be reverent but warm. Budget R12,000.\"",
+    "aiDiagnosisOutput": "\"Service analysis: Memorial service in Soweto church — traditional to contemporary gospel blend. 6-12 voice choir with keys is appropriate — full band may be too much for reverent tone. Repertoire should include standard hymns (guide me, amazing grace) and contemporary SA gospel (Soweto Gospel Choir repertoire, contemporary praise). Sound: vocal clarity is paramount — choir needs good monitors to stay in key together. Church venue likely has existing PA — confirm compatibility. Budget R12k for 6-12 voices plus keys is fair. Arrival: 90 min before for sound check and rehearsal.\"",
+    "escrowGuarantee": "Bouul Escrow protects your gospel group booking. Payment releases after the performance. If the group cancels, arrives late, or doesn't deliver the agreed repertoire, you're covered.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — gospel performance standards cover vocal group safety, PA requirements for choir performances, and professional conduct at religious and community events.",
+    "articleSections": [
+      {
+        "heading": "Understanding gospel music styles for events",
+        "body": "Traditional gospel features hymns, slower tempos, and rich harmonies, often with organ or piano accompaniment. Contemporary gospel includes praise and worship, modern arrangements, and often a full band. Gospel choir (like the Soweto Gospel Choir tradition) is a cappella or lightly accompanied, focusing on vocal power and arrangement. Each style suits different events. Memorials and formal services lean traditional. Celebrations and community events suit contemporary. Concerts and cultural events want the full choir experience. Discuss style expectations clearly during the Bouul booking process."
+      },
+      {
+        "heading": "The PA requirements for vocal groups",
+        "body": "Gospel groups — especially choirs — have specific sound requirements. Vocals need clear mid-range reproduction to preserve harmony. A choir of 12-20 voices needs multiple microphones, a suitable mixer, and monitors that let singers hear each other. If the group uses backing tracks or a band, the sound design becomes more complex. Bouul's booking system lets groups specify their technical rider so venues can confirm compatibility before confirming the booking."
+      },
+      {
+        "heading": "The emotional role of gospel music",
+        "body": "Gospel music carries emotional weight. At a memorial or funeral, it provides comfort and connection. At a celebration, it lifts energy and creates shared joy. At a corporate event with a diversity and inclusion theme, it can bridge cultural gaps. The right group understands the emotional context of the event and performs accordingly — adjusting tempo, volume, and repertoire to match the moment. Booking through Bouul gives you access to groups with experience reading event atmospheres."
+      },
+      {
+        "heading": "Book gospel music on Bouul",
+        "body": "Find gospel groups on Bouul by style, size, and event type. Listen to sample recordings, read reviews from other event organisers, and confirm repertoire and technical requirements. Book through Bouul with escrow protection. Your event deserves gospel music that matches the moment."
+      }
+    ]
+  },
+  {
+    "id": "band-corporate-006",
+    "tag": "Corporate Function Band",
+    "title": "The Corporate Function Band: Live Music That Impresses Clients and Delights Staff",
+    "subtitle": "Corporate events need live music that works in a business context. Here's how to find a band that gets it.",
+    "image": "/scenes/corporate_band.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the band that kills at weddings is bombing at your corporate gala",
+    "problemBody": "Your company is hosting a gala dinner. Client entertainment, staff recognition, a keynote address. You book a live band that came highly recommended — they're incredible at weddings, everyone says. The band arrives, plays their standard set, and it doesn't work. The volume is too high during dinner. The opening song choices don't match the formal tone. The banter between songs is too casual. The band treats the event like a party, but the evening needs phases — formal, celebratory, but never out of control. A corporate function band is not the same as a wedding band or a club act. Corporate audiences need different repertoire, different presentation, different volume control, and different showmanship. The band needs to understand the event's hierarchy — when the CEO speaks, the band stops. When clients are talking, the band stays at background level. When the awards happen, the band provides appropriate transitions.",
+    "bouulSolution": [
+      "Bouul lists bands with verified corporate event experience — not just wedding or club gigs",
+      "You can filter by corporate event type — awards dinners, gala evenings, year-end functions, conference entertainment, product launches",
+      "Bouul escrow protects your corporate entertainment budget until the performance is successfully delivered"
+    ],
+    "partsNeeded": [
+      "PA system sized for the venue with careful volume management capability",
+      "Stage setup appropriate for a corporate venue (professional, tidy, branded if needed)",
+      "Music library that covers cocktail, dinner, and party phases — all corporate-appropriate content",
+      "MC capability or seamless coordination with the event's MC/speakers"
+    ],
+    "guidePricing": 20000,
+    "timeline": "Book 6-12 weeks before event. Event schedule coordination: 3-4 weeks. Repertoire approval: 2 weeks. Sound check: 2 hours before guest arrival. Performance: phased across the event timeline.",
+    "aiPromptExample": "\"Book a corporate function band: 150 guests, gala awards dinner at a Sandton hotel, 6 PM-midnight, need phased music — cocktail jazz (6-7 PM), dinner background (7-9 PM with speeches), awards ceremony support (9-10 PM), dance party (10 PM-midnight). Professional appearance, clean lyrics only, volume allows conversation during dinner. Budget R30,000.\"",
+    "aiDiagnosisOutput": "\"Event analysis: 6-hour corporate gala at Sandton hotel — complex phased programme. Cocktail hour: 4-5 piece band capable of jazz/lounge. Dinner phase: band must drop to background level or hand to recorded music. Awards: band must coordinate with AV team for transitions, intro music, background during speaker transitions. Dance floor: higher energy but controlled — no explicit content, nothing that makes senior executives uncomfortable. Budget R30k appropriate for 5-6 piece band with PA across all phases. Professional attire: formal or semi-formal depending on event dress code. Load-in via hotel service entrance.\"",
+    "escrowGuarantee": "Bouul Escrow holds your corporate band fee. Payment releases on successful completion. If the band fails to follow the event schedule, plays inappropriate content, or delivers substandard equipment, you're protected.",
+    "pirbStandard": "SANS 10408: Event Sound and Entertainment Services — corporate entertainment standards cover volume compliance, content appropriateness, professional presentation, and event schedule coordination.",
+    "articleSections": [
+      {
+        "heading": "The phased performance plan",
+        "body": "A corporate event has distinct phases. Welcome/cocktails: low-volume, sophisticated music. Dinner: background ambience that doesn't compete with conversation. Awards/speeches: the band supports transitions with intro/outro music but stays silent during content. Party: controlled energy, clean versions, professional tone throughout. A corporate band must be able to navigate all these phases. The best ones have a phased set plan that the event organiser approves in advance. Bouul's booking process includes event schedule coordination so the band knows exactly when to be quiet and when to bring energy."
+      },
+      {
+        "heading": "Content appropriateness is critical",
+        "body": "Corporate events require clean, professional content. No explicit lyrics. No controversial song choices. Nothing that could offend clients, senior executives, or diverse audiences. The band must also be sensitive to the event's diversity — age, culture, religion, and background. A song that works at a wedding reception might be inappropriate at a corporate awards dinner. Bouul's corporate band profiles include content policy confirmation so organisers can book with confidence."
+      },
+      {
+        "heading": "Professional appearance and conduct",
+        "body": "A corporate band must look the part. Formal or semi-formal attire consistent with the event's dress code. No casual wear. No excessive stage antics. Professional interaction with guests during breaks. No drinking on stage or during the event. The band represents the event organiser's brand as much as their own. Bouul reviews include ratings for professionalism and presentation — read them before booking."
+      },
+      {
+        "heading": "Book your corporate function band on Bouul",
+        "body": "Browse bands with verified corporate event experience on Bouul. Watch videos, check repertoire lists, and read reviews from other corporate organisers. Confirm phased performance capability, content appropriateness, and professional presentation. Book through Bouul with escrow protection. Your corporate event deserves a band that understands the room."
+      }
+    ]
+  }
+]

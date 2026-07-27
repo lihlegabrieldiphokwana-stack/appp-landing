@@ -1,0 +1,302 @@
+[
+  {
+    "id": "steel_gate_repair",
+    "tag": "Welding",
+    "title": "Steel Gate Repair and Reinforcement: A South African Homeowner's Guide",
+    "subtitle": "Sagging, rusted, or broken gates \u2014 when to repair and when to replace",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "A broken driveway gate is a security risk, not just an eyesore",
+    "problemBody": "Steel gates in South Africa endure daily opening cycles, wind loads, rust from Highveld thunderstorms and coastal humidity, and attempted forced entry. Hinges pull away from posts, frame welds crack after years of fatigue, and the bottom rail rusts through where moisture collects. Many homeowners try quick fixes \u2014 bolted-on brackets or replacement hinges on the same weak post \u2014 that fail within weeks.",
+    "bouulSolution": [
+      "Bouul matches you with certified welders experienced in structural gate repair \u2014 not just general handymen who own a stick welder",
+      "All quotes include post reinforcement (grouting or welded bracing) so the fix addresses the root cause, not just the symptom",
+      "Bouul Escrow protects you: payment releases only after you confirm the gate swings freely, locks align, and welds are smooth and painted"
+    ],
+    "partsNeeded": [
+      "Mild steel square tubing (25 x 25 mm or 40 x 40 mm for frames depending on gate size)",
+      "MIG or ARC welding machine with 2.5 mm or 3.2 mm welding rods (E6013)",
+      "Heavy-duty gate hinges (cast iron or stainless steel, rated for gate weight)",
+      "Galvanised primer, enamel topcoat, rust converter (e.g. Hammerite or Rust-Oleum), angle grinder with grinding discs"
+    ],
+    "guidePricing": "R 2,500 \u2013 R 6,000 for a standard 3 m driveway gate repair including re-welding cracked joints, hinge replacement, and repainting. Full post replacement or reinforcement adds R 1,500\u2013R 3,500.",
+    "timeline": "1\u20132 days including weld cooling, grinding, and painting. If concrete post grouting is needed, add 24 hours for the concrete to cure.",
+    "aiPromptExample": "My steel driveway gate is dragging on the ground on one side. The hinge bolts are tight but it still sags. What do I check next?",
+    "aiDiagnosisOutput": "If hinges are tight and the gate still sags, the hinge post has likely shifted or the gate frame is twisted. Measure diagonal dimensions: if they differ by more than 10 mm, the frame needs bracing. Check the post plumb with a spirit level \u2014 5 mm out of plumb causes noticeable sag. Solution: weld a diagonal brace from top hinge side to bottom latch side, or re-grout the post base with high-strength concrete mix.",
+    "escrowGuarantee": "Bouul Escrow holds your funds until you confirm the gate swings freely through its full arc, the latch aligns without forcing, and all welds are ground smooth and painted to prevent rust.",
+    "pirbStandard": "SANS 10227 \u2014 Structural steelwork standard for gates and fences. Specifies minimum weld size (3 mm fillet weld for light gates, 6 mm for heavy gates) and post embedment depth of 600 mm into a concrete footing of min 300 x 300 mm.",
+    "articleSections": [
+      {
+        "heading": "Diagnosing Gate Sag and Structural Issues",
+        "body": "Gate sag is rarely a hinge problem \u2014 it is almost always a post or frame issue. Check the hinge post with a 1.2 m spirit level: if more than 5 mm out of plumb, the post concrete has cracked. If the post is plumb but the gate frame is twisted (uneven diagonal measurements), the frame needs bracing. A Bouul welder will measure and diagnose before quoting \u2014 no guessing."
+      },
+      {
+        "heading": "Weld Repair Methods: MIG vs ARC Welding",
+        "body": "MIG (Metal Inert Gas) welding is preferred for gate frames because it produces cleaner welds with less spatter and deeper penetration on thin-wall tubing (1.6\u20133 mm). ARC (stick) welding is more practical for thick posts (6 mm+) or field repairs where wind interferes with shielding gas. Bouul welders specify the method in their quote. For gate hinges, only ARC welding or a full-penetration MIG weld is acceptable."
+      },
+      {
+        "heading": "Post Reinforcement and Concrete Footings",
+        "body": "A gate that keeps sagging despite hinge replacement needs post reinforcement. SANS 10227 requires gate posts to be embedded 600 mm into a 300 x 300 mm concrete footing with a 20 MPa mix. If the existing post is shallow, a Bouul welder digs beside it, sleeves a longer post alongside, welds a cross-brace, and re-concretes. Cost: R 1,500\u2013R 3,500 depending on post size."
+      },
+      {
+        "heading": "Rust Treatment and Corrosion Protection",
+        "body": "Coastal homes (Durban, Cape Town) need galvanised tubing and stainless steel hinges \u2014 standard mild steel rusts through in 3\u20135 years. Interior-level gates (Highveld) benefit from rust converter treatment (tannic acid based) followed by zinc-rich primer and two coats of enamel. Bouul welders in coastal areas use hot-dip galvanised posts as a line-item in their quotes."
+      },
+      {
+        "heading": "Gate Automation Compatibility After Repair",
+        "body": "If you plan to add a gate motor (e.g. Centurion D5 or ET Systems), the repaired gate must have smooth movement without binding for the full arc. Any residual friction causes motor overload within 6 months. Bouul escrow release includes checking that the repaired gate can be pushed open with one finger \u2014 the standard required for motor installation."
+      }
+    ]
+  },
+  {
+    "id": "carport_frame_welding",
+    "tag": "Welding",
+    "title": "Carport Frame Welding: Building a Weather-Tight Steel Structure",
+    "subtitle": "I-beam, square tube, or truss \u2014 choosing and welding the right carport frame for your home",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "A poorly welded carport frame is a safety hazard",
+    "problemBody": "Carports in South Africa face high wind loads (especially in Cape Town and the interior plateau), hail, and UV degradation. DIY or unlicensed welders often undersize beams, use insufficient weld penetration, or skip corrosion protection. The result: frames that wobble, rust from the inside out, or collapse under hail or wind loading within 5 years.",
+    "bouulSolution": [
+      "Bouul connects you with certified structural welders who calculate load requirements based on your local wind zone (SANS 10160)",
+      "All quotes specify beam size, weld class, and corrosion protection \u2014 no vague line items",
+      "Bouul Escrow holds payment until a structural integrity check (no wobble, level welds, proper drainage) is completed"
+    ],
+    "partsNeeded": [
+      "Structural steel I-beam or box-section columns (100 x 100 mm min for single carport)",
+      "Roof purlins (75 x 50 mm rectangular tubing or C-channel)",
+      "MIG welding machine with 0.8\u20131.0 mm wire (E70S-6) for structural welds",
+      "Cold-galvanising spray, epoxy primer, roof sheeting (Isoboard or Chromadek), anchor bolts (M16 min)"
+    ],
+    "guidePricing": "R 18,000 \u2013 R 35,000 for a single-car 3 x 6 m carport including steel frame fabrication, welding, anchoring, and roofing. Double-car (6 x 6 m) ranges from R 35,000 \u2013 R 60,000.",
+    "timeline": "3\u20135 days for a single carport: 1 day foundation prep, 2 days frame welding and erection, 1 day roofing. Concrete footing requires 7 days cure before load-bearing.",
+    "aiPromptExample": "What size I-beam do I need for a 6 x 6 m double carport in Johannesburg? The roof is corrugated iron sheeting.",
+    "aiDiagnosisOutput": "For a 6 x 6 m double carport span in Johannesburg (wind zone 1, SANS 10160), use a 200 x 100 mm universal beam (I-section) at 3 m spacing, or 150 x 150 mm square hollow section columns. Purlin spacing at 1.5 m max. Minimum concrete footing: 400 x 400 x 600 mm per column with 20 MPa mix, M16 chemical anchors if retrofitting onto an existing slab.",
+    "escrowGuarantee": "Funds held until you confirm the frame is plumb, level, rigid (no lateral movement when pushed at the top), and all welds are continuous and dressed.",
+    "pirbStandard": "SANS 10160 \u2014 Basis of structural design and actions for buildings. SANS 10090 \u2014 Standard for welded steel structures in building. Both specify minimum weld quality requirements, load factors, and inspection protocols for carport structures.",
+    "articleSections": [
+      {
+        "heading": "Wind Load Calculations for SA Carports",
+        "body": "South Africa is divided into four wind zones (SANS 10160-3). Johannesburg/Highveld is zone 1 (moderate), coastal Cape Town zones 2\u20133 (severe), and the southern Cape zone 4 (extreme). Each zone requires different beam sizes and anchor patterns. Bouul welders input your address into the wind-zone calculator before quoting \u2014 a frame designed for zone 1 will fail in zone 3."
+      },
+      {
+        "heading": "Weld Quality and Penetration Requirements",
+        "body": "Structural welds on carport columns require full penetration \u2014 not just a surface tack. The SANS 10090 standard requires a minimum throat thickness of 5 mm for column-to-base-plate welds. Bouul welders use MIG with 0.8\u20131.0 mm E70S-6 wire for structural members. ARC welding is acceptable for thick sections (6 mm+) but must pass a visual inspection for slag inclusion and undercut."
+      },
+      {
+        "heading": "Column Foundations and Anchor Systems",
+        "body": "Carport columns must be anchored into concrete footings. New-build footings: 400 x 400 x 600 mm deep with 20 MPa concrete and 4 x Y12 rebar cage. Retrofitting onto an existing slab: M16 chemical anchors (e.g. Hilti HIT-HY 200) with 120 mm embedment depth. Bouul welders include anchor pull-out testing as part of the installation. A frame is only as strong as its connection to the ground."
+      },
+      {
+        "heading": "Corrosion Protection in Different SA Climates",
+        "body": "Inland (Johannesburg, Pretoria, Bloemfontein): cold-galvanising spray after welding is adequate, plus 2 coats of enamel. Coastal (Durban, Cape Town, Port Elizabeth): hot-dip galvanising of all steel members is recommended \u2014 spray-on systems do not protect interior surfaces of hollow sections. The weld zone must be re-galvanised with zinc-rich paint (minimum 85% zinc content by dry film mass)."
+      },
+      {
+        "heading": "Roofing Integration and Drainage",
+        "body": "The steel frame must be designed with a minimum roof pitch of 5 degrees (monopitch) or 10 degrees (gable) for drainage. Purlin spacing depends on roof sheeting: Chromadek at 1.5 m, Isoboard at 1.0 m. Gutters and downpipes must be specified and welded mounting brackets for them included in the frame design. A Bouul welder integrates gutter brackets into the purlin welds so they do not need drilling into roof sheeting."
+      }
+    ]
+  },
+  {
+    "id": "staircase_balustrade",
+    "tag": "Welding",
+    "title": "Staircase Balustrade Welding: Safety Codes and Design Options",
+    "subtitle": "Steel, stainless, or wrought iron \u2014 SA balustrade regulations you must know before building",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Staircase balustrades are the most safety-critical weld in a home",
+    "problemBody": "A poorly welded balustrade is a fall hazard. South Africa's National Building Regulations (SANS 10400) set strict requirements for balustrade height, baluster spacing, and handrail load capacity. Many DIY and even some contractor welders miss the 100 mm sphere rule (no gap larger than 100 mm), use undersized handrails, or fail to weld baluster-to-rail connections properly. Over time, these welds fatigue and snap.",
+    "bouulSolution": [
+      "Bouul matches you with welders who carry public liability insurance and are verified to know SANS 10400 balustrade requirements",
+      "Every quote includes a compliance checklist: baluster spacing, handrail height, and load-test certification",
+      "Bouul Escrow holds payment until you receive a signed compliance certificate confirming SANS 10400 Part K adherence"
+    ],
+    "partsNeeded": [
+      "Stainless steel or mild steel square/round tubing (handrail min 38 mm OD, balusters min 16 mm OD)",
+      "316-grade stainless steel MIG wire (for coastal areas) or E7018 welding rods (for mild steel)",
+      "Base plates (100 x 100 x 6 mm min) with stainless steel expansion anchors into concrete",
+      "Welding mask, angle grinder with flap discs for weld finishing, passivation paste (stainless), primer and paint (mild steel)"
+    ],
+    "guidePricing": "R 6,000 \u2013 R 12,000 for a standard 3 m straight staircase balustrade in mild steel, including fabrication, welding, finishing, and installation. Stainless steel (316 grade) adds R 8,000 \u2013 R 15,000.",
+    "timeline": "2\u20133 days for a standard staircase. Day 1: measuring and fabrication off-site. Day 2: welding on site and finishing. Day 3: final inspection and passivation (for stainless).",
+    "aiPromptExample": "I need a stainless steel balustrade for a spiral staircase. Do the same baluster spacing rules apply as for straight stairs?",
+    "aiDiagnosisOutput": "Yes \u2014 SANS 10400 Part K applies the same 100 mm sphere rule to all stairs. Spiral staircases require additional care because the treads taper. Balusters must be placed at the nosing line of each tread, and the gap between them measured horizontally must still pass the 100 mm sphere test. Handrail must be continuous and at 865 mm (min) on the pitch line. Stainless 316 is mandatory in coastal homes for spiral applications because condensation traps in spiral geometry accelerate corrosion.",
+    "escrowGuarantee": "Funds held until a Bouul compliance walkthrough confirms baluster spacing \u2264 100 mm, handrail height \u2265 865 mm, and all welds are ground smooth with no sharp edges. A compliance certificate is provided.",
+    "pirbStandard": "SANS 10400 Part K \u2014 National Building Regulation for stairs and balustrades. Specifies handrail height (865 mm min on staircase, 1,000 mm min on landing), sphere test (100 mm), and handrail load capacity (0.74 kN/m uniformly distributed load plus 1 kN point load).",
+    "articleSections": [
+      {
+        "heading": "The 100 mm Sphere Rule and Baluster Spacing",
+        "body": "The most common code violation in South African balustrades is baluster spacing that allows a 100 mm sphere to pass between them. This rule prevents a child's head from getting trapped. Measure the clear gap at every section \u2014 between balusters, between bottom rail and tread, and between handrail and top of balusters. The gap must never exceed 100 mm at any point. Bouul welders use a pre-cut 100 mm PVC pipe as a go/no-go gauge during installation."
+      },
+      {
+        "heading": "Material Selection: Stainless Steel vs Mild Steel vs Wrought Iron",
+        "body": "Stainless steel 304 is adequate for inland homes; 316 (marine grade) is mandatory within 15 km of the coast. Mild steel is more affordable (R 3,000\u2013R 6,000 for a 3 m run) but requires repainting every 3\u20135 years. Wrought iron is traditional but the welds must be ground flush before painting \u2014 rough welds trap moisture. Bouul welders carry samples of all three materials and can show how the finish will look in your lighting."
+      },
+      {
+        "heading": "Weld Finishing and Passivation for Stainless Steel",
+        "body": "Welding stainless steel destroys the chromium oxide passive layer around the weld zone. If left untreated, the weld area rusts (crevice corrosion). Professional finishing involves: (1) grinding with 120-grit flap disc, (2) blending with 240-grit, (3) applying passivation gel (citric or nitric acid based) to restore the oxide layer, (4) final buffing. Bouul escrow release includes visual inspection of weld finish \u2014 no rust spots or heat tint are acceptable."
+      },
+      {
+        "heading": "Structural Load Capacity Requirements",
+        "body": "SANS 10400 Part K requires balustrades to withstand 0.74 kN/m uniformly distributed load plus a 1 kN point load on the handrail at any point. For a 3 m balustrade, this means the handrail must support 2.22 kN total. Bouul welders use at least 38 mm diameter stainless tube (2 mm wall thickness) or 40 x 40 x 3 mm square tube for handrails to meet this requirement. Base plate connections must be able to transmit this load into the structure."
+      },
+      {
+        "heading": "Integration with Existing Staircase Structure",
+        "body": "Balustrade base plates must be anchored into the staircase structural member \u2014 not just into tiles or plaster. For concrete stairs, use M10 stainless expansion anchors at 600 mm centres drilled 50 mm into the slab. For wooden stairs, carriage bolts through the stringer are required. Bouul welders inspect the staircase structure during the quoting visit to ensure the fixing method is appropriate and moves the quote up or down based on fixing complexity."
+      }
+    ]
+  },
+  {
+    "id": "trailer_repair",
+    "tag": "Welding",
+    "title": "Trailer Repair and Welding: Chassis, Coupling, and Load-Bearing Fixes",
+    "subtitle": "Everything a trailer owner needs to know before the welder arrives",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Trailer failures cause some of the most dangerous road incidents in SA",
+    "problemBody": "A trailer that detaches from its towing vehicle or sheds its load causes catastrophic accidents. Common failures in South Africa: cracked A-frame chassis from overloading, worn tow coupling (safety-critical), snapped spring hangers, and rusted-out floor panels. Many owners patch-weld these issues without understanding the structural forces involved, leading to catastrophic failure at speed.",
+    "bouulSolution": [
+      "Bouul matches you with welders who specialise in trailer fabrication and repair \u2014 they know the NRTA requirements",
+      "All quotes include a full structural inspection report and any NRTA non-compliance items before welding begins",
+      "Bouul Escrow holds funds until you receive a roadworthiness compliance letter and the trailer passes a test-hitch check"
+    ],
+    "partsNeeded": [
+      "Mild steel rectangular tube or channel (A-frame replacement sections, typically 50 x 50 x 3 mm)",
+      "E7018 low-hydrogen welding rods (for structural sections) or 0.8 mm MIG wire",
+      "Replaceable tow coupling (2-tonne rated min, SABS approved), safety chains, spring hangers",
+      "LED lighting kit, split pins, mudguard panels, primer and automotive-grade topcoat"
+    ],
+    "guidePricing": "R 3,000 \u2013 R 8,000 for coupling replacement and A-frame crack repair including welding and NRTA compliance inspection. Full chassis rebuild: R 12,000 \u2013 R 25,000 depending on length and axle configuration.",
+    "timeline": "1\u20133 days. Coupling replacement: 1 day. Chassis crack repair: 1 day. Full chassis rebuild with new A-frame: 2\u20133 days.",
+    "aiPromptExample": "Has there been a National Road Traffic Act amendment affecting trailer overloading penalties for private trailers in SA this year?",
+    "aiDiagnosisOutput": "No amendment, but NRTA TRH 11 still governs load capacity: maximum gross trailer mass (GTM) is stamped on the manufacturer's plate \u2014 exceeding it is a criminal offence. Overloading by more than 15% attracts a fine of up to R 100,000 or 2 years imprisonment (NRTA Section 55). Bouul-repaired trailers include the manufacturer's plate re-stamping if the original is illegible or missing.",
+    "escrowGuarantee": "Payment held until the trailer coupling is tested under load (tow test with 500 kg ball weight), the frame is inspected for full-penetration welds, and you receive a signed roadworthiness checklist.",
+    "pirbStandard": "NRTA (National Road Traffic Act) TRH 11 \u2014 Code of practice for the repair and maintenance of trailers. SANS 1515 \u2014 Specification for trailer couplings. The SANS standard requires a minimum coupling breaking load of 1.5x the rated trailer GTM.",
+    "articleSections": [
+      {
+        "heading": "A-Frame and Chassis Crack Assessment",
+        "body": "The A-frame is the single most stressed component of a trailer. Cracks typically appear near the coupling weld, at the spring hanger mounts, or where the A-frame meets the main chassis rails. A 2 mm crack can propagate to full separation within 500 km under load. Bouul welders grind the crack to clean metal, V-groove both sides, and weld with full penetration. Surface-only weld repairs on cracks are dangerous \u2014 the crack continues beneath the weld."
+      },
+      {
+        "heading": "Tow Coupling Replacement Standards (SANS 1515)",
+        "body": "SANS 1515 requires that the tow coupling have a breaking load of at least 1.5 times the trailer's gross trailer mass. For a 1,500 kg trailer, the coupling must withstand 2,250 kg. The coupling must be SABS-approved and stamped with its rating. Welding a new coupling onto the A-frame requires V-groove full-penetration welds \u2014 tack welds are illegal. Safety chains rated to the full GTM are mandatory."
+      },
+      {
+        "heading": "Suspension and Spring Hanger Repairs",
+        "body": "Spring hangers take the full weight of trailer loads combined with road impacts. A broken hanger causes the axle to shift, leading to dangerous fishtailing. Replacement hangers must be welded to the chassis rail with 4\u20135 mm fillet welds on both sides. Position must be precisely measured to maintain axle alignment \u2014 even 5 mm misalignment causes uneven tyre wear and stability issues."
+      },
+      {
+        "heading": "Lighting and Electrical Compliance",
+        "body": "All trailer repairs must restore the lighting system to NRTA compliance: tail lights, brake lights, indicators (left/right), reflectors (rear red triangles mandatory for trailers over 750 kg), and number plate light. The flat-7 pin connector is the SA standard. Bouul welders check that no welding current passes through the trailer wiring (disconnect battery and earth close to the weld zone to prevent electronic damage)."
+      },
+      {
+        "heading": "Post-Repair Inspection and Documentation",
+        "body": "After repair, a full inspection covers: (1) weld quality \u2014 no undercut, porosity, or incomplete fusion, (2) coupling function \u2014 smooth operation and lock engagement, (3) suspension \u2014 spring hanger alignment, (4) brakes \u2014 if fitted, cable adjustment and function, (5) tyres \u2014 tread depth and pressure. The Bouul escrow release requires this checklist to be signed by both the welder and the trailer owner."
+      }
+    ]
+  },
+  {
+    "id": "industrial_shelving",
+    "tag": "Welding",
+    "title": "Industrial Shelving Fabrication: Welded Steel Storage for South African Workshops",
+    "subtitle": "Heavy-duty, pallet racks, and cantilever \u2014 how to commission safe steel shelving",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Industrial shelving collapses are common, costly, and dangerous",
+    "problemBody": "Welded steel shelving is the backbone of workshops, warehouses, and garage storage in South Africa. But poorly designed or welded shelving \u2014 undersized uprights, insufficient bracing, or tack-welded shelf supports \u2014 collapses under load. The Occupational Health and Safety Act (OHSA) requires load-rated shelving, but many fabricators deliver unlabelled racks that fail during loading.",
+    "bouulSolution": [
+      "Bouul matches you with structural welders who design shelving to your specific load requirements (light, medium, or heavy duty up to 2 tons per bay)",
+      "All quotes include load rating certification and OHSA compliance declaration",
+      "Bouul Escrow holds payment until a live load test at 110% of rated capacity is witnessed and passed"
+    ],
+    "partsNeeded": [
+      "Structural steel uprights (50 x 50 x 3 mm angle iron or 80 x 40 x 3 mm rectangular tube)",
+      "Shelf beams (C-channel 100 x 50 mm for heavy duty, 75 x 40 mm for medium)",
+      "E7018 welding rods or 1.0 mm MIG wire (gas-shielded for cleanness), diagonal bracing (flat bar or cable)",
+      "Base plates (150 x 150 x 6 mm) with anchor bolts, rust-inhibiting primer, bolt-on shelf decking (if removable shelves needed)"
+    ],
+    "guidePricing": "R 8,000 \u2013 R 20,000 for a 2.4 m high x 3 m wide x 0.6 m deep 4-tier warehouse rack including fabrication, welding, and installation. Heavy-duty pallet racking (2 ton per bay): R 15,000 \u2013 R 35,000 per bay.",
+    "timeline": "3\u20135 days for 3\u20135 bays including fabrication off-site, delivery, and installation. Anchor bolt concrete curing adds 24 hours before loading.",
+    "aiPromptExample": "What is the maximum weight per shelf for a 3-bay shelving unit with 100 x 50 mm C-channel beams spanning 2.4 m per shelf?",
+    "aiDiagnosisOutput": "A 100 x 50 mm C-channel beam spanning 2.4 m (SANS 10160 safe load table) carries approximately 800 kg uniformly distributed load per shelf when braced at 800 mm intervals. Three shelves per bay at 2.4 m bay width: 2.4 tons per bay total capacity. Safety factor must be 1.5 (SANS 10160), so the rated capacity should be set at 530 kg per shelf. The uprights must be 80 x 40 x 3 mm min with 50 x 50 x 3 mm angle cross-bracing.",
+    "escrowGuarantee": "Funds held until a live load test at 110% of the rated capacity is placed on each shelf level for 24 hours. Deflection must not exceed 1/200th of span. Results are documented and signed.",
+    "pirbStandard": "SANS 10160 (structural design loads) and OHSA Section 8 (general duties of employers). SANS 1174 \u2014 Standard for racking and shelving design covering load ratings, deflection limits, and stability bracing requirements.",
+    "articleSections": [
+      {
+        "heading": "Load Rating and Safety Factors",
+        "body": "Every industrial shelving unit must have a clearly displayed load rating per shelf level. The design must include a minimum safety factor of 1.5 (means it will hold 1.5x the rated load without failure). Deflection at rated load must not exceed span/200. Bouul welders stamp or affix a load-rating plate to each upright \u2014 visible from floor level \u2014 showing the maximum weight per shelf in kilograms."
+      },
+      {
+        "heading": "Welding and Bracing Requirements",
+        "body": "Shelf-to-upright connections require a minimum 5 mm fillet weld on both sides of the shelf beam. Diagonal bracing is mandatory on the back and sides of every bay \u2014 30 x 5 mm flat bar or 6 mm cable with turnbuckles. Without bracing, shelving racks collapse sideways under asymmetric loading. Bouul escrow includes a bracing inspection: if any bay lacks diagonal bracing, the welder must add it before payment releases."
+      },
+      {
+        "heading": "Floor Anchoring and Seismic Considerations",
+        "body": "Shelving taller than 2 m must be anchored to the floor with M10 or M12 expanding anchors at each upright base plate. In Cape Town (seismic zone 1 per SANS 10160-4), additional top-wall anchors or roof ties are recommended. Upright base plates must be a minimum 150 x 150 x 6 mm with 4 bolt holes. Bouul welders drill and fix anchors \u2014 no tapcon screws into concrete as they cannot achieve the required pull-out resistance."
+      },
+      {
+        "heading": "Material Selection for Different Load Classes",
+        "body": "Light-duty (up to 200 kg/shelf): 40 x 40 x 2 mm angle iron uprights, 75 x 40 x 2 mm C-channel beams. Medium-duty (up to 500 kg/shelf): 50 x 50 x 3 mm angle or 80 x 40 x 3 mm rectangular tube, 100 x 50 x 3 mm C-channel. Heavy-duty (up to 1,500 kg/shelf): 100 x 100 x 5 mm square tube uprights or I-beam sections, 150 x 75 x 4 mm C-channel beams. Understand your storage requirements before the quote \u2014 Bouul helps you estimate by asking what you plan to store."
+      },
+      {
+        "heading": "OHSA Compliance and Documentation",
+        "body": "The Occupational Health and Safety Act requires that all industrial shelving (1) has a load rating displayed, (2) is inspected annually by a competent person, (3) has a maintenance log. Bouul escrow release includes providing: (a) a compliance certificate signed by the welder confirming SANS 1174 adherence, (b) a recommended inspection schedule, (c) a floor-anchor torque-check report."
+      }
+    ]
+  },
+  {
+    "id": "pool_fence_welding",
+    "tag": "Welding",
+    "title": "Pool Fence Welding: Compliance with South African Pool Safety Regulations",
+    "subtitle": "Aluminium, steel, or stainless \u2014 the complete guide to welding a SANS-compliant pool enclosure",
+    "image": "/scenes/welders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Non-compliant pool fences in SA carry criminal liability",
+    "problemBody": "South Africa has some of the strictest pool fencing regulations in the world (SANS 10400 Part D). After the 2018 regulation update, local authorities can issue compliance certificates that require re-inspection on property transfer. Most DIY and many contractor-installed pool fences fail on vertical spacing (gap under 100 mm sphere), horizontal climbing elements, or gate self-latching requirements. A non-compliant fence can prevent property transfer and carries legal liability in the event of a child drowning.",
+    "bouulSolution": [
+      "Bouul matches you with welders who specialise in SANS 10400 Part D pool fencing \u2014 they carry the compliance measurement tools",
+      "Every quote includes a compliance guarantee: the fence will pass a municipal inspection or the welder rectifies at no cost",
+      "Bouul Escrow holds payment until you receive a signed Certificate of Compliance confirming SANS 10400 Part D requirements are met"
+    ],
+    "partsNeeded": [
+      "Aluminium or galvanised steel tube (25 x 25 mm square or 20 mm round for frame, 10\u201312 mm round for infill bars)",
+      "316-grade stainless steel welding wire (for aluminium \u2014 use 4043 grade filler rod; for steel \u2014 ER70S-6 MIG wire)",
+      "Self-closing hinges with adjustable tension, self-latching mechanism (release mechanism at 1,500 mm above ground)",
+      "Concrete mix for post footings (20 MPa), spirit level, tension wire/bar, gate posts (50 x 50 mm min), paint or powder coating"
+    ],
+    "guidePricing": "R 10,000 \u2013 R 18,000 for a 15 m run of powder-coated aluminium pool fence with a self-closing gate, including welding, footings, and compliance certificate. Stainless steel adds R 20,000 \u2013 R 35,000.",
+    "timeline": "2\u20134 days for 15\u201320 m of fencing. Day 1: post footings and concrete. Day 2: frame welding and infill installation. Day 3: gate hardware and final adjustments.",
+    "aiPromptExample": "I have a 15 mm gap under my existing pool gate. Does the new SANS 10400 Part D require me to fix this before I can sell my house?",
+    "aiDiagnosisOutput": "Yes \u2014 SANS 10400 Part D (amended 2018) states that the bottom gap of a pool gate must not exceed 100 mm from ground level. A 150 mm gap is non-compliant. A compliance certificate is now required for property transfers in most SA municipalities (Johannesburg, Cape Town, Durban, and Tshwane enforce it). Fix: a welder can add a brush seal or weld a bottom rail extension to close the gap. Budget R 800\u2013R 2,000 for the correction.",
+    "escrowGuarantee": "Funds held until a full compliance inspection passes: vertical spacing \u2264 100 mm, no horizontal climbing elements below 1,500 mm, gate self-closes from any position and self-latches, release mechanism at 1,500+ mm.",
+    "pirbStandard": "SANS 10400 Part D (as amended 2018) \u2014 Swimming pool safety barriers. Specifies barrier height (1.2 m min), gap limitations (100 mm sphere test), horizontal element restriction (spacing must exceed vertical or the barrier becomes climbable), and self-closing/latching gate requirements.",
+    "articleSections": [
+      {
+        "heading": "Understanding SANS 10400 Part D Requirements",
+        "body": "The standard requires: (1) barrier minimum height of 1.2 m above ground, (2) no opening larger than 100 mm \u2014 this includes between vertical bars, between bars and the ground, and between the gate and frame, (3) horizontal elements must be spaced so they do not form climbing rungs \u2014 if horizontal rails exist, vertical element spacing must be smaller than horizontal spacing, (4) gates must self-close from any open position and self-latch. Bouul welders carry a 100 mm gauge sphere and test every opening during installation."
+      },
+      {
+        "heading": "Aluminium vs Galvanised Steel vs Stainless Steel Fencing",
+        "body": "Aluminium is the most popular choice: lightweight, rust-proof, and easy to weld (4043 filler rod with spool gun). It costs R 500\u2013R 800 per linear metre installed. Galvanised steel is stronger but heavier and requires repainting every 5 years \u2014 R 400\u2013R 650 per metre. Stainless steel 316 is the premium option (R 1,200\u2013R 2,000 per metre) \u2014 mandatory within 15 km of the coast for rust-free longevity. Bouul matches you with welders experienced in your chosen material."
+      },
+      {
+        "heading": "Self-Closing Gate Mechanism and Testing",
+        "body": "The gate must close itself from any open position (from a full 90-degree swing). Self-closing hinges (adjustable spring tension) or a gravity hinge are acceptable. The latching mechanism must engage automatically on closing \u2014 a magnetic latch or gravity latch meets this requirement. The release mechanism (handle) must be at least 1,500 mm above ground level so a small child cannot reach it. Bouul's compliance checklist includes a gate-closing test: release the gate from 300 mm open position \u2014 it must latch without assistance."
+      },
+      {
+        "heading": "Post Installation and Concrete Footings",
+        "body": "Fence posts must be set in concrete footings 400 mm deep minimum (300 mm diameter for gate posts). The concrete mix must be 20 MPa or higher. Posts must be plumb and set at uniform spacing (typically 1,500\u20132,000 mm apart for tube fencing). The concrete must cure for 48 hours before the frame is welded to the posts. Bouul welders check curing time before proceeding \u2014 attaching frame to green concrete shifts the alignment."
+      },
+      {
+        "heading": "Certification and Property Transfer Requirements",
+        "body": "Municipalities increasingly require a Pool Barrier Compliance Certificate (SANS 10400 Part D) for property transfers. The certificate must be signed by a competent person \u2014 a registered architect, engineer, or approved inspector. Bouul escrow release includes providing this certificate. The inspection covers: barrier height, gap dimensions, gate function, and absence of climbable features. Keep the certificate with your property file \u2014 it is valid until the barrier is modified or removed."
+      }
+    ]
+  }
+]

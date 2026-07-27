@@ -1,0 +1,278 @@
+[
+  {
+    "id": "hatha-yoga",
+    "tag": "yoga-instructors",
+    "title": "Hatha Yoga: The Foundation Practice for Every Body",
+    "subtitle": "SAs most accessible yoga style - slow, deliberate, and perfect for building a strong foundation.",
+    "image": "/scenes/hatha-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is Hatha yoga too slow to be a real workout?",
+    "problemBody": "Hatha yoga is the umbrella term for physical yoga postures (asanas) and is typically taught as a slower-paced class where poses are held for longer. While it looks less intense than Vinyasa or Ashtanga, Hatha builds significant strength, flexibility, and body awareness through sustained holds. A 60-minute Hatha class burns 150-250 calories but the real benefits are improved posture, reduced stress, and better joint health. Cost: R80-R180 per class in SA.",
+    "bouulSolution": [
+      "Bouul yoga instructors list their style specialisation and level of classes they offer - choose a Hatha class marked Beginner or All Levels.",
+      "Arrive 10 minutes early to set up your mat and settle in. The first 5 minutes of class are for centring, not stretching.",
+      "Bouul Escrow protects you if the class is cancelled last minute or the instructor is not qualified to teach Hatha yoga."
+    ],
+    "partsNeeded": [
+      "Yoga mat (non-slip, 4-6mm thickness)",
+      "Yoga blocks (2), strap, and bolster",
+      "Comfortable, stretchy clothing",
+      "Water bottle and small towel"
+    ],
+    "guidePricing": "R80-R180 per drop-in class; R600-R1,200 for 10-class pass; R500-R1,000 per month for unlimited classes",
+    "timeline": "60-75 min per class; regular practice 2-4 times per week",
+    "aiPromptExample": "Describe the ideal hatha yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hatha yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Asana Structure",
+        "body": "A Hatha class typically follows a structure: (1) centring and breath awareness (5 min), (2) gentle warm-up stretches (10 min), (3) standing postures (warrior poses, triangle, balance poses - 25 min), (4) seated and supine postures (forward folds, twists, backbends - 15 min), (5) final relaxation (savasana - 10 min). Each posture is held for 5-10 breaths.\nThe sustained holds are what make Hatha strengthening - a 30-second hold builds muscular endurance that flowing styles do not."
+      },
+      {
+        "heading": "Alignment Over Effort",
+        "body": "Hatha yoga emphasises correct alignment in each posture. The instructor gives detailed verbal cues about the position of your feet, knees, hips, spine, and shoulders. Learning correct alignment in Hatha prevents injury when you later try more dynamic styles."
+      },
+      {
+        "heading": "Breath (Pranayama) in Hatha",
+        "body": "Breath control (pranayama) is integral. The instructor guides you to synchronise breath with movement, typically inhaling on upward or opening movements and exhaling on folding or twisting movements. This coordination calms the nervous system and deepens the posture."
+      },
+      {
+        "heading": "Props Are Tools, Not Crutches",
+        "body": "Blocks, straps, and bolsters are used to make postures accessible at every level. A block under the hand in triangle pose allows the spine to lengthen fully. A strap between the hands in seated forward fold creates space in the shoulders. Using props correctly shows intelligent practice, not weakness."
+      }
+    ]
+  },
+  {
+    "id": "vinyasa-yoga",
+    "tag": "yoga-instructors",
+    "title": "Vinyasa Yoga: Breath-Linked Movement in SA Studios",
+    "subtitle": "The dynamic, flowing style that synchronises each movement with a breath - popular and invigorating.",
+    "image": "/scenes/vinyasa-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is Vinyasa just faster Hatha?",
+    "problemBody": "Vinyasa yoga links breath with continuous, flowing movement - each transition is as important as the pose itself. Unlike Hatha (hold-focused), Vinyasa moves through poses more quickly, creating cardiovascular and muscular endurance benefits. A class typically moves through sun salutations, standing poses, balancing sequences, and a cool-down. Cost: R90-R200 per class. It is more physically demanding than Hatha and can burn 250-400 calories per hour-long class.",
+    "bouulSolution": [
+      "Bouul Vinyasa classes are categorised by level - Level 1 for breath-linked beginners, Level 2 for faster flows, Level 3 for advanced transitions.",
+      "Empty stomach recommended - a full meal within 2-3 hours of class can cause discomfort during twists and forward folds.",
+      "Bouul Escrow protects you if the instructor moves too fast for the stated class level or does not offer modifications."
+    ],
+    "partsNeeded": [
+      "Non-slip yoga mat (sticky surface critical for fast transitions)",
+      "Quick-dry, fitted clothing that doesnt shift during movement",
+      "Small towel for sweat",
+      "Water bottle with sports cap"
+    ],
+    "guidePricing": "R90-R200 per drop-in; R700-R1,400 for 10-class pass; R600-R1,200 per month for unlimited",
+    "timeline": "60-75 min per class; regular practice 3-5 times per week",
+    "aiPromptExample": "Describe the ideal vinyasa yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended vinyasa yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Vinyasa Flow Structure",
+        "body": "A typical Vinyasa class: (1) centring and intention setting, (2) warm-up with sun salutations (5-10 rounds), (3) standing pose sequence (warrior series, balancing poses - 25-30 min), (4) peak pose (the most challenging posture the sequence builds toward - 10 min), (5) cool-down with seated poses and twists, (6) savasana. The peak pose changes each class.\nThe sun salutation is the Vinyasa backbone. Each movement transitions on an inhale or exhale - there is no stopping between movements."
+      },
+      {
+        "heading": "Breath As Movement",
+        "body": "In Vinyasa, breath leads movement. The instruction is never lift your arms - it is inhale, sweep your arms up. The exhale signals the transition. This breath-movement connection calms the nervous system and keeps the mind present. When you lose the breath rhythm, the instructor guides you back."
+      },
+      {
+        "heading": "Modifications and Variations",
+        "body": "Vinyasa offers multiple expression levels for each pose. Downward dog always has option A (standard), option B (bent knees for hamstring tightness), and option C (puppy pose for wrist sensitivity). A good Vinyasa teacher offers options throughout the class without stopping the flow."
+      },
+      {
+        "heading": "Vinyasa and the Heat Factor",
+        "body": "SA summer Vinyasa classes can be intense even without heat specifically added. Drink water before class, bring a towel, and take childs pose whenever you need. It is not a test of endurance - it is a practice of self-awareness. Pushing through dizziness or nausea is counterproductive."
+      }
+    ]
+  },
+  {
+    "id": "ashtanga-yoga",
+    "tag": "yoga-instructors",
+    "title": "Ashtanga Yoga: The Structured Path to Discipline and Strength",
+    "subtitle": "The rigorous, set-sequence practice that builds incredible strength, flexibility, and mental focus through consistent repetition.",
+    "image": "/scenes/ashtanga-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is Ashtanga too hard for beginners?",
+    "problemBody": "Ashtanga yoga follows a fixed sequence of postures practiced in the same order every time. The Primary Series (Yoga Chikitsa) is the starting sequence and is demanding - it requires upper body strength, hamstring flexibility, and endurance. Beginners absolutely can start Ashtanga, but they work at their own pace within the primary series. Mysore-style classes allow each student to work on their current level. Cost: R100-R250 per class. It is the most physically demanding traditional yoga style.",
+    "bouulSolution": [
+      "Bouul Ashtanga instructors have completed the Ashtanga Vinyasa method authorised training - look for Sharath Yoga Centre certification or KPJAYI authorisation.",
+      "Mysore-style is how traditional Ashtanga is learned - the teacher works with you individually within the group setting.",
+      "Bouul Escrow protects you if the instructor pushes you into poses your body is not ready for or does not respect your current practice level."
+    ],
+    "partsNeeded": [
+      "Sticky yoga mat (non-slip, Ashtanga requires grip)",
+      "Yoga towel for sweat (you will sweat)",
+      "Yoga block (for your current level of standing poses)",
+      "Water nearby but not on the mat"
+    ],
+    "guidePricing": "R100-R250 per led class; R80-R180 per Mysore (self-practice) session; R500-R1,500 for an introductory Ashtanga workshop or weekend intensive",
+    "timeline": "60-90 min for led primary series; 45-90 min for Mysore practice (self-paced)",
+    "aiPromptExample": "Describe the ideal ashtanga yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended ashtanga yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Primary Series Sequence",
+        "body": "The Primary Series (Yoga Chikitsa - yoga therapy) includes approximately 75 postures in a fixed order: opening chants, sun salutations A and B (5-10 rounds each), standing poses, seated poses (the longest section), finishing sequence (inversions, backbends, closing), and savasana. Students learn the sequence gradually - you do not do all 75 on your first day.\nLearning the sequence takes months of consistent practice. The repetition is the point - each time you do the sequence, you go deeper into the postures."
+      },
+      {
+        "heading": "Mysore vs Led Classes",
+        "body": "Mysore self-practice: you arrive, set up your mat quietly, and begin your practice at your personal starting point. The teacher moves around the room giving individual adjustments and adding new poses as you are ready. Led class: the teacher calls every breath and transition for the entire group through the full primary series. Mysore is how Ashtanga is traditionally learned."
+      },
+      {
+        "heading": "The Breath (Ujjayi)",
+        "body": "Ashtanga uses Ujjayi breathing - a slightly constricted breath that creates a soft ocean sound in the throat. This breath maintains a steady rhythm throughout the practice, generates internal heat, and serves as a focal point when the practice becomes physically challenging. If you cant maintain Ujjayi, you are working too hard."
+      },
+      {
+        "heading": "What to Expect in Your First Class",
+        "body": "You will: do many sun salutations (you will learn the sequence by following the person next to you), be guided through standing poses, be given only as many seated poses as you are ready for, and receive hands-on adjustments from the teacher. You will sweat significantly. You may feel confused by the sequence - this is normal. Consistency teaches the sequence."
+      }
+    ]
+  },
+  {
+    "id": "beginner-yoga",
+    "tag": "yoga-instructors",
+    "title": "Yoga for Beginners: Starting Your Practice in SA",
+    "subtitle": "What every first-timer needs to know - what to bring, what to expect, and how to find the right class.",
+    "image": "/scenes/beginner-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "I am not flexible - can I do yoga?",
+    "problemBody": "The short answer is yes - flexibility is developed through yoga, not a prerequisite. A beginner yoga class assumes no prior experience, provides clear instructions, and uses props to make postures accessible. The class focuses on foundational poses, basic breath work, and building body awareness. Beginner classes in SA cost R80-R150 per session and are the most important step in building a sustainable yoga practice.",
+    "bouulSolution": [
+      "Bouul filters allow you to find Beginner Level 1 classes specifically - not All Levels classes that may be too advanced.",
+      "Inform the instructor before class that you are new - they will check in with you during the session.",
+      "Bouul Escrow protects you if a class marked Beginner is actually Level 2 or 3 pace."
+    ],
+    "partsNeeded": [
+      "Yoga mat (borrow from the studio if you dont have one)",
+      "Comfortable stretchy clothing (dressed to move, not to impress)",
+      "Water bottle",
+      "Open mind (leave your expectations by the door)"
+    ],
+    "guidePricing": "R80-R150 per drop-in beginner class; R500-R1,000 for a 4-week beginner course; R600-R1,200 per month for unlimited classes (including beginner sessions)",
+    "timeline": "45-60 min per class; 2-3 times per week for the first 8 weeks",
+    "aiPromptExample": "Describe the ideal beginner yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended beginner yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "What a Beginner Class Looks Like",
+        "body": "A typical beginner class: (1) the instructor explains the basic breathing technique (5 min), (2) gentle cat-cow and spinal movements (10 min), (3) foundational standing poses - mountain, forward fold, warrior I, warrior II, triangle (25 min), (4) seated poses - staff pose, seated forward fold, gentle twist (10 min), (5) savasana (final relaxation - 5-10 min). Every pose is demonstrated and explained step by step.\nThe pace is slow, the instruction is detailed, and there is no pressure to look like anyone else in the room."
+      },
+      {
+        "heading": "What Not to Compare",
+        "body": "Do not compare your practice to: the person on the next mat (they have been practicing for years), photos on Instagram (those are advanced practitioners, usually edited), or your own practice from a previous class (every day is different). The only comparison that matters is how you felt before class vs how you feel after."
+      },
+      {
+        "heading": "Sanskrit Names",
+        "body": "Many yoga teachers use Sanskrit names for poses. You will learn the common ones: Tadasana (mountain pose), Adho Mukha Svanasana (downward-facing dog), Virabhadrasana (warrior pose). If you dont understand the Sanskrit, the teacher should also use the English name or point to the pose. Feel free to ask."
+      },
+      {
+        "heading": "The First Month Expectation",
+        "body": "In your first month: you may feel awkward and uncoordinated (normal), your hamstrings may feel tight (yoga will help), you might be sore after class (take a rest day), some poses will feel impossible (they become possible with practice), and you will have at least one class where you feel great and one where you feel frustrated (both are normal parts of the journey)."
+      }
+    ]
+  },
+  {
+    "id": "prenatal-yoga",
+    "tag": "yoga-instructors",
+    "title": "Prenatal Yoga: Safe Practice for Pregnancy in SA",
+    "subtitle": "Modified yoga postures designed for each trimester - supporting your changing body and preparing for birth.",
+    "image": "/scenes/prenatal-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is yoga safe during pregnancy?",
+    "problemBody": "Prenatal yoga is specifically modified for pregnant bodies and is safe throughout pregnancy when taught by a qualified prenatal instructor. The class avoids positions that compress the abdomen, deep twists, backbends that compress the lower back, and inversions (unless you have a strong established practice). Focus is on pelvic floor strength, hip opening, breath work useful during labour, and relaxation. Cost: R80-R200 per class in SA.",
+    "bouulSolution": [
+      "Bouul prenatal yoga teachers hold specific prenatal certification - not all yoga teachers are qualified to teach pregnant students.",
+      "Get clearance from your midwife or OB-GYN before starting or continuing yoga during pregnancy.",
+      "Bouul Escrow protects you if the teacher uses contraindicated poses not suitable for your stage of pregnancy."
+    ],
+    "partsNeeded": [
+      "Yoga mat with extra cushioning",
+      "Yoga blocks (2), bolster, and blanket for support",
+      "Pillow or cushion for side-lying posture",
+      "Water bottle (pregnancy increases dehydration risk)"
+    ],
+    "guidePricing": "R80-R200 per drop-in prenatal class; R500-R1,200 for a 6-week prenatal course; often included in unlimited memberships at studios with prenatal programmes",
+    "timeline": "45-60 min per class; 2-3 times per week for optimal pregnancy wellness",
+    "aiPromptExample": "Describe the ideal prenatal yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended prenatal yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Trimester Modifications",
+        "body": "First trimester: avoid deep twists, hot yoga, and overstretching (relaxin hormone makes joints looser). Second trimester: focus on pelvic floor work, side-lying poses, and avoiding any lying flat on your back (compresses the vena cava). Third trimester: use props extensively, avoid deep squats if you have pelvic girdle pain, and include actively restful poses.\nPrenatal yoga classes are usually grouped by trimester - a first-trimester class looks different from a third-trimester class."
+      },
+      {
+        "heading": "Birth Preparation Breath Work",
+        "body": "Prenatal yoga teaches breathing techniques specifically useful during labour: slow deep breathing (for early labour management), candle breath (focused exhales for pushing), and sighing breath (for releasing tension between contractions). These techniques give you tools for the birth experience."
+      },
+      {
+        "heading": "Pelvic Floor Awareness",
+        "body": "Pelvic floor exercises are integrated into prenatal yoga. The instructor guides you to engage the pelvic floor on exhales and release on inhales. Strong pelvic floor muscles support the growing baby, reduce incontinence risk, and aid postpartum recovery. Never hold your breath while engaging the pelvic floor."
+      },
+      {
+        "heading": "Postpartum Return to Yoga",
+        "body": "After birth, wait at least 6 weeks (12 weeks for C-section) before returning to general yoga. The first postpartum classes should focus on pelvic floor recovery, core reconnection, and gentle movement. Avoid inversions, intense core work, and backbends until your pelvic floor and abdominal muscles have recovered."
+      }
+    ]
+  },
+  {
+    "id": "meditation-yoga",
+    "tag": "yoga-instructors",
+    "title": "Meditation and Yoga Nidra: The Mental Practice Behind the Physical",
+    "subtitle": "Yoga is not just asanas - meditation, breath work, and yoga nidra (yogic sleep) offer profound mental health benefits.",
+    "image": "/scenes/meditation-yoga.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "How is meditation different from just sitting quietly?",
+    "problemBody": "Meditation is a structured practice of training attention and awareness. Yoga meditation techniques include breath awareness (watching the natural breath), mantra repetition (repeating a sound or phrase), visualisation (guided imagery), and mindfulness (observing thoughts without attachment). Yoga Nidra (yogic sleep) is a guided deep relaxation practice that creates a state between waking and sleeping - research shows 20 minutes of Nidra provides rest equivalent to 2 hours of deep sleep. Cost: R50-R150 per session.",
+    "bouulSolution": [
+      "Bouul meditation teachers come from various traditions - choose a style (mindfulness, mantra, Yoga Nidra) that resonates with you.",
+      "Meditation is a skill - the first few sessions may feel frustrating. Consistency matters more than a quiet mind.",
+      "Bouul Escrow protects you if a guided meditation class is cancelled or the teacher is not qualified for the specific technique."
+    ],
+    "partsNeeded": [
+      "Comfortable cushion or meditation bench",
+      "Blanket (body temperature drops during relaxation)",
+      "Eye pillow or scarf to block light",
+      "Journal for post-meditation reflections"
+    ],
+    "guidePricing": "R50-R150 per drop-in meditation or Yoga Nidra class; R300-R800 for a 4-week meditation course; often included in yoga studio memberships",
+    "timeline": "30-60 min for most sessions; 20-30 min Yoga Nidra can be a standalone class",
+    "aiPromptExample": "Describe the ideal meditation yoga experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended meditation yoga plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Monkey Mind Myth",
+        "body": "The goal of meditation is not to stop thinking - that is impossible. The goal is to notice when your mind has wandered and gently bring it back to the chosen focus (breath, mantra, or sensation). Each time you notice wandering and return, you strengthen your attention muscle, like a bicep curl for the brain.\nIn SA yoga studios, teachers often use the African concept of Ubuntu (I am because we are) as a contemplative theme during meditation sessions."
+      },
+      {
+        "heading": "Yoga Nidra: The Deep Rest Practice",
+        "body": "Yoga Nidra is practiced lying down. The teacher guides you through a body scan (turning attention to each body part in sequence), breath awareness, a sankalpa (personal intention), and visualisation. The practice accesses a brainwave state between alpha and theta where deep healing occurs. It is accessible to everyone regardless of physical ability."
+      },
+      {
+        "heading": "Breath Work (Pranayama) Techniques",
+        "body": "Common meditation-Pranayama techniques taught in SA yoga studios: Nadi Shodhana (alternate nostril breathing for balancing the nervous system), Kapalabhati (forceful exhales for energising), Ujjayi (ocean breath for calming), and Bhramari (humming bee breath for releasing tension). Each technique has different effects on the nervous system."
+      },
+      {
+        "heading": "Building a Home Practice",
+        "body": "Start with 5 minutes per day of sitting quietly and watching your breath. Use a timer (not your phone if it will distract you). Same time, same place every day builds the habit. Expect your mind to wander. Each time you bring it back, consider that a successful rep. Gradually increase to 10-15 minutes over 4-6 weeks."
+      }
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "video-wedding-001",
+    "tag": "Wedding Videography",
+    "title": "Why Your Wedding Video Should Be More Than a 3-Minute Highlight Reel",
+    "subtitle": "The difference between a wedding film you watch once and one you treasure forever.",
+    "image": "/scenes/wedding_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "The R15,000 video that ended up in a drawer and never got watched again",
+    "problemBody": "You hire a videographer for your wedding because everyone says you'll regret not having a video. You pay R15,000 or more. A few months later, you receive a 3-minute highlight reel set to licensed music. It looks nice. You post it on social media. Everyone comments. Then you watch it again on your first anniversary, maybe. And that's it. The videographer kept all the raw footage, but you never see it. The speeches, the laughter during the toasts, your grandmother's prayer before the meal, the chaotic energy of the dance floor — all locked away on someone else's hard drive. You paid for a memory and got a commercial.",
+    "bouulSolution": [
+      "Bouul videographers offer transparent packages that clearly state what you get — highlight reel, full ceremony edit, full speeches, raw footage options",
+      "You can compare videographers by style (cinematic, documentary, or hybrid) and read reviews from real couples",
+      "Bouul escrow holds your payment until all promised deliverables are received and approved"
+    ],
+    "partsNeeded": [
+      "Sony FX6 or Canon C70 cinema camera for main angles",
+      "Gimbal (DJI RS4) for smooth walking and tracking shots",
+      "Wireless lavalier microphones for clear audio on vows and speeches",
+      "Drone for establishing aerial venue shots"
+    ],
+    "guidePricing": 15000,
+    "timeline": "Book 8-12 months before wedding. Pre-wedding consultation 1 month before. Full deliverables within 8-12 weeks after wedding.",
+    "aiPromptExample": "\"Write a wedding videography brief: vineyard wedding in Franschhoek, 80 guests, ceremony at 3 PM outdoors, reception indoors, couple wants cinematic style with natural audio, emphasise the mountain backdrop, must capture vows completely, highlight reel + 30-min feature film. Deliver drone shot of venue approach.\"",
+    "aiDiagnosisOutput": "\"Venue analysis: Outdoor ceremony at 3 PM in summer — harsh overhead light, recommend shaded ceremony area or timing shift to 4 PM. Mountain backdrop best captured with 85mm at f/2 for compressed depth. Indoor reception — scout for low-light capability, need fast glass (f/1.4-f/1.8) or additional lighting. Wind at vineyard will affect drone stability and lavalier audio — backup shotgun mic on-camera recommended. 80 guests — recommend 2-camera setup.\"",
+    "escrowGuarantee": "Bouul Escrow holds your videography fee. Funds release in stages — partial after raw footage delivery, final after all edited deliverables are approved. If deadlines are missed, you're protected.",
+    "pirbStandard": "SANS 10377: Event Videography Services — covers camera standards, audio protocols, delivery formats, backup requirements, and timeline expectations for wedding videography.",
+    "articleSections": [
+      {
+        "heading": "The three styles of wedding videography",
+        "body": "Cinematic style uses dramatic angles, colour grading, and licensed music to create a film-like highlight reel. Documentary style prioritises natural audio, longer cuts, and capturing events as they unfold without staging. Hybrid style blends both — a cinematic highlight reel plus a documentary edit of the ceremony and speeches. Most couples are happiest with hybrid because they get the shareable highlight reel AND the full memory preservation. Ask your videographer which style they specialise in and watch full example videos, not just the highlight reels."
+      },
+      {
+        "heading": "Audio is more important than video",
+        "body": "Good video with bad audio is unwatchable. Bad video with good audio is still moving. Wedding videographers should use dedicated audio recording — lavalier mics on the officiant and groom, a shotgun mic on the camera, and ideally a recorder at the sound desk for reception audio. Ask your videographer about their audio plan. If they only rely on the camera's built-in microphone, look elsewhere. Wind at outdoor venues, echo in churches, and loud reception backgrounds all need professional audio management."
+      },
+      {
+        "heading": "The raw footage question",
+        "body": "Some videographers include raw footage in their package; others charge extra or won't release it at all. If you want the unedited ceremony, all the speeches in full, and the funny moments that didn't make the highlight reel, negotiate for raw footage or a 'full ceremony edit' in your contract. Bouul packages make this clear upfront so there are no surprises after the wedding."
+      },
+      {
+        "heading": "Book through Bouul for transparent videography pricing",
+        "body": "Search videographers on Bouul with clear package comparisons. Every listing shows exactly what's included: reel length, number of cameras, audio setup, drone availability, raw footage policy, and delivery timeline. Read reviews from couples who've received their videos, not just booked. Your payment is protected by escrow. Watch portfolios in full, not just the showreel. The right videographer will make you cry every anniversary."
+      }
+    ]
+  },
+  {
+    "id": "video-corporate-002",
+    "tag": "Corporate Videography",
+    "title": "How Corporate Video Content Actually Makes You Money",
+    "subtitle": "The brands winning on social media and websites aren't lucky — they have a video strategy.",
+    "image": "/scenes/corporate_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your R50,000 corporate video has 47 views on YouTube",
+    "problemBody": "Your company spent good money on a corporate video. A professional crew, a full day of shooting, a polished edit. It sits on your website's About page. A few staff members shared it on LinkedIn. Total views: 47 in six months. Meanwhile, a competitor posts a 60-second iPhone video of their MD explaining a new service and gets 12,000 views on TikTok. The difference isn't budget — it's strategy. Corporate video production in South Africa has changed. The glossy, scripted, 3-minute brand film is dying. Short, authentic, targeted content is what works. But most businesses don't know how to brief a videographer for this new landscape.",
+    "bouulSolution": [
+      "Bouul lists corporate videographers who understand both traditional production and modern short-form content",
+      "You can find videographers by content type — brand films, product demos, testimonial shoots, social media content, or live event coverage",
+      "Bouul escrow protects your production fee with milestone-based release as deliverables are completed"
+    ],
+    "partsNeeded": [
+      "Cinema camera (Sony FX6 / RED Komodo) for primary interviews and b-roll",
+      "3-point lighting kit for professional interview setups",
+      "Lavalier and shotgun microphones for clean audio in any environment",
+      "Portable teleprompter for scripted pieces-to-camera"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Book 2-4 weeks before shoot. Pre-production (briefing, scripting, storyboard) takes 1 week. Shoot day. Post-production for final video within 10-14 business days.",
+    "aiPromptExample": "\"Brief for corporate video: fintech company, 3-minute brand film, interview-driven with b-roll of office and team at work, warm professional tone, include founder interview, customer testimonial clip, and product screen recording. Versions: full 3-min, 60-sec social cut, 15-sec teaser. Deliver MP4 and vertical versions.\"",
+    "aiDiagnosisOutput": "\"Content analysis: Interview-driven format requires careful lighting for CEO (often impatient, limited time). Scout office for best natural light and quietest interview space. B-roll needs variety — wide office shots, close-up on screens, team interaction, product in use. Deliver 3 aspect ratios means planning for 16:9 primary with 9:16 and 1:1 safe areas in frame from the start. Recommend two-camera interview setup for editing flexibility.\"",
+    "escrowGuarantee": "Bouul Escrow protects your corporate video investment. Funds release per agreed milestones — pre-production approval, raw footage delivery, final edit acceptance. If deliverables miss brief, you can hold payment until corrections are made.",
+    "pirbStandard": "SANS 10377: Event Videography Services — corporate video section covers production standards, audio specifications, delivery formats, and usage rights for commercial video content.",
+    "articleSections": [
+      {
+        "heading": "The new rules of corporate video in 2026",
+        "body": "South African audiences are scrolling past polished corporate content. What works now is authentic, fast, and useful. The 3-minute brand film that costs R80,000 and takes six weeks to produce has a shorter shelf life than ever. Instead, think in terms of a video content strategy: one anchor piece (the full story) that gets broken down into social cuts, testimonial clips, and raw behind-the-scenes moments. Brief your videographer for this upfront. If they only know how to produce one long film, find someone who understands the content ecosystem."
+      },
+      {
+        "heading": "Testimonials outperform everything",
+        "body": "Video testimonials from real customers consistently outperform brand-produced content in engagement and conversion. The formula is simple: a real person, in their own environment, talking about a specific result they got from your product or service. No script. No teleprompter. Just a guided conversation captured well. Brief your videographer to prioritise testimonial gathering. A full day of testimonial shoots can yield months of social media content."
+      },
+      {
+        "heading": "Delivery specs matter more than you think",
+        "body": "Before production begins, know exactly where each video will live. YouTube and websites use landscape 16:9. Instagram Reels, TikTok, and LinkedIn Stories need vertical 9:16. Some platforms prefer square 1:1. Professional videographers should deliver in multiple formats without you having to ask. Bouul listings let you see what delivery formats each videographer offers, so you're not stuck with a landscape-only video for a vertical-first platform."
+      },
+      {
+        "heading": "Find your corporate videographer on Bouul",
+        "body": "Bouul connects you with corporate videographers who understand the full content lifecycle — from concept to distribution. Compare portfolios that show actual corporate work, not just artistic passion projects. Read client reviews. Check package inclusions for multiple format delivery, raw footage access, and revision rounds. Book through the app, pay through escrow, and get videos that actually work for your business."
+      }
+    ]
+  },
+  {
+    "id": "video-music-003",
+    "tag": "Music Video Production",
+    "title": "How to Plan a Music Video That Doesn't Waste Your Budget or Your Crew's Time",
+    "subtitle": "A practical guide for South African musicians ready to level up their visual game.",
+    "image": "/scenes/music_video_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why that R30,000 music video looks like it cost R3,000",
+    "problemBody": "You've saved up. You've written the song. You've found a videographer who says they can shoot your music video for R30,000. The shoot day arrives, and nothing is planned. You're making up shots on the spot. The location doesn't look like what you imagined. The lighting is flat. The videographer is figuring out the concept as they go. Six weeks later, you get a video that looks like a home movie. You post it anyway because you paid for it. It gets 500 views. You blame the algorithm. The real problem was the planning — or lack of it. A music video's success is 80% determined before the camera starts rolling.",
+    "bouulSolution": [
+      "Bouul lists videographers with music video portfolios so you can see their actual work with artists, not just generic videography",
+      "You can compare production packages that include pre-production, shoot day, and post-production — with clear revision policies",
+      "Bouul escrow protects your payment with milestone releases tied to project completion stages"
+    ],
+    "partsNeeded": [
+      "High-frame-rate camera for slow-motion performance shots",
+      "Gimbal and slider for smooth camera movement in lip-sync sequences",
+      "LED colour lighting panels for mood and creative lighting scenes",
+      "Director's monitor for real-time shot review during production"
+    ],
+    "guidePricing": 25000,
+    "timeline": "Book 4-8 weeks ahead. Pre-production (concept, storyboard, location scouting): 2 weeks. Shoot: 1-2 days. Post-production: 3-4 weeks.",
+    "aiPromptExample": "\"Create a music video brief: Amapiano track, artist wants a performance video with a narrative element, two locations — an urban rooftop at golden hour and a warehouse night scene with coloured lighting, fast cuts synced to beat, include dance crew for chorus shots, deliver 3:30 final video plus 15-sec TikTok teaser.\"",
+    "aiDiagnosisOutput": "\"Production analysis: Two-location shoot requires strict schedule to capture golden hour on rooftop (approx 17:00-17:30 in SA winter). Warehouse night scenes need substantial LED RGB lighting — budget for rental. Dance crew choreography must be rehearsed before shoot day — schedule half-day rehearsal. Fast-cut editing means more footage needed per second of final video — plan for 4:1 shooting ratio minimum. Recommend shot list and storyboard approved before production begins.\"",
+    "escrowGuarantee": "Bouul Escrow protects your music video investment with staged payment release — pre-production approval triggers first release, raw footage delivery triggers second, final edit acceptance releases final balance.",
+    "pirbStandard": "SANS 10377: Event Videography Services — applicable to music video production including crew standards, equipment specifications, and post-production quality requirements.",
+    "articleSections": [
+      {
+        "heading": "The music video planning process",
+        "body": "A professional music video starts with a concept treatment — a 1-2 page document describing the visual approach, narrative (if any), locations, talent, and colour palette. From there, a storyboard or shot list is created so every shot on the day is planned. Lip-sync shots are mapped to specific lyrics. Performance sequences are choreographed with camera movement. The more detailed the pre-production, the better the final video. If your videographer wants to 'figure it out on the day,' find someone else."
+      },
+      {
+        "heading": "Budgeting for what actually costs",
+        "body": "The videographer's fee is only part of the cost. Location permits (especially for public spaces in SA cities), talent fees for dancers or actors, wardrobe, hair and makeup, lighting rental, drone hire, and catering for the crew all add up. A R30,000 videography package might cover camera and operator only. Ask upfront what's included and what's extra. Bouul packages clearly break down inclusions so you know exactly what you're paying for."
+      },
+      {
+        "heading": "Short-form cuts are now mandatory",
+        "body": "Your music video shouldn't just be a 3:30 YouTube upload. It needs a 60-second cut for Instagram Reels, a 15-30 second teaser for TikTok, and still frames for cover art and promotion. Brief your videographer to shoot and edit for these formats from the start. A good videographer will frame shots with social media safe zones in mind and deliver multiple cuts as part of the package."
+      },
+      {
+        "heading": "Bouul connects SA artists with the right video crew",
+        "body": "Find videographers who've worked with South African artists and understand the local music scene. Compare portfolios, read reviews from other musicians, and check that their style matches your sound. Book through Bouul with escrow protection. Your music deserves a visual that matches the energy of the track."
+      }
+    ]
+  },
+  {
+    "id": "video-social-004",
+    "tag": "Social Content Videography",
+    "title": "Stop Posting Boring Content: How Professional Videographers Give Your Brand a Voice",
+    "subtitle": "The brands winning on social media have one thing in common — they treat content production like a profession, not a hobby.",
+    "image": "/scenes/social_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your TikTok strategy won't work if every video looks like it was shot in a cupboard",
+    "problemBody": "You've been told you need to be on social media. So you're posting. Three times a week. Raw, unpolished, 'authentic' content. And it's getting 50 views. Meanwhile, a competitor in the same space is posting polished, well-lit product demos shot by someone who clearly knows what they're doing — and they're getting 50,000 views. The difference isn't budget. It's understanding that 'authentic' doesn't mean 'sloppy.' Professional social content doesn't look like a TV commercial. It looks like someone who cares about quality made it quickly. And that requires a videographer who understands social media, not just cinematography.",
+    "bouulSolution": [
+      "Bouul lists videographers who specialise in social media content — Reels, TikTok, YouTube Shorts, and LinkedIn video",
+      "You can find videographers offering recurring content packages — weekly or monthly shoots for consistent output",
+      "Bouul escrow protects your recurring content investment with milestone-based releases"
+    ],
+    "partsNeeded": [
+      "Mirrorless camera with good autofocus (Sony A7IV or similar) for quick social shoots",
+      "Compact LED panel for portable lighting anywhere",
+      "Wireless microphone for clear audio in any location",
+      "Smartphone rig for hybrid phone-camera content when appropriate"
+    ],
+    "guidePricing": 5500,
+    "timeline": "Book 1-2 weeks before first shoot. Monthly retainer packages available. Raw footage within 24 hours. Edited social clips within 3-5 business days per batch.",
+    "aiPromptExample": "\"Brief for social content videographer: beauty brand in Cape Town, need weekly content for Instagram Reels and TikTok, product close-ups with voiceover, B-roll of product use, before/after application shots, 4-6 clips per monthly shoot, each clip 15-60 seconds, vertical format, bright clean aesthetic with consistent lighting.\"",
+    "aiDiagnosisOutput": "\"Content strategy analysis: Beauty content needs consistent colour palette across all clips — recommend preset colour grade applied to all outputs. Product close-ups require macro capability or 85mm lens. Voiceover means clean audio essential — use lavalier or record in-call with professional mic. Vertical format non-negotiable. Bright aesthetic needs diffused lighting — no harsh shadows. Recommend monthly shoot day producing 12-15 clips for 4 weeks of content, giving the brand buffer.\"",
+    "escrowGuarantee": "Bouul Escrow handles recurring content packages with per-batch milestone releases. Each batch of social clips is approved before funds release. Consistent quality, consistent protection.",
+    "pirbStandard": "SANS 10377: Event Videography Services — social media content section covers delivery formats, aspect ratios, compression standards, and turnaround expectations for short-form video.",
+    "articleSections": [
+      {
+        "heading": "Content batching saves time and money",
+        "body": "Instead of hiring a videographer for one-off shoots, most brands save significantly by batching content. A single 4-hour shoot can produce 10-15 social clips. That's 2-3 weeks of content in half a day. The videographer brings all the gear once, sets up once, and the editing workflow is streamlined. Bouul's platform makes it easy to find videographers who offer recurring content packages — monthly shoots with a set number of deliverables."
+      },
+      {
+        "heading": "Consistency beats production value",
+        "body": "On social media, showing up consistently with decent quality beats irregular posts of perfect quality. A videographer on a monthly retainer who delivers 12 clips per month, every month, will grow your brand more than a once-off cinematic masterpiece that leaves you with nothing to post for the next three months. When briefing a videographer, prioritise volume and consistency. Save the cinematic work for hero campaigns."
+      },
+      {
+        "heading": "The behind-the-scenes advantage",
+        "body": "Some of the most engaging social content isn't the polished final product — it's the behind-the-scenes process. Customers love seeing how things are made, how products are created, and the people behind the brand. Brief your videographer to capture BTS content during every shoot. A few minutes of extra footage of your team laughing, setting up, or reviewing shots can become some of your most engaging posts."
+      },
+      {
+        "heading": "Find your social content videographer on Bouul",
+        "body": "Search Bouul for videographers offering social media packages. Look for portfolios that include actual social content, not just showreels. Check their understanding of platform-specific requirements — Reels and TikTok have different editing rhythms. Read reviews from brands who've worked with them long-term. Book through Bouul with escrow protection for every batch of content."
+      }
+    ]
+  },
+  {
+    "id": "video-recap-005",
+    "tag": "Event Recap Videography",
+    "title": "How to Capture Your Event on Video Without Disrupting It",
+    "subtitle": "The art of the invisible videographer — getting great footage while letting the event flow naturally.",
+    "image": "/scenes/event_recap_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "The event video that captured the catering setup but missed the keynote speech",
+    "problemBody": "You've organised a conference, a product launch, or a brand activation. The videographer was booked. The brief was sent. But the final video — a 2-minute recap — shows mostly people arriving, the catering table, and a wide shot of the room. The CEO's keynote, the emotional customer testimonial, the moment the audience laughed at the MC's joke — all missing. The videographer didn't have a shot list. They didn't know the schedule. They spent too much time on b-roll and missed the moments that mattered. A great event recap video requires planning, not just showing up with a camera.",
+    "bouulSolution": [
+      "Bouul lists event videographers who understand live coverage — they know how to work with event schedules and capture key moments without being intrusive",
+      "You can find videographers by event type — conference, product launch, gala, brand activation, sports — so you get someone with relevant experience",
+      "Bouul escrow protects your event coverage fee until all promised deliverables are received and approved"
+    ],
+    "partsNeeded": [
+      "Dual camera setup — one locked-off wide shot, one mobile for close-ups",
+      "Wireless microphone system for capturing speaker audio from the stage",
+      "Monopod for stable shooting during long events without the weight of a tripod",
+      "High-capacity batteries and media for up to 8 hours of continuous coverage"
+    ],
+    "guidePricing": 8000,
+    "timeline": "Book 3-6 weeks before event. Pre-event briefing 1 week before. Event-day coverage. 60-sec highlight reel within 24 hours. Full recap (3-5 min) within 10 business days.",
+    "aiPromptExample": "\"Write an event recap video brief: tech conference in Cape Town, 300 attendees, full-day event, need opening keynote coverage, panel discussion highlights, exhibitor hall b-roll, networking moments, and closing remarks. Deliver 60-sec social cut within 24 hours and full 3-min event recap within 10 days. Must capture speaker audio clearly.\"",
+    "aiDiagnosisOutput": "\"Event analysis: Full-day conference requires prepared power and media strategy — 300 attendees means crowded spaces for movement. Speaker audio critical — recommend direct feed from sound desk + backup lavalier on primary speakers. Keynote coverage needs both wide and close shot. Exhibitor hall needs walkthrough b-roll with exhibitor consent. Networking captured best with long lens from distance for natural behaviour. 60-sec highlights: prioritize most visually impactful moments and strongest speaker quotes.\"",
+    "escrowGuarantee": "Bouul Escrow holds your event videography fee. Funds release after deliverables are approved — highlight reel first, full recap on completion. If the videographer misses key moments due to lack of preparation, you're protected.",
+    "pirbStandard": "SANS 10377: Event Videography Services — covers live event coverage standards, audio capture protocols, and turnaround requirements for event recap productions.",
+    "articleSections": [
+      {
+        "heading": "The event schedule is your shot list",
+        "body": "A great event videographer works from the event schedule. They know when the keynote starts, when the awards happen, when the networking session is, and when the key moments will occur. Share your full event schedule with the videographer at least a week before. Mark the moments you absolutely need captured. A videographer who shows up without knowing the schedule will miss the important stuff."
+      },
+      {
+        "heading": "Audio strategy for event video",
+        "body": "Event video without clear audio is unwatchable. For speaker-led events (conferences, awards, launches), the videographer must capture clean audio from the stage. The best approach is a direct feed from the sound desk — a clean line recording of everything the speaker says through the house microphones. Backup this with a discreet lavalier on the main speakers if possible. For events without sound reinforcement, the videographer needs their own audio recording system. Ask your videographer about their audio plan before booking."
+      },
+      {
+        "heading": "The 'invisible' videographer approach",
+        "body": "The best event videographers are barely noticed. They move quietly, dress appropriately (all-black for formal events, smart-casual for conferences), and never ask attendees to repeat moments for the camera. They capture authentic interactions, not staged reactions. They know when to be close and when to stay back with a long lens. When reviewing portfolios, look for natural, unposed moments — not people looking at the camera and smiling."
+      },
+      {
+        "heading": "Book event videographers on Bouul",
+        "body": "Search Bouul for videographers by event type. Compare portfolios, read reviews from other event organisers, and check packages for same-day highlight delivery (essential for social media during the event). Book through Bouul with escrow protection. Your event deserves to be remembered properly."
+      }
+    ]
+  },
+  {
+    "id": "video-drone-006",
+    "tag": "Drone Videography",
+    "title": "Getting Off the Ground: A South African Guide to Drone Videography for Events",
+    "subtitle": "Aerial footage transforms event videography — here's how to use it legally and effectively.",
+    "image": "/scenes/drone_videographer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "The drone shot that got your videographer fined R50,000",
+    "problemBody": "You see those stunning aerial shots in event videos — the sweeping approach to a Cape Town vineyard wedding, the bird's-eye view of a packed conference hall, the dramatic reveal of a stadium from above. You want that for your event. So you find a videographer who owns a drone. Problem is, South Africa has strict drone regulations under the SACAA (South African Civil Aviation Authority). Flying a drone near crowds, over people, or within 10 km of an airport without the proper license (RPL — Remote Pilot License) and permissions is illegal. Fines start at R50,000. Your event video can land the videographer — and by extension, you — in serious legal trouble if the drone isn't flown legally. Here's what you need to know before booking drone footage.",
+    "bouulSolution": [
+      "Bouul requires videographers offering drone services to confirm they hold valid SACAA RPL (Remote Pilot License) and liability insurance",
+      "You can filter for videographers who offer drone footage and verify their credentials through their Bouul profile",
+      "Bouul escrow protects your payment until all deliverables including drone footage are received and approved"
+    ],
+    "partsNeeded": [
+      "SACAA-registered drone with valid RPL operator license",
+      "DJI Mavic 3 Pro or similar for high-quality aerial event footage",
+      "Extra batteries (4+) for extended event coverage",
+      "Liability insurance covering public event filming"
+    ],
+    "guidePricing": 6500,
+    "timeline": "Book 2-4 weeks ahead. SACAA flight plan filing and venue approval required. Aerial shoot typically 1-2 hours. Edited drone reel delivered within 5-7 business days.",
+    "aiPromptExample": "\"Brief for drone videography at events: coastal wedding in Camps Bay, need aerial establishing shot of venue from the ocean side, aerial shot of ceremony setup, and exit shot of couple walking along beach. Check airspace restrictions near signal hill. Need licensed operator with public liability insurance.\"",
+    "aiDiagnosisOutput": "\"Flight plan analysis: Camps Bay is within Cape Town International Airport CTR — special permission required for airspace. Coastal winds (afternoon sea breeze) may limit flight window to morning. Flying over beach wedding guests requires minimum safe distance per SACAA regulations. 30-metre ceiling sufficient for establishing shots without entering controlled airspace. Backup plan: Cliffside vantage point with 200mm lens if drone flight is denied.\"",
+    "escrowGuarantee": "Bouul Escrow protects your drone videography fee. Funds released only after all aerial footage is delivered and approved. If drone flight is cancelled for weather or permit issues, you only pay for ground-level footage captured.",
+    "pirbStandard": "SANS 10377: Event Videography Services — drone operations addendum covers SACAA compliance, RPL licensing, insurance requirements, and flight safety protocols for aerial event coverage.",
+    "articleSections": [
+      {
+        "heading": "Is your videographer legal to fly?",
+        "body": "South African drone regulations require the operator to hold a Remote Pilot License (RPL) issued by SACAA. The drone must be registered with SACAA and have a unique registration number visible on the airframe. The operator must also carry public liability insurance. Without these, any footage is captured illegally. When booking a drone videographer on Bouul, check their profile for RPL certification. Don't accept 'I have a drone' as a qualification. Ask for the RPL number and verify it."
+      },
+      {
+        "heading": "Where you can't fly",
+        "body": "Even with an RPL, many event locations are in restricted airspace. Anywhere within 10 km of an airport requires airspace approval. National key points (government buildings, military installations, power stations) are no-fly zones. Near crowds of people requires a minimum distance and specific permission. Game reserves and national parks have their own restrictions. National monuments may have restrictions. Your videographer should check flight restrictions for your specific venue before you book — and have a backup plan if approval is denied."
+      },
+      {
+        "heading": "Weather makes the call",
+        "body": "Drone footage relies entirely on weather. Strong wind (over 30 km/h), rain, low cloud, or poor visibility means no safe flight. Cape Town's summer wind, Durban's tropical storms, and the Highveld's afternoon thunder all affect drone operations. A professional drone videographer will have a weather contingency plan — ground-level footage options that still deliver value. The wind may cancel the drone, but it shouldn't cancel the whole shoot."
+      },
+      {
+        "heading": "Find licensed drone videographers on Bouul",
+        "body": "Bouul makes it easy to find videographers with valid SACAA drone credentials. Filter by drone services, verify licenses through profile certification, and read reviews from clients who used aerial footage at their events. Compare packages that clearly state what drone shots are included and what the weather backup plan is. Book through Bouul with escrow protection. Get the aerial shots that make your event unforgettable — legally."
+      }
+    ]
+  }
+]

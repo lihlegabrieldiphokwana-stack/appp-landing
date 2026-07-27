@@ -1,0 +1,302 @@
+[
+  {
+    "id": "legal-01",
+    "tag": "Contract Review",
+    "title": "Reading the Fine Print: What Every South African Should Know Before Signing",
+    "subtitle": "How a professional contract review saves you from hidden clauses and bad deals",
+    "image": "/scenes/pro_legal_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "80% of signed contracts contain at least one clause that disadvantages the weaker party",
+    "problemBody": "South African contract law is governed by the law of contract (Roman-Dutch common law) and specific statutes like the Consumer Protection Act (CPA) and the National Credit Act (NCA). The standard employment, service, or rental agreement is written by the stronger party\u2019s lawyer. It is designed to protect the drafter. Clauses buried in the fine print \u2014 automatic renewal, binding arbitration, limitation of liability, non-compete \u2014 can cost you millions or lock you into unfair terms for years. Yet fewer than 1 in 5 people have a lawyer review a contract before signing, often because they assume the cost is prohibitive.",
+    "bouulSolution": [
+      "Your Bouul-matched attorney conducts a full contract review, identifying high-risk clauses, unfair terms, omissions, and compliance gaps with the CPA or NCA.",
+      "You receive a plain-language Contract Review Report: red flags (must-change), amber flags (negotiable), and green flags (standard and fair).",
+      "If negotiation is needed, your attorney provides clause redrafts and negotiation strategy \u2014 handled directly or via your own engagement."
+    ],
+    "partsNeeded": [
+      "The full contract document (PDF or Word \u2014 all pages, including schedules and annexures)",
+      "Any related correspondence or negotiation history",
+      "Your specific concerns or questions about the contract",
+      "Deadline for review (if time-sensitive)"
+    ],
+    "guidePricing": 2500,
+    "timeline": "Standard review: 2\u20134 business days. Urgent review: 24-hour turnaround at 1.5x standard fee.",
+    "aiPromptExample": "A potential client received an independent contractor agreement for R85,000/month. The non-compete clause prohibits working with any client in the same industry for 12 months after termination. The territory is all of Africa. Write a brief explaining why this non-compete may be unenforceable under South African law (restraint of trade), and suggest alternative language.",
+    "aiDiagnosisOutput": "Risk: High. The restraint of trade clause is likely unenforceable as drafted. Under South African common law (Basson v Chilwan), a restraint is enforceable only if (1) there is a legitimate proprietary interest (trade secrets, confidential info, customer connections), (2) the restraint protects that interest, (3) the interest outweighs the public interest in free trade, and (4) the restraint is reasonable in geographic scope and duration. A blanket 12-month Africa-wide non-compete for an R85k/month contractor role fails on all four prongs. Recommended: narrow to 3 months, SA only, limited to clients explicitly named during the contract term.",
+    "escrowGuarantee": "Your contract review fee is held in escrow. Payment releases only when the Contract Review Report is delivered and you confirm it addresses all your concerns.",
+    "pirbStandard": "LPC (Legal Practice Council) \u2014 all Bouul-matched attorneys are enrolled with the LPC, holding Fidelity Fund certificates as required by the Legal Practice Act (Act 28 of 2014).",
+    "articleSections": [
+      {
+        "heading": "The Consumer Protection Act and your contracts",
+        "body": "The CPA applies to every transaction for goods or services between a supplier and a consumer in South Africa. Key protections include: the right to fair contract terms (Section 48 \u2014 no terms that are unfair, unreasonable, or unjust), the right to plain and understandable language (Section 22), and the right to cancel fixed-term agreements with 20 business days notice. Any term that excludes liability for death or personal injury caused by gross negligence is void. Bouul attorneys flag CPA violations in contracts automatically during review."
+      },
+      {
+        "heading": "Automatic renewal clauses: the hidden trap",
+        "body": "Many service contracts contain automatic renewal clauses that bind you for another full term unless you cancel within a narrow window \u2014 typically 30\u201360 days before renewal. The CPA requires suppliers to notify consumers of impending renewals 30\u201380 days in advance and give a renewal notice period of at least 40 business days. Your Bouul attorney identifies automatic renewal clauses and either negotiates them out or sets calendar reminders for the termination window."
+      },
+      {
+        "heading": "Limitation of liability: what you can and cannot limit",
+        "body": "SA law distinguishes between liability that can be limited (consequential damages for breach of a commercial contract) and liability that cannot (death, personal injury from gross negligence, fraud). A clause saying liability is limited to the contract value is standard in IT services, but may be contested if not specifically drawn to your attention. Bouul attorneys assess each limitation clause against common law, the CPA, and industry practice."
+      },
+      {
+        "heading": "Dispute resolution: arbitration vs litigation",
+        "body": "Most commercial contracts require arbitration \u2014 a private hearing before an arbitrator whose decision is final and binding. Advantages: faster (3\u20136 months versus 12\u201318 months in court), private, and the arbitrator can be an industry expert. Disadvantages: no appeal on the merits, and the cost of the arbitrator (R5,000\u2013R15,000 per day) is shared. Bouul attorneys review arbitration clauses and advise which approach better serves your interests."
+      },
+      {
+        "heading": "When to walk away: termination rights and penalties",
+        "body": "Every contract should have clear termination provisions. The CPA gives consumers the right to cancel fixed-term agreements with 20 business days notice and a reasonable cancellation penalty (limited to the supplier\u2019s direct costs incurred up to cancellation). Early termination penalties that equal 100% of remaining contract value are presumptively unfair. Your Bouul attorney ensures termination rights are balanced."
+      },
+      {
+        "heading": "Registering with the LPC: what it means for your attorney",
+        "body": "The Legal Practice Act 2014 requires every legal practitioner in South Africa to be enrolled with the Legal Practice Council. Each practitioner holds a Fidelity Fund certificate that covers clients against theft of funds up to R10 million. Before engaging an attorney, verify their LPC enrolment status and Fidelity Fund certificate expiry date. Bouul verifies every attorney on our platform against the LPC database."
+      }
+    ]
+  },
+  {
+    "id": "legal-02",
+    "tag": "Divorce",
+    "title": "Navigating Divorce in South Africa: Process, Rights, and Fair Outcomes",
+    "subtitle": "Understanding contested vs uncontested divorce, the accrual system, and parenting plans",
+    "image": "/scenes/pro_legal_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "The average contested divorce in SA takes 18 months and costs R150,000 in legal fees",
+    "problemBody": "South Africa has one of the highest divorce rates on the continent, with over 25,000 divorces granted annually. The emotional toll is matched by the financial one: contested divorces where parties cannot agree on assets, custody, or maintenance routinely exceed R150,000 in legal fees, and the process drags on for 12\u201324 months. The key financial battlegrounds are the accrual system (for marriages out of community of property), pension fund interests (which are assets subject to division), and spousal maintenance claims. Uncontested divorces, by contrast, can be finalised in 4\u20136 weeks for under R15,000 if parties agree on all terms.",
+    "bouulSolution": [
+      "Your Bouul-matched family law attorney assesses your marital regime \u2014 in community, out of community with or without accrual \u2014 and explains how assets, debts, and pension interests will be divided.",
+      "We manage the full process: drafting the settlement agreement, parenting plan (if children are involved), and the consent paper for an uncontested divorce, or full litigation support for contested matters.",
+      "The divorce order and settlement agreement are lodged with the High Court or Regional Court, and the final decree is delivered and registered."
+    ],
+    "partsNeeded": [
+      "Marriage certificate and antenuptial contract (if applicable)",
+      "Full asset and liability schedule for both parties (property, vehicles, investments, debt)",
+      "Pension fund statements and retirement annuity valuations",
+      "Children\u2019s details (full names, ID numbers, school reports) for parenting plan preparation"
+    ],
+    "guidePricing": 8500,
+    "timeline": "Uncontested divorce: 4\u20136 weeks. Contested divorce: 6\u201318 months depending on court roll and complexity.",
+    "aiPromptExample": "A client is getting divorced, married out of community with accrual for 12 years. The accrual calculation shows the husband's estate grew by R2.8 million and the wife's by R400,000. They have one minor child aged 9. Write a briefing explaining: the accrual formula ((H's growth - W's growth) / 2 = R1.2m payable from H to W), the child maintenance guidelines, and why mediation is recommended before litigation.",
+    "aiDiagnosisOutput": "Accrual claim: R2.8m - R400,000 = R2.4m net growth. Wife is entitled to half = R1.2m. This is a claim against the husband's estate, not a debt \u2014 it can be paid in instalments or satisfied by asset transfer. Child maintenance: both parents are liable proportionally based on income. Guidelines: 17% of the combined monthly income for one child (Bergman v Bergman sliding scale). If husband earns R80k/month and wife R25k/month, husband pays 76% of the child's reasonable needs. Recommended: single mediation session to agree on accrual payment terms and maintenance before filing \u2014 saves an estimated R40k\u2013R80k in litigation costs.",
+    "escrowGuarantee": "Legal fees for divorce matters are held in escrow. Payment releases in stages aligned to milestones: 25% on filing, 25% on interim order, 50% on final decree and your confirmation of satisfaction.",
+    "pirbStandard": "LPC \u2014 Bouul family law attorneys are LPC-enrolled with demonstrated experience in the Divorce Act (Act 70 of 1979), Mediation in Certain Divorce Matters Act, and Children's Act (Act 38 of 2005).",
+    "articleSections": [
+      {
+        "heading": "Marital regimes in South African law",
+        "body": "South Africa recognises three marital property regimes. In community of property: all assets and debts are shared equally \u2014 each spouse owns 50% of everything acquired before and during the marriage. Out of community with accrual: assets acquired before marriage remain separate, but the growth in each estate during the marriage is shared equally on divorce. Out of community without accrual: each spouse keeps their own assets and growth \u2014 full separation. The regime is determined by the antenuptial contract. Bouul attorneys review your marriage contract first and explain exactly how the division of assets will work before any negotiations begin."
+      },
+      {
+        "heading": "The parenting plan: not optional when children are involved",
+        "body": "Section 18 of the Children's Act requires parents to exercise joint parental responsibilities and rights. A parenting plan formalises: primary residence (where the child lives most of the time), contact arrangements (visitation, holidays, school breaks), communication methods (phone calls, video calls), and decision-making (education, healthcare, religious upbringing). Courts require a parenting plan that serves the child's best interests. If parents cannot agree, a Family Advocate investigation (Section 8 of the Mediation in Certain Divorce Matters Act) is ordered. Bouul attorneys draft parenting plans that are practical, specific, and aligned to the child's routine rather than left vague."
+      },
+      {
+        "heading": "Pension funds: the largest asset most couples overlook",
+        "body": "Pension fund interests are assets subject to division on divorce under Section 7(8) of the Divorce Act. The non-member spouse is entitled to a share of the pension interest accrued during the marriage \u2014 calculated using the formula: pension interest at divorce date \u00d7 (years of marriage during pension membership / total years of pension membership) \u00d7 50% (if in community of marriage or accrual applies). The fund pays the non-member spouse directly when the member's benefits become payable. Most couples either ignore the pension fund entirely or accept a cash payment in exchange. Bouul attorneys ensure pension fund valuations are obtained from the fund actuary before settlement."
+      },
+      {
+        "heading": "Spousal maintenance: temporary vs permanent",
+        "body": "The court may order spousal maintenance during the divorce proceedings (maintenance pendente lite \u2014 interim maintenance to keep the lower-earning spouse's lifestyle stable) and after the divorce (post-divorce maintenance). Interim maintenance is based on the pre-divorce standard of living. Post-divorce maintenance is rare \u2014 usually only for long marriages where one spouse gave up a career, or where there is a significant income disparity. The Maintenance Act requires both spouses to support each other according to their respective means. Bouul attorneys ensure maintenance claims are supported by a detailed needs analysis and income schedule."
+      },
+      {
+        "heading": "The role of mediation in divorce",
+        "body": "Mediation is a voluntary process where a neutral third party helps divorcing couples reach agreement on asset division, maintenance, and parenting. It is not therapy \u2014 it is a structured negotiation aimed at reaching a settlement. Advantages: 70% of mediated divorces settle without litigation; costs are R5,000\u2013R15,000 versus R50,000\u2013R150,000 for a fully contested divorce; and mediated settlements are reached in 2\u20134 sessions versus 12\u201324 months in court. The court may require mediation before granting a trial date. Bouul attorneys offer mediation referrals as a first step in every divorce engagement."
+      },
+      {
+        "heading": "Uncontested divorce: the fast track",
+        "body": "An uncontested divorce requires the parties to agree on ALL terms: asset division, maintenance, pension interests, and parenting. A settlement agreement is drafted, signed by both parties, and filed with the court together with a consent paper confirming no contest. The court is asked to make the settlement agreement an order of court. Most uncontested divorces are heard in the Regional Court (same legal effect as High Court for divorces) and granted within 4\u20136 weeks. Bouul family law attorneys recommend uncontested divorce whenever there is a basis for agreement, and provide settlement agreement templates and negotiation support to get there."
+      }
+    ]
+  },
+  {
+    "id": "legal-03",
+    "tag": "Estate Planning",
+    "title": "Drafting an Estate Plan That Actually Protects Your Family",
+    "subtitle": "Wills, trusts, and powers of attorney \u2014 getting the legal foundation right",
+    "image": "/scenes/pro_legal_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "60% of South Africans die without a valid Will \u2014 their assets go to the Master of the High Court",
+    "problemBody": "Dying intestate (without a valid Will) means your estate is distributed according to the Intestate Succession Act. Your surviving spouse may not receive the full estate \u2014 in some cases, children from a previous marriage receive half. The process takes 12\u201324 months versus 6\u201312 months with a Will. The Master of the High Court must appoint an executor (at 3.5% of the estate value), and the Guardian's Fund takes control of minor children's inheritances. An estate plan is not just a Will: it includes trust structures, life insurance ownership, retirement fund beneficiary nominations, and powers of attorney. Most South Africans have none of these.",
+    "bouulSolution": [
+      "Your Bouul-matched attorney conducts a full estate planning review: current Will, asset register, insurance policies, retirement fund beneficiaries, and business interests.",
+      "We draft or update your Will, trust documentation (if needed), and powers of attorney \u2014 all aligned to your family structure and asset profile.",
+      "The final estate plan is delivered as a bound document with all signed originals, beneficiary nomination forms updated, and a yearly review calendar."
+    ],
+    "partsNeeded": [
+      "Existing Will and any trust deeds (if any)",
+      "Full asset register (property, investments, business interests, vehicles, personal effects)",
+      "Life insurance policies and retirement fund beneficiary nomination forms",
+      "Details of dependants (minor children, special needs dependants, elderly parents)"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Will drafting or update: 3\u20135 business days. Full estate plan including trust: 7\u201314 business days.",
+    "aiPromptExample": "A client aged 45 has a R6.5m estate (R3m house, R1.5m RA, R1m investments, R1m life insurance). They are married with two minor children (aged 8 and 6). Write a brief explaining why a testamentary trust in their Will is essential (children cannot inherit directly until 18 \u2014 Guardian's Fund and the age of majority limitations), and recommend the optimal trust dissolution age (typically 25).",
+    "aiDiagnosisOutput": "Recommendation: Standard testamentary trust included in Will. Without it, the children's R2.6m inheritance (R6.5m less R3.5m abatement less spousal bequests = approx R2.6m dutiable estate value) goes to the Guardian's Fund. The fund pays maintenance but holds the capital until age 18 \u2014 at which point the child receives the full amount with no further oversight. A testamentary trust with dissolution at age 25 provides professional trusteeship, staggered distributions (education expenses from 18\u201325, full control at 25), and income tax efficiency (trust can distribute income to children at their lower tax rate). Estimated cost of trust administration: R3,000\u2013R5,000 per year \u2014 modest compared to the protection provided.",
+    "escrowGuarantee": "Estate planning fees are held in escrow. Payment releases when the signed, original documents are delivered and you confirm the plan covers all identified needs.",
+    "pirbStandard": "LPC \u2014 Bouul estate planning attorneys are LPC-enrolled with the Master of the High Court as executors and trustees.",
+    "articleSections": [
+      {
+        "heading": "The Will: more than a signature",
+        "body": "A valid Will in South Africa must be in writing, signed by the testator (you) on each page in the presence of two competent witnesses (who cannot be beneficiaries), and signed by the witnesses in your presence. These formalities are strict \u2014 any deviation renders the Will invalid and your estate goes to intestate succession. Bouul attorneys handle the execution ceremony: they ensure witnesses are present, all pages are properly signed, and the Will is executed without technical defects. Digital/holographic Wills are not recognised in SA."
+      },
+      {
+        "heading": "Testamentary trusts vs inter vivos trusts",
+        "body": "A testamentary trust is created by your Will and only comes into existence on your death. It holds assets for minor children until they reach a specified age. An inter vivos trust is created during your lifetime and can hold assets like life insurance, investments, and business interests \u2014 removing them from your personal estate for estate duty purposes. Both types of trusts require trustees (at least one should be a professional trustee) and annual financial statements. Bouul attorneys advise on which trust structure serves your needs, or whether a simple Will is sufficient."
+      },
+      {
+        "heading": "Life insurance and estate planning",
+        "body": "Life insurance is a critical estate planning tool. If owned by you personally, the payout forms part of your estate \u2014 subject to executor fees (3.5% of the proceeds) and estate duty (above R3.5m). If owned by an inter vivos trust or your spouse, the payout bypasses your estate \u2014 no executor fees and no estate duty. Retirement annuity death benefits are governed by Section 37C of the Pension Funds Act and are paid to the nominated beneficiaries at the trustees' discretion \u2014 they do not form part of your estate for duty purposes but do not follow the exact distribution in your Will either. Bouul attorneys ensure insurance is owned by the correct entity."
+      },
+      {
+        "heading": "Powers of attorney: planning for incapacity",
+        "body": "A general power of attorney becomes invalid if you lose mental capacity. For long-term planning, you need either a continuing power of attorney (registered under the common law) or a property management order from the High Court. The optimal approach is a trust structure combined with a carefully drafted mandate that survives incapacity. Without this, if you become incapacitated by accident or illness, your family needs to apply to the High Court for a property management order \u2014 a process that takes 4\u20136 months and costs R30,000\u2013R50,000. Bouul attorneys include incapacity planning in every comprehensive estate plan."
+      }
+    ]
+  },
+  {
+    "id": "legal-04",
+    "tag": "Business Registration",
+    "title": "CIPC Company Registration: A Legal Guide to Getting It Right First Time",
+    "subtitle": "From name reservation to MOI \u2014 every step explained by a practising attorney",
+    "image": "/scenes/pro_legal_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "CIPC rejects 60% of first-time company registrations on technical grounds",
+    "problemBody": "The Companies and Intellectual Property Commission processes over 500,000 company registrations annually, but most entrepreneurs are caught out by the requirements. Name reservations are rejected for similarity to existing names or trademarks. Company types are selected incorrectly. The Memorandum of Incorporation is filed without required clauses. Directors' details (especially ID numbers and residential addresses) don't match CIPC records. Each rejection costs time (CIPC takes 3\u201310 business days to process each attempt) and money (name reservation fees are non-refundable). The Companies Act sets strict requirements for company constitution, and getting it wrong means your company is not legally constituted.",
+    "bouulSolution": [
+      "Your Bouul-matched company law attorney handles the full CIPC registration: name reservation (3 options with ordered preference), company type selection (Pty Ltd, Inc, NPC, personal liability), and MOI drafting.",
+      "We lodge the CoR14.1 or CoR14.3 form with all supporting documents, including certified ID copies, proof of address, and the MOI.",
+      "After registration, we file your annual return confirmation, register for B-BBEE verification, and provide your Compliance Pack: CIPRO certificate, MOI, and company register."
+    ],
+    "partsNeeded": [
+      "Proposed company name (3 options in order of preference \u2014 Bouul checks availability first)",
+      "Director and shareholder details (ID numbers, tax numbers, residential addresses)",
+      "Registered office physical address (not a PostNet \u2014 section 23(3) of the Companies Act)",
+      "Memorandum of Incorporation (Bouul provides a compliant template)"
+    ],
+    "guidePricing": 3500,
+    "timeline": "Name reservation: 1\u20133 business days. Full registration: 5\u201310 business days from submission of complete documents.",
+    "aiPromptExample": "Two friends want to start a consulting company. One is a UK resident, the other is a SA citizen. They ask about the legal requirements for a foreign director, the minimum number of directors, and the annual compliance obligations. Write an advisory covering the Companies Act requirements: minimum one director per private company, foreign directors need no special permit but must provide a foreign address on the register, and annual CIPC return requirements.",
+    "aiDiagnosisOutput": "Company structure: Pty Ltd (private company) \u2014 standard for 2-person consulting business. Minimum directors: 1 (Companies Act Section 66). Foreign director: permitted \u2014 no residency requirement, but the company's registered address must be in SA and the foreign director's address on the register must be their physical foreign address (not a SA postal address). Annual CIPC return: due within 30 business days of the anniversary of incorporation. Fee: R310. Late filing penalty: R470 for the first month, scaling to a maximum of R4,150. Recommended: include a Co-MOI clause that gives both directors equal voting rights, and set up a share structure of 100 ordinary shares split 50/50.",
+    "escrowGuarantee": "Business registration fees are held in escrow. Payment releases when CIPC issues the registration certificate and you confirm receipt of your Compliance Pack.",
+    "pirbStandard": "LPC \u2014 Bouul company law attorneys are LPC-enrolled with demonstrated expertise in the Companies Act (Act 71 of 2008) and CIPC registration procedures.",
+    "articleSections": [
+      {
+        "heading": "Choosing the right company type",
+        "body": "A private company (Pty Ltd) is the most common \u2014 minimum one director, no public share offering, limited liability. A personal liability company (Inc) is required for certain professionals (accountants, attorneys, engineers) and makes directors jointly liable for company debts. A non-profit company (NPC) needs at least three directors and has specific MOI requirements. Each type has different filing requirements, director liability, and tax treatment. Bouul attorneys help match the company type to your business activities before filing."
+      },
+      {
+        "heading": "The MOI: your company constitution",
+        "body": "The Memorandum of Incorporation is the company's founding document. It governs: director appointment and removal, share classes and rights, share transfer restrictions, and meeting procedures. A standard MOI from CIPC covers basic requirements, but a customised MOI properly addresses: different share classes (voting vs non-voting), pre-emptive rights on new share issues, director borrowing limits, and dispute resolution mechanisms. Bouul attorneys draft custom MOIs that anticipate common disputes between shareholders."
+      },
+      {
+        "heading": "Company registers and record-keeping",
+        "body": "Every company must maintain statutory registers: register of directors, register of shareholders, register of secretaries (if any), register of debentures (if applicable), and minutes of all board and shareholder meetings. These registers must be kept at the registered office and made available for inspection. Failure to maintain registers is an offence under the Companies Act. Bouul's Compliance Pack includes a template company register and guidance on meeting minute requirements."
+      },
+      {
+        "heading": "Annual returns and compliance calendar",
+        "body": "Within 30 business days of each anniversary of incorporation, every company must file an annual return with CIPC, confirming: registered address, director details, shareholding, and financial year-end. Fee: R310 for standard companies. The annual return must be accompanied by annual financial statements (for public companies) or a financial accountability supplement (for private companies). Late filing triggers escalating penalties. Bouul attorneys set up a compliance calendar with automated annual return reminders."
+      }
+    ]
+  },
+  {
+    "id": "legal-05",
+    "tag": "Civil Litigation",
+    "title": "Understanding Civil Litigation in South Africa: Process, Costs, and Strategy",
+    "subtitle": "From letter of demand to trial \u2014 what to expect when you take someone to court",
+    "image": "/scenes/pro_legal_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "90% of civil disputes settle before trial \u2014 but only if you have the right legal strategy",
+    "problemBody": "South African courts hear over 500,000 civil cases annually. The vast majority settle out of court \u2014 but they settle because one party has a strong case, backed by proper legal representation. The civil litigation process starts with a letter of demand, escalates through summons, plea, and discovery, and ends either in settlement or trial. Each stage costs money: drafting fees, court fees, counsel's fees, and expert witness fees. A High Court matter can easily exceed R100,000 in legal costs before trial. The key to cost-effective litigation is case assessment: knowing when to pursue, when to settle, and when to walk away.",
+    "bouulSolution": [
+      "Your Bouul-matched litigation attorney conducts a case assessment: strengths, weaknesses, likely quantum, costs projection, and settlement probability \u2014 before any court step is taken.",
+      "We manage the full litigation process: letter of demand, summons and particulars of claim, plea and counterclaim, discovery, and trial preparation.",
+      "Where appropriate, we pursue alternative dispute resolution (mediation or arbitration) to reduce cost and time."
+    ],
+    "partsNeeded": [
+      "Full chronology of events (dates, key people, amounts involved)",
+      "All written correspondence, emails, WhatsApp messages, and contracts related to the dispute",
+      "Proof of loss or damage (invoices, receipts, quotations, bank statements)",
+      "Any previous court documents or settlement offers"
+    ],
+    "guidePricing": 5000,
+    "timeline": "Letter of demand: 2\u20133 business days. Full litigation from summons to trial: 12\u201318 months (High Court) or 8\u201312 months (Magistrate's Court).",
+    "aiPromptExample": "A client supplied R145,000 in goods to a customer who has not paid for 90 days despite 4 reminders. The contract has a valid interest clause (2% above repo rate). Write a letter of demand structure: identify the parties, reference the contract, state the outstanding amount including interest calculation, give 14 days to pay, and state the consequences of non-payment (legal costs, collection fees).",
+    "aiDiagnosisOutput": "Claim assessment: Strong. Clear contractual obligation, goods delivered and accepted, 90 days overdue. Interest calculation: R145,000 \u00d7 13.75% (repo 11.75% + 2%) for 90 days = R4,918 in accrued interest. Letter of demand: give 14 business days for payment. Estimated legal costs for summons: R8,500\u2013R12,500 (High Court) or R4,500\u2013R7,500 (Magistrate's Court as claim is under R400,000). Recommended: Magistrate's Court \u2014 faster, lower cost, same legal enforceability. Settlement probability: 75% \u2014 most debtors pay on receipt of a properly drafted letter of demand from an attorney.",
+    "escrowGuarantee": "Litigation fees are held in escrow. Payment is released in stages aligned to milestones. If the attorney fails to take an agreed step without reasonable cause, Bouul covers the wasted costs.",
+    "pirbStandard": "LPC \u2014 Bouul litigation attorneys are LPC-enrolled with rights of appearance in the High Court (Section 4(3) of the Legal Practice Act) and Magistrates' Courts.",
+    "articleSections": [
+      {
+        "heading": "Letter of demand: the first and most important step",
+        "body": "A properly drafted letter of demand gives the other party 14 business days to comply or face legal proceedings. It must: clearly identify the parties, reference the contract or cause of action, state the exact amount claimed and how it was calculated, demand payment or performance within a specified period, and warn of legal action if not complied with. A well-structured letter of demand resolves approximately 60% of debt collection matters without further legal steps. Bouul attorneys draft letters of demand that are specific, quantified, and legally sound."
+      },
+      {
+        "heading": "High Court vs Magistrate's Court: which one?",
+        "body": "The Magistrate's Court hears claims up to R400,000, and the High Court hears claims above that threshold. However, the High Court can hear claims below R400,000 where there is a valid basis (complexity, precedent, or specialised relief). The High Court is slower and more expensive: filing fees are higher, advocates' fees are higher, and the trial delay is longer. The Magistrate's Court is suitable for most commercial disputes under R400,000. Bouul attorneys recommend the court with the most cost-effective path to resolution."
+      },
+      {
+        "heading": "Discovery: the most expensive phase",
+        "body": "Discovery is the phase where both parties exchange all relevant documents in their possession. The discovery process requires: creating a discovery affidavit listing every document, making documents available for inspection, and handling privilege claims. In complex matters, discovery can cost R30,000\u2013R80,000 and take 3\u20136 months. Electronic discovery (email archives, database extracts, financial systems) adds further cost. Bouul litigation attorneys scope the discovery exercise upfront to budget accurately."
+      },
+      {
+        "heading": "Costs and cost orders",
+        "body": "The general rule in South African civil litigation is 'costs follow the result' \u2014 the losing party pays the winner's legal costs, but only on the party-and-party scale (approximately 60\u201370% of actual legal fees). The winner still bears the shortfall (attorney-and-client scale). A costs order is enforceable as a court order \u2014 unpaid costs can be collected through a nulla bona return (the sheriff attaches the debtor's assets). Bouul attorneys provide a detailed costs estimate before litigation begins and identify the likely cost recovery at each stage."
+      },
+      {
+        "heading": "Prescription periods: don't miss the deadline",
+        "body": "The Prescription Act sets time limits for bringing claims. For most civil claims (contract, delict): 3 years from the date the debt became due. For divorce and custody: no strict prescription. For claims against an insolvent estate: within 12 months of sequestration. Missing a prescription deadline means the claim is extinguished \u2014 permanently. The prescription clock can be interrupted by a written acknowledgement of liability or service of process. Bouul attorneys verify prescription dates before accepting any litigation engagement."
+      }
+    ]
+  },
+  {
+    "id": "legal-06",
+    "tag": "Debt Collection",
+    "title": "Getting What You're Owed: Legal Debt Collection in South Africa",
+    "subtitle": "The legal process for recovering outstanding payments from individuals and businesses",
+    "image": "/scenes/pro_legal_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "SA businesses write off 15% of annual revenue to bad debt \u2014 most is recoverable with proper processes",
+    "problemBody": "South African businesses collectively write off hundreds of billions of rands annually in bad debts. The National Credit Act and common law provide a structured pathway for debt collection: letter of demand, summons, default judgment, warrant of execution, emoluments attachment order, and finally nulla bona (the sheriff sells assets). Each step has clear legal requirements, and skipping steps makes the process unenforceable. Most business owners try to collect informally by phone and email, exhausting their patience and the legal timeline simultaneously. By the time they engage an attorney, the debtor has dissipated assets and the claim is harder to recover.",
+    "bouulSolution": [
+      "Your Bouul-matched debt collection attorney sends a formal letter of demand within 48 hours of instruction, giving 14 days for payment before legal steps commence.",
+      "If payment is not received, we issue summons, obtain default judgment (if no defence is filed), and execute the judgment through the sheriff.",
+      "For judgment-proof debtors, we assess alternatives: instalment payment arrangements, emoluments attachment orders (deducting from salary), or third-party debt collection agencies."
+    ],
+    "partsNeeded": [
+      "The original contract, invoice, or underlying debt document",
+      "Proof of delivery of goods or services (delivery notes, sign-off sheets, digital confirmations)",
+      "Payment records showing the debt is unpaid (bank statements, accounting system reports)",
+      "All correspondence relating to the debt (email, SMS, WhatsApp)"
+    ],
+    "guidePricing": 3500,
+    "timeline": "Letter of demand: 48 hours. Summons to default judgment: 6\u20138 weeks. Execution of judgment: 3\u20136 months depending on sheriff availability and debtor assets.",
+    "aiPromptExample": "A client is owed R28,000 by a former client who has ignored 6 emails and 3 calls over 5 months. The client wants to know what legal steps are available, how long it will take, and whether the cost of recovery will exceed the R28,000. Write a cost-benefit analysis for the R28,000 claim through the Magistrate's Court (the Small Claims Court threshold is R20,000 \u2014 above that you must use the lower Magistrate's Court).",
+    "aiDiagnosisOutput": "Cost-benefit analysis: Magistrate's Court claim R28,000 is cost-viable. Estimated legal costs: letter of demand (R1,200), summons drafting and filing (R3,500), service of summons (R500), default judgment application (R2,500), warrant of execution (R1,500), sheriff execution (R2,500). Total estimated legal costs if unopposed: R11,700. If opposed: add R8,000\u2013R15,000 for plea, discovery, and trial preparation. Recovery probability: unopposed \u2014 80% (if debtor has assets or employment); opposed \u2014 50% (if debtor mounts a defence). Net recovery (best case): R28,000 - R11,700 = R16,300. Recommended: proceed with letter of demand and warn of imminent summons \u2014 debtors often pay before the sheriff arrives.",
+    "escrowGuarantee": "Debt collection fees are held in escrow. Payment releases on a success basis \u2014 50% on obtaining judgment, 50% on first payment under the execution order.",
+    "pirbStandard": "LPC \u2014 Bouul debt collection attorneys are LPC-enrolled with experience in the National Credit Act (Act 34 of 2005) and Magistrates' Court Rules on debt enforcement.",
+    "articleSections": [
+      {
+        "heading": "The letter of demand: your most effective collection tool",
+        "body": "A formal letter of demand from an attorney resolves 60\u201370% of debt collection matters without further legal steps. The letter must reference the underlying agreement, state the exact amount claimed, detail any interest that has accrued, give 14 days for payment, and specify the legal consequences of non-payment (legal costs, judgment, execution). If the debtor pays within 14 days, you recover 100% of the amount plus the cost of the letter. Bouul debt collection attorneys provide a fixed-fee letter of demand service as the first step in every matter."
+      },
+      {
+        "heading": "Summons and default judgment",
+        "body": "If the letter of demand fails, the next step is issuing a summons in the Magistrate's Court. The summons (Form 2A together with a particulars of claim) gives the debtor 10 business days to file a notice of intention to defend. If no defence is filed, you apply for default judgment by filing a certificate of service and a default judgment application. Default judgment is granted in chambers (no court appearance) within 2\u20134 weeks of filing. A default judgment for debt carries the same legal force as a judgment after trial."
+      },
+      {
+        "heading": "Warrant of execution and the sheriff",
+        "body": "Once judgment is granted, a warrant of execution authorises the sheriff to seize the debtor's movable assets (furniture, vehicles, equipment) and sell them at public auction to satisfy the judgment debt. The sheriff has the power to enter the debtor's home or business premises with a warrant. Certain assets are protected (bedding, basic kitchen equipment, tools of trade up to R10,000). If no assets are found, the sheriff returns a nulla bona report \u2014 meaning the debtor has no attachable assets. The judgment remains valid for 30 years."
+      },
+      {
+        "heading": "Emoluments attachment orders",
+        "body": "If the debtor is employed, an emoluments attachment order (EAO) directs the employer to deduct a portion of the debtor's salary and pay it to the judgment creditor. The EAO is capped at 33.33% of the debtor's gross salary under the National Credit Act (debtor must have minimum living expenses covered). The employer is legally obliged to comply and faces penalties for non-compliance. EAOs are the most reliable collection method for employed debtors and typically recover 100% of the judgment debt over 12\u201324 months."
+      },
+      {
+        "heading": "Debt collection under the National Credit Act",
+        "body": "The NCA imposes strict requirements on debt collection: collectors must be registered with the National Credit Regulator, prescribed debt collection procedures must be followed, and collection fees are capped (15% of the amount collected for amounts up to R20,000, sliding scale for larger amounts). Prohibited practices include threatening behaviour, calling outside business hours, or contacting the debtor's employer without a judgment. Bouul debt collection attorneys operate within the NCA framework, ensuring all collection steps are legally compliant."
+      }
+    ]
+  }
+]

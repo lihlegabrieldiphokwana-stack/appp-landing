@@ -1,0 +1,270 @@
+[
+  {
+    "id": "accountant-01",
+    "tag": "Tax Returns",
+    "title": "Your Complete Guide to Annual Tax Returns in South Africa",
+    "subtitle": "Everything you need to file your ITR12 on time and avoid SARS penalties",
+    "image": "/scenes/pro_accountant_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Tax season panic costs South Africans millions in penalties every year",
+    "problemBody": "Every year, thousands of South Africans miss the SARS filing deadline because their paperwork is scattered across email threads, shoeboxes, and WhatsApp messages. The result? Automatic penalties of up to R2,000 per month, frustrated calls to the SARS contact centre, and refunds that sit in limbo for months. Small business owners are hit hardest — they juggle provisional tax, PAYE, and personal returns simultaneously.",
+    "bouulSolution": [
+      "Upload your IRP5, medical certificates, retirement annuity contributions, and travel log to a secure portal — one place for everything SARS needs.",
+      "Your matched Bouul accountant reviews every deduction: home office, legal fees, donations, and interest exemptions you might have missed.",
+      "We submit directly via SARS eFiling with your consent and confirm the assessment within 72 hours of filing."
+    ],
+    "partsNeeded": [
+      "IRP5 / IT3(a) certificates from all employers",
+      "Medical aid tax certificates (from your scheme)",
+      "Retirement annuity contribution statements",
+      "18A donation receipts and interest-bearing account statements"
+    ],
+    "guidePricing": 2250,
+    "timeline": "5–7 business days from complete documents to submitted return",
+    "aiPromptExample": "Draft a response to a client who missed the provisional tax deadline for the first time. They owe ~R34,000 in first-period provisional tax. They are anxious about penalties. Reassure them while explaining the voluntary disclosure program (VDP) option and the standard 10% penalty structure. Tone: calm, factual, solution-oriented.",
+    "aiDiagnosisOutput": "Risk: Moderate. First-time late filing under R50,000 — SARS typically imposes a 10% penalty (R3,400) plus interest at the prescribed rate (currently 11.75% per year). VDP applicable if no prior non-compliance. Recommend filing within 5 days to cap interest and requesting a penalty waiver letter under Section 213 of the Tax Administration Act.",
+    "escrowGuarantee": "Your payment is held in Bouul's secure escrow account and only released to the accountant once your return is submitted and you confirm receipt. Full refund if SARS rejects the submission.",
+    "pirbStandard": "SAICA (South African Institute of Chartered Accountants) — all Bouul accountants hold active SAICA membership and comply with the IFRS for SMEs framework.",
+    "articleSections": [
+      {
+        "heading": "Who needs to file a tax return in South Africa?",
+        "body": "If you earned more than R87,300 in the tax year (R134,850 if you are 65 or older, R150,462 if 75+), you are required to submit an annual income tax return. Even if your employer deducted PAYE correctly, you must file to claim any refunds due. Provisional taxpayers — anyone earning income outside salaried employment — must file twice a year. Bouul's matching algorithm connects you with a SAICA-accredited accountant who specialises in your specific income profile, whether you're a salaried professional, freelancer, or company director."
+      },
+      {
+        "heading": "Deductions that actually reduce your tax bill",
+        "body": "Most taxpayers leave money on the table by missing legitimate deductions. Retirement annuity contributions up to 27.5% of your taxable income (capped at R350,000) are deductible. Medical scheme fees and out-of-pocket medical expenses (beyond the 7.5% threshold) qualify for the medical tax credit. Home office deductions — rent, electricity, data — are available if you spend more than 50% of your time working from a dedicated space. Your Bouul accountant will compile a full deduction checklist customised to your situation before submitting."
+      },
+      {
+        "heading": "The Bouul escrow advantage for tax work",
+        "body": "Tax preparation involves sharing sensitive financial data. Bouul's escrow system means you only pay after your return is submitted and you've confirmed satisfaction. Your accountant never receives payment until you confirm the work meets your expectations. If SARS rejects the submission or penalties arise from errors in the return, Bouul's dispute process covers the cost — no questions asked. This escrow guarantee applies to all tax, accounting, and financial services booked through the platform."
+      },
+      {
+        "heading": "Provisional tax: what freelancers need to know",
+        "body": "If you earn income outside a salary — freelance, consulting, rental, investment income — SARS classifies you as a provisional taxpayer. You need to pay provisional tax twice a year (August and February) plus a voluntary third payment. Underpayment triggers interest at the prescribed rate. Missing the deadline adds a 10% penalty on the underpaid amount. Bouul connects you with accountants who set up provisional tax calendars, estimate your liability using the current year's data, and file the returns automatically so you never miss a deadline."
+      },
+      {
+        "heading": "The SARS audit process demystified",
+        "body": "SARS audits between 5% and 10% of filed returns each year. An audit letter is not an accusation — it is a verification request. Responding within 21 business days is critical; missing this window results in a default assessment, usually higher than your original liability. Your Bouul accountant handles the entire audit correspondence: compiling supporting documents, drafting responses, and liaising with the SARS case officer. Audit support is included in the standard return preparation fee for Bouul bookings."
+      },
+      {
+        "heading": "When to use voluntary disclosure (VDP)",
+        "body": "If you have unfiled returns or under-declared income from prior years, the Voluntary Disclosure Programme lets you come clean before SARS finds you. A successful VDP waiver reduces penalties — often to zero — and avoids criminal prosecution. The window closes once SARS initiates an audit on that period. Bouul matches you with accountants experienced in VDP submissions who handle the disclosure, calculate the outstanding tax, and negotiate the penalty waiver on your behalf."
+      }
+    ]
+  },
+  {
+    "id": "accountant-02",
+    "tag": "Financial Statements",
+    "title": "Compiling IFRS for SMEs Financial Statements Without the Stress",
+    "subtitle": "From trial balance to sign-off: what every SME owner needs to know",
+    "image": "/scenes/pro_accountant_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "90% of SME financial statement delays are caused by missing source documents",
+    "problemBody": "South Africa's Companies Act requires every business with public interest score above 350 to have audited financial statements, and those below 350 need independent reviews. Yet most SME owners don't know their public interest score, let alone which reporting standard applies. Banks and investors demand up-to-date financials before approving funding, and the CIPC annual return can't be completed without them. By the time an owner finds an accounting firm, it's often too late for a seamless sign-off.",
+    "bouulSolution": [
+      "We match you with a SAICA-registered accountant who reviews your trial balance and confirms the reporting framework (IFRS for SMEs, IFRS full, or GRAP for public entities).",
+      "Your accountant performs the compilation or review engagement, adjusting entries for accruals, provisions, depreciation, and deferred tax.",
+      "The final signed statements are delivered in PDF and iXBRL format, ready for CIPC submission and your auditor."
+    ],
+    "partsNeeded": [
+      "Trial balance for the current financial year (from your accounting software)",
+      "Bank statements and loan schedules for all accounts",
+      "Fixed asset register with dates of acquisition and disposal",
+      "Previous year's signed financial statements"
+    ],
+    "guidePricing": 5500,
+    "timeline": "7–10 business days after receipt of complete trial balance and supporting documents",
+    "aiPromptExample": "A client runs a construction SME with R8.5m turnover. They need IFRS for SMEs financial statements for a bank loan application. Inventory includes work-in-progress across 3 sites. Write a brief explaining: revenue recognition under Section 23, WIP valuation method, and why their bank will need reviewed (not compiled) statements given the R8.5m turnover.",
+    "aiDiagnosisOutput": "Risk: Low — client has maintained proper job-costing records per site. Revenue recognition under Section 23 requires the percentage-of-completion method for construction contracts. Recommended: independent review engagement (public interest score likely 180–200, above the 100 compilation threshold). Estimated bank-ready statements within 10 business days. WIP needs physical count validation before sign-off.",
+    "escrowGuarantee": "Funds are held in escrow until the signed financial statements are delivered and you confirm they meet the requirements for your specific purpose — whether bank submission, CIPC filing, or investor review.",
+    "pirbStandard": "SAIPA (South African Institute of Professional Accountants) — Bouul accountants in this category are SAIPA-registered Professional Accountants (SA) who meet the Continuing Professional Development (CPD) requirements annually.",
+    "articleSections": [
+      {
+        "heading": "Public interest score: the number that decides everything",
+        "body": "The Companies Regulations 2011 require every company to calculate its public interest score annually. The score is: average number of employees + third-party liability value (R1m increments) + turnover (R1m increments) + number of shareholders. Below 100: compilation is sufficient. 100–350: independent review required. Above 350: full audit. Most Bouul SME clients score between 100 and 350, putting them in the independent review band — which costs roughly half a full audit but still requires IFRS compliance."
+      },
+      {
+        "heading": "Compilation vs review vs audit: what each means for your business",
+        "body": "A compilation engagement is the most basic: the accountant prepares financial statements from information you provide, with no verification. An independent review adds limited assurance — the accountant performs analytical procedures and inquiries to check for obvious misstatements. A full audit provides reasonable assurance through detailed testing. Banks typically require reviewed or audited statements for loans above R1 million. Bouul's professional matching system aligns the engagement type with your business's legal requirements and funding goals."
+      },
+      {
+        "heading": "Common adjustments that trip up SME financials",
+        "body": "Accruals for unpaid expenses (PAYE for the last month, audit fees, bonuses declared but unpaid) are the most common missing entries. Deferred tax — temporary differences between tax base and accounting base of assets and liabilities — catches most SME accountants off-guard. Depreciation method consistency (straight-line versus reducing balance) must align with the prior year or a disclosure is required. Your Bouul accountant runs a full adjustment checklist before finalising, catching all common errors before sign-off."
+      },
+      {
+        "heading": "iXBRL tagging: what it is and why it matters",
+        "body": "The CIPC requires all annual financial statements filed after 1 July 2023 to use iXBRL format — a machine-readable XHTML file that tags each financial line item with a standard taxonomy element. Converting a PDF to iXBRL manually takes hours and is error-prone. Bouul accountants use approved CIPC tagging software to generate compliant iXBRL files as part of the financial statement engagement, ensuring your CIPC submission is accepted first time."
+      }
+    ]
+  },
+  {
+    "id": "accountant-03",
+    "tag": "Audit Preparation",
+    "title": "Audit-Ready in 30 Days: An SME Preparation Timeline",
+    "subtitle": "How to organise your books for a smooth audit season",
+    "image": "/scenes/pro_accountant_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "SMEs spend 40% more on audit fees when books arrive late or incomplete",
+    "problemBody": "The audit partner quotes a fixed fee. Then your team sends incomplete schedules, missing reconciliations, and unconfirmed balances. The auditor finds errors, issues management letters, and the fee doubles. South African SMEs face this every year because audit preparation is a year-round discipline, not a month-before activity. Director's loan accounts, intercompany balances, and revenue cut-off testing are the top three areas where SME audits fail — each one triggering extended procedures and higher fees.",
+    "bouulSolution": [
+      "Your Bouul accountant conducts a pre-audit diagnostic: reviewing your trial balance, fixed asset register, and debtors age analysis against the audit requirements.",
+      "We prepare the audit working paper file: lead schedules, substantive testing samples, analytical review, and all supporting reconciliations.",
+      "Your audit file is delivered digitally, cross-referenced, and ready for your appointed auditor to review — cutting their fieldwork time by up to 40%."
+    ],
+    "partsNeeded": [
+      "Year-end trial balance and general ledger export",
+      "Bank reconciliations for all accounts (month-end, all 12 months)",
+      "Debtors and creditors age analyses (each month-end balance)",
+      "Loan agreements, director's loan account schedules, and minutes of board meetings"
+    ],
+    "guidePricing": 8500,
+    "timeline": "15–20 business days for a full audit preparation engagement (R8m–R25m turnover bracket)",
+    "aiPromptExample": "Draft an email to an SME client explaining why the director's loan account needs to be cleared before the audit can sign off. The director owes R220,000 to the company. The client wants to know about section 45 of the Companies Act (financial assistance) and the tax implications of writing it off. Make the explanation clear enough for a non-accountant to act on.",
+    "aiDiagnosisOutput": "Risk: High — uncorrected director's loan account of R220,000 exceeds materiality threshold (R85,000 for this engagement). Section 45 of the Companies Act requires a special resolution for loans exceeding 0.1% of net asset value. Tax implication: writing off the loan triggers a dividend declaration with dividends tax (20%) payable — effective tax cost of R44,000 to the company. Recommended course: loan repayment schedule of R20,000/month for 11 months, or declaration of a dividend and set-off.",
+    "escrowGuarantee": "The full audit preparation fee is held in escrow. You only release payment when the file is handed over and your appointed auditor confirms the preparation work meets IRBA standards.",
+    "pirbStandard": "IRBA (Independent Regulatory Board for Auditors) — Bouul audit preparation services follow IRBA guidelines and the International Standards on Auditing (ISA) framework.",
+    "articleSections": [
+      {
+        "heading": "The three-week pre-audit checklist",
+        "body": "Week one: reconciliations — confirm every balance sheet account reconciles to an external source. Bank → statements. Debtors → age analysis. Stock → physical count. Intercompany → confirmation emails. Week two: cut-off testing — select transactions 2 weeks before and 2 weeks after year-end. Verify they belong in the correct period. Week three: final review — check directors' minutes for declared dividends, confirm going concern assumptions, review subsequent events for disclosure. Bouul's pre-audit diagnostic flags each item with a traffic-light status before you hand over to the appointed auditor."
+      },
+      {
+        "heading": "Common audit adjustments that increase fees",
+        "body": "Cut-off errors — invoices posted to the wrong month, especially around revenue recognition — cost SMEs an average of R12,000 in extra audit procedures annually. Provisions omitted: no provision for leave pay, bonus accruals, or warranty obligations. Deferred tax miscalculated: SARS assessments in dispute create temporary differences that need journal entries. Each adjustment adds R3,000–R8,000 in extended audit time. Bouul's pre-audit review catches 90% of common adjustments before the auditor arrives."
+      },
+      {
+        "heading": "Digital audit files: the IRBA requirement",
+        "body": "IRBA requires audit files in machine-readable format — not scanned PDFs of handwritten schedules. Your Bouul-prepared file includes Excel lead schedules with formula-driven cross-references, PDF source documents linked to the audit programme, and an electronic working paper index. IRBA Rule 13 on audit documentation requires all evidence to be retained for 5 years after the audit report date, stored in a manner that cannot be altered. Bouul's platform maintains a permanent, encrypted archive."
+      }
+    ]
+  },
+  {
+    "id": "accountant-04",
+    "tag": "Payroll",
+    "title": "SA Payroll Simplified: PAYE, UIF, SDL and Beyond",
+    "subtitle": "Running payroll in South Africa without the compliance landmines",
+    "image": "/scenes/pro_accountant_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "One wrong PAYE code can trigger a SARS payroll audit that costs R50,000+",
+    "problemBody": "South African payroll is governed by the Basic Conditions of Employment Act, the Labour Relations Act, SARS tax directives, the Unemployment Insurance Fund, the Compensation Fund, and sectoral determinations — often simultaneously. A single employee with a company car, a housing allowance, and overtime can trigger five different PAYE codes and three different UIF classifications. Errors in monthly EMP201 returns compound into annual EMP501 reconciliation failures, and SARS is increasingly using payroll data to cross-reference ITR12 returns.",
+    "bouulSolution": [
+      "Your Bouul accountant sets up your payroll structure on a compliant system: correct tax codes, fringe benefit valuations, and UIF/SDL classifications for each employee.",
+      "Monthly processing includes EMP201 returns, electronic payments to SARS and the UIF, and payslip generation with all BCEA-required disclosures.",
+      "Annual EMP501 reconciliation is filed by 31 May, with IRP5 certificates issued to every employee within the SARS deadline."
+    ],
+    "partsNeeded": [
+      "Employee details (full names, ID numbers, tax reference numbers, bank accounts)",
+      "Employment contracts (salary, benefits, overtime policy, termination notice periods)",
+      "Company registration documents (SARS PAYE number, UIF reference number)",
+      "Existing payroll data (if migrating from another provider or in-house system)"
+    ],
+    "guidePricing": 3500,
+    "timeline": "Setup completed within 3 business days; monthly processing runs on the 20th or last working day of the month",
+    "aiPromptExample": "A small business has 12 employees and needs a payroll system. They've never had formal payroll. Write an onboarding brief explaining the differences between PAYE, UIF, and SDL, what each rate is, and what happens if they don't register with SARS for PAYE before paying their first salaries.",
+    "aiDiagnosisOutput": "Risk: Moderate — no existing SARS PAYE registration. This must be completed before any salary payment, else the employer is personally liable for PAYE at 100% of gross salaries (SARS will deem the full amount as tax). PAYE registration takes 2–5 business days via eFiling. UIF rate: 2% (1% employer, 1% employee) capped at R17,712 monthly earnings. SDL: 1% of gross payroll if annual payroll exceeds R500,000. Recommended: register for PAYE immediately and process first payroll manually to avoid retroactive penalties.",
+    "escrowGuarantee": "Bouul holds the full payroll setup fee in escrow until your first compliant payslip run is delivered and your EMP201 filing is acknowledged by SARS. Monthly processing is pay-per-run with 5-day release after confirmation.",
+    "pirbStandard": "SAICA Payroll Compliance Standards — Bouul payroll accountants are SAICA members with demonstrated competency in SARS payroll tax codes, BCEA compliance, and sectoral determinations.",
+    "articleSections": [
+      {
+        "heading": "PAYE codes every employer must know",
+        "body": "SARS has over 30 PAYE codes that determine how much tax to deduct. Code 3601 is the standard monthly PAYE on salary. Code 3605 covers overtime. Code 3701 applies to commission-only earners. Code 3801 is for directors' fees. Using the wrong code triggers an automatic audit flag. The employer is legally liable for the correct tax even if the employee signed off on the wrong deduction. Bouul accountants maintain a current tax code matrix aligned to the latest SARS Tax Directives and update it automatically when rates or codes change at the start of each tax year."
+      },
+      {
+        "heading": "Fringe benefits: the most common payroll error",
+        "body": "Company cars, housing subsidies, low-interest loans, and employer-provided cellphones are fringe benefits that must be taxed. The taxable value of a company car is 3.5% of the determined value per month (or actual costs if fuel and maintenance are not covered). Housing subsidies are taxed on the lower of the subsidy amount or the deemed value under the Seventh Schedule. Each fringe benefit has a specific PAYE code and must reflect on the IRP5. Missing fringe benefits are the single most common finding in SARS payroll audits. Bouul's payroll checklist flags each benefit type for every employee."
+      },
+      {
+        "heading": "EMP501 reconciliation: the annual payroll test",
+        "body": "Each year by 31 May, every employer must reconcile what was deducted monthly (EMP201) against what was actually paid to each employee (IRP5 certificates). Discrepancies — even timing differences — trigger SARS verification letters. The two biggest reconciling items are unresolved tax directives for termination payments and incorrect IRP5 codes for fringe benefits. Bouul's accountants run a pre-reconciliation check in April identifying every variance before the filing deadline, so your EMP501 submits cleanly first time."
+      }
+    ]
+  },
+  {
+    "id": "accountant-05",
+    "tag": "VAT Registration",
+    "title": "VAT Registration in South Africa: A Step-by-Step Guide",
+    "subtitle": "When to register, how to register, and how to file without errors",
+    "image": "/scenes/pro_accountant_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "40% of new VAT registrations face delays because of incomplete supporting documents",
+    "problemBody": "SARS mandates VAT registration within 21 days of reaching R1 million in annual turnover. But many businesses register late — or miss the threshold entirely — because they don't track rolling 12-month revenue. Late registration penalties start at 10% of the tax due and compound monthly. Once registered, VAT 201 returns must be filed every two months (or monthly for large businesses), and each return requires a specific mix of supporting data: zero-rated supplies, exempt supplies, deemed supplies, and capital goods. Errors in the first few returns trigger heightened verification for 12 months.",
+    "bouulSolution": [
+      "Your Bouul accountant reviews your turnover trajectory and SARS history to determine the optimal registration effective date and VAT period (bi-monthly or monthly).",
+      "We prepare the VAT registration application (RA01 form) with supporting documents, including 12 months of invoices, bank statements, and your company registration documents.",
+      "Post-registration, we file your VAT 201 returns within the SARS deadline, handling input tax apportionment, zero-rated adjustments, and capital goods claims."
+    ],
+    "partsNeeded": [
+      "Company registration documents (CK1 or CoR14.3) and SARS income tax reference number",
+      "12 months of sales invoices or turnover proof (to establish the registration threshold date)",
+      "Bank statements covering the entire trading period",
+      "Details of major suppliers (supplier name, VAT numbers, and expected monthly purchases)"
+    ],
+    "guidePricing": 2800,
+    "timeline": "2–5 business days for registration preparation; 2–3 weeks for SARS processing",
+    "aiPromptExample": "A client runs a catering business. Turnover reached R1.1m in the past 12 months. They have a mix of zero-rated food sales (brown bread, maize meal) and standard-rated sales (prepared meals). They haven't registered for VAT yet. Write a brief explaining the compulsory registration requirement, the effective date options, and why their food sales mix matters for output tax calculations.",
+    "aiDiagnosisOutput": "Status: Compulsory registration triggered. Turnover R1.1m exceeds R1m threshold. Zero-rated supplies (brown bread, maize meal) are approximately 20% of sales — these must be separately disclosed on the VAT 201 as Section 11(1) zero-rated supplies. The effective registration date must be the first day of the month following the 21-day notification period. Recommended: apply immediately using RA01 with 12-month turnover schedule. Expected SARS verification: low to moderate risk, no previous compliance flags.",
+    "escrowGuarantee": "Your VAT registration fee is held in escrow until SARS issues your VAT registration number and you have confirmed successful activation. If SARS rejects the application due to our error, the full amount is refunded.",
+    "pirbStandard": "SAIPA — Bouul VAT specialists are SAIPA-registered Professional Accountants (SA) with accredited SARS VAT compliance training.",
+    "articleSections": [
+      {
+        "heading": "Compulsory vs voluntary VAT registration",
+        "body": "Compulsory registration applies when your taxable supplies exceed R1 million in any rolling 12-month period. You must notify SARS within 21 days and registration takes effect from the first day of the month following the 21-day notice period. Voluntary registration is available from R50,000 turnover and lets you claim input VAT on expenses — valuable for capital-intensive startups. Once registered, you must charge VAT at 15% on all standard-rated supplies. Bouul accountants help you determine which registration trigger applies and whether voluntary registration makes financial sense at your current revenue level."
+      },
+      {
+        "heading": "Input tax apportionment: partial exemption explained",
+        "body": "If your business makes both taxable and exempt supplies (e.g., rental income from residential property combined with consulting fees), you must apportion input VAT. The standard apportionment method uses the taxable turnover ratio. Incorrect apportionment is a top SARS audit trigger — over-claimed input tax attracts a 10% penalty and interest from the date the return was filed. Bouul accountants calculate the correct apportionment percentage, apply it to mixed-use expenses (rent, utilities, professional fees), and maintain the supporting schedule for SARS verification."
+      },
+      {
+        "heading": "Capital goods and the VAT 201: what changes",
+        "body": "The VAT 201 return changed format in 2024. Capital goods — assets over R30,000 with a useful life exceeding 12 months — are now captured in a separate field (field 24) and may trigger automatic verification if the claimed amount deviates significantly from industry benchmarks. Your Bouul accountant maintains a capital goods register that ties each asset to its VAT invoice, confirming the input VAT claim is supported before filing. This avoids the 4–6 week verification hold that delayed VAT refunds cost businesses cash flow."
+      }
+    ]
+  },
+  {
+    "id": "accountant-06",
+    "tag": "Business Registration",
+    "title": "Registering Your Business in South Africa: CIPC, Tax, and BEE Step by Step",
+    "subtitle": "From name reservation to tax clearance in one guided process",
+    "image": "/scenes/pro_accountant_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "The average CIPC registration takes 3 attempts — most are rejected on the first try",
+    "problemBody": "South Africa's Companies and Intellectual Property Commission rejects over 60% of first-time company registration applications. Common reasons: name similar to an existing entity, incorrect company type selection, missing supporting documents, or incomplete director details. After CIPC approval, the real work begins — SARS income tax registration, PAYE registration, UIF registration, Compensation Fund registration, B-BBEE scorecard preparation, and municipal licensing. Each step has its own timeline, forms, and supporting document requirements. The total process takes most founders 6–8 weeks and costs far more than the basic CIPC fee.",
+    "bouulSolution": [
+      "Your Bouul accountant reserves your company name, completes the CoR14.1 or CoR14.3 registration, and files the CIPC application with all required supporting documents.",
+      "After CIPC approval, we handle the full SARS registration suite: income tax, PAYE, VAT (if applicable), UIF, and the Compensation Fund.",
+      "We also prepare your B-BBEE affidavit (EME or QSE level) and guide you through sector-specific licensing requirements."
+    ],
+    "partsNeeded": [
+      "Proposed company name (3 options in order of preference) and company type (private, public, non-profit, personal liability)",
+      "Director and shareholder details (full names, ID numbers, residential addresses, and income tax numbers)",
+      "Registered address (physical address in South Africa — a PostNet or post box does not qualify)",
+      "MOI (Memorandum of Incorporation) — Bouul provides a standard or customised template"
+    ],
+    "guidePricing": 3500,
+    "timeline": "5–10 business days for CIPC registration; 10–15 business days for full SARS registration suite",
+    "aiPromptExample": "A freelance graphic designer wants to formalise their business. They earn R480,000 per year, work from home, and have one part-time contractor. Write an advisory explaining whether they should register a private company or continue as a sole proprietor, considering tax rates, liability, CIPC annual fees, and the 2025 tax amendments.",
+    "aiDiagnosisOutput": "Recommendation: Sole proprietor status is most cost-effective at current revenue. Personal income tax rate (effective ~26% on R480,000) is lower than the company tax rate of 27% plus dividends tax of 20% on distributions. If revenue exceeds R1m within 12 months, re-evaluate. CIPC annual fee of R310 for a company vs R0 for sole proprietor. Consider protection through professional indemnity insurance (quote obtained: R4,200/year) rather than incorporating. Re-assess at R750k+ revenue threshold.",
+    "escrowGuarantee": "Your full registration fee is held in escrow. Payment releases in stages: CIPC registration confirmation (30%), SARS registration complete (40%), remaining 30% on delivery of your Compliance Pack including your tax clearance certificate.",
+    "pirbStandard": "SAICA — all Bouul company registration specialists are SAICA-registered practising accountants verified against the CIPC accredited practitioner list.",
+    "articleSections": [
+      {
+        "heading": "Choosing the right company type",
+        "body": "Private companies (Pty) Ltd are the most common structure for small and medium businesses. Personal liability companies (Inc) are required for certain professions — accountants, architects, engineers — and make directors jointly liable for company debts. Non-profit companies (NPC) need at least three directors and specific MOI clauses. The choice determines tax treatment, director liability, annual filing requirements, and ability to raise funding. Bouul accountants help you match the company structure to your business model, growth plans, and professional requirements before you file the first form."
+      },
+      {
+        "heading": "The MOI: why it matters and what to include",
+        "body": "The Memorandum of Incorporation is your company's constitutional document. It governs director powers, share classes, voting rights, and dispute resolution. A standard MOI from CIPC covers basic requirements but may not address specific needs — different share classes for investors, director appointment procedures, or pre-emptive rights on share transfers. Bouul provides a customised MOI template aligned to your business structure, reviewed by a SAICA professional, and filed with the CIPC application so your company is set up correctly from day one."
+      },
+      {
+        "heading": "Post-registration compliance calendar",
+        "body": "After registration, your company must file an annual return with CIPC (due within 30 business days of the anniversary of incorporation, fee R310–R1,500 depending on turnover). SARS requires monthly or bi-monthly VAT returns if registered, monthly PAYE returns if you have employees, and annual income tax returns within 12 months of year-end. B-BBEE affidavits must be renewed annually. Missing any filing triggers automatic penalties. Bouul provides a compliance calendar with all filing dates, assigned accountant, and automated reminders for the first 12 months after registration."
+      }
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "marketing-01",
+    "tag": "Social Media",
+    "title": "Social Media Marketing for SA SMEs: Platforms, Content, and ROI",
+    "subtitle": "Building a social media presence that generates real business leads",
+    "image": "/scenes/pro_marketing_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Most SA SMEs have social media accounts but no measurable return on their social media spend",
+    "problemBody": "South Africa has over 25 million active social media users, with Facebook (17m), Instagram (12m), TikTok (11m), and LinkedIn (8m) as the dominant platforms. Most SMEs post content sporadically, have no content strategy, and cannot answer the question: 'What did social media generate for the business last month?' The result is time spent on social media with no measurable pipeline, no attributable revenue, and no way to optimise.",
+    "bouulSolution": [
+      "Your Bouul-matched marketing agency audits your current social media presence, identifies platform gaps, and builds a strategy aligned to your business goals (brand awareness, lead generation, or community building).",
+      "We produce a 30-day content calendar with platform-specific content: Instagram Reels for visual storytelling, LinkedIn articles for B2B authority, TikTok for reach, and Facebook for community.",
+      "Monthly performance reports track: reach, engagement rate, conversion rate, cost per lead, and attributable revenue — with optimisation recommendations."
+    ],
+    "partsNeeded": [
+      "Access to current social media accounts (admin permissions)",
+      "Brand guidelines (logo, colours, tone of voice, key messaging)",
+      "Customer personas or target audience profiles",
+      "Previous social media analytics (if available)"
+    ],
+    "guidePricing": 6500,
+    "timeline": "Strategy and content calendar: 1 week. Monthly content production and management: ongoing (standard 12-month commitment).",
+    "aiPromptExample": "A Durban-based home renovation company wants to increase Instagram followers from 800 to 5,000 in 6 months. Target audience is homeowners in affluent Durban suburbs aged 35-55. Write a content strategy covering: content pillars (before/after transformations, client testimonials, behind-the-scenes, cost breakdowns), Reels strategy, hashtag strategy, and paid ad allocation.",
+    "aiDiagnosisOutput": "Current: 800 followers, 2.1% engagement rate, 3 posts/week. Target: 5,000 followers in 6 months (700 new/month). Strategy: pillar 1 (40% of content) — before/after Reels showing renovation transformations (highest engagement format in the category, average 8% engagement rate). Pillar 2 (25%) — cost breakdown carousels (drives saves and shares, average 5x more saves than photos). Pillar 3 (20%) — client testimonial videos (builds trust). Pillar 4 (15%) — behind-the-scenes process content. Hashtag strategy: mix of high-volume (#DurbanRenovations 45k posts) and targeted (#UmhlangaHomeMakeover 2k posts). Paid: R5k/month boosted posts to Lookalike audience of existing clients. Projected followers at month 6: 4,200-5,800.",
+    "escrowGuarantee": "Marketing agency fees are held in escrow. Payment releases monthly upon delivery of the content calendar and performance report. Cancel anytime with 30 days notice.",
+    "pirbStandard": "ASAI (Advertising Regulatory Board) and PRISA (Public Relations Institute of SA) — Bouul marketing agencies adhere to ASAI codes of practice.",
+    "articleSections": [
+      {
+        "heading": "Platform selection: where to be and why",
+        "body": "Not every platform is right for every business. Facebook is essential for local service businesses targeting 35+ consumers. Instagram drives visual discovery for retail, hospitality, and personal services. TikTok is the fastest-growing platform in SA, ideal for reach and brand awareness among under-35s. LinkedIn is non-negotiable for B2B. The cost per lead varies dramatically: TikTok (R8-R15), Instagram (R15-R30), Facebook (R20-R40), LinkedIn (R60-R120). Your Bouul agency recommends platforms based on your target audience and budget."
+      },
+      {
+        "heading": "Content pillars: the framework for consistent posting",
+        "body": "Content pillars are the 3-5 content categories your brand consistently posts about. Each pillar serves a strategic purpose. Example for a restaurant: pillar 1 — food photography (engagement), pillar 2 — chef stories (brand personality), pillar 3 — customer reviews (social proof), pillar 4 — promotions (conversion), pillar 5 — behind the scenes (authenticity). Each pillar gets a defined percentage of total content. The ratio: 60% value/entertainment, 20% educational, 20% promotional."
+      },
+      {
+        "heading": "Paid social: when to boost and when to create",
+        "body": "Organic reach on Facebook has dropped to 2-3%. On Instagram, it is 5-7%. On TikTok, organic reach is still 15-25% but declining. Paid social is essential for predictable results. The rule: if a piece of organic content has an engagement rate above average, boost it with R500-R1,000. If you need leads consistently, run conversion-optimised campaigns, not engagement campaigns. Bouul agencies manage both organic and paid to maximise the total ROI."
+      }
+    ]
+  },
+  {
+    "id": "marketing-02",
+    "tag": "SEO",
+    "title": "Local SEO for SA Businesses: Getting Found on Google",
+    "subtitle": "Optimising your online presence for South African search results",
+    "image": "/scenes/pro_marketing_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "46% of all Google searches in SA have local intent — most local businesses are invisible for their own keywords",
+    "problemBody": "When a Johannesburg resident searches 'plumber near me' or 'best restaurant in Cape Town', Google shows a local map pack with 3 businesses, then organic results. Businesses that appear in the map pack get 70% of the clicks. Those that don't, get almost nothing. Most SA SMEs have not optimised their Google Business Profile, lack local citations, have no customer reviews strategy, and their websites are not technically optimised for local search.",
+    "bouulSolution": [
+      "Your Bouul-matched SEO agency conducts a full local SEO audit: Google Business Profile optimisation, local citation consistency, technical SEO, and competitor analysis.",
+      "We implement on-page SEO: location-specific landing pages, schema markup (LocalBusiness, FAQ, Review), title tag and meta description optimisation, and content strategy targeting local keywords.",
+      "Monthly reporting covers: local pack rankings by keyword, organic traffic by location, Google Business Profile insights, and citation audit results."
+    ],
+    "partsNeeded": [
+      "Google Business Profile access (or we create it for you)",
+      "Website content management system (CMS) access",
+      "List of services/products and target locations (suburbs, cities, provinces)",
+      "Competitor URLs (who ranks higher than you for your keywords)"
+    ],
+    "guidePricing": 5500,
+    "timeline": "Initial audit and setup: 2 weeks. First ranking improvements visible: 6-12 weeks. Ongoing management: monthly.",
+    "aiPromptExample": "A physiotherapy practice in Sandton has a Google Business Profile that gets 50 views per month. Their website ranks on page 4 for 'physiotherapist Sandton'. Write a local SEO improvement plan covering: GBP optimisation (categories, services, Q&A, posts), local citation building (SA directories: SA Physio Board, Yelawolf, NextDoor SA), review generation strategy, and on-page content targeting 'sports physio Sandton' and 'back pain treatment Sandton'.",
+    "aiDiagnosisOutput": "Current: GBP 50 views/month, 8 reviews, 3.8 stars. Website page 4 for target keyword. Opportunity: GBP optimisation alone can increase views 3-5x in 30 days. Specific actions: claim GBP 'physiotherapist' primary category + 'sports medicine' secondary, complete all service descriptions with pricing, add 15 high-quality photos (clinics with photos get 42% more direction requests), post weekly GBP updates. Citations needed: SA Physio Board directory, Yelawolf, NextDoor SA, Hotfrog SA. On-page: create dedicated 'Sports Physiotherapy Sandton' page targeting keyword with 800+ words, local schema markup, and internal links. Review target: reach 30 reviews with 4.5 stars in 90 days. Projected: page 1 for 'physiotherapist Sandton' in 8-12 weeks with consistent execution.",
+    "escrowGuarantee": "SEO agency fees are held in escrow. Payment releases monthly upon delivery of the SEO audit, implementation report, and ranking tracker showing progress.",
+    "pirbStandard": "ASAI and IAB SA (Interactive Advertising Bureau SA) — Bouul SEO specialists follow Google Webmaster Guidelines and SA search best practices.",
+    "articleSections": [
+      {
+        "heading": "Google Business Profile: the single most important local SEO factor",
+        "body": "Your Google Business Profile determines whether you appear in the local map pack. Five factors matter: completeness (every field filled, including services, products, hours, and photos), categories (primary and secondary — choose the most specific ones), reviews (quantity, recency, and sentiment), proximity (your location relative to the searcher), and engagement (how often people click through, call, or request directions). Bouul SEO agencies optimise every GBP field and implement a review generation system."
+      },
+      {
+        "heading": "Local citations: building your SA online presence",
+        "body": "A citation is any online mention of your business name, address, and phone number (NAP). Consistent NAP across all directories is a top ranking factor. Key SA directories: SA Yellow Pages, Yelawolf, Hotfrog SA, NetFlorist Business Directory, and industry-specific directories. Common problem: your business is listed on 5 directories with 3 different phone numbers — this confuses Google and hurts rankings."
+      },
+      {
+        "heading": "Content strategy for local SEO",
+        "body": "Local SEO requires content that answers local search queries. Create location-specific service pages: 'Plumbing Services in Fourways' not just 'Plumbing Services'. Write blog posts about local events, projects, or customer stories. Include local landmarks and suburbs naturally. Get backlinks from SA websites (local chamber of commerce, suppliers, industry associations). National backlinks are valuable in SA because the Google index is smaller than in the US or UK."
+      }
+    ]
+  },
+  {
+    "id": "marketing-03",
+    "tag": "Content Marketing",
+    "title": "Content Marketing That Builds Trust and Generates Leads",
+    "subtitle": "Creating valuable content that positions your brand as the authority in your field",
+    "image": "/scenes/pro_marketing_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "70% of SA SMEs produce content but only 15% have a documented content strategy",
+    "problemBody": "Content marketing is the most cost-effective lead generation channel for professional services, B2B, and high-consideration purchases. Businesses with a documented content strategy generate 3x more leads per rand spent. But most SA SMEs post inconsistently on LinkedIn or Facebook with no strategy, no measurement, and no integration with their sales process. The content doesn't align with the buyer's journey, so it generates awareness but not leads.",
+    "bouulSolution": [
+      "Your Bouul-matched marketing agency develops a content strategy aligned to your buyer's journey: awareness content (attract), consideration content (educate), and decision content (convert).",
+      "We produce a content plan: blog posts, LinkedIn articles, video scripts, email newsletters, and downloadable guides — produced and published on a weekly schedule.",
+      "Content performance is tracked: traffic, time on page, conversion rate, cost per lead, and attributed revenue — with monthly optimisation recommendations."
+    ],
+    "partsNeeded": [
+      "Brand positioning and key messaging documents",
+      "Customer personas (who are you talking to and what do they care about)",
+      "Existing content (blog posts, videos, social media posts)",
+      "Sales team insights (what questions do prospects ask most?)"
+    ],
+    "guidePricing": 7500,
+    "timeline": "Content strategy: 1 week. First content batch: 2 weeks. Monthly content cycles: ongoing.",
+    "aiPromptExample": "A Midrand-based accounting firm wants to generate leads through content marketing. Their target client is SME owners (R5m-R50m turnover) who need tax planning and financial statements. Write a 6-month content strategy with: 12 blog post topics, 6 LinkedIn article topics, 3 downloadable guides, and the conversion path for each content piece.",
+    "aiDiagnosisOutput": "Recommended strategy: education-led approach. Month 1-2: foundational content — '5 Tax Deductions Every SME Owner Misses' (blog + LinkedIn, lead magnet: tax deduction checklist download), 'When to Register for VAT in SA' (blog, conversion: consultation booking CTA). Month 3-4: seasonal content — 'Provisional Tax Deadline Guide: August Payments' (blog + email sequence), 'Year-End Financial Statement Preparation Guide' (downloadable guide, gate behind email capture). Month 5-6: authority content — 'SARS Audit Trends 2026' (LinkedIn article + webinar), 'The Cost of Poor Record-Keeping' (blog, conversion: free bookkeeping health check). Expected results at month 6: 3,000 monthly blog visitors, 200 email subscribers, 15 qualified leads.",
+    "escrowGuarantee": "Content marketing fees are held in escrow. Payment releases monthly upon delivery of the content calendar, published content, and performance report.",
+    "pirbStandard": "PRISA — Bouul content marketing agencies adhere to PRISA standards for ethical and transparent marketing content.",
+    "articleSections": [
+      {
+        "heading": "The buyer's journey content map",
+        "body": "Map every piece of content to a stage in the buyer's journey. Awareness: blog posts answering common questions, social media posts, short videos ('What is provisional tax?'). Consideration: comparison guides, case studies, downloadable templates ('How to choose between a trust and a company structure'). Decision: client testimonials, demo videos, consultation offers ('Book a free tax health check'). Each content piece should have a clear next step — a CTA that moves the prospect to the next stage."
+      },
+      {
+        "heading": "Lead magnets that convert",
+        "body": "A lead magnet is valuable content offered in exchange for an email address. The best lead magnets solve a specific problem immediately. For an accounting firm: 'Tax Deduction Checklist for SA SMEs 2026' (downloadable PDF). For a marketing agency: 'Social Media Content Calendar Template' (Google Sheets). For a law firm: 'Contract Review Checklist for Small Businesses' (PDF). Lead magnets with specific, actionable content convert at 15-25% versus generic whitepapers at 3-5%."
+      },
+      {
+        "heading": "Measuring content ROI",
+        "body": "Track: traffic to content pages, email capture rate from lead magnets, content-to-lead conversion rate, cost per lead, and attributed revenue. The metric that matters: cost per qualified lead, not vanity metrics. If a blog post costs R3,000 to produce and generates 5 leads, your cost per lead is R600. If the average deal size is R50,000, every 10 leads = R500,000 pipeline. Content marketing is measurable — the question is whether you are measuring the right things."
+      }
+    ]
+  },
+  {
+    "id": "marketing-04",
+    "tag": "Brand Strategy",
+    "title": "Brand Strategy for SA Businesses: Standing Out in a Crowded Market",
+    "subtitle": "Building a brand that people remember, trust, and choose",
+    "image": "/scenes/pro_marketing_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Most SA SMEs look and sound exactly like their competitors",
+    "problemBody": "In any service category in South Africa, visit 5 competitor websites and they will look the same: the same colours, the same messaging ('quality service', 'customer-focused', 'reliable'), the same stock photography, the same layout. Brand differentiation has disappeared. The result is that price becomes the only differentiator, margins compress, and customer loyalty is non-existent. A strong brand defined by clear positioning, consistent visual identity, and distinctive voice commands premium pricing and repeat business.",
+    "bouulSolution": [
+      "Your Bouul-matched marketing agency conducts a brand audit: current perception, competitor brand analysis, target audience research, and positioning gap analysis.",
+      "We develop your brand strategy: brand purpose, positioning statement, brand personality, tone of voice guidelines, visual identity, and messaging hierarchy.",
+      "A brand implementation guide is delivered: logo and colour specifications, typography guidelines, photography style, writing examples, and brand touchpoint map."
+    ],
+    "partsNeeded": [
+      "Current brand materials (logo, business cards, website, brochures, social media)",
+      "Competitor identification (top 3-5 competitors)",
+      "Customer feedback or survey data (what do people say about you?)",
+      "Business strategy and target customer profiles"
+    ],
+    "guidePricing": 15000,
+    "timeline": "Brand audit: 1 week. Brand strategy development: 2-3 weeks. Implementation guide: 1 week.",
+    "aiPromptExample": "A Johannesburg-based cleaning company competes with 200+ other cleaning companies. They all position on 'quality and reliability'. The client wants to differentiate on 'green cleaning' (eco-friendly products, zero-toxic, water-efficient). Write a brand positioning brief: target audience (health-conscious homeowners in urban suburbs), competitive white space, brand personality, and key messaging pillars.",
+    "aiDiagnosisOutput": "Brand white space: eco-friendly cleaning in Joburg market is undersaturated — only 2 of 200+ competitors position on green credentials. Target audience: LSM 8-10 homeowners in Parkhurst, Parktown North, Greenside, Morningside, and Fourways. Brand personality: modern, trustworthy, environmentally conscious, approachable. Key messaging: 'A cleaner home. A cleaner planet.' Messaging pillars: (1) health — zero-toxic products protect your family and pets, (2) environmental — water-efficient methods save 40% vs traditional cleaning, (3) effectiveness — eco-friendly does not mean less clean. Visual direction: green and cream palette, botanical patterns, lifestyle photography showing healthy families in clean spaces.",
+    "escrowGuarantee": "Brand strategy fees are held in escrow. Payment releases when the strategy document and implementation guide are delivered and reviewed.",
+    "pirbStandard": "ASAI — Bouul brand strategy agencies follow the ASAI codes for honest and truthful brand communication.",
+    "articleSections": [
+      {
+        "heading": "Brand positioning: owning a space in the customer's mind",
+        "body": "Brand positioning answers: what is the one thing your brand stands for that competitors do not? Effective positioning is narrow, specific, and defensible. 'Quality plumbing services' is not positioning — every plumber says that. 'Guaranteed same-day plumbing with transparent pricing — no hidden fees' is positioning. Customers should be able to describe your brand in 5 words. If they cannot, your positioning is not clear enough."
+      },
+      {
+        "heading": "Tone of voice: the most neglected brand asset",
+        "body": "Your brand's tone of voice is how it sounds across all communications. A professional services firm might be authoritative and precise. A lifestyle brand might be warm and conversational. A youth brand might be bold and irreverent. The key is consistency: your website, social media, emails, proposals, and invoices should sound like they come from the same brand. Bouul marketing agencies develop a tone of voice guide with 'say this, not that' examples for every communication type."
+      },
+      {
+        "heading": "Visual identity: more than a logo",
+        "body": "A visual identity system includes: logo (primary, secondary, icon versions), colour palette (primary, secondary, accent, neutral), typography (headings, body, accent fonts), photography style (lit, candid, product-focused), iconography style (line, filled, illustrated), and layout grid system. Consistency across all touchpoints builds recognition. Studies show that consistent brand presentation increases revenue by up to 23%."
+      }
+    ]
+  },
+  {
+    "id": "marketing-05",
+    "tag": "PPC Ads",
+    "title": "Google Ads and Paid Search for SA Businesses: Getting ROI from Every Click",
+    "subtitle": "Building and optimising paid search campaigns that generate real leads",
+    "image": "/scenes/pro_marketing_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "The average SA SME wastes 35% of their Google Ads budget on irrelevant clicks",
+    "problemBody": "Google Ads is the highest-intent advertising channel — people searching for your service are actively looking to buy. But it is also the easiest channel to waste money on. Poor keyword selection, broad match without negatives, unoptimised landing pages, no conversion tracking, and bidding on the wrong network (Search vs Display vs YouTube) all drain budgets. In SA, the cost per click varies by industry: legal services R40-R120, home services R20-R50, e-commerce R5-R15. Without proper optimisation, the cost per lead triples.",
+    "bouulSolution": [
+      "Your Bouul-matched agency conducts a full Google Ads audit: account structure, keyword performance, ad copy, landing page relevance, quality score, and conversion tracking.",
+      "We restructure your campaigns: tightly themed ad groups, negative keyword lists, audience targeting, ad extensions, and conversion tracking setup.",
+      "Monthly management: bid optimisation, A/B ad testing, search term analysis, landing page recommendations, and performance reporting with cost-per-lead targets."
+    ],
+    "partsNeeded": [
+      "Google Ads account access (or we create one)",
+      "Google Analytics account access",
+      "Target keywords and negative keywords list",
+      "Conversion definition (phone call, form submission, booking, sale)"
+    ],
+    "guidePricing": 5000,
+    "timeline": "Audit and restructure: 1 week. First optimised results visible: 2-4 weeks. Monthly management: ongoing.",
+    "aiPromptExample": "A Pretoria-based locksmith wants to run Google Ads for 'emergency locksmith Pretoria', 'car key replacement Pretoria', and 'lock installation Pretoria'. Budget is R15,000/month. Write a campaign structure covering: campaign settings, keyword match types, ad copy templates, extension setup, and landing page recommendations.",
+    "aiDiagnosisOutput": "Campaign structure recommendation: single campaign with 3 ad groups by service type. Ad Group 1 (emergency locksmith): keywords — 'emergency locksmith Pretoria' [exact], '24 hour locksmith Pretoria' [phrase], 'locksmith near me' [phrase + location bid adjustment for Pretoria suburbs]. Estimated CPC: R25-R45. Ad Group 2 (car keys): keywords — 'car key replacement Pretoria' [exact], 'lost car keys Pretoria' [phrase], 'transponder key programming' [phrase]. Estimated CPC: R30-R55. Ad Group 3 (lock installation): keywords — 'lock installation Pretoria' [phrase], 'security gate lock installation' [phrase]. Estimated CPC: R20-R35. Negative keywords: 'locksmith training', 'locksmith course', 'locksmith salary', 'diy lock installation'. Budget allocation: 50% emergency (highest-intent), 30% car keys (high-value), 20% lock installation (lower conversion rate but higher margin). Ad extensions: call extension, location extension, callout extensions ('24/7 Emergency Service', '15-Minute Response Time'). Landing page: dedicated service page per ad group, with prominent click-to-call button.",
+    "escrowGuarantee": "PPC agency fees are held in escrow. Payment releases monthly upon delivery of the performance report with cost-per-lead metrics. If CPA exceeds target by more than 20% for 2 consecutive months, you can pause with 14 days notice.",
+    "pirbStandard": "IAB SA — Bouul PPC agencies are IAB SA members with Google Ads certified professionals.",
+    "articleSections": [
+      {
+        "heading": "Keyword match types and when to use them",
+        "body": "Exact match: your ad shows only when someone searches for that exact keyword or close variants. Highest relevance, lowest volume. Phrase match: your ad shows for searches containing your keyword phrase. Balanced relevance and volume. Broad match: your ad shows for any search Google thinks is related. Highest volume but waste is high without aggressive negatives. Recommended approach: start with exact match and phrase match, add broad match only after you have 50+ conversions and strong negative keyword lists."
+      },
+      {
+        "heading": "Quality Score: the cost multiplier",
+        "body": "Google's Quality Score (1-10) multiplies your actual cost per click. A score of 10 can halve your CPC versus a score of 5. Quality Score is based on: expected click-through rate (ad relevance — does your ad match the search?), ad relevance (does your ad copy include the keyword?), and landing page experience (does the page deliver what the ad promises?). Each point improvement in Quality Score saves approximately 16% on CPC. Bouul agencies optimise for Quality Score before scaling spend."
+      },
+      {
+        "heading": "Conversion tracking: the non-negotiable foundation",
+        "body": "Without conversion tracking, you are flying blind. Every campaign must track: what a conversion is (phone call, form submission, booking, sale), conversion value (what is each lead worth), and conversion path (which keyword, ad, and landing page led to the conversion). Google's algorithm optimises for conversion volume and value. If you track only clicks, Google optimises for clicks — which are not leads."
+      }
+    ]
+  },
+  {
+    "id": "marketing-06",
+    "tag": "Email Marketing",
+    "title": "Email Marketing That Builds Relationships and Drives Revenue",
+    "subtitle": "From welcome sequences to re-engagement — email for SA businesses",
+    "image": "/scenes/pro_marketing_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Email marketing generates R45 for every R1 spent — yet most SA SMEs don't have an email list",
+    "problemBody": "Email marketing has the highest ROI of any marketing channel: R45 return for every R1 spent. But most South African SMEs have no email list, no automated sequences, and no way to stay in touch with prospects and customers. Social media algorithms change; your email list is owned by you. The POPI Act requires explicit consent for marketing emails, which has discouraged many businesses from email marketing. But with proper consent (opt-in via website signup, purchase confirmation, or event registration), email marketing is legal, effective, and measurable.",
+    "bouulSolution": [
+      "Your Bouul-matched agency sets up your email marketing platform: account setup, list management, opt-in forms, and POPI-compliant consent capture.",
+      "We build automated email sequences: welcome series, nurture sequences, re-engagement campaigns, and seasonal promotions.",
+      "Monthly reporting: list growth rate, open rate, click-through rate, conversion rate, and revenue attributed to email."
+    ],
+    "partsNeeded": [
+      "Email marketing platform (Mailchimp, Constant Contact, or SendGrid — or we recommend one)",
+      "Website or landing page for signup form integration",
+      "Brand assets and tone of voice guidelines",
+      "Existing email list (if any, must be POPI-compliant)"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Platform setup and welcome sequence: 1 week. Full email program: 2-3 weeks. Ongoing management: monthly.",
+    "aiPromptExample": "A Cape Town wedding venue wants to build an email list from couples attending open days and website visitors. Write a welcome email sequence (3 emails) covering: email 1 (welcome and brochure download), email 2 (real wedding stories from the venue), email 3 (booking inquiry CTA). Each email should be 100-150 words with SA wedding references.",
+    "aiDiagnosisOutput": "Recommendation: 3-email welcome sequence with 3-day spacing. Email 1 (day 0): subject 'Your Dream Wedding at [Venue Name]' — welcome, free brochure download link, highlight venue's unique features (Cape Winelands setting, mountain views, capacity for 120 guests). Email 2 (day 3): subject 'Real Love Stories at [Venue Name]' — 2 featured real weddings with photos, quotes from couples, and a 'Book a Viewing' CTA. Email 3 (day 7): subject 'Let's Plan Your Big Day' — showcase available dates (key in SA wedding planning), seasonal packages, and direct booking calendar link. Expected metrics: open rate 35-45%, CTR 8-12%, booking inquiry rate 3-5%.",
+    "escrowGuarantee": "Email marketing fees are held in escrow. Payment releases monthly upon delivery of the email schedule, campaign performance report, and list health analysis.",
+    "pirbStandard": "ASAI and POPI Act compliance — Bouul email marketing agencies ensure all campaigns meet POPI Act consent requirements and ASAI direct marketing codes.",
+    "articleSections": [
+      {
+        "heading": "POPI Act compliance for email marketing",
+        "body": "The Protection of Personal Information Act requires: explicit consent to send marketing emails (opt-in checkbox cannot be pre-ticked), a clear purpose for data collection (told when the person subscribes), right to unsubscribe (every email must have an unsubscribe link that works immediately), and data storage within SA or a country with equivalent data protection. Penalties for non-compliance: fines up to R10 million or 10 years imprisonment. Bouul agencies set up POPI-compliant consent capture and list management."
+      },
+      {
+        "heading": "Email sequences that automate your sales",
+        "body": "An automated email sequence nurtures leads without ongoing effort. Welcome sequence (3-5 emails): greet the subscriber, deliver the promised value, introduce your brand, and make an offer. Abandoned cart sequence (3 emails): remind, add social proof, offer help. Re-engagement sequence (3 emails): win back inactive subscribers after 90 days of no opens. Each sequence should have a clear goal and a specific CTA in every email."
+      },
+      {
+        "heading": "Segmentation: the key to high engagement",
+        "body": "Segmented email campaigns generate 760% more revenue than non-segmented campaigns. Segment by: lead source (website signup vs event vs referral), behaviour (opened/clicked vs not), purchase history (previous customers vs new leads), and location (Cape Town vs Johannesburg clients). A general email to your entire list performs worse than a targeted email to the right 20%."
+      }
+    ]
+  }
+]

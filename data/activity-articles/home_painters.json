@@ -1,0 +1,230 @@
+[
+  {
+    "id": "painter_interior_home",
+    "tag": "Interior Painting",
+    "title": "Complete Interior Wall & Ceiling Painting",
+    "subtitle": "Flawless multi-coat interior painting with plaster priming and drop-cloth protection",
+    "image": "/scenes/painting_service.png",
+    "readTime": "5 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Flaking paint, roller marks, and paint splatters on floors ruin home renovations",
+    "problemBody": "Skipping wall primer on fresh plaster leads to peeling paint within 6 months.",
+    "bouulSolution": [
+      "Professional painters apply 1 coat of alkali-resistant primer plus 2 coats of premium washable acrylic",
+      "Complete surface masking of door frames, light switches, and furniture with heavy drop cloths",
+      "Escrow released after final inspection under directional lighting for uniform coverage"
+    ],
+    "partsNeeded": [
+      "Plascon / Dulux premium washable acrylic",
+      "Alkali-resistant plaster primer",
+      "Heavyweight canvas drop cloths & masking tape",
+      "Professional synthetic filament rollers & brushes"
+    ],
+    "guidePricing": "R45 – R85 per m²",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Quote interior paint: 'Repaint 120m² interior walls and ceilings in 3-bedroom home.'",
+    "aiDiagnosisOutput": "Surface Area: 320m² wall/ceiling total. Paint: Dulux Luxurious Silk. Escrow Quote: R14,500.",
+    "escrowGuarantee": "Escrow released upon inspecting uniform sheen and spotless clean floors.",
+    "pirbStandard": "SAPMA (South African Paint Manufacturers Association) Standard & SANS 10043.",
+    "articleSections": [
+      {
+        "heading": "Alkali-Resistant Priming",
+        "body": "Fresh plaster is primed with alkali-resistant primer to prevent saponification and peeling."
+      },
+      {
+        "heading": "Dust-Free Sanding",
+        "body": "Walls are sanded with vacuum-assisted sanders to ensure smooth paint adhesion without airborne dust."
+      }
+    ]
+  },
+  {
+    "id": "painter_exterior_weather",
+    "tag": "Exterior Painting",
+    "title": "Weatherproof Exterior House Painting & Coating",
+    "subtitle": "UV and rain resistant exterior coatings with crack filling and high-pressure wash prep",
+    "image": "/scenes/painting_service.png",
+    "readTime": "5 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Harsh South African sun and winter rain cause exterior paint to chalk, crack, and fade",
+    "problemBody": "Applying exterior paint over dirty, chalking walls results in immediate adhesion failure.",
+    "bouulSolution": [
+      "High-pressure water jetting prep to remove dirt, mold, and chalked paint layer",
+      "Flexible acrylic crack filler applied to hairline plaster cracks before priming",
+      "2 coats of UV-resistant exterior pure acrylic paint with 7-to-10 year lifespan guarantee"
+    ],
+    "partsNeeded": [
+      "150-bar high pressure washer",
+      "Flexible exterior crack filler",
+      "UV-resistant exterior acrylic paint (e.g. Wall & All)",
+      "Scaffolding & extension ladders"
+    ],
+    "guidePricing": "R55 – R95 per m²",
+    "timeline": "Duration: 3 – 6 Days",
+    "aiPromptExample": "Quote exterior paint: 'Full exterior repaint of 2-storey home including boundary walls.'",
+    "aiDiagnosisOutput": "Surface Area: 450m². Prep: Jet wash + crack seal. Finish: Plascon Wall & All. Escrow Quote: R26,000.",
+    "escrowGuarantee": "Escrow released after full exterior inspection and clear cleanup.",
+    "pirbStandard": "SAPMA Exterior Coating Standard & SANS 10043.",
+    "articleSections": [
+      {
+        "heading": "High-Pressure Surface Prep",
+        "body": "150-bar jet washing removes friable chalked paint, algae, and salt deposits prior to coating."
+      },
+      {
+        "heading": "Flexible Crack Accommodation",
+        "body": "Hairline plaster cracks are V-cut and filled with elastomeric sealant that expands with thermal movement."
+      }
+    ]
+  },
+  {
+    "id": "painter_roof_coating",
+    "tag": "Roof Painting",
+    "title": "Roof Tile & IBR Sheet Weatherproof Painting",
+    "subtitle": "Restoration and spray-coating for tile, corrugated iron, and Harvey tile roofs",
+    "image": "/scenes/roofers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Faded, porous roof tiles absorb rainwater and cause ceiling damp leaks",
+    "problemBody": "Painting a roof without fungicides allows lichen and moss to break down the new paint film.",
+    "bouulSolution": [
+      "Fungicidal wash and high-pressure cleaning to remove deep-rooted lichen",
+      "Airless spray application of thick membrane roof acrylic for uniform film thickness",
+      "Escrow protection released after 48-hour dry weather inspection and leak test"
+    ],
+    "partsNeeded": [
+      "Airless paint sprayer & high-pressure washer",
+      "Roof fungicidal wash concentrate",
+      "Pure acrylic roof & paving paint",
+      "Safety harnesses & roof anchor points"
+    ],
+    "guidePricing": "R45 – R85 per m²",
+    "timeline": "Duration: 2 – 3 Days",
+    "aiPromptExample": "Quote roof paint: 'High pressure clean and paint 200m² concrete tile roof in charcoal.'",
+    "aiDiagnosisOutput": "Roof Area: 200m². Prep: Fungicidal wash + 180-bar clean. Finish: 2x Coats Roof Acrylic. Escrow: R11,000.",
+    "escrowGuarantee": "Escrow released after roof inspection and clean gutter check.",
+    "pirbStandard": "SAPMA Roof Coating Standard & Fall Protection Safety Certified.",
+    "articleSections": [
+      {
+        "heading": "Fungicidal Lichen Decontamination",
+        "body": "Chemical bio-wash kills hidden moss spores inside tile pores before high-pressure cleaning."
+      },
+      {
+        "heading": "Airless Spray Application",
+        "body": "Airless sprayers deliver an even, 150-micron wet film thickness across corrugated ridges."
+      }
+    ]
+  },
+  {
+    "id": "painter_boundary_wall",
+    "tag": "Boundary Wall Paint",
+    "title": "Boundary Wall Damp Seal & Paint Restoration",
+    "subtitle": "Damp-tolerant damp seal coating and painting for garden boundary walls",
+    "image": "/scenes/painting_service.png",
+    "readTime": "4 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Rising damp from garden beds turns boundary wall paint into peeling, bubbling blisters",
+    "problemBody": "Standard acrylic paint applied over damp boundary walls fails within weeks.",
+    "bouulSolution": [
+      "Application of silicone-based damp seal primer that penetrates porous masonry",
+      "Flexible fiber-reinforced coating over top plaster copings to shed rainwater",
+      "Escrow released after inspecting 100% blister-free finish"
+    ],
+    "partsNeeded": [
+      "Masonry damp seal primer",
+      "Fiber-reinforced waterproofing coat",
+      "Heavy-duty exterior wall paint",
+      "Wire brushes & masonry scrapers"
+    ],
+    "guidePricing": "R40 – R75 per m²",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Quote boundary wall: 'Damp seal and repaint 80 meters of plaster boundary wall.'",
+    "aiDiagnosisOutput": "Length: 80m (160m² total sides). Prep: Scrape blistered paint + Damp Seal. Escrow: R8,500.",
+    "escrowGuarantee": "Escrow released after wall inspection and clean garden beds.",
+    "pirbStandard": "SAPMA Damp Treatment Guideline.",
+    "articleSections": [
+      {
+        "heading": "Silicone Masonry Damp Sealing",
+        "body": "Damp seal primers react with free lime in masonry to form a hydrophobic water barrier."
+      },
+      {
+        "heading": "Coping Rail Waterproofing",
+        "body": "Top edges of boundary walls receive fiber-membrane coating to prevent vertical water penetration."
+      }
+    ]
+  },
+  {
+    "id": "painter_cabinet_refinishing",
+    "tag": "Cabinet Spraying",
+    "title": "Kitchen Cabinet & Furniture Spray Painting",
+    "subtitle": "Factory-grade polyurethane spray refinishing for kitchen doors and furniture",
+    "image": "/scenes/interior_design.png",
+    "readTime": "4 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Replacing kitchen cabinets costs tens of thousands, while brush painting leaves ugly streaks",
+    "problemBody": "Hand-brushing melamine or wood cabinets results in brush marks, drips, and sticky doors.",
+    "bouulSolution": [
+      "Off-site or contained spray booth application of dual-component polyurethane lacquer",
+      "Complete surface de-greasing, high-adhesion primer, and satin/gloss topcoat",
+      "Escrow released after re-hanging cabinet doors with perfect alignment"
+    ],
+    "partsNeeded": [
+      "HVLP (High Volume Low Pressure) spray gun",
+      "Dual-component polyurethane paint",
+      "Specialized plastic/melamine primer",
+      "Fine orbital sander (400-grit)"
+    ],
+    "guidePricing": "R4,500 – R12,000 per kitchen",
+    "timeline": "Duration: 3 – 5 Days",
+    "aiPromptExample": "Quote kitchen spray: 'Spray paint 18 kitchen cabinet doors from dark wood to satin white.'",
+    "aiDiagnosisOutput": "Scope: 18 Doors + 6 Drawer fronts. Finish: 2K Polyurethane Satin White. Escrow Quote: R7,200.",
+    "escrowGuarantee": "Escrow released after door re-installation and smooth finish inspection.",
+    "pirbStandard": "SAPMA Factory Spray Finish Standard.",
+    "articleSections": [
+      {
+        "heading": "HVLP Spray Precision",
+        "body": "High Volume Low Pressure sprayers atomize paint into a fine mist for a factory-smooth glass finish."
+      },
+      {
+        "heading": "2K Polyurethane Toughness",
+        "body": "Two-pack polyurethane paint cures to an ultra-hard scratch and chemical resistant shell."
+      }
+    ]
+  },
+  {
+    "id": "painter_wood_varnishing",
+    "tag": "Wood Varnishing",
+    "title": "Wooden Deck, Door & Window Frame Varnishing",
+    "subtitle": "Sanding and multi-coat marine varnish or oil treatment for exterior timber",
+    "image": "/scenes/carpentry.png",
+    "readTime": "4 min read",
+    "author": "Bouul Painting Team",
+    "problemHeadline": "Sun-bleached wooden window frames shrink, leak water, and rot if left un-varnished",
+    "problemBody": "Applying fresh varnish over cracked old varnish causes immediate peeling and dark patches.",
+    "bouulSolution": [
+      "Complete sanding back to bare wood to remove UV-damaged gray fibers",
+      "3 coats of UV-absorbing penetrating wood preservative oil or marine varnish",
+      "Escrow released after inspecting smooth water-beading timber finish"
+    ],
+    "partsNeeded": [
+      "Random orbital sander (80, 120, 220 grit)",
+      "UV-resistant exterior timber preservative oil",
+      "Natural bristle varnish brushes",
+      "Dust extraction vacuum"
+    ],
+    "guidePricing": "R150 – R350 per frame/door",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Quote wood varnish: 'Sand back to bare wood and varnish 6 wooden window frames & front door.'",
+    "aiDiagnosisOutput": "Scope: 6 Windows + 1 Front Door. Treatment: 3x Coats Woodoc 35 Marine Polyurethane. Escrow: R2,400.",
+    "escrowGuarantee": "Escrow released after smooth dry finish and water-bead test.",
+    "pirbStandard": "SAPMA Timber Maintenance Standard.",
+    "articleSections": [
+      {
+        "heading": "Deep Sanding Recovery",
+        "body": "Grey UV-damaged surface wood is sanded down to fresh golden timber grain."
+      },
+      {
+        "heading": "UV-Absorber Marine Oils",
+        "body": "Exterior oils contain micro-pigments and UV blockers that prevent wood fibers from bleaching."
+      }
+    ]
+  }
+]

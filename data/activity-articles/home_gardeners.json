@@ -1,0 +1,278 @@
+[
+  {
+    "id": "garden_maintenance",
+    "tag": "Gardeners",
+    "title": "Garden Maintenance",
+    "subtitle": "Keep your garden healthy and tidy year-round with regular, professional care.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your garden looks like a jungle every month and weekends disappear under the weeds.",
+    "problemBody": "Between work, family, and the rest of life, maintaining a garden properly takes time most people don't have. A neglected garden lowers your property's kerb appeal, harbours pests, and becomes a fire hazard in dry months. Regular professional maintenance keeps it under control without sacrificing your weekends.",
+    "bouulSolution": [
+      "We match you with reliable garden maintenance teams who service SA suburbs weekly, bi-weekly, or monthly.",
+      "Escrow holds your payment and releases only when your scheduled visit is completed to your satisfaction.",
+      "Zola AI helps you create a garden care schedule based on your region, season, and plant types."
+    ],
+    "partsNeeded": [
+      "Petrol or battery-powered lawnmower (mulching type recommended)",
+      "Brush cutter and edger for borders and pathways",
+      "Leaf blower and garden rake (turf or bow rake)",
+      "Pruning shears (secateurs), loppers, and hedge trimmers"
+    ],
+    "guidePricing": "R150 - R450 per visit (standard residential plot)",
+    "timeline": "Duration: 1 - 3 Hours per visit",
+    "aiPromptExample": "I need a weekly garden service for my 600 sqm stand in Port Elizabeth. The garden has kikuyu grass, two flowering peach trees, a hedge along the driveway, and a vegetable patch. I want mowing, weeding, edging, and hedge trimming every week.",
+    "aiDiagnosisOutput": "Maintenance plan generated: 600 sqm residential garden with kikuyu (fast-growing, needs weekly mowing in summer, fortnightly in winter). Flowering peaches need pruning right after flowering — not before. Hedge along driveway: assume 20m x 1.5m — trim monthly in growing season. Vegetable patch: weeding service included, planting and harvesting excluded (client's own). Estimated 2-3 hours per visit. Budget R200-R350 per weekly visit or R250-R450 including hedge trim in rotation. Schedule: weekly Oct-Apr, fortnightly May-Sep.",
+    "escrowGuarantee": "You pay into escrow per scheduled visit. Release occurs after you confirm the work is done to standard. No prepaid packages that lock you in.",
+    "pirbStandard": "Garden maintenance services in SA are not regulated by a national body. However, reputable teams carry public liability insurance (minimum R1-million cover) and use registered waste disposal for green waste. Request proof of insurance before engaging.",
+    "articleSections": [
+      {
+        "heading": "Seasonal Garden Tasks in SA",
+        "body": "SA gardens change dramatically with seasons. Spring (September-November) is for feeding, mulching, and planting. Summer (December-February) is peak growing — mowing twice weekly, watering management. Autumn (March-May) is prune-and-prepare time. Winter (June-August) is dormant — reduce mowing, do structural pruning. A good maintenance plan cycles through these naturally."
+      },
+      {
+        "heading": "Mowing Heights for Common SA Lawns",
+        "body": "Kikuyu should be cut to 25-40mm. LM grass (fine lawn) at 15-25mm. Buffalo grass at 30-50mm. Cutting too short (scalping) weakens roots and lets weeds take hold. A professional gardener adjusts blade height by season — slightly higher in summer to shade the soil and retain moisture."
+      },
+      {
+        "heading": "Weed Management Without Chemicals",
+        "body": "SA municipalities are increasingly restricting herbicide use in residential areas. Manual weeding combined with thick mulching (50-75mm bark or pine chips) is the most effective long-term strategy. A good weekly maintenance catch includes 15 minutes of targeted hand-weeding in beds."
+      },
+      {
+        "heading": "What a Standard Visit Should Include",
+        "body": "A thorough garden maintenance visit includes: mow all lawn areas, edge beds and pathways, blow or sweep hard surfaces, weed garden beds, and remove all clippings and green waste. Hedge trimming, pruning, and fertiliser application should be quoted separately or rotated into a monthly schedule."
+      }
+    ]
+  },
+  {
+    "id": "lawn_installation",
+    "tag": "Gardeners",
+    "title": "Lawn Installation",
+    "subtitle": "Transform bare soil or patchy grass into a lush, uniform lawn that your neighbours will envy.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your lawn is patchy, weedy, or just not there. The kids play in mud after one rain shower.",
+    "problemBody": "Bare patches, weeds, and erosion make a garden look unloved and create muddy mess indoors. A proper lawn installation — whether from seed, plugs, or roll-on turf — transforms the space instantly. The key is correct species selection and soil preparation, which most DIY attempts skip.",
+    "bouulSolution": [
+      "We connect you with turf specialists who prepare soil, install, and establish your new lawn properly.",
+      "Escrow protects your payment — funds release after soil preparation and turf installation sign-off.",
+      "Zola AI recommends the best grass type for your region, sun exposure, and usage."
+    ],
+    "partsNeeded": [
+      "Turf rolls (1 sqm each) or grass seed (LM, kikuyu, or shade mix)",
+      "Compost and topsoil (minimum 50mm layer over existing soil)",
+      "Lawn dressing or leveling mix (sand, compost, loam blend)",
+      "Starter fertiliser (2:3:2 or slow-release lawn food) and dolomitic lime if pH is low"
+    ],
+    "guidePricing": "R45 - R90 per square metre (supply and install roll-on turf)",
+    "timeline": "Duration: 1 - 3 Days (plus 4 weeks establishment watering)",
+    "aiPromptExample": "I want roll-on lawn in my 200 sqm front garden in Pretoria. Full sun most of the day. I have kids who play on it and a dog. Current soil is compacted clay. I want something drought resistant.",
+    "aiDiagnosisOutput": "Turf recommendation: Sides aren't available but for Pretoria's Highveld climate with full sun, high traffic, and clay soil — Kikuyu is the best practical choice. Drought-resistant yes, but needs deep watering to establish. Soil preparation: rip existing clay to 150mm, incorporate 50mm compost and 50mm river sand for drainage. Budget estimate: 200 sqm x R60-R80 = R12k-R16k including soil prep. Immediate watering regime: 25mm water 3x per week for first 3 weeks. Do not walk on turf for first 10 days. Fertilise with 2:3:2 after first mow (about day 14).",
+    "escrowGuarantee": "Payment is held in escrow and released after soil preparation is approved and after turf installation is complete. You don't pay for yellow or dead turf within the first 14 days.",
+    "pirbStandard": "Turf suppliers in SA should be registered with the South African Turf Research and Advisory Association (SATRAA) for guaranteed quality. Soil products should meet SANS 10124 compost standards.",
+    "articleSections": [
+      {
+        "heading": "Kikuyu vs LM vs Buffalo — Which One for You?",
+        "body": "Kikuyu is the tough workhorse — fast-growing, traffic-tolerant, drought-resistant once established. LM (fine lawn) is the show pony — needs babying, looks beautiful, hates dogs and kids. Buffalo grass (specifically the SA-bred varieties) is the middle ground — good shade tolerance, moderate traffic, less water than kikuyu. For a family garden in SA, kikuyu or a hybrid buffalo is usually the right answer."
+      },
+      {
+        "heading": "What Happens If You Skip Soil Preparation",
+        "body": "Rolling turf onto unimproved clay or sand is a waste of money. The turf will look good for 2 weeks then yellow, thin out, and weeds will push through. Proper prep — ripping, compost incorporation, levelling, and a starter fertiliser — costs extra upfront but is the difference between a lawn that lasts 10 years and one that needs replacing in 2."
+      },
+      {
+        "heading": "Establishment Watering — The Critical 4 Weeks",
+        "body": "New turf has roots only 20-30mm deep. It must not dry out for the first 4 weeks. In summer, that means watering every second day (25mm per session) — about 20 minutes with a sprinkler on a standard connection. In winter, every 3-4 days. Most failed lawns are from under-watering in the first month."
+      },
+      {
+        "heading": "When to Install — Seasonal Timing",
+        "body": "The best time for turf installation in SA is spring (September-October) or early autumn (March-April). The soil is warm enough for root growth but the heat isn't fierce enough to dry the turf before it establishes. Winter installation (June-July) is possible but root development is slow and you need vigilant watering."
+      }
+    ]
+  },
+  {
+    "id": "tree_pruning",
+    "tag": "Gardeners",
+    "title": "Tree Pruning",
+    "subtitle": "Protect your property and keep trees healthy with professional pruning by certified arborists.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "That overgrown tree is a storm waiting to happen — dead branches drop with the first strong wind.",
+    "problemBody": "Unpruned trees in SA suburbs are a leading cause of storm damage: limbs punch through roofs, falling branches crush cars, and overgrown canopies block drains and crack foundations. Proper pruning removes the risk, improves tree health, and lets light back into your garden.",
+    "bouulSolution": [
+      "We connect you with certified arborists who follow SANS 10126 pruning standards.",
+      "Escrow holds your payment until the work is complete and your property is cleaned up.",
+      "Zola AI helps assess tree condition, identify dangerous limbs, and schedule seasonal pruning."
+    ],
+    "partsNeeded": [
+      "Arborist climbing gear (harness, ropes, carabiners — structural pruning of tall trees)",
+      "Chainsaw (petrol or battery) with pruning bar and PPE",
+      "Pole pruner (extendable) for medium-height branches",
+      "Wood chipper or chainsaw mill for branch disposal"
+    ],
+    "guidePricing": "R800 - R3,500 per tree (depending on height and complexity)",
+    "timeline": "Duration: 1 - 4 Hours per tree",
+    "aiPromptExample": "I have a 12m high plane tree in my front garden in Durban. Overhanging my house by about 3m. Branches have already dropped during the last storm. I need a crown reduction and deadwood removal.",
+    "aiDiagnosisOutput": "Tree assessment: Platanus (London plane) approximately 12m, crown spread 8m, overhang 3m over structure. Deadwood evident — removal essential for safety. Crown reduction to 30% max (anything more stresses the tree and causes regrowth in plane trees). Durban coastal zone: planifolia are prone to wind-throw — check for included bark at branch unions and any leaning. Recommend a registered SA Arborist Association member. Budget estimate R1,800-R3,000 for climbing prune with deadwood removal and debris removal. Timing: best in winter (June-August) when sap is low. Ensure drop zone is cordoned off — branches can weigh 50kg+.",
+    "escrowGuarantee": "Your payment is held in escrow and released after the tree is pruned, all debris is removed, and you have inspected the work. No clean-up, no release.",
+    "pirbStandard": "Qualified arborists in SA should hold certification from the South African Arborist Association (SAAA) or International Society of Arboriculture (ISA). Work must comply with SANS 10126 (Tree Pruning and Maintenance Standards). Tree removal over certain sizes may require a municipal permit.",
+    "articleSections": [
+      {
+        "heading": "Why Bad Pruning Kills Trees",
+        "body": "Topping a tree (cutting the main leader to a stub) is illegal in many SA municipalities because it causes decay and weak regrowth that's more dangerous than the original branches. Proper pruning respects the branch collar and crown architecture. If someone offers to 'top' your tree, send them away."
+      },
+      {
+        "heading": "When to Prune in SA",
+        "body": "Deciduous trees: prune in winter (June-August) when dormant — you can see the structure and sap loss is minimal. Evergreen trees: prune in late spring (October-November) after the first growth flush. Flowering trees: prune immediately after flowering — pruning before flower kills the bloom. Never prune indigenous SA trees like Fever Trees or Corkwoods in summer — they're vulnerable to borer beetles."
+      },
+      {
+        "heading": "The 30% Rule",
+        "body": "Never remove more than 30% of a tree's living canopy in a single season. Removing more starves the roots and triggers stress-induced regrowth that's weakly attached. A good arborist will plan a crown reduction over 2-3 years if major reduction is needed."
+      },
+      {
+        "heading": "When You Need a Municipal Permit",
+        "body": "Several SA metros (Cape Town, Johannesburg, Durban) require permits to remove or heavily prune trees above a certain size — usually a trunk circumference of 500-600mm measured at 1m height. Fines for illegal removal can exceed R20,000. Always check before cutting."
+      }
+    ]
+  },
+  {
+    "id": "irrigation",
+    "tag": "Gardeners",
+    "title": "Irrigation System Installation",
+    "subtitle": "Water smart, not hard — an automated irrigation system saves water and keeps your garden thriving.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You're either drowning the plants or forgetting to water them. Fifty percent of SA garden water is wasted.",
+    "problemBody": "Hand-watering with a hose is inefficient — you either over-water (wasting SA's scarcest resource) or under-water during heat waves. A properly designed irrigation system delivers the right amount of water to each zone, on a schedule, with zero waste. In SA's water-constrained environment, it's both an environmental duty and a cost-saver.",
+    "bouulSolution": [
+      "We connect you with irrigation specialists who design zone-based systems for SA gardens and water restrictions.",
+      "Escrow protects your investment — payment releases as system installation and commissioning milestones are met.",
+      "Zola AI designs a watering schedule based on your plant types, soil, and municipal water restrictions."
+    ],
+    "partsNeeded": [
+      "Controller/timer unit (digital, at least 4-zone) with rain sensor",
+      "PVC or polythene supply pipe (25mm or 32mm main line)",
+      "Pop-up sprinklers (spray or rotor type per zone requirement) or drip-line tubing",
+      "Solenoid valves (one per zone), fittings, and junction boxes"
+    ],
+    "guidePricing": "R4,500 - R18,000 (single-phase, medium garden)",
+    "timeline": "Duration: 1 - 3 Days",
+    "aiPromptExample": "I want an irrigation system for my 500 sqm garden in Cape Town. Mixed lawn and bed areas. Water restrictions are Level 2 (twice a week). I need separate zones for lawn, shrubs, and the vegetable patch.",
+    "aiDiagnosisOutput": "Irrigation design: 3 zones proposed — Zone 1: lawn area (pop-up rotors, radius 8m), Zone 2: shrub beds (pop-up spray or drip depending on plant density), Zone 3: vegetable patch (drip-line only — overhead spray on veg can cause fungal issues). Controller must support twice-weekly scheduling for Level 2 Cape Town compliance. Rain sensor mandatory (SANS 10129 requirement — illegal to install irrigation without one in many metros). Budget estimate R6k-R14k depending on pipe runs (distance from tap/water meter). Recommend pressure test before backfilling — Wirsbo or similar fittings recommended for longevity. Zinc-sacrificial anodes highly recommended if your water is chlorinated borehole.",
+    "escrowGuarantee": "Your payment is held and released per milestone: trenching and pipe laying, sprinkler and valve installation, and system commissioning with pressure test. You confirm it works before final release.",
+    "pirbStandard": "Irrigation systems in SA should comply with SANS 10129 (Irrigation System Standards). Rain sensors or soil moisture sensors are mandatory in most metros. Installers should be certified by the Irrigation Association of South Africa (IASA) or similar accredited body.",
+    "articleSections": [
+      {
+        "heading": "Understanding SA Water Restrictions",
+        "body": "Most SA metros enforce water restrictions based on dam levels. Level 1: water before 10am and after 4pm. Level 2: twice a week on assigned days. Level 3: once a week with a bucket only. Your irrigation controller must support the restriction level in your area. A smart controller that adjusts automatically based on published restriction schedules is a worthwhile upgrade."
+      },
+      {
+        "heading": "Drip vs Spray — Which Zone Needs What",
+        "body": "Drip irrigation (slow-release emitters at each plant) is best for vegetable gardens, flower beds, and individual shrubs — it uses 30-50% less water than spray and reduces fungal diseases. Spray irrigation (pop-up sprinklers) is best for lawn areas where uniform coverage over an open area is needed. Mixing them on the same zone works poorly — the pressure requirements are different."
+      },
+      {
+        "heading": "Rain Sensors Are Not Optional",
+        "body": "Installing an irrigation system without a rain sensor is both illegal (in Cape Town and Tshwane, and becoming mandatory in more metros) and wasteful. A rain sensor costs R250-R500 and your controller a further R800-R1,500 to accept one. It pays for itself in two months of not watering in summer rain."
+      },
+      {
+        "heading": "Winterisation and Maintenance",
+        "body": "In frost-prone areas (Gauteng, Free State, parts of the Cape), irrigation systems should be drained or blown out with a compressor before winter to prevent freeze-cracked pipes. In year-round rainfall areas (KZN, Garden Route), check filters monthly and flush lines seasonally to clear sediment. A good installer will include a drain valve at the lowest point of the system."
+      }
+    ]
+  },
+  {
+    "id": "landscaping",
+    "tag": "Gardeners",
+    "title": "Landscaping and Garden Design",
+    "subtitle": "Turn a bare yard or tired garden into a beautiful, functional outdoor room for living and entertaining.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your garden has no flow, no focal point, and no usable space — it's just grass and a fence.",
+    "problemBody": "A poorly planned garden is wasted potential. Without proper design, you end up with random planting, awkward pathways, and no outdoor living area. Professional landscaping turns your erf into an extension of your home — with defined zones for dining, play, and planting that work with SA's climate and your lifestyle.",
+    "bouulSolution": [
+      "We connect you with landscapers who provide garden design, hardscaping, and planting in a co-ordinated package.",
+      "Escrow ensures phased payments tied to design approval, earthworks, softscaping, and final planting.",
+      "Zola AI generates a garden concept based on your erf size, sun patterns, and entertainment preferences."
+    ],
+    "partsNeeded": [
+      "Paving bricks or concrete slabs (400x400mm or 600x600mm for patios and pathways)",
+      "Planting mix and compost (50:50 blend for beds)",
+      "Trees, shrubs, ground covers, and lawn per landscape plan",
+      "Hardscaping materials (sleepers, paving, pebbles, retaining blocks, gravel)"
+    ],
+    "guidePricing": "R35,000 - R150,000 (full garden design and installation, medium residential plot)",
+    "timeline": "Duration: 2 - 6 Weeks (depending on scope and planting availability)",
+    "aiPromptExample": "I want to landscape my 300 sqm back garden in Johannesburg. I want a 5m x 4m paved patio with a built-in braai, a lawn area for the kids, and a dry riverbed feature for rain runoff. The garden faces north-west so it gets afternoon sun. The soil is clay.",
+    "aiDiagnosisOutput": "Landscape concept generated: 300 sqm back yard, north-west facing. Design zones: Zone 1 — 20 sqm paved patio (porcelain or clay paving recommended — stays cool in afternoon sun), Zone 2 — lawn area approx 80 sqm (kikuyu for traffic tolerance), Zone 3 — dry riverbed feature (runs along the slope to manage stormwater — 400mm wide, river pebbles, flanked by indigenous grasses). Built-in braai position on east wall so smoke carries away. Clay soil: incorporate 100mm compost into all planting beds for drainage. Budget estimate R65k-R120k depending on paving choice and plant size. Escrow milestones: design approval → earthworks and drainage → hardscaping (paving + braai) → planting → final clean and mulch. Recommend planting in March-April for best establishment before winter.",
+    "escrowGuarantee": "Funds are released in approved stages — conceptual design sign-off, earthworks completion, hardscaping (paving and structures), planting phase, and final snag list sign-off. You control every release.",
+    "pirbStandard": "Landscaping contractors in SA are not nationally regulated. The South African Landscapers Institute (SALI) provides voluntary accreditation. Request a portfolio of completed projects and proof of public liability insurance before engaging.",
+    "articleSections": [
+      {
+        "heading": "Design for SA's Climate Zones",
+        "body": "A landscape designed for Cape Town's winter-rainfall zone looks different from one designed for Johannesburg's summer thunderstorms or Durban's humidity. Indigenous plants suited to your climate region use less water, attract local birds, and survive with less maintenance. A good landscaper designs for your biome, not from a catalogue."
+      },
+      {
+        "heading": "Hardscaping Comes First",
+        "body": "Never plant before the hardscape is done. Paving, walls, pathways, irrigation, and lighting should be installed before a single plant goes in. The earthworks phase — levelling, drainage, and soil improvement — is the most important and most overlooked step. Rush this and every future fix costs 3x more."
+      },
+      {
+        "heading": "The 5-Zone Garden Framework",
+        "body": "Well-designed SA gardens typically include 5 zones: (1) an arrival/entry zone, (2) an outdoor living area (patio, braai, dining), (3) a lawn or play zone, (4) a service zone (washing line, bins, compost), and (5) a planted border zone. Not every garden needs all 5, but a landscaper should explain which you're getting and why."
+      },
+      {
+        "heading": "Plants for Shade and Sun in SA",
+        "body": "For full sun: indigenous choices like Plumbago, Dietes (wild iris), and Dombeya rotundifolia are bulletproof. For dry shade: Plectranthus and Asparagus densiflorus. For full shade: ferns, clivias (east or south-facing only), and Begonias. Don't plant sun-lovers in shade just because they're on special — they'll stretch and die within 6 months."
+      }
+    ]
+  },
+  {
+    "id": "hedge_trimming",
+    "tag": "Gardeners",
+    "title": "Hedge Trimming and Shaping",
+    "subtitle": "Neat, sculpted hedges define your garden's structure — keep them trim with professional shaping.",
+    "image": "/scenes/gardeners.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Out-of-control hedges eat your driveway, block the view, and make your garden look abandoned.",
+    "problemBody": "Fast-growing hedging plants like viburnum, tecoma, and wild olive can grow 30-60cm per month in summer. Left for a season, they narrow pathways, block sightlines for driveway safety, and become thick enough to harbour nesting pests. Regular professional trimming keeps them dense, neat, and under control.",
+    "bouulSolution": [
+      "We match you with hedge trimming specialists who handle everything from small box hedges to tall privacy screens.",
+      "Escrow holds your payment until every green branch is trimmed and all clippings are removed.",
+      "Zola AI advises on the right hedge plants for your region and provides trimming schedules for each type."
+    ],
+    "partsNeeded": [
+      "Hedge trimmer (petrol or battery — double-sided blade recommended)",
+      "Hand shears for fine shaping of formal hedges",
+      "Safety equipment (gloves, eye protection, ear plugs for petrol trimmers)",
+      "Rakes, tarpaulin, and bags for green waste removal"
+    ],
+    "guidePricing": "R250 - R800 per hour (usually 1-4 hours depending on hedge length and height)",
+    "timeline": "Duration: 2 - 6 Hours",
+    "aiPromptExample": "I need my 30m long x 2m high viburnum hedge trimmed. It's on the boundary line of my house in Durbanville, Cape Town. The hedge has gotten about 50cm wider than I want and I need it cut back",
+    "aiDiagnosisOutput": "Hedge assessment: viburnum, 30m x 2m. Reducing width by 50cm is feasible but viburnum should not be cut back into the old wood beyond the green layer — it may not regrow. Best approach: reduce width in two stages — cut back to desired width now at a slight taper (wider at base, narrower at top), then another light trim in 6 months. Length: 30m at 2m height is 60 sqm of hedge face — estimated 3-4 hours labour. Budget R750-R1,800 incl waste removal. Cape Town restrictions: green waste can go to council garden waste sites free. Best trim timing: June-August (winter) for formal shaping, or post-flowering if the hedge has bloomed.",
+    "escrowGuarantee": "Payment is held in escrow and released only after the trimmed hedge is inspected and all green waste is cleared from your property. No half-finished jobs.",
+    "pirbStandard": "Hedge trimming services are not nationally regulated in SA. Professional teams carry public liability insurance and hold valid permits for green waste disposal at municipal sites. Request an hourly or per-metre quote in writing before work begins.",
+    "articleSections": [
+      {
+        "heading": "The Taper Rule for Long-Lasting Hedges",
+        "body": "A hedge should be wider at the base than at the top — a 10-15 degree taper (or 'batter') on each side. This ensures light reaches the lower leaves so the base stays dense instead of going bare and woody. Many DIY trims cut vertical sides, and within two years the hedge is bald at the bottom."
+      },
+      {
+        "heading": "Formal vs Informal Hedges",
+        "body": "Formal hedges (neatly squared or rounded, like box or Cape yew) need trimming 2-4 times per year with power tools. Informal hedges (blooming or natural-shaped, like Plumbago or tecoma) need trimming once or twice a year after flowering, with hand shears to preserve the natural shape. Know which type you have before scheduling."
+      },
+      {
+        "heading": "When Not to Trim",
+        "body": "Never trim a hedge during the main summer heat (December-January) — it stresses the plant and the cut leaves scorch. Also avoid trimming while birds are nesting (typically August-November in SA). The Green Scorpions and local bylaws protect breeding birds, and you could be penalised for disturbing an active nest."
+      },
+      {
+        "heading": "Viburnum vs Tecoma vs Wild Olive",
+        "body": "Viburnum is the most popular formal hedge in SA — grows fast, responds well to trimming, roots easily from cuttings. Tecoma (Tecoma capensis or Cape honeysuckle) is faster but more invasive and needs monthly trimming in summer. Wild olive (Olea europaea subsp. africana) is slow-growing and creates a beautiful indigenous screen but takes 3-5 years to fill in. Your choice depends on patience and budget."
+      }
+    ]
+  }
+]

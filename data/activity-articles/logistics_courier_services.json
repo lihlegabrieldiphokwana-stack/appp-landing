@@ -1,0 +1,229 @@
+[
+  {
+    "id": "cour-001",
+    "tag": "courier-services",
+    "title": "Same-Day Courier: When You Need It There Before 5pm",
+    "subtitle": "Documents, parcels, and packages delivered within hours, not days.",
+    "image": "/scenes/logistics-courier-sameday.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "You need a signed contract delivered across town by this afternoon and the postal service takes a week.",
+    "problemBody": "Standard courier services in SA operate on 1-3 day timelines, which is useless for urgent business documents, medical samples, or forgotten birthday gifts. Same-day courier fills the gap between email attachments and overnight shipping - door-to-door in 2-6 hours within major metros. Same-day costs 2-3x standard but eliminates the wait.",
+    "bouulSolution": [
+      "Bouul same-day couriers with real-time GPS tracking and ETA updates to your phone",
+      "Proof of delivery with photo and digital signature within 5 minutes of drop-off",
+      "Insured up to R10,000 per consignment at no extra cost"
+    ],
+    "partsNeeded": [
+      "Correct delivery address and contact person's phone number",
+      "Parcel dimensions and weight (for vehicle matching)",
+      "Delivery window (standard 8am-5pm, urgent 2-4 hour)",
+      "Special handling notes (fragile, perishable, hazardous)"
+    ],
+    "guidePricing": "Document envelope (5km): R80-R150. Small parcel (5km): R120-R250. Per additional km: R8-R15. Urgent (2h): R350-R600 base. After-hours: 50% surcharge.",
+    "timeline": "Standard same-day: 4-6 hours. Express (2h): 1.5-2.5 hours. On-demand (rush): 45-90 minutes in metro CBD zones.",
+    "aiPromptExample": "Send a signed contract (A4 envelope) from Rosebank to Sandton, needs to arrive by 2pm, it is now 11:30am.",
+    "aiDiagnosisOutput": "A4 envelope, 10km, deadline 2:30pm (3h window). Standard same-day (R95) or express 2h (R350). Best: express, driver departs 11:45am, confirmed delivery 12:30-1pm. Insurance: standard R1,000 included. Proof of delivery: photo and SMS within 5 min.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If delivery misses the quoted window by 60+ minutes, 50% refund automatically issued.",
+    "pirbStandard": "CPA Section 55: Goods must be delivered within agreed timeframe. Same-day services must provide real-time tracking data.",
+    "articleSections": [
+      {
+        "heading": "When Same-Day Makes Sense",
+        "body": "Business documents (contracts, tenders, invoices), medical deliveries (lab samples, prescriptions), forgotten items (passports, laptops, keys), event supplies, legal filings with court deadlines, and real estate documents for closing. Same-day is cheapest for items under 5kg and within 15km."
+      },
+      {
+        "heading": "Preparing Your Parcel",
+        "body": "Documents need a sturdy envelope or tube. Fragile items need double boxing with 5cm of bubble wrap on all sides. Perishables need cold packs and insulated packaging. All parcels need sender and recipient details on the outside, not just on the label. Bouul provides free packaging for document envelopes."
+      }
+    ]
+  },
+  {
+    "id": "cour-002",
+    "tag": "courier-services",
+    "title": "Cross-Border Couriers: Shipping to SADC and Beyond",
+    "subtitle": "Send packages to Zimbabwe, Botswana, Mozambique, and further without the border chaos.",
+    "image": "/scenes/logistics-crossborder.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your family in Harare needs medication and the only option is a bus driver who might or might not deliver.",
+    "problemBody": "Cross-border shipping within Southern Africa is a fragmented market. Informal methods (buses, taxis, relatives) are unreliable and uninsured. Formal international couriers charge R500-R2,000 for a small parcel. SA's neighbours process thousands of packages daily at Beitbridge, Groblersbrug, and Lebombo crossings - customs delays are the main variable. Proper documentation reduces border holds from days to hours.",
+    "bouulSolution": [
+      "Bouul vetted cross-border partners with established customs-clearance channels at all major SA exit points",
+      "Door-to-door tracking from collection through border crossing to final delivery",
+      "Insurance up to R25,000 per consignment, including customs-declared value"
+    ],
+    "partsNeeded": [
+      "Full commercial invoice (even for personal items) with HS tariff codes for goods over R500",
+      "Recipient's full name, address, ID/passport number, and phone number",
+      "Value declaration for customs (under-declaring causes seizure and penalties)",
+      "Restricted item declaration (medication with prescription, electronics, foodstuffs)"
+    ],
+    "guidePricing": "Document to Gaborone: R250-R400. Parcel 5kg to Harare: R600-R1,200. Parcel 10kg to Lusaka: R1,000-R2,000. Door-to-door insurance: 3% of declared value.",
+    "timeline": "Botswana/Zim/Moz low-volume: 3-7 working days. Zambia/Malawi/DRC: 7-14 working days. Express (air freight): 2-4 working days.",
+    "aiPromptExample": "Ship a laptop from Johannesburg to Bulawayo, Zimbabwe, insured value R15,000, delivery to home address.",
+    "aiDiagnosisOutput": "Laptop, R15,000 value. Route: JHB to Beitbridge (road) then Bulawayo. Declared value: R15,000 (insurance 3% = R450). Commercial invoice needed with HS 8471.30. Duties: zero under SADC FTA if certificate of origin included. Total cost: R950-R1,400. Express air option: R2,500-R3,500 (2-3 days). Customs hold risk: low with correct paperwork.",
+    "escrowGuarantee": "Payment in escrow until delivery confirmed via Bouul tracking. Lost item insurance covers declared value less R500 excess.",
+    "pirbStandard": "SADC FTA Article 18: Goods valued under R500 are duty-free. Commercial invoices mandatory for goods over R500. SA Revenue Service (SARS) customs requires advance notification.",
+    "articleSections": [
+      {
+        "heading": "SADC Customs Basics",
+        "body": "The SADC Free Trade Area eliminates duties on qualifying goods traded between member states. Key SADC members from SA: Botswana, Lesotho, Eswatini, Namibia (BLSN - duty-free virtually everything), Zimbabwe (most goods duty-free with certificate of origin), Mozambique, Zambia, Malawi, Tanzania, and DRC. Non-SADC: Kenya, Nigeria, Ghana pay standard duties (10-30% on most goods). Always include a commercial invoice or the package sits at customs."
+      },
+      {
+        "heading": "Restricted and Prohibited Items",
+        "body": "Prohibited cross-border: firearms without permits, endangered species products, counterfeit goods, pornographic material, and unregistered medicines. Restricted (permit needed): prescription medication (accompanied by doctor's letter), alcohol (duty applies), fresh produce (phytosanitary certificate), and electronics over R5,000. Bouul cross-border partners check these for you before shipment."
+      }
+    ]
+  },
+  {
+    "id": "cour-003",
+    "tag": "courier-services",
+    "title": "Medical Courier Services: Time-Sensitive Healthcare Logistics",
+    "subtitle": "Lab samples, pharmacy deliveries, and medical equipment handled to healthcare standards.",
+    "image": "/scenes/logistics-medical.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your pathology lab has 20 blood samples that need to reach the testing centre within 4 hours and a standard courier won't do.",
+    "problemBody": "Medical logistics is a specialised field. Biological samples degrade over time - blood specimens must reach the lab within 4-6 hours for accurate results. Temperature-sensitive items (vaccines, insulin) need cold chain from collection to delivery. SA's medical courier market grew 15% annually as private healthcare expands into townships and rural areas. Standard couriers don't carry biohazard insurance or maintain cold-chain certification.",
+    "bouulSolution": [
+      "Bouul medical couriers with biohazard handling training and infection control certification",
+      "GPS-monitored temperature control: -20°C, 2-8°C, 15-25°C ranges with 15-minute logging",
+      "Priority medical dispatch: same-hour collection, direct routing with no consolidation stops"
+    ],
+    "partsNeeded": [
+      "Biological sample classification (UN 3373 Category B or UN 2814 Category A)",
+      "Triple-packaging: primary container, secondary leak-proof, outer rigid box with absorbent material",
+      "Temperature data logger (provided by Bouul at R50 per trip or your own calibrated logger)",
+      "Pathology/requisition forms in waterproof pouch between secondary and outer packaging"
+    ],
+    "guidePricing": "Local metro (same-hour): R250-R500 per drop. Regional inter-city: R800-R2,000. Cold chain surcharge: R150-R300 per trip. Stat/emergency: R600-R1,200.",
+    "timeline": "Same-hour: collection within 60 minutes of booking. Inter-lab metro: 2-4 hours door-to-door. Inter-city (e.g. JHB to DBN): 4-8 hours by priority courier.",
+    "aiPromptExample": "Three blood samples from Sandton Medical Centre to Lancet Lab in Midrand, needs cold chain, book for 2pm collection.",
+    "aiDiagnosisOutput": "3 x Category B blood samples. Triple-packed with cold packs. Collection: 2pm at Sandton Medical. Destination: Lancet Midrand (18km). Route: N1/M1 south. Estimated delivery: 2:45pm-3:15pm within 4-hour window. Temperature logger active, range 2-8°C. Cost: R380 (standard priority) + R150 cold chain = R530. Results courier to patient: add R95.",
+    "escrowGuarantee": "Bouul holds payment. Temperature excursion or delayed sample delivery: full refund + R1,000 service credit for resubmission.",
+    "pirbStandard": "WHO Guidelines for Transport of Infectious Substances: Triple packaging mandatory. Category A (UN 2814) requires trained shipper certification. SA Health Department: samples must reach lab within 6 hours of collection.",
+    "articleSections": [
+      {
+        "heading": "Cold Chain Integrity",
+        "body": "Temperature-sensitive medical items require end-to-end cold chain. The chain breaks at handover points (collection, sorting, delivery). Bouul medical couriers use single-driver routing from pickup to drop-off - no hub transfers. Temperature loggers record every 15 minutes; you get a report with delivery confirmation. If temperature exceeds the range for more than 30 continuous minutes, the shipment is flagged for quality review."
+      },
+      {
+        "heading": "Lab vs Pharmacy Deliveries",
+        "body": "Lab samples (blood, urine, tissue) need expedited delivery with priority routing - time is diagnostic accuracy. Pharmacy deliveries (medication, consumables) can be consolidated but require correct patient identification and prescription matching. Bouul offers separate service tiers: LabStat (guaranteed same-hour collection) and PharmaRoute (scheduled daily rounds with patient-verified delivery)."
+      }
+    ]
+  },
+  {
+    "id": "cour-004",
+    "tag": "courier-services",
+    "title": "E-Commerce Last-Mile Delivery: Making Online Retail Work",
+    "subtitle": "Get orders to customers faster than the big online retailers.",
+    "image": "/scenes/logistics-lastmile.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your small online store is growing but customers complain deliveries take 5-7 days while Takealot delivers next day.",
+    "problemBody": "Last-mile delivery is the most expensive and complex part of e-commerce logistics - accounting for 53% of total shipping costs. For small SA e-commerce businesses, competitive delivery speeds are the biggest barrier to growth. Big players negotiate bulk rates of R30-R50 per parcel; small stores pay R80-R150. Bouul levels the playing field by aggregating volumes across multiple small merchants.",
+    "bouulSolution": [
+      "Bouul delivery network with daily scheduled collections and next-day delivery across major metros",
+      "Real-time tracking portal for your customers with branded tracking page and SMS updates",
+      "Reverse logistics included: failed delivery returns at no extra cost within 7 days"
+    ],
+    "partsNeeded": [
+      "Order manifest (CSV or API integration with Bouul - WooCommerce, Shopify: free plugin)",
+      "Correctly packaged items with address label and order number",
+      "Delivery window preference (standard next-day or express same-day)",
+      "Return policy printed on packing slip"
+    ],
+    "guidePricing": "Parcel up to 5kg metro: R55-R90. 5-15kg metro: R90-R150. Nationwide: R120-R250. Express same-day: +R100. Monthly subscription (50+ parcels): R40-R70 per parcel.",
+    "timeline": "Daily collection cut-off: 2pm for next-day delivery. Express: collected within 3 hours, delivered within 5 hours. Weekend delivery available in JHB/CPT/DBN at no surcharge.",
+    "aiPromptExample": "Set up daily delivery route for a Soweto-based candle business shipping 30 parcels/week across Gauteng.",
+    "aiDiagnosisOutput": "30 parcels/week, avg 1.2kg each. Route: Soweto collection (daily 2pm), sorted at Bouul Midrand hub, delivered next-day JHB metro. Cost: R55-R70 per parcel = R1,650-R2,100/week. Customers get SMS tracking. Return rate: 3% (standard). Integrate WooCommerce plugin (free) - orders synced automatically. Bundle with 3 other Soweto merchants for bulk rate of R45/parcel.",
+    "escrowGuarantee": "Payment held in escrow. Parcel lost or damaged? R1,000 standard cover per parcel (upgrade to R5,000 at R15 per parcel).",
+    "pirbStandard": "CPA Section 19: Delivery timeframe must be disclosed before purchase. E-commerce refunds must be processed within 15 business days of return. Section 44: Customer has 10 business days to inspect goods.",
+    "articleSections": [
+      {
+        "heading": "Packaging for Last-Mile",
+        "body": "The SA last-mile environment is tough on parcels: potholed roads, multiple sorting steps, and varied weather. Guidelines: boxes need minimum 5cm crush space on all sides, seal all seams with 5cm wide tape (H-tape method), put fragile stickers on two adjacent sides, use poly mailers for soft goods (clothing, fabric) - they cost less and survive better than boxes. Bouul provides free branded packaging for monthly subscribers."
+      },
+      {
+        "heading": "Failed Delivery Management",
+        "body": "SA last-mile sees 8-15% failed first deliveries (no one home, wrong address, gate code missing). Strategies: SMS the recipient morning of delivery with 2-hour window, provide Bouul secure drop-off point (Pick Up location) as default, allow re-delivery scheduling within the tracking portal. Bouul's reverse logistics means failed items return to you at no cost within 7 days."
+      }
+    ]
+  },
+  {
+    "id": "cour-005",
+    "tag": "courier-services",
+    "title": "Document Shredding and Secure Courier: Confidential Destruction",
+    "subtitle": "When documents are too sensitive to bin and too important to lose.",
+    "image": "/scenes/logistics-shredding.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "You have 10 years of client files in storage that legally must be destroyed but you cannot just throw them in the recycling bin.",
+    "problemBody": "SA law (POPIA) requires confidential documents to be destroyed in a manner that prevents reconstruction. Simple shredding at the office is time-consuming and insecure - domestic shredders produce strips that can be reassembled. Professional shredding services provide cross-cut or disintegrated shredding with a certificate of destruction. Documents in transit to shredding must be secured and tracked - a gap many confidential waste services overlook.",
+    "bouulSolution": [
+      "Bouul secure document courier: locked bins collected under chain-of-custody tracking",
+      "Cross-cut shredding (DIN Level 4-6) producing 2x15mm particles - legally unreconstructable",
+      "Certificate of Destruction issued within 24 hours, compliant with POPIA retention requirements"
+    ],
+    "partsNeeded": [
+      "Estimated volume (filing cabinet drawers = 15-25kg. Archive boxes = 12-18kg each)",
+      "Bouul lockable security bins (provided free for ongoing service, deposit R250 each)",
+      "Signed authority letter from company director or POPIA information officer",
+      "Media for electronic destruction: hard drives, USBs, backup tapes (quoted separately)"
+    ],
+    "guidePricing": "Collection and shred: R15-R25 per kg. Minimum charge: R350. Lockable bin rental: R50-R80 per bin per month. Hard drive destruction: R120-R250 per drive with video evidence.",
+    "timeline": "Standard collection: next working day. Shredding: within 24 hours of collection. Certificate: emailed within 24 hours. Express same-day destruction: 50% surcharge.",
+    "aiPromptExample": "Arrange POPIA-compliant destruction of 12 archive boxes of client files plus 3 old hard drives from a closed law firm office.",
+    "aiDiagnosisOutput": "12 archive boxes (180-216kg), 3 HDDs. Service: bulk secure courier (next-day collection) + cross-cut shred BIN Level 5 + hard drive physical destruction (crushed, video evidence). Cost: destruction R3,240-R3,888 + HDDs R360-R750 + collection R250 = R3,850-R4,888. Certificate of Destruction within 24h. POPIA compliant for 5-year retention rules.",
+    "escrowGuarantee": "Full chain-of-custody recorded. Loss between collection and destruction: Bouul covers POPIA fine risk (up to R100,000 statutory maximum). Payment held until certificate issued.",
+    "pirbStandard": "POPIA Section 21: Responsible party must destroy records in a manner that prevents reconstruction. Section 14(1): Records must be retained for 5 years after their purpose expires. DIN 66399 levels: Level 4 (cross-cut 6x30mm) minimum for personal data, Level 5 (4x30mm) for financial/medical.",
+    "articleSections": [
+      {
+        "heading": "POPIA Document Retention Timeline",
+        "body": "POPIA requires records to be kept for 5 years after the purpose for processing expires. For legal firms, limitations periods can extend retention to 10 years (property disputes) or 15 years (debt collection). Tax records: 5 years. Medical records: 6 years (adults), 20+ years (minors). Employee records: 5 years after employment ends. The certificate of destruction is your proof of compliance - store it for 5 years after destruction."
+      },
+      {
+        "heading": "Electronic Media Destruction Standards",
+        "body": "Deleting files or formatting drives is insufficient - data is recoverable with free software. Secure methods: degaussing (magnetic drives, destroys electronics), physical destruction (shredder or hydraulic press, Bouul's standard for HDDs), and cryptographic erasure (SSDs, using NIST 800-88 purge standard). Ask for video-recorded destruction for the highest audit trail. Bouul provides a destruction log with serial numbers matching the certificate."
+      }
+    ]
+  },
+  {
+    "id": "courier_same_day_express",
+    "tag": "Express Delivery",
+    "title": "Same-Day Door-to-Door Express Courier",
+    "subtitle": "Urgent document, parcel, and spare part express courier dispatch",
+    "image": "/scenes/courier_services.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Waiting 3 days for urgent legal documents or spare parts stalls your business",
+    "problemBody": "Standard postal services lack guaranteed same-day delivery windows.",
+    "bouulSolution": [
+      "Dedicated motorcycle or hatchback courier assigned immediately to your parcel",
+      "Real-time live map tracking from pickup signature to drop-off OTP confirmation",
+      "Escrow holds funds until recipient signs for delivery"
+    ],
+    "partsNeeded": [
+      "Tamper-evident courier pouch",
+      "Digital OTP delivery handheld",
+      "Waterproof parcel liner"
+    ],
+    "guidePricing": "R120 – R350",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Book express courier: 'Pickup legal contract in Rosebank and deliver to Pretoria CBD today.'",
+    "aiDiagnosisOutput": "Distance: 45km. Vehicle: Express Motorbike. Transit Time: 60 Mins. Escrow: R250.",
+    "escrowGuarantee": "Escrow released upon digital recipient signature and OTP entry.",
+    "pirbStandard": "SA Express Courier Association Standard.",
+    "articleSections": [
+      {
+        "heading": "OTP Delivery Verification",
+        "body": "Parcels are handed over only after recipient provides the unique 4-digit PIN code."
+      },
+      {
+        "heading": "Tamper-Evident Packaging",
+        "body": "Documents are sealed in tamper-evident security bags to ensure privacy."
+      }
+    ]
+  }
+]

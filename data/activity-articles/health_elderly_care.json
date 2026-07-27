@@ -1,0 +1,286 @@
+[
+  {
+    "id": "elderly-daily",
+    "tag": "Elderly Care",
+    "title": "Daily Assistance for the Elderly: Maintaining Dignity and Independence at Home",
+    "subtitle": "Professional support for daily living activities so seniors can age in place safely",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Over 70% of SA seniors want to age at home but lack the daily support to do so safely",
+    "problemBody": "South Africa has an ageing population with limited institutional care options. Most elderly South Africans prefer to remain in their own homes, but daily tasks become increasingly challenging: bathing, dressing, meal preparation, medication management, and mobility. Family members often become primary caregivers despite having full-time jobs and their own families. Caregiver burnout is a leading cause of institutional placement. Professional daily assistance allows seniors to maintain their independence while reducing the burden on family caregivers.",
+    "bouulSolution": [
+      "A trained caregiver visits the senior home daily or on a scheduled basis to assist with personal care, meal preparation, light housekeeping, and companionship",
+      "The caregiver provides medication reminders and assistance with mobility and transfers, reducing fall risk",
+      "A daily care log is maintained and shared with family members so they stay informed of their loved one wellbeing"
+    ],
+    "partsNeeded": [
+      "Medication schedule and any prescribed medications labelled clearly",
+      "Medical aid details and emergency contact information",
+      "Mobility aids if required: walking frame, wheelchair, or walking stick",
+      "Daily living supplies: incontinence products, toiletries, and meal ingredients as needed"
+    ],
+    "guidePricing": 185,
+    "timeline": "Ongoing — typically 2-7 days per week depending on the level of support needed",
+    "aiPromptExample": "Create a daily care plan for an 82-year-old woman living alone in Cape Town with mild dementia, hypertension, and mobility challenges. Include: morning medication routine, personal care schedule, meal planning for a soft diet, fall prevention checklist, and a daily log template for the caregiver.",
+    "aiDiagnosisOutput": "Care assessment complete. Client: 82-year-old female, lives alone in Cape Town. Diagnoses: mild dementia, hypertension, osteoarthritis. Needs: assistance with bathing (shower chair required), medication supervision (3 daily medications), meal preparation (soft diet due to dental issues), mobility support (walking frame used indoors). Risk factors: lives alone, previous fall 3 months ago, no family in the same city. Recommended: daily 4-hour visits (morning), 7 days per week.",
+    "escrowGuarantee": "Funds released per shift completed. If the client or family is not satisfied with the caregiver within the first 3 shifts, replacement caregiver provided at no extra cost.",
+    "pirbStandard": "All caregivers hold a minimum of a Care Worker qualification (NQF Level 4) and are registered with the SA Council for Social Service Professions (SACSSP) where applicable. Background screening and reference checks are mandatory.",
+    "articleSections": [
+      {
+        "heading": "The Daily Assistance Programme",
+        "body": "Daily assistance covers personal care (bathing, grooming, dressing, toileting), meal preparation (including special diets), medication reminders, light housekeeping (laundry, dishes, tidying), mobility support (transfers, walking assistance), and companionship. Each visit is tailored to the senior specific needs and preferences. The goal is to maintain the senior independence and dignity while ensuring safety and wellbeing."
+      },
+      {
+        "heading": "Medication Management for Seniors",
+        "body": "Medication errors are a leading cause of hospitalisation among the elderly. Our caregivers are trained in medication management: organising daily dosette boxes, providing verbal reminders, observing that medications are taken, recording administered doses, and reporting any missed doses or side effects to family members and healthcare providers."
+      },
+      {
+        "heading": "Fall Prevention in the Home",
+        "body": "Falls are the leading cause of injury among SA seniors. Our caregivers conduct a daily fall risk assessment: clear pathways of clutter, ensure adequate lighting, check that mobility aids are within reach, assist with transfers (bed to chair, chair to toilet), and report any new hazards. A fall prevention checklist is completed at every visit."
+      },
+      {
+        "heading": "Supporting Family Caregivers",
+        "body": "Family caregivers provide the majority of elder care in SA, often at significant personal cost. Our service relieves family caregivers for defined periods each day, reducing burnout and allowing them to maintain their own health and employment. We provide a daily care log and weekly summary calls to keep families informed and involved in their loved one care."
+      },
+      {
+        "heading": "Nutrition and Meal Preparation for Seniors",
+        "body": "Many seniors struggle with meal preparation due to mobility limitations, reduced appetite, or cognitive decline. Our caregivers prepare nutritious meals that account for dietary restrictions: low-salt for hypertension, soft foods for dental issues, diabetic-friendly options. Meals are prepared using the senior preferred ingredients and cultural food traditions."
+      },
+      {
+        "heading": "Transitioning from Hospital to Home",
+        "body": "Hospital discharge is a critical period for seniors. Our caregivers can begin support immediately upon discharge, ensuring: medication is collected and correctly organised, follow-up appointments are scheduled, the home is set up for recovery (bed accessible, bathroom safe), and meals are prepared for the first week of recovery."
+      }
+    ]
+  },
+  {
+    "id": "elderly-bathing",
+    "tag": "Elderly Care",
+    "title": "Bathing and Personal Care Assistance for Seniors",
+    "subtitle": "Dignified bathing and hygiene support that preserves the senior privacy and independence",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Assisted bathing is the most requested elderly care service — and the most sensitive to deliver with dignity",
+    "problemBody": "Personal care is one of the most challenging aspects of ageing for seniors and their families. Loss of the ability to bathe independently can be deeply distressing and humiliating. Many families attempt to assist with bathing but find it physically demanding and emotionally difficult. Improper bathing assistance can lead to skin breakdown, infections, and falls. Professional caregivers are trained in dignified bathing techniques that maintain the senior comfort, safety, and privacy while ensuring thorough hygiene.",
+    "bouulSolution": [
+      "A trained caregiver provides bathing assistance using techniques that maximise the senior independence and dignity while ensuring safety",
+      "The caregiver conducts a pre-bath assessment: skin condition, mobility level, and any pressure areas or wounds requiring attention",
+      "Post-bath skin care is provided: moisturising, pressure area care, and incontinence management as needed"
+    ],
+    "partsNeeded": [
+      "Bath chair or shower stool for safe bathing (provided if the home does not have one)",
+      "Mild, pH-balanced soap and moisturiser suitable for ageing skin",
+      "Towels, washcloths, and a bathrobe for comfort and warmth",
+      "Incontinence products if required: pads, protective underwear, and barrier cream"
+    ],
+    "guidePricing": 160,
+    "timeline": "Typically 30-45 minutes per session, 2-7 days per week",
+    "aiPromptExample": "Create a bathing care plan for an 88-year-old man with limited mobility, fragile skin, and early-stage dementia. Include: pre-bath safety checklist, step-by-step bathing protocol, skin care routine, and communication strategies for working with a dementia patient during personal care.",
+    "aiDiagnosisOutput": "Personal care assessment. Client: 88-year-old male, requires full assistance with bathing. Skin assessment: dry skin on lower legs, minor skin tear on left forearm healed. Mobility: transfers with one-person assist using walking frame. Cognition: early dementia, occasionally agitated during personal care. Recommended: daily assisted bed-bath or shower chair bath, moisturising routine, and use of calming verbal cues during care.",
+    "escrowGuarantee": "Per-session release. If the client or family is not comfortable with the care approach within the first 3 sessions, replacement caregiver provided at no cost.",
+    "pirbStandard": "Caregivers hold a Care Worker qualification (NQF Level 4) with specialised training in personal care for the elderly. Background screening mandatory.",
+    "articleSections": [
+      {
+        "heading": "Dignified Bathing Techniques",
+        "body": "Our caregivers are trained in techniques that preserve the senior dignity: maintaining privacy (covering the senior with a towel, only exposing the area being washed), maximising independence (letting the senior do what they can, assisting only where needed), using warm rather than hot water, and ensuring the bathroom is warm and draft-free. Communication is respectful and reassuring throughout."
+      },
+      {
+        "heading": "Fall Prevention During Bathing",
+        "body": "The bathroom is the most common location for falls among seniors. Our caregivers follow strict safety protocols: checking water temperature before the senior enters, using non-slip mats, ensuring grab bars are secure, staying with the senior throughout, and using a bath chair or shower stool rather than standing. The caregiver is trained in safe transfer techniques to move the senior in and out of the bath safely."
+      },
+      {
+        "heading": "Skin Care for Ageing Skin",
+        "body": "Ageing skin is thinner, drier, and more prone to injury. Our caregivers provide gentle skin care: using pH-balanced cleansers rather than harsh soap, patting dry rather than rubbing, applying moisturiser immediately after bathing, checking for pressure areas and skin tears, and reporting any skin changes to the family and healthcare provider."
+      },
+      {
+        "heading": "Special Considerations for Dementia",
+        "body": "Bathing can be distressing for seniors with dementia due to confusion, fear of water, and loss of privacy. Our caregivers are trained in dementia-sensitive techniques: explaining each step before doing it, using a calm and reassuring tone, maintaining a warm room temperature, offering choices where possible (sponge bath or shower?), and having familiar items (favourite towel, familiar soap) to provide comfort."
+      }
+    ]
+  },
+  {
+    "id": "elderly-medication",
+    "tag": "Elderly Care",
+    "title": "Medication Management and Supervision for the Elderly",
+    "subtitle": "Safe medication administration that prevents errors and hospitalisations",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Medication errors hospitalise over 10,000 SA seniors annually, and most are preventable",
+    "problemBody": "As people age, medication regimens become more complex. It is common for seniors to be taking 5-10 different medications for chronic conditions, often from multiple doctors. This creates significant risk: incorrect dosing, missed doses, dangerous drug interactions, and accidental double-dosing. Cognitive decline makes independent medication management increasingly difficult. Family members often take over but may lack training in proper medication administration protocols. Professional medication management prevents errors and ensures proper adherence.",
+    "bouulSolution": [
+      "A trained caregiver or nurse manages the senior medication regimen: organising dosette boxes, supervising medication intake, and maintaining detailed records",
+      "Medication reconciliation is performed regularly: the medication list is reviewed against doctor prescriptions to ensure accuracy and identify potential interactions",
+      "Prescription refill management: the caregiver monitors stock levels and coordinates with the pharmacy and doctor to ensure continuity of supply"
+    ],
+    "partsNeeded": [
+      "Complete and current medication list with doses, frequencies, and prescribing doctors",
+      "Dosette box or medication organiser (provided if needed)",
+      "Prescription refill schedule and pharmacy contact details",
+      "Emergency contact numbers for doctors and the closest hospital"
+    ],
+    "guidePricing": 150,
+    "timeline": "Ongoing — daily supervision with weekly medication reconciliation",
+    "aiPromptExample": "Create a medication management plan for a 76-year-old woman with type 2 diabetes, hypertension, osteoporosis, and arthritis who takes 8 daily medications. Include: medication schedule with times and doses, potential side effects to monitor, drug interaction warnings, and a refill tracking system.",
+    "aiDiagnosisOutput": "Medication assessment. Client: 76-year-old female, 8 daily medications. Risk factors: mild cognitive impairment, lives alone, previous missed doses reported by family. Current adherence: estimated 60-70%. Issues identified: two medications prescribed by different doctors with potential interaction, one expired medication still being taken, no organised system for refills. Recommended: daily caregiver supervision, dosette box, medication chart on the wall, monthly medication reconciliation.",
+    "escrowGuarantee": "Per-session release. If any medication error occurs due to our caregiver negligence, all care costs for that month are refunded.",
+    "pirbStandard": "Medication management is provided by registered nurses or trained caregivers under the supervision of a registered nurse. All caregivers follow SA Pharmacy Council guidelines for medication assistance.",
+    "articleSections": [
+      {
+        "heading": "Medication Error Prevention",
+        "body": "Medication errors occur in three main categories: wrong dose, wrong time, and wrong medication. Our prevention system includes: colour-coded dosette boxes organised by day and time, a medication chart with photographs of each medication, double-checking protocols (caregiver checks against the chart before administration), and immediate reporting of any errors."
+      },
+      {
+        "heading": "Medication Reconciliation",
+        "body": "Medication reconciliation is the process of comparing the senior current medication list against new prescriptions to identify discrepancies. This is particularly important after hospital discharge, when medications are frequently changed. Our caregivers perform reconciliation after every doctor visit and hospital stay, documenting any changes and reporting them to the family and GP."
+      },
+      {
+        "heading": "Managing Multiple Prescriptions",
+        "body": "Seniors with multiple chronic conditions often see several specialists who prescribe independently. Our service maintains a master medication list that is shared with all healthcare providers. We flag potential interactions: for example, NSAIDs for arthritis can worsen hypertension, and some diabetes medications interact with heart medications. This coordination can prevent serious adverse events."
+      },
+      {
+        "heading": "Supporting Independent Medication Management",
+        "body": "Where the senior is capable of managing their own medications with support, our approach focuses on enabling independence: setting up a reliable organisational system, providing verbal reminders rather than direct administration, and monitoring adherence discreetly. The goal is to support the senior autonomy while ensuring safety."
+      }
+    ]
+  },
+  {
+    "id": "elderly-companionship",
+    "tag": "Elderly Care",
+    "title": "Companionship and Social Engagement for Seniors",
+    "subtitle": "Meaningful social connection that combats loneliness and improves quality of life",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Chronic loneliness in seniors increases mortality risk by 26% and is more harmful than obesity",
+    "problemBody": "Social isolation is a silent epidemic among South African seniors. Children emigrate, spouses pass away, and retirement communities are not affordable for most families. Many seniors spend entire days alone with minimal human contact. Chronic loneliness has documented health consequences: increased risk of dementia (64%), cardiovascular disease (29%), and premature death (26%). Companionship services address this crisis by providing regular, meaningful social interaction that improves mental health, cognitive function, and overall quality of life.",
+    "bouulSolution": [
+      "A companion visits the senior 2-5 times per week for conversation, shared activities, and social engagement tailored to the senior interests",
+      "Activities are designed to stimulate cognitive function: card games, puzzles, reminiscence therapy, reading aloud, and music appreciation",
+      "The companion can facilitate outings: accompanied walks, visits to community centres, attending religious services, or coffee shop visits"
+    ],
+    "partsNeeded": [
+      "List of the senior interests, hobbies, and preferred activities",
+      "Board games, card games, puzzles, or other cognitive engagement materials",
+      "Transport arrangement for accompanied outings (companion can use own vehicle or public transport)",
+      "Emergency contact information and basic medical information for outings"
+    ],
+    "guidePricing": 140,
+    "timeline": "2-5 sessions per week, 1-3 hours per session, ongoing",
+    "aiPromptExample": "Create a 4-week companionship activity plan for an 85-year-old woman who lost her husband recently, has reduced mobility, enjoys gardening and classical music, and shows early signs of depression. Include: weekly activity themes, cognitive stimulation exercises, reminiscence prompts, and mood tracking.",
+    "aiDiagnosisOutput": "Companionship assessment. Client: 85-year-old female, widowed 6 months ago, lives alone. Interests: gardening (unable to do due to mobility), classical music, knitting, reading. Cognitive status: mild memory lapses (normal ageing), no dementia diagnosis. Mood: reports loneliness, reduced appetite, sleeps poorly. Recommended: 3 sessions/week, alternating home-based activities (music, reminiscence, games) with accompanied garden visits.",
+    "escrowGuarantee": "Per-session release. If the client or family does not feel that meaningful companionship is being provided within 4 sessions, a replacement companion is offered free.",
+    "pirbStandard": "Companions are screened for empathy, communication skills, and reliability. Training in active listening, reminiscence therapy, and cognitive stimulation is provided. Background screening mandatory.",
+    "articleSections": [
+      {
+        "heading": "The Health Impact of Loneliness",
+        "body": "Research from the SA Medical Research Council shows that chronic loneliness is as harmful as smoking 15 cigarettes per day. It increases inflammation markers, elevates cortisol, impairs immune function, and accelerates cognitive decline. Companionship directly counters these effects by providing regular social interaction, emotional support, and cognitive stimulation."
+      },
+      {
+        "heading": "Reminiscence Therapy",
+        "body": "Reminiscence therapy involves discussing past experiences and memories in a structured way. It is particularly effective for seniors with depression or mild cognitive impairment. Our companions use prompts: old photographs, music from the senior youth, familiar objects, and guided questions about significant life events. This improves mood, cognitive function, and a sense of identity."
+      },
+      {
+        "heading": "Cognitive Stimulation Activities",
+        "body": "Regular cognitive stimulation can slow cognitive decline. Our companions engage seniors in: word games (crosswords, word searches, Scrabble), number games (Sudoku, card games), discussion of current events, book club-style reading and discussion, and creative activities (drawing, music, writing). Activities are chosen to match the senior cognitive level and interests."
+      },
+      {
+        "heading": "Accompanied Outings and Community Connection",
+        "body": "Many seniors cannot leave their homes without assistance, leading to social isolation. Our companions provide accompanied outings: visits to local community centres or senior clubs, grocery shopping with social interaction, coffee shop visits, religious services, and park walks. These outings maintain the senior connection to their community and provide meaningful variety in their week."
+      }
+    ]
+  },
+  {
+    "id": "elderly-dementia",
+    "tag": "Elderly Care",
+    "title": "Dementia Care: Specialised Support for Memory Loss and Cognitive Decline",
+    "subtitle": "Skilled, compassionate care for seniors living with Alzheimer disease and other dementias",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "SA has over 200,000 people living with dementia, and most families receive no formal care training",
+    "problemBody": "Dementia is a progressive condition that affects memory, thinking, behaviour, and the ability to perform daily activities. Caring for a loved one with dementia is one of the most challenging experiences for SA families. Common challenges: wandering, aggression or agitation, sundowning (increased confusion in the late afternoon), incontinence, and difficulty with communication. Families often struggle to cope without professional guidance. Specialised dementia care training is essential for managing these challenges safely and compassionately.",
+    "bouulSolution": [
+      "A trained dementia caregiver provides care in the senior home using person-centred techniques that maintain dignity and reduce distress",
+      "The caregiver uses evidence-based strategies for managing challenging behaviours: redirection, validation therapy, and environmental modification",
+      "Family members receive coaching on dementia communication techniques and behaviour management strategies"
+    ],
+    "partsNeeded": [
+      "Daily routine schedule that the senior is familiar with (dementia patients thrive on routine)",
+      "Comfortable clothing that is easy to put on and take off (adaptive clothing recommended)",
+      "Safety equipment: door alarms, bed rails, non-slip footwear, and identification bracelet",
+      "Activities suitable for the dementia stage: simple puzzles, sensory items, familiar music playlist"
+    ],
+    "guidePricing": 220,
+    "timeline": "4-7 days per week depending on the stage of dementia and family support available",
+    "aiPromptExample": "Create a dementia care plan for an 80-year-old man with mid-stage Alzheimer disease who experiences sundowning, has become aggressive during personal care, and wanders at night. Include: daily routine, behaviour management strategies, communication techniques, and home safety modifications.",
+    "aiDiagnosisOutput": "Dementia care assessment. Client: 80-year-old male, mid-stage Alzheimer. MMSE score: 14/30. Behaviours: sundowning (daily agitation from 16:00), verbal aggression during bathing, nocturnal wandering (2-3 times weekly). Safety: has left the house twice. Communication: responds to simple sentences, becomes agitated with multiple instructions. Recommended: structured daily routine, evening activities to reduce sundowning, door alarms, two-person assist for bathing.",
+    "escrowGuarantee": "Per-shift release. If the family requires additional training or the care approach needs adjustment within the first month, additional caregiver coaching sessions are provided free.",
+    "pirbStandard": "Dementia care specialists hold a Care Worker qualification with additional training in dementia care (Alzheimer SA accredited training preferred). Background screening and dementia-specific competency assessment required.",
+    "articleSections": [
+      {
+        "heading": "Understanding Dementia and Its Progression",
+        "body": "Dementia is not a single disease but a group of conditions that cause progressive brain decline. Alzheimer disease accounts for 60-80% of cases. Other types include vascular dementia, Lewy body dementia, and frontotemporal dementia. Each type has distinct symptoms and progression patterns. Our caregivers are trained to recognise the specific type of dementia and adjust their approach accordingly."
+      },
+      {
+        "heading": "Managing Challenging Behaviours",
+        "body": "Challenging behaviours in dementia are usually attempts to communicate unmet needs: pain, hunger, discomfort, fear, or confusion. Our caregivers are trained in behaviour management strategies: identify triggers (time of day, environment, activity), redirect to a preferred activity, validate feelings rather than correcting, maintain a calm tone and body language, and modify the environment to reduce agitation. Restraint is never used."
+      },
+      {
+        "heading": "Creating a Dementia-Friendly Home",
+        "body": "The home environment significantly affects dementia symptoms. Our assessment covers: clear labelling of rooms and cupboards, removing trip hazards, ensuring good lighting (reduces sundowning), reducing noise and clutter, using contrasting colours for important items (white toilet seat on dark floor), and securing potential hazards (stove, sharp objects, medications)."
+      },
+      {
+        "heading": "Supporting the Family Through the Journey",
+        "body": "Dementia is a family diagnosis. Our service includes: regular family updates on the senior condition and care approach, coaching on communication techniques (simple sentences, one instruction at a time, allow time to process), guidance on legal and financial planning (power of attorney, living will), and emotional support for family caregivers who often experience grief and guilt."
+      }
+    ]
+  },
+  {
+    "id": "elderly-respite",
+    "tag": "Elderly Care",
+    "title": "Respite Care: Giving Family Caregivers the Break They Deserve",
+    "subtitle": "Temporary professional care that allows family caregivers to rest, recharge, and attend to their own needs",
+    "image": "/scenes/health_elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "80% of SA family caregivers report symptoms of burnout, and most have not had a break in over a year",
+    "problemBody": "Family caregivers are the unsung backbone of SA elder care. They provide an average of 40 hours of care per week on top of their own employment and family responsibilities. The physical and emotional toll is enormous: chronic fatigue, depression, strained relationships, and deteriorating health. Many caregivers report that they have not had a single full day off in over a year. Respite care provides temporary relief, allowing caregivers to rest, attend to their own health, travel, or simply have time for themselves. This is not a luxury — it is essential for sustainable caregiving.",
+    "bouulSolution": [
+      "A fully trained caregiver takes over the senior care for a defined period: a few hours, a full day, overnight, or multiple days",
+      "The respite caregiver follows the existing care plan exactly, ensuring continuity and consistency for the senior",
+      "A detailed handover report is provided to the regular caregiver or family upon return, covering all care provided, any incidents, and the senior wellbeing"
+    ],
+    "partsNeeded": [
+      "The regular care plan and daily routine to ensure consistency",
+      "The senior medication, supplies, and any medical equipment needed during the respite period",
+      "Emergency contacts: family members, doctors, and the nearest hospital",
+      "Food and personal care supplies for the duration of the respite period"
+    ],
+    "guidePricing": 200,
+    "timeline": "As needed — from a few hours to several days",
+    "aiPromptExample": "Create a 3-day respite care plan for an 85-year-old man with Parkinson disease who needs assistance with all personal care, feeding, and transfers. The regular caregiver is his wife who needs a weekend break. Include: daily routine, medication schedule, feeding and hydration plan, mobility protocol, and emergency procedures.",
+    "aiDiagnosisOutput": "Respite assessment. Client: 85-year-old male, Parkinson disease (advanced stage). Needs: full assistance with all personal care, feeding (soft diet, risk of aspiration), medication (6 times daily), transfers (hoist required), and continence care. Regular caregiver: wife (83), reports exhaustion and back pain. Recommended: 2-day respite (Saturday to Sunday), 12-hour shifts with overnight care.",
+    "escrowGuarantee": "Full respite fee held in escrow. If the senior care is not maintained to the same standard as the regular caregiver, the respite fee is refunded.",
+    "pirbStandard": "Respite caregivers hold the same qualifications as regular caregivers (NQF Level 4 Care Worker) and are briefed on the specific client needs before each assignment. Background screening mandatory.",
+    "articleSections": [
+      {
+        "heading": "Why Respite Care Is Essential",
+        "body": "Caregiver burnout is a serious health risk: increased rates of depression, anxiety, cardiovascular disease, and premature death. The SA Department of Health recognises caregiver support as an essential component of elder care. Respite care is not optional — it is a preventive health measure that protects both the caregiver and the care recipient. A rested caregiver provides better care."
+      },
+      {
+        "heading": "Types of Respite Care",
+        "body": "Respite can be provided in different formats depending on the family needs: in-home respite (caregiver comes to the home) for a few hours or full days, overnight respite for caregivers who need sleep support, weekend respite for extended breaks, and emergency respite for unexpected situations. Our service can be booked on a regular schedule (e.g., every Saturday) or on an ad-hoc basis."
+      },
+      {
+        "heading": "Ensuring Continuity of Care",
+        "body": "We understand that seniors with complex needs require consistent care. Before each respite assignment, our caregiver receives a detailed care plan, is introduced to the senior and family, and is briefed on specific preferences and routines. Where possible, the same respite caregiver is assigned each time to build familiarity and trust."
+      },
+      {
+        "heading": "Cost of Respite Care",
+        "body": "Respite care costs vary based on hours and level of care required. Hourly rates range from R140-R200. Full-day rates: R1,200-R1,800. Overnight rates: R800-R1,200. Many medical aid schemes offer limited respite care benefits under certain plans. Our service team can assist with claims and pre-authorisation."
+      }
+    ]
+  }
+]

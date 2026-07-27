@@ -1,0 +1,326 @@
+[
+  {
+    "id": "major_service",
+    "tag": "Mechanics",
+    "title": "Major Service: What's Included and Why It Matters",
+    "subtitle": "The complete guide to keeping your engine running at peak performance past 60 000 km",
+    "image": "/scenes/auto_major_service.png",
+    "problemHeadline": "Is your car due for a major service?",
+    "problemBody": "Every 60 000 km or 3 years your vehicle needs more than an oil change. A major service replaces filters, fluids, spark plugs and drive belts. Skipping it leads to premature engine wear, reduced fuel economy, and lower resale value.",
+    "bouulSolution": [
+      "Book a Bouul-vetted mechanic who arrives with OEM-spec filters, spark plugs, and fluids for your exact make and model",
+      "Your mechanic performs a 72-point inspection covering engine, transmission, brakes, suspension, and electrical systems \u2014 all documented in the Bouul app",
+      "Payment is held in Bouul escrow until you confirm the service is complete and your car runs smoothly"
+    ],
+    "partsNeeded": [
+      "Oil filter and air filter (OEM or equivalent SABS-approved)",
+      "Spark plugs (correct heat range, e.g. NGK or Bosch)",
+      "Cabin air filter and fuel filter (where applicable)",
+      "Engine oil (SAE grade per manufacturer: 5W-30, 10W-40, or 0W-20)"
+    ],
+    "guidePricing": "R2 800 \u2013 R5 500 (4-cylinder); R4 500 \u2013 R8 500 (6-cylinder/V6)",
+    "timeline": "2\u20134 hours on-site",
+    "aiPromptExample": "2019 Toyota Corolla 1.8 petrol with 72 000 km. Never had a major service. In Fourways, Joburg, need mobile mechanic with OEM parts.",
+    "aiDiagnosisOutput": "2019 Corolla 1.8L - major service due. Oil + filter, air filter, spark plugs, coolant flush, brake fluid flush, drive belt. Est. R3 200\u2013R4 800.",
+    "escrowGuarantee": "Your payment is held in Bouul escrow. Release funds only after you inspect the work and confirm your car idles smoothly with no warning lights.",
+    "pirbStandard": "MIWA (Motor Industry Workshop Association) Code of Conduct; SANS 10100-1 for engine servicing",
+    "articleSections": [
+      {
+        "heading": "When does your car need a major service?",
+        "body": "Most manufacturers schedule a major service every 60 000 km or 36 months, whichever comes first. Turbo engines and cars driven in severe conditions \u2014 SA dusty gravel roads, Gauteng traffic, Durban coastal humidity \u2014 need earlier intervals. Your owner manual has the exact schedule."
+      },
+      {
+        "heading": "What gets replaced during a major service?",
+        "body": "A major service covers everything a minor service does plus spark plugs (copper or iridium), fuel filter, cabin air filter, drive belt inspection, coolant flush, brake fluid flush, and sometimes transmission fluid. The mechanic also adjusts valve clearances on engines that need them. All fluids topped to manufacturer spec."
+      },
+      {
+        "heading": "Why OEM parts matter",
+        "body": "Aftermarket parts save money upfront but fail faster. SA has a counterfeit auto parts market \u2014 fake oil filters disintegrate and clog galleries. SABS-approved OEM-equivalent parts from Bosch, NGK, or Febi Bilstein meet the same standards. Bouul mechanics use genuine or certified equivalent parts only."
+      },
+      {
+        "heading": "The 72-point inspection explained",
+        "body": "Beyond service items, the mechanic checks tyres, brake pads and discs, suspension bushes, ball joints, CV boots, exhaust mounts, battery CCA, air-con gas pressure, wiper blades, and lights. Each item is marked pass/fail in your Bouul report so you know what needs attention next."
+      },
+      {
+        "heading": "Average pricing in South Africa (2026)",
+        "body": "4-cylinder sedan (Corolla, Polo, i20): R2 800\u2013R5 500. 6-cylinder (BMW 3 Series, Audi A4, C-Class): R4 500\u2013R8 500. V8 or luxury SUV (X5, GLE, Range Rover): R6 500\u2013R12 000. Includes parts, labour, and digital inspection. Dealerships charge 40\u201360% more."
+      },
+      {
+        "heading": "How Bouul protects you",
+        "body": "Bouul connects you with RMI-registered mobile mechanics who come to your home or office. You approve the parts list before work starts. Payment stays in escrow until you confirm satisfaction. If work isn't up to standard, Bouul mediates under MIWA dispute resolution."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "brake_pads",
+    "tag": "Mechanics",
+    "title": "Brake Pads: When to Replace and What to Expect",
+    "subtitle": "Squeaking, grinding, or a soft pedal \u2014 know the signs before it costs you a rotor",
+    "image": "/scenes/auto_brake_pads.png",
+    "problemHeadline": "Your brake pads are wearing thin. What now?",
+    "problemBody": "Brake pads last 30 000\u201365 000 km depending on driving style. Heavy SA stop-start traffic can cut that to 20 000 km. When pads wear past 3 mm, stopping distance increases and metal-on-metal contact destroys your discs.",
+    "bouulSolution": [
+      "A Bouul mobile mechanic brings your exact pad set (semi-metallic or ceramic) and checks rotor thickness on arrival",
+      "They measure runout, lubricate slider pins, and bleed the system \u2014 not just swap pads and go",
+      "Bouul escrow holds payment until you confirm the pedal feels firm with no squeal on test drive"
+    ],
+    "partsNeeded": [
+      "Brake pads (front and/or rear set, semi-metallic or ceramic per manufacturer spec)",
+      "Brake discs (skim or replace if below minimum thickness)",
+      "Brake fluid (DOT 4 or DOT 5.1 per manufacturer)",
+      "Copper grease and brake cleaner"
+    ],
+    "guidePricing": "R800 \u2013 R2 200 per axle (pads only); R2 500 \u2013 R6 000 per axle (pads + discs)",
+    "timeline": "1\u20132 hours per axle",
+    "aiPromptExample": "2017 VW Polo 1.0 TSI. Front brakes squeak when stopping. Pads checked 10 000 km ago at 4 mm. Worth buying ceramic for less dust?",
+    "aiDiagnosisOutput": "2017 Polo 1.0 TSI \u2014 front brake squeal. Likely worn pads below 3 mm or glazed surface. Fit ceramic pads (Ferodo or ATE) for reduced dust. Est. R1 200\u2013R1 800 per axle.",
+    "escrowGuarantee": "Your payment sits in Bouul escrow. Test the brakes \u2014 if you hear squealing after 200 km, we hold funds until the issue is fixed.",
+    "pirbStandard": "RMI Brake Service Code of Practice; SANS 20053 brake system performance",
+    "articleSections": [
+      {
+        "heading": "When should you replace brake pads?",
+        "body": "The golden rule: replace pads at 3 mm remaining thickness. Many pads have a wear indicator that chirps when braking. Other signs: grinding (metal on metal), soft or spongey pedal (air in lines), or the car pulling to one side under braking (sticking caliper or uneven wear)."
+      },
+      {
+        "heading": "Semi-metallic vs ceramic pads for SA",
+        "body": "Semi-metallic pads are standard for most SA cars \u2014 they handle heat well and last longer but produce more dust. Ceramic pads run cleaner and quieter \u2014 ideal for luxury sedans with alloy wheels \u2014 but need more heat before they bite, less ideal for cold city stops."
+      },
+      {
+        "heading": "Can you drive with worn pads?",
+        "body": "Technically yes but unsafe and expensive. Worn pads mean longer stopping distances \u2014 critical on SA highways. Once pads wear to the backing plate, the metal grinds grooves into your discs, turning a R1 500 job into R5 000+ with new discs."
+      },
+      {
+        "heading": "What else should be done during a pad replacement?",
+        "body": "A proper brake job includes: measuring rotor thickness and runout, cleaning and greasing caliper slider pins, inspecting brake hoses, checking the handbrake mechanism, and flushing old brake fluid. Brake fluid is hygroscopic \u2014 in SA heat, old fluid can boil, causing sudden brake fade on descents like Van Reenen's Pass."
+      },
+      {
+        "heading": "Average brake service pricing in SA (2026)",
+        "body": "Pads per axle \u2014 R800 to R2 200. Pads plus discs \u2014 R2 500 to R6 000 per axle. Brake fluid flush \u2014 R350 to R600. Caliper rebuild \u2014 R1 200 to R2 500 per corner. Most Bouul mechanics discount when doing both axles."
+      },
+      {
+        "heading": "RMI compliance and your safety",
+        "body": "RMI-accredited mechanics follow the RMI Brake Service Code of Practice, mandating measurement documentation for every component. Your Bouul mechanic records all measurements \u2014 pad and rotor thickness, fluid condition. You get a digital copy for your service history."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "clutch_replacement",
+    "tag": "Mechanics",
+    "title": "Clutch Replacement: Cost, Symptoms, and How to Avoid a Gearbox Tear-Down",
+    "subtitle": "That slipping clutch is only getting worse \u2014 here is what a replacement really involves",
+    "image": "/scenes/auto_clutch_replacement.png",
+    "problemHeadline": "Is your clutch on the way out?",
+    "problemBody": "A clutch typically lasts 80 000\u2013150 000 km. Heavy traffic in Sandton or Centurion accelerates wear. Symptoms: engine revs but speed does not follow (slipping), high biting point, difficulty engaging gears, or a burning smell. Ignoring these can damage the dual-mass flywheel, adding R5 000+ to the bill.",
+    "bouulSolution": [
+      "Bouul vets mechanics with proven clutch experience on your specific make \u2014 some need special alignment tools",
+      "Your mechanic replaces the full kit (plate, pressure plate, release bearing) and inspects the flywheel while the gearbox is out",
+      "Escrow holds your payment until you test-drive and confirm smooth gear engagement across all ratios"
+    ],
+    "partsNeeded": [
+      "Clutch kit (plate, pressure plate, release bearing \u2014 Sachs, Valeo, or LUK recommended)",
+      "Dual-mass flywheel (inspect; replace if excessive play or hot spots)",
+      "Gearbox oil (MTF per manufacturer spec, e.g. 75W-80 for most FWD cars)",
+      "Pilot bearing and alignment tool (specific to engine/gearbox combination)"
+    ],
+    "guidePricing": "R5 500 \u2013 R12 000 (FWD sedan); R8 000 \u2013 R18 000 (RWD/SUV/luxury)",
+    "timeline": "4\u20138 hours (half to full day)",
+    "aiPromptExample": "2005 BMW 320d E90 manual. Clutch slips in 3rd and 4th above 2 500 rpm. Vibration when pulling away. Quoted R16 000 by BMW Midrand.",
+    "aiDiagnosisOutput": "BMW 320d E90 \u2014 slipping clutch + vibration. Likely worn plate and failed DMF. Full clutch kit + DMF, gearbox oil. Est. R10 000\u2013R14 000 (Sachs kit, independent).",
+    "escrowGuarantee": "Your funds held in Bouul escrow. Full test drive through all gears including reverse before releasing. If gears crunch or clutch judders, payment stays frozen.",
+    "pirbStandard": "RMI Drivetrain Code of Practice; SABS 1518 clutch assembly standards",
+    "articleSections": [
+      {
+        "heading": "How to tell your clutch is failing",
+        "body": "Classic symptom: revs rise but acceleration doesn't match \u2014 clutch is slipping. Other clues: very high biting point (worn friction plate), spongey pedal (hydraulic issue), rattle when idling in neutral (release bearing), or clutch judder when pulling away (flywheel glazed)."
+      },
+      {
+        "heading": "Clutch kit vs full replacement",
+        "body": "A clutch kit includes the plate, pressure plate, and release bearing. Replacing all three simultaneously is recommended because they wear as a set. If the flywheel shows heat damage, scoring, or excessive play, replace or resurface it \u2014 especially on DMF-equipped cars common in SA like VW Golf, Ford Ranger, and BMW 3 Series."
+      },
+      {
+        "heading": "Why dual-mass flywheels are expensive",
+        "body": "Many modern SA cars use DMFs to dampen vibrations. DMFs have internal springs that wear. A failed DMF causes rattle at idle and vibration through the pedal. Replacing adds R4 000\u2013R8 000 because the part is costly and the gearbox must come out anyway."
+      },
+      {
+        "heading": "Choosing the right parts brand",
+        "body": "Sachs, Valeo, and LUK are OEM manufacturers for most European and Asian cars sold in SA. Counterfeit clutches are known \u2014 a fake Sachs kit may delaminate within 10 000 km. Bouul mechanics use verified supply chains with proof of purchase."
+      },
+      {
+        "heading": "Average clutch costs in SA (2026)",
+        "body": "Entry FWD (Etios, Swift, Grand i10): R5 500\u2013R8 500. Mid FWD (Corolla, Polo, Civic): R7 000\u2013R12 000. RWD/SUV (3 Series, Ranger, Hilux): R9 000\u2013R18 000. Includes labour, full kit, gearbox oil, workmanship warranty."
+      },
+      {
+        "heading": "Extending clutch life in SA traffic",
+        "body": "The number one clutch killer is creeping in heavy traffic. Resting your foot on the pedal keeps the release bearing spinning. Hold the clutch at bite point as briefly as possible \u2014 use the handbrake on hills and leave space to roll instead of slipping the clutch repeatedly."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "timing_belt",
+    "tag": "Mechanics",
+    "title": "Timing Belt Replacement: The One Job You Cannot Afford to Skip",
+    "subtitle": "Snapped timing belt = bent valves. Here is how to prevent a R25 000 engine rebuild.",
+    "image": "/scenes/auto_timing_belt.png",
+    "problemHeadline": "When was your timing belt last changed?",
+    "problemBody": "The timing belt synchronises camshaft and crankshaft. Replacement is every 90 000 km or 5 years \u2014 but many SA cars are overdue. If the belt snaps on an interference engine (most modern cars), pistons hit valves, requiring a full head rebuild costing R15 000\u2013R35 000.",
+    "bouulSolution": [
+      "Bouul mechanics bring genuine timing belt kits including the tensioner, idler pulleys, and water pump",
+      "They follow manufacturer torque specs and alignment marks \u2014 no shortcuts, no guesswork",
+      "Escrow holds payment until you confirm the engine starts cleanly with no warning lights or unusual noises"
+    ],
+    "partsNeeded": [
+      "Timing belt (Gates, ContiTech, or Dayco \u2014 OEM supplier brands)",
+      "Tensioner assembly (hydraulic or mechanical per engine type)",
+      "Idler pulleys (replace with belt \u2014 failed pulleys snap new belts)",
+      "Water pump (driven off timing belt \u2014 replace proactively while access is free)"
+    ],
+    "guidePricing": "R3 500 \u2013 R7 500 (4-cylinder); R5 500 \u2013 R12 000 (6-cylinder/V6)",
+    "timeline": "3\u20136 hours",
+    "aiPromptExample": "2013 Ford Focus 1.6 Trend with 105 000 km. Not sure if belt was ever done. Quoted R8 200 by Ford East Rand. Fair for an independent?",
+    "aiDiagnosisOutput": "2013 Focus 1.6L \u2014 timing belt overdue (105k km, rec 90k/5yr). Interference engine \u2014 snap = bent valves. Full kit + water pump. Est. independent R4 500\u2013R6 500. Dealer R7 000\u2013R9 000.",
+    "escrowGuarantee": "Bouul escrow holds your payment. After the job, start the engine and let it idle for 5 minutes. No ticking, no misfire, no check engine light? Release funds.",
+    "pirbStandard": "MIWA Service Standards; SANS 20038 for engine timing systems",
+    "articleSections": [
+      {
+        "heading": "Timing belt vs timing chain",
+        "body": "Chains are theoretically lifetime but can stretch on neglected oil changes. Belts need proactive replacement. If your car has a belt (most VW 1.4/1.8 TSI, Ford 1.6/2.0, Toyota 1.8/2.0/2.4 petrol, most diesels), the interval is non-negotiable."
+      },
+      {
+        "heading": "Why always replace the water pump?",
+        "body": "The water pump on many engines is driven by the timing belt. Replacing the belt without the pump saves R500 now but if the pump fails 20 000 km later, you pay full labour again. Water pump seal failure is common in hot SA climates."
+      },
+      {
+        "heading": "What happens when a timing belt snaps?",
+        "body": "On an interference engine (most petrol and all diesel engines), pistons smash into open valves, bending them. Fix: cylinder head removal, valve replacement, often piston damage. Total: R15 000\u2013R35 000."
+      },
+      {
+        "heading": "Signs your timing belt needs urgent replacement",
+        "body": "Visible cracking, fraying on edges, or glazing. Ticking from timing cover (worn tensioner), low rumble (failing water pump bearing). Chirping sound at idle. Most belts fail without warning."
+      },
+      {
+        "heading": "Is a dealership necessarily better?",
+        "body": "Dealerships charge 40\u201370% more than quality independents using the same OEM-spec parts. Ford East Rand quoted R8 200 for a Focus belt; an RMI independent with genuine Ford kit would charge R4 500\u2013R5 500."
+      },
+      {
+        "heading": "After replacement: what to watch for",
+        "body": "Smooth idle with no ticking or whirring from the timing cover. Check engine light stays off after 20 km. Some cars need ignition timing re-adapted. Bouul mechanics include a follow-up scan at no extra cost."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "gearbox_replacement",
+    "tag": "Mechanics",
+    "title": "Gearbox Replacement: Manual or Auto, Know Your Options",
+    "subtitle": "A failing gearbox does not always mean a full replacement \u2014 but when it does, you need this guide",
+    "image": "/scenes/auto_gearbox.png",
+    "problemHeadline": "Your gearbox is failing. What is the real cost?",
+    "problemBody": "Gearbox failure symptoms: grinding gears (manual), delayed engagement (auto), slipping between gears, whining noises in neutral. A full replacement is the most expensive single repair on most cars. Sometimes a rebuild or used unit is viable. SA gearbox specialists in Germiston and Cape Town can rebuild units for half new cost.",
+    "bouulSolution": [
+      "Bouul connects you with gearbox specialists who diagnose via computer scan before recommending replacement vs rebuild",
+      "Your mechanic provides a detailed quote with three options: rebuild, refurbished unit, or new OEM",
+      "Escrow ensures you only pay when the gearbox shifts smoothly through every gear under all driving conditions"
+    ],
+    "partsNeeded": [
+      "Gearbox unit (new OEM, refurbished exchange, or used low-km \u2014 ZF, Aisin, Getrag)",
+      "Clutch kit (manual \u2014 replace clutch while gearbox is out)",
+      "Gearbox oil and filter (ATF for automatics, MTF for manuals)",
+      "Input shaft seal, output shaft seal, and gasket set"
+    ],
+    "guidePricing": "R8 000 \u2013 R18 000 (manual rebuild/exchange); R15 000 \u2013 R35 000 (automatic rebuild/exchange)",
+    "timeline": "1\u20133 days (exchange); 3\u20135 days (rebuild)",
+    "aiPromptExample": "2010 Audi A4 2.0 TDI Multitronic. Transmission jerks in traffic and will not select reverse sometimes. Audi Zwartkops quoted R42 000 for new gearbox.",
+    "aiDiagnosisOutput": "2010 A4 2.0 TDI CVT \u2014 jerking + reverse failure. Likely valve body or mechatronic unit. CVT rebuild feasible at specialist R18 000\u2013R28 000 vs R42 000 new.",
+    "escrowGuarantee": "Bouul holds payment until you complete a 50 km test drive covering highway, traffic, hill starts, and reverse. Any hesitation or shudder means the mechanic fixes it.",
+    "pirbStandard": "RMI Transmission Code of Practice; SANS 20062 gearbox performance testing",
+    "articleSections": [
+      {
+        "heading": "Manual vs automatic gearbox failure",
+        "body": "Manual: worn synchromesh (grinding), worn bearings (whining), worn selector forks (stiff shifting). Auto: burnt clutch packs (slipping), valve body wear (harsh shifts), mechatronic failure in DSG/DCT. CVT: belt or pulley wear. Diagnosis differs by type \u2014 choose a specialist for your gearbox."
+      },
+      {
+        "heading": "Rebuild vs replacement vs used",
+        "body": "Rebuild: strip the gearbox, replace worn components \u2014 ideal for robust gearboxes like Toyota Hilux R151F. Exchange unit: professionally rebuilt, swap in, send yours as core \u2014 typically 1 day. Used low-km gearbox from scrapyard: cheapest (R3 000\u2013R8 000) but carries unknown history risk."
+      },
+      {
+        "heading": "When is a replacement cheaper than a rebuild?",
+        "body": "Some modern gearboxes are sealed units \u2014 BMW ZF 8HP, Mercedes 9G-Tronic. Labour costs R8 000\u2013R15 000 alone. If internal hard parts are damaged, an exchange unit may work out cheaper. Your mechanic includes both options in the quote."
+      },
+      {
+        "heading": "Gearbox oil: the most ignored maintenance",
+        "body": "Many manufacturers market lifetime transmission fluid meaning the expected gearbox life (150 000\u2013200 000 km). Changing ATF every 60 000\u201380 000 km extends gearbox life dramatically in SA heat."
+      },
+      {
+        "heading": "Average gearbox costs in SA (2026)",
+        "body": "Manual rebuild: R8 000\u2013R18 000 (small cars), R12 000\u2013R25 000 (SUVs). Auto rebuild: R15 000\u2013R35 000. CVT: R18 000\u2013R28 000. DSG mechatronic repair: R8 000\u2013R18 000. Most Bouul mechanics include a 6\u201312 month warranty."
+      },
+      {
+        "heading": "Can you prevent gearbox failure?",
+        "body": "Service gearbox oil at manufacturer intervals. Never hold a car on a hill with accelerator on automatics. In manuals, fully depress the clutch before each change. For DSG cars, use manual mode in traffic to prevent constant clutch slipping."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "engine_diagnostics",
+    "tag": "Mechanics",
+    "title": "Engine Diagnostics: What the Warning Lights Really Mean",
+    "subtitle": "That orange check engine light is not a suggestion \u2014 decode it before it costs you thousands",
+    "image": "/scenes/auto_engine_diagnostics.png",
+    "problemHeadline": "Check engine light on? Do not ignore it.",
+    "problemBody": "Modern cars have dozens of sensors. The check engine light could be a loose fuel cap or a failing catalytic converter. Many SA workshops charge R350\u2013R800 just to plug in a scanner. With Bouul, the OBD-II scan is included and you get the report before authorising work.",
+    "bouulSolution": [
+      "Your Bouul mechanic brings a professional-grade scanner reading manufacturer-specific codes from all ECUs",
+      "You receive a plain-language written report explaining each fault code, its severity, and cost estimate",
+      "Authorised repairs only happen after you approve \u2014 escrow holds payment until the warning light stays off"
+    ],
+    "partsNeeded": [
+      "Diagnostic scanner (Snap-on, Autel, or manufacturer-specific like VCDS, INPA)",
+      "Wiring diagram and repair manual for the specific vehicle",
+      "Replacement components per fault code diagnosis",
+      "Diagnostic printout and reset tool for clearing fault memory"
+    ],
+    "guidePricing": "R350 \u2013 R1 200 (full diagnostic with written report); repairs priced per fault",
+    "timeline": "30\u201360 minutes (diagnosis only); variable per repair",
+    "aiPromptExample": "2016 Fortuner 2.8 GD-6. Check engine light came on driving to Polokwane. Engine feels normal, light is solid amber. Worried about DPF from short trips.",
+    "aiDiagnosisOutput": "2016 Fortuner 2.8 GD-6 \u2014 CEL solid amber. Likely DPF regeneration incomplete or O2 sensor. Est. diagnostic R500\u2013R800. DPF regen R400\u2013R800. O2 sensor R1 800\u2013R3 500.",
+    "escrowGuarantee": "After the diagnostic, you approve each repair. After the fix, escrow holds funds for 72 hours to confirm the light does not return.",
+    "pirbStandard": "RMI Diagnostic Code of Practice; SANS 10100-2 for diagnostic equipment",
+    "articleSections": [
+      {
+        "heading": "Check engine light colours explained",
+        "body": "Solid amber: fault detected, driving may continue cautiously \u2014 book diagnosis within the week. Flashing amber: serious fault (usually misfire) that can damage the catalytic converter \u2014 stop driving. Red warning: stop immediately and call for assistance."
+      },
+      {
+        "heading": "OBD-II scanners: generic vs professional",
+        "body": "A R300 Bluetooth dongle reads generic P0xxx codes only. Professional scanners (Snap-on, Autel, VCDS) read every ECU \u2014 transmission, ABS, airbag, body control \u2014 perform actuator tests, and show live sensor data including fuel trims and O2 voltage."
+      },
+      {
+        "heading": "Common SA check engine light triggers",
+        "body": "Most common codes: P0171/P0174 (lean mixture \u2014 cracked hoses from heat), P0420 (catalyst efficiency \u2014 bad O2 sensor often), P0300 (random misfire \u2014 coil packs on VW TSI and Ford EcoBoost), P0401 (EGR insufficient flow \u2014 diesel bakkies on short trips)."
+      },
+      {
+        "heading": "Will disconnecting the battery reset the light?",
+        "body": "It clears the code temporarily but the fault remains. The ECU stores pending codes and the monitor runs through cold-start cycles before turning the light back on. You may get 50 km before it returns. If the fault is a misfire or lean condition, you are damaging your engine."
+      },
+      {
+        "heading": "What happens during a professional diagnostic?",
+        "body": "The mechanic connects a scanner to the OBD-II port, reads fault codes across all modules, records freeze-frame data, and checks live data. They research severity against manufacturer bulletins and provide you a written assessment in plain English."
+      },
+      {
+        "heading": "The Bouul diagnostic advantage",
+        "body": "Many SA workshops charge R350\u2013R800 for the scan. With Bouul, the professional scan is included when you book a repair. The diagnostic fee is absorbed into the repair cost. Escrow means you never pay for a fix that does not work."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  }
+]

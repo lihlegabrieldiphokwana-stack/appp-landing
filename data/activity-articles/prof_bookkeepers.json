@@ -1,0 +1,254 @@
+[
+  {
+    "id": "bookkeeper-01",
+    "tag": "Monthly Books",
+    "title": "The 5-Day Close: Getting Your Monthly Books Done Before the 7th",
+    "subtitle": "Stop playing catch-up with your bookkeeping — a system that works",
+    "image": "/scenes/pro_bookkeeper_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "70% of SMEs still do their books 45 days after month-end — by then, errors are baked in",
+    "problemBody": "The longer you wait to close your monthly books, the harder it gets. Receipts go missing, bank transactions become mysteries, and you lose the ability to course-correct. In South Africa, monthly bookkeeping is the foundation for PAYE submissions (7th of each month), VAT returns (25th of the month following the period), and management accounts. When books are late, everything downstream is late. SARS notices, supplier queries, and cash flow surprises pile up. Most business owners spend 15–20 hours per month on bookkeeping — time they should spend on their actual business.",
+    "bouulSolution": [
+      "Your matched Bouul bookkeeper sets up a standardised monthly close workflow with fixed deadlines: receipts by day 3, coding by day 5, reconciliation by day 7.",
+      "All documents upload directly to a secure portal — receipts, invoices, and statements photographed or emailed on the go.",
+      "We produce a monthly bookkeeping report: profit and loss, balance sheet, cash flow statement, and variance commentary within 7 business days of month-end."
+    ],
+    "partsNeeded": [
+      "Bank statements (all accounts in PDF or CSV for the month being closed)",
+      "Receipts and invoices for all expenses (photographed or scanned)",
+      "Sales invoices issued during the month",
+      "Prior month's trial balance and any adjusting journal entries"
+    ],
+    "guidePricing": 2200,
+    "timeline": "Recurring monthly — books closed by the 7th working day. One-time catch-up engagements from 3 to 10 days depending on backlog.",
+    "aiPromptExample": "A client runs a retail store with R450k/month turnover. Their books are 3 months behind. Write a catch-up plan email explaining the process: document collection, bank statement import, coding to the chart of accounts, reconciliation, and reporting. Emphasise the tax risk of unfiled VAT returns due to missing bookkeeping.",
+    "aiDiagnosisOutput": "Risk: Elevated — 3 months of unfiled VAT returns. SARS late-filing penalty starts at R250 per month per return. Estimated input VAT missed: R58,500 (approximately 13% of R450k monthly turnover on standard-rated supplies). Recommended: expedited catch-up with dedicated bookkeeper, 4-week timeline at R2,200/month for months 1–3 plus R2,200 for current month — total R8,800. VAT returns can be filed in parallel once month 1 is coded.",
+    "escrowGuarantee": "Monthly bookkeeping fees are held in escrow and released after you receive and confirm each month's completed books. No long-term contracts — you pause or cancel with 7 days' notice.",
+    "pirbStandard": "ICB (Institute of Certified Bookkeepers) — Bouul bookkeepers hold ICB membership with Certified Professional Bookkeeper (CPB) status, meeting the SAQA-registered bookkeeping standard.",
+    "articleSections": [
+      {
+        "heading": "The chart of accounts: your bookkeeping backbone",
+        "body": "A well-structured chart of accounts is the difference between books that make sense and books that need fixing. South African businesses need accounts that map to SARS income tax codes, VAT categories, and management reporting requirements. Standard COID codes, PAYE sub-ledgers, and VAT control accounts must be built in from day one. Bouul bookkeepers set up a customised chart of accounts when onboarding, aligned to your business type — retail, services, construction, or professional practice — so every transaction lands in the right place automatically."
+      },
+      {
+        "heading": "Bank reconciliation: the non-negotiable check",
+        "body": "Monthly bank reconciliation catches 90% of bookkeeping errors: duplicate payments, uncaptured deposits, bank charges, and fraudulent transactions. The rule is simple: the balance in your accounting software must match your bank statement balance after adjusting for outstanding items. Outstanding items older than 30 days are a red flag — either the payment didn't clear or it's a ghost transaction. Bouul bookkeepers flag all items over 30 days in your monthly report so you can trace and resolve them while the trail is fresh."
+      },
+      {
+        "heading": "Management accounts: what they tell you",
+        "body": "Management accounts go beyond tax compliance. They show gross profit margin by product line, month-on-month revenue trends, debtor days, and expense drift. A typical Bouul management pack includes: income statement with budget variance, balance sheet with ratios (current ratio, debt-to-equity), cash flow forecast, and debtor/creditor ageing summaries. Monthly management accounts let you spot a margin squeeze in time to adjust pricing — something annual financial statements never provide."
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper-02",
+    "tag": "Invoice Management",
+    "title": "Getting Paid on Time: A South African Invoicing System",
+    "subtitle": "From zero to paid — building an invoicing workflow that works",
+    "image": "/scenes/pro_bookkeeper_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "South African SMEs wait an average of 67 days to get paid — the longest in Africa",
+    "problemBody": "Late payments are the leading cause of SME cash flow failure in South Africa. The average invoice is paid 37 days past the 30-day term, putting 67 days between raising an invoice and seeing the money. The Construction sector is worst at 90+ days. Medical practices and law firms average 45–55 days. The root cause is rarely a client's unwillingness to pay — it's poor invoicing systems: missing PO numbers, incorrect VAT calculations, no payment terms on the invoice, and no follow-up workflow. Every invoice error resets the 30-day clock.",
+    "bouulSolution": [
+      "Your Bouul bookkeeper sets up a standardised invoice template compliant with the VAT Act — including your VAT number, tax invoice wording, PO number field, and clear payment terms.",
+      "We implement a follow-up schedule: automated reminder on day 25, soft call on day 31, formal letter on day 45, and escalation to your Bouul-matched attorney on day 60.",
+      "Monthly debtor ageing reports show exactly who owes what, aged 30/60/90+ days, with recommendations on payment plans or legal action."
+    ],
+    "partsNeeded": [
+      "Your company's standard sales invoice template (Word, Excel, or PDF) or accounting software access",
+      "List of outstanding invoices with invoice dates, amounts, and client contact details",
+      "Existing payment terms and any client-specific agreements",
+      "Bank statements showing which invoices have been paid"
+    ],
+    "guidePricing": 1800,
+    "timeline": "Invoice system setup within 2 business days. Ongoing debtor management: weekly during month-end close.",
+    "aiPromptExample": "Draft a professional but firm SMS reminder for a client whose invoice is 45 days overdue. The amount is R24,500. Previous reminders (2 emails, 1 call) were acknowledged but no payment was made. The relationship is important so maintain professionalism but escalate the language. Reference the debt collection clause in your terms.",
+    "aiDiagnosisOutput": "Status: Overdue invoice R24,500 at 45 days. Client previously reliable — no prior defaults. Escalation path: standard — day 45 SMS, day 50 formal letter of demand via email with PDF, day 60 handover to Bouul-matched debt collector (fee: 15% of amount collected, success-based). No legal proceedings yet — cost-benefit unfavourable below R50,000. Recommended: SMS with specific payment date request (within 5 days) plus a single follow-up call from the Bouul bookkeeper.",
+    "escrowGuarantee": "Invoice management fees are held in escrow. Full satisfaction release once your system is operational and the first month's debtor report is delivered with actionable follow-up recommendations.",
+    "pirbStandard": "ICB Certified Professional Bookkeeper standards — Bouul invoice management follows generally accepted accounting practice (GAAP) revenue recognition principles and the Consumer Protection Act requirements for invoice content.",
+    "articleSections": [
+      {
+        "heading": "What makes a VAT-compliant tax invoice",
+        "body": "A valid tax invoice under the VAT Act must contain: your full VAT number, the client's full VAT number (if R5,000+), a unique sequential invoice number, the date of issue, a description of goods or services, the quantity or volume, the unit price (excluding VAT), the total amount excluding VAT, the VAT charged (15%), and the total amount including VAT. Missing any of these elements means the invoice is not a valid tax invoice, and your client cannot claim the input VAT — giving them a legitimate reason to withhold payment. Bouul bookkeepers validate every invoice template against the VAT Act requirements before you send a single invoice."
+      },
+      {
+        "heading": "Debtor ageing: the 30-60-90 rule",
+        "body": "Debtors aged 0–30 days are current and generally collectable at face value. 31–60 days: collectability drops to 85% — the probability of full payment decreases by roughly 1% per day. 61–90 days: collectability drops to 60%, and the cost of collection (phone calls, letters, legal fees) erodes the net recovery. Everything over 90 days has a 30-50% recovery rate at best. Bouul's monthly debtor report breaks your receivables into these bands, calculates the provision for doubtful debts (required under IFRS for SMEs), and flags accounts that need escalation within the current cycle."
+      },
+      {
+        "heading": "Interest on late payments: what the law allows",
+        "body": "The National Credit Act and the Prescribed Rate of Interest Act allow you to charge interest on overdue accounts. The prescribed rate is calculated quarterly — currently 11.75% per year (July 2026 rate). You can charge this rate plus a maximum of 2% above the repo rate on any overdue commercial debt if your terms of service specify it. However, charging interest without clear written terms in your original contract is not enforceable. Bouul bookkeepers include the interest clause in your invoice template and standard terms of trade so late-payment interest is legally enforceable from day one."
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper-03",
+    "tag": "Expense Tracking",
+    "title": "Every Cent Counts: Setting Up Business Expense Tracking That Works",
+    "subtitle": "Stop losing deductible expenses to scattered receipts and forgotten purchases",
+    "image": "/scenes/pro_bookkeeper_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "The average SME loses R24,000 in missed deductions every year — to lost receipts",
+    "problemBody": "SARS accepts deductible business expenses only if you have supporting documentation. Lose the receipt, lose the deduction. South African business owners lose an estimated R24,000 in missed tax deductions annually because receipts fade, get lost, or are never captured. Travel expenses (kilometre logs), home office costs, and client entertainment are the top three categories where deductions are missed — each averaging R8,000–R15,000 per year in lost tax savings. The solution isn't a shoebox: it's a real-time capture system with proper SARS-compliant categorisation.",
+    "bouulSolution": [
+      "Your Bouul bookkeeper sets up a mobile-first expense capture system: snap a photo of every receipt and it's automatically categorised as travel, meals, office, utilities, or capital equipment.",
+      "We apply SARS mileage rates (R4.62 per km for 2026, fixed-rate method) and home office apportionment formulas so every legitimate deduction is claimed.",
+      "Monthly expense reports are delivered with budget variance analysis — showing exactly where you overspent and where deductions were missed."
+    ],
+    "partsNeeded": [
+      "Business expense receipts (photographs or scans — all of them, even R50 purchases)",
+      "Vehicle logbook (kilometres travelled for business vs personal, or fixed-rate method declaration)",
+      "Home office utility bills (electricity, water, internet) and floor area calculation",
+      "Credit card and business bank statements for cross-referencing captured expenses"
+    ],
+    "guidePricing": 1500,
+    "timeline": "Setup completed within 2 business days. Monthly processing: receipt capture verified within 48 hours of month-end.",
+    "aiPromptExample": "A client works from a home office in Cape Town. The office is 12m² in a 100m² house. Their electricity bill is R1,800/month. Write an advisory explaining the SARS home office deduction rules: the 50% requirement (room must be specifically equipped for work), the apportionment formula, and what they can claim (electricity, rent/bond interest, rates, cleaning, internet). Use the actual numbers.",
+    "aiDiagnosisOutput": "Eligibility confirmed — client meets the 50% test (dedicated office room, 12m² of 100m², 12%). Deductions available: electricity (R1,800 × 12% = R216/month), rates and taxes (estimated R650/month × 12% = R78/month), home internet proportional allocation (business use percentage, not floor area — assume 70% = R350 of R500 package). Estimated total monthly home office deduction: R644. Annualised: R7,728. Tax saving at marginal rate (26%): R2,009 per year. Reminder: keep a home office log documenting days worked to substantiate in case of audit.",
+    "escrowGuarantee": "Expense tracking fees are held in escrow until your first comprehensive expense report is delivered and you confirm every transaction from the month has been captured and correctly categorised.",
+    "pirbStandard": "ICB — Bouul expense tracking specialists follow the ICB's record-keeping standards aligned to the Tax Administration Act record-keeping requirements (minimum 5 years retention).",
+    "articleSections": [
+      {
+        "heading": "SARS mileage deduction: fixed-rate vs actual cost method",
+        "body": "You can claim vehicle expenses using either method. The fixed-rate method: claim R4.62 per business kilometre (2026 rate) — no actual cost records needed, but you must keep a logbook. The actual cost method: claim a percentage of all vehicle costs (fuel, insurance, maintenance, finance charges) based on business kilometres divided by total kilometres. You need a logbook and all fuel/maintenance receipts. The actual cost method is usually better for high-mileage drivers (25,000+ km/year); the fixed-rate method suits lower mileage. Bouul bookkeepers calculate both methods each year and select the one that maximises your deduction."
+      },
+      {
+        "heading": "Receipt retention: what SARS requires and for how long",
+        "body": "The Tax Administration Act requires you to keep all supporting documents for 5 years from the date of the last tax return to which they relate. Digital copies (scans, photographs) are acceptable provided they are legible, complete, and stored in a system that prevents alteration. For travel logbooks, keep them for 4 years after the tax year end. SARS can audit any return within 3 years (extended to 5 years if there was an understatement of more than 25%). Bouul's secure document storage keeps your receipts organised by tax year and transaction, accessible at any time."
+      },
+      {
+        "heading": "Setting up expense categories for better tax outcomes",
+        "body": "A good expense categorisation system separates tax-deductible expenses from non-deductible ones. Categories should include: cost of sales (directly attributable to revenue), operating expenses (rent, salaries, marketing, admin), capital expenditure (assets over R30,000 with a useful life exceeding 12 months), and disallowable expenses (fines, donations, capital improvements). Within operating expenses, sub-categories like travel, entertainment, and professional fees are flagged for higher SARS scrutiny. Bouul bookkeepers set up categories optimised for your industry and the SARS return format."
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper-04",
+    "tag": "Reconciliation",
+    "title": "Bank and Account Reconciliation: Catching Errors Before They Cost You",
+    "subtitle": "The monthly check that protects your business from fraud and tax penalties",
+    "image": "/scenes/pro_bookkeeper_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Undetected reconciliation errors cost South African SMEs R8.5 billion annually",
+    "problemBody": "Every month, thousands of rands sit in unreconciled differences: duplicate payments, incorrect supplier allocations, EFT fees posted to the wrong account, and the occasional full-blown fraudulent transaction. South African banks process over 60 million monthly business transactions. A 0.1% error rate represents R60,000 in errors per SME. The most dangerous errors are the small ones — R50 here, R200 there — because they go undetected for years and compound. By the time an audit or SARS review catches them, the corrections are complex, costly, and sometimes non-deductible.",
+    "bouulSolution": [
+      "Your Bouul bookkeeper performs full bank-to-ledger reconciliation for all accounts: current, savings, credit card, and petty cash — every transaction matched or flagged.",
+      "We reconcile supplier statements against your creditors ledger, identifying double payments, missing invoices, and credit notes not applied.",
+      "A monthly reconciliation report lists all unmatched items with explanations and recommended journal entries to clear them."
+    ],
+    "partsNeeded": [
+      "Bank statements (PDF or CSV) for all accounts for the reconciliation period",
+      "Supplier statements from all major creditors (closing balance and open transactions list)",
+      "Accounting system trial balance (showing all cash and bank account balances)",
+      "Petty cash records (vouchers, receipts, and reconciliation sheet)"
+    ],
+    "guidePricing": 1800,
+    "timeline": "~3 business days for a standard bank-to-ledger reconciliation. Supplier statement reconciliation runs alongside the monthly close.",
+    "aiPromptExample": "A client's bank reconciliation has an unresolved difference of R12,500 — the accounting system shows more cash than the bank statement. The client insists all deposits were captured. Write a diagnostic brief listing the most likely causes: un-cleared EFT deposits (3-day float), uncaptured bank charges, reversed EFTs, or a duplicated deposit entry in the accounting system. Prioritise by likelihood.",
+    "aiDiagnosisOutput": "Most likely cause (60%): un-cleared EFT deposits — the R12,500 represents 3 EFT deposits dated within 3 days of month-end that initiated on the accounting date but only cleared in the bank 2 business days later. Next (25%): uncaptured bank charges and monthly service fees averaging R450/month — if the client has not posted bank charges for 6+ months, this compounds. Least likely (15%): duplicated deposit entry — requires a line-by-line transaction matching to confirm. Recommended: adjust un-cleared deposits to the next month's opening and post a cumulative bank charge journal entry.",
+    "escrowGuarantee": "Reconciliation fees are held in escrow until all differences for the month are either resolved or documented with a clear remediation plan, and you confirm the reconciled balances match your bank statements.",
+    "pirbStandard": "ICB — Bouul reconciliation specialists are ICB-accredited and follow the International Standard on Related Services (ISRS) 4400 for agreed-upon procedures on financial information.",
+    "articleSections": [
+      {
+        "heading": "The 4-column reconciliation framework",
+        "body": "A proper bank reconciliation has four columns: balance per bank statement, balance per accounting system, items in the bank not in the books (bank charges, direct debits, interest), and items in the books not in the bank (un-cleared EFTs, deposits in transit). Un-reconciled older than 30 days fall into a fifth category — investigate every time. Bouul bookkeepers use this 4-column framework to ensure no item is orphaned. Each reconciliation cycle starts by reviewing prior month's outstanding items before processing the new month."
+      },
+      {
+        "heading": "Supplier statement reconciliation: a neglected control",
+        "body": "Bank-to-ledger reconciliation is standard. Supplier statement reconciliation — matching what your supplier shows you owe against what your creditors ledger shows — is less common but equally critical. Common findings: credit notes issued by the supplier but not captured in your system, invoices you received and captured that the supplier has not credited against your account, and pricing disputes where you paid the invoiced amount but the statement shows a different balance. Bouul bookkeepers reconcile all major supplier statements quarterly, flagging the three most common discrepancies for resolution."
+      },
+      {
+        "heading": "Petty cash: the fraud hot spot",
+        "body": "Petty cash is the most fraud-prone area in most SMEs because controls are weak. The imprest system — a fixed float that is replenished to the same amount each month — is the minimum standard. However, true petty cash control requires: numbered vouchers for every disbursement, receipts for every purchase, surprise counts weekly, and replenishment only on submission of all vouchers and receipts for the month. Bouul bookkeepers include petty cash reconciliation in the monthly close and flag any vouchers over 14 days without a corresponding receipt."
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper-05",
+    "tag": "PAYE Filing",
+    "title": "PAYE Filing for SMEs: Getting EMP201 and EMP501 Right Every Time",
+    "subtitle": "The monthly employer filing that trips up most small businesses",
+    "image": "/scenes/pro_bookkeeper_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "One in three SMEs files their EMP201 after the deadline — every month",
+    "problemBody": "The EMP201 (monthly PAYE return) is due on the 7th of every month. Late filing triggers a 10% penalty on the outstanding amount, plus interest at the prescribed rate. For a business with R50,000 in monthly PAYE, that's R5,000 in penalties per late month. Yet one in three SMEs files late because they don't have a payroll system that produces the EMP201 data by month-end. The EMP501 (annual reconciliation) is the bigger test: by 31 May each year, every IRP5 issued during the year must match the monthly EMP201 totals exactly. A R1 difference triggers a verification flag.",
+    "bouulSolution": [
+      "Your Bouul bookkeeper sets up a payroll-to-EMP201 workflow: final payroll run on the last working day, EMP201 generated and reviewed within 3 working days, filed by the 5th — 2 days before the deadline.",
+      "Monthly EMP201 returns are prepared with full supporting schedules: gross-to-net calculations, fringe benefits breakdown, and UIF/SDL allocations per employee.",
+      "Annual EMP501 reconciliation is handled end-to-end: IRP5 certificates generated, data checked against monthly EMP201 totals, and filed by 31 May."
+    ],
+    "partsNeeded": [
+      "Payroll register for the month (gross salaries, deductions, net pay per employee)",
+      "Employee tax reference numbers and ID numbers (for IRP5 certificates)",
+      "Monthly EMP201 returns from the previous year (for reconciliation comparison)",
+      "SARS eFiling profile credentials (payer code and tax reference number)"
+    ],
+    "guidePricing": 2500,
+    "timeline": "Monthly: EMP201 filed by the 5th of each month. Annual: EMP501 filed by 30 April (one month before the SARS deadline).",
+    "aiPromptExample": "An employer with 8 employees received a SARS penalty for late EMP201 filing for 2 months. The total penalty is R4,800. Write a letter requesting a penalty waiver under Section 213 of the Tax Administration Act. Cite first-time non-compliance and the fact that the delay was caused by a payroll system migration that took longer than expected. Keep the tone respectful and factual.",
+    "aiDiagnosisOutput": "Waiver eligibility: Good — first-time late filing offense, reasonable cause demonstrated (system migration), and no evidence of wilful non-compliance. Waiver request should cite Section 213(4) of the Tax Administration Act which allows SARS to remit a penalty if there is a reasonable cause for non-compliance. Supporting documents required: payroll migration timeline, proof of new system implementation, and a clean compliance history for the 3 years prior to the migration. Estimated success rate: 65% — SARS grants approximately 60% of first-time penalty waiver requests.",
+    "escrowGuarantee": "PAYE filing fees are held in escrow until the EMP201 is confirmed filed by SARS (acknowledgement receipt obtained). For the EMP501, payment releases only after all IRP5 certificates are issued and SARS confirms the reconciliation has been accepted.",
+    "pirbStandard": "SARS-accredited representative — Bouul bookkeepers handling PAYE are registered SARS tax practitioners with a valid tax practitioner number, compliant with the Tax Administration Act code of conduct.",
+    "articleSections": [
+      {
+        "heading": "The EMP201: what goes into the monthly return",
+        "body": "The EMP201 captures PAYE withheld from employees, the employer's contribution to UIF (1% of each employee's earnings capped at R177.12/month), the employee's UIF contribution (1%, capped at R177.12/month), and SDL (1% of gross payroll if the annual payroll exceeds R500,000). The return cannot be filed until the last payroll run for the month is complete. Bouul bookkeepers schedule a final payroll check on the last working day and prepare the EMP201 data by the 2nd working day of the new month — giving you 3 days of buffer before the 7th deadline."
+      },
+      {
+        "heading": "SDL: when it applies and when it doesn't",
+        "body": "Skills Development Levy is 1% of your gross payroll and is payable to SARS monthly via the EMP201. It applies to all employers whose annual payroll exceeds R500,000. If your annual payroll is R500,000 or less, you are exempt. However, if you're exempt but have already registered for SDL, you must file nil returns or request deregistration. The levy funds Sector Education and Training Authorities (SETAs). Your business can claim back up to 80% of SDL paid through mandatory and discretionary grants if you're registered with the correct SETA. Bouul bookkeepers help SETA-registered clients claim their SDL grants."
+      },
+      {
+        "heading": "EMP501 year-end tips for error-free filing",
+        "body": "Start the EMP501 process at least 6 weeks before the 31 May deadline. Step 1: export your monthly EMP201 totals and match them to the monthly payroll registers. Step 2: check every IRP5 code — incorrect codes are the most common reason for EMP501 rejection. Step 3: verify employee ID numbers and tax references match SARS records (one wrong digit and the IRP5 won't load). Step 4: submit the EMP501 via SARS e@syFile Employer and check the verification report for mismatches. Bouul bookkeepers run the EMP501 pre-check 4 weeks before filing, giving time to correct any issues."
+      }
+    ]
+  },
+  {
+    "id": "bookkeeper-06",
+    "tag": "UIF Filing",
+    "title": "UIF and COIDA Compliance: Protecting Your Team and Your Business",
+    "subtitle": "Navigating unemployment insurance and compensation fund requirements",
+    "image": "/scenes/pro_bookkeeper_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Most SMEs don't realise they're personally liable for unregistered employees' workplace injuries",
+    "problemBody": "The Compensation for Occupational Injuries and Diseases Act (COIDA) requires every employer to register with the Compensation Fund and pay annual assessments. Failure to register means you are personally liable for 100% of any workplace injury claim — no limit. A serious injury claim can run into millions of rands. UIF registration is separate but equally critical: employees who lose their jobs need unemployment benefits, and the UIF contribution is mandatory. Yet thousands of SMEs operate with no COIDA registration, relying on medical aid to cover workplace injuries — which medical aid explicitly does not cover under the Medical Schemes Act.",
+    "bouulSolution": [
+      "Your Bouul bookkeeper verifies your UIF and Compensation Fund registration status and checks for compliance gaps across all employees.",
+      "We handle UIF declarations on the EMP201 and manage the annual COIDA return filing, including the Declaration of Earnings (WAs.2 form) by 31 March.",
+      "Compensation Fund assessment notices are reviewed, appealed if incorrect, and paid before the deadline to keep your coverage active."
+    ],
+    "partsNeeded": [
+      "Company registration documents and existing UIF/COIDA reference numbers (if already registered)",
+      "Employee list with ID numbers, occupations, and earnings per employee class",
+      "Previous year's COIDA assessment notice (if applicable) or estimated earnings for first registration",
+      "Proof of any previous workplace injuries (if any — affects your COIDA risk classification)"
+    ],
+    "guidePricing": 2000,
+    "timeline": "UIF/COIDA registration: 5–10 business days. Annual COIDA return: filed by 15 March (2 weeks before the 31 March deadline).",
+    "aiPromptExample": "A client with 5 employees received a COIDA assessment for R12,000 for the year. They think it's too high based on their industry classification. Write an advisory explaining how COIDA assessments are calculated (industry risk class × payroll × assessment rate), how to request a reclassification, and what documentation they need to appeal.",
+    "aiDiagnosisOutput": "Assessment review: R12,000 on estimated R1.8m payroll = effective rate of 0.67%. This is consistent with Class 4 risk (moderate risk industries: retail, light manufacturing, administrative services). If the employer is in a lower-risk class (e.g., Class 1 — professional services, rate ~0.15%), the correct assessment should be ~R2,700 — an overcharge of R9,300. Appeal process: submit a WAs.2 form with the correct industry classification code, supported by a description of business activities and NAIC code. Appeal deadline: 90 days from the assessment notice date.",
+    "escrowGuarantee": "UIF and COIDA compliance fees are held in escrow until all registrations are confirmed or annual returns are acknowledged by the respective funds.",
+    "pirbStandard": "ICB — Bouul bookkeepers are ICB-accredited in payroll and statutory compliance, meeting the SAQA National Diploma: Bookkeeping standards for UIF, COIDA, and Skills Development Levy management.",
+    "articleSections": [
+      {
+        "heading": "UIF registration: a step-by-step guide",
+        "body": "Every employer must register with the UIF within 7 days of hiring the first employee. Registration is done through the Department of Employment and Labour. You need the company's registration documents, proof of address, and details of directors and employees. Once registered, you receive a UIF reference number that goes on every EMP201. Contributions are 2% of gross salary (1% employer, 1% employee) up to R17,712 per month. Failure to deduct and pay UIF means employees cannot claim benefits when they lose their jobs — and the employer faces fines of up to 10% of the contribution value per month."
+      },
+      {
+        "heading": "COIDA risk classification: why it matters for your premium",
+        "body": "The Compensation Fund classifies businesses by risk class (1–12). Class 1 (professional services, office-based) has the lowest assessment rate — approximately 0.15% of payroll. Class 12 (mining, heavy construction) is the highest at approximately 4.5% of payroll. A misclassification can double or triple your annual assessment. Common misclassification: a retail store classified as light manufacturing because the CIPC registration code doesn't match the actual business activity. Bouul bookkeepers verify your industry class against your actual operations and request reclassification if the assessment rate doesn't match."
+      },
+      {
+        "heading": "UIF declarations for part-time and casual workers",
+        "body": "All employees — full-time, part-time, temporary, and casual — must be declared for UIF purposes. The threshold is hours worked, not contract type. If a casual worker works more than 24 hours per month, UIF must be deducted. Seasonal workers must be declared for each month of active employment. Independent contractors (who provide services to multiple clients) are excluded, but the distinction between employee and independent contractor is increasingly scrutinised. Bouul bookkeepers help classify each worker correctly to avoid UIF under-declaration penalties."
+      }
+    ]
+  }
+]

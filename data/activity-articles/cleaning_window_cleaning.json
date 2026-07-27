@@ -1,0 +1,278 @@
+[
+  {
+    "id": "standard_window_pane_cleaning",
+    "tag": "Window Cleaning",
+    "title": "Standard Window Pane Cleaning",
+    "subtitle": "Professional streak-free cleaning for all standard residential windows",
+    "image": "/scenes/cleaning_standard_pane.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "DIY window cleaning leaves streaks, spots and missed corners that accumulate over time",
+    "problemBody": "Most homeowners clean their windows infrequently — often only once or twice a year — because the results of DIY cleaning are disappointing. Streaks from improper squeegee technique, water spots from hard water, and lint from paper towels or cloths leave windows looking worse than before they were cleaned. Each missed clean allows airborne pollution, hard-water minerals and dust to build a film on the glass that becomes progressively harder to remove. In South African cities and industrial areas, this film is accelerated by atmospheric pollution and red dust, creating a permanent hazy layer on windows that reduces natural light and detracts from the appearance of the home.",
+    "bouulSolution": [
+      "Professional squeegee technique: streak-free finish on every pane with no drips or residue",
+      "Hard-water spot removal with citric acid treatment for mineral deposits",
+      "All standard panes cleaned inside and out, including window sills and frames"
+    ],
+    "partsNeeded": [
+      "Professional-grade squeegee with replaceable rubber blade",
+      "Window cleaning solution pH-neutral concentrate",
+      "Hard-water spot remover (citric acid-based)",
+      "Lint-free microfiber polishing cloths"
+    ],
+    "guidePricing": "R 15 – R 30 per pane (standard size, up to 1.2m²)",
+    "timeline": "3–5 minutes per pane; 20 windows completed in 60–90 minutes",
+    "aiPromptExample": "\"Describe a standard window pane cleaning service for a South African home with aluminium frames and hard-water supply, focusing on streak-free technique.\"",
+    "aiDiagnosisOutput": "\"Windows have a hazy film from atmospheric dust and previous soap residue. Hard-water spots visible on south-facing windows (rain shadow effect). Squeegee technique required for streak-free finish. Recommended: full wash with professional squeegee, citric acid spot treatment, and frame drying.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all panes are streak-free, without water spots, and frames are clean",
+    "pirbStandard": "HASA window cleaning standard; SANS 10400 window performance; squeegee technique certification required",
+    "articleSections": [
+      {
+        "heading": "The Professional Difference",
+        "body": "The difference between professional and DIY window cleaning is in the technique and tools. Our technicians use a professional brass-channel squeegee with a new rubber blade for each job. The cleaning solution is a precise mixture of water and pH-neutral detergent — too much detergent leaves streaks, too little doesn't clean effectively. The solution is applied with a T-bar applicator in vertical and horizontal passes to ensure complete coverage. The squeegee is pulled in overlapping horizontal strokes from top to bottom, with the blade wiped clean after each pass. Corners are finished with a microfiber cloth. The result is perfectly clear glass with no streaks, spots or residue."
+      },
+      {
+        "heading": "Hard-Water Challenges",
+        "body": "Many South African municipalities supply hard water with high dissolved mineral content. When this water dries on glass, it leaves white or cloudy mineral deposits that bond to the surface. Standard window cleaning solutions cannot dissolve these deposits. Our service includes a pre-treatment with a food-grade citric acid solution that chelates (binds to) the mineral ions, allowing them to be rinsed away. For windows with years of hard-water buildup, the citric acid solution is applied with extended dwell time, and the window is scrubbed with a non-abrasive pad before squeegee drying. This restores the glass to its original transparency."
+      },
+      {
+        "heading": "Inside and Out",
+        "body": "A professionally cleaned window is cleaned on both sides. The interior side accumulates household dust, cooking grease (in kitchen windows) and condensation marks. The exterior side collects airborne pollution, bird droppings, pollen and dust. We clean both sides to the same standard, leaving the glass completely transparent. Any window screens are removed, cleaned with water and a soft brush, and replaced. The window sill is wiped clean, and any drainage holes (weep holes) are cleared. The result is a window that looks like it has no glass at all."
+      },
+      {
+        "heading": "Frequency Recommendations",
+        "body": "In South Africa, the recommended frequency for professional window cleaning depends on your location. Inland areas (Gauteng, Free State, Northern Cape): every 3–4 months due to red dust and atmospheric pollution. Coastal areas (Western Cape, KwaZulu-Natal): every 4–6 months due to salt spray and humidity. Industrial areas: every 2–3 months due to airborne pollutants. The Bouul app tracks your window cleaning schedule and sends reminders based on your location, and offers a discounted rate for clients who book on a recurring schedule."
+      }
+    ]
+  },
+  {
+    "id": "high_reach_window_cleaning",
+    "tag": "Window Cleaning",
+    "title": "High-Reach Window Cleaning",
+    "subtitle": "Safe, professional cleaning for second-storey windows and difficult-to-access panes",
+    "image": "/scenes/cleaning_high_reach.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "High windows are dangerous to reach and often remain dirty for years",
+    "problemBody": "Second-storey windows, stairwell windows, high-atrium glass and windows above kitchen sinks all share a common problem: they are difficult or dangerous to reach. Homeowners resort to precarious ladder positions on uneven ground, leaning out of upper-floor windows, or simply ignoring these windows entirely. In South Africa, where many homes have two storeys and security bars limit access, upper-floor windows often go unwashed for years. The accumulated grime significantly reduces natural light and creates an unkempt appearance visible from the street. Falls from ladders during DIY window cleaning send thousands of South Africans to emergency rooms annually.",
+    "bouulSolution": [
+      "Water-fed pole system reaches windows up to 4 storeys high from ground level — no ladder needed",
+      "Pure water filtration system leaves windows spotless without detergent residue",
+      "All high-reach windows cleaned to the same standard as ground-floor panes"
+    ],
+    "partsNeeded": [
+      "Carbon-fibre telescopic water-fed pole (up to 12 metres)",
+      "Deionised water filtration system (removes all minerals for spot-free drying)",
+      "Soft bristle brush head for gentle cleaning",
+      "Harness and lanyard system for fall protection"
+    ],
+    "guidePricing": "R 30 – R 60 per pane (high-reach surcharge applies)",
+    "timeline": "5–10 minutes per high pane; full home in 1–3 hours",
+    "aiPromptExample": "\"Describe a high-reach window cleaning service for a two-storey South African home with upstairs windows above a driveway, using water-fed pole technology.\"",
+    "aiDiagnosisOutput": "\"Upper-storey windows show heavy soiling from accumulated dust and bird droppings. Previous DIY attempts left streaks and water spots. Second-storey rear windows blocked by security bars. Recommended: water-fed pole system from ground level with deionised water for spot-free finish; no ladder or security bar removal required.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all windows are streak-free, verified by ground-level inspection with zoom lens",
+    "pirbStandard": "OHSA Section 8 (working at heights); SANS 10085 (ladder safety); HASA high-reach cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "Water-Fed Pole Technology",
+        "body": "Water-fed poles are the industry standard for high-reach window cleaning. A carbon-fibre telescopic pole extends up to 12 metres, carrying a soft-bristle brush head and a water supply hose. Purified water (deionised and filtered to remove all minerals) is pumped up the pole and through the brush head, which scrubs the glass and frame. The pure water then rinses the window and dries without leaving any spots, because there are no dissolved minerals to deposit. The system is used from ground level, eliminating the need for ladders on multi-storey buildings. The result is crystal-clear windows cleaned safely from the ground."
+      },
+      {
+        "heading": "Safety on Multi-Storey Homes",
+        "body": "Working at height is one of the most dangerous cleaning activities. Our high-reach technicians are trained in OHSA working-at-height regulations and use fall protection equipment whenever working from a ladder (which we limit to a maximum of 3 metres). For anything above 3 metres, the water-fed pole system is used from ground level — no ladder, no climbing, no fall risk. For balconies and walkways where ground-level access is limited, we use a stabilised ladder with a harness anchor point and rubber non-slip feet. All high-reach work is performed by a two-person team for safety."
+      },
+      {
+        "heading": "Security Bars and Window Access",
+        "body": "Many South African homes have security bars on windows, which complicate window cleaning. With traditional methods, the bars block access to the outer glass surface. Our water-fed pole system has a curved brush head that can reach through security bars to clean the glass behind them. The pole articulates around the bars, and the soft bristles adapt to the glass contour behind the obstruction. No security bar removal is required, and the bars themselves are rinsed clean during the process. This capability is one of the key advantages of water-fed pole cleaning in South African homes."
+      },
+      {
+        "heading": "Pure Water System",
+        "body": "The deionised water system used in water-fed pole cleaning produces water with zero total dissolved solids (TDS). This means the water has no minerals to leave spots as it dries. The water passes through a series of filtration stages: sediment filter, carbon filter, reverse osmosis membrane and deionisation resin. The result is water with a TDS reading of 0 ppm (tap water is typically 150–500 ppm). This pure water acts as a magnet for dirt on the glass, pulling it away from the surface. When the water dries, it simply evaporates, leaving no residue behind."
+      }
+    ]
+  },
+  {
+    "id": "skylight_cleaning",
+    "tag": "Window Cleaning",
+    "title": "Skylight Cleaning",
+    "subtitle": "Restore maximum natural light through your overhead windows and glass roofs",
+    "image": "/scenes/cleaning_skylight.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dirty skylights block up to 50% of natural light and are extremely difficult to clean safely",
+    "problemBody": "Skylights are designed to bring natural light into a home, but over time they collect dust, pollen, bird droppings, leaves and algae that dramatically reduce their effectiveness. A dirty skylight can block 30–50% of incoming light, negating the purpose of the installation. Cleaning a skylight is inherently difficult — it requires working on the roof (dangerous and requiring fall protection) or using extended poles from inside the room (which can drip dirty water onto furniture and floors). Many South African homeowners simply ignore skylights after installation, losing the light and energy benefits they were installed to provide.",
+    "bouulSolution": [
+      "Exterior skylight cleaning: roof-access with full fall protection, gentle cleaning to avoid seal damage",
+      "Interior cleaning: telescopic pole with angled squeegee head from inside the room",
+      "Seal and frame inspection: condition reported with photographs"
+    ],
+    "partsNeeded": [
+      "Ladder with stabiliser and roof ladder for pitched roofs",
+      "Full fall protection harness and lanyard system",
+      "Soft-bristle brush and squeegee for acrylic/glass skylights",
+      "Sealant-safe cleaning solution (no ammonia)"
+    ],
+    "guidePricing": "R 100 – R 250 per skylight depending on size and roof pitch",
+    "timeline": "20–40 minutes per skylight (interior and exterior)",
+    "aiPromptExample": "\"Describe a skylight cleaning procedure for a South African home with two dome skylights on a tile roof, including roof safety and interior cleaning.\"",
+    "aiDiagnosisOutput": "\"Skylight exterior has bird droppings, dust and algae patches on the north-facing slope. Interior dome has dust film reducing light transmission. Skylight seals show minor UV degradation but no leakage. Recommended: exterior cleaning with soft brush and pure water, interior pole cleaning, seal condition documented.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when both the interior and exterior of each skylight are clean and seals are intact",
+    "pirbStandard": "SANS 10400 (roof and skylight access); OHSA working-at-height regulations; HASA skylight cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "The Skylight Cleaning Challenge",
+        "body": "Skylights combine the difficulty of roof access with the sensitivity of a fixed-glass installation. The exterior surface is exposed to all weather conditions and collects environmental debris that standard windows do not — fallen leaves, bird droppings that bake onto the glass, algae growth in shaded positions, and UV-damaged sealant that can be compromised by aggressive cleaning. The interior surface collects household dust and, in kitchens, a film of grease vapour that has risen and condensed. Our cleaning approach accounts for these specific challenges, using gentle brushes (never scrapers on plastic domes), sealant-safe cleaning solutions, and pure water to avoid residue."
+      },
+      {
+        "heading": "Roof Access Safety",
+        "body": "All skylight cleaning requiring roof access is performed with full fall protection equipment. For pitched roofs, we use a roof ladder that hooks over the ridge and provides a stable working platform. The technician wears a full-body harness attached to a roof anchor or ridge-line lanyard. Work is never performed on wet roofs or in windy conditions. For flat roofs, a stabilised ladder is used, and the technician walks only on designated walk pads to avoid damaging roof membranes. Only fully trained and certified technicians perform roof-access cleaning."
+      },
+      {
+        "heading": "Dome vs Flat Skylights",
+        "body": "Skylights come in two main types, each requiring a different approach. Dome skylights (the most common in South African homes) have a curved acrylic or polycarbonate dome mounted on a raised curb. The curved surface is more visible from the interior and accumulates dust on both the convex (exterior) and concave (interior) surfaces. Dome cleaning requires careful hand-scrubbing with a soft brush to avoid scratching the plastic. Flat glass skylights (often walk-on or fixed) are cleaned with a squeegee technique similar to standard windows but with the added complexity of overhead access. Both types receive the same inspection standard."
+      },
+      {
+        "heading": "Light Restoration Measurement",
+        "body": "We measure the light transmission before and after skylight cleaning using a lux meter. This quantifies the improvement in natural light and demonstrates the value of the service. A typical skylight that hasn't been cleaned in two years shows a 30–50% improvement after cleaning, which translates to measurable energy savings — the room needs less artificial lighting during daylight hours. In South Africa, where electricity costs continue to rise, maximising natural light through clean skylights is a simple, cost-effective energy efficiency measure. Our cleaning report includes the before-and-after lux readings."
+      }
+    ]
+  },
+  {
+    "id": "aluminium_window_frame_cleaning",
+    "tag": "Window Cleaning",
+    "title": "Aluminium Window Frame Cleaning and Restoration",
+    "subtitle": "Remove oxidation, pitting and discolouration from aluminium window frames",
+    "image": "/scenes/cleaning_aluminium_frames.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Aluminium frames develop white oxidation and pitting that cannot be removed by standard cleaning",
+    "problemBody": "Aluminium window frames are the most common window type in South African homes, prized for their durability and low maintenance. However, over years of exposure to the elements, aluminium develops a white, chalky surface oxidation. In coastal areas, salt spray accelerates this process and causes pitting — small surface craters where the protective anodised layer has been breached. Inland areas, atmospheric pollution and acid rain cause a grey or black discolouration that cannot be removed by standard household cleaning products. Many homeowners assume this damage is permanent and replace their frames unnecessarily.",
+    "bouulSolution": [
+      "Aluminium oxidation remover applied to affected areas, agitated with a non-abrasive pad, rinsed and sealed",
+      "Pitting and staining assessed, documented and treated with aluminium restoration compound where possible",
+      "Surface sealed with aluminium protectant that prevents future oxidation for 12–18 months"
+    ],
+    "partsNeeded": [
+      "Aluminium oxidation removal solution (pH-neutral, SABS-approved)",
+      "Non-abrasive scrubbing pad (Scotch-Brite equivalent)",
+      "Aluminium sealant and protectant",
+      "Soft cloths for buffing and drying"
+    ],
+    "guidePricing": "R 20 – R 50 per frame section (window frames for a standard home: R 300 – R 800)",
+    "timeline": "1–3 hours for a full home's aluminium frames",
+    "aiPromptExample": "\"Describe an aluminium window frame cleaning and restoration procedure for a coastal South African home with oxidation and pitting on sliding window frames.\"",
+    "aiDiagnosisOutput": "\"White oxidation (aluminium hydroxide) on all exposed frame surfaces, heaviest on north- and west-facing windows. Minor pitting observed on ocean-facing frames. Window tracks have compacted salt residue. Recommended: oxidation removal with pH-neutral solution, pitting assessment, aluminium protectant application for corrosion prevention.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when frames are free of visible oxidation and protectant has been evenly applied",
+    "pirbStandard": "SANS 10097 (aluminium finishing); SANS 10400 (window performance); HASA aluminium care protocol",
+    "articleSections": [
+      {
+        "heading": "Understanding Aluminium Oxidation",
+        "body": "Aluminium oxidation (aluminium hydroxide) is a white, powdery substance that forms on the surface of aluminium when the protective oxide layer is compromised. Contrary to common belief, the natural oxide layer on aluminium protects it from further corrosion. However, contaminants in the environment — salt from coastal air, acid from industrial pollution, and alkaline residues from inappropriate cleaning products — can break down this protective layer, leading to visible corrosion. Our restoration process removes the oxidation product without damaging the underlying metal, then applies a new protective coating."
+      },
+      {
+        "heading": "Coastal vs Inland Treatment",
+        "body": "The treatment approach differs based on location. In coastal areas (Durban, Cape Town, Port Elizabeth), the primary concern is salt-induced corrosion. Our coastal protocol uses a salt-neutralising pre-wash before the oxidation remover, followed by a heavier-grade sealant with salt-resistant properties. For inland areas (Johannesburg, Pretoria, Bloemfontein), the primary concern is atmospheric pollution and dust abrasion. The inland protocol uses a lighter cleaner and a UV-resistant sealant. The Bouul app identifies your location type based on postal code and applies the correct treatment protocol."
+      },
+      {
+        "heading": "Pitting Assessment",
+        "body": "Pitting indicates that the protective anodised layer has been breached and the base aluminium is corroding. Small, shallow pits can be treated with an aluminium restoration compound that fills the pits and restores the surface. Deep pitting that has compromised the structural integrity of the frame requires professional assessment and may need frame replacement. Our cleaning service includes a pitting assessment with photographic documentation, and we provide recommendations for further treatment or repair. In most cases, timely treatment prevents pitting from reaching the structural stage."
+      },
+      {
+        "heading": "Post-Cleaning Protection",
+        "body": "After cleaning and restoration, we apply a protective sealant specifically formulated for aluminium window frames. The sealant forms a transparent, UV-resistant barrier that prevents moisture and contaminants from reaching the aluminium surface. This protection lasts 12–18 months depending on exposure conditions. We recommend annual sealant reapplication for coastal homes and biannual reapplication for inland homes. The Bouul app schedules your frame maintenance and sends reminders when the sealant is due for renewal."
+      }
+    ]
+  },
+  {
+    "id": "security_bar_window_cleaning",
+    "tag": "Window Cleaning",
+    "title": "Security Bar Window Cleaning",
+    "subtitle": "Clean windows behind burglar bars without removal or obstruction",
+    "image": "/scenes/cleaning_security_bars.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Security bars make window cleaning difficult, leaving windows permanently dirty behind them",
+    "problemBody": "Security bars are a common feature on South African homes, providing essential protection but creating a significant cleaning challenge. The bars block access to the outer surface of the window, and the gap between the bars and the glass is too narrow for a standard squeegee or cleaning cloth. This gap collects dust, cobwebs, dead insects and moisture that cannot be reached without removing the bars — a time-consuming and often impractical process. As a result, windows behind security bars are frequently left unwashed for years, accumulating a layer of grime that significantly reduces natural light and creates an unpleasant appearance visible from the street.",
+    "bouulSolution": [
+      "Curved brush head that reaches through security bars to clean the glass behind them",
+      "Water-fed pole system articulates around bar obstructions to access all areas of the window",
+      "Security bars themselves are cleaned of dust, cobwebs and rust during the process"
+    ],
+    "partsNeeded": [
+      "Water-fed pole with curved brush head for security bar access",
+      "Pure water filtration system (spot-free drying behind bars)",
+      "Soft bristle brush for bar cleaning",
+      "Rust treatment solution for metal bars (if needed)"
+    ],
+    "guidePricing": "R 25 – R 45 per pane (security bar surcharge of R 10–R 20 per pane)",
+    "timeline": "5–8 minutes per window with security bars",
+    "aiPromptExample": "\"Describe a window cleaning service for windows behind security bars in a South African home, using water-fed pole technology with curved brush head.\"",
+    "aiDiagnosisOutput": "\"Windows behind security bars have heavy dust and grime buildup. Cobwebs between bars and glass. Security bars have surface rust on welds. Recommended: water-fed pole with curved brush to reach glass behind bars, bar cleaning with soft brush, rust spot treatment on welds.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when glass behind bars is streak-free and bars are clean",
+    "pirbStandard": "HASA window cleaning standard (obstructed access); SANS 10400 window access",
+    "articleSections": [
+      {
+        "heading": "The Security Bar Cleaning Problem",
+        "body": "South African homes have one of the highest rates of security bar installation in the world, and these bars are designed to be difficult to remove — which also makes them difficult to clean around. The typical gap between the glass and the security bar is 30–100mm, too narrow for a hand and squeegee to fit behind. The result: the outer glass surface never gets cleaned. Our solution uses a water-fed pole with a curved or angled brush head that fits through the bar opening and articulates to reach the entire glass surface behind the obstruction. The pole operator stands at ground level and navigates the brush around each bar."
+      },
+      {
+        "heading": "Bar Cleaning Included",
+        "body": "While reaching the glass behind security bars is the primary objective, we also clean the bars themselves as part of the service. Security bars collect dust, cobwebs, pollen and, in coastal areas, salt residue that causes rust. Our brush head is run over the surface of each bar to remove accumulated debris. For metal bars showing surface rust, we apply a rust-treatment solution that neutralises the corrosion and prevents further rusting. The bars are left clean and, where treated, protected against future corrosion. This service is included at no additional charge."
+      },
+      {
+        "heading": "Types of Security Bars and Approaches",
+        "body": "Different security bar designs require different cleaning approaches. Standard welded steel bars (the most common in SA): the curved brush head works between the vertical bars. Decorative wrought iron scrollwork: the brush head navigates around the curves. Trellis-style security doors: the articulated brush head cleans the glass behind the folded trellis. Removable security bars: where the homeowner permits, we can remove the bars, clean the window fully, and reinstall the bars. The assessment before the service determines the best approach for each window."
+      },
+      {
+        "heading": "Post-Cleaning Water Runoff",
+        "body": "A consideration when cleaning windows behind security bars is water runoff from the pure water system. The water, although purified, runs down from the window into the window sill and potentially onto the wall below. We manage this by using the minimum water necessary and by having a second team member inside the home (for interior access) or outside (for ground-level windows) to catch runoff with absorbent towels. The window sill is cleaned and dried after each window is completed, and the surrounding wall area is inspected and dried if necessary."
+      }
+    ]
+  },
+  {
+    "id": "sliding_door_glass_cleaning",
+    "tag": "Window Cleaning",
+    "title": "Sliding Door Glass Cleaning",
+    "subtitle": "Crystal-clear sliding doors that maximise your indoor-outdoor connection",
+    "image": "/scenes/cleaning_sliding_doors.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Large sliding glass doors accumulate handprints, nose prints and outdoor grime at eye level",
+    "problemBody": "Sliding glass doors are the largest glass surfaces in most South African homes, providing the connection between indoor and outdoor living spaces. They are also the most frequently touched glass surface — handprints near the handle at adult and child height, nose prints from pets, and smudges from daily use are constant. The exterior surface collects dust, pollen, rain spots and bird droppings. Because of their size (often 2–3 metres wide), cleaning a sliding door without leaving streaks is technically challenging. A full-length mirror technique is required, using a wide squeegee in smooth, continuous passes.",
+    "bouulSolution": [
+      "Full-size glass cleaned on both sides: professional squeegee technique on large glass panes",
+      "Sliding door frame and track thoroughly cleaned: runners cleared of debris for smooth operation",
+      "Handprints and smudges removed with alcohol-based glass cleaner"
+    ],
+    "partsNeeded": [
+      "Wide squeegee (35cm or 45cm channel for large panes)",
+      "Professional window cleaning solution",
+      "Alcohol-based glass cleaner for fingerprint removal",
+      "Track cleaning brush and silicone lubricant"
+    ],
+    "guidePricing": "R 50 – R 120 per sliding door (single to triple-panel)",
+    "timeline": "10–20 minutes per sliding door including frame and track",
+    "aiPromptExample": "\"Describe a sliding glass door cleaning service for a South African home with triple-panel doors opening onto a patio, including track cleaning and frame care.\"",
+    "aiDiagnosisOutput": "\"Sliding door glass has handprints at handle height, nose prints at pet height and dust on the lower panels. Track contains compacted dirt affecting smooth sliding. Frame has mineral deposits from hard water. Recommended: full glass cleaning both sides, track degreasing and lubrication, frame polishing with aluminium protectant.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when glass is streak-free on both sides and the door slides smoothly",
+    "pirbStandard": "HASA window cleaning standard; SANS 10400 sliding door maintenance; professional large-pane squeegee technique",
+    "articleSections": [
+      {
+        "heading": "The Wide-Pane Squeegee Technique",
+        "body": "Large glass panes require a different technique than standard windows. A wide squeegee (35–45cm channel) covers more surface area per pass, reducing the number of strokes and preventing the 'banding' effect where overlapping passes leave visible lines. The technique: apply solution generously with a large T-bar applicator, ensuring complete coverage. Pull the squeegee from top to bottom in a smooth, continuous motion, overlapping each pass by 2–3cm. Wipe the blade after each pass. For very tall doors (2.4m+), the technique uses a 'windshield' pattern — a horizontal pass across the top, then vertical passes from the top edge down."
+      },
+      {
+        "heading": "Track and Runner Maintenance",
+        "body": "The sliding door track is critical to smooth operation and is often neglected. Dirt, grit, hair and debris accumulate in the bottom track channel, causing the door to stick, grind and eventually damage the roller wheels. Our cleaning includes: vacuuming the entire track channel, scrubbing with a track cleaning brush (which reaches into the corners), wiping with a damp cloth, and lubricating with a dry silicone spray. We also clean the top track (which guides the door's top rollers) and inspect the roller adjustment. After cleaning and lubrication, the door should slide with minimal effort."
+      },
+      {
+        "heading": "Pet and Child Smudge Removal",
+        "body": "Sliding doors at ground level are magnets for smudges. Children's handprints at knee and waist height, pet nose prints at dog and cat height, and adult handprints near the handle. These prints contain natural skin oils that bond to the glass and attract dust, making the prints more visible over time. Our cleaning uses an alcohol-based glass cleaner that dissolves the oils, followed by the standard squeegee wash. The result is completely transparent glass with no residual oil attracting future dust. We also recommend a glass protectant application that reduces future smudge adhesion."
+      },
+      {
+        "heading": "Integrated Service for Indoor-Outdoor Living",
+        "body": "For homes with multiple sliding doors — a typical feature of South African homes with patio, garden and pool access — we offer an integrated sliding door service that includes cleaning of all glass panels, frames, tracks and external screens or shutters. This service is often bundled with patio and outdoor area cleaning for a complete indoor-outdoor refresh. The Bouul app allows you to schedule the sliding door service separately or as part of a window cleaning package."
+      }
+    ]
+  }
+]

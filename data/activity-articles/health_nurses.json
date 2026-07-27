@@ -1,0 +1,230 @@
+[
+  {
+    "id": "nurse_wound_care",
+    "tag": "Wound Care",
+    "title": "Post-Surgical & Chronic Wound Care Nursing",
+    "subtitle": "Registered nurse home visits for sterile dressing changes and wound recovery",
+    "image": "/scenes/nurses.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "Improper home wound care leads to severe post-operative infections and delayed healing",
+    "problemBody": "Changing complex surgical dressings without sterile equipment risks hospital readmission.",
+    "bouulSolution": [
+      "SANC registered home nurse arrives with sterile dressing kits and antiseptic solutions",
+      "Provides wound measurement, debridement assessment, and healing progress tracking",
+      "Escrow holds funds until the nursing visit and care report are logged"
+    ],
+    "partsNeeded": [
+      "Sterile dressing pack & saline wash",
+      "Antimicrobial silver barrier dressings",
+      "Surgical tape & compression bandages",
+      "Digital thermometer & pulse oximeter"
+    ],
+    "guidePricing": "R450 – R850 per visit",
+    "timeline": "Duration: 45 – 60 Mins",
+    "aiPromptExample": "Need post-op wound care: 'Surgical wound dressing change needed for hip replacement recovery.'",
+    "aiDiagnosisOutput": "Assessment: Wound clean, zero exudate signs. Treatment: Sterile saline rinse and protective foam pad application. Escrow: R550.",
+    "escrowGuarantee": "Funds released after nurse submits logged visit note and patient signs off.",
+    "pirbStandard": "SANC (South African Nursing Council) Registered Professional Nurse.",
+    "articleSections": [
+      {
+        "heading": "Sterile Protocol Standards",
+        "body": "Nurses adhere to SANC infection control guidelines using single-use sterile field packs."
+      },
+      {
+        "heading": "Physician Report Sync",
+        "body": "Healing progress notes and photos are formatted for your attending surgeon's review."
+      }
+    ]
+  },
+  {
+    "id": "nurse_post_op",
+    "tag": "Post-Op Recovery",
+    "title": "Post-Hospitalization Rehabilitation Nursing",
+    "subtitle": "Dedicated nursing assistance following major surgery or hospital discharge",
+    "image": "/scenes/elderly_care.png",
+    "readTime": "5 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "Discharge from hospital without professional home nursing support causes high anxiety",
+    "problemBody": "Patients struggling with mobility, drain management, and pain meds often experience avoidable complications.",
+    "bouulSolution": [
+      "Continuous 4-hour or 12-hour nursing shifts tailored to recovery requirements",
+      "Monitoring of vital signs, surgical drains, urinary catheters, and medication timing",
+      "Escrow protection for hourly nursing care packages"
+    ],
+    "partsNeeded": [
+      "Digital blood pressure monitor",
+      "Drain measurement & bulb suction kit",
+      "Medication administration chart",
+      "Mobility transfer belt"
+    ],
+    "guidePricing": "R850 – R2,500 per shift",
+    "timeline": "Duration: 4 – 12 Hours",
+    "aiPromptExample": "Book recovery nurse: 'Need 8-hour day nursing for mom following abdominal surgery.'",
+    "aiDiagnosisOutput": "Schedule: 08:00 to 16:00. Care Plan: Vital monitoring q2h, drain measurement, pain med admin. Escrow: R1,400.",
+    "escrowGuarantee": "Escrow released per shift after patient/family approval.",
+    "pirbStandard": "SANC Professional Nursing Standard & Resuscitation Certified.",
+    "articleSections": [
+      {
+        "heading": "Vital Sign Surveillance",
+        "body": "Nurses monitor BP, oxygen saturation, and temperature to catch early signs of infection."
+      },
+      {
+        "heading": "Mobility Assistance",
+        "body": "Safe transfer techniques assist patients with gentle post-op ambulation to prevent DVT."
+      }
+    ]
+  },
+  {
+    "id": "nurse_elderly_meds",
+    "tag": "Medication Admin",
+    "title": "Geriatric Medication & IV Administration",
+    "subtitle": "Professional administration of complex medications, injections, and IV drips at home",
+    "image": "/scenes/elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "Missed doses or incorrect injection techniques lead to dangerous health destabilization",
+    "problemBody": "Elderly patients with multiple prescriptions frequently struggle with complex dosing schedules.",
+    "bouulSolution": [
+      "Registered nurse visits to set up pill-minders, administer insulin, or inject prescribed meds",
+      "IV hydration and antibiotic infusion monitoring under doctor direction",
+      "Escrow holds payment until medication log is verified"
+    ],
+    "partsNeeded": [
+      "Sterile syringes & IV cannula kit",
+      "Sharps disposal container",
+      "IV infusion pole & gravity tubing",
+      "Blood glucose meter"
+    ],
+    "guidePricing": "R350 – R750 per visit",
+    "timeline": "Duration: 30 – 60 Mins",
+    "aiPromptExample": "Schedule med admin: 'Daily insulin injection and vitals check for diabetic parent.'",
+    "aiDiagnosisOutput": "Visit Type: Daily Med Check. Admin: Insulin + Glucose check. Escrow: R400/visit.",
+    "escrowGuarantee": "Escrow released daily upon verified med log entry.",
+    "pirbStandard": "SANC Registered Nurse & Dispensing License Compliant.",
+    "articleSections": [
+      {
+        "heading": "Diabetic Management Protocol",
+        "body": "Precise blood glucose tracking prior to insulin administration ensures safe glycemic control."
+      },
+      {
+        "heading": "Sharps Safety",
+        "body": "Used needles are disposed of in SABS-compliant biohazard sharps containers."
+      }
+    ]
+  },
+  {
+    "id": "nurse_baby_wellness",
+    "tag": "Baby & Mother",
+    "title": "Postnatal Mother & Newborn Care Nursing",
+    "subtitle": "Certified midwife and baby nurse support for new moms and infants",
+    "image": "/scenes/nurses.png",
+    "readTime": "5 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "The first weeks with a newborn can feel overwhelming without expert medical guidance",
+    "problemBody": "New mothers face lactation challenges, infant jaundice concerns, and sleep deprivation.",
+    "bouulSolution": [
+      "Home visits by certified midwives for infant weight checks and breastfeeding guidance",
+      "Umbilical cord care, bath demonstration, and maternal recovery monitoring",
+      "Escrow protected single visits or 1-week night nurse packages"
+    ],
+    "partsNeeded": [
+      "Infant digital scale",
+      "Jaundice visual assessment chart",
+      "Lactation support cushions",
+      "Sterile umbilical wipes"
+    ],
+    "guidePricing": "R550 – R1,200 per visit",
+    "timeline": "Duration: 1 – 2 Hours",
+    "aiPromptExample": "Book baby nurse: 'Need midwife visit for newborn weight check and latching assistance.'",
+    "aiDiagnosisOutput": "Visit Plan: Newborn physical check, weight measurement, mother lactation coaching. Escrow: R650.",
+    "escrowGuarantee": "Escrow released after visit report and mother confirmation.",
+    "pirbStandard": "SANC Registered Midwife & Neonatal Nursing Specialist.",
+    "articleSections": [
+      {
+        "heading": "Infant Growth Tracking",
+        "body": "Digital scales record weight gain curves against WHO infant growth benchmarks."
+      },
+      {
+        "heading": "Latching Coaching",
+        "body": "Hands-on lactation guidance helps mothers achieve comfortable, effective feeding positions."
+      }
+    ]
+  },
+  {
+    "id": "nurse_palliative",
+    "tag": "Palliative Care",
+    "title": "Compassionate Palliative & Chronic Illness Nursing",
+    "subtitle": "Specialized home palliative care providing comfort, dignity, and pain management",
+    "image": "/scenes/elderly_care.png",
+    "readTime": "5 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "Managing chronic pain and terminal illness at home requires specialized clinical empathy",
+    "problemBody": "Families carrying the emotional and physical burden of palliative care need qualified nursing relief.",
+    "bouulSolution": [
+      "Compassionate palliative nurses providing pain control, oxygen therapy, and personal hygiene",
+      "Close coordination with attending hospices and treating oncologists",
+      "Escrow protected daily or overnight shift coverage"
+    ],
+    "partsNeeded": [
+      "Oxygen concentrator & nasal cannula",
+      "Pressure-relief alternating air mattress",
+      "Oral hygiene swab kit",
+      "Pain assessment scale chart"
+    ],
+    "guidePricing": "R950 – R2,800 per shift",
+    "timeline": "Duration: 8 – 24 Hours",
+    "aiPromptExample": "Request palliative nurse: 'Overnight nursing support for terminally ill patient at home.'",
+    "aiDiagnosisOutput": "Shift: 19:00 to 07:00 (12h Night). Care: Comfort positioning, pain med log, airway clearance. Escrow: R1,800.",
+    "escrowGuarantee": "Escrow released daily after family shift confirmation.",
+    "pirbStandard": "SANC Palliative Care Certified & HPCSA Code of Conduct.",
+    "articleSections": [
+      {
+        "heading": "Pain & Symptom Management",
+        "body": "Nurses utilize standardized pain scales to administer prescribed analgesia promptly."
+      },
+      {
+        "heading": "Family Respite Support",
+        "body": "Overnight nursing gives family caregivers peace of mind and essential rest."
+      }
+    ]
+  },
+  {
+    "id": "nurse_vital_check",
+    "tag": "Health Screening",
+    "title": "Comprehensive Home Health & Vital Screening",
+    "subtitle": "Mobile health assessments including blood pressure, cholesterol, glucose, and ECG",
+    "image": "/scenes/nurses.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Team",
+    "problemHeadline": "Busy schedules or mobility constraints cause people to delay routine health checkups",
+    "problemBody": "Undiagnosed hypertension or elevated blood sugar often leads to sudden medical crises.",
+    "bouulSolution": [
+      "Mobile nurse arrives with diagnostic equipment to run full health screening at home",
+      "Includes BP, blood glucose, cholesterol finger-prick, and BMI evaluation",
+      "Digital health report generated immediately for your records"
+    ],
+    "partsNeeded": [
+      "Automated digital BP monitor",
+      "Point-of-care cholesterol & glucose meter",
+      "Stethoscope & pulse oximeter",
+      "Body composition scale"
+    ],
+    "guidePricing": "R400 – R800",
+    "timeline": "Duration: 30 – 45 Mins",
+    "aiPromptExample": "Book home screening: 'Mobile health check for elderly parents at home.'",
+    "aiDiagnosisOutput": "Screening Package: Full Vitals + Glucose + Lipid Panel. Report: Delivered in-app. Escrow: R500.",
+    "escrowGuarantee": "Escrow released once digital health report is delivered to your app inbox.",
+    "pirbStandard": "SANC Registered Nurse & Primary Health Screening Standard.",
+    "articleSections": [
+      {
+        "heading": "Point-of-Care Testing",
+        "body": "Instant blood results provide immediate clarity on blood sugar and lipid numbers."
+      },
+      {
+        "heading": "GP Referral Routing",
+        "body": "Abnormal findings trigger automated summary reports formatted for your GP."
+      }
+    ]
+  }
+]

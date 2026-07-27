@@ -1,0 +1,278 @@
+[
+  {
+    "id": "deep-cleanse-facial",
+    "tag": "facial-treatments",
+    "title": "Deep Cleanse Facial: Your Skins Reset Button",
+    "subtitle": "Extraction, exfoliation, and deep pore cleansing for every SA skin type.",
+    "image": "/scenes/deep-cleanse-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a facial really unclog pores that my home routine misses?",
+    "problemBody": "A professional deep cleanse facial uses steam to open pores, gentle enzymatic or physical exfoliation, manual extraction, a soothing mask, and hydration. Home cleansing cannot replicate the combination of professional-grade products, steam, and skilled extraction. Cost in SA: R350-R800 per session. Results last 2-4 weeks depending on your skin type.",
+    "bouulSolution": [
+      "Bouul skin therapists hold qualifications from CIDESCO, ITEC, or SAASWA.",
+      "Avoid active retinoids and acids for 48 hours before a deep cleanse facial.",
+      "Bouul Escrow protects you if extractions cause scarring or infection from unhygienic tools."
+    ],
+    "partsNeeded": [
+      "Professional steam machine or warm towel system",
+      "Extraction tools (comedone extractor, lancet)",
+      "Exfoliant (enzyme, AHA, or physical scrub)",
+      "Soothing mask and hydration products"
+    ],
+    "guidePricing": "R350-R800 for 60 min; R500-R950 for 75 min with add-on treatments",
+    "timeline": "45-60 min standard; 60-75 min with extractions and mask",
+    "aiPromptExample": "Describe the ideal deep cleanse facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended deep cleanse facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Extraction Process",
+        "body": "Manual extraction involves using a comedone extractor tool to gently apply even pressure around the clogged pore, releasing the contents. It should never feel like fingernails digging into skin. A skilled aesthetician releases blockages with minimal discomfort. Post-extraction redness typically resolves within 2-4 hours.\nExtraction is the step that most differentiates a professional facial from at-home care. Blackheads and closed comedones cannot be removed effectively with any home product alone."
+      },
+      {
+        "heading": "Steam and Its Role",
+        "body": "Facial steam softens the sebum in clogged pores and makes extractions significantly less uncomfortable. Professional steamers deliver a consistent, warm vapour for 5-10 minutes. Over-steaming causes broken capillaries, so responsible therapists limit steam time.\nHome steaming with a bowl of hot water is not the same - the steam temperature and duration are uncontrolled. Bouul therapists use regulated equipment."
+      },
+      {
+        "heading": "Post-Facial Care",
+        "body": "For 24-48 hours after a deep cleanse: no makeup, no touching your face, no harsh products or exfoliants, no direct sun exposure, and use only the gentle cleanser and moisturiser recommended by your therapist. Your skin is more absorbent and vulnerable after a professional facial."
+      },
+      {
+        "heading": "Frequency for Best Results",
+        "body": "Monthly deep cleanse facials are ideal for most skin types. Oily and acne-prone skin benefits from every 3-4 weeks. Dry and sensitive skin can stretch to 6-8 weeks between sessions. Over-facialing (more than every 3 weeks) can compromise the skin barrier."
+      }
+    ]
+  },
+  {
+    "id": "anti-aging-facial",
+    "tag": "facial-treatments",
+    "title": "Anti-Aging Facial Treatments in SA: What Actually Works",
+    "subtitle": "From microcurrent to LED and retinol peels - the science-backed anti-aging facial options available to SA clients.",
+    "image": "/scenes/anti-aging-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Do anti-aging facials really make a difference?",
+    "problemBody": "Anti-aging facial treatments stimulate collagen production, improve skin elasticity, and reduce the appearance of fine lines and wrinkles. Options in SA range from chemical peels (R400-R1,200) and microcurrent facials (R500-R1,000) to LED light therapy (R400-R800) and microneedling (R800-R2,000 per session). Results are cumulative - a single session shows temporary improvement; a course of 4-6 sessions produces lasting change.",
+    "bouulSolution": [
+      "Bouul lists therapists by modality specialisation - not all facialists offer all anti-aging treatments.",
+      "A consultation should include a skin analysis and discussion of your goals - avoid therapists who recommend a treatment without examining your skin first.",
+      "Bouul Escrow protects you if a treatment causes burns, hyperpigmentation, or allergic reaction from product incompatibility."
+    ],
+    "partsNeeded": [
+      "Chemical peel solution (AHA, BHA, TCA, or retinol)",
+      "Microcurrent device with conductive gel",
+      "LED light therapy panel (red and near-infrared wavelengths)",
+      "Microneedling pen with sterile cartridge"
+    ],
+    "guidePricing": "R400-R1,200 for chemical peels; R500-R1,000 for microcurrent; R400-R800 for LED; R800-R2,000 for microneedling per session",
+    "timeline": "30-60 min depending on the modality chosen",
+    "aiPromptExample": "Describe the ideal anti aging facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended anti aging facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Microcurrent Facials",
+        "body": "Microcurrent uses low-level electrical currents to stimulate facial muscles, creating a lifting effect similar to a non-invasive facelift. A session takes 45-60 minutes and results last 24-48 hours initially, extending with regular use. It works best as a maintenance treatment for clients in their 30s+.\nSA regulations require microcurrent practitioners to hold specific electrotherapy training and insurance."
+      },
+      {
+        "heading": "Chemical Peels by Depth",
+        "body": "Superficial peels (AHAs, BHAs) affect only the top layer and require no downtime - great for brightness and texture. Medium peels (TCA 20-35%) require 5-7 days of peeling and redness. Deep peels (TCA 50%+ or phenol) are performed by dermatologists only and require 2-3 weeks recovery.\nYour skin tone determines peel suitability. Deeper skin tones (Fitzpatrick IV-VI, common in SA) are at higher risk of post-inflammatory hyperpigmentation and should only receive peels from experienced therapists."
+      },
+      {
+        "heading": "LED Light Therapy",
+        "body": "Red LED light (630-700nm) penetrates the skin to stimulate collagen production and reduce inflammation. Blue LED light (415nm) targets acne-causing bacteria. Near-infrared (800-900nm) reaches deeper tissues for healing. Treatments are painless and require no downtime. A course of 6-12 sessions is recommended for visible results."
+      },
+      {
+        "heading": "Building a Long-Term Anti-Aging Routine",
+        "body": "The most effective anti-aging protocol combines professional treatments with a consistent home routine: daily SPF 50+ (non-negotiable for SA sun), vitamin C serum in the morning, retinol 2-3 times per week at night, and monthly professional treatments alternating modalities."
+      }
+    ]
+  },
+  {
+    "id": "acne-treatment-facial",
+    "tag": "facial-treatments",
+    "title": "Acne Treatment Facials: Clearing Active Breakouts Safely",
+    "subtitle": "Professional treatments for acne-prone skin - from the first consultation to long-term clear skin management.",
+    "image": "/scenes/acne-treatment-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a facial make my acne worse before it gets better?",
+    "problemBody": "Acne treatment facials are specifically designed for breakout-prone skin and include medical-grade extractions, LED blue light therapy, antibacterial masks, and product recommendations. A single treatment costs R400-R900 and varies by duration. Some clients experience a temporary flare (purging) in the first 48 hours as deeper congestion comes to the surface - this is normal and resolves within a week.",
+    "bouulSolution": [
+      "Bouul acne specialists hold advanced certification in problematic skin management - beyond basic facial training.",
+      "Stop all active acne treatments (retinoids, benzoyl peroxide, acids) 3-5 days before your appointment for accurate assessment.",
+      "Bouul Escrow protects you if the treatment causes chemical burns or spreads infection."
+    ],
+    "partsNeeded": [
+      "LED blue light panel (415nm for antibacterial effect)",
+      "Salicylic acid (BHA) solution for deep pore cleansing",
+      "High-frequency wand for spot treatment",
+      "Non-comedogenic soothing mask and moisturiser"
+    ],
+    "guidePricing": "R400-R900 for 60 min; R600-R1,200 for 75 min with LED blue light add-on",
+    "timeline": "45-60 min for standard acne facial; 60-75 min with LED therapy",
+    "aiPromptExample": "Describe the ideal acne treatment facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended acne treatment facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Purging vs Breakouts",
+        "body": "Purging occurs when accelerated cell turnover brings existing deep congestion to the surface as whiteheads or small pimples. It clears within 4-6 weeks and is a sign the treatment is working. A breakout in new areas or persistent past 6 weeks indicates product or treatment incompatibility.\nYour Bouul therapist should explain the difference at your first session. If you experience purging, take photos weekly to track progress."
+      },
+      {
+        "heading": "The Extraction Contraindication",
+        "body": "Active cystic acne (deep, painful, red bumps) should not be extracted. Aggressive extraction on inflamed cysts spreads bacteria deeper into the tissue, worsens inflammation, and increases scarring risk. Only surfaced whiteheads and blackheads are safe to extract.\nA therapist who insists on extracting active cysts is not properly trained for acne skin."
+      },
+      {
+        "heading": "Home Care for Acne-Prone Skin",
+        "body": "A consistent, gentle home routine is critical: non-comedogenic products only, gentle cleanser (not stripping), oil-free moisturiser (dehydrated skin produces more oil), SPF every morning, and active ingredients introduced one at a time. Changing too many products simultaneously makes it impossible to identify what works."
+      },
+      {
+        "heading": "When to Combine with a Dermatologist",
+        "body": "Clients with severe, cystic, or persistent acne should work with both a Bouul skin therapist and a dermatologist. The therapist handles extractions, LED, and product recommendations for maintenance. The dermatologist prescribes oral or topical medications for the inflammatory component. They can work in parallel."
+      }
+    ]
+  },
+  {
+    "id": "brightening-facial",
+    "tag": "facial-treatments",
+    "title": "Brightening Facials: Evening Skin Tone and Reducing Hyperpigmentation",
+    "subtitle": "SA-specific brightening treatments that address sun damage, melasma, and post-acne marks safely on darker skin tones.",
+    "image": "/scenes/brightening-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can a facial really lighten dark spots?",
+    "problemBody": "Hyperpigmentation is the top skin concern for South African women across all skin tones. Brightening facials use ingredients like vitamin C, kojic acid, azelaic acid, and niacinamide to inhibit melanin production and fade existing dark spots. A session costs R400-R950. Results require a course of 4-8 treatments combined with consistent home use of brightening products and - most importantly - rigorous daily SPF use.",
+    "bouulSolution": [
+      "Bouul skin therapists specialising in pigmentation hold advanced training from CIDESCO or the SA Melanin Skin Institute.",
+      "Consistent daily SPF 50+ is non-negotiable - brightening treatments without sun protection are wasted money.",
+      "Bouul Escrow protects you if the treatment causes paradoxical darkening (worsening of pigmentation)."
+    ],
+    "partsNeeded": [
+      "Vitamin C serum (L-ascorbic acid, professional strength)",
+      "Azelaic acid and kojic acid brightening solutions",
+      "SPF 50+ (broad spectrum, PA++++) for post-treatment protection",
+      "Gentle physical exfoliant (not harsh scrubs that worsen pigmentation)"
+    ],
+    "guidePricing": "R400-R950 for 60 min; R600-R1,200 for 75 min with chemical peel add-on",
+    "timeline": "45-60 min for standard brightening facial; 60-75 min with superficial peel",
+    "aiPromptExample": "Describe the ideal brightening facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended brightening facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Understanding Melanin in SA Skin",
+        "body": "Melanin protects the skin from UV damage but also means pigmentation disorders are more common. Melasma (hormonal pigmentation), PIH (post-inflammatory hyperpigmentation), and solar lentigines (sun spots) all require different treatment approaches. The Fitzpatrick scale used to classify skin tone is standard in SA dermatology.\nA brightening facial on darker skin (Fitzpatrick IV-VI) must use gentle, melanin-safe ingredients. Hydroquinone should only be used under medical supervision for short periods."
+      },
+      {
+        "heading": "The Brightening Layering Protocol",
+        "body": "A professional brightening facial applies ingredients in a specific order: (1) gentle cleanse, (2) enzyme exfoliation, (3) vitamin C serum, (4) brightening mask with kojic or azelaic acid, (5) LED therapy (red light for healing), (6) hydrating moisturiser, and (7) SPF (if morning). Each layer builds on the previous one."
+      },
+      {
+        "heading": "Sun Protection Is the Active Ingredient",
+        "body": "SPF 50+ is the most important brightening treatment. Without it, melanin production continues unchecked and brightening ingredients cannot overcome ongoing UV stimulation. Reapply every 2 hours if outdoors. In SA with its high UV index (8-11+ in summer), window glass does not block UVA - wear SPF indoors too."
+      },
+      {
+        "heading": "Maintenance Schedule",
+        "body": "An initial course of 4-6 brightening facials at 2-3 week intervals produces visible results. Maintenance sessions every 4-6 weeks prevent new pigmentation from forming. At-home brightening serums between sessions accelerate results. Avoid retinol and AHAs for 48 hours before and after professional brightening treatments."
+      }
+    ]
+  },
+  {
+    "id": "microdermabrasion-facial",
+    "tag": "facial-treatments",
+    "title": "Microdermabrasion: Resurfacing for Brighter, Smoother Skin",
+    "subtitle": "The mechanical exfoliation treatment that removes dead skin cells and stimulates collagen - safe and effective for most SA skin types.",
+    "image": "/scenes/microdermabrasion-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is microdermabrasion just a fancy scrub?",
+    "problemBody": "Microdermabrasion uses a handpiece with a diamond tip or crystal nozzle to gently abrade the outer layer of dead skin cells while a vacuum suction removes the debris. It is far more controlled and effective than any home scrub or exfoliating mitt. The treatment stimulates circulation, promotes cell turnover, and improves product absorption. Per session cost: R450-R1,000 in SA. A course of 4-6 sessions at 2-4 week intervals produces optimal results.",
+    "bouulSolution": [
+      "Bouul microdermabrasion specialists must have specific device training - this is a regulated aesthetic treatment in SA.",
+      "Avoid retinol, AHAs, and BHAs for 48 hours before treatment to prevent over-exfoliation.",
+      "Bouul Escrow protects you if the treatment causes burns, scarring, or hyperpigmentation from incorrect pressure settings."
+    ],
+    "partsNeeded": [
+      "Diamond-tip or crystal microdermabrasion handpiece with adjustable suction",
+      "Soothing serum and hydrating mask post-treatment",
+      "SPF 50+ (mandatory - skin is vulnerable after resurfacing)",
+      "Comfortable treatment bed and protective eyewear"
+    ],
+    "guidePricing": "R450-R1,000 per session; R1,600-R4,000 for a course of 4 sessions; often packaged with a HydraFacial or LED add-on at R600-R1,350 combined",
+    "timeline": "30-45 min for a standard session; 45-60 min with a HydraFacial add-on",
+    "aiPromptExample": "Describe the ideal microdermabrasion facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended microdermabrasion facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Crystal vs Diamond Tip",
+        "body": "Crystal microdermabrasion uses fine aluminium oxide or sodium bicarbonate crystals sprayed onto the skin and vacuumed off with dead cells. Diamond-tip uses a wand with a diamond-encrusted tip that abrades the skin directly. Diamond-tip is more hygienic (no crystal dust), allows better precision around eyes and lips, and is the preferred method for darker skin tones to reduce pigmentation risk.\nMost SA medical aesthetic clinics have transitioned to diamond-tip machines for better safety on Fitzpatrick IV-VI skin."
+      },
+      {
+        "heading": "The Microdermabrasion Procedure",
+        "body": "The aesthetician cleans the skin, then passes the handpiece over each area in overlapping strokes. The sensation is a light scratching with a vibration from the suction. The depth is adjusted for each area - thicker skin on the forehead tolerates more, delicate skin around the eyes gets a lighter pass. Post-treatment, the skin is pink and slightly warm for 2-4 hours.\nThe suction vacuum is what makes microdermabrasion effective - it stimulates blood flow and lymphatic drainage in addition to mechanical exfoliation."
+      },
+      {
+        "heading": "Post-Treatment Skin Care",
+        "body": "For 24-48 hours after microdermabrasion: no touching or rubbing the face, no active skincare (retinol, acids, vitamin C), no makeup for 4-6 hours (if you must, use fresh mineral powder), no direct sun exposure, and SPF 50+ every 2 hours if outdoors. The skin is more absorbent and more vulnerable for 48 hours.\nYour Bouul aesthetician will recommend a post-care moisturiser. The fresh skin layer absorbs products up to 4x more effectively for 48 hours post-microdermabrasion."
+      },
+      {
+        "heading": "Contraindications",
+        "body": "Microdermabrasion is not suitable for: active acne (especially cystic - can spread bacteria), rosacea with visible capillaries, eczema or psoriasis patches in the treatment area, sunburned or windburned skin, or clients on Accutane (wait 6 months after stopping). Active cold sores - the treatment can trigger an outbreak."
+      }
+    ]
+  },
+  {
+    "id": "led-therapy-facial",
+    "tag": "facial-treatments",
+    "title": "LED Light Therapy: The Science-Backed Facial for Every Skin Concern",
+    "subtitle": "Red for collagen, blue for acne, near-infrared for healing - LED therapy is the low-downtime facial that adapts to your skin needs.",
+    "image": "/scenes/led-therapy-facial.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Does LED light therapy actually do anything?",
+    "problemBody": "LED light therapy uses specific wavelengths of light to trigger cellular responses in the skin. Red light (630-660nm) penetrates to stimulate fibroblasts and collagen production. Blue light (415nm) kills Cutibacterium acnes (acne-causing bacteria). Near-infrared (810-880nm) reaches deeper tissues for anti-inflammatory and healing effects. It is painless, has no downtime, and requires 6-12 sessions for cumulative results. Cost in SA: R350-R800 per session or often combined with other facial treatments.",
+    "bouulSolution": [
+      "Bouul LED therapy providers should disclose the device brand and wavelength specifications - not all LED devices deliver therapeutic output.",
+      "Consistency matters more than intensity - 2 sessions per week for 6 weeks produces better results than 1 intense session.",
+      "Bouul Escrow protects you if the device is clearly sub-therapeutic or the provider cannot confirm the output specifications."
+    ],
+    "partsNeeded": [
+      "Medical-grade LED panel (large enough to cover the full face at 15-25cm distance)",
+      "Red (630nm), blue (415nm), and near-infrared (810-880nm) wavelengths",
+      "Protective eyewear for the client (closing eyes is not enough - LEDs are bright)",
+      "Conductive gel or serum for enhanced absorption during treatment"
+    ],
+    "guidePricing": "R350-R800 for standalone LED session; R200-R500 add-on to a standard facial; R1,800-R4,000 for a course of 6 sessions; often included in premium facial packages",
+    "timeline": "20-30 min for a targeted LED session; 45-60 min when combined with a facial",
+    "aiPromptExample": "Describe the ideal led therapy facial experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended led therapy facial plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "How LED Works at the Cellular Level",
+        "body": "LED light energy is absorbed by mitochondria in skin cells (specifically cytochrome c oxidase in the electron transport chain), increasing ATP production and cellular metabolism. Red light stimulates fibroblast activity for collagen synthesis. Blue light produces singlet oxygen that oxidises and kills C. acnes bacteria. Near-infrared light reduces inflammation by modulating cytokine production. None of these effects happen instantly - results accumulate over sequential sessions.\nAt-home LED masks typically deliver 10-30 mW/cm2. Professional panels deliver 100-200 mW/cm2 - 5-10x more power, which is why professional sessions are more effective per minute."
+      },
+      {
+        "heading": "Red Light for Anti-Aging",
+        "body": "Red LED therapy at 630-660nm stimulates collagen production in the dermis, reducing fine lines and improving skin firmness and texture. A typical anti-aging protocol: 2 sessions per week for 6 weeks, then maintenance 1-2 sessions per month. Visible results start at session 4-6. It is not a facelift but a genuine structural improvement that compounds over time."
+      },
+      {
+        "heading": "Blue Light for Acne",
+        "body": "Blue LED at 415nm targets the porphyrins produced by C. acnes bacteria, creating a photocatalytic reaction that kills the bacteria. A typical acne protocol: 2 sessions per week for 4 weeks, then 1 session per week for maintenance. Combined with topical products (benzoyl peroxide or salicylic acid), results are significantly better than either alone.\nBlue LED does not affect existing pimples - it prevents new ones by reducing the bacterial population. Existing pimples need extraction or topical treatment separately."
+      },
+      {
+        "heading": "Combination Protocols",
+        "body": "Most SA skin clinics combine LED wavelengths for optimal results: red + near-infrared for anti-aging and healing, blue + red for acne (blue kills bacteria, red reduces inflammation), or full-spectrum for general skin health. A 20-minute session can cycle through multiple wavelengths. LED is often combined with other treatments (microneedling, peels, HydraFacial) to enhance results."
+      }
+    ]
+  }
+]

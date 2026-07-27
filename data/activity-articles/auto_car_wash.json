@@ -1,0 +1,326 @@
+[
+  {
+    "id": "exterior_wash",
+    "tag": "Car Wash",
+    "title": "Exterior Hand Wash: More Than Just Soap and Water",
+    "subtitle": "The right wash technique preserves your paint \u2014 here is the professional difference",
+    "image": "/scenes/auto_exterior_wash.png",
+    "problemHeadline": "Is your car wash damaging your paint?",
+    "problemBody": "Automatic car washes use nylon brushes that trap dirt from previous cars, acting like sandpaper on your clear coat. A professional hand wash uses the two-bucket method, pH-neutral shampoo, and clean microfiber mitts to lift dirt away from the paint surface without scratching. In SA dust and traffic film, a proper hand wash makes a visible difference in paint clarity.",
+    "bouulSolution": [
+      "Bouul's mobile washers bring their own water supply and use the two-bucket method with grit guards",
+      "pH-neutral shampoo (not dish soap which strips wax) applied with clean microfiber mitts",
+      "Escrow holds payment until you inspect the paint \u2014 no swirls, no water spots, no missed dirt"
+    ],
+    "partsNeeded": [
+      "Two buckets with grit guards (wash and rinse)",
+      "pH-neutral car shampoo",
+      "Microfiber wash mitts and drying towels (multiple clean sets)",
+      "Wheel cleaner and separate wheel brush"
+    ],
+    "guidePricing": "R80 \u2013 R200 (sedan); R120 \u2013 R300 (SUV/bakkie)",
+    "timeline": "30\u201360 minutes",
+    "aiPromptExample": "2016 Hyundai Tucson, dark blue. I usually go to the automatic car wash in Centurion but noticing swirl marks. Want a proper hand wash at my house.",
+    "aiDiagnosisOutput": "Hyundai Tucson 2016 dark blue \u2014 swirl marks from automatic washes. Single hand wash will not remove them but prevents further damage. Plan: two-bucket hand wash, pH-neutral shampoo, separate wheel mitt. Est. R120\u2013R180.",
+    "escrowGuarantee": "Payment held until you walk around the car. Check for missed spots, water spots, and new swirls. Release when you are satisfied.",
+    "pirbStandard": "SANS 10100-5 paint care; MIWA Detailing Standards",
+    "articleSections": [
+      {
+        "heading": "Two-bucket method explained",
+        "body": "Bucket 1: soapy water with a grit guard (a grate at the bottom). Bucket 2: plain water. Dip your mitt in soap, wash a panel, rinse the mitt in bucket 2 (dirt falls to the bottom past the grit guard), re-soap in bucket 1, repeat. This prevents dirt from being dragged across your paint."
+      },
+      {
+        "heading": "pH-neutral shampoo vs dish soap",
+        "body": "Dish soap (Sunlight, Lux) is alkaline and strips wax, sealant, and ceramic coatings over time. pH-neutral car shampoo (pH 6.5\u20137.5) cleans without stripping protection. Check the bottle \u2014 if it does not say pH-neutral, it's not for car paint."
+      },
+      {
+        "heading": "Drying: the most critical step",
+        "body": "Air drying in SA sun leaves immediate water spots from minerals in our hard water. A dedicated drying towel (microfiber or synthetic chamois) is used in straight lines, not circles, to avoid micro-marring. Bouul washers dry every panel and crevice."
+      },
+      {
+        "heading": "Wheels first or last?",
+        "body": "Wheels should be washed FIRST using a dedicated mitt and cleaner \u2014 brake dust contains metal particles that scratch paint. Never use the same mitt for wheels and bodywork. Wheel cleaner should be pH-neutral or specifically formulated for alloy wheels."
+      },
+      {
+        "heading": "How often to wash in SA",
+        "body": "Weekly for daily drivers in Gauteng (dust, traffic film). Every two weeks in coastal areas (less dust but more salt residue). After every long trip. Bird droppings and tree sap should be removed immediately \u2014 they etch clear coat within hours in SA sun."
+      },
+      {
+        "heading": "Waterless wash option",
+        "body": "Waterless wash products are available for light dust between proper washes \u2014 spray on, wipe off with microfiber. Only safe when the car is lightly dusty, not muddy. Bouul offers waterless washes for apartment residents without driveway access."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "full_valet",
+    "tag": "Car Wash",
+    "title": "Full Valet Service: Comprehensive Inside and Out",
+    "subtitle": "More than a wash \u2014 the complete exterior and interior treatment for that like-new feel",
+    "image": "/scenes/auto_full_valet.png",
+    "problemHeadline": "Between a wash and a detail: what does a full valet include?",
+    "problemBody": "A full valet sits between a basic wash and a full detail. It includes an exterior hand wash, wheel cleaning, tyre dressing, interior vacuum, dashboard and door card wipe-down, glass cleaning, and odour elimination. It's the optimal service for maintaining a clean car between professional details \u2014 enough to look great without the multi-hour commitment of a detail.",
+    "bouulSolution": [
+      "Bouul valeters perform a 30-point checklist covering every surface inside and out",
+      "Exterior: hand wash, wheel clean, tyre dressing, door and boot shuts wiped. Interior: vacuum, dash wipe, glass clean, fabric refresh",
+      "Escrow holds payment until you inspect \u2014 no streaks on glass, no dust left in vents, seats look refreshed"
+    ],
+    "partsNeeded": [
+      "pH-neutral car shampoo and wheel cleaner",
+      "Interior cleaner (dash, door cards, plastics)",
+      "Glass cleaner (ammonia-free to protect tint)",
+      "Vacuum cleaner with crevice tools and upholstery brush"
+    ],
+    "guidePricing": "R350 \u2013 R800 (sedan); R500 \u2013 R1 200 (SUV/bakkie)",
+    "timeline": "1\u20132 hours",
+    "aiPromptExample": "2019 Kia Sportage. It is dusty inside and out after a trip to the Drakensberg. I need someone to do a thorough inside-and-out clean at my house in Randburg.",
+    "aiDiagnosisOutput": "Kia Sportage 2019 \u2014 dust and light mud from Drakensberg trip. Full valet: exterior hand wash, wheel clean, tyre dressing, interior vacuum all surfaces, dash wipe, glass clean. Est. R500\u2013R800.",
+    "escrowGuarantee": "Payment held until you check: glass streak-free, dash dust-free, carpets visibly refreshed, and exterior feels smooth with no missed patches.",
+    "pirbStandard": "MIWA Detailing Standards; SANS 10230 interior hygiene",
+    "articleSections": [
+      {
+        "heading": "What is included in a full valet",
+        "body": "Exterior: pre-rinse, hand wash with two-bucket method, wheel cleaning, tyre dressing, door and boot shuts wiped. Interior: full vacuum with crevice tool (seats, carpets, boot), dashboard and centre console wipe-down, door card cleaning, window cleaning inside and out, fabric freshener spray."
+      },
+      {
+        "heading": "Tyre dressing: glossy vs matte",
+        "body": "Water-based tyre dressings give a natural satin finish that does not sling onto your paint. Silicone-based dressings give high-gloss shine but can sling onto body panels when driving. Bouul valeters offer a choice and use water-based by default for longer-lasting, cleaner results."
+      },
+      {
+        "heading": "How a full valet differs from a detail",
+        "body": "A valet cleans and refreshes. A detail cleans, corrects, and protects. Valet: wash vacuum wipe dress = 1\u20132 hours. Detail: the same plus clay bar, machine polish, paint sealant, interior steam extraction = 4\u20138 hours. A monthly valet plus a bi-annual detail is the ideal maintenance schedule."
+      },
+      {
+        "heading": "Glass cleaning without streaks",
+        "body": "Ammonia-free glass cleaner is essential for cars with tinted windows \u2014 ammonia degrades tint film over time. Two-towel method: one damp with cleaner, one dry to buff. Circular motion to clean, straight lines to buff. Bouul valeters clean both inside and outside."
+      },
+      {
+        "heading": "Interior odour control",
+        "body": "Baking soda vacuum powder deodorises carpets. Enzyme sprays break down organic odour sources (food, pet accidents). Charcoal odour absorbers maintain freshness between valets. Bouul valeters identify the odour source rather than masking it with fragrance."
+      },
+      {
+        "heading": "How often to valet",
+        "body": "Monthly for daily drivers who care about appearance. Every 2 months for work vehicles. Before and after long road trips. Before selling (adds R5 000\u2013R8 000 to resale value on a R200 000 car)."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "wax_service",
+    "tag": "Car Wash",
+    "title": "Car Wax Application: The Protective Finish Your Paint Needs",
+    "subtitle": "Wax is your paint's first defence against UV, bird droppings, and SA's harsh sun",
+    "image": "/scenes/auto_wax_service.png",
+    "problemHeadline": "Is wax worth it, or just a nice shine?",
+    "problemBody": "Car wax provides a sacrificial layer that takes the brunt of UV rays, bird droppings, tree sap, and acid rain before they reach your clear coat. A quality wax lasts 4\u20138 weeks in SA conditions. Without it, clear coat thins faster \u2014 leading to fading and peeling years earlier than expected.",
+    "bouulSolution": [
+      "Bouul detailers apply wax after a full hand wash and clay bar treatment for proper bonding",
+      "Products used: high-quality carnauba wax (warm glow) or synthetic sealant (longer durability)",
+      "Escrow holds payment until you see the deep wet-look shine and feel how smooth the paint is"
+    ],
+    "partsNeeded": [
+      "Quality car wax (carnauba \u2014 Collinite 845, or synthetic \u2014 Meguiars or Chemical Guys)",
+      "Applicator pads (foam, for even wax distribution)",
+      "Microfiber buffing towels (plush pile for removal)",
+      "Clay bar kit (if paint needs decontamination before waxing)"
+    ],
+    "guidePricing": "R200 \u2013 R500 (sedan, wax only); R400 \u2013 R1 000 (wash + clay + wax)",
+    "timeline": "1\u20133 hours depending on prep needed",
+    "aiPromptExample": "2020 Nissan NP200. I wash it myself but never wax. The paint feels rough and I want to protect it before summer. In Boksburg.",
+    "aiDiagnosisOutput": "Nissan NP200 2020 \u2014 rough paint (bonded contaminants). Needs a clay bar before waxing to be effective. Wash + clay + wax est. R600\u2013R900. Carnauba wax recommended for white paint.",
+    "escrowGuarantee": "Payment held until you run your hand across the paint \u2014 it should feel like glass. Water should bead. If wax is patchy, payment stays frozen.",
+    "pirbStandard": "SANS 10100-5 paint finish; MIWA Detailing Standards",
+    "articleSections": [
+      {
+        "heading": "Carnauba vs synthetic wax",
+        "body": "Carnauba wax (from Brazilian palm leaves) gives the warmest, deepest glow \u2014 the classic show-car shine. Lasts 4\u20138 weeks. Synthetic sealants last 8\u201316 weeks and offer harder protection but a more clinical shine. Bouul detailers recommend carnauba for dark colours, synthetic for light colours and daily drivers."
+      },
+      {
+        "heading": "Clay bar before wax: essential",
+        "body": "Wax bonds best to clean paint. If your paint feels rough (bonded contaminants like tar and industrial fallout), waxing without claying first seals the contamination under the wax \u2014 reducing both gloss and protection. A clay bar treatment takes 30 minutes and dramatically improves the final result."
+      },
+      {
+        "heading": "Application techniques",
+        "body": "Apply wax in the shade (SA sun dries wax too fast, making removal difficult). Use a foam applicator in circular motions on one panel at a time. Let it haze (2\u20135 minutes for carnauba, per product instructions). Buff off with clean microfiber in straight lines. Thin layers are better than one thick layer."
+      },
+      {
+        "heading": "How often to wax in SA",
+        "body": "Every 4\u20136 weeks for cars parked outside in full sun. Every 8\u201312 weeks for garage-kept cars. Every 3 months minimum in coastal areas (salt spray degrades wax faster). After every machine polish (the polish removed the previous wax). Bouul offers wax subscription: wax every 6 weeks with a maintenance wash in between."
+      },
+      {
+        "heading": "Wax vs sealant vs ceramic coating",
+        "body": "Wax: least durable (4\u20138 weeks), most affordable (R200\u2013R500), warmest look. Sealant: moderate durability (8\u201316 weeks), moderate cost (R500\u2013R1 000). Ceramic coating: highest durability (2\u20135 years), highest cost (R4 500\u2013R15 000+). Your choice depends on budget and how often you want to maintain it."
+      },
+      {
+        "heading": "The water bead test",
+        "body": "After waxing, pour water onto the bonnet. It should form tight round beads that roll off. If water sheets flatly, the wax has worn off. The bead test is the best way to know when it's time to reapply. In Gauteng's hard water, beading also means fewer water spots after rain."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "undercarriage_wash",
+    "tag": "Car Wash",
+    "title": "Undercarriage Wash: Protecting Against Rust at Its Source",
+    "subtitle": "The hidden area that rusts first \u2014 here is why you should wash underneath",
+    "image": "/scenes/auto_undercarriage.png",
+    "problemHeadline": "Is your car's undercarriage corroding without you knowing?",
+    "problemBody": "The underside of your car is exposed to everything: water, mud, salt, road grime, and debris. SA coastal drivers face salt spray corrosion. Inland, winter moisture and treated roads still cause issues. An undercarriage wash removes these corrosive elements. Combined with yearly rust-proofing, it can double the life of your exhaust, suspension components, and chassis.",
+    "bouulSolution": [
+      "Bouul washers use a specialised undercarriage wand with low-pressure water to avoid forcing moisture into electrical connectors",
+      "They access all areas: wheel wells, control arms, exhaust, fuel tank straps, and chassis rails",
+      "Escrow holds payment until the undercarriage is clean and visibly drier than before (no pooling water in cavities)"
+    ],
+    "partsNeeded": [
+      "Undercarriage pressure attachment (low-pressure, wide fan)",
+      "Degreaser or undercarriage cleaner (water-based, biodegradable)",
+      "Rust-proofing spray (Tectyl or Wurth cavity wax) as add-on",
+      "Protective cover for sensitive components (alternator, ECU if accessible)"
+    ],
+    "guidePricing": "R250 \u2013 R600 (sedan); R400 \u2013 R800 (SUV/bakkie)",
+    "timeline": "20\u201340 minutes",
+    "aiPromptExample": "2014 Toyota Fortuner, daily driven in Durban. I know rust is an issue from sea air. Want undercarriage wash and maybe rust-proofing before winter.",
+    "aiDiagnosisOutput": "Fortuner 2014 \u2014 coastal car, undercarriage likely has salt residue. Wash recommended (low-pressure). Rust-proofing add-on advisable before winter. Est. wash R400\u2013R600. Rust-proofing R500\u2013R1 200 extra.",
+    "escrowGuarantee": "Payment held until the undercarriage is visibly clean and the mechanic points out areas of concern (if any). No standing water in cavities.",
+    "pirbStandard": "SANS 10100-5; RMI Corrosion Prevention Standards",
+    "articleSections": [
+      {
+        "heading": "Why the undercarriage rusts faster",
+        "body": "The undercarriage is never painted to the same standard as visible body panels. It's exposed to water spray, mud packing, salt spray (coastal), and chemical residue. Suspension components are made of untreated steel. Exhaust systems run hot and moisture accelerates internal and external corrosion."
+      },
+      {
+        "heading": "Coastal vs inland undercarriage care",
+        "body": "Coastal (Durban, Cape Town): salt spray coats every surface. Monthly undercarriage rinse is recommended. Inland (Joburg, Pretoria): less salt but more dust and mud trapping moisture. Quarterly rinse suffices. If you off-road frequently (mud, river crossings), rinse after every trip \u2014 dried mud retains moisture against metal."
+      },
+      {
+        "heading": "Low-pressure vs high-pressure undercarriage wash",
+        "body": "High-pressure water directed at seals, boots, and connectors can force water past protective barriers. Low-pressure wide-fan spray is sufficient to dislodge mud and grime without damaging rubber boots on CV joints, steering rack gaiters, and electrical connectors."
+      },
+      {
+        "heading": "Rust-proofing as an add-on",
+        "body": "After the undercarriage is washed and dried (let it dry completely, ideally in sun), rust-proofing spray can be applied. Tectyl, Wurth, or Waxoyl cavity wax is sprayed into chassis cavities and onto exposed metal. It does not harden completely \u2014 stays slightly waxy to self-heal small scratches. Cost: R500\u2013R1 500 per application. Lasts 1\u20133 years."
+      },
+      {
+        "heading": "What to look for when clean",
+        "body": "A clean undercarriage reveals: oil leaks (wet spots on the engine underside), coolant leaks (pink/green residue), power steering fluid (red or green), exhaust rust-through, damaged CV boots, loose heat shields, and chassis rail damage from off-roading. Bouul washers note these findings in your service report."
+      },
+      {
+        "heading": "When NOT to wash underneath",
+        "body": "Do not wash the undercarriage when the car has just been driven and the exhaust and brakes are hot \u2014 cold water on hot metal can warp brake discs and crack exhaust manifolds. Wait 30 minutes after the engine is off. Do not spray directly at the alternator, ECU (if under-bonnet accessible from below), or air intake."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "engine_wash",
+    "tag": "Car Wash",
+    "title": "Engine Wash: Degreasing Without Damaging Electronics",
+    "subtitle": "A clean engine runs cooler and makes maintenance easier \u2014 but one wrong spray costs thousands",
+    "image": "/scenes/auto_engine_wash.png",
+    "problemHeadline": "Should you degrease your engine?",
+    "problemBody": "A clean engine bay runs cooler because dirt acts as insulation. It also makes oil leaks immediately visible for early detection. But high-pressure water and harsh degreasers can destroy modern electronic components. The correct method: cool engine, cover sensitive areas, use a biodegradable degreaser, low-pressure rinse, and thorough drying.",
+    "bouulSolution": [
+      "Bouul washers protect the alternator, ECU, fuse box, and air intake with sealed bags before any water",
+      "They use biodegradable degreaser and soft brushes, not pressure washers",
+      "Escrow holds payment until the engine bay is clean, dry, and your dash has no warning lights"
+    ],
+    "partsNeeded": [
+      "Biodegradable engine degreaser (citrus-based, solvent-free)",
+      "Detailing brushes (assorted sizes for hose and crevice cleaning)",
+      "Low-pressure sprayer with wide nozzle",
+      "Water-based dressing for plastics and hoses (not silicone spray)"
+    ],
+    "guidePricing": "R150 \u2013 R400 (4-cylinder); R300 \u2013 R600 (V6/V8)",
+    "timeline": "30\u201360 minutes",
+    "aiPromptExample": "2013 BMW 320d E90. Oil leak somewhere on the top of the engine but I cannot see where because everything is covered in grime. Need a degrease.",
+    "aiDiagnosisOutput": "BMW 320d E90 \u2014 oil leak source obscured by grime. Engine bay degrease will reveal source. Common E90 leak: valve cover gasket or oil filter housing gasket. Est. degrease R300\u2013R500.",
+    "escrowGuarantee": "Payment held until the bay is dry and the engine starts with no warning lights. If any code appears, we freeze payment until the source is found.",
+    "pirbStandard": "SANS 10100-5; RMI Electrical Component Protection",
+    "articleSections": [
+      {
+        "heading": "The correct engine wash process",
+        "body": "Let engine cool completely. Cover alternator, ECU, fuse box, air intake. Apply degreaser from bottom up. Agitate with brushes \u2014 different sizes for intake plenum, hose crevices, and firewall gaps. Low-pressure rinse. Start engine to evaporate moisture. Apply water-based dressing to plastics."
+      },
+      {
+        "heading": "Common degreasing mistakes",
+        "body": "Pressure washing (forces water into connectors), using solvent-based degreasers (damages rubber hoses and plastic connectors), spraying when hot (thermal shock on aluminum components), leaving degreaser on too long (dries and leaves residue), and forgetting to cover the alternator (water ingress kills the voltage regulator)."
+      },
+      {
+        "heading": "After-wash inspection",
+        "body": "With the bay clean: check for fresh oil drips (loose drain plug or sump gasket), coolant stains (water pump weep hole, radiator seams), power steering fluid (pump or hose connections), and chafed wires (rubbing against sharp metal edges). Bouul washers photograph any findings for your records."
+      },
+      {
+        "heading": "Plastic and hose dressing",
+        "body": "Silicone spray on engine plastics attracts dust \u2014 the bay looks worse within a week. Water-based dressings (Carpro Perl, 303 Aerospace) provide UV protection and a satin finish that repels dust. Apply sparingly to hoses and covers; never to belts, pulleys, or alternator."
+      },
+      {
+        "heading": "When not to do an engine wash",
+        "body": "Cars with known electrical issues (intermittent warning lights), recent engine repairs (allowing cleaning solvents to penetrate new seals), exposed intakes (aftermarket cold-air intakes without splash shields), and engines with deteriorating wiring insulation (common on older German cars)."
+      },
+      {
+        "heading": "Engine wash frequency",
+        "body": "Every 12 months or when prepping for sale (clean engines sell faster and for more). Before any major mechanical work (cleaner work environment for the mechanic). After off-road driving with deep water crossings (remove mud from crevices)."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "eco_wash",
+    "tag": "Car Wash",
+    "title": "Eco-Friendly Car Wash: Sustainable Cleaning Without Compromise",
+    "subtitle": "Waterless and steam cleaning options that save water without sacrificing results",
+    "image": "/scenes/auto_eco_wash.png",
+    "problemHeadline": "Can you wash your car without wasting hundreds of litres of water?",
+    "problemBody": "A standard home car wash uses 300\u2013500 litres of water. In water-scarce SA, especially during Western Cape and Eastern Cape drought restrictions, many areas ban hosing cars at home. Waterless and steam cleaning use under 5 litres of water and are fully biodegradable.",
+    "bouulSolution": [
+      "Bouul offers waterless and steam wash \u2014 zero hose needed, compliant with water restrictions",
+      "Products used are biodegradable and phosphate-free, safe for drains and gardens",
+      "Escrow holds payment until you inspect and confirm it is as clean as a traditional wash"
+    ],
+    "partsNeeded": [
+      "Waterless wash spray (polymer-based, lifts dirt without scratching)",
+      "Microfiber towels (multiple, high-GSM plush for waterless method)",
+      "Steam cleaner (for steam wash option)",
+      "Detail spray for final buff and protection"
+    ],
+    "guidePricing": "R100 \u2013 R250 (sedan); R150 \u2013 R350 (SUV/bakkie)",
+    "timeline": "30\u201360 minutes",
+    "aiPromptExample": "I live in a sectional title complex in Cape Town. No driveway or hose. 2020 VW T-Cross white. Is waterless wash safe for my paint?",
+    "aiDiagnosisOutput": "2020 T-Cross white \u2014 waterless wash safe if dusty, not muddy. Products lift dirt, towel traps it. Est. R120\u2013R180.",
+    "escrowGuarantee": "Payment held until you inspect \u2014 no swirls, no residue, paint glossy and clean to the touch.",
+    "pirbStandard": "SANS 10230; MIWA Eco-Friendly Detailing Standards; City of Cape Town water restrictions compliance",
+    "articleSections": [
+      {
+        "heading": "Waterless wash: how it works",
+        "body": "A polymer-based spray is applied to one panel at a time. The formula encapsulates dirt particles, lifting them off the paint. A clean microfiber towel wipes the emulsified dirt away. A second dry towel buffs to a shine. Each panel uses one clean section of towel \u2014 you fold the towel to a fresh surface for each pass. Works best for light dust and traffic film, not heavy mud."
+      },
+      {
+        "heading": "Steam cleaning: the deeper clean",
+        "body": "Steam cleaning uses pressurised steam at 130\u2013160\u00b0C to loosen dirt without chemicals. Ideal for interiors (sanitises fabric, kills bacteria, removes odours) and exterior (gentle on paint). Uses approximately 1 litre of water. The steam evaporates quickly, leaving surfaces dry. Better for heavy soiling than waterless."
+      },
+      {
+        "heading": "Microfiber management",
+        "body": "The key to scratch-free waterless washing is using enough clean microfiber towels. Each towel should be used for 2\u20133 panels maximum before switching to a clean one. Dirty towels dragged across paint cause swirl marks. Bouul eco washers carry 15\u201320 clean towels per car \u2014 one per panel."
+      },
+      {
+        "heading": "SA water restriction compliance",
+        "body": "Many SA municipalities restrict hosing vehicles during drought. Waterless and steam washing are fully compliant. Bouul eco washers carry proof of their low-water methods in case of by-law enforcement. Eco wash is also ideal for apartment residents and complex security estates without driveway access."
+      },
+      {
+        "heading": "When eco methods do not work",
+        "body": "Heavy mud (off-road trips), heavy tar or industrial fallout, and bird droppings that have baked onto paint need a traditional wash or pre-soak. Bouul operators assess the condition before booking and recommend the appropriate method."
+      },
+      {
+        "heading": "Cost comparison and environmental impact",
+        "body": "Eco wash: R100\u2013R350 \u2014 no water, no runoff, no drain contamination. Traditional wash: R80\u2013R300 \u2014 300\u2013500L water, detergent runoff into storm drains. Car wash bay: R40\u2013R100 \u2014 commercial water recycling. Bouul eco washers offset their travel carbon through verified tree-planting partnerships."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  }
+]

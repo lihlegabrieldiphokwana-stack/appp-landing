@@ -1,0 +1,230 @@
+[
+  {
+    "id": "sto_secure_self_storage",
+    "tag": "Self Storage",
+    "title": "Secure Climate-Controlled Self Storage Units",
+    "subtitle": "Clean, secure self-storage units with 24/7 CCTV, pin access, and flexible monthly terms",
+    "image": "/scenes/furniture_assembly.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Cluttered homes or seasonal business stock require safe, accessible extra space",
+    "problemBody": "Damp or un-monitored storage lockups lead to mildew, dust damage, and pest infestations.",
+    "bouulSolution": [
+      "Book verified self-storage units ranging from 3m² lockups to 36m² double garage sizes",
+      "Facilities feature perimeter electric fencing, 24/7 CCTV, individual door alarms, and drive-up access",
+      "Escrow holds initial deposit until unit inspection and key handover"
+    ],
+    "partsNeeded": [
+      "Individual unit door padlock",
+      "Climate control dehumidifier",
+      "Pallet floor risers",
+      "Storage packing boxes"
+    ],
+    "guidePricing": "R750 – R2,800 per month",
+    "timeline": "Duration: Flexible Monthly",
+    "aiPromptExample": "Book storage unit: 'Rent 18m² garage size storage unit in Midrand for home furniture.'",
+    "aiDiagnosisOutput": "Unit Size: 18m² (6m x 3m). Security: Alarm + CCTV + Gated. Escrow Deposit: R1,500.",
+    "escrowGuarantee": "Escrow released upon key handover and unit inspection sign-off.",
+    "pirbStandard": "Self Storage Association of South Africa (SSASA) Compliant Facility.",
+    "articleSections": [
+      {
+        "heading": "Drive-Up Access Convenience",
+        "body": "Ground-floor units allow backing your moving truck directly to the door for easy loading."
+      },
+      {
+        "heading": "Pest & Damp Management",
+        "body": "Units are raised off concrete slabs and regularly fumigated to protect furniture and documents."
+      }
+    ]
+  },
+  {
+    "id": "sto_document_archiving_storage",
+    "tag": "Document Storage",
+    "title": "Offsite Document Archiving & Records Management",
+    "subtitle": "Barcode-tracked physical document storage for law firms, medical practices, and businesses",
+    "image": "/scenes/office_cleaning.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Boxes of archived files take up expensive office floor space and risk POPIA privacy leaks",
+    "problemBody": "Unmanaged document stacks make retrieving historical records time-consuming.",
+    "bouulSolution": [
+      "High-density fire-protected document archiving with individual barcode box tracking",
+      "On-demand document retrieval delivered to your office within 4 hours",
+      "Escrow holds setup fees until initial archive intake and barcode indexing is complete"
+    ],
+    "partsNeeded": [
+      "Barcode tracking labels",
+      "Heavy-duty archive boxes (Archive 1)",
+      "Fire-rated vault storage racking",
+      "Document shredding bin"
+    ],
+    "guidePricing": "R18 – R35 per box/month",
+    "timeline": "Duration: Monthly Contract",
+    "aiPromptExample": "Quote document storage: 'Store and barcode-index 200 legal archive boxes with emergency retrieval.'",
+    "aiDiagnosisOutput": "Scope: 200 Boxes Intake + Barcode Indexing + Fireproof Vault Storage. Escrow: R3,600.",
+    "escrowGuarantee": "Escrow released upon delivery of digital barcode catalog.",
+    "pirbStandard": "POPIA Compliant & SABS 1565 Document Archive Standard.",
+    "articleSections": [
+      {
+        "heading": "4-Hour Express File Retrieval",
+        "body": "Need a file urgently? Archived boxes are scanned and physical files delivered to your desk within 4 hours."
+      },
+      {
+        "heading": "Certified Confidential Shredding",
+        "body": "Expired documents are cross-cut shredded and issued with a POPIA destruction certificate."
+      }
+    ]
+  },
+  {
+    "id": "sto_vehicle_caravan_boat",
+    "tag": "Vehicle Storage",
+    "title": "Secure Vehicle, Boat & Caravan Storage",
+    "subtitle": "Covered or open shade-cloth parking bays for cars, caravans, trailers, and boats",
+    "image": "/scenes/car_wash.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Parking caravans or extra bakkies on residential driveways takes up space and risks theft",
+    "problemBody": "Outdoor weather exposure fades caravan fiberglass and damages boat upholstery.",
+    "bouulSolution": [
+      "Secure vehicle storage bays with high perimeter security, biometric gates, and battery trickle charging",
+      "Options for enclosed indoor bays, shade-cloth carports, or open paved parking",
+      "Escrow holds deposit until vehicle check-in and condition report sign-off"
+    ],
+    "partsNeeded": [
+      "Shade-cloth carport canopy",
+      "Solar battery trickle charger",
+      "Wheel clamp lock",
+      "Vehicle dust cover"
+    ],
+    "guidePricing": "R650 – R1,800 per month",
+    "timeline": "Duration: Monthly Contract",
+    "aiPromptExample": "Book caravan storage: 'Covered shade-cloth storage bay for 6m caravan in Centurion.'",
+    "aiDiagnosisOutput": "Bay Type: Covered Shade-Cloth (7m x 3m). Security: 24/7 Guarded + CCTV. Escrow: R1,100.",
+    "escrowGuarantee": "Escrow released upon vehicle check-in and signed condition report.",
+    "pirbStandard": "SSASA Motor Storage Standard.",
+    "articleSections": [
+      {
+        "heading": "Battery Maintenance Support",
+        "body": "Solar trickle chargers keep caravan and boat batteries charged so vehicles start on demand."
+      },
+      {
+        "heading": "Condition Check-In Audit",
+        "body": "Vehicles undergo a high-resolution photo audit upon entry to record existing condition."
+      }
+    ]
+  },
+  {
+    "id": "sto_warehouse_pallet_storage",
+    "tag": "Pallet Storage",
+    "title": "Commercial Warehouse Pallet & Bulk Storage",
+    "subtitle": "Flexible commercial pallet storage, container destuffing, and pick-and-pack fulfillment",
+    "image": "/scenes/furniture_delivery.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Renting a whole warehouse for seasonal inventory spikes is an unnecessary fixed overhead",
+    "problemBody": "Managing bulk imports without forklift equipment or pallet racking slows order delivery.",
+    "bouulSolution": [
+      "Pay-per-pallet monthly storage in modern logistics distribution centers",
+      "Services include container offloading, shrink-wrapping, inventory counting, and courier dispatch",
+      "Escrow holds fees until inventory intake report is verified"
+    ],
+    "partsNeeded": [
+      "Standard Euro / ISO Pallets",
+      "High-reach forklift & pallet jacks",
+      "Stretch-wrap machine",
+      "WMS (Warehouse Management System) scanner"
+    ],
+    "guidePricing": "R110 – R180 per pallet/month",
+    "timeline": "Duration: Flexible Monthly",
+    "aiPromptExample": "Quote pallet storage: 'Store 50 pallets of imported goods with pick-and-pack fulfillment.'",
+    "aiDiagnosisOutput": "Scope: 50 Pallet Bays + Container Destuffing + WMS Inventory Integration. Escrow: R6,500.",
+    "escrowGuarantee": "Escrow released after inventory intake count confirmation.",
+    "pirbStandard": "ISO 9001 Quality Logistics & SABS Warehouse Standard.",
+    "articleSections": [
+      {
+        "heading": "Pay-Per-Pallet Flexibility",
+        "body": "Scale your storage space up or down dynamically based on seasonal sales velocity."
+      },
+      {
+        "heading": "WMS Real-Time Stock Tracking",
+        "body": "Log into your dashboard to view real-time stock levels, SKU counts, and dispatch status."
+      }
+    ]
+  },
+  {
+    "id": "sto_wine_climate_vault",
+    "tag": "Wine Storage",
+    "title": "Climate-Controlled Wine Vault Storage",
+    "subtitle": "Temperature and humidity controlled cellaring for fine wine collections",
+    "image": "/scenes/interior_design.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Heat fluctuations in standard homes spoil expensive vintage wine investments",
+    "problemBody": "Vibrations and humidity drops dry out corks, oxidizing fine wines.",
+    "bouulSolution": [
+      "State-of-the-art subterranean wine vaults maintained at constant 14°C and 65% humidity",
+      "Individual lockable wine lockers or timber display racks with backup power generators",
+      "Escrow holds deposit until bottle audit and locker key handover"
+    ],
+    "partsNeeded": [
+      "Precision HVAC climate control unit",
+      "Backup generator for 100% uptime",
+      "Vibration-damped timber wine racks",
+      "Digital temperature & humidity logger"
+    ],
+    "guidePricing": "R450 – R1,800 per month",
+    "timeline": "Duration: Monthly / Annual",
+    "aiPromptExample": "Book wine vault: 'Private wine locker for 240 bottles of vintage red wine in Cape Town.'",
+    "aiDiagnosisOutput": "Locker Capacity: 20 Cases (240 Bottles). Climate: 14°C / 65% RH. Escrow: R1,200.",
+    "escrowGuarantee": "Escrow released after bottle check-in audit and locker key handover.",
+    "pirbStandard": "International Wine Cellar Guild Standard.",
+    "articleSections": [
+      {
+        "heading": "14°C Constant Temperature",
+        "body": "Precision cooling systems prevent thermal shock, preserving aging potential."
+      },
+      {
+        "heading": "Generator Power Backup",
+        "body": "Dual generators guarantee climate stability even through multi-day power outages."
+      }
+    ]
+  },
+  {
+    "id": "sto_cold_chain_refrigerated",
+    "tag": "Cold Storage",
+    "title": "Refrigerated & Frozen Cold Chain Storage",
+    "subtitle": "Temperature-controlled cold storage (-18°C to +4°C) for food and pharmaceuticals",
+    "image": "/scenes/caterers.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Perishable food products spoil rapidly if the cold chain breaks during storage",
+    "problemBody": "Sub-standard cold storage without continuous temperature logging risks public health non-compliance.",
+    "bouulSolution": [
+      "HACCP certified cold storage facilities offering refrigerated (+2°C to +6°C) and deep freeze (-18°C) bays",
+      "24/7 automated temperature logging with instant SMS alert triggers",
+      "Escrow holds fees until temperature log report and stock intake sign-off"
+    ],
+    "partsNeeded": [
+      "Commercial blast freezer & cold room",
+      "Continuous IoT temperature sensors",
+      "Insulated thermal pallet covers",
+      "Stainless steel racking"
+    ],
+    "guidePricing": "R180 – R320 per pallet/day",
+    "timeline": "Duration: Daily / Monthly",
+    "aiPromptExample": "Quote cold storage: 'Store 10 pallets of frozen meat at -18°C for 2 weeks.'",
+    "aiDiagnosisOutput": "Scope: 10 Pallets @ -18°C + Daily Temp Logging + 24/7 Monitoring. Escrow: R3,800.",
+    "escrowGuarantee": "Escrow released after verified temperature log delivery upon release.",
+    "pirbStandard": "HACCP & SANS 10330 Food Safety Certified Facility.",
+    "articleSections": [
+      {
+        "heading": "HACCP Food Safety Standard",
+        "body": "Facilities follow strict Hazard Analysis Critical Control Point protocols for food handling."
+      },
+      {
+        "heading": "24/7 IoT Temperature Alerting",
+        "body": "Sensors alert facility engineers instantly if temperatures drift by more than 0.5°C."
+      }
+    ]
+  }
+]

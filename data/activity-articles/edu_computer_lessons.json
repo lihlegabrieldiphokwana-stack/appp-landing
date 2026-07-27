@@ -1,0 +1,226 @@
+[
+  {
+    "id": "edu_cyber_security_basics",
+    "tag": "Cyber Security",
+    "title": "Personal Cyber Security & Fraud Awareness",
+    "subtitle": "Learn to protect your banking, email, and identity from online scams",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Phishing scams, SIM swops, and fake banking calls target South Africans daily",
+    "problemBody": "Falling victim to online financial fraud can wipe out life savings in minutes.",
+    "bouulSolution": [
+      "Patient 1-on-1 computer tutor teaches safe browsing, strong passwords, and 2FA setup",
+      "Learn to recognize phishing emails, fake WhatsApp messages, and banking scams",
+      "Escrow released after completing practical safety setup on your devices"
+    ],
+    "partsNeeded": [
+      "Personal laptop / smartphone",
+      "Password manager app",
+      "2FA authenticator app",
+      "Security checklist printout"
+    ],
+    "guidePricing": "R350 – R550 per hour",
+    "timeline": "Duration: 2 – 4 Hours",
+    "aiPromptExample": "Book security lesson: 'Senior citizen needs lesson on safe online banking and scam prevention.'",
+    "aiDiagnosisOutput": "Course: 2x 90-min sessions. Coverage: Password setup, 2FA, email verification. Escrow: R1,100.",
+    "escrowGuarantee": "Escrow released after student completes security checklist.",
+    "pirbStandard": "ICDL Cyber Security Module Compliant.",
+    "articleSections": [
+      {
+        "heading": "2-Factor Authentication Setup",
+        "body": "Tutors walk students through securing email and banking apps using authenticator codes."
+      },
+      {
+        "heading": "Phishing Spotting Practice",
+        "body": "Interactive analysis of real scam SMS and email examples to build confidence."
+      }
+    ]
+  },
+  {
+    "id": "edu_excel_advanced_data",
+    "tag": "Advanced Excel",
+    "title": "Advanced Microsoft Excel & Data Analysis",
+    "subtitle": "Master VLOOKUP, XLOOKUP, Pivot Tables, and financial formulas for work",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Struggling with complex Excel spreadsheets slows down your workday and career growth",
+    "problemBody": "Basic Excel knowledge isn't enough when your job demands automated reports and data dashboards.",
+    "bouulSolution": [
+      "Expert Excel tutor delivers tailored lessons using your real workplace spreadsheets",
+      "Master XLOOKUP, INDEX/MATCH, Pivot Tables, Conditional Formatting, and IF statements",
+      "Escrow released after completing practical Excel project"
+    ],
+    "partsNeeded": [
+      "Laptop with MS Excel 365",
+      "Practice dataset spreadsheets",
+      "Excel shortcut reference sheet",
+      "Screen recording software"
+    ],
+    "guidePricing": "R400 – R650 per hour",
+    "timeline": "Duration: 4 – 10 Hours",
+    "aiPromptExample": "Book Excel tutor: 'Need 5 hours of 1-on-1 Excel tutoring for financial report building.'",
+    "aiDiagnosisOutput": "Course: 5x 1-hour sessions. Topics: XLOOKUP, Pivot Charts, Data Validation. Escrow: R2,500.",
+    "escrowGuarantee": "Escrow released after each verified lesson session.",
+    "pirbStandard": "Microsoft Certified Educator (MCE) Standard.",
+    "articleSections": [
+      {
+        "heading": "Real-World Data Projects",
+        "body": "Lessons use real workplace data scenarios so skills apply immediately to your job."
+      },
+      {
+        "heading": "Formula Troubleshooting",
+        "body": "Learn how to debug #N/A, #VALUE, and circular reference errors independently."
+      }
+    ]
+  },
+  {
+    "id": "edu_basic_computer_literacy",
+    "tag": "Basic Literacy",
+    "title": "Beginner Computer Literacy & Internet Basics",
+    "subtitle": "Friendly beginner guide to operating Windows, Mac, email, and web browsing",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Feeling left behind by technology makes daily tasks like paying bills difficult",
+    "problemBody": "Fear of breaking the computer stops beginners from exploring digital tools.",
+    "bouulSolution": [
+      "Patient step-by-step guidance on mouse control, keyboarding, filing, and web searching",
+      "Learn how to compose emails, attach photos, and video call family members",
+      "Escrow holds payment per session until student confirms progress"
+    ],
+    "partsNeeded": [
+      "Personal computer / laptop",
+      "Beginner visual guide sheet",
+      "Practice typing software"
+    ],
+    "guidePricing": "R300 – R500 per hour",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Book beginner tutor: 'Basic computer lessons for grandparent learning email and web search.'",
+    "aiDiagnosisOutput": "Package: 4x 1-hour sessions. Coverage: Windows desktop, Chrome browser, Gmail. Escrow: R1,400.",
+    "escrowGuarantee": "Escrow released session by session after student sign-off.",
+    "pirbStandard": "ICDL Computer Essentials Standard.",
+    "articleSections": [
+      {
+        "heading": "Confidence Building Steps",
+        "body": "Repetitive hands-on exercises build muscle memory and remove technology anxiety."
+      },
+      {
+        "heading": "Safe File Management",
+        "body": "Learn how to create folders, save documents, and locate downloaded files easily."
+      }
+    ]
+  },
+  {
+    "id": "edu_graphic_design_software",
+    "tag": "Design Software",
+    "title": "Photoshop, Canva & Illustrator Training",
+    "subtitle": "Learn digital graphic design, photo editing, and social media branding",
+    "image": "/scenes/graphic_designers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Outsourcing basic social media graphics for your business gets expensive fast",
+    "problemBody": "Struggling with complex design tools produces amateur-looking marketing posts.",
+    "bouulSolution": [
+      "Learn Canva or Adobe Photoshop from professional graphic designers",
+      "Master layers, photo retouching, typography, export sizes, and brand templates",
+      "Escrow released after student creates 3 polished brand graphics"
+    ],
+    "partsNeeded": [
+      "Computer with Canva / Adobe Suite",
+      "Brand assets (logo, photos)",
+      "Design cheat sheet"
+    ],
+    "guidePricing": "R400 – R700 per hour",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Book design tutor: 'Learn Canva and Photoshop to design Instagram posts for my boutique.'",
+    "aiDiagnosisOutput": "Course: 4x 90-min sessions. Deliverable: 5x Custom Canva templates. Escrow: R2,400.",
+    "escrowGuarantee": "Escrow released upon completion of design portfolio items.",
+    "pirbStandard": "Adobe Certified Professional Instructor Standard.",
+    "articleSections": [
+      {
+        "heading": "Brand Palette Integration",
+        "body": "Set up official brand colors, fonts, and logos for one-click social media post creation."
+      },
+      {
+        "heading": "Photo Retouching Basics",
+        "body": "Learn background removal, color correction, and image resizing for web loading."
+      }
+    ]
+  },
+  {
+    "id": "edu_coding_python_basics",
+    "tag": "Coding Basics",
+    "title": "Python Programming & Coding Fundamentals",
+    "subtitle": "Beginner 1-on-1 coding lessons in Python, data structures, and automation",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "5 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Learning to code from self-paced online videos without interactive feedback leads to frustration",
+    "problemBody": "Syntax errors, environment configuration issues, and abstract concepts cause many beginner programmers to give up early.",
+    "bouulSolution": [
+      "1-on-1 live coding session with an experienced Python developer",
+      "Hands-on project building: automated web scrapers, data scripts, and simple games",
+      "Escrow released per lesson hour after student code review"
+    ],
+    "partsNeeded": [
+      "Laptop with VS Code & Python 3 installed",
+      "Interactive coding challenge platform",
+      "Git repository setup"
+    ],
+    "guidePricing": "R450 – R750 per hour",
+    "timeline": "Duration: 6 – 12 Hours",
+    "aiPromptExample": "\"Lesson plan for teaching Python loops, functions, and dictionary structures to a high school student.\"",
+    "aiDiagnosisOutput": "\"Recommended: 60-min interactive session covering syntax, followed by building a practical mini project.\"",
+    "escrowGuarantee": "Payment released per session after student confirms code review.",
+    "pirbStandard": "Python Software Foundation & ICDL Advanced Standard.",
+    "articleSections": [
+      {
+        "heading": "Hands-On Code Writing",
+        "body": "Students write functional code from minute 15 of lesson 1, building confidence through immediate visual output."
+      },
+      {
+        "heading": "Debugging & Error Handling",
+        "body": "Learn how to read stack trace errors, use print debugging, and fix logic bugs independently."
+      }
+    ]
+  },
+  {
+    "id": "edu_ai_tools_prompting",
+    "tag": "AI Prompting",
+    "title": "AI Tools & ChatGPT Productivity Training",
+    "subtitle": "Master AI prompt engineering, document summarization, and workflow automation",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Team",
+    "problemHeadline": "Failing to leverage AI tools leaves professionals at a severe productivity disadvantage",
+    "problemBody": "Using generic, single-sentence prompts yields mediocre AI outputs that require extensive manual rewriting.",
+    "bouulSolution": [
+      "Practical prompt engineering techniques: persona framing, few-shot examples, and chain-of-thought",
+      "Automating daily email drafting, meeting summaries, and research synthesis",
+      "Escrow released after student masters practical prompt library"
+    ],
+    "partsNeeded": [
+      "Computer with web browser",
+      "Prompt engineering cheat sheet",
+      "Workflow template library"
+    ],
+    "guidePricing": "R450 – R800 per hour",
+    "timeline": "Duration: 3 – 6 Hours",
+    "aiPromptExample": "\"Prompt engineering framework for business professionals automating report writing.\"",
+    "aiDiagnosisOutput": "\"Recommended: Role-prompting, context constraints, and output formatting templates.\"",
+    "escrowGuarantee": "Payment released per session after prompt template verification.",
+    "pirbStandard": "Bouul AI Literacy & Productivity Standard.",
+    "articleSections": [
+      {
+        "heading": "Structured Prompting Frameworks",
+        "body": "Master context setting, role assignment, and output constraints to get 10x better AI responses."
+      },
+      {
+        "heading": "Workflow Integration",
+        "body": "Integrate AI assistance into daily email, document drafting, and data analysis tasks smoothly."
+      }
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "termite_treatment",
+    "tag": "Pest Control",
+    "title": "Termite Treatment and Prevention",
+    "subtitle": "Termites eat your house from the inside out — early treatment prevents structural collapse.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You see mud tunnels on your foundation and tiny wings near the windows. Termites are already inside.",
+    "problemBody": "Subterranean termites are the most destructive pest in SA homes. They enter from the soil, build mud tubes up foundation walls, and eat wooden structural elements from the inside, leaving a paper-thin shell. By the time you see visible damage, they've been eating for months or years. Professional treatment eliminates the colony and installs a chemical barrier to prevent return.",
+    "bouulSolution": [
+      "We connect you with registered pest control operators (PCOs) licensed for termiticide application under Act 36 of 1947.",
+      "Escrow holds your payment until the treatment is completed and follow-up inspection verifies no active termites.",
+      "Zola AI helps identify termite species from photos and recommends treatment type (liquid barrier or bait system)."
+    ],
+    "partsNeeded": [
+      "Termiticide (fipronil or imidacloprid based, diluted per manufacturer spec per SANS 10156)",
+      "Termite bait stations (above-ground or in-ground, hexaflumuron-based active)",
+      "Soil injection rod and pump sprayer for barrier application",
+      "Drill and plug kit for concrete slab injection if termites are below a slab-on-grade foundation"
+    ],
+    "guidePricing": "R4,500 - R15,000 (complete treatment and barrier)",
+    "timeline": "Duration: 1 - 3 Days (treatment), 2 - 4 Weeks (bait system to eliminate colony)",
+    "aiPromptExample": "I found mud tunnels running up my foundation wall in Johannesburg. The house is on a concrete slab. I also found small white ants under a loose floorboard in the hallway. The house is face-brick, about 15 years old.",
+    "aiDiagnosisOutput": "Confirmed subterranean termite infestation (likely Coptotermes or Macrotermes from the mud tunnel pattern and slab-on-grade foundation). The presence under floorboard means the colony has established a satellite nest inside the structure. Action required urgently: (1) liquid termiticide barrier treatment — drill slab perimeter at 300mm intervals, inject fipronil or imidacloprid solution into soil beneath, treat all expansion joints and pipe penetrations. (2) remove and replace infested floorboard, treat void space. (3) install in-ground bait stations around perimeter as monitoring system. SA regulatory note: only registered pest control operators (PCOs) with Act 36 of 1947 licensing may apply restricted termiticides. Budget estimate R7k-R12k for full treatment. Escrow milestones: initial inspection and drill → barrier injection → bait station installation → 30-day follow-up inspection release.",
+    "escrowGuarantee": "Funds are released in verified stages: inspection and drilling, barrier chemical application, bait station installation, and a follow-up inspection 30 days later confirming no termite activity.",
+    "pirbStandard": "Termiticide application in SA is regulated under the Fertilizers, Farm Feeds, Agricultural Remedies and Stock Remedies Act (Act 36 of 1947). Only registered pest control operators (PCOs) with valid APPO membership may apply restricted termiticides. Treatment must comply with SANS 10156 (Termite Control in Existing Buildings).",
+    "articleSections": [
+      {
+        "heading": "Mud Tunnels — Nature's Red Flag",
+        "body": "Subterranean termites build mud tunnels to travel from their underground colony to their food source (your house) without being exposed to air. If you break open a tunnel and see creamy-white insects inside, you have active termites. Don't just scrape the tunnel away — that's like closing the door after the burglar is inside. Professional treatment is required."
+      },
+      {
+        "heading": "Liquid Barrier vs Bait System",
+        "body": "Liquid termiticide barriers (fipronil or imidacloprid) create a chemical zone in the soil that kills termites on contact. They're fast (1 day) and effective for 8-12 years. Bait systems attract termites to a slow-acting poison that spreads through the colony. They take 2-4 weeks to eliminate the colony but use less chemical and are preferred near water sources or organic gardens. Many modern treatments combine both."
+      },
+      {
+        "heading": "Signs of Termites Before Structural Damage",
+        "body": "Look for: mud tunnels on foundation walls, wing piles near windows and doors (termites swarm November-January in SA), hollow-sounding wood when tapped, buckling paint or wallpaper, tiny holes in drywall, doors that suddenly stick (frames warp from moisture termites bring in). Don't wait for a visible swarm to call a professional — by then the colony has been established for 3-5 years."
+      },
+      {
+        "heading": "Prevention After Treatment",
+        "body": "After professional treatment: fix leaking taps and pipes (termites need moisture), keep firewood and mulch at least 1m from the foundation, maintain a 150mm gap between soil and any wood siding, and inspect your perimeter annually. A bait station monitoring contract (R1,500-R3,000/year) is good value for peace of mind."
+      }
+    ]
+  },
+  {
+    "id": "cockroach_fumigation",
+    "tag": "Pest Control",
+    "title": "Cockroach Fumigation and Elimination",
+    "subtitle": "German cockroaches breed faster than you can spray. Professional fumigation breaks the cycle for good.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Every time you turn the kitchen light on at night, cockroaches scatter. The shop sprays aren't working.",
+    "problemBody": "German cockroaches are the species found in most SA homes. They breed every 60 days, each egg case holds 30-40 nymphs, and they've evolved resistance to common over-the-counter sprays. Store-bought pesticides kill only the visible adults — the eggs and hidden nymphs survive. Professional fumigation with gel baits and growth regulators eliminates the entire population.",
+    "bouulSolution": [
+      "We connect you with licensed pest control operators who use integrated pest management (IPM) protocols for cockroaches.",
+      "Escrow protects your payment until follow-up inspection confirms zero cockroach activity.",
+      "Zola AI helps identify cockroach species from your description and recommends the treatment frequency for your infestation level."
+    ],
+    "partsNeeded": [
+      "Gel bait (fipronil or indoxacarb-based — placed in cracks, under appliances, and in cabinets)",
+      "Insect growth regulator (IGR — pyriproxyfen or similar, prevents nymphs from maturing)",
+      "Sticky monitoring traps for post-treatment verification",
+      "Caulking gun and sealant for closing entry points (cracks in walls, pipe penetrations)"
+    ],
+    "guidePricing": "R800 - R2,500 per treatment (typically 2-3 treatments, 2 weeks apart)",
+    "timeline": "Duration: 1 - 3 Hours per treatment visit",
+    "aiPromptExample": "My kitchen in Cape Town has a serious cockroach problem. I see them day and night — not just at night. They're small, about 15mm, light brown with two dark stripes behind the head. I've tried Doom and sprays from Shoprite but they come back within 2 weeks.",
+    "aiDiagnosisOutput": "Confirmed German cockroach (Blattella germanica). Daytime activity = severe infestation (population has exceeded the space's carrying capacity — they compete for food at all hours). The two dark stripes on the pronotum (segment behind head) are diagnostic. Shelf sprays are ineffective because: (1) they kill only exposed adults, not hidden nymphs or eggs, (2) German cockroaches in SA have developed resistance to pyrethroid-based sprays. Recommended protocol: (1) deep clean kitchen (remove all food residue, degrease behind appliances), (2) apply gel bait in 20-30 dots per room (under fridge, behind stove, inside cabinet hinges, under sink, behind kickboards — never on surfaces food touches), (3) apply IGR spray to cracks and crevices, (4) seal entry points with silicone. 3 treatments at 14-day intervals. Budget R1,500-R2,500 for full program. Follow-up monitoring with sticky traps for 3 months.",
+    "escrowGuarantee": "Payment is held for the full treatment program. Each visit is logged, and final release only after monitoring traps show zero cockroach activity for 14 days.",
+    "pirbStandard": "Pest control operators in SA handling cockroach treatments must be registered with the Department of Agriculture under Act 36 of 1947. Gel baits used must be registered with the same body. Compliance with SANS 10142 (Environmental Pest Control) is recommended best practice.",
+    "articleSections": [
+      {
+        "heading": "Why DIY Sprays Make It Worse",
+        "body": "Over-the-counter pyrethroid sprays kill a few visible cockroaches but scatter the rest deeper into wall voids. The surviving population breeds in harder-to-reach places, and each generation becomes more resistant. You end up with a larger, more resilient infestation than you started with. Professional gel baits work differently — the cockroach eats the bait, returns to the nest, dies, and other cockroaches eat its carcass, spreading the poison through the colony."
+      },
+      {
+        "heading": "German vs American Cockroach — Why It Matters",
+        "body": "German cockroaches (small, light brown, two stripes) live indoors, infest kitchens and bathrooms, breed year-round. American cockroaches (large, 40mm, reddish-brown) prefer drains, sewers, and outdoor areas — they occasionally wander indoors. Treatment is completely different: gels and IGRs for German, perimeter sprays and drain treatments for American. Correct species identification determines success."
+      },
+      {
+        "heading": "Prevention After Professional Treatment",
+        "body": "After a professional fumigation program: keep kitchen surfaces dry and food in sealed containers, take out rubbish daily, fix leaking taps (cockroaches need water more than food), seal cracks in walls, and maintain sealed gaps around pipe penetrations. German cockroaches cannot survive without a water source — fixing a dripping tap is as important as the chemical treatment."
+      },
+      {
+        "heading": "The 3-Visit Protocol Explained",
+        "body": "Visit 1: apply gel bait and IGR, seal entry points. Visit 2 (14 days later): apply fresh bait, vacuum dead cockroaches, monitor with traps. Visit 3 (28 days): final bait top-up, trap analysis. The 2-week gap is critical — it catches the nymphs that hatched from eggs laid before the first treatment (German cockroach eggs take 28 days to hatch). A single treatment will never eliminate an established population."
+      }
+    ]
+  },
+  {
+    "id": "mosquito_control",
+    "tag": "Pest Control",
+    "title": "Mosquito Control and Yard Treatment",
+    "subtitle": "Reduce mosquito populations around your home to protect your family from bites and mosquito-borne diseases.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You can't use your patio after 5pm without being eaten alive. Malaria and West Nile are real risks.",
+    "problemBody": "Mosquitoes breed in any standing water — a bucket, a blocked gutter, a bird bath, or a puddle that lasts 7 days. SA is home to several mosquito species including the Anopheles (malaria vector in northern areas) and Aedes (dengue, chikungunya). Yard treatment reduces adult populations by 80-90% and targets breeding sites to prevent regrowth.",
+    "bouulSolution": [
+      "We connect you with pest control operators who apply barrier treatments and breeding site interventions.",
+      "Escrow holds your payment until the treatment is applied and you confirm reduction in mosquito activity.",
+      "Zola AI identifies likely breeding sites on your property and suggests environmental controls before treatment."
+    ],
+    "partsNeeded": [
+      "Adulticide barrier spray (pyrethroid-based, permethrin or deltamethrin — applied to foliage and shaded walls)",
+      "Larvicide (Bacillus thuringiensis israelensis — Bti — mosquito dunks for water features and drains)",
+      "ULV fogging machine or backpack sprayer for perimeter treatment",
+      "Mosquito traps (CO2 or UV-based) for monitoring populations"
+    ],
+    "guidePricing": "R1,200 - R3,500 per treatment (yard treatment, 400-800 sqm stand)",
+    "timeline": "Duration: 1 - 2 Hours per treatment, repeat every 4-6 weeks in summer",
+    "aiPromptExample": "I can't use my garden in the evenings in White River, Mpumalanga. I'm getting 20+ mosquito bites just from walking to the car at 6pm. I have a fish pond, a veggie garden, and lawn. I'm near the river.",
+    "aiDiagnosisOutput": "Mosquito assessment: Mpumalanga Lowveld = high-pressure zone (river proximity + summer rainfall). Fish pond is either breeding site (if stagnant edges) or beneficial (if fish eat larvae). Recommendation: (1) barrier spray treatment of shaded vegetation (mosquitoes rest in dense foliage during hot hours — apply pyrethroid spray to under-leaves, shrubs, and shaded walls), (2) treat pond with Bti larvicide dunks — safe for fish, kills larvae for 30 days, (3) eliminate ANY standing water — check blocked gutters, pot plant saucers, tyre swings, kids' toys, (4) optional: misting system for patio area (R3k-R6k, needs monthly refill). Budget for initial treatment R2,000-R3,000 plus Bti dunks R150/month. Repeat every 4 weeks December-March. Escrow: post-treatment 48-hour check to confirm reduction.",
+    "escrowGuarantee": "Payment releases after treatment is applied and you confirm a visible reduction in mosquito activity within 48 hours.",
+    "pirbStandard": "Mosquito control treatments in SA are regulated under Act 36 of 1947. Application near waterways must follow SANS 10135 (Pesticide Application Near Water). The National Institute for Communicable Diseases (NICD) publishes mosquito-borne disease risk maps — treatments should target species of concern in your area.",
+    "articleSections": [
+      {
+        "heading": "Targeting Breeding Sites — The Real Solution",
+        "body": "Killing adult mosquitoes with fogging is a temporary fix. The colony will be back in 2 weeks if breeding sites remain. Effective mosquito control starts with eliminating standing water: clean gutters, empty pot plant saucers weekly, treat or cover rainwater tanks, drill drainage holes in tyre swings, and treat ponds with Bti. One bucket of standing water produces 1,000 mosquitoes in 7 days."
+      },
+      {
+        "heading": "Barrier Spray vs Fogging vs Misting",
+        "body": "Barrier sprays (applied to vegetation and shaded walls) last 4-6 weeks and target resting mosquitoes. Fogging (ULV machines that create a visible fog) kills only mosquitoes in the air at that moment — it's a short-term knockdown, not a solution. Automated misting systems are the gold standard for entertainment areas — they release timed pyrethrin mists that create a protective zone. Misting systems cost R5k-R12k installed but deliver the best control for regular use."
+      },
+      {
+        "heading": "Malaria Risk Areas",
+        "body": "Malaria transmission occurs in the northern parts of SA: northern KZN (Zululand, Maputaland), Mpumalanga Lowveld (Kruger Park area), and Limpopo. If you live in or travel to these areas, mosquito control is not just convenience — it's a health necessity. The NICD risk map changes annually based on rainfall and temperature patterns."
+      },
+      {
+        "heading": "Plant-Based Mosquito Repellent Plants — Reality Check",
+        "body": "Citronella, lavender, rosemary, and basil plants do release oils that mosquitoes dislike, but a few pots on the patio will not protect an area of more than 1-2 metres. They're a nice complement to professional treatment, not a replacement. The concentration of active compounds in a living plant is far too low for meaningful repellency at any distance."
+      }
+    ]
+  },
+  {
+    "id": "rodent_removal",
+    "tag": "Pest Control",
+    "title": "Rodent Removal and Exclusion",
+    "subtitle": "Rats and mice carry disease, chew wiring, and multiply fast. Professional removal seals them out for good.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You hear scratching in the ceiling at night. Droppings in the pantry. The rats are nesting above your bedroom.",
+    "problemBody": "Rats (Rattus norvegicus and R. rattus) and mice (Mus musculus) are year-round problems in SA suburban homes. They gnaw through electrical wiring (a leading cause of domestic fires), contaminate food, spread leptospirosis and salmonella, and breed every 3 weeks. A single pair of rats can produce 2,000 descendants in a year. Poison alone won't fix it — they die in the walls and stink — exclusion is the only permanent solution.",
+    "bouulSolution": [
+      "We connect you with pest control operators who provide end-to-end rodent management: baiting, trapping, and exclusion sealing.",
+      "Escrow holds payment until all entry points are sealed and monitoring confirms no activity for 14 days.",
+      "Zola AI helps identify entry points from your house description and recommends the right bait station placement."
+    ],
+    "partsNeeded": [
+      "Rodenticide bait blocks (wax-coated, single-feed anticoagulant e.g. bromadiolone, in tamper-resistant stations)",
+      "Snap traps (rat or mouse size) and glue boards for monitoring",
+      "Exclusion materials (steel wool grade 1, expanding foam, galvanised mesh 6mm x 6mm, silicone sealant)",
+      "UV flashlight for detecting urine trails (rodent marking behaviour)"
+    ],
+    "guidePricing": "R1,500 - R5,000 (full treatment and exclusion package)",
+    "timeline": "Duration: 1 - 3 Days initial treatment, 2 week follow-up",
+    "aiPromptExample": "I hear scratching in my ceiling in Durban North. I found rat droppings under the sink and a hole chewed in the PVC pipe under the kitchen cabinet. I have a tile roof with a gap between the fascia board and the roof line.",
+    "aiDiagnosisOutput": "Probable roof rat (Rattus rattus) infestation. Scratching in ceiling = active overhead nesting. The chewed PVC pipe is a classic sign — rats gnaw to keep incisors trimmed and PVC is soft enough. Entry points identified: (1) fascia/roof gap — typical rat entry at 15-20mm gap (R. rattus needs only 12mm), (2) pipe penetration under sink — seal with steel wool + expanding foam. Protocol: (1) set tamper-resistant bait stations in ceiling void and along fence lines (outdoor, away from pets), (2) seal all roof entry points with steel wool + foam or galvanised mesh, (3) seal pipe penetrations and wall cracks indoors, (4) snap traps in ceiling (check daily, remove carcasses). Durban's warm climate means no winter die-off — rodents breed year-round. Budget R2,500-R4,000. Escrow milestones: baiting stations placed → exclusion sealing completed → 14-day no-activity follow-up signed off.",
+    "escrowGuarantee": "Payment releases in stages: initial bait and trap setup, exclusion sealing of all identified entry points, and a final sign-off after 14 days of monitoring with zero rodent activity.",
+    "pirbStandard": "Rodenticide application in SA must comply with Act 36 of 1947. Baits in outdoor areas must be placed in tamper-resistant stations per SANS 10152. Pest control operators must be registered with the Department of Agriculture and hold a valid pest control operator certificate.",
+    "articleSections": [
+      {
+        "heading": "Why Poison Alone Is Not the Answer",
+        "body": "Rodenticides kill the rat, but if it dies inside a wall cavity or ceiling, the carcass decomposes and creates a terrible smell that lasts 2-4 weeks. Professional rodent control combines bait stations (outdoors), snap traps (indoors, where carcasses can be retrieved), and exclusion — sealing every hole larger than 6mm. Without exclusion, new rodents move into the territory as soon as old ones are removed."
+      },
+      {
+        "heading": "The 6mm Rule",
+        "body": "A mouse can squeeze through a hole the size of a 10c coin (6mm). A rat can get through a 12mm gap. That means every crack, pipe penetration, vent, and roof gap larger than 6mm needs to be sealed. Steel wool packed into gaps and covered with expanding foam is the gold standard — rodents can't chew through steel wool but will chew through foam alone."
+      },
+      {
+        "heading": "Signs of Rodent Activity",
+        "body": "Droppings (rat: 10-15mm capsules, mouse: 3-6mm rice-shaped), gnaw marks (wood, PVC, wires, food packaging), grease marks (dark smudges along walls from rat fur), scratching sounds (especially at night in ceilings or wall cavities), live or dead rodents, nests (shredded paper, fabric, insulation in hidden areas). If you see one rat, there are 20-30 more you haven't seen."
+      },
+      {
+        "heading": "Rodent-Proofing Your Home",
+        "body": "After professional removal: seal all pipe penetrations with steel wool + foam, install door sweeps (5mm or less clearance on all external doors), cap weep vents with galvanised mesh, trim tree branches 1m from the roof line (rats jump from branches to roof), store pet food and bird seed in metal containers, and keep compost bins 10m from the house."
+      }
+    ]
+  },
+  {
+    "id": "bedbug_treatment",
+    "tag": "Pest Control",
+    "title": "Bedbug Treatment and Eradication",
+    "subtitle": "Bedbugs are spreading through SA. Professional heat treatment is the only way to eliminate them completely.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You wake up with rows of itchy bites on your arms. The 'good night, sleep tight' rhyme was about bedbugs.",
+    "problemBody": "Bedbug infestations are rising across SA in homes, hotels, and public transport. They hide in mattress seams, bed frames, furniture joints, and behind baseboards. They're resistant to many common insecticides, and they can survive for 12 months without feeding. Spot treatments and DIY sprays don't work because they only kill exposed bugs, not the ones in deep hiding.",
+    "bouulSolution": [
+      "We connect you with pest control operators who are trained and equipped for whole-room bedbug heat treatment.",
+      "Escrow ensures that if bedbugs are detected after treatment, the operator returns at no charge.",
+      "Zola AI helps identify bedbug bites and signs of infestation so you can confirm the problem before calling."
+    ],
+    "partsNeeded": [
+      "Industrial heaters (2-4 x 4kW forced-air heaters, target room temperature 55-60 degrees Celsius)",
+      "Temperature monitoring sensors (thermocouple probes at 8-12 points per room)",
+      "Fan system for air circulation (to eliminate cold spots where bugs could survive)",
+      "Desiccant dust (diatomaceous earth or silica gel — residual treatment after heat for wall cavities)"
+    ],
+    "guidePricing": "R4,000 - R12,000 per room (heat treatment)",
+    "timeline": "Duration: 6 - 10 Hours per room (heat treatment), 2 - 4 Hours pre-treatment preparation",
+    "aiPromptExample": "I have bedbugs in my bedroom in Tembisa. I found dark spots on my mattress seams and small blood stains on the sheets. My partner and I have bites on our arms, legs, and back — in a line. We've tried pesticide from PEP Home but they're still biting. It's a single bedroom with standard furniture.",
+    "aiDiagnosisOutput": "Confirmed bedbug infestation (Cimex lectularius). Dark spots on mattress seams = faecal staining, blood spots = crushed fed bugs. Linear bites on uncovered skin = diagnostic 'breakfast, lunch, dinner' pattern. Over-the-counter pyrethroid resistance is widespread in SA bedbug populations — store-bought sprays may not work. Recommendation: whole-room heat treatment. Prepare: empty all drawers and cupboards, bag all clothing in sealed plastic bags for hot wash (60 degrees C), remove heat-sensitive items (aerosols, electronics, candles). Treatment: raise room to 55 degrees C internal temperature for 2+ hours (all life stages die at 50 degrees C within 30 minutes). All furniture, bed frame disassembled, curtains, and carpets in the room. Follow-up: apply diatomaceous earth to wall cavities and skirting board gaps. Single bedroom heat treatment estimated R4,500-R7,000. Important: neighbour units in townhouse or apartment block may need co-treatment — bedbugs travel through wall cavities. 90-day guarantee period standard.",
+    "escrowGuarantee": "Payment is held for a 90-day guarantee period. If any bedbug activity is detected within 90 days, the operator returns for a supplementary heat treatment at no additional chemical cost to you.",
+    "pirbStandard": "Bedbug treatment in SA falls under Act 36 of 1947 regulation. Heat treatment requires the operator to hold appropriate PCO certification. Chemical treatments used must be registered with the Department of Agriculture. The SA Pest Control Association (SAPCA) publishes best-practice guidelines for bedbug eradication including heat treatment protocols.",
+    "articleSections": [
+      {
+        "heading": "Why Heat Treatment Beats Chemicals",
+        "body": "Bedbugs have evolved resistance to pyrethroids (the most common class of household insecticide) in SA and globally. Heat treatment is non-chemical — it raises the room to 55-60 degrees C, which kills all bedbug life stages (eggs, nymphs, adults) within 30 minutes. Chemical spot treatments leave survivors that reproduce. Heat penetrates every crack and crevice that spray liquid can't reach."
+      },
+      {
+        "heading": "How to Prepare for Heat Treatment",
+        "body": "Before heat treatment: bag all clothing, bedding, and soft furnishings in sealed plastic bags. Run through a hot wash (60 degrees C minimum) and hot dryer. Remove all items that can't tolerate 60 degrees C (candles, some electronics, aerosol cans). Move furniture away from walls. The operator will provide a detailed prep checklist — skipping items creates cold spots where bedbugs survive."
+      },
+      {
+        "heading": "Bedbugs Don't Mean You're Dirty",
+        "body": "Bedbugs are not attracted to dirt or poor hygiene — they're attracted to the CO2 we exhale and body heat. Five-star hotels get bedbugs. Public transport seats get bedbugs. They hitchhike in on clothing, luggage, and second-hand furniture. There is no stigma in having an infestation — only in not treating it."
+      },
+      {
+        "heading": "Preventing Bedbugs After Treatment",
+        "body": "After successful treatment: encase mattress and box spring in bedbug-proof covers, inspect second-hand furniture thoroughly before bringing in, vacuum mattress seams weekly, keep bed away from walls and bed skirts off the floor, and install interceptors on bed legs. If you travel, inspect hotel bed headboards and mattress seams before unpacking, and wash all travel clothes on return at 60 degrees C."
+      }
+    ]
+  },
+  {
+    "id": "flea_control",
+    "tag": "Pest Control",
+    "title": "Flea Control for Homes and Pets",
+    "subtitle": "Fleas don't just bother pets — they infest carpets and bite humans too. Break the cycle with professional treatment.",
+    "image": "/scenes/pest_control.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your dog is scratching constantly and you're finding bites on your own ankles. The flea circus is in session.",
+    "problemBody": "Cat fleas (Ctenocephalides felis) are the most common flea species in SA homes — despite the name, they happily infest dogs and humans too. Adult fleas on your pet are just 5% of the infestation — the other 95% (eggs, larvae, pupae) are in your carpets, upholstery, and pet bedding. Treating only the pet guarantees reinfestation within 2 weeks.",
+    "bouulSolution": [
+      "We connect you with pest control operators who apply home-wide flea treatments including IGRs and adulticides.",
+      "Escrow ensures your payment releases after treatment and a 14-day follow-up verifies the cycle is broken.",
+      "Zola AI explains the flea lifecycle so you understand why both pet and home treatment are essential."
+    ],
+    "partsNeeded": [
+      "Adulticide spray (permethrin or tetramethrin based for rapid kill of adult fleas)",
+      "Insect growth regulator (IGR — methoprene or pyriproxyfen to prevent egg and larvae maturation)",
+      "ULV fogger or backpack sprayer for uniform carpet and upholstery coverage",
+      "Vacuum cleaner with HEPA filter and disposable bags for pre-treatment and post-treatment vacuuming"
+    ],
+    "guidePricing": "R1,200 - R3,000 (home treatment, 3 bedroom house)",
+    "timeline": "Duration: 1 - 2 Hours treatment, 2-4 weeks to full elimination",
+    "aiPromptExample": "My house in Boksburg has fleas. I have two dogs and a cat. The pets are on flea treatment from the vet but they're still scratching. I see little black specks on my white socks when I walk on the carpet. The problem started 3 weeks ago.",
+    "aiDiagnosisOutput": "Flea infestation confirmed. Black specks on socks = flea dirt (digested blood — place on wet paper towel, if it turns red, it's confirmed). Pet treatment alone will not resolve the infestation because the home environment carries 95% of the population (eggs, larvae, pupae in carpets and upholstery). Recommended protocol: (1) all pets must receive vet-prescribed flea treatment on the same day as home treatment — topical or oral (do NOT use supermarket flea collars, they are ineffective), (2) vacuum ALL carpets, upholstery, curtains, and pet sleeping areas thoroughly — vacuum triggers pupae to emerge so they contact the insecticide, dispose of vacuum bag immediately, (3) apply adulticide + IGR spray or fog to all carpets, upholstery, baseboards, and pet areas, (4) wash all pet bedding at 60 degrees C, (5) repeat vacuum daily for 2 weeks. Budget R1,500-R2,500 for home treatment. Note: pupae are resistant to insecticides and can take 2 weeks to emerge — do not expect immediate full elimination. 14-day follow-up recommended.",
+    "escrowGuarantee": "Payment is held for a full 14-day period after treatment. If fleas are still active at the 14-day mark, the operator returns for a repeat treatment at no charge.",
+    "pirbStandard": "Flea control chemicals used in SA homes must be registered under Act 36 of 1947. IGR products must carry valid SA registration numbers. Operators should follow SANS 10155 guidelines for indoor pest control application, particularly regarding ventilation and re-entry times.",
+    "articleSections": [
+      {
+        "heading": "The 95-5 Rule — Why Pets Aren't Enough",
+        "body": "Adult fleas on your pet are the 5% you can see. The other 95% are eggs (which fall off your pet into carpets), larvae (which burrow deep into carpet fibres feeding on flea dirt), and pupae (which sit dormant in cocoons for weeks or months). Treating your pet without treating the home means the eggs continue hatching and adults jump back onto the pet within days."
+      },
+      {
+        "heading": "The Vacuum Trigger Effect",
+        "body": "Vacuuming triggers flea pupae to emerge from their protective cocoons because they sense vibration and heat. This is a good thing — it forces them into contact with the insecticide. Vacuum daily for 2 weeks after treatment: the first week removes eggs and stimulates pupae emergence, the second week catches stragglers. Immediately dispose of the vacuum bag in a sealed plastic bin."
+      },
+      {
+        "heading": "Flea Season in SA",
+        "body": "Fleas breed year-round in SA's warm coastal areas (Durban, Cape Town summer). In the interior Highveld, peak flea season is October-March (warm, humid). Winter infestations in Gauteng usually mean there's a warm indoor breeding ground — often under a house or in a crawl space with a sleeping animal."
+      },
+      {
+        "heading": "Pet Treatment That Actually Works",
+        "body": "Prescription flea treatments (oral or topical, from a veterinarian) are effective and safe. Over-the-counter flea collars, powders, and 'natural' essential oil treatments available at SA supermarkets are largely ineffective against flea populations and may not be safe for all pets. Your vet will recommend a product that's appropriate for your pet's species and weight — always follow the vet's advice rather than buying cheaper alternatives."
+      }
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "flatbed_tow",
+    "tag": "Towing Services",
+    "title": "Flatbed Towing: Why It Is Safer Than a Standard Tow",
+    "subtitle": "When to choose a flatbed truck \u2014 and why your gearbox will thank you",
+    "image": "/scenes/auto_flatbed_tow.png",
+    "problemHeadline": "Does your car need a flatbed or will a standard tow do?",
+    "problemBody": "A flatbed tow lifts all four wheels off the ground \u2014 zero drivetrain wear. Standard hook-and-chain towing can damage automatic transmissions, RWD cars, and AWD systems if the driveshaft turns without lubrication. SA roadside assistance defaults to flatbed for modern vehicles, but independent towers may offer cheaper chain tows.",
+    "bouulSolution": [
+      "Bouul towing always uses flatbeds for modern, AWD, and RWD vehicles",
+      "Drivers use wheel straps not J-hooks, winch loading to avoid bumper damage",
+      "Escrow holds payment until car is safely offloaded and you confirm no transit damage"
+    ],
+    "partsNeeded": [
+      "Flatbed tow truck (hydraulic tilt bed with winch, 2-5 ton)",
+      "Wheel straps (4-point, SABS rated)",
+      "Chocks and wheel stops",
+      "Warning triangle and hazard lights"
+    ],
+    "guidePricing": "R800 \u2013 R2 500 (local within 15 km); R2 500 \u2013 R6 000 (long-distance 50\u2013100 km)",
+    "timeline": "30\u201360 min arrival; 15\u201330 min loading",
+    "aiPromptExample": "2018 BMW X3 xDrive 20d won't start in Olivedale, Johannesburg. AWD system. Need flatbed to BMW Sandton.",
+    "aiDiagnosisOutput": "2018 X3 xDrive \u2014 no-start, Olivedale to BMW Sandton (~15 km). Flatbed required for AWD. Est. R800\u2013R1 200.",
+    "escrowGuarantee": "Payment held until car is offloaded at destination and you confirm no new damage from transit.",
+    "pirbStandard": "SANS 10291 for vehicle recovery; RMI Towing Code of Practice",
+    "articleSections": [
+      {
+        "heading": "Flatbed vs hook-and-chain",
+        "body": "Flatbed: all four wheels off ground \u2014 safe for automatic transmissions, AWD, low-clearance sports cars. Hook-and-chain: lifts only front wheels \u2014 rear wheels dragging spin the driveshaft, damaging automatic transmissions and AWD transfer cases."
+      },
+      {
+        "heading": "AWD and RWD towing requirements",
+        "body": "AWD vehicles (BMW X3, Audi Q5, RAV4 AWD) and RWD vehicles (BMW 3 Series, Mercedes C-Class, Hilux) MUST be flatbed-towed. Towing with rear wheels on ground can destroy the transfer case or differential within 5 km."
+      },
+      {
+        "heading": "Loading and tie-down safety",
+        "body": "Cars loaded onto flatbed using winch. Operator must attach to manufacturer recovery point, not suspension components. Four-point tie-down straps secure wheels \u2014 never body panels or sills."
+      },
+      {
+        "heading": "What roadside assistance covers",
+        "body": "Most SA packages (AA, insurer add-on) include flatbed towing up to a distance (15\u201350 km). Bouul coordinates with your roadside provider for seamless handover."
+      },
+      {
+        "heading": "Average towing costs in SA (2026)",
+        "body": "Local within 15 km: R800\u2013R2 500. Metro 15\u201330 km: R1 500\u2013R3 500. Long-distance 50\u2013100 km: R2 500\u2013R6 000. Weekend/night surcharge 25\u201350% extra."
+      },
+      {
+        "heading": "Avoiding towing scams",
+        "body": "Unscrupulous towers appear at accident scenes and charge inflated storage fees. Always call a Bouul-vetted tower. Never let an unsolicited tower take your keys."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "roadside_assist",
+    "tag": "Towing Services",
+    "title": "Roadside Assistance: What Every SA Driver Should Know",
+    "subtitle": "Breakdowns happen \u2014 here is how to get back on the road fast and safely",
+    "image": "/scenes/auto_roadside_assist.png",
+    "problemHeadline": "Stranded on the side of the road? Here is what to do.",
+    "problemBody": "Breakdowns can happen anywhere from the N1 highway to a remote gravel road. SA roadside assistance handles flat batteries, punctures, fuel delivery, and minor mechanical faults. Having a reliable service on speed dial turns a 3-hour ordeal into a 45-minute fix.",
+    "bouulSolution": [
+      "Bouul connects you with the nearest vetted roadside assist operator",
+      "All common issues covered: jump-start, tyre change, fuel delivery, lockout, minor mechanical",
+      "Escrow holds payment until you are safely mobile or towed to your destination"
+    ],
+    "partsNeeded": [
+      "Service vehicle with jump-start pack, jumper cables, air compressor",
+      "Tyre change tools (jack, wheel brace, spare or repair kit)",
+      "Fuel can (5L or 10L, diesel or petrol)",
+      "Basic tool kit for minor roadside fixes"
+    ],
+    "guidePricing": "R350 \u2013 R800 per call-out (standard); plus parts if needed",
+    "timeline": "30\u201360 min average arrival time",
+    "aiPromptExample": "2019 VW Polo. Flat battery at Melrose Arch, Johannesburg. Hazards on. No jumper cables.",
+    "aiDiagnosisOutput": "VW Polo 2019 \u2014 flat battery. Jump-start needed. Est. R350\u2013R500. Battery replacement R1 200\u2013R2 500 if needed.",
+    "escrowGuarantee": "Payment held until you confirm you are mobile again. If towing needed, escrow transfers seamlessly.",
+    "pirbStandard": "RMI Roadside Assistance Standards; AA of SA Code of Practice",
+    "articleSections": [
+      {
+        "heading": "What to do while waiting",
+        "body": "Move car off road, turn on hazards, wear reflective vest, place warning triangle 50 m behind \u2014 required by SA law. Stay inside with doors locked on highways. Phone with exact location using Google Maps pin or nearest GPS coordinates."
+      },
+      {
+        "heading": "Common roadside issues in SA",
+        "body": "Flat battery (most common in winter), punctures (road debris), overheated engine (summer traffic), running out of fuel, lost keys, minor electrical failures. Battery failures spike June\u2013July cold; overheating spikes December\u2013January heat."
+      },
+      {
+        "heading": "Jump-starting safely",
+        "body": "Modern stop-start cars need a jump-start pack, not cable jump-start from another car. Direct jump-starting can spike the ECU. Bouul operators carry professional packs with surge protection."
+      },
+      {
+        "heading": "Carrying a spare tyre in SA",
+        "body": "Many new cars come with repair kits instead of spares. On SA roads, a puncture may be too large for a repair kit. Consider carrying a space-saver for long-distance travel."
+      },
+      {
+        "heading": "Fuel delivery in emergencies",
+        "body": "Bouul can deliver 5\u201310L of petrol or diesel. Operator needs to know petrol vs diesel before leaving. Total typical cost R400\u2013R900 including fuel and service fee."
+      },
+      {
+        "heading": "Lockout service",
+        "body": "SA operators use non-destructive entry tools for most vehicles. Modern electronic locking may require dealer programming. Lost keys entirely means flatbed towing to a dealership."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "jump_start",
+    "tag": "Towing Services",
+    "title": "Jump-Start Service: Getting Your Battery Back to Life",
+    "subtitle": "Flat battery is the most common breakdown \u2014 here is how professionals handle it",
+    "image": "/scenes/auto_jump_start.png",
+    "problemHeadline": "Dead battery? Here is the safe way to get going again.",
+    "problemBody": "A flat battery accounts for nearly 40% of SA roadside call-outs. Cold Highveld winter mornings are particularly hard on older batteries. While a jump-start gets you running, the underlying cause may be a dying alternator, parasitic drain, or battery at end of life (3\u20135 years typical).",
+    "bouulSolution": [
+      "Bouul operator arrives with a professional surge-protected jump-start pack",
+      "They test alternator output and recommend replacement if voltage is borderline",
+      "Escrow holds payment until your car starts reliably and you can safely drive away"
+    ],
+    "partsNeeded": [
+      "Jump-start power pack (lithium or lead-acid with surge protection)",
+      "Battery tester (load or conductivity tester for CCA check)",
+      "Battery replacement if needed (various sizes)",
+      "Terminal cleaner and protective spray"
+    ],
+    "guidePricing": "R200 \u2013 R500 (jump-start); R1 200 \u2013 R3 500 (battery replacement if needed)",
+    "timeline": "20\u201340 min",
+    "aiPromptExample": "2015 Hilux 3.0 D-4D. Battery completely dead in Fourways. Struggled to start yesterday. Original 6-year-old battery.",
+    "aiDiagnosisOutput": "Hilux 2015 \u2014 6-year-old battery, 3.0 diesel needs high CCA. Jump-start possible but battery end-of-life. 657 battery or equivalent. Est. jump R300; battery R1 800\u2013R2 800.",
+    "escrowGuarantee": "Payment held until your car starts and idles. If new battery fitted, confirm engine restarts cleanly after 10-minute drive.",
+    "pirbStandard": "SANS 10100-2 for battery testing; RMI Electrical Standards",
+    "articleSections": [
+      {
+        "heading": "When to replace vs recharge",
+        "body": "A battery discharged once can often be reused. Multiple discharges or over 4 years old means replacement. Cold cranking amps below 70% of rated spec means the battery is struggling."
+      },
+      {
+        "heading": "Professional vs DIY cables",
+        "body": "DIY cables from another car risk voltage spikes damaging ECUs \u2014 especially on BMW, Mercedes, and Audi. Professional packs deliver stabilised current with reverse-polarity protection."
+      },
+      {
+        "heading": "Battery types for SA",
+        "body": "Wet-cell: most affordable, needs water top-ups. Calcium-calcium: maintenance-free, common. AGM: required for stop-start vehicles. Gel: for extreme conditions (overlanding). Check car requires AGM before fitting anything else."
+      },
+      {
+        "heading": "Parasitic drain",
+        "body": "Battery goes flat repeatedly despite being new? Parasitic drain \u2014 aftermarket alarms, trackers, faulty boot switch. Bouul operators can test for parasitic draw."
+      },
+      {
+        "heading": "Battery pricing 2026",
+        "body": "Small car: R1 200\u2013R2 200. Midsize 657 battery: R1 800\u2013R3 000. Large diesel: R2 500\u2013R4 500. AGM: 40\u201360% premium. Includes fitting and old battery disposal."
+      },
+      {
+        "heading": "Prolonging battery life",
+        "body": "Drive at least 30 min weekly (short trips don't recharge fully). Clean terminal corrosion. Avoid leaving accessories on. Park in shade in summer."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "tyre_change",
+    "tag": "Towing Services",
+    "title": "Tyre Change Assistance: Safe Wheel Swaps on the Roadside",
+    "subtitle": "Punctures are inevitable. Know the safe procedure and when to use a repair kit vs spare.",
+    "image": "/scenes/auto_tyre_change.png",
+    "problemHeadline": "Flat tyre on the road? Here is how to handle it.",
+    "problemBody": "Punctures are the second most common roadside issue in SA, especially on highways. Many modern cars lack a spare wheel \u2014 relying on a sealant and compressor kit that only works for small tread punctures. Sidewall puncture or large tear requires a full wheel change or towing.",
+    "bouulSolution": [
+      "Bouul operator assesses puncture \u2014 repair kit vs spare change vs tow to tyre shop",
+      "If changing: proper jack placement, wheel brace torque, and safe roadside procedure",
+      "Escrow holds payment until spare fitted, nuts torqued, and you are safe to drive"
+    ],
+    "partsNeeded": [
+      "Jack (scissor or hydraulic, vehicle-appropriate)",
+      "Wheel brace or torque wrench",
+      "Spare wheel (full-size, space-saver, run-flat) OR tyre repair kit",
+      "Wheel chocks and warning triangle"
+    ],
+    "guidePricing": "R250 \u2013 R600 (spare change); R150 \u2013 R400 (repair kit)",
+    "timeline": "20\u201340 min",
+    "aiPromptExample": "2018 Ford Ranger. Puncture on N1 near Century City, Cape Town. Space-saver spare in load bin but cannot loosen nuts.",
+    "aiDiagnosisOutput": "Ranger 2018 \u2014 puncture N1 Century City. Operator changes to space-saver. Torque nuts to 140 Nm. Speed limit 80 km/h on space-saver. Est. R350\u2013R500.",
+    "escrowGuarantee": "Payment until spare fitted, nuts torqued, car driveable. If unrepairable tyre, operator advises nearest tyre shop.",
+    "pirbStandard": "SANS 10112 for tyre safety; RMI Tyre Service Standards",
+    "articleSections": [
+      {
+        "heading": "Spare wheel vs repair kit",
+        "body": "Full-size spare: best, no speed restriction. Space-saver: 80 km/h limit. No spare (sealant+compressor): small tread punctures only, destroys TPMS sensors, does not fix sidewall damage."
+      },
+      {
+        "heading": "Roadside change safety",
+        "body": "Find flat hard surface away from traffic. Handbrake on, wheels chocked. Warning triangle 50 m behind. Jack at correct point \u2014 wrong spot bends the sill. Loosen nuts on ground, jack, swap, lower, tighten in star pattern."
+      },
+      {
+        "heading": "Run-flat tyres",
+        "body": "Run-flats (BMW, Mini, Mercedes) drive up to 80 km at 80 km/h when punctured. Most are repairable only by tyre shop. Operator may pump tyre and direct you to nearest shop. Cannot repair if sidewall compromised."
+      },
+      {
+        "heading": "Tyre condition in SA climate",
+        "body": "Check: tread depth (min 1.6 mm legal, recommended 3 mm), sidewall cracks (UV damage), bulges (structural risk), manufacture date (over 6 years replace regardless). DOT code shows week and year."
+      },
+      {
+        "heading": "When a tyre cannot be repaired",
+        "body": "Sidewall punctures, punctures over 6 mm, tyres driven flat over 2 km, run-flats beyond 80 km limit \u2014 all require replacement, not repair."
+      },
+      {
+        "heading": "Tyre costs 2026",
+        "body": "Puncture repair at shop: R150\u2013R350. New budget tyre: R800\u2013R1 500. New premium (Michelin/Bridgestone): R2 000\u2013R5 500. Roadside spare change is interim \u2014 visit tyre shop for proper repair."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "fuel_delivery",
+    "tag": "Towing Services",
+    "title": "Emergency Fuel Delivery: When You Ran Out on the Road",
+    "subtitle": "It happens to everyone. Here is what to do when you see empty on the N1.",
+    "image": "/scenes/auto_fuel_delivery.png",
+    "problemHeadline": "Empty tank? Bouul fuel delivery gets you moving again.",
+    "problemBody": "Running out of fuel is surprisingly common \u2014 gauge inaccuracies, detours, or miscalculation leave drivers stranded. In SA, running out on a highway at night is dangerous. Emergency fuel delivery brings enough fuel to reach the nearest station.",
+    "bouulSolution": [
+      "Bouul dispatches nearest operator with 5\u201310L of correct fuel type",
+      "Operator confirms petrol vs diesel before leaving \u2014 wrong fuel is a costly mistake",
+      "Escrow holds payment until you receive fuel, car starts, and you reach the nearest station"
+    ],
+    "partsNeeded": [
+      "Fuel can (5L or 10L, petrol or diesel)",
+      "Funnel for modern capless systems",
+      "Fuel type indicator to avoid misfuelling",
+      "Rags and spill containment"
+    ],
+    "guidePricing": "R400 \u2013 R900 (includes fuel + service fee)",
+    "timeline": "30\u201360 min arrival; 5 min to fuel up",
+    "aiPromptExample": "Empty on N3 near Heidelberg. Petrol. VW Polo 1.4. Nearest station about 8 km ahead.",
+    "aiDiagnosisOutput": "Polo \u2014 empty N3 Heidelberg. 5L petrol delivery: R400\u2013R600. Enough for nearest Engen ~8 km.",
+    "escrowGuarantee": "Payment held until car starts and you confirm you can drive to nearest station.",
+    "pirbStandard": "SANS 10089 fuel handling; RMI Roadside Assistance Standards",
+    "articleSections": [
+      {
+        "heading": "Petrol vs diesel importance",
+        "body": "Petrol in diesel destroys fuel pump and injectors \u2014 R20 000\u2013R60 000 repair. Diesel in petrol clogs spark plugs and cat. Operator always confirms fuel type before leaving depot."
+      },
+      {
+        "heading": "How much fuel you get",
+        "body": "Standard: 5L \u2014 enough for 30\u201360 km. Large engines (V6/V8, diesel double cab): 10L recommended. Bouul provides enough to reach nearest station."
+      },
+      {
+        "heading": "Far from a station?",
+        "body": "If nearest station is 50+ km away (N1 to Polokwane, N2 rural Eastern Cape), 10L may not suffice. Bouul coordinates with nearest station for additional fuel or arranges larger container."
+      },
+      {
+        "heading": "Preventing running out",
+        "body": "Don't rely on range-to-empty display \u2014 calculated from recent driving and inaccurate. Fill up at quarter tank. Know station distances on routes \u2014 some N1 sections have 80+ km gaps."
+      },
+      {
+        "heading": "Diesel vs petrol cost 2026",
+        "body": "95 unleaded ~R24/L, 93 ~R23/L, diesel ~R23/L. Delivery includes fuel plus service fee. 5L: R400\u2013R600. 10L: R600\u2013R900."
+      },
+      {
+        "heading": "Fuel delivery alternatives",
+        "body": "AA members get 5L free per call-out (2 per year). Some insurers offer fuel delivery as value-added. Check your policy \u2014 you may already be covered."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "accident_recovery",
+    "tag": "Towing Services",
+    "title": "Accident Recovery Towing: Getting Your Car to Safety After a Collision",
+    "subtitle": "After an accident, the right tow makes the difference between repairable and total loss",
+    "image": "/scenes/auto_accident_recovery.png",
+    "problemHeadline": "You have been in an accident. Do not let an unvetted tower tow your car.",
+    "problemBody": "After an accident, opportunistic tow trucks often arrive before police. They may tow your car to their preferred shop and charge inflated storage fees. In SA this practice is widespread. Using a Bouul-vetted tower ensures your car goes to the repair shop of your choice.",
+    "bouulSolution": [
+      "Bouul dispatches a trusted tower who coordinates with you",
+      "Your car goes to your preferred RMI-accredited shop \u2014 not the tower's shop",
+      "Escrow holds payment until car safely stored and you confirm no in-transit damage"
+    ],
+    "partsNeeded": [
+      "Flatbed with accident recovery (winch, lighting, safety gear)",
+      "Police report documentation (SAPS accident number)",
+      "Chains, straps, dolly wheels for disabled vehicles",
+      "Scene lighting and warning signs for night recovery"
+    ],
+    "guidePricing": "R2 000 \u2013 R5 000 (local within 15 km); R5 000 \u2013 R12 000 (long-distance to preferred shop)",
+    "timeline": "20\u201360 min arrival; 20\u201360 min loading",
+    "aiPromptExample": "T-boned at intersection in Roodepoort. 2023 Corolla Cross, airbags deployed. Other driver's insurance covers. Want it towed to my preferred panel shop in Honeydew.",
+    "aiDiagnosisOutput": "Corolla Cross 2023 \u2014 T-bone with airbag deployment. Likely repairable, needs full strip-down. Flatbed recovery (car non-drivable). Bouul coordinates with Honeydew shop. Est. recovery R2 000\u2013R4 000 within 15 km.",
+    "escrowGuarantee": "Payment held until car delivered to specified address, offloaded, and you verify condition matches post-accident state.",
+    "pirbStandard": "SANS 10291; RMI Accident Recovery Code; SAIA recovery guidelines",
+    "articleSections": [
+      {
+        "heading": "The tow truck scam explained",
+        "body": "Towers monitor police scanners, arrive quickly, tow to their preferred shop, charge daily storage fees, refuse release. This is illegal but common. Bouul's process: you decide where the car goes before the tower arrives."
+      },
+      {
+        "heading": "Police and insurer needs",
+        "body": "SAPS must attend and issue CAS number. You need: other driver's details, their insurance policy number, photos from multiple angles, exact location and time. Bouul operator can assist with documentation."
+      },
+      {
+        "heading": "Airbag deployment handling",
+        "body": "Cars with deployed airbags must not be jump-started \u2014 system may have live pyrotechnic charges. Battery disconnected before loading. Car winched onto flatbed, not driven. Inform operator about airbag deployment."
+      },
+      {
+        "heading": "Storage and assessment",
+        "body": "Once at chosen shop, insurer assessor inspects within 1\u20133 days. Assessor authorises repair or declares write-off. Shop cannot start until assessor authorises \u2014 typically 2\u20135 days. Bouul coordinates all parties."
+      },
+      {
+        "heading": "Who pays for recovery?",
+        "body": "Other driver's fault: their insurance covers. Your fault: comprehensive covers up to policy limit (R2 000\u2013R5 000). Tell Bouul operator which insurance applies."
+      },
+      {
+        "heading": "After recovery checklist",
+        "body": "(1) Confirm car at chosen shop, get receipt. (2) Submit claim within 14 days. (3) Visit shop after assessor tear-down. (4) Authorise repair after quote and supplement approved. (5) Do not sign final release until Bouul confirms quality."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  }
+]

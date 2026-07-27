@@ -1,0 +1,278 @@
+[
+  {
+    "id": "music-piano-lessons",
+    "tag": "Piano",
+    "title": "Piano Lessons for Beginners and Intermediate Players",
+    "subtitle": "Posture, hand position, sight-reading, scales, chord progressions, and repertoire building for South African learners",
+    "image": "/scenes/edu_piano_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Most beginner piano learners in South Africa give up within the first three months due to poor foundational technique",
+    "problemBody": "Piano teachers in South Africa report that the majority of beginner students drop out before they can play their first complete piece with both hands. The reasons are consistent: inadequate hand position and posture causing physical discomfort, frustration with sight-reading, and a curriculum that prioritises theory over making music. Group lessons in under-resourced schools often leave learners with bad habits that take years to correct. Individual tuition with a qualified instructor from the beginning is the most effective path to long-term progress and enjoyment.",
+    "bouulSolution": [
+      "Weekly one-on-one lessons with a qualified piano teacher who assesses the learner's hand shape, posture, and current level before designing a personalised lesson plan",
+      "A balanced curriculum covering technique (scales, arpeggios, Hanon exercises), theory (notation, rhythm, key signatures), and repertoire (classical, jazz, and contemporary South African pieces)",
+      "Digital practice tools between lessons: metronome exercises, sight-reading apps, and recorded demonstration videos of assigned pieces"
+    ],
+    "partsNeeded": [
+      "Acoustic or digital piano with at least 61 full-size weighted keys (88 recommended for serious learners)",
+      "Adjustable piano bench or sturdy chair at correct height (elbow level with keys)",
+      "Method book matched to the learner's level (ABRSM, Trinity, or Rockschool)",
+      "Notebook for lesson notes and practice log"
+    ],
+    "guidePricing": 220,
+    "timeline": "Ongoing — foundational proficiency typically achieved in 6 to 9 months of weekly lessons",
+    "aiPromptExample": "Generate a 12-week beginner piano practice plan for an adult learner who can play C major scale hands separately but cannot coordinate hands together. Include weekly goals, 5 etudes or exercises, 3 simple pieces arranged for hands together, and a sight-reading schedule. Specify Trinity Grade 1 equivalent level.",
+    "aiDiagnosisOutput": "Initial piano assessment complete. Learner can identify all notes on the staff and play C, G, and F major scales hands separately. Cannot coordinate hands together on any piece. Timing is inconsistent — rushes through easy passages and slows down for difficult ones. Hand position: flat fingers, collapsed knuckles. Recommended: 4 weeks of hands-together exercises and rhythm training before attempting full pieces. Sight-reading at beginner level.",
+    "escrowGuarantee": "Funds released per completed lesson. If the learner does not progress at least one Trinity/ABRSM grade level within 12 months of regular lessons, 4 additional lessons are provided free.",
+    "pirbStandard": "All piano teachers hold a recognised music qualification (Unisa, Trinity, or ABRSM Grade 8 or higher) and have teaching experience. SACE registration where applicable for school-based learners.",
+    "articleSections": [
+      {
+        "heading": "Why Proper Piano Technique Matters from Day One",
+        "body": "Correct hand position, posture, and finger technique are not optional extras in piano playing — they are the foundation for everything that follows. A curved hand shape with firm fingertips, relaxed shoulders, and a straight back allows for speed, control, and expression. Bad habits acquired in the first months (flat fingers, tension in the wrists, incorrect sitting height) can take years to correct and may lead to repetitive strain injuries. Our teachers prioritise correct technique from the very first session, ensuring that every piece the learner plays builds good habits rather than reinforcing bad ones."
+      },
+      {
+        "heading": "Sight-Reading — The Skill That Unlocks Independence",
+        "body": "Many piano learners become dependent on their teacher because they cannot read music fluently enough to learn new pieces independently. Our programme integrates sight-reading practice into every lesson: 5 minutes at the beginning of each session with a new piece the learner has never seen. The focus is on pattern recognition (intervals, chord shapes, rhythmic patterns) rather than reading individual notes. Learners who develop strong sight-reading skills progress 2-3 times faster than those who rely on memorisation alone."
+      },
+      {
+        "heading": "Building a Repertoire Across Styles",
+        "body": "A well-rounded pianist should be able to play music from multiple traditions. Our teachers draw from a broad repertoire: classical (Bach, Mozart, Chopin, contemporary South African classical), jazz (blues scales, improvisation, lead sheet reading), and South African popular music (maskandi-influenced pieces, jazz standards, and gospel). This stylistic variety keeps lessons engaging and develops versatile musicianship. Learners are encouraged to bring pieces they love to learn, which dramatically increases practice motivation."
+      },
+      {
+        "heading": "Practice Between Lessons — Making Every Minute Count",
+        "body": "The quality of practice between lessons determines progress more than the lesson itself. Our teachers provide a structured practice plan each week: warm-up (5 min), technique (10 min), repertoire (15 min), sight-reading (5 min), and fun piece (5 min). The plan includes specific goals for each section (correct tempo, hands together, dynamic contrast) rather than vague instructions to 'practise the piece'. Parents of younger learners receive a practice supervision guide with tips for supporting productive practice."
+      }
+    ]
+  },
+  {
+    "id": "music-guitar-lessons",
+    "tag": "Guitar",
+    "title": "Guitar Lessons — Acoustic, Electric, and Classical Styles",
+    "subtitle": "Chords, strumming patterns, fingerpicking, music reading, improvisation, and South African guitar traditions",
+    "image": "/scenes/edu_guitar_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Self-taught guitar learners in South Africa often develop habits that limit their musical ceiling",
+    "problemBody": "The guitar is one of South Africa's most popular instruments, but the vast majority of learners are self-taught or learn from friends and online videos. While this approach can produce functional players, it often leads to technical limitations: poor fretting hand position that prevents barre chords, inconsistent rhythm and strumming, and no knowledge of music theory. Learners who hit the 'intermediate plateau' discover that their self-taught techniques cannot support the next level of playing. Formal lessons at any stage can systematically address these gaps and unlock the learner's full potential.",
+    "bouulSolution": [
+      "Personalised guitar lessons tailored to the learner's musical interests (rock, jazz, classical, African guitar, worship, or singer-songwriter)",
+      "Structured progression through essential guitar skills: open and barre chords, strumming patterns, fingerpicking, scales, improvisation, and theory",
+      "Recording and playback of each lesson so learners can review techniques and exercises between sessions"
+    ],
+    "partsNeeded": [
+      "An acoustic, electric, or classical guitar in good playing condition (correct action height)",
+      "A tuner (clip-on or app), spare strings, and a guitar pick (medium gauge for beginners)",
+      "A music stand and notebook for lesson notes",
+      "Amplifier for electric guitar learners"
+    ],
+    "guidePricing": 195,
+    "timeline": "Ongoing — basic chord fluency in 2-3 months, intermediate proficiency in 6-12 months",
+    "aiPromptExample": "Create an 8-week beginner guitar programme for an adult learner who knows no chords. Cover: open chords (G, C, D, Em, Am), basic strumming patterns, chord changes, 3 complete songs, and introduction to music reading. Include weekly practice targets and a simple assessment rubric.",
+    "aiDiagnosisOutput": "Guitar assessment complete. Learner has been playing for 2 years self-taught. Can play open chords and simple songs but: barre chords impossible (thumb position too high), strumming is all down-strokes, no knowledge of scales or improvisation, cannot read tablature or standard notation. Fretting hand tension causing wrist fatigue. Recommendations: 4 sessions on technique correction, 4 sessions on rhythm and strumming, 4 sessions on basic theory and scales.",
+    "escrowGuarantee": "Per-session release. If the learner has not progressed at least one level on the Rockschool guitar syllabus within 12 months, 4 additional lessons are provided free.",
+    "pirbStandard": "Guitar teachers hold recognised music qualifications (Unisa, Rockschool, Trinity) or equivalent professional experience. SACE registration where applicable.",
+    "articleSections": [
+      {
+        "heading": "Correcting Common Self-Taught Guitar Habits",
+        "body": "Self-taught guitarists typically develop three limiting habits: a collapsed fretting hand wrist that prevents barre chords, a strumming hand that only moves from the elbow rather than the wrist, and a tendency to rush chord changes rather than playing in time. Our teachers correct these habits systematically, using targeted exercises that rebuild technique without demotivating the learner. Within 4-6 sessions, most learners find that previously impossible barre chords and strumming patterns become accessible."
+      },
+      {
+        "heading": "The South African Guitar Tradition",
+        "body": "South Africa has a rich and distinctive guitar tradition spanning maskandi guitar (the fingerpicking style developed by Phuzushukela and continued by artists like Shwi noMtekhala), South African jazz guitar (from the Cape Town tradition), mbaqanga rhythm guitar, and contemporary gospel and worship guitar. Our programme can focus on any of these traditions, ensuring that lessons are culturally relevant and musically inspiring. Learners who study South African guitar styles develop a unique musical voice rooted in their heritage."
+      },
+      {
+        "heading": "From Chord Player to Musician",
+        "body": "Most guitar learners can play chords but cannot improvise a solo, write a song, or play by ear. Our programme bridges this gap by teaching the pentatonic and blues scales, basic improvisation over chord progressions, ear training (identifying chord types and intervals by sound), and songwriting fundamentals. Learners who complete the full programme emerge not just as chord players but as musicians who can create, adapt, and respond musically."
+      },
+      {
+        "heading": "Practice Strategies That Build Progress",
+        "body": "Effective guitar practice is structured, focused, and progressive. Our teachers design a weekly practice plan with specific, measurable targets: perfect a chord change 10 times at 60 BPM, learn the A minor pentatonic scale shape in 5 positions, record yourself playing the verse of a song at 80 BPM. Each practice session has a warm-up, a technique focus, a repertoire segment, and a creative segment. This structure ensures that every practice minute contributes to visible progress."
+      }
+    ]
+  },
+  {
+    "id": "music-violin-lessons",
+    "tag": "Violin",
+    "title": "Violin Lessons — Classical, Folk, and Contemporary Styles",
+    "subtitle": "Bow technique, intonation, shifting, vibrato, sight-reading, and ensemble preparation for violin learners of all levels",
+    "image": "/scenes/edu_violin_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "The violin has the steepest initial learning curve of any orchestral instrument, requiring expert guidance from lesson one",
+    "problemBody": "Unlike piano or guitar, where a beginner can produce a pleasing sound almost immediately, the violin requires months to develop a basic tone. The combination of bow control (pressure, speed, contact point, and tilt) and left-hand accuracy (intonation, finger placement) creates a uniquely challenging learning experience. Learners who attempt to teach themselves or learn in large group classes often develop poor intonation habits and bowing technique that become increasingly difficult to correct. Expert individual tuition from the outset is essential for violin progress and injury prevention.",
+    "bouulSolution": [
+      "Weekly individual lessons with a qualified violin teacher who assesses bow hold, left-hand position, and posture in every session",
+      "A graded repertoire progression through the Unisa, Trinity, or ABRSM examination system with regular mock exams",
+      "Video recordings of the learner's playing with annotated feedback on bow distribution, intonation, and musical expression"
+    ],
+    "partsNeeded": [
+      "A correctly sized violin (full size, 3/4, 1/2, 1/4, or 1/8 depending on arm length)",
+      "A good-quality bow with horsehair in good condition, rosin, and a shoulder rest",
+      "A tuner and chromatic tuner app for practice between lessons",
+      "Method book (Suzuki, Essential Elements, or Abracadabra) as recommended by the teacher"
+    ],
+    "guidePricing": 235,
+    "timeline": "Ongoing — Grade 1 typically achieved in 12-18 months with consistent weekly lessons",
+    "aiPromptExample": "Generate a 12-week violin practice plan for a Grade 2 learner preparing for the Unisa practical exam. Include scale requirements (G, D, A major 2 octaves), studies, 3 contrasting pieces, sight-reading exercises, and aural training activities. Provide specific tempo markings and practice strategies.",
+    "aiDiagnosisOutput": "Violin assessment complete. Learner has played for 8 months. Bow hold: thumb too rigid, not bent. Tone production: bowing near fingerboard produces airy sound. Intonation: third finger consistently flat across all strings. Shifting: not attempted. Can play D major scale one octave at 60 BPM with 4 errors per octave. Recommended: 6 weeks of open-string bowing exercises, corrected bow hold, and interval-based intonation drills.",
+    "escrowGuarantee": "Per-lesson escrow release. If the learner has not passed at least one Unisa/Trinity/ABRSM grade examination within 18 months of starting lessons, 6 additional lessons are free.",
+    "pirbStandard": "All violin teachers hold a minimum of Unisa, Trinity, or ABRSM Grade 8 violin and have pedagogical training. SACE registration where applicable.",
+    "articleSections": [
+      {
+        "heading": "The First Six Months of Violin — What to Expect",
+        "body": "The first six months of violin lessons focus exclusively on foundational technique: correct bow hold (the thumb must be bent and flexible), straight bowing (the bow moves parallel to the bridge at all times), relaxed left-hand position, and basic intonation on the first finger pattern. The learner will not sound 'good' during this period — and that is normal and expected. Progress is measured by the quality of the technique rather than the beauty of the sound. Learners who persist through this foundational phase emerge with a technique that will support them through years of progress."
+      },
+      {
+        "heading": "Intonation — The Violinist's Lifelong Pursuit",
+        "body": "Intonation is the most important and most challenging skill in violin playing. Unlike fretted instruments, the violin has no visual markers for finger placement — everything depends on muscle memory and ear training. Our teachers use a combination of methods: finger tapes for beginners (removed within 3-6 months), interval-based ear training (learn to hear a perfect fifth before placing the fourth finger), and slow practice with a drone note. The goal is to develop an internalised sense of pitch that allows the learner to correct intonation automatically."
+      },
+      {
+        "heading": "Bowing Technique — The Source of Expression",
+        "body": "The bow is the source of every expressive element in violin playing: volume (pressure and speed), tone colour (contact point and bow speed), articulation (detache, legato, staccato, spiccato), and phrasing (bow distribution). Our programme develops bow control systematically through open-string exercises, scale bowing variations, and etudes. Each new piece is analysed for its bowing requirements before notes are learned."
+      },
+      {
+        "heading": "Preparing for Examinations and Performances",
+        "body": "Formal violin examinations (Unisa, Trinity, ABRSM) provide structured goals and external validation of progress. Our programme prepares learners thoroughly: technical work (scales and arpeggios from memory), studies (2-3 per grade), repertoire (3 contrasting pieces), sight-reading (unseen pieces at one grade below), and aural tests (interval recognition, cadence identification, and memory recall). Mock examinations are held every 6 months to build confidence."
+      }
+    ]
+  },
+  {
+    "id": "music-voice-lessons",
+    "tag": "Voice",
+    "title": "Voice Lessons — Singing Technique, Performance, and Vocal Health",
+    "subtitle": "Breath support, vocal range, resonance, diction, repertoire building, and performance confidence for singers of all levels",
+    "image": "/scenes/edu_voice_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Without proper technique, enthusiastic singers damage their voices within the first year",
+    "problemBody": "Singing is South Africa's most popular musical activity, from school choirs and church worship teams to professional gigs and recording studios. Yet most singers receive no formal vocal training. They sing from the throat rather than the diaphragm, strain for high notes, and have no warm-up or cool-down routine. Vocal nodules, hoarseness, and chronic throat tension are common among untrained singers. Formal voice lessons are not just about becoming a better singer — they are essential for vocal health and longevity.",
+    "bouulSolution": [
+      "Weekly one-on-one voice lessons with a qualified vocal coach trained in healthy singing technique across multiple genres",
+      "A structured vocal development programme covering breath support, resonance, range extension, diction, and expressive interpretation",
+      "Recorded lesson summaries with warm-up exercises the learner can use between sessions to build consistency"
+    ],
+    "partsNeeded": [
+      "A quiet practice space with good acoustics",
+      "A water bottle (hydration is essential for vocal health)",
+      "A recording device (smartphone is sufficient) for practice review",
+      "Sheet music or lyric sheets for the learner's chosen repertoire"
+    ],
+    "guidePricing": 210,
+    "timeline": "Ongoing — foundational technique typically established in 3-6 months",
+    "aiPromptExample": "Create a 30-minute vocal warm-up routine suitable for a beginner-intermediate singer. Include: 5 minutes of breathing exercises, 10 minutes of vocalise exercises (lip trills, sirens, scales), 10 minutes of range-building exercises, and 5 minutes of cool-down. Provide notation for each exercise and common errors to avoid.",
+    "aiDiagnosisOutput": "Vocal assessment complete. Range: A2-D5 (comfortable), F5 with strain. Breath support: clavicular breathing (shallow). Resonance: nasality present, limited chest resonance. Diction: vowel modification inconsistent, consonants unclear on high notes. Repertoire: no structured repertoire. Vocal health: reports occasional hoarseness after practice. Recommended: 4 sessions on breath support, 4 sessions on resonance and placement, 4 sessions on repertoire building.",
+    "escrowGuarantee": "Per-session release. If the learner has not expanded their comfortable range by at least a third (3 semitones) within 12 sessions, the remaining sessions are free.",
+    "pirbStandard": "Vocal coaches hold music degrees or recognised voice teaching qualifications. SACE registration where applicable for school-based learners.",
+    "articleSections": [
+      {
+        "heading": "The Anatomy of Healthy Singing",
+        "body": "Healthy singing begins with the breath. The diaphragm, not the throat, should power the voice. Our teachers assess the learner's breathing pattern in the first session and teach diaphragmatic breathing through specific exercises: lying-down breathing, the 'hiss' exercise, and appoggio (the controlled breath technique used by opera singers). Once breath support is established, resonance is developed through exercises that engage the chest, mouth, and nasal cavities as resonating chambers."
+      },
+      {
+        "heading": "Vocal Range — Expansion Without Strain",
+        "body": "Every singer has a natural comfortable range that can be expanded with correct technique. Our programme extends range systematically through sirening exercises (gliding from low to high), scale patterns that gradually increase in tessitura, and vowel modification (adjusting vowel shapes to maintain resonance in the upper register). Learners are taught to recognise the difference between a healthy stretch and harmful strain, developing the self-awareness to practice safely."
+      },
+      {
+        "heading": "Singing in South African Styles",
+        "body": "South Africa has a rich vocal tradition spanning gospel, maskandi, jazz, choral, and contemporary pop. Our voice programme can focus on any of these styles, with repertoire choices that reflect the learner's musical background and goals. Gospel singing requires particular attention to stylistic elements (melismatic runs, call-and-response, emotional delivery) that differ from classical technique. Our teachers are experienced across multiple genres and adapt their approach accordingly."
+      },
+      {
+        "heading": "Performance Skills and Stage Confidence",
+        "body": "Singing is a performance art, and technical skill alone is insufficient for a compelling performance. Our programme includes stagecraft training: microphone technique, stage presence, connecting with an audience, managing performance anxiety through breathing and mental preparation, and handling mistakes during a performance. Regular performance opportunities (recitals, open mic nights, recording projects) are encouraged and supported."
+      }
+    ]
+  },
+  {
+    "id": "music-drums-lessons",
+    "tag": "Drums",
+    "title": "Drum Lessons — Rhythm, Technique, and Musicality",
+    "subtitle": "Grip and stroke technique, rudiments, reading drum notation, coordination, groove development, and stylistic versatility",
+    "image": "/scenes/edu_drums_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Drumming without proper technique leads to chronic injury within two years of regular playing",
+    "bouulSolution": [
+      "Weekly drum lessons covering technique (matched and traditional grip, Moeller technique, foot technique), rudiments (PAS 40 essential rudiments), and groove development",
+      "Structured progression through the Rockschool or Trinity drum syllabus with regular assessments",
+      "Play-along tracks and recording facilities during lessons for ensemble practice and performance feedback"
+    ],
+    "partsNeeded": [
+      "Drum kit (acoustic or electronic with mesh heads and a kick drum pedal) in good condition",
+      "Drum sticks (5A or 5B, depending on hand size), practice pad, and metronome",
+      "Ear protection (musician's earplugs recommended for acoustic kits)",
+      "Adjustable drum throne at the correct height (hips slightly above knees)"
+    ],
+    "guidePricing": 215,
+    "timeline": "Ongoing — basic coordination and 5-10 grooves typically achieved in 4-6 months",
+    "aiPromptExample": "Create a 12-week beginner drum programme covering: matched grip, single stroke roll, double stroke roll, paradiddle, basic rock beat, basic funk beat, eighth-note hi-hat patterns, and the first 5 PAS rudiments. Include weekly practice targets and a simple coordination milestone checklist.",
+    "aiDiagnosisOutput": "Drum assessment complete. Learner plays self-taught for 1 year. Grip: matched but right hand uses fulcrum incorrectly (pinch grip). Rudiments: single stroke at 80 BPM (inconsistent), double stroke does not rebound. Coordination: right hand leads, left hand and feet cannot maintain independence. Timing: rushes through fills, settles back on groove. Recommended: 4 sessions on grip and rudimentary technique, 4 sessions on limb independence, 4 sessions on groove and timekeeping.",
+    "escrowGuarantee": "Per-session release. If the learner cannot play 5 consistent grooves at 100 BPM after 12 sessions, the remaining sessions are free.",
+    "pirbStandard": "Drum teachers hold recognised qualifications (Rockschool, Trinity, or equivalent) with experience in performance and teaching. SACE registration where applicable.",
+    "articleSections": [
+      {
+        "heading": "Grip and Stroke Technique — Playing Without Pain",
+        "body": "The foundation of all drumming is the grip and stroke. Our teachers assess and correct the learner's grip in the first session: matched grip (both hands identical, palm-down) for most contemporary styles, or traditional grip for jazz and orchestral settings. The Moeller stroke technique — using the natural whip-like motion of the arm — is taught to maximise power while minimising effort and strain. With correct technique, a drummer can play for hours without fatigue or injury."
+      },
+      {
+        "heading": "Rudiments — The Vocabulary of Drumming",
+        "body": "The 40 PAS (Percussive Arts Society) International Drum Rudiments are the vocabulary of drumming — the patterns from which all drumming vocabulary is built. Our programme introduces the essential rudiments progressively: single stroke roll, double stroke roll, paradiddle, flam, and drag, before moving to more complex patterns. Rudiments are practised on the practice pad between lessons and applied to the kit during lessons by orchestrating them around the drums."
+      },
+      {
+        "heading": "Groove and Timekeeping",
+        "body": "The primary role of the drummer in any ensemble is to keep time. Our programme develops rock-solid timekeeping through metronome practice (start slow, increase incrementally), played-along with recordings, and groove analysis of professional drummers. Learners develop a vocabulary of grooves across rock, funk, jazz, Afrobeat, and South African styles (mbaqanga, marabi, and gqom patterns). The ability to play a pocket groove with consistent time and appropriate dynamics is the hallmark of a skilled drummer."
+      },
+      {
+        "heading": "Playing in Ensemble",
+        "body": "Drumming is an ensemble activity, and playing alone in a practice room is very different from playing with other musicians. Our programme prepares learners for ensemble playing through: listening to other musicians while maintaining the groove, dynamic balancing (playing quieter during verses, building intensity during choruses), cueing other musicians, and following a bandleader. Learners are encouraged to participate in school bands, church worship teams, or community ensembles."
+      }
+    ],
+    "problemBody": "The drum kit is physically demanding — the upper body, legs, and core are all engaged simultaneously. Self-taught drummers commonly develop gripping techniques that cause wrist strain, sitting positions that create back problems, and foot techniques that limit speed and control. Beyond the physical risks, untrained drummers often struggle with timing consistency, dynamic control, and the ability to play in ensemble settings. Formal drum lessons address all of these issues systematically, building a foundation for a lifetime of healthy and musical drumming."
+  },
+  {
+    "id": "music-theory-lessons",
+    "tag": "Music Theory",
+    "title": "Music Theory — Notation, Harmony, and Analysis",
+    "subtitle": "Staff notation, intervals, scales, chords, harmony, form, and exam preparation for Unisa, Trinity, and ABRSM theory",
+    "image": "/scenes/edu_theory_tutoring.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Most instrumental learners never study music theory, limiting their musicianship and examination progress",
+    "problemBody": "For learners preparing for formal music examinations (Unisa, Trinity, ABRSM), theory is not optional — it is a prerequisite. These examining bodies require candidates to pass theory examinations before they can qualify for higher-grade practical certificates. Beyond examination requirements, music theory unlocks musical understanding: the ability to read music fluently, understand chord progressions, transpose music for different instruments, compose original works, and analyse the structure of pieces. Learners who study theory alongside their practical instrument progress significantly faster.",
+    "bouulSolution": [
+      "Weekly theory lessons that parallel the learner's practical instrument level, covering the specific theory requirements for their next examination",
+      "Interactive theory exercises using notation software and online platforms that provide immediate feedback on exercises",
+      "Exam-focused preparation with past Theory of Music papers from Unisa, Trinity, and ABRSM"
+    ],
+    "partsNeeded": [
+      "A music manuscript notebook (staff paper) for written exercises",
+      "A piano or keyboard for practical harmony exercises (even a small keyboard is sufficient)",
+      "The relevant examination board's theory syllabus and recommended workbook",
+      "Pencils, eraser, and ruler (theory papers must be written in pencil)"
+    ],
+    "guidePricing": 180,
+    "timeline": "2-3 months per theory grade with weekly lessons",
+    "aiPromptExample": "Generate a Grade 5 ABRSM music theory practice test covering: rhythm notation in simple and compound time, key signatures up to 6 sharps/flats, intervals, chords and inversions, transposition, and general knowledge. Provide a full answer key with explanations.",
+    "aiDiagnosisOutput": "Theory assessment complete. Learner plays piano at Grade 3 level but has not studied theory formally. Can identify notes on treble and bass clefs but: cannot identify time signatures (3/4 vs 6/8 confused), cannot write key signatures, intervals limited to major/minor only, cadences unfamiliar. Score on Grade 1 sample paper: 52%. Recommended: start at Grade 1 theory with accelerated pace through early topics.",
+    "escrowGuarantee": "Per-session release. If the learner does not pass their theory examination after completing the relevant theory grade programme, full programme cost is refunded.",
+    "pirbStandard": "Theory teachers hold advanced music qualifications (Unisa Licentiate or higher, or equivalent) with proven success in examination preparation.",
+    "articleSections": [
+      {
+        "heading": "Why Music Theory Matters for Every Musician",
+        "body": "Music theory is often perceived as dry and disconnected from the joy of playing an instrument. In reality, theory is the grammar of the musical language — it explains why certain notes sound good together, how composers create tension and release, and how pieces are structured. Learners who understand theory learn new pieces faster (because they recognise patterns rather than reading each note individually), memorise more effectively (because they understand the harmonic structure), and communicate more precisely with other musicians."
+      },
+      {
+        "heading": "The Examination System — What Each Grade Covers",
+        "body": "Unisa, Trinity, and ABRSM each offer graded theory examinations from Grade 1 through Grade 8. Grade 1 covers basic notation, time signatures, scales, and intervals. Grades 2-3 add compound time, key signatures, tonic triads, and transposition. Grades 4-5 introduce alto and tenor clefs, more complex intervals, chord inversions, and cadences. Grades 6-8 cover figured bass, composition, harmonic analysis, and orchestration. Our programme progresses through these levels systematically, with each lesson building on the previous one."
+      },
+      {
+        "heading": "Harmony and Analysis — The Gateway to Advanced Music",
+        "body": "From Grade 5 upward, theory examinations require candidates to analyse harmonic progressions, identify cadences, and complete short compositions. Our programme develops these skills through practical exercises at the keyboard: playing chord progressions, identifying cadences by ear, and harmonising melodies. This practical approach makes abstract harmonic concepts tangible and directly applicable to the learner's instrument."
+      },
+      {
+        "heading": "Integrating Theory with Practical Study",
+        "body": "The most effective theory learning happens in parallel with practical study. When a learner encounters a new scale in their piano lesson, they learn its theory at the same time. When they analyse a piece's structure in theory class, they identify that structure in their current repertoire. Our teachers coordinate with the learner's practical teacher (where applicable) to ensure that theory and practical study reinforce each other, creating a virtuous cycle of musical growth."
+      }
+    ]
+  }
+]

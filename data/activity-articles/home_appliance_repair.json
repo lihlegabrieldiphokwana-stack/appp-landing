@@ -1,0 +1,307 @@
+[
+  {
+    "id": "appliance_washing_machine",
+    "tag": "Appliance Repair",
+    "title": "Washing Machine Repair: When Your Laundry Routine Breaks Down",
+    "subtitle": "From a machine that won't spin to one that floods the kitchen — washing machine problems are some of the most stressful household breakdowns. Here is what goes wrong, how it gets fixed, and what you should pay.",
+    "image": "/scenes/washing_machine_repair.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You load the washing, close the door, press start — and nothing happens. Or it fills with water, then sits there. Or it shakes violently during the spin cycle, sounding like a jet engine in your laundry room.",
+    "problemBody": "Washing machines have a hard life in South Africa. Voltage fluctuations during load-shedding damage control boards. Hard water builds up scale in the heating element and drum bearings. Overloading strains the suspension springs and shock absorbers. Drain pumps clog with coins, buttons, and the occasional sock that escaped the drum.",
+    "bouulSolution": [
+      "Bouul's appliance technicians start with a systematic diagnostic — checking the door lock switch, control board error codes, drain pump resistance, and drive belt tension before quoting any repairs.",
+      "We carry common spares for the top brands sold in SA (Defy, Samsung, LG, Bosch, Speed Queen) so most repairs are completed in one visit. For less common models, we pre-order the verified part before scheduling.",
+      "All washing machine repairs include a 90-day parts-and-labour guarantee held in Bouul escrow. If the same fault recurs within 90 days, the repair is free."
+    ],
+    "partsNeeded": [
+      "Drive belt (if the drum won't turn but the motor runs)",
+      "Drain pump (if water won't drain)",
+      "Door lock / interlock switch (if the machine won't start)",
+      "Drum bearing and seal kit (if the machine is noisy during spin)"
+    ],
+    "guidePricing": "R350 – R850 (door lock switch) | R500 – R1 200 (drain pump) | R800 – R1 800 (drive belt and tensioner) | R1 500 – R3 500 (drum bearing replacement)",
+    "timeline": "1 – 3 hours depending on the fault and access to the component",
+    "aiPromptExample": "My Defy front-loader fills with water but the drum doesn't turn. I can hear a humming sound. The machine is not draining. What diagnostic steps can I do before calling a technician?",
+    "aiDiagnosisOutput": "The drive motor is likely seized or the capacitor has failed. First, check the drive belt by removing the rear panel — if the belt is intact and the motor pulley spins freely, the issue is electrical. Measure the motor's run capacitor (typically 8–15 µF); replace if below 70% of rated value. Also check the drain pump for obstruction — a blocked pump can prevent the machine from advancing to the wash cycle.",
+    "escrowGuarantee": "90-day parts-and-labour guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10142-1 (wiring of premises) applies to the electrical supply circuit. Repairs must be performed by a qualified appliance technician. Water connections must comply with the South African National Plumbing Standard SANS 10252.",
+    "articleSections": [
+      {
+        "heading": "The Most Common Washing Machine Faults in SA",
+        "body": "Door lock failure: the interlock switch that detects whether the door is properly closed is the single most common failure point. It costs R350–R500 to replace. Drain pump blockage: coins, bra wires, and small items bypass the outer drum and lodge in the pump impeller. Clearing it costs R500–R700. Drive belt failure: the belt that connects the motor to the drum stretches or snaps after years of use. Replacement runs R800–R1 200."
+      },
+      {
+        "heading": "Load-Shedding Damage",
+        "body": "SA's frequent power interruptions are brutal on electronic control boards. When power returns after load-shedding, the sudden surge can fry the main PCB. Symptoms: the machine shows no signs of life, or it displays random error codes. A replacement control board costs R1 200–R2 800 depending on the brand. Bouul recommends plugging your washing machine into a surge protector at all times."
+      },
+      {
+        "heading": "Noise and Vibration: When to Worry",
+        "body": "All washing machines vibrate, but excessive noise points to bearing failure (a deep rumbling during spin) or worn shock absorbers (the machine walks across the room). Bearing replacement is a major job — the outer drum must be split, which takes 2–3 hours and costs R1 500–R3 500. For machines older than 8 years, it is often more economical to replace the machine entirely."
+      },
+      {
+        "heading": "Water Not Heating",
+        "body": "If the wash comes out cold on a warm setting, the heating element has likely failed or the thermostat is stuck. Scale build-up from hard water is the primary cause — the element becomes encased in calcium deposits, overheats, and burns out. Replacing the element costs R600–R1 200. Installing a water softener or using descaling detergent monthly can prevent recurrence."
+      },
+      {
+        "heading": "What You Should Pay in Total",
+        "body": "Labour: R400–R800 per hour (most repairs take 1–2 hours). Call-out fee: R250–R500 (waived if the repair proceeds). Parts: vary widely but Bouul provides an itemised quote before any work begins. Total typical repair: R600 – R3 500. Bouul's fixed-price quotes mean no surprises."
+      }
+    ]
+  },
+  {
+    "id": "appliance_fridge_repair",
+    "tag": "Appliance Repair",
+    "title": "Fridge Repair: When Your Food Starts Spoiling",
+    "subtitle": "A fridge that isn't cooling properly is a race against time — every hour of lost cooling costs you groceries. Here is how to diagnose the problem and what professional repair entails.",
+    "image": "/scenes/fridge_repair.png",
+    "readTime": "8 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You open the fridge and notice the milk isn't as cold as it should be. The freezer section feels warmer than usual. Ice cream is soft. You dread opening the vegetable drawer.",
+    "problemBody": "Fridge cooling failures fall into three categories: the compressor has stopped running, the refrigerant has leaked out, or the airflow inside the cabinet is blocked. In South Africa, many fridges also suffer from failed inverter boards — a common weak point on modern inverter-driven models from Samsung and LG.",
+    "bouulSolution": [
+      "Bouul's fridge technicians check the compressor relay and overload protector first — these fail frequently and cost R150–R350 to replace. If the compressor runs but doesn't cool, we check the gas pressure and look for leaks with an electronic detector.",
+      "For inverter fridges, we test the inverter PCB with a multimeter before condemning the compressor. Many inverter failures are actually failed capacitors on the PCB that cost R200–R500 to repair.",
+      "All fridge repairs include a 90-day cooling guarantee held in Bouul escrow. If the temperature drifts above 8°C within 90 days, we return at no charge."
+    ],
+    "partsNeeded": [
+      "Compressor start relay and overload protector kit",
+      "Evaporator fan motor (if the fridge is cold but the fresh food section is warm)",
+      "Inverter control board PCB (for inverter-driven compressors)",
+      "Thermostat / temperature sensor kit"
+    ],
+    "guidePricing": "R350 – R800 (compressor relay and overload) | R1 200 – R2 500 (evaporator fan motor) | R1 500 – R3 500 (inverter board) | R2 000 – R4 500 (compressor replacement, including gas recharge)",
+    "timeline": "1 – 3 hours for most repairs; compressor replacement requires 3–5 hours and gas recovery",
+    "aiPromptExample": "My Samsung fridge is 6 years old. The freezer is at -5°C but the fridge section is at 16°C. The compressor runs continuously. The evaporator fan seems to be running. What should I check?",
+    "aiDiagnosisOutput": "The freezer is cold but the fridge section is warm — this suggests the damper/flap that controls cold air flow to the fridge is stuck closed, or the fridge temperature sensor has failed. Check the temperature sensor resistance at the control board connector (should be 10–15 kΩ at 25°C). Also verify the damper motor operates when the board commands it open. If both check out, the main PCB may have a faulty fridge-call relay.",
+    "escrowGuarantee": "90-day cooling guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10147 (refrigerating systems). Refrigerant handling requires a registered refrigeration mechanic (SAQCC Gas). Electrical repairs must comply with SANS 10142-1.",
+    "articleSections": [
+      {
+        "heading": "Compressor Relay: The First Thing to Check",
+        "body": "The compressor start relay is a small component attached to the compressor body. It provides the initial jolt of current to start the motor. When it fails (often after a voltage spike), the compressor never starts and the fridge is silent. A new relay costs R80–R150 and takes 15 minutes to fit. Bouul technicians always test the relay before moving on to bigger diagnostics."
+      },
+      {
+        "heading": "Inverter Fridge Weak Points",
+        "body": "Samsung and LG inverter fridges have become popular in SA, but their inverter PCBs are a known weak point. The board's power supply section — particularly the bridge rectifier and DC bus capacitors — fails under SA's fluctuating mains voltage. Symptoms: the compressor runs intermittently, or runs at full speed all the time, or doesn't run at all. Replacement boards cost R1 500–R3 000. Bouul can repair many inverter boards for R500–R800 by replacing the failed components."
+      },
+      {
+        "heading": "Gas Leaks in the Refrigeration Circuit",
+        "body": "Modern fridges use a sealed refrigeration system running R600a isobutane or R134a refrigerant. Leaks usually occur at the compressor service ports, the evaporator joints, or — in some brands — hairline cracks in the aluminium evaporator itself. A recharge requires recovering the remaining gas, brazing the leak, vacuuming to 100 microns, and weighing in the exact charge. This procedure costs R1 500–R3 500."
+      },
+      {
+        "heading": "When a New Fridge Makes More Sense",
+        "body": "If your fridge is older than 12 years and the compressor has failed, replacement is almost always the better option. Modern inverter fridges use 40–60% less electricity than a 12-year-old direct-drive fridge. Bouul's technicians will give you an honest comparison: the cost of repair today vs the cost of a new A-rated fridge over 3 years of electricity savings."
+      },
+      {
+        "heading": "Maintenance That Prevents Breakdowns",
+        "body": "Clean the condenser coils at the back or bottom of the fridge twice a year — dust build-up forces the compressor to work harder and shortens its life. Keep the door seals clean and check they seal properly by closing a sheet of paper in the door — if it slides out easily, the seal needs replacing. Allow hot food to cool before putting it in the fridge to avoid overworking the compressor."
+      }
+    ]
+  },
+  {
+    "id": "appliance_oven_repair",
+    "tag": "Appliance Repair",
+    "title": "Oven Repair: When Your Sunday Roast Won't Bake",
+    "subtitle": "An oven that doesn't heat properly can ruin a meal and a weekend. From a dead heating element to a faulty thermostat or gas burner, here is what goes wrong and how to get it fixed.",
+    "image": "/scenes/oven_repair.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You preheat the oven for 20 minutes, put the roast in, and an hour later the meat is still pink in the middle. The oven doesn't feel hot enough. Or it overheats and burns everything on the top shelf.",
+    "problemBody": "Oven heating problems are usually caused by a failed heating element (electric ovens), a faulty thermostat sensor that gives the wrong temperature reading, or a stuck gas safety valve (gas ovens). In many SA homes, the issue is also a timer module that has failed 'on' — the element stays powered indefinitely and overheats.",
+    "bouulSolution": [
+      "Bouul's oven technicians use a thermocouple temperature probe to verify the real oven temperature against the dial setting before diagnosing — this catches calibration drift vs element failure.",
+      "We carry standard oven elements (top, bottom, and fan/grill) for Defy, KIC, Samsung, Bosch, and Smeg, so most replacements are same-visit. Gas oven repairs require a registered gas installer per SA law.",
+      "All oven repairs include a 90-day temperature accuracy guarantee held in Bouul escrow. If your oven is not within 10°C of the set temperature within 90 days, we recalibrate at no charge."
+    ],
+    "partsNeeded": [
+      "Heating element (top, bottom, or fan-assisted, matched to brand and wattage)",
+      "Oven thermostat sensor probe",
+      "Timer module / selector switch assembly",
+      "Gas oven thermocouple and gas valve (if the oven won't stay lit)"
+    ],
+    "guidePricing": "R500 – R1 200 (heating element replacement) | R600 – R1 500 (thermostat sensor) | R800 – R2 000 (timer module) | R1 000 – R2 500 (gas oven thermocouple and valve service)",
+    "timeline": "1 – 2 hours for element or sensor replacement; 2 – 3 hours for timer module or gas repairs",
+    "aiPromptExample": "My Defy oven takes 45 minutes to reach 180°C when it used to take 15 minutes. Once it gets there, the temperature seems inconsistent — some parts of the tray burn, others are undercooked. What components are most likely failing?",
+    "aiDiagnosisOutput": "Gradual loss of heat with uneven cooking suggests the oven thermostat probe has drifted in calibration. The probe is a thermistor whose resistance changes with temperature — over years of thermal cycling, its characteristic curve shifts. Place an oven thermometer on the middle rack, set to 180°C, and compare after 20 minutes. If the real temperature is below 150°C, replace the probe (R300–R600 part). Also check the fan element's continuity — a failed fan element on Defy multi-function ovens causes slow preheat with correct final temperature.",
+    "escrowGuarantee": "90-day temperature accuracy guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10106 applies. Electric oven repairs must comply with SANS 10142-1. Gas oven work requires a registered gas installer per the South African Gas Regulations of 2021 (SAQCC Gas registration). Bouul only uses registered gas practitioners for gas appliance work.",
+    "articleSections": [
+      {
+        "heading": "Electric Oven: Element vs Thermostat",
+        "body": "If the oven doesn't heat at all, check the heating element for visible damage — a blown element usually shows a visible break or blister in the metal sheath. If only part of the element glows, it is failing and should be replaced. If the element glows red but the oven temperature is wrong, the thermostat sensor is the likely culprit. A simple multimeter check of the sensor's resistance at room temperature — typically 1 000–1 200 Ω — will confirm."
+      },
+      {
+        "heading": "The 'Fan Oven' Quirk",
+        "body": "Fan-assisted ovens circulate hot air, so they preheat faster and cook more evenly. But if the fan element fails while the top and bottom elements still work, the oven will heat slower and may cook unevenly. The fan element is less visible — it sits behind the rear panel. Bouul checks fan element continuity as standard on any fan oven repair."
+      },
+      {
+        "heading": "Gas Oven Safety: Why the Thermocouple Matters",
+        "body": "Gas ovens have a safety thermocouple that detects whether the flame is lit. If the thermocouple is dirty, damaged, or misaligned, it shuts the gas supply even though the flame is burning normally. Cleaning the thermocouple tip with fine sandpaper (R0 — 5-minute job) fixes most cases. If cleaning doesn't work, a replacement thermocouple costs R200–R500."
+      },
+      {
+        "heading": "The Defy Selector Switch: Known Weak Point",
+        "body": "Defy ovens — which are very common in SA — have a known weakness in the function selector switch. The contacts carbonise over time, causing intermittent connection. Symptoms: the oven light might come on but no heat, or only certain functions work. A replacement switch costs R350–R600 and takes about an hour to fit."
+      },
+      {
+        "heading": "Cost vs Replacement: Make the Call",
+        "body": "A basic oven repair (element or sensor) runs R500–R1 500 — well worth it for an otherwise functional oven. If the main PCB has failed and your oven is over 12 years old, a new oven costs R4 000–R8 000 for a quality model, while a PCB replacement might be R1 500–R3 000. Bouul discusses both options and never pushes unnecessary replacements."
+      }
+    ]
+  },
+  {
+    "id": "appliance_dishwasher_repair",
+    "tag": "Appliance Repair",
+    "title": "Dishwasher Repair: When Your Plates Come Out Dirty",
+    "subtitle": "A dishwasher that leaves food on the plates, won't drain, or leaks water onto the kitchen floor is frustrating and unsanitary. Here is what causes the most common problems and how professional repair works.",
+    "image": "/scenes/dishwasher_repair.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You loaded the dishwasher, ran a full cycle, and opened it to find dishes that look worse than when they went in — caked-on food, greasy residue, or a film of standing water at the bottom.",
+    "problemBody": "Dishwasher problems usually start small and get worse: a clogged spray arm, a worn drain pump impeller, or a heating element that no longer heats the drying cycle. In SA, hard water scale is a major cause of blocked spray arm nozzles and failed heating elements.",
+    "bouulSolution": [
+      "Bouul technicians begin with the most likely cause: cleaning the spray arm jets, checking the drain pump for obstructions, and running a diagnostic cycle to read error codes from the control board.",
+      "We carry replacement drain pumps, heating elements, circulation motors, and inlet valves for the most common SA brands (Defy, Bosch, Siemens, Smeg). Hard water scale treatments and descalers are applied as part of the service.",
+      "All dishwasher repairs include a 90-day performance guarantee held in Bouul escrow — if the dishes still come out dirty, we return to re-diagnose at no charge."
+    ],
+    "partsNeeded": [
+      "Drain pump (if water remains at the bottom)",
+      "Heating element / dryer assist element",
+      "Circulation/wash motor (if the spray arms don't spin)",
+      "Water inlet valve (if the machine won't fill)"
+    ],
+    "guidePricing": "R500 – R1 200 (drain pump) | R600 – R1 500 (heating element) | R1 200 – R2 500 (circulation motor) | R400 – R1 000 (water inlet valve)",
+    "timeline": "1 – 2 hours for most repairs; circulation motor replacement requires 2–3 hours",
+    "aiPromptExample": "My Bosch dishwasher finishes the cycle but there is standing water at the bottom and the dishes are still dirty. The machine makes a humming sound during drain but the water level doesn't drop. What is the most likely cause?",
+    "aiDiagnosisOutput": "The drain pump is humming but not moving water — the pump impeller is likely jammed by a foreign object (a piece of glass, a small piece of plastic, or a toothpick). Access the drain pump through the bottom kickplate, remove the pump cover, and inspect the impeller area. Clear the obstruction. If the impeller spins freely but the pump still won't pump, the pump motor winding is burnt — replace the drain pump. While you're there, clean the coarse filter and fine filter.",
+    "escrowGuarantee": "90-day performance guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10142-1 applies to electrical supply. Water connections must comply with SANS 10252. Dishwashers must be connected in accordance with the manufacturer's instructions and the SA National Building Regulations.",
+    "articleSections": [
+      {
+        "heading": "Dirty Dishes: The Three Causes",
+        "body": "(1) Blocked spray arms — the water jets are clogged with food particles or hard water scale, so water doesn't reach all the dishes. Clean the arms by removing them and clearing the nozzles with a toothpick. (2) Failed circulation pump — the wash motor is turning but the impeller is worn or broken, so no water pressure builds up. (3) Poor detergent dispensing — the detergent flap is stuck closed or the rinse-aid dispenser is empty."
+      },
+      {
+        "heading": "Standing Water: Always the Drain Pump",
+        "body": "If water sits at the bottom after a cycle, the drain pump is either blocked or failed. First check: remove the filter assembly and look for broken glass or debris that has fallen into the pump well. Use a wet-vac to extract the water, then access the pump. If clearing obstructions doesn't help, test the pump winding resistance — an open winding means replacement.",
+        "image": "/scenes/dishwasher_drain_pump.png"
+      },
+      {
+        "heading": "Water Leaks: Finding the Source",
+        "body": "Dishwasher leaks usually come from a failed door seal (the rubber gasket that compresses when the door closes), a cracked sump housing (the plastic basin under the filter), or a loose hose connection. The door seal is the most common and easiest fix — R300–R600 for a genuine replacement part, 30 minutes to install. A cracked sump requires replacing the lower tub assembly — a R1 500–R2 500 job."
+      },
+      {
+        "heading": "Load-Shedding and Dishwashers",
+        "body": "Dishwashers draw significant power during the heating phase (2 000–3 000 W). If a load-shedding outage occurs mid-cycle, the machine may be unable to complete its drying phase. Worse, some electronic control boards lose their program state and become stuck in an error loop. Resetting by unplugging for 10 minutes resolves most software glitches. Persistent errors indicate a damaged PCB — R1 200–R2 500 for replacement."
+      },
+      {
+        "heading": "When to Replace",
+        "body": "If the main PCB, circulation motor, and heating element all need replacement — the cost could exceed R5 000. A new entry-level dishwasher costs R5 500–R8 000 with a full manufacturer warranty. Bouul's rule: if repairs exceed 70% of a comparable new model's price, we recommend replacement and can arrange removal of the old unit."
+      }
+    ]
+  },
+  {
+    "id": "appliance_tumble_dryer",
+    "tag": "Appliance Repair",
+    "title": "Tumble Dryer Repair: When Your Laundry Takes Days to Dry",
+    "subtitle": "A tumble dryer that won't heat, won't turn, or takes three cycles to dry a single load is wasting your time and electricity. Here is how to diagnose and fix the most common problems.",
+    "image": "/scenes/tumble_dryer.png",
+    "readTime": "7 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You put a wet load in the dryer, select 'Cottons Extra Dry', and come back two hours later to find the clothes are still damp — or the drum is spinning with no heat at all. The electricity bill is climbing and nothing is drying.",
+    "problemBody": "Tumble dryers in SA face two specific challenges: lint build-up from high-usage households (large families, winter loads of heavy blankets) and voltage instability that damages heating elements and thermostats. A lint-clogged condenser or vent pipe is also a genuine fire risk — SA's National Building Regulations mandate that dryer vents discharge to the outside for a reason.",
+    "bouulSolution": [
+      "Bouul's dryer technicians check the heating element continuity, thermal fuse (a common one-time failure component), and thermostat calibration as standard. A blown thermal fuse costs R150–R300 and is fixed in 30 minutes.",
+      "We clean the condenser unit and vent path thoroughly during any service call — removing accumulated lint that restricts airflow and creates a fire hazard. This is included in the service, never an add-on charge.",
+      "All dryer repairs include a 90-day heat and motion guarantee held in Bouul escrow. If the dryer fails to dry within 90 days, we return at no cost."
+    ],
+    "partsNeeded": [
+      "Heating element assembly (1 500–2 000 W, matched to brand)",
+      "Thermal fuse and thermistor kit (overheat cut-out)",
+      "Dryer drum belt (if the drum turns slowly or not at all)",
+      "Idler pulley and tension spring",
+      "Door switch (if the dryer won't start)",
+      "Electronic main control board (if nothing works)"
+    ],
+    "guidePricing": "R500 – R1 200 (heating element) | R200 – R400 (thermal fuse + thermostat) | R600 – R1 500 (drum belt and idler pulley) | R200 – R500 (door switch) | R1 200 – R3 000 (control board replacement)",
+    "timeline": "30 minutes – 2 hours, depending on access to the component",
+    "aiPromptExample": "My Defy tumble dryer drum spins but the air stays cold. It never gets hot. The lint filter is clean. What should I check before calling a technician?",
+    "aiDiagnosisOutput": "The heating element is likely open-circuit or the thermal fuse has blown. Disconnect power, access the heating element housing (usually behind the rear panel), and measure continuity across the element terminals — if infinite, replace the element (R400–R700 part). While there, check the thermal fuse for continuity — a blown fuse (infinite resistance) means the element previously overheated, often due to restricted airflow. Clean the full vent path. If both check out, the timer motor or selector switch contacts may have failed.",
+    "escrowGuarantee": "90-day heat and motion guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10142-1 applies to electrical supply. The venting installation must comply with the SA National Building Regulations SANS 10400 Part O (fire performance) — lint build-up in vents is a recognised fire hazard.",
+    "articleSections": [
+      {
+        "heading": "No Heat: The Diagnostic Tree",
+        "body": "Drum spins but no heat = heating element, thermal fuse, or thermostat. The thermal fuse is a one-time safety device that blows if the dryer overheats. It costs R80–R150. If the fuse is blown, the element was getting too hot — check the vent path for restrictions and ensure the airflow switch functions. The heating element should read 15–30 Ω across its terminals (varies by power rating). An open element means replacement."
+      },
+      {
+        "heading": "Drum Not Spinning",
+        "body": "If the drum doesn't turn but you hear the motor running, the drive belt has snapped or slipped off. The belt wraps around the drum and is tensioned by an idler pulley. Replacement belt: R200–R400. If neither the motor nor drum runs, check the door switch — dryers will not start if the door is not fully closed. A failed door switch is a R200–R500 fix."
+      },
+      {
+        "heading": "Lint: The Silent Fire Hazard",
+        "body": "The Consumer Goods Safety Commission reports tumble dryers as one of the top causes of household fires in SA. Lint is highly flammable, and a blocked vent or condenser restricts airflow, causing the heating element to overheat and potentially ignite accumulated lint. Bouul technicians clean the full airflow path — from the lint filter housing through to the external vent — on every service call."
+      },
+      {
+        "heading": "Condenser vs Vented Dryers",
+        "body": "Condenser dryers collect moisture in a tank; vented dryers push moist air outside via a hose. Condenser dryers in SA fail more often because the heat exchanger clogs with lint and detergent residue over time. Cleaning the condenser unit monthly with warm water and a soft brush prevents this. Vented dryers are simpler but require the vent hose to be checked for kinks and blockages."
+      },
+      {
+        "heading": "Energy Cost: A Dying Dryer Costs More Than Repairs",
+        "body": "An old or faulty tumble dryer can use 40–50% more electricity than a well-maintained one. A failed heating element that's partially shorted draws full current but produces less heat, so the cycle runs longer. A dryer with good seals and a clean vent path uses about 3–4 kWh per load. At SA's average electricity rate of R2.50/kWh, that is R7.50–R10 per load. A faulty dryer at 5 kWh per load costs R12.50 per load — the extra R2.50 adds up to R750–R1 000 per year for a family that dries four loads per week."
+      }
+    ]
+  },
+  {
+    "id": "appliance_microwave_repair",
+    "tag": "Appliance Repair",
+    "title": "Microwave Oven Repair: Why Your Food Is Still Cold",
+    "subtitle": "A microwave that doesn't heat, sparks inside, or trips the breaker on every use needs immediate attention. Here is what goes wrong and how to get it fixed safely.",
+    "image": "/scenes/microwave_repair.png",
+    "readTime": "6 min",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "You put your leftovers in the microwave, set it for 3 minutes, and come back to find the food at room temperature while the turntable spins cheerfully. Or the inside lights up with sparks and blue flashes.",
+    "problemBody": "Microwaves are dangerous to repair — the high-voltage capacitor inside stores a lethal charge even after the unit is unplugged. Common failures include a blown magnetron (the component that produces microwaves), a failed high-voltage diode or capacitor, a stuck door interlock switch (the microwave thinks the door is open), or a burnt-out turntable motor.",
+    "bouulSolution": [
+      "Bouul's microwave technicians are trained in high-voltage discharge procedures. We always discharge the HV capacitor safely with an insulated discharge tool before touching any internal components — this is not a DIY repair.",
+      "We carry the most common failure parts: magnetrons for Sharp, Panasonic, Samsung, and Defy microwaves, plus high-voltage diodes, capacitors, and door interlock switches.",
+      "All microwave repairs include a 90-day heating performance guarantee held in Bouul escrow. If the microwave fails to heat within 90 days, we repair it free."
+    ],
+    "partsNeeded": [
+      "Magnetron assembly (the main component that generates microwaves)",
+      "High-voltage diode and capacitor kit",
+      "Door interlock switch set (primary, secondary, and monitor switches)",
+      "Turntable motor and glass tray coupling",
+      "Thermal cut-out fuse (mounted on the magnetron or waveguide)"
+    ],
+    "guidePricing": "R500 – R1 500 (magnetron replacement) | R300 – R600 (HV diode + capacitor) | R400 – R800 (door switch set) | R200 – R400 (turntable motor)",
+    "timeline": "30 – 90 minutes for most microwave repairs",
+    "aiPromptExample": "My Samsung microwave turns on, the light works, the turntable spins, the timer counts down — but the food doesn't heat at all. No unusual noises or smells. What is the most likely failed component?",
+    "aiDiagnosisOutput": "The magnetron has likely failed open-circuit. The magnetron filament should read less than 1 Ω between its two terminals — if it reads infinite, the filament is burnt through. Also test the high-voltage diode: it should conduct in one direction only. A shorted diode (conducts both ways) will blow the internal line fuse but won't cause 'no heat with everything else working' — this points to the magnetron alone. Discharge the HV capacitor before testing.",
+    "escrowGuarantee": "90-day heating guarantee held in Bouul escrow.",
+    "pirbStandard": "SANS 10142-1 applies to electrical supply. Repairs must be performed by a qualified appliance technician. The microwave must be tested for microwave leakage per SANS 10125 after any repair involving the magnetron or waveguide. Bouul uses a calibrated microwave leakage detector on every repair. DO NOT attempt internal microwave repair yourself — the high-voltage capacitor can deliver a fatal shock.",
+    "articleSections": [
+      {
+        "heading": "The Magnetron: The Heart of the Microwave",
+        "body": "The magnetron is the component that converts electrical energy into microwave radiation. It has a filament that heats up and a set of resonant cavities that produce 2.45 GHz microwaves. Over time, the filament breaks (infinite resistance) or the internal vacuum seal is lost. A failed magnetron means no heating at all. Replacement cost: R500–R1 500."
+      },
+      {
+        "heading": "Sparks and Arcing: Stop Using It Immediately",
+        "body": "If you see blue flashes or sparks inside the microwave, stop using it immediately. The cause is usually a damaged waveguide cover (the mica sheet inside the cavity that protects the magnetron from food splatter) or a metal object in the cavity. The mica cover absorbs moisture and eventually breaks down. Replacement: R80–R200. Continued use with a damaged waveguide cover can destroy the magnetron — a much more expensive repair."
+      },
+      {
+        "heading": "Turntable Not Spinning",
+        "body": "If the turntable doesn't rotate, the food heats unevenly. The turntable motor is a small synchronous motor located under the cavity. It costs R150–R350 and takes 30 minutes to replace. Sometimes the coupling (the plastic piece that connects the motor shaft to the glass tray) is simply worn out — a R50 fix."
+      },
+      {
+        "heading": "The Safety of Door Switches",
+        "body": "Microwaves have three door interlock switches: primary, secondary, and monitor. The monitor switch is designed to blow the fuse if the door is opened while the microwave is running. A failed door switch can prevent the microwave from starting or — in worst case — allow it to operate with the door open. Bouul tests all three switches on every microwave repair.",
+        "image": "/scenes/microwave_door_switch.png"
+      },
+      {
+        "heading": "When Replacement is the Answer",
+        "body": "A new countertop microwave costs R800–R3 000. If the magnetron has failed on a microwave that is older than 5 years, replacement usually makes more financial sense — the repair cost (R500–R1 500) is close to the cost of a new basic model. For built-in microwaves, repair is more often worthwhile because the replacement is more expensive (R4 000–R12 000)."
+      }
+    ]
+  }
+]

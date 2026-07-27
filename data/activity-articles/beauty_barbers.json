@@ -1,0 +1,278 @@
+[
+  {
+    "id": "standard-haircut",
+    "tag": "barbers",
+    "title": "The Standard Barber Haircut: Getting It Right Every Time",
+    "subtitle": "The foundation of every barbers skill - what a proper standard cut includes and how to communicate what you want.",
+    "image": "/scenes/standard-haircut.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why do barbers cuts look better than home clipper jobs?",
+    "problemBody": "Many South African men still rely on home clippers between professional cuts. The result is often uneven hairlines, choppy layers, and a neckline that grows out awkwardly. A professional barber cut costs R80-R250 and includes clipper work, scissor over-comb refinement, and a clean neckline shave - skills that take years to master. At-home clippers cant replicate the blend.",
+    "bouulSolution": [
+      "Bouul barber profiles show real photos of their work - check the fade consistency in their gallery before booking.",
+      "Arrive with clean, dry hair for the most accurate consultation - wet hair can look longer and denser than it is.",
+      "Bouul Escrow means you only pay when you are satisfied with the finished cut."
+    ],
+    "partsNeeded": [
+      "Professional clipper set with multiple guard sizes (0-8)",
+      "Straight razor for neckline and edge-up",
+      "Barber scissors (straight and thinning)",
+      "Neck brush, cape, and sectioning clips"
+    ],
+    "guidePricing": "R80-R200 for a standard haircut; R120-R250 at premium barbershops; R50-R100 for kids cuts (often discounted)",
+    "timeline": "20-35 minutes for a standard cut; 40-60 minutes with a hot towel finish",
+    "aiPromptExample": "Describe the ideal standard haircut experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended standard haircut plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Clipper Sizes Explained",
+        "body": "Clipper guards are numbered 0 (shortest) through 8 (longest). A 0 guard leaves about 1.5mm of hair; a 4 leaves about 13mm. A skin fade uses no guard at all - just the bare clipper blade. Knowing these numbers helps you communicate exactly what you want.\nMost SA barbershops use Wahl clippers as the standard. The guard system is universal - 0 to 8 (1.5mm to 25mm). Say I want a 2 on the sides, scissor cut on top and the barber will understand immediately."
+      },
+      {
+        "heading": "The Scissor-Over-Comb Technique",
+        "body": "For the top of the head, skilled barbers use scissors over a fine-tooth comb rather than clippers. This creates a natural, textured finish that clippers alone cannot achieve. The barber uses the comb to lift the hair and cuts along the comb surface, creating a soft blend between lengths.\nThis technique is the hallmark of a trained barber as opposed to a clipper-only operator. If your barber uses only clippers from start to finish, you are paying for a stylist, not a barber."
+      },
+      {
+        "heading": "Neckline Styles",
+        "body": "Your neckline finish makes a significant visual difference. A natural neckline follows the hair growth line - subtle and grows out well. A squared-off block neckline is a traditional barber finish that looks sharp but requires more frequent maintenance. A tapered neckline graduates into the hair below, popular for longer styles.\nTell your barber which neckline you want before they start cutting, not after. Changing a squared neckline to a natural one means losing length."
+      },
+      {
+        "heading": "Product Finish",
+        "body": "A professional barber should recommend and apply the right product for your hair type: pomade for high-shine hold, clay for matte texture, wax for flexible hold, or gel for wet-look control. A cut isnt finished until the product is in and the hair is styled.\nBouul-listed barbers are rated on their finish quality - read reviews that mention product recommendations and final styling before booking."
+      }
+    ]
+  },
+  {
+    "id": "beard-trim",
+    "tag": "barbers",
+    "title": "The Professional Beard Trim: Shaping, Conditioning, and Maintenance",
+    "subtitle": "Your beard is a statement - heres how a professional trim keeps it looking intentional, not accidental.",
+    "image": "/scenes/beard-trim.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why does my beard never look as good as the barber makes it?",
+    "problemBody": "A DIY beard trim at home with kitchen scissors or trimmers without a guard is a recipe for disaster - choppy length, missing patches, and an uneven jawline shape. Professional beard grooming costs R80-R200 and includes a hot towel to soften the hair, precise scissor shaping, neckline definition, and optional oil and balm application. The difference is visible in the symmetry and the health of the beard.",
+    "bouulSolution": [
+      "Book a barber whose beard work is visible in their Bouul gallery - not every barber is equally skilled at beard shaping.",
+      "Ask for a mirror check during the trim - you can see the shape developing and request adjustments before the final cut.",
+      "Bouul Escrow protects you if the shape is uneven or the neckline is crooked."
+    ],
+    "partsNeeded": [
+      "Professional beard scissors and fine-tooth comb",
+      "Straight razor or detail trimmer for neckline and cheek line",
+      "Beard oil, balm, and boar-bristle brush",
+      "Hot towel and mirror for client visibility"
+    ],
+    "guidePricing": "R80-R200 for a beard trim and shape; R120-R250 with hot towel and conditioning treatment; R250-R400 for a full beard grooming package (trim + wash + steam + oil)",
+    "timeline": "15-30 minutes for a basic trim; 25-45 minutes for a full beard grooming session",
+    "aiPromptExample": "Describe the ideal beard trim experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended beard trim plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Neckline Placement",
+        "body": "The beard neckline should sit at the point where your neck meets your jawline - approximately one finger-width above the Adams apple. Cutting too high creates an unnatural chin-strap look. Cutting too low leaves a messy neck beard visible below your jawline.\nA clean neckline is the single biggest visual upgrade for any beard. Your barber should use a straight razor or trimmer with a detail blade, not a wide clipper guard."
+      },
+      {
+        "heading": "Cheek Line Natural vs Sculpted",
+        "body": "A natural cheek line follows your facial hair growth and looks organic. A sculpted cheek line is shaved into a sharp horizontal or slightly angled line for a more deliberate, styled appearance. Natural suits rounder faces; sculpted suits angular and oval faces.\nAsk your barber which cheek-line approach they recommend for your face shape before they start. Changing from sculpted to natural means growing out several weeks of regrowth."
+      },
+      {
+        "heading": "Beard Oil and Balm Routine",
+        "body": "Beard oil (applied daily to the skin under the beard) prevents beard dandruff and itch. Beard balm provides light hold and shapes wayward hairs. A moisturising beard wash (not shampoo) should be used 2-3 times per week.\nSouth African brands like Beard Brothers SA and Legends Beard Co. are widely available at Dis-Chem, Clicks, and online. Bouul barbers can recommend the right product weight for your beard texture."
+      },
+      {
+        "heading": "The 6-Week Rule",
+        "body": "A professional beard trim every 6-8 weeks keeps your beard at its best. More frequently if youre growing it out - the barber maintains the shape while letting the length increase. Less frequently and split ends develop, making the beard look frizzy and unkempt.\nEven in the grow-out phase, a monthly shape-up prevents the awkward transitional stages. Use Bouul to set a recurring 6-week reminder."
+      }
+    ]
+  },
+  {
+    "id": "hot-towel-treatment",
+    "tag": "barbers",
+    "title": "Hot Towel Shave and Facial Treatment: The Ultimate Barber Luxury",
+    "subtitle": "More than just a shave - this classic barber service delivers skin benefits and relaxation that keeps clients coming back.",
+    "image": "/scenes/hot-towel-treatment.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why pay R200 for a wet shave when I have a razor at home?",
+    "problemBody": "A hot towel shave is a fundamentally different experience from home shaving. The hot towel opens pores, softens the beard, and relaxes the skin. The barber uses a straight razor with professional-grade cream applied with a brush - not canned foam. The result is a closer shave with significantly less irritation. The service typically takes 30-50 minutes and includes vibrating aftershave and a cool towel to close the pores.",
+    "bouulSolution": [
+      "Book a barber certified in straight-razor shaving - SA barber training includes specific modules for blade angles and skin stretching.",
+      "Arrive freshly showered but with at least 2-3 days of beard growth - this gives the barber enough hair to achieve a proper shave.",
+      "Bouul reviews for hot towel services are especially useful - look for mentions of skin sensitivity and post-shave comfort."
+    ],
+    "partsNeeded": [
+      "Straight razor with replaceable blades (shavette or traditional)",
+      "Hot towel warmer or microwave-heated towels",
+      "Shaving brush, shaving cream, and pre-shave oil",
+      "Aftershave balm, toner, and cool towel"
+    ],
+    "guidePricing": "R150-R350 for a hot towel wet shave; R200-R400 including a face massage; R180-R300 for a hot towel scalp massage add-on",
+    "timeline": "30-50 minutes for a full hot towel shave; 45-60 minutes with face massage and scalp treatment",
+    "aiPromptExample": "Describe the ideal hot towel treatment experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hot towel treatment plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Three-Towel Ritual",
+        "body": "A proper hot towel shave uses three towels: (1) the first towel softens the beard for 2-3 minutes and is followed by pre-shave oil, (2) the second towel is applied between passes to keep the skin warm and relaxed, and (3) the cool towel at the end closes pores and soothes the skin.\nEach towel is applied for approximately 2-3 minutes. A barber who skips towels or rushes the process is not delivering the full experience."
+      },
+      {
+        "heading": "Blade Technique",
+        "body": "The barber holds the straight razor at approximately a 30-degree angle to the skin. The non-dominant hand stretches the skin taut ahead of the blade. Short, light strokes in the direction of hair growth (with the grain) for the first pass, then across the grain for the second.\nAgainst-the-grain shaves in barbering are reserved for experienced clients who know their skin tolerates it. Bouul barbers will ask about your skin sensitivity before going against the grain."
+      },
+      {
+        "heading": "Skin Prep and Aftercare",
+        "body": "Before the first towel, the barber applies a pre-shave oil that creates a protective barrier between the blade and your skin. After the shave, a cold towel is followed by an alcohol-free aftershave balm - never pure alcohol splash on freshly shaved skin.\nIf your skin is prone to razor bumps (pseudofolliculitis barbae), tell your barber before the service. They can adjust the blade angle and recommend a post-shave treatment specific to your skin type."
+      },
+      {
+        "heading": "Frequency and Maintenance",
+        "body": "A hot towel shave can be repeated every 3-5 days. Shaving more frequently than every 48 hours with a straight razor risks skin irritation because the epidermis needs time to recover.\nMany Bouul-listed barbers offer a hot towel loyalty card - buy 5 shaves, get the 6th free. This is common in established SA barbershops."
+      }
+    ]
+  },
+  {
+    "id": "skin-fade",
+    "tag": "barbers",
+    "title": "The Skin Fade: SAs Most Popular Barber Cut Explained",
+    "subtitle": "From zero to hero - how a clean skin fade works, what it costs, and how to communicate exactly what you want.",
+    "image": "/scenes/skin-fade.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why do some fades look patchy or uneven?",
+    "problemBody": "The skin fade is the most requested barber cut in South Africa - particularly among young men in Johannesburg, Cape Town, and Durban. A proper skin fade transitions seamlessly from bare skin (no guard) at the bottom to a chosen length at the top, with no visible lines or patches. Poor fades have visible stepping - you can see where the barber changed guards. A quality fade at a skilled barber costs R150-R350 and takes 35-60 minutes.",
+    "bouulSolution": [
+      "Bouul gallery is your best tool - look at fade photos from the barbers profile to assess consistency before booking.",
+      "Know your fade type: low fade (starts above ear), mid fade (around temple), high fade (above temple), or drop fade (dips behind the ear).",
+      "Bouul Escrow protects you if the fade has visible stepping or the blend is uneven."
+    ],
+    "partsNeeded": [
+      "Professional clippers with adjustable blade lever (Wahl Senior or Magic Clip preferred)",
+      "Detail trimmer for zero-gap work",
+      "Straight razor for hairline and edge-up",
+      "Clipper oil, cooling spray, and neck brush"
+    ],
+    "guidePricing": "R150-R350 for a skin fade cut (includes top styling); R200-R450 for a skin fade with beard detailing; R100-R180 for a quick fade without scissor work on top",
+    "timeline": "35-60 minutes for a thorough fade with top styling; 25-35 minutes for a quick fade",
+    "aiPromptExample": "Describe the ideal skin fade experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended skin fade plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Guide Numbers",
+        "body": "A skin fade uses specific clipper settings visible in the blend: the bare blade creates the skin line, then a closed 0.5 guard (1.5mm), open 0.5 (2mm), closed 1 (3mm), and so on. The goal is to make these transitions invisible. Each change of guard height is blended with the adjustable lever on the clipper.\nWhen you tell your barber I want a skin fade to a 2 on top, you mean the longest visible length at the top of the fade is a 2 guard (about 6mm). This is the standard language in SA barbershops."
+      },
+      {
+        "heading": "Fade Height and Face Shape",
+        "body": "The fade start point affects your face shape visually. A low fade (starting at the temple) suits round faces by creating vertical lines. A high fade (starting above the temple) suits long faces by adding width at the sides. A mid fade is the safest option - it works with most face shapes.\nYour barber should suggest a fade height based on your face shape. If they start cutting without discussing this, speak up before the clippers move in."
+      },
+      {
+        "heading": "The Zero-Gap Technique",
+        "body": "Zero-gapping means aligning the stationary and moving blades on the clipper so they sit flush, producing the closest possible cut. This is used for the skin line at the bottom of the fade. It requires careful maintenance of the clipper blades - a zero-gapped clipper can cut skin if not handled correctly.\nOnly experienced barbers should use zero-gap. If your barber is new or you are unsure of their experience, ask them not to zero-gap for the skin line - the difference is minimal, and the risk of razor burn or nicks increases."
+      },
+      {
+        "heading": "Post-Fade Care",
+        "body": "A fresh fade shows white skin where the clipper passed. This area is more vulnerable to sunburn and irritation. Apply SPF 30+ to the faded area if you will be outdoors, and avoid tight hats for 24 hours to prevent friction on the freshly exposed skin.\nYour Bouul barber should offer a cooling aftershave spray after the fade. This reduces redness and tightens the skin."
+      }
+    ]
+  },
+  {
+    "id": "kids-haircut",
+    "tag": "barbers",
+    "title": "Childrens Haircuts: A Stress-Free Guide for SA Parents",
+    "subtitle": "Getting a wiggly toddler or anxious primary-schooler through a haircut without tears - practical tips from SA barbers.",
+    "image": "/scenes/kids-haircut.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "How do I get my child to sit still for a haircut?",
+    "problemBody": "Childrens haircuts can be challenging for parent and barber alike. Many SA barbers report that 70% of their young clients are visibly anxious on the chair. Wiggling, crying, and sudden head movements make the cut harder and increase the risk of nicks. Barbers who specialise in childrens cuts use specific techniques: quick service, distraction, clear communication about what they are doing, and typically a lower price point - R50-R150.",
+    "bouulSolution": [
+      "Bouul baby/kid-friendly profiles let you filter for barbers who list child experience - check reviews from other parents.",
+      "Book the first appointment of the day when the shop is quietest - less sensory overload for anxious children.",
+      "Bouul Escrow is not just for your peace of mind - if the cut goes wrong, the refund process is straightforward."
+    ],
+    "partsNeeded": [
+      "Quiet clippers (less intimidating for sensitive children)",
+      "Cape with fun patterns or child-friendly design",
+      "Smaller shears for more precise control on small heads",
+      "Lollipops or stickers as post-cut rewards"
+    ],
+    "guidePricing": "R50-R150 for a standard childrens haircut; R80-R180 for childrens cuts at premium barbershops; many offer sibling discounts for 2+ children",
+    "timeline": "10-20 minutes for most childrens cuts - intentionally quick to match short attention spans",
+    "aiPromptExample": "Describe the ideal kids haircut experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended kids haircut plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Pre-Visit Preparation",
+        "body": "Show your child a short video of a friendly barber cutting hair at home before the appointment. Explain what will happen: the cape goes on, the clippers buzz but dont hurt, the barber uses a spray bottle, and afterwards there is a treat. This simple preparation significantly reduces first-time anxiety.\nLet the barber know your childs name before starting - barbers who address children by name build trust faster. Most SA childrens barbers have their own scripts for nervous first-timers."
+      },
+      {
+        "heading": "The Distraction Strategy",
+        "body": "The most effective barbers keep children distracted throughout the cut. They talk about school, ask about favourite soccer teams or cartoons, and work quickly. Some barbershops have a small TV playing childrens content or a selection of toys near the chair.\nIf your child is particularly anxious, sit where they can see you in the mirror at all times. Hand-holding through the cape is common and helps children feel secure."
+      },
+      {
+        "heading": "Timing Is Everything",
+        "body": "Book the cut at a time when your child is well-rested and recently fed. A nap-time appointment or a slot just before lunch is a recipe for meltdowns. Weekend mornings after breakfast are ideal for most SA families.\nAvoid booking a haircut as a surprise - children who know what to expect handle the experience significantly better. Say We are going to the barber at 10am after breakfast at least a day in advance."
+      },
+      {
+        "heading": "The First Haircut Keepsake",
+        "body": "Many SA barbershops offer a first-haircut certificate and will save a small lock of hair in a keepsake bag. If you want this, mention it when booking - not all barbers offer it automatically.\nBouul-listed barbers who specialise in childrens services often include a small treat or certificate as part of their standard offering. Look for first hair cut mentioned in their service description."
+      }
+    ]
+  },
+  {
+    "id": "buzz-cut",
+    "tag": "barbers",
+    "title": "The Buzz Cut: Low Maintenance, High Impact",
+    "subtitle": "SAs most practical haircut - when to do it, who it suits, and how a barber does it better than doing it yourself.",
+    "image": "/scenes/buzz-cut.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is a buzz cut really as easy as running clippers over your head?",
+    "problemBody": "A buzz cut looks simple but is surprisingly easy to get wrong. Uneven passes, missed patches, an incorrectly anchored crown, and an inconsistent fade on the sides are common DIY mistakes. A professional buzz cut costs R80-R180 and ensures even length across the entire head, proper crown transition, and a clean neckline and hairline finish. Many men who try the DIY route end up at a barber for a fix within a week.",
+    "bouulSolution": [
+      "Bouul barbers are rated on their buzz cuts - surprising as it seems, consistency in this simple cut separates great barbers from average ones.",
+      "Take a photo of a buzz cut you like. The barber needs to know if you want a uniform all-over length or a taper at the sides.",
+      "Bouul Escrow protects you if the buzz is visibly uneven - yes, this can happen even with a simple cut."
+    ],
+    "partsNeeded": [
+      "Professional clippers with adjustable blade lever",
+      "Multiple guard sizes (1-8)",
+      "Hand mirror for the barber to check crown and rear",
+      "Trimmer for neckline and hairline detail"
+    ],
+    "guidePricing": "R80-R180 for a buzz cut at a barbershop; R50-R100 if you are an existing regular customer (many shops offer a loyalty price)",
+    "timeline": "10-20 minutes - the fastest barber service available",
+    "aiPromptExample": "Describe the ideal buzz cut experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended buzz cut plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Guard Selection Guide",
+        "body": "A #1 guard leaves 3mm - very short, scalp visible. #2 is 6mm - the classic military buzz cut. #3 (9mm) and #4 (13mm) are popular for men who want short but not scalp-showing. #5 (16mm) and above are uncommon for buzz cuts - at that length, a scissor cut gives a better shape.\nYour barber should discuss guard selection with you before starting. If they just start cutting, stop them and clarify the length."
+      },
+      {
+        "heading": "The Crown Challenge",
+        "body": "The crown (the whirl at the back of your head) grows in a spiral pattern. A buzzed crown needs careful attention - cutting across the spiral creates a visible bald spot. Skilled barbers approach the crown from multiple angles to ensure even coverage.\nThis is the part that most DIY buzzez get wrong. Look at the back of your head with a hand mirror after a home buzz - if you see a lighter patch at the crown, that is the spiral issue."
+      },
+      {
+        "heading": "Buzz Cut Maintenance",
+        "body": "A buzz cut needs a touch-up every 2-3 weeks because 3mm of growth makes a visible difference. This is more frequent than a scissor cut but takes far less time per session - 10 minutes vs 30-40 minutes.\nSet a recurring 2-week reminder on Bouul. The low per-session cost (typically R100) makes this one of the most affordable grooming regimens in the long term."
+      },
+      {
+        "heading": "Who It Suits",
+        "body": "A buzz cut suits men with a strong jawline, good head shape, and minimal scalp issues. It draws attention to the face - so if you have prominent ears, an asymmetrical face, or a receding hairline, discuss with your barber whether a different length or style would be more flattering.\nBouul barbers will give an honest consultation on whether a buzz cut suits your head shape. A good barber will recommend an alternative if the buzz cut isnt your best option."
+      }
+    ]
+  }
+]

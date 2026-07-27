@@ -1,0 +1,278 @@
+[
+  {
+    "id": "strength-training",
+    "tag": "personal-trainers",
+    "title": "Strength Training: Building Muscle the Smart Way in SA",
+    "subtitle": "Why strength training is the foundation of fitness - and how a personal trainer helps you do it safely and effectively.",
+    "image": "/scenes/strength-training.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is strength training just lifting heavy things?",
+    "problemBody": "Strength training is a structured approach to building muscular strength, endurance, and power through progressive overload. A personal trainer designs a programme based on your goals, current fitness level, and any injuries or limitations. Sessions cost R200-R450 for 45-60 minutes in SA. Without proper form guidance, common errors include lifting with the back instead of legs (spinal injury risk), improper breathing (fainting or hernia risk), and training around muscle imbalances (joint pain).",
+    "bouulSolution": [
+      "Bouul personal trainers list their certifications - look for REPS SA, ACSM, NASM, or NSCA accredited qualifications.",
+      "A proper trainer conducts a movement screen (squat, hinge, push, pull, press) before writing your programme.",
+      "Bouul Escrow protects you if the trainer repeatedly cancels or is unprepared for sessions."
+    ],
+    "partsNeeded": [
+      "Dumbbells (adjustable or fixed set, 1-25kg)",
+      "Barbell with weight plates and collars",
+      "Resistance bands (light, medium, heavy)",
+      "Bench, squat rack, or gym mat"
+    ],
+    "guidePricing": "R200-R450 per 60 min session; R1,500-R3,000 per 10-session block; R2,000-R4,000 per month for 3x weekly sessions",
+    "timeline": "45-60 min per session; 3-4 sessions per week for optimal results",
+    "aiPromptExample": "Describe the ideal strength training experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended strength training plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Progressive Overload Explained",
+        "body": "Progressive overload means gradually increasing the weight, reps, sets, or frequency of your training so your muscles continuously adapt. The standard approach: when you can complete all reps of all sets with good form, increase the weight by the smallest increment available (typically 1.25-2.5kg).\nWithout progressive overload, your muscles stop growing after 4-6 weeks on the same programme."
+      },
+      {
+        "heading": "Compound vs Isolation Exercises",
+        "body": "Compound exercises (squats, deadlifts, bench press, rows, overhead press) work multiple muscle groups simultaneously and are the foundation of any strength programme. Isolation exercises (bicep curls, tricep extensions, leg extensions) work one muscle group and are used for targeted development after compound work."
+      },
+      {
+        "heading": "Rest Periods Between Sets",
+        "body": "Strength training rest periods: 2-5 minutes for heavy compound lifts (allows full ATP recovery), 60-90 seconds for accessory/isolation work, 30-60 seconds for conditioning/metabolic circuits. Clients who rush rest periods compromise their lifting performance."
+      },
+      {
+        "heading": "Nutrition for Strength",
+        "body": "Strength training requires adequate protein intake (1.6-2.2g per kg of body weight) and calorie surplus for muscle gain. Pre-workout: small meal with carbs and protein 60-90 minutes before. Post-workout: protein-rich meal within 2 hours of training."
+      }
+    ]
+  },
+  {
+    "id": "weight-loss-training",
+    "tag": "personal-trainers",
+    "title": "Weight Loss Training: Sustainable Fat Loss Through Exercise",
+    "subtitle": "How a personal trainer designs effective weight loss programmes that combine cardio, strength, and nutrition guidance.",
+    "image": "/scenes/weight-loss-training.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Why do I run 5km three times a week and not lose weight?",
+    "problemBody": "Weight loss requires a calorie deficit (burning more than you consume), and exercise alone without dietary changes rarely produces significant results. An effective weight loss programme combines resistance training (preserves muscle mass during calorie deficit) with cardiovascular exercise and nutrition coaching. Personal trainer sessions for weight loss cost R200-R450 in SA. The trainer should address all three components, not just exercise.",
+    "bouulSolution": [
+      "Bouul weight loss trainers have nutrition coaching credentials - look for REPS SA plus sports nutrition certification.",
+      "A good trainer sets realistic expectations: 0.5-1kg per week is sustainable; more than that is mostly water weight.",
+      "Bouul Escrow protects you if the trainer promotes extreme calorie restriction, detox teas, or other unsafe methods."
+    ],
+    "partsNeeded": [
+      "Resistance bands and light-to-medium dumbbells",
+      "Kettlebell for dynamic movements",
+      "Heart rate monitor for zone training",
+      "Nutrition tracking app or food diary"
+    ],
+    "guidePricing": "R200-R450 per 60 min session; R1,500-R3,000 per 10-session block; R2,500-R4,000 per month for 3x weekly sessions with nutrition check-ins",
+    "timeline": "45-60 min per session; 3-5 sessions per week for optimal results",
+    "aiPromptExample": "Describe the ideal weight loss training experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended weight loss training plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Calorie Deficit Principle",
+        "body": "One kg of body fat equals approximately 7,700 calories. A sustainable deficit of 300-500 calories per day results in 0.3-0.5kg loss per week. Combined with exercise that burns an additional 200-400 calories per session, you can achieve 0.5-1kg per week loss.\nCrash diets and extreme deficits (under 1,200 calories for women, under 1,500 for men) are unsustainable and cause muscle loss, hormonal disruption, and metabolic adaptation."
+      },
+      {
+        "heading": "Strength Training for Weight Loss",
+        "body": "Resistance training is critical during weight loss because it signals your body to preserve muscle. Without it, 20-30% of weight lost on a calorie-deficit diet is muscle, which lowers your metabolism and makes it easier to regain weight. At least 2 strength sessions per week is the minimum for muscle preservation."
+      },
+      {
+        "heading": "NEAT: The Hidden Fat Loss Factor",
+        "body": "NEAT (Non-Exercise Activity Thermogenesis) is the calories burned through daily activities outside formal exercise - walking, standing, housework, fidgeting. Increasing NEAT can add 150-500 calories to your daily burn. A step count target (7,000-12,000 steps per day) is the most practical way to manage NEAT."
+      },
+      {
+        "heading": "Plateaus and Adjustments",
+        "body": "Weight loss plateaus after 4-8 weeks are normal and require adjustments: reduce calories further (but not below the minimums above), increase activity duration or intensity, or add an extra session per week. The trainer should adjust the plan at the first sign of a 2-week stall, not wait for motivation to fade."
+      }
+    ]
+  },
+  {
+    "id": "hiit-training",
+    "tag": "personal-trainers",
+    "title": "HIIT Training: Maximum Results in Minimum Time",
+    "subtitle": "High-Intensity Interval Training explained - benefits, risks, and how a personal trainer makes it safe and effective.",
+    "image": "/scenes/hiit-training.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is HIIT really better than steady-state cardio?",
+    "problemBody": "HIIT alternates between short bursts of maximum-effort exercise (work intervals of 20-60 seconds) and rest or low-intensity recovery periods. A 20-30 minute HIIT session can produce similar cardiovascular benefits to 45-60 minutes of steady-state cardio, with the added benefit of excess post-exercise oxygen consumption (EPOC) - burning extra calories for hours after the session. Personal trainer HIIT sessions cost R200-R400 in SA.",
+    "bouulSolution": [
+      "Bouul HIIT trainers should understand how to modify exercises for different fitness levels - HIIT with poor form causes injuries.",
+      "HIIT is not suitable for beginners without a foundation of basic movement patterns - expect at least 4-6 weeks of foundational training first.",
+      "Bouul Escrow protects you if the trainer pushes you beyond safe effort levels or does not allow adequate recovery between intervals."
+    ],
+    "partsNeeded": [
+      "Timer or interval app for work/rest periods",
+      "Kettlebells, dumbbells, medicine balls",
+      "Battle ropes, plyometric boxes, and agility ladders",
+      "Heart rate monitor to track effort zones"
+    ],
+    "guidePricing": "R200-R400 per 30-45 min HIIT session; R1,500-R2,500 for 10-session HIIT block; often offered in small group sessions (2-6 people) at R100-R250 per person",
+    "timeline": "20-40 min per session including warm-up and cool-down; max 3 HIIT sessions per week (high CNS demand)",
+    "aiPromptExample": "Describe the ideal hiit training experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hiit training plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Work-to-Rest Ratios",
+        "body": "Common HIIT ratios: 1:2 (30 sec work, 60 sec rest) for beginners, 1:1 (30 sec work, 30 sec rest) for intermediate, 2:1 (40 sec work, 20 sec rest) for advanced. The ratio determines the intensity - shorter rest periods mean higher cumulative fatigue. Beginners should start with longer rest to maintain form on each work interval.\nThe quality of the work interval matters more than the ratio: focus on maximum sustainable effort with perfect form on every work interval."
+      },
+      {
+        "heading": "EPOC: The Afterburn Effect",
+        "body": "Excess post-exercise oxygen consumption means your body continues to burn extra calories for 2-12 hours after HIIT as it restores oxygen levels, clears lactate, and repairs muscle tissue. This effect is significantly higher with HIIT than steady-state cardio, contributing 100-200 additional calories burned after the session."
+      },
+      {
+        "heading": "HIIT Injury Risks",
+        "body": "Common HIIT injuries include: patellar tendinopathy (from box jumps and burpees), rotator cuff strains (from explosive pressing movements), and lower back pain (from poor squat and hinge mechanics under fatigue). A trainer must watch form deterioration - the last 5 reps of a set are the most dangerous.\nYour Bouul trainer should stop a HIIT set immediately if your form breaks down, even if the interval is not complete."
+      },
+      {
+        "heading": "Frequency and Recovery",
+        "body": "HIIT places high demand on the central nervous system. Maximum 3 sessions per week with at least 24 hours between HIIT sessions. Recovery includes: adequate sleep (7-9 hours), light movement on rest days (walking, stretching), and proper nutrition (carbs for glycogen replenishment, protein for muscle repair)."
+      }
+    ]
+  },
+  {
+    "id": "rehab-training",
+    "tag": "personal-trainers",
+    "title": "Rehab and Recovery Training: Coming Back Stronger",
+    "subtitle": "How a personal trainer helps you recover from injury and return to exercise safely - without reinjury.",
+    "image": "/scenes/rehab-training.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can I train around an injury without making it worse?",
+    "problemBody": "Rehab-focused personal training bridges the gap between physiotherapy discharge and full return to sport or exercise. The trainer works with your physiotherapists guidelines to gradually rebuild strength, mobility, and confidence in the injured area. Sessions cost R250-R500 for 45-60 minutes in SA, reflecting the additional knowledge required. A good rehab trainer understands which movements to avoid and how to progress load safely.",
+    "bouulSolution": [
+      "Bouul rehab trainers have specific qualifications - look for REPS SA Level 3 or 4, or a degree in exercise science or biokinetics.",
+      "Bring your physio discharge notes to the first session so the trainer understands the specific injury and limitations.",
+      "Bouul Escrow protects you if the trainer ignores your injury limitations or causes aggravation of the injury."
+    ],
+    "partsNeeded": [
+      "Resistance bands (all resistance levels)",
+      "Foam roller, massage ball, and stretch strap",
+      "Light dumbbells and kettlebells for graded loading",
+      "Balance and proprioception tools (BOSU ball, wobble board)"
+    ],
+    "guidePricing": "R250-R500 per 45-60 min session; often covered by medical aid savings plans (check your scheme)",
+    "timeline": "45-60 min per session; 1-3 sessions per week depending on recovery phase",
+    "aiPromptExample": "Describe the ideal rehab training experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended rehab training plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Rehab Continuum",
+        "body": "Rehab training follows a progression: (1) pain-free range of motion, (2) isometric holds at the end range, (3) light resistance through full range, (4) increased load through the range, (5) sport-specific movement patterns, (6) return to full training. Each stage takes 1-4 weeks depending on the injury and individual healing rate.\nPain during exercise is a signal to reduce load or stop. No gain through pain applies to rehab training."
+      },
+      {
+        "heading": "Common Injuries Addressed",
+        "body": "SA personal trainers in rehab settings commonly work with: lower back pain (60% of clients), knee injuries (ACL reconstruction, patellofemoral pain), shoulder issues (rotator cuff, impingement, post-dislocation), and ankle sprains. Each injury has specific contraindicated movements that the trainer must know."
+      },
+      {
+        "heading": "The Pain-Monitoring Protocol",
+        "body": "A structured pain-monitoring approach: the trainer rates your pain on a 0-10 scale before, during, and after each exercise. Any increase of 2+ points during exercise triggers a load reduction. Any pain that persists 24 hours after a session indicates the load was too high. This systematic approach prevents reinjury."
+      },
+      {
+        "heading": "When to Go Back to Physio",
+        "body": "If you experience: sharp pain during a specific movement, swelling that persists 48+ hours, or loss of range of motion that was previously regained, stop training and return to your physiotherapist. The trainer should recognise these signs independently."
+      }
+    ]
+  },
+  {
+    "id": "online-coaching",
+    "tag": "personal-trainers",
+    "title": "Online Personal Training: Fitness Without the Gym",
+    "subtitle": "Remote coaching that works with your schedule - programme design, form checks via video, and accountability without travel.",
+    "image": "/scenes/online-coaching.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can online training really replace in-person sessions?",
+    "problemBody": "Online personal training involves receiving a customised training programme, nutrition guidance, and regular check-ins via an app or video platform. Sessions cost R150-R350 per week in SA (significantly less than in-person because the trainer can manage more clients). The key difference is accountability - you work independently and report progress. Best for: experienced exercisers who know basic form, people with home gyms, and those with unpredictable schedules.",
+    "bouulSolution": [
+      "Bouul online coaches must show client transformation photos and testimonials - demand is high and quality varies significantly.",
+      "A proper online coach provides a programme that adjusts based on your feedback, not a generic template they send to all clients.",
+      "Bouul Escrow protects you if the coach stops responding or provides generic, non-personalised programmes."
+    ],
+    "partsNeeded": [
+      "Home gym equipment (bands, dumbbells, mat) or gym access",
+      "Smartphone for filming exercise form and video calls",
+      "Fitness tracking app prescribed by the trainer",
+      "Weighing scale and measuring tape for progress tracking"
+    ],
+    "guidePricing": "R600-R1,400 per month for basic (programme + weekly check-in); R1,000-R2,500 per month for premium (video form checks + 2x weekly calls + nutrition tracking)",
+    "timeline": "Full programme delivered weekly; 30-60 min video calls weekly or biweekly depending on the package",
+    "aiPromptExample": "Describe the ideal online coaching experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended online coaching plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Form Checks via Video",
+        "body": "Your trainer reviews videos of your key lifts (squat, deadlift, bench press) uploaded through the coaching app. They provide specific corrections: your knees are caving during the squat ascend, or your shoulders are raising during the bench press. This is the most critical service an online coach provides.\nRecord from the side angle for squats and deadlifts (shows hip hinge depth). Record from the front for pressing movements."
+      },
+      {
+        "heading": "Programming vs Accountability",
+        "body": "The programming (the exercises, sets, and reps) is only half the value. The accountability (knowing someone is checking your log and will ask if you miss a session) is what drives consistent training. The best online coaches check in proactively - they message you first, not the other way around."
+      },
+      {
+        "heading": "Platform and Communication",
+        "body": "Most online coaching uses a dedicated app (Trainerize, TrueCoach, or similar) where workouts and nutrition logs are managed. Communication happens through in-app messaging, WhatsApp, or weekly video calls. Set expectations with your coach about response time (typically 24 hours for non-urgent messages)."
+      },
+      {
+        "heading": "When Online Coaching Isnt Enough",
+        "body": "Online coaching is not suitable for: complete beginners who need hands-on form correction, clients with injuries that need in-person assessment, or anyone who struggles with self-motivation without someone physically present. If you find yourself skipping sessions despite the online check-ins, consider switching to in-person."
+      }
+    ]
+  },
+  {
+    "id": "nutrition-coaching",
+    "tag": "personal-trainers",
+    "title": "Nutrition Coaching for Fitness: Fuel Your Training the Right Way",
+    "subtitle": "How a coach helps you align your eating with your fitness goals - not a diet, but a sustainable nutrition plan.",
+    "image": "/scenes/nutrition-coaching.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Do I really need a nutrition coach or can I use an app?",
+    "problemBody": "Nutrition coaching goes beyond generic calorie tracking apps. The coach creates a personalised eating plan that supports your training goals (muscle gain, fat loss, or performance), addresses your specific dietary preferences and restrictions, and provides ongoing adjustments based on progress. In SA, nutrition coaching sessions cost R200-R500 standalone or are bundled with personal training at R300-R600 combined per session.",
+    "bouulSolution": [
+      "Bouul nutrition coaches should have recognised certifications - look for REPS SA nutrition, Sports Science SA, or registered dietitian credentials.",
+      "A good coach does not give a generic meal plan - they work with what you already eat and adjust it.",
+      "Bouul Escrow protects you if the coach recommends unsafe calorie levels, detoxes, or eliminates entire food groups without medical reason."
+    ],
+    "partsNeeded": [
+      "Food tracking app (MyFitnessPal, MacroFactor, or similar)",
+      "Food scale for portion accuracy",
+      "Progress tracking: progress photos, measurements, and scale weight",
+      "Body composition scale (optional, for tracking muscle vs fat changes)"
+    ],
+    "guidePricing": "R200-R500 per standalone session; R300-R600 combined with training; R1,000-R2,000 for a 4-week nutrition coaching block",
+    "timeline": "45-60 min for initial consultation; 20-30 min for weekly check-ins",
+    "aiPromptExample": "Describe the ideal nutrition coaching experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended nutrition coaching plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Macronutrient Fundamentals",
+        "body": "Protein: 1.6-2.2g per kg body weight (muscle repair). Carbohydrates: 3-6g per kg (energy for training, varies by activity level). Fats: 0.8-1.2g per kg (hormone function, vitamin absorption). Your coach calculates these targets based on your goals and adjusts them as you progress.\nSA food labelling uses metric units (grams, kJ). One gram of protein or carbs = 17kJ. One gram of fat = 38kJ."
+      },
+      {
+        "heading": "Macro Tracking vs Intuitive Eating",
+        "body": "Macro tracking (measuring everything you eat) is most effective for the first 4-8 weeks to build awareness. After that, many clients transition to intuitive eating within a macro framework - they know what a correct portion looks like and dont need to weigh every meal. Your coach should guide this transition."
+      },
+      {
+        "heading": "Supplements That Actually Work",
+        "body": "Evidence-backed supplements for fitness: whey or plant protein (meeting protein targets), creatine monohydrate (3-5g/day for strength and power output), vitamin D (SA clients who work indoors and wear sunscreen - 70% are deficient), and omega-3s (inflammation management). Everything else is optional and should be coach-approved.\nYour Bouul coach should never sell you supplements - the recommendation should be independent of any commission."
+      },
+      {
+        "heading": "Eating for SA Lifestyles",
+        "body": "A good SA nutrition coach adapts to local foods: pap and sous, bunny chow, braai meat, biltong, and potjiekos can all fit into a balanced plan. The coach should show you how to portion these foods correctly, not tell you to eliminate them. Sustainability depends on your plan fitting your cultural and social eating patterns."
+      }
+    ]
+  }
+]

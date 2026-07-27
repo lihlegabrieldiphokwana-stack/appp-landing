@@ -1,0 +1,207 @@
+[
+  {
+    "id": "fuse_box_db_upgrade",
+    "tag": "Electrical Distribution",
+    "title": "DB Board Upgrade & Rewiring",
+    "subtitle": "How to book a certified electrician on Bouul for your distribution board upgrade, with Zola AI load assessment and SANS 10142 compliance.",
+    "image": "/scenes/electricians.png",
+    "readTime": "5 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "Your DB board trips constantly — the old wire fuses can't handle modern appliances and the house feels electrically unsafe.",
+    "problemBody": "Many South African homes still operate on old rewireable fuse boards with porcelain fuses and aluminium wiring. These systems were never designed to handle the load of modern appliances — geysers, air conditioners, pool pumps, electric ovens, and multiple home office setups. The result is frequent tripping, buzzing sounds from the DB box, warm circuit breakers, and in worst cases — electrical fires. SANS 10142 (the Wiring of Premises standard) requires all new installations and major upgrades to comply with modern safety requirements.",
+    "bouulSolution": [
+      "Select 'DB Board Upgrade' under Electricians on Bouul. Upload photos of your current DB board, list the appliances you run, and describe the tripping pattern.",
+      "Bouul matches you with a registered Electrician (Wireman's Licence — Installation Electrician) who is certified to issue a CoC for the upgraded board.",
+      "Zola AI analyses your photos and load list to size the correct main breaker, earth leakage unit, and circuit distribution for your household's actual consumption."
+    ],
+    "partsNeeded": [
+      "Main circuit breaker (60A, 80A, or 100A — sized to your supply)",
+      "Earth leakage unit (30mA sensitivity, SANS compliant)",
+      "MCBs (miniature circuit breakers) for each circuit — lighting, plugs, geyser, stove",
+      "Surge protection device (SPD) and copper busbar"
+    ],
+    "guidePricing": "R3,500 – R8,500",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Upload photos of your DB board (doors open), your meter box, and list your appliances. Say: 'Old wire fuse box, keeps tripping when the geyser, oven, and washing machine run at the same time. One of the porcelain fuses gets very hot.'",
+    "aiDiagnosisOutput": "Load Assessment: Current supply 40A, estimated peak demand 72A. Recommendation: Upgrade to 80A main breaker, 10-way earth leakage board. Circuits: 3x lighting, 2x plug, 1x geyser (dedicated 20A MCB), 1x stove, 1x oven. Hazard: Hot fuse signs of arcing — cable ends need trimming. Escrow Quote: R5,200 includes complete board replacement, surge protection, CoC.",
+    "escrowGuarantee": "Funds are released after you receive your Certificate of Compliance (COC) and confirm the board doesn't trip under normal load, the earth leakage test button works, and all circuits are labelled.",
+    "pirbStandard": "Registered Installation Electrician (Wireman's Licence) per SANS 10142-1. COC issued on completion. Surge protection per SANS 10142-1:2020 amendments. Work is registered with the Electrical Contracting Board of South Africa where applicable.",
+    "articleSections": [
+      { "heading": "Why Upgrade Your DB Board?", "body": "Old rewireable fuse boards are a fire risk. They lack earth leakage protection — meaning a live-to-earth fault won't trip the circuit, and you or your family could be electrocuted. Modern DB boards have earth leakage units that detect as little as 30mA of current leakage and trip within milliseconds. An upgrade also gives you dedicated circuits for high-load appliances, preventing the nuisance tripping that happens when a geyser and oven share the same circuit." },
+      { "heading": "Booking Your DB Upgrade on Bouul", "body": "Select 'Electricians' then 'DB Board Upgrade' on Bouul. Upload clear photos of your existing DB board — inside and out — plus your electricity meter box. Tell Bouul which appliances you run, when the tripping happens, and any unusual signs (hot wires, buzzing, burning smell). Bouul verifies every electrician's Wireman's Licence and CoC-issuing authority before they can accept your booking." },
+      { "heading": "Zola AI Load Assessment", "body": "Zola AI analyses your photos and appliance list to calculate your household's maximum demand per SANS 10142-1 tables. It identifies whether your supply cable from the municipality can handle the upgrade, checks for signs of overheated connections in your existing board, and produces a recommended circuit schedule. This means your electrician arrives with the correct breakers and board size — no second trips for forgotten parts." },
+      { "heading": "The Certificate of Compliance (COC)", "body": "A COC is a legal requirement under the Electrical Machinery Regulations of the Occupational Health and Safety Act. Every DB board upgrade must be certified. Your electrician provides the COC after testing: earth continuity, insulation resistance, earth leakage trip time, polarity, and circuit load balance. Bouul escrows your payment until the COC is uploaded and you confirm receipt." },
+      { "heading": "Escrow & Safety Guarantee", "body": "Your payment is held in escrow until the COC is issued and you've verified the board operates safely — no tripping under normal load, all circuits labelled, earth leakage test works. If the electrician's work fails an inspection, Bouul coordinates rectification at no extra cost." }
+    ]
+  },
+  {
+    "id": "electrical_fault_tracing",
+    "tag": "Fault Finding",
+    "title": "Electrical Fault Tracing & Repair",
+    "subtitle": "How to find and fix electrical faults in your home using Bouul and Zola AI circuit diagnostics.",
+    "image": "/scenes/electricians.png",
+    "readTime": "4 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "A plug point stopped working, lights flicker when the kettle turns on, or a circuit trips at random — you need an electrician to trace the fault.",
+    "problemBody": "Electrical faults are notoriously difficult to diagnose without the right equipment. A dead plug point could be a loose wire at the socket, a broken connection at the joint box, or a cable buried in the wall that's been nicked by a picture hook nail. Intermittent faults are worse — tripping only when it rains, or when the geyser kicks in. DIY fault-finding is dangerous without an insulated voltage tester and the knowledge of how circuits are wired.",
+    "bouulSolution": [
+      "Select 'Fault Finding' under Electricians on Bouul. Describe the symptoms — which circuit, when it happens, any patterns (rain, load, time of day).",
+      "Bouul matches you with a fault-finding specialist who carries a full diagnostic kit: multimeter, insulation resistance tester, earth loop impedance tester, and thermal camera.",
+      "Zola AI correlates your symptoms with common fault patterns to narrow the search area before the electrician arrives — reducing diagnostic time and cost."
+    ],
+    "partsNeeded": [
+      "Digital multimeter (True RMS, CAT III rated)",
+      "Insulation resistance tester (megger — 500V and 1000V ranges)",
+      "Earth loop impedance tester",
+      "Replacement switch, socket, or junction box and PVC-insulated cable"
+    ],
+    "guidePricing": "R450 – R1,800",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Upload a photo of the affected area and your DB board. Say: 'The plug points in the study don't work. The rest of the house is fine. It started after I drilled into the wall to mount a shelf. No visible damage to the cable.'",
+    "aiDiagnosisOutput": "Circuit: Socket outlet circuit C2 (study). Symptom: Dead sockets, no tripping. Likely Cause: Nailed cable — interrupted phase conductor only (neutral still intact, so no earth leakage trip). Location: Wall between study and passage, above shelf mounting height. Escrow Estimate: R720 includes diagnostic visit, cable repair, and socket testing.",
+    "escrowGuarantee": "Funds are released after you confirm the fault is resolved and all affected sockets/lights operate correctly. If the fault cannot be found within two hours of investigative work, the diagnostic fee is reduced by 50%.",
+    "pirbStandard": "Registered Electrician (Wireman's Licence) per SANS 10142-1. Insulation resistance test results provided. All repairs tested and documented.",
+    "articleSections": [
+      { "heading": "Common Electrical Faults in SA Homes", "body": "The most frequent electrical faults include: loose neutral connections at the DB board (causes flickering lights), damaged cables from drilling or nail-hooking, water ingress in outdoor junction boxes, corroded connections in older homes with aluminium wiring, and faulty appliances that trip the earth leakage. Load-shedding also exposes weak connections — the thermal cycling of cables heating and cooling can cause screws to loosen over time." },
+      { "heading": "Booking Fault Finding on Bouul", "body": "Select 'Fault Finding' under Electricians. Describe exactly what's happening — which circuit, what time of day, whether it happens only when it rains, and anything that changed recently (renovations, new appliances, drilling into walls). This context helps Bouul's matching system assign an electrician with the right diagnostic equipment for your specific type of fault." },
+      { "heading": "Zola AI Fault Pattern Analysis", "body": "Zola AI analyses your symptom description against a database of common fault patterns. It can distinguish between a dead neutral (half the plugs in a room work, half don't), a tripped earth leakage (all lights and plugs in zone are dead), and a phase imbalance (lights brighten and dim when appliances switch on). This narrows the electrician's diagnostic focus, reducing the time spent on general circuit testing." },
+      { "heading": "How the Electrician Traces the Fault", "body": "The electrician follows a systematic process: check the DB board for tripped breakers or loose connections, test voltage at the nearest working socket, isolate the affected circuit, and use a multimeter to check continuity and voltage along the circuit path. For buried cables, a cable locator traces the route to find nicks or breaks. Insulation resistance testing identifies degraded cables. The electrician explains each finding before proceeding with repairs." }
+    ]
+  },
+  {
+    "id": "lighting_installation",
+    "tag": "Lighting",
+    "title": "Lighting Installation & Fixture Replacement",
+    "subtitle": "How to install new lights, fans, or replace old fittings through Bouul with CoC-guaranteed safety.",
+    "image": "/scenes/electricians.png",
+    "readTime": "4 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "Your new pendant light or ceiling fan arrived, but the old wiring doesn't match the new fixture's terminals.",
+    "problemBody": "Installing a new light or ceiling fan seems like a simple job, but South African homes have varied wiring standards depending on the era they were built. A 1970s house may have old rubber-insulated wiring that cracks when moved. A new imported light fitting may not have the correct IP rating for a bathroom or outdoor application. A ceiling fan needs proper bracing to prevent wobble and noise. Incorrect installation can lead to short circuits, fires, or the fixture falling from the ceiling.",
+    "bouulSolution": [
+      "Select 'Lighting Installation' under Electricians on Bouul. Upload photos of the existing fitting, the ceiling space, and the new fixture's wiring diagram.",
+      "Bouul matches you with an electrician experienced with your type of fixture — including ceiling fans, chandeliers, downlights, and bathroom/IP-rated fittings.",
+      "Zola AI reviews the new fixture's specifications against your existing wiring to flag compatibility issues — voltage rating, load capacity, earthing requirements — before the electrician arrives."
+    ],
+    "partsNeeded": [
+      "Fixture mounting bracket and junction box (if not supplied with the light)",
+      "PVC-insulated electrical cable (1.5mm² for lighting circuits)",
+      "Wago lever connectors or screw terminal block",
+      "Ceiling fan brace bar (for fan installations on drywall ceilings)"
+    ],
+    "guidePricing": "R250 – R1,200",
+    "timeline": "Duration: 30 Min – 2 Hours",
+    "aiPromptExample": "Upload photos of the existing light fitting, the ceiling above, and the new light's specifications. Say: 'Replacing a single pendant light with a 6-light chandelier in the dining room. The existing cable is 0.75mm² — the new light draws 300W. Is that enough?'",
+    "aiDiagnosisOutput": "Fixture: 6-light chandelier (6 x 40W bulbs = 240W total). Existing cable: 0.75mm² rubber-insulated — undersized for this load. Recommendation: Replace with 1.5mm² PVC cable, install appropriate junction box, and add ceiling anchor point (chandelier weight 8kg). Escrow Quote: R580 includes cable replacement, junction box, fixture mounting, and testing.",
+    "escrowGuarantee": "Funds are released after you confirm the light works on all switches, there's no flicker, the fixture is securely mounted, and the earth connection is verified. New installations are covered by a 12-month workmanship warranty.",
+    "pirbStandard": "Registered Electrician per SANS 10142-1. CoC issued for new circuits. All lighting installed to correct IP rating per location (IP44+ for bathrooms, IP65+ for outdoors).",
+    "articleSections": [
+      { "heading": "Lighting Safety in South African Homes", "body": "Every year, electrical contractors report lighting-related hazards: undersized cables overheating when a larger fixture is fitted, old rubber insulation cracking when disturbed, and missing earth connections on metal light fittings. In bathrooms, standard IP20 downlights are a shock hazard — IP44-rated fittings are required for Zones 1 and 2. Outdoors, IP65-rated fittings prevent water ingress. A qualified electrician knows these requirements and ensures every installation is compliant." },
+      { "heading": "Booking Your Installation on Bouul", "body": "Under 'Electricians,' select 'Light Installation.' Upload photos of the existing fixture and ceiling — the electrician needs to see the wiring condition, ceiling type (drywall, plasterboard, or concrete), and any existing junction box. Also upload the new fixture's specifications (wattage, weight, IP rating if for wet areas). Bouul's matching algorithm assigns an electrician who's done similar installations." },
+      { "heading": "Zola AI Compatibility Check", "body": "Upload your new fixture's specs to Bouul, and Zola AI checks: is the existing cable size sufficient for the new load? Does the old junction box have enough capacity for the new connections? Is the ceiling bracing adequate for the weight? For ceiling fans, does the existing switch have a capacitor-rated switch for speed control? This upfront check means zero surprises when the electrician arrives." },
+      { "heading": "What the Installation Includes", "body": "The electrician isolates the circuit, removes the old fitting, checks the condition of the existing wiring, installs any needed junction box or mounting bracket, connects the new fixture with proper earth bonding, tests polarity and earth continuity, and confirms the fixture operates on all switches. Ceiling fan installations include balancing the blades to eliminate wobble." }
+    ]
+  },
+  {
+    "id": "geyser_timer_installation",
+    "tag": "Geyser Control",
+    "title": "Geyser Timer & Energy-Saving Installation",
+    "subtitle": "How to install a geyser timer or smart geyser controller through Bouul to cut your electricity bill.",
+    "image": "/scenes/electricians.png",
+    "readTime": "4 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "Your geyser is the biggest electricity user in the house, and it's heating water all day when nobody's home.",
+    "problemBody": "Electric geysers account for 30-50% of the average South African household electricity bill. A 150-litre geyser draws 3-4kW and runs for 2-4 hours per day just to maintain temperature. With Eskom's ever-increasing tariffs and load-shedding requiring off-peak scheduling, a geyser timer or smart controller is the single most effective energy-saving device you can install. A timer lets the geyser heat only when you need it — early morning and evening — potentially cutting R300-R600 per month from your bill.",
+    "bouulSolution": [
+      "Select 'Geyser Timer/Controller' under Electricians on Bouul. Upload a photo of your geyser, its DB breaker, and your current electricity bill if available.",
+      "Bouul matches you with an electrician who holds both a Wireman's Licence and is experienced with geyser timer and smart controller installations.",
+      "Zola AI analyses your hot water usage pattern based on your household size and typical schedule to recommend the optimal timer settings."
+    ],
+    "partsNeeded": [
+      "Geyser timer (digital or analogue — 20A rated for geyser load)",
+      "Smart geyser controller (WiFi-connected, Eskom load-shedding aware)",
+      "Contactor (30A+ rated, for geyser loads over 3kW) for smart controllers",
+      "PVC conduit, 2.5mm² or 4mm² cable, and DIN-rail mount"
+    ],
+    "guidePricing": "R650 – R2,200",
+    "timeline": "Duration: 1 – 2 Hours",
+    "aiPromptExample": "Upload photos of your DB board (geyser breaker), the geyser itself, and your Eskom bill showing time-of-use tariffs. Say: 'I have a 150L Kwikot geyser on a 20A breaker. I'm home 6-8 AM and 5-10 PM. I want the geyser to heat during off-peak hours only.'",
+    "aiDiagnosisOutput": "Setup: 150L geyser, 3kW element, 20A breaker on standard single-rate tariff. Recommended: Digital 7-day geyser timer (R650) set to heat 5:30-7:30 AM and 4:30-8:30 PM. Savings estimate: R350-R500/month. Escrow Quote: R950 includes timer supply and installation, cable check, and programming.",
+    "escrowGuarantee": "Funds are released after you confirm the geyser heats on schedule, the timer displays correct time, and the geyser operates normally during programmed periods without tripping the breaker.",
+    "pirbStandard": "Registered Electrician (Wireman's Licence). Installation per SANS 10142-1. Timer or controller rated for the geyser's full load current. COC not required for timer-only installations but covered under the existing geyser circuit CoC.",
+    "articleSections": [
+      { "heading": "Why You Need a Geyser Timer", "body": "A geyser doesn't need to run all day. With proper insulation, a well-lagged 150L geyser loses only about 1°C per hour. Heating it for 2-3 hours per day — split between morning and evening — is enough for a family of four. A timer or smart controller automates this. Smart controllers go further: they can detect load-shedding schedules and adjust heating times so you always have hot water when Eskom cuts power." },
+      { "heading": "Booking the Installation on Bouul", "body": "Under 'Electricians' select 'Geyser Timer.' Upload a photo of your DB board showing the geyser breaker label and rating, and a photo of the geyser itself. Bouul matches you with an electrician who has geyser timer experience and a valid Wireman's Licence. You'll see their rating for similar energy-saving installations." },
+      { "heading": "Zola AI Energy Usage Analysis", "body": "Tell Zola AI your household size, daily routine, and current electricity bill. Zola estimates your geyser's kWh consumption and suggests the optimal timer program. For smart controllers, Zola recommends models compatible with South African utilities (CBI Astute, Sonoff, or local brands) and configures them for Eskom load-shedding time slots." },
+      { "heading": "Installation and Savings", "body": "The electrician isolates the geyser circuit, installs the timer or smart controller in the DB board (or at the geyser for some models), wires it through the geyser contactor, and programs the heating schedule. Testing ensures the geyser doesn't run outside programmed hours. Most households recoup the installation cost in 2-3 months of electricity savings." }
+    ]
+  },
+  {
+    "id": "stove_oven_installation",
+    "tag": "Cooking Appliances",
+    "title": "Oven, Stove, and Hob Installation",
+    "subtitle": "How to safely connect your new electric or gas stove through Bouul with COC certification.",
+    "image": "/scenes/electricians.png",
+    "readTime": "4 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "Your new 8-plate stove arrived but the old wiring can't handle the load — and you need it connected before the weekend braai.",
+    "problemBody": "Connecting a stove or oven is a specialised electrical job. A standard electric stove draws 40-60A — more than your entire household lighting circuit. It requires 6mm² or 10mm² cable on a dedicated circuit breaker, properly rated connectors, and a neutral-earth bond that meets SANS 10142-1 requirements. Gas stoves add complexity: they need a gas-registered plumber for the gas connection AND an electrician for the ignition, oven fan, and internal light circuits. Incorrect stove connections cause fires and void insurance.",
+    "bouulSolution": [
+      "Select 'Stove/Oven Connection' under Electricians on Bouul. Upload photos of the old stove connection point, new stove's rating plate, and the DB board.",
+      "Bouul matches you with an electrician who has heavy-appliance connection experience and can issue a CoC for the dedicated stove circuit.",
+      "Zola AI checks the new stove's power rating against your existing wiring and breaker capacity to identify any upgrades needed before the electrician arrives."
+    ],
+    "partsNeeded": [
+      "Heavy-duty stove isolator switch (45A or 60A, double-pole)",
+      "PVC/SWA cable (6mm² for stoves up to 10kW, 10mm² for larger)",
+      "Stove connector block (brass, rated for 60A+ and high temperature)",
+      "Dedicated MCB (40A or 50A, Type C curve for inductive loads)"
+    ],
+    "guidePricing": "R550 – R2,500",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Upload photos of the new stove's rating plate, the wall connection point, and the DB board. Say: 'Replacing a standard 4-plate electric stove with a 6-burner gas hob + electric oven combination. The old stove was on a 32A breaker with 4mm² cable — I'm not sure if that's enough.'",
+    "aiDiagnosisOutput": "Appliance: Gas hob (6 burners — no electrical load) + electric oven (3.2kW). Existing: 4mm² cable, 32A breaker — sufficient for oven alone. Gas: Requires SAQCC gas-registered fitter for gas connection. Recommendation: Install 20A breaker for oven, run new 1.5mm² for oven ignition/fan if needed. Escrow Quote: R1,200 for electrical connection only. Gas connection quoted separately.",
+    "escrowGuarantee": "Funds are released after you confirm the stove operates on all plates/ovens, the isolator switch functions correctly, no breakers trip under full load, and you receive the CoC for the new circuit.",
+    "pirbStandard": "Registered Electrician per SANS 10142-1. Dedicated stove circuit required per SA wiring regulations. COC issued for all new circuits. Gas connections require SAQCC gas registration (separate professional).",
+    "articleSections": [
+      { "heading": "Stove Connection Is Not DIY", "body": "A stove circuit is one of the most demanding in any home. The high current (40-60A) means any loose connection generates enough heat to start a fire. The cable must be sized to the exact load, the breaker must have the right trip curve, and the neutral-earth bonding must meet SANS 10142-1 requirements. Insurance companies require a CoC for any stove installation — without it, a fire claim will be rejected." },
+      { "heading": "Booking on Bouul", "body": "Select 'Electricians' then 'Stove/Oven Connection.' Upload photos of your new appliance's rating plate (showing kW rating and voltage), the existing wall connection point, and your DB board. Bouul matches you with an electrician experienced in heavy-appliance connections and who can issue a CoC." },
+      { "heading": "Zola AI Compatibility Checker", "body": "Upload your stove's specs to Zola AI. It calculates: 'Your 12kW stove requires a 50A breaker and 10mm² cable — your existing 32A/4mm² setup needs a full circuit upgrade.' It identifies whether you need a gas-registered fitter alongside the electrician, and whether your Eskom supply can handle the additional load without a mains upgrade." },
+      { "heading": "What the Connection Includes", "body": "The electrician isolates the old circuit, runs new cable (surface-mounted in trunking or buried in conduit), installs a dedicated double-pole isolator switch near the stove position, connects the appliance, tests all functions (each hob, oven mode, timer), measures earth continuity and insulation resistance, and issues the CoC." }
+    ]
+  },
+  {
+    "id": "outdoor_security_lighting",
+    "tag": "Outdoor Electrical",
+    "title": "Outdoor & Security Lighting Installation",
+    "subtitle": "How to install security lights, garden lighting, or floodlights through Bouul with IP-rated weatherproof connections.",
+    "image": "/scenes/electricians.png",
+    "readTime": "4 min read",
+    "author": "Bouul Electrical Operations Team",
+    "problemHeadline": "Your yard is pitch black at night — no security lights, no garden path lighting, and you're tripping over hoses.",
+    "problemBody": "South African homes need good outdoor lighting for safety and security. Dark areas around your property create hiding spots. Poorly installed outdoor lights that aren't IP-rated or weatherproofed can short circuit in the rain, trip the earth leakage, or cause shock hazards. Running cable underground requires proper armoured cable and mechanical protection. A professional electrician ensures your outdoor lighting is safe, weatherproof, and correctly earthed.",
+    "bouulSolution": [
+      "Select 'Outdoor Lighting' under Electricians on Bouul. Upload photos of the areas you want lit, noting any existing outdoor power points.",
+      "Bouul matches you with an electrician experienced in outdoor electrical work — they carry IP65-rated fittings, armoured cable, and weatherproof junction boxes.",
+      "Zola AI reviews your space to recommend the optimal light positions, beam angles, and lumens for security vs ambient lighting."
+    ],
+    "partsNeeded": [
+      "Security floodlight (LED — 20W, 50W, or 100W with PIR motion sensor)",
+      "SWA (steel wire armoured) cable for underground runs",
+      "Weatherproof IP65 junction box and outdoor-rated PVC conduit",
+      "Photocell sensor or smart timer for automatic dusk/dawn operation"
+    ],
+    "guidePricing": "R450 – R3,500",
+    "timeline": "Duration: 1 – 4 Hours",
+    "aiPromptExample": "Upload photos of your yard from different angles after dark. Say: 'I need 2 floodlights — one at the back door, one at the gate. Also want pathway lights along the driveway. There's an existing outdoor plug point on the back wall I can tap into.'",
+    "aiDiagnosisOutput": "Assessment: Back door area dark (motion sensor needed, IP65 LED 50W). Gate approach (100m from house — requires armoured cable, dedicated circuit). Driveway (12m path — low-voltage LED pathway lights, transformer). Existing outdoor plug: on a 20A breaker, adequate for 2 floodlights. Escrow Quote: R2,800 includes 2x floodlights + PIR sensors, 6x pathway lights, SWA cable run, photocell, and all weatherproof connections.",
+    "escrowGuarantee": "Funds are released after you confirm all lights function correctly, motion sensors trigger at the correct distance and time setting, weatherproof covers are sealed, and the earth leakage holds after a rain test.",
+    "pirbStandard": "Registered Electrician per SANS 10142-1 (Section 7 — External Installations). IP-rated fittings per the location (IP65 minimum for exposed outdoor, IP44 for under-cover). All underground cables mechanically protected. COC issued for new outdoor circuits.",
+    "articleSections": [
+      { "heading": "Why Professional Outdoor Lighting Matters", "body": "Outdoor electricity is exposed to rain, heat, garden watering, and physical damage. A DIY connection using a standard indoor junction box outdoors will fill with water within months, causing a short circuit. Armoured cable must be buried at the correct depth (at least 600mm for SWA, protected by warning tape). Every outdoor connection point must be IP65-rated — even if it's under a roof overhang. A professional electrician knows these standards." },
+      { "heading": "Booking Your Outdoor Installation on Bouul", "body": "Select 'Electricians' then 'Outdoor Lighting.' Upload daytime photos of the areas showing where you want lights, plus any photos after dark showing the current darkness. Mention if you have existing outdoor plug points or if new circuits need to be run from the DB board. Bouul matches you with electricians who regularly do outdoor work and carry SWA cable and weatherproof fittings." },
+      { "heading": "Zola AI Lighting Design", "body": "Upload photos of your property, and Zola AI analyses the space: driveway length, doorway positions, gate distance, and existing light sources. It recommends beam angles (120° flood for wide area, 30° spot for pathways), lumen output (800-1000 lm for security, 200-400 lm for ambient), and PIR trigger range. For solar options, it checks your roof's solar exposure using your address." },
+      { "heading": "Escrow & Warranty", "body": "Payment is held in escrow until you've tested the lights over one night — confirming motion sensors trigger correctly, photocells turn lights on at dusk, and no rain-induced tripping occurs. All outdoor electrical work carries a 12-month workmanship warranty through Bouul." }
+    ]
+  }
+]

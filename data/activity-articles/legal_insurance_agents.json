@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ins_short_term_home_auto",
+    "tag": "Home & Auto",
+    "title": "Comprehensive Home Contents & Vehicle Insurance",
+    "subtitle": "Tailored short-term insurance coverage for cars, home contents, and building structures",
+    "image": "/scenes/car_wash.png",
+    "readTime": "4 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Uninsured vehicle accidents or home burglaries cause catastrophic out-of-pocket losses",
+    "problemBody": "Low-cost online policies often hide high excesses, un-covered items, or strict alarm conditions.",
+    "bouulSolution": [
+      "FAIS accredited insurance broker audits risks and compares quotes from top SA insurers",
+      "Structuring combined home, building, and auto policies to maximize multi-product discounts",
+      "Escrow released after delivery of policy schedule and comparison summary"
+    ],
+    "partsNeeded": [
+      "Short-term insurance comparative software",
+      "Inventory asset calculator",
+      "Excess structure comparison table"
+    ],
+    "guidePricing": "R0 (Broker Commission) / R850 Fee",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Book insurance audit: 'Compare comprehensive auto & home contents insurance for 2 cars and house.'",
+    "aiDiagnosisOutput": "Quote Comparison: Old Mutual vs Santam vs Discovery. Savings: R650/month. Escrow: R850.",
+    "escrowGuarantee": "Escrow released upon delivery of signed policy schedule.",
+    "pirbStandard": "FSCA Licensed Financial Services Provider (FSP).",
+    "articleSections": [
+      {
+        "heading": "Un-Capped Roadside Assistance",
+        "body": "Ensuring vehicle policies include 24/7 flatbed towing and emergency breakdown cover."
+      },
+      {
+        "heading": "Home Contents Replacement Value",
+        "body": "Calculating true replacement costs rather than depreciated value to avoid under-insurance penalties."
+      }
+    ]
+  },
+  {
+    "id": "ins_life_disability_cover",
+    "tag": "Life & Disability",
+    "title": "Life Cover, Disability & Critical Illness Insurance",
+    "subtitle": "Protecting your family's financial future against death, disability, or dread disease",
+    "image": "/scenes/elderly_care.png",
+    "readTime": "5 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Losing the family breadwinner without life insurance leaves dependents unable to pay mortgage or school fees",
+    "problemBody": "Permanent disability or cancer diagnosis stops income while medical bills escalate.",
+    "bouulSolution": [
+      "Certified financial advisor calculates exact life cover shortfall and dread disease needs",
+      "Comparing lump-sum disability vs monthly income protection policies across major SA life assurers",
+      "Escrow released after policy issuance and delivery of compliance advice record"
+    ],
+    "partsNeeded": [
+      "Life cover shortfall calculator",
+      "Income protection needs analyzer",
+      "Medical underwriting questionnaire"
+    ],
+    "guidePricing": "R0 (Broker Commission) / R1,200 Fee",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Book life cover audit: 'Structure R4m life cover and R2m dread disease cover for young family.'",
+    "aiDiagnosisOutput": "Coverage: R4m Life + R2m Severe Illness + R35k/mo Income Protection. Escrow: R1,200.",
+    "escrowGuarantee": "Escrow released upon policy contract delivery.",
+    "pirbStandard": "FSCA Registered FSP & Life Assurance Specialist.",
+    "articleSections": [
+      {
+        "heading": "Occupational Income Protection",
+        "body": "Income protection policies pay up to 75% of your monthly salary if illness prevents you working."
+      },
+      {
+        "heading": "Dread Disease Tiered Payouts",
+        "body": "Critical illness cover pays out 100% upon diagnosis of cancer, heart attack, or stroke."
+      }
+    ]
+  },
+  {
+    "id": "ins_commercial_business_risk",
+    "tag": "Business Insurance",
+    "title": "Commercial Business, Stock & Liability Insurance",
+    "subtitle": "Comprehensive business insurance covering plant, machinery, stock, and public liability",
+    "image": "/scenes/office_cleaning.png",
+    "readTime": "5 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Fire, theft, or public liability claims can bankrupt an uninsured business overnight",
+    "problemBody": "Standard business policies often exclude specialized risks like machinery breakdown or goods-in-transit.",
+    "bouulSolution": [
+      "Commercial insurance broker conducts on-site risk assessment for plant, stock, and office assets",
+      "Structuring Public Liability, Business Interruption, and Fidelity Guarantee policies",
+      "Escrow released after policy schedule issuance"
+    ],
+    "partsNeeded": [
+      "Commercial risk audit checklist",
+      "Business interruption calculator",
+      "Public liability policy terms"
+    ],
+    "guidePricing": "R1,500 – R5,500",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Quote commercial insurance: 'Comprehensive policy for manufacturing plant with R5m machinery.'",
+    "aiDiagnosisOutput": "Scope: R5m Machinery + R2m Stock + R10m Public Liability + Business Interruption. Escrow: R3,500.",
+    "escrowGuarantee": "Escrow released after policy contract delivery.",
+    "pirbStandard": "FSCA Licensed Commercial FSP.",
+    "articleSections": [
+      {
+        "heading": "Business Interruption Continuity",
+        "body": "Covers fixed overhead costs and lost gross profit while your premises are restored after a fire."
+      },
+      {
+        "heading": "Public Liability Shield",
+        "body": "Protects your business against multi-million Rand third-party injury or property damage claims."
+      }
+    ]
+  },
+  {
+    "id": "ins_medical_aid_gap",
+    "tag": "Medical Aid & Gap",
+    "title": "Medical Aid Scheme & Gap Cover Selection",
+    "subtitle": "Navigating medical aid options, hospital plans, and gap cover policies",
+    "image": "/scenes/nurses.png",
+    "readTime": "4 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Hospital co-payments and specialist fee shortfalls leave patients with massive unexpected medical bills",
+    "problemBody": "Choosing the wrong medical aid option leads to exhausted savings accounts by mid-year.",
+    "bouulSolution": [
+      "Accredited healthcare consultant compares Discovery, Momentum, and Bonitas options for your family",
+      "Structuring Gap Cover to pay up to 500% of tariff shortfalls for in-hospital procedures",
+      "Escrow released after medical scheme membership confirmation"
+    ],
+    "partsNeeded": [
+      "Medical scheme option comparison tool",
+      "Gap cover tariff calculator",
+      "Chronic medicine benefit guide"
+    ],
+    "guidePricing": "R0 (Scheme Commission) / R450 Fee",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Book medical aid advice: 'Compare family medical aid hospital plans with gap cover.'",
+    "aiDiagnosisOutput": "Recommendation: Comprehensive Hospital Plan + 500% Gap Cover. Savings: R800/mo. Escrow: R450.",
+    "escrowGuarantee": "Escrow released upon membership card delivery.",
+    "pirbStandard": "Council for Medical Schemes (CMS) Accredited Broker.",
+    "articleSections": [
+      {
+        "heading": "500% Tariff Gap Protection",
+        "body": "Gap cover pays the difference when private specialists charge 500% above medical scheme rates."
+      },
+      {
+        "heading": "Chronic Medication Registration",
+        "body": "Ensuring pre-existing chronic conditions are registered under Prescribed Minimum Benefits (PMB)."
+      }
+    ]
+  },
+  {
+    "id": "ins_cyber_liability_insurance",
+    "tag": "Cyber Insurance",
+    "title": "Cyber Risk & Data Breach Insurance",
+    "subtitle": "Protecting businesses against ransomware extortion, data breach liabilities, and POPIA fines",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Cyber attacks and POPIA data breach fines can cause severe financial and reputational damage",
+    "problemBody": "Standard commercial policies explicitly exclude losses caused by ransomware or phishing.",
+    "bouulSolution": [
+      "Specialized cyber broker structures coverage for data restoration, extortion pay, and POPIA fines",
+      "Includes 24/7 IT forensic incident response team coverage",
+      "Escrow released after policy contract delivery"
+    ],
+    "partsNeeded": [
+      "Cyber risk assessment questionnaire",
+      "POPIA liability coverage schedule",
+      "IT incident response SLA"
+    ],
+    "guidePricing": "R2,500 – R8,500",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Quote cyber insurance: 'Cyber liability policy for 20-employee e-commerce company.'",
+    "aiDiagnosisOutput": "Coverage: R5m Cyber Extortion + R2m POPIA Regulatory Defense + IT Forensics. Escrow: R4,500.",
+    "escrowGuarantee": "Escrow released upon policy contract delivery.",
+    "pirbStandard": "FSCA Licensed Specialist FSP.",
+    "articleSections": [
+      {
+        "heading": "24/7 IT Forensic Incident Team",
+        "body": "Policies provide immediate access to certified ethical hackers to contain active breaches."
+      },
+      {
+        "heading": "POPIA Regulatory Fine Coverage",
+        "body": "Covers legal defense costs and administrative fines imposed under POPIA regulations."
+      }
+    ]
+  },
+  {
+    "id": "ins_engineering_contractor_risk",
+    "tag": "Contractors Risk",
+    "title": "Contractors All Risk (CAR) & Plant Insurance",
+    "subtitle": "Short-term insurance for construction sites, earthmoving equipment, and building projects",
+    "image": "/scenes/builders.png",
+    "readTime": "5 min read",
+    "author": "Bouul Insurance Team",
+    "problemHeadline": "Storm damage or theft of building materials on an active construction site halts projects",
+    "problemBody": "Property owners and main contractors face severe joint liability for site accidents.",
+    "bouulSolution": [
+      "Specialized engineering broker structures Contractors All Risk (CAR) policies per JBCC contracts",
+      "Covers plant, hired-in equipment, surrounding property damage, and storm washouts",
+      "Escrow released after CAR policy certificate delivery"
+    ],
+    "partsNeeded": [
+      "JBCC contract insurance checklist",
+      "Plant & equipment schedule",
+      "Site risk assessment form"
+    ],
+    "guidePricing": "R2,500 – R12,000",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Quote CAR insurance: 'Contractors All Risk policy for R8m residential building project.'",
+    "aiDiagnosisOutput": "Scope: R8m Contract Value + R10m Public Liability + Plant Cover. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released after CAR certificate delivery.",
+    "pirbStandard": "FSCA Licensed Engineering FSP.",
+    "articleSections": [
+      {
+        "heading": "JBCC Contract Compliance",
+        "body": "CAR policies satisfy all insurance requirements under JBCC Principal Building Agreements."
+      },
+      {
+        "heading": "Hired-In Plant Protection",
+        "body": "Covers expensive excavators and scaffolding against theft, overturn, and operator error."
+      }
+    ]
+  }
+]

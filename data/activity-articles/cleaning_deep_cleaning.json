@@ -1,0 +1,278 @@
+[
+  {
+    "id": "spring_clean_full_home",
+    "tag": "Deep Cleaning",
+    "title": "Full Home Spring Clean",
+    "subtitle": "Comprehensive top-to-bottom cleaning that resets your entire home for the new season",
+    "image": "/scenes/cleaning_spring_clean.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Routine weekly cleaning misses the accumulations of months in every corner of your home",
+    "problemBody": "Over months and seasons, homes accumulate a surprising depth of grime in places that weekly cleaning never reaches. Behind furniture, window tracks, inside cabinets, on top of tall furniture, under beds, behind appliances, and in every crevice. The summer rainfall season in South Africa brings increased humidity that accelerates mould growth, while the dry Highveld winter leaves a fine layer of dust on every elevated surface. Standard weekly cleaning cannot address these seasonal accumulations — only a systematic spring clean can reset the home to a baseline of cleanliness.",
+    "bouulSolution": [
+      "Systematic room-by-room, top-to-bottom deep clean: every surface, every corner, every crevice",
+      "Furniture moved to clean behind and underneath, all items removed from surfaces and returned",
+      "Included: carpet spot cleaning, window cleaning (interior), baseboard washing, light fixture cleaning"
+    ],
+    "partsNeeded": [
+      "Multi-surface cleaning kit (HASA-approved chemicals for each surface type)",
+      "Extendable duster, step ladder, microfiber cloths in colour-coded system",
+      "HEPA vacuum with crevice, upholstery and hard-floor attachments",
+      "Steam cleaner for grout, tile and sealed surfaces"
+    ],
+    "guidePricing": "R 600 – R 1,800 (1-bedroom apartment to 4-bedroom house)",
+    "timeline": "3–8 hours depending on home size and soil level; typically over a full day",
+    "aiPromptExample": "\"Describe a full home spring cleaning protocol for a 3-bedroom South African home, covering all rooms from ceiling to floor, with seasonal considerations for post-winter cleaning.\"",
+    "aiDiagnosisOutput": "\"Dust layer visible on ceiling fan blades, light fittings and top of cabinets. Window tracks have compacted dirt and mould. Behind the fridge and stove: grease residue and food debris. Mattress stains and dust mite accumulations in bedrooms. Recommended: full top-to-bottom protocol with steam treatment for high-biofilm areas and HEPA vacuum for allergen removal.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released only after you complete a room-by-room walkthrough confirming the standard",
+    "pirbStandard": "HASA deep cleaning standard; SANS 1828:2018 for all chemical usage; SANS 10160 structural cleaning safety",
+    "articleSections": [
+      {
+        "heading": "The Top-to-Bottom Principle",
+        "body": "Professional spring cleaning follows a strict top-to-bottom sequence. We start at the highest point in each room — ceiling cobwebs, light fittings, ceiling fans — and work down to skirting boards and finally floors. This ensures that dust and debris dislodged from above are captured by the later cleaning steps. Each room is fully completed before moving to the next. The typical order is: bedrooms (least contaminated) first, then living areas, then kitchen, then bathrooms (most contaminated) last. This prevents cross-contamination from bathroom bacteria to bedroom surfaces."
+      },
+      {
+        "heading": "Behind and Under Everything",
+        "body": "The hallmark of a true spring clean is that nothing remains untouched. Furniture is pulled away from walls, beds are moved from their headboard positions, and large appliances are slid out. Behind the fridge: years of dust, hardened food spills and sometimes forgotten items. Under the bed: dust bunnies, lost socks, pet hair and dust mite colonies. Behind the sofa: crumbs, coins, pens and a thick layer of dust. These areas are vacuumed, wiped and the floors washed before the furniture is returned and positioned exactly as it was."
+      },
+      {
+        "heading": "Seasonal Considerations for SA",
+        "body": "Spring cleaning in South Africa has specific seasonal considerations. After the Highveld winter (May–August), homes have accumulated months of dry-season dust and closed-window stagnation — this calls for particular attention to bedding, upholstery and curtains. After summer rainfall (October–March), homes in coastal regions and Gauteng may show moisture-related mould on window frames and in bathrooms. Our spring clean protocol automatically adjusts the focus areas based on your location and the current season, as tracked by the Bouul app."
+      },
+      {
+        "heading": "Post-Clean Maintenance Schedule",
+        "body": "After a full spring clean, we recommend a maintenance schedule that preserves the baseline. The Bouul app schedules your next seasonal deep clean (summer, autumn, winter focus) and provides weekly and monthly maintenance checklists that you or your regular cleaner can follow. We also offer a quarterly half-day touch-up service between spring cleans that focuses on the most heavily used areas of the home, keeping them at the spring-clean standard until the next full service."
+      }
+    ]
+  },
+  {
+    "id": "oven_deep_cleaning",
+    "tag": "Deep Cleaning",
+    "title": "Oven and Hob Deep Cleaning",
+    "subtitle": "Remove baked-on grease, carbonised food and burnt residue from your cooking appliances",
+    "image": "/scenes/cleaning_oven.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Oven interiors accumulate carbonised food that affects cooking performance and poses a fire risk",
+    "problemBody": "Every time the oven is used, a thin layer of food residue carbonises onto the interior surfaces. Over months, this builds into a thick, smoky crust that affects heat distribution, causes uneven cooking, and creates unpleasant smoke and smells when the oven is preheated. In South African homes where roasts, baked goods and braai leftovers are frequently reheated in the oven, this accumulation is particularly fast. Grease trapped in the oven door gap and on the hob surface also poses a fire risk — the South African Fire and Rescue Services report that kitchen fires are among the most common residential fire types.",
+    "bouulSolution": [
+      "Oven interior: all racks removed and soaked, interior sprayed with non-caustic oven cleaner, 20-minute dwell, then wiped and rinsed",
+      "Oven door: glass panels separated (where possible) and cleaned, gasket carefully wiped",
+      "Hob: gas burners disassembled and cleaned, ceramic hob scraped and polished, controls sanitised"
+    ],
+    "partsNeeded": [
+      "Non-caustic oven cleaning gel (SABS-approved)",
+      "Ceramic hob scraper and polish",
+      "Stainless steel cleaner",
+      "Microfiber cloths (lint-free for glass)"
+    ],
+    "guidePricing": "R 250 – R 500 (single oven to double oven with hob)",
+    "timeline": "60–120 minutes depending on oven type and soil level",
+    "aiPromptExample": "\"Describe a deep cleaning procedure for a double oven with a gas hob in a South African home, including oven door glass separation and burner disassembly.\"",
+    "aiDiagnosisOutput": "\"Carbonised food residue 3–5mm thick in oven base and rear wall. Oven door inner glass coated with grease film. Gas hob burners have clogged ports from fat residue. Ceramic hob has burnt-on spill rings. Recommended: non-caustic gel oven cleaner with extended dwell, burner cap soak in degreasing solution, ceramic hob polish after scraping.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when oven interior is residue-free, hob is streak-free and all gas burners light evenly",
+    "pirbStandard": "SANS 1828:2018 chemical safety; SANS 10106 (gas appliance safety); HASA oven cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "Oven Chemistry: Why It's Hard to Clean",
+        "body": "When food spills in an oven, the heat chemically transforms the residue through polymerisation — a process where organic molecules form long, carbon-based chains that bond strongly to the oven surface. This is the same chemical process that creates cast iron seasoning. Standard cleaning wipes cannot break these carbon chains. Our non-caustic oven cleaning gel contains alkaline chemicals that specifically target the polymerised bonds, breaking them down for easy removal without the dangerous fumes of traditional caustic oven cleaners. The gel is food-safe after rinsing and leaves no chemical residue."
+      },
+      {
+        "heading": "Oven Door Glass: The Hidden Grease",
+        "body": "The oven door glass traps grease between its panes, visible as a brown film that doesn't look like it's on the surface. Our technicians can separate the door panels on most oven models (manufacturer-dependent) to access the internal glass surface. For ovens where the door cannot be fully disassembled, we use a specialised tool with a flexible cleaning head that reaches the internal surface through the ventilation gap. The glass is cleaned with a degreasing agent followed by a streak-free glass polish. The door seal (gasket) is carefully cleaned to avoid damaging its compressible structure."
+      },
+      {
+        "heading": "Gas Hob Burner Maintenance",
+        "body": "South African homes commonly use gas hobs, and the burners require specific maintenance. The burner cap has small ports (gas jets) that can become clogged with boiled-over fat, food debris and cleaning residue. Clogged ports cause uneven flames, yellow tipping (which produces carbon monoxide), and inefficient gas combustion. Our cleaning involves removing each burner cap and ring, soaking them in hot degreasing solution, scrubbing with a brass brush (which won't damage the ports), rinsing and drying completely before reassembly. We then test that each burner lights evenly with a clean blue flame."
+      },
+      {
+        "heading": "After-Cleaning Maintenance",
+        "body": "After a professional oven clean, you can extend the results by using an oven liner (a PTFE sheet placed on the bottom rack) to catch future spills. Wipe spills as soon as the oven has cooled, before they carbonise. For the ceramic hob, use only the correct hob cleaner and a dedicated sponge — general kitchen cleaners can damage the glass-ceramic surface. The Bouul app schedules your next oven deep clean based on your cooking frequency, typically every 3–6 months for active kitchens."
+      }
+    ]
+  },
+  {
+    "id": "fridge_defrost_and_deep_clean",
+    "tag": "Deep Cleaning",
+    "title": "Fridge Defrost and Deep Clean",
+    "subtitle": "Eliminate odours, mould and expired food for a hygienic and efficient refrigerator",
+    "image": "/scenes/cleaning_fridge.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Fridges accumulate spills, mould and bacteria that contaminate food and waste electricity",
+    "problemBody": "The refrigerator is the most neglected appliance in most homes. Spilled milk, fruit juices and meat juices drip onto shelves, into drawers and down to the bottom of the fridge, where they dry into biofilm that harbours Listeria, Salmonella and mould. A thick layer of frost in the freezer section reduces cooling efficiency by up to 30%, increasing electricity consumption. In South Africa, where load-shedding causes fridge defrost cycles to be interrupted, frost buildup is accelerated, and food spoilage during power outages leaves lingering odours that are difficult to remove.",
+    "bouulSolution": [
+      "Fridge emptied, all food inspected for expiry, shelves and drawers removed and washed in warm soapy water",
+      "Interior surfaces wiped with food-safe disinfectant, seals cleaned of mould, coils vacuumed",
+      "Freezer defrosted (manual units), frost removed, interior cleaned and appliance restarted"
+    ],
+    "partsNeeded": [
+      "Food-safe disinfectant (SABS 1828:2018)",
+      "Baking soda paste for odour absorption",
+      "Coil cleaning brush and vacuum attachment",
+      "Microfiber cloths (designated for food-contact surfaces)"
+    ],
+    "guidePricing": "R 200 – R 400 (single fridge to double-door American style)",
+    "timeline": "45–90 minutes depending on size and frost level (includes defrost time)",
+    "aiPromptExample": "\"Describe a refrigerator deep cleaning procedure for a South African home with a side-by-side fridge-freezer, including defrosting, coil cleaning and odour elimination.\"",
+    "aiDiagnosisOutput": "\"Spilled fruit juice in bottom drawer with visible mould growth. Freezer has 15mm frost layer on evaporator coils (estimated 25% efficiency loss). Condenser coil has 3mm dust layer (overheating risk). Rubber door seals show black mould on bottom section. Recommended: complete defrost, food-safe disinfectant of all surfaces, condenser coil vacuum, and baking soda odour absorber placement.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when fridge is clean inside and out, odour-free, and condenser coils are clear",
+    "pirbStandard": "SANS 1828:2018 food-contact surface cleaning; HASA refrigerator sanitisation protocol; DOE energy efficiency recommendation",
+    "articleSections": [
+      {
+        "heading": "The Fridge Microbiology",
+        "body": "The cold, humid environment of a refrigerator is a surprisingly effective breeding ground for certain bacteria. Listeria monocytogenes can grow at refrigerator temperatures and is particularly dangerous for pregnant women and immunocompromised individuals. Raw meat juices that pool on the bottom shelf and fruit residues in drawers provide the nutrients for bacterial growth. Our cleaning protocol uses a food-safe disinfectant with a minimum 5-minute contact time on all interior surfaces, ensuring these psychrotrophic (cold-loving) bacteria are eliminated. All drawers and shelves are removed and washed in 45°C soapy water before being sanitised."
+      },
+      {
+        "heading": "Load-Shedding Impact on Fridges",
+        "body": "South Africa's load-shedding has a measurable impact on refrigerator performance. Each power interruption causes the fridge's internal temperature to rise above 8°C for 2–4 hours, accelerating bacterial growth and food spoilage. The compressor then has to work harder to cool back down, increasing electricity consumption. Frequent power loss also causes frost buildup in freezers, as the defrost cycle is interrupted and manual defrost is required more often. Our deep cleaning includes checking the door seals for gaps (which worsen temperature loss) and cleaning the condenser coils (which improve cooling efficiency and reduce recovery time after power loss)."
+      },
+      {
+        "heading": "Condenser Coil Cleaning",
+        "body": "The condenser coils (usually located at the back or bottom of the fridge) dissipate heat from the refrigeration cycle. When these coils are coated in dust — common in South African homes where open windows let in dust — the fridge has to work significantly harder to maintain temperature. Clean coils can reduce energy consumption by 5–15% and extend the compressor life. Our service includes pulling the fridge away from the wall, thoroughly vacuuming the coils with a brush attachment, cleaning the coil fan blade, and ensuring adequate ventilation space around the unit. We recommend coil cleaning every 6 months."
+      },
+      {
+        "heading": "Odour Elimination",
+        "body": "Fridge odours are caused by bacteria metabolising food residues and producing volatile organic compounds (VOCs). Traditional baking soda boxes absorb some odours but do not eliminate the source. Our approach: after cleaning all surfaces, we place an activated charcoal odour absorber that chemically binds VOCs. For persistent odours from spoiled meat or dairy spills, we wipe the interior with a diluted vinegar solution (which neutralises alkaline odour compounds) followed by the standard disinfectant. The Bouul app reminds you when your activated charcoal absorber needs replacing."
+      }
+    ]
+  },
+  {
+    "id": "window_tracks_and_frames",
+    "tag": "Deep Cleaning",
+    "title": "Window Track and Frame Deep Cleaning",
+    "subtitle": "Remove years of compacted dirt from the most neglected part of your windows",
+    "image": "/scenes/cleaning_window_tracks.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Window tracks trap dirt, mould and insects that stain frames and damage sliding mechanisms",
+    "problemBody": "Window tracks are arguably the most neglected area in any home cleaning routine. The narrow channels collect dust, pollen, dead insects, mould spores and moisture that compact into a dark, sticky sludge. Over time, this residue causes sliding windows and doors to stick, aluminium frames to pit and corrode, and mould to spread from the track to the surrounding wall. In South Africa, where many homes have aluminium sliding windows and doors, the track mechanism is exposed to dust from open windows, moisture from summer rains, and mineral deposits from hard water — a combination that accelerates track degradation.",
+    "bouulSolution": [
+      "All loose debris vacuumed from tracks with crevice tool, then scrubbed with narrow track brush and degreaser",
+      "Sliding windows/doors removed where possible to clean the bottom track channel and roller wheels",
+      "Track lubricated with silicone spray after cleaning, frame wiped and polished"
+    ],
+    "partsNeeded": [
+      "Window track cleaning brush (narrow bristle)",
+      "Degreasing cleaner suitable for aluminium/uPVC",
+      "Silicone spray lubricant for moving parts",
+      "Microfiber cloths for frames and glass"
+    ],
+    "guidePricing": "R 120 – R 250 (up to 6 standard windows or sliding doors)",
+    "timeline": "30–60 minutes for a full home's window tracks",
+    "aiPromptExample": "\"Describe a window track cleaning procedure for a South African home with aluminium sliding windows, including track debris removal, degreasing and lubrication.\"",
+    "aiDiagnosisOutput": "\"Window tracks contain compacted dust, dead insects and mould growth. Sliding mechanism is stiff due to debris in roller channel. Aluminium frames show early pitting corrosion from moisture trapped against track seal. Recommended: full track extraction with crevice tool, degreaser soak and brush scrub, silicone lubricant on rollers, and annual application of aluminium protectant.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all tracks are debris-free, frames are clean, and sliding windows/doors operate smoothly",
+    "pirbStandard": "HASA deep cleaning standard for window frames; SANS 10400 window performance; SANS 1828 chemical safety",
+    "articleSections": [
+      {
+        "heading": "Why Window Tracks Get So Dirty",
+        "body": "Window tracks are the lowest point in the window system, and everything that enters through an open window eventually lands there. Dust particles too fine to be visible settle and compact. Rainwater carries dissolved minerals and pollen into the track, where the water evaporates and leaves the minerals behind. Insects are trapped by the window's sliding mechanism. The track also provides a perfect microclimate for mould — warm, damp and protected from sunlight. The result is a compacted sludge that combines all these elements, often black with mould and stiff with mineral deposits."
+      },
+      {
+        "heading": "Track Cleaning Technique",
+        "body": "Our track cleaning begins with dry extraction: a crevice tool on a HEPA vacuum removes all loose debris. We then apply a degreasing spray specifically formulated for aluminium or uPVC (never bleach on metal frames, which causes pitting). The degreaser is agitated with a narrow-bristle track brush that reaches into every corner of the channel. After a brief dwell, the loosened soil is vacuumed again. For stubborn deposits, a steam cleaner with a pinpoint nozzle blasts the residue loose. The track is then wiped dry with a microfiber cloth, and the frame is wiped clean with a damp cloth."
+      },
+      {
+        "heading": "Sliding Mechanism Maintenance",
+        "body": "For sliding windows and doors, the track mechanism requires additional attention. The roller wheels at the bottom of the sliding frame collect hair, fibre and dust that cause them to bind. Where the window design allows, we remove the sliding panel and clean the wheels individually. The track is then lubricated with a dry silicone spray — never oil, which attracts dust and creates a paste. The spray is applied sparingly to the track channel and the roller wheels. After reassembly, the window is slid back and forth several times to distribute the lubricant. The result is a smooth, quiet action."
+      },
+      {
+        "heading": "Frame Material Care",
+        "body": "Aluminium frames, common in South African homes, require different care than uPVC (plastic) frames. Aluminium can develop oxidation (a white, chalky surface) if exposed to aggressive cleaners or coastal salt air. Our aluminium frames are cleaned with a pH-neutral cleaner and, for coastal homes, treated with an aluminium protectant that prevents salt corrosion. uPVC frames are cleaned with a dedicated PVC cleaner that removes oxidation staining without damaging the plastic. Wooden frames receive a different treatment — gentle cleaning with a damp cloth and a light re-oiling of the exposed timber. Each material is handled according to manufacturer specifications."
+      }
+    ]
+  },
+  {
+    "id": "baseboard_and_skirting_cleaning",
+    "tag": "Deep Cleaning",
+    "title": "Baseboard and Skirting Cleaning",
+    "subtitle": "Restore white baseboards to their original colour by removing years of dust and scuff marks",
+    "image": "/scenes/cleaning_baseboards.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Baseboards collect a surprising amount of dust and scuffs that make even clean rooms look shabby",
+    "problemBody": "Baseboards and skirting boards are at eye level when seated, yet they are rarely cleaned. Over months, they accumulate a fine layer of grey dust that darkens the white paint, turning it a dingy beige or grey. Scuff marks from vacuum cleaners, shoes and furniture add black streaks and chips. The top edge of the baseboard — where it meets the wall — collects a distinct dust line that is visible from across the room. In South African homes, where red dust from outdoor environments is common, baseboards in ground-floor rooms and entry areas show discolouration particularly quickly, often within weeks of a fresh paint job.",
+    "bouulSolution": [
+      "Baseboards dusted with microfiber cloth, then wiped with damp cloth and mild detergent",
+      "Scuff marks removed with melamine sponge (magic eraser) and gentle pressure",
+      "Top edge crevice cleaned with angled brush, and corners hand-wiped to eliminate the dust line"
+    ],
+    "partsNeeded": [
+      "Microfiber cloths (damp and dry)",
+      "Mild all-purpose cleaner (pH-neutral)",
+      "Melamine sponge for scuff removal",
+      "Angled detail brush for top-edge and corner dust"
+    ],
+    "guidePricing": "R 100 – R 250 for a full home (all rooms, both floors if applicable)",
+    "timeline": "30–60 minutes depending on home size and baseboard condition",
+    "aiPromptExample": "\"Describe a baseboard cleaning protocol for a South African home with painted wooden skirting boards, focusing on dust line removal and scuff mark treatment.\"",
+    "aiDiagnosisOutput": "\"Top-edge dust line on all baseboards, approximately 2mm thick. Black scuff marks on corridor baseboards at standard vacuum height. Paint shows yellowed residue from multiple years of accumulated dust. Recommended: damp microfiber wipe, melamine sponge on scuffs, top-edge brush detail, and optional repainting recommendation for worst-affected areas.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when baseboards show no visible dust line, scuff marks are removed, and colour is uniform",
+    "pirbStandard": "HASA deep cleaning standard for painted surfaces; SANS 10097 paint and coating care",
+    "articleSections": [
+      {
+        "heading": "The Baseboard Dust Line",
+        "body": "The line of dust that forms along the top edge of a baseboard is created by a combination of static electricity and gravity. As air moves through a room, dust particles settle on horizontal surfaces. The top edge of a baseboard is a perfect horizontal ledge, and once a thin line of dust forms, more particles adhere to it through electrostatic attraction. Over time, this line thickens and darkens, becoming a visible grey stripe along the entire perimeter of the room. Eliminating this line requires physical wiping with a microfiber cloth wrapped around a fingernail or a narrow tool — a detail that standard cleaning almost never includes."
+      },
+      {
+        "heading": "Scuff Mark Removal Techniques",
+        "body": "Scuff marks on baseboards come in three types: rubber marks from shoe soles (black, soft), plastic marks from vacuum cleaner heads (dark, layered), and furniture impact marks (paint chips and gouges). Rubber scuffs are removed with a melamine sponge (magic eraser) dampened with water — the micro-abrasive action lifts the rubber without damaging the paint. Vacuum marks are wiped with a damp microfiber cloth. Chipped paint is noted for the homeowner and can be touched up in a separate paint repair service. For painted wooden baseboards, we can also apply a light re-coating of furniture polish to restore the original sheen."
+      },
+      {
+        "heading": "Room-by-Room Approach",
+        "body": "Baseboard cleaning is performed as part of our deep cleaning service, following the room-by-room top-to-bottom sequence. After the walls and window sills have been cleaned, the baseboards are addressed before the final floor mopping. This ensures that any dust dislodged from the baseboards is captured by the mop. In high-traffic rooms (hallways, kitchen, children's rooms), baseboards may need two passes or a pre-treatment with degreaser. Bathroom baseboards are wiped with an anti-mould solution to address moisture damage. Each room's baseboards are inspected and cleaned to the same standard."
+      },
+      {
+        "heading": "Preventative Maintenance",
+        "body": "You can extend the life of a baseboard clean by incorporating simple habits. Dust baseboards with a dry microfiber cloth every two weeks during your regular cleaning. Pay special attention to the top edge. Apply a coat of furniture polish every three months to create a protective layer that resists dust adhesion. In high-traffic areas, consider installing bumper guards that protect baseboards from vacuum cleaner impacts. The Bouul app includes baseboard care in your home maintenance schedule and reminds you when the protective polish needs reapplication."
+      }
+    ]
+  },
+  {
+    "id": "light_fixtures_and_lampshades",
+    "tag": "Deep Cleaning",
+    "title": "Light Fixtures and Lampshade Cleaning",
+    "subtitle": "Remove dust, dead insects and heat-baked grime that darken your room's illumination",
+    "image": "/scenes/cleaning_light_fixtures.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dirty light fixtures can reduce a room's brightness by up to 50%",
+    "problemBody": "Light fixtures are the highest surfaces in any room and the most infrequently cleaned. Over months, ceiling-mounted lights accumulate a layer of dust that adheres through static electricity and heat from the bulbs. This dust layer, combined with dead insects that are attracted to the warmth and trapped inside the fixture, can reduce light output by 20–50%. In South African homes, where load-shedding has led many households to use candles and oil lamps in addition to electric lights, ceiling fixtures near these alternative light sources also develop a greasy soot film. The result is rooms that feel dimmer, requiring higher-wattage bulbs that consume more electricity.",
+    "bouulSolution": [
+      "All light fixtures cleaned: ceiling lights, wall sconces, pendant lamps, chandeliers, table lamps and floor lamps",
+      "Bulbs wiped individually (with power off and bulbs cool) to maximise light output",
+      "Lampshades cleaned according to material: fabric vacuumed, glass washed, paper dusted"
+    ],
+    "partsNeeded": [
+      "Step ladder with stabiliser bar",
+      "Lint-free microfiber cloths for bulbs and glass",
+      "Soft brush attachment for upholstery vacuum",
+      "Fabric-safe cleaner for fabric lampshades"
+    ],
+    "guidePricing": "R 150 – R 350 (8–15 fixtures including ceiling lights, lamps and lampshades)",
+    "timeline": "45–90 minutes for a full home",
+    "aiPromptExample": "\"Describe a light fixture cleaning protocol for a South African home with ceiling downlights, a fabric shade floor lamp, and a glass pendant chandelier.\"",
+    "aiDiagnosisOutput": "\"Ceiling downlight trims have 1–2mm dust layer. Glass pendant shades show heat-baked dust on their upper inner surface. Fabric lampshade has grey dust ring and yellowed fabric at the top from bulb heat. Dead insects inside two ceiling fixtures. Recommended: individual fixture cleaning with appropriate method per material, bulb wipe with dry cloth, insect removal from enclosures.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all fixtures are dust-free, bulbs show full brightness, and no dead insects remain in enclosures",
+    "pirbStandard": "SANS 10142 (wiring of premises) – power isolation before fixture cleaning; HASA high-reach safety protocol",
+    "articleSections": [
+      {
+        "heading": "Why Light Fixtures Get Dirty",
+        "body": "Light fixtures attract dust through three mechanisms: electrostatic attraction (the bulb's electromagnetic field attracts dust particles), thermal convection (warm air rising from the bulb carries dust that sticks to cooler surfaces above), and gravity (dust settles on any upward-facing surface). The dust that accumulates is not just cosmetic — it reduces the efficiency of your lighting, forcing you to use more energy to achieve the same brightness. A clean LED bulb produces 100% of its rated lumens; one with a visible dust layer can lose 20–40% immediately."
+      },
+      {
+        "heading": "Safety First: Power Isolation",
+        "body": "Before any light fixture cleaning begins, the power to the circuit is isolated at the distribution board. This is non-negotiable safety protocol. Bulbs are allowed to cool for 15 minutes after being switched off — a hot bulb can shatter when touched with a cool cloth. For ceiling fixtures, a stable step ladder is used, with the technician maintaining three points of contact at all times. Only dry cloths are used on bulbs (moisture on a hot bulb can cause thermal shock cracking). After cleaning, the circuit is tested before the technician leaves the room."
+      },
+      {
+        "heading": "Lampshade Material Guide",
+        "body": "Each lampshade material requires a different cleaning approach. Fabric lampshades are gently vacuumed with a soft brush attachment to remove surface dust; for deeper cleaning, a fabric-safe solvent is lightly sprayed onto a cloth (never directly onto the shade) and wiped. Glass shades are removed and washed in warm soapy water, dried and polished. Paper shades are extremely delicate — dry dusting only, with an extra-soft brush. Silk shades are dusted and, if needed, lightly cleaned with a specialist silk cleaning foam. Pleated shades have their pleats carefully brushed from top to bottom."
+      },
+      {
+        "heading": "Light Output Restoration",
+        "body": "After cleaning the fixtures and shades, we wipe each bulb with a dry lint-free cloth. A single fingerprint on a bulb can reduce its output by 10% due to the oil baking onto the glass surface. For recessed downlights, we also clean the trim ring and the inside of the housing. For chandeliers and decorative lights, we inspect and clean every individual crystal or glass drop. The difference in room brightness before and after a fixture cleaning is often dramatic — clients frequently comment that it's like having new lights installed."
+      }
+    ]
+  }
+]

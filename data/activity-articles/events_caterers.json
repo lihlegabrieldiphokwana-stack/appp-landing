@@ -1,0 +1,278 @@
+[
+  {
+    "id": "cater-wedding-001",
+    "tag": "Wedding Catering",
+    "title": "The Wedding Catering Guide: How to Feed 100 Guests Without Going Broke or Over a Braai",
+    "subtitle": "Wedding food is the single biggest memory your guests take home. Here's how to get it right.",
+    "image": "/scenes/wedding_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the 'budget-friendly' caterer left your guests hungry and your wedding remembered for the wrong reasons",
+    "problemBody": "You found a caterer who quoted R28,000 for 100 guests. That seemed reasonable. What you didn't realise is that quote covered only the main course. The starter was extra. The dessert was extra. The drinks were extra. The service staff were extra. On the day, the food arrived 45 minutes late, the beef was overcooked, the vegetarian option was a single plate of pasta that ran out after four people, and your grandmother who doesn't eat gluten ate only the garnish. Your guests spent the evening checking their watches and wondering if there was a KFC nearby. Wedding catering is the most visible element of your reception. When it goes wrong, everything goes wrong.",
+    "bouulSolution": [
+      "Bouul lists caterers with transparent package breakdowns — you see exactly what's included per person with no hidden extras",
+      "You can filter caterers by cuisine type (South African, Cape Malay, Indian, Portuguese, classic continental), dietary specialisation, and style (plated, buffet, family-style, station)",
+      "Bouul escrow protects your catering deposit and releases funds only after the event is successfully delivered"
+    ],
+    "partsNeeded": [
+      "Professional kitchen setup (on-site or mobile) for food preparation and plating",
+      "Chafing dishes, warming trays, and temperature-controlled transport for buffet service",
+      "Service staff — waitrons, bartenders, cleanup crew (typically 1 per 15 guests)",
+      "Tableware, glassware, linen, and serving utensils appropriate to menu"
+    ],
+    "guidePricing": 28000,
+    "timeline": "Book 6-10 months before wedding. Menu tasting 3-4 months out. Final headcount 2 weeks before. Event day.",
+    "aiPromptExample": "\"Create a wedding catering brief: 100-guest wedding in Stellenbosch, mixed South African and Cape Malay menu, 3-course plated dinner with wine pairing, appetiser stations during cocktails, late-night snack (bobotie spring rolls), dietary requirements: 2 gluten-free, 4 vegetarian, 1 nut allergy. Budget R65,000. Need kosher option for 4 guests.\"",
+    "aiDiagnosisOutput": "\"Catering analysis: Outdoor Stellenbosch venue requires mobile kitchen setup — check vendor has self-contained cooking capacity. Cape Malay menu works well with wine but needs careful pairing advice per course. 3-course plated dinner for 100 needs 10-12 waitrons minimum. Dietary requirements manageable — prepare separate clearly labelled dishes for dietary guests. Kosher option (4 guests) likely requires external kosher caterer for those specific meals — coordinate delivery timing. Budget of R650 per person is above average for SA weddings — allows for premium ingredients and wine pairing.\"",
+    "escrowGuarantee": "Bouul Escrow protects your wedding catering payment. Deposit released to caterer for booking confirmation. Final payment held until post-event confirmation that food quality, timing, and service met agreed standards.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — covers kitchen hygiene, food storage temperatures, allergen management, staff training, and service standards for event catering in South Africa.",
+    "articleSections": [
+      {
+        "heading": "The per-person pricing trap",
+        "body": "When caterers quote per person, make sure you know what's included. A R250 per person quote often covers just the main meal. Additional costs to clarify: drinks packages (per person or consumption-based), service staff (included or surcharged), cake cutting and serving fee, corkage if you're bringing your own wine, travel and setup fees for venues outside the caterer's area, and overtime if the reception runs late. Bouul listings require caterers to specify what's included in their per-person price so you can compare apples to apples."
+      },
+      {
+        "heading": "Dietary requirements are not optional",
+        "body": "Among 100 guests, statistically 5-15 will have dietary restrictions — allergies, intolerances, religious requirements (halal, kosher), vegetarian or vegan preferences. A professional caterer asks about dietary requirements on the RSVP and prepares properly for them. They don't offer 'the vegetarian option will be available' — they confirm specific numbers and prepare specific portions. The mark of a great caterer is how well they handle dietary requirements. If they shrug it off, keep looking."
+      },
+      {
+        "heading": "Late-night snacks: the hero of South African weddings",
+        "body": "The best wedding decision you can make is a late-night snack. After hours of eating, drinking, and dancing, your guests will be hungry again. A second food service — even something simple like mini gatsby rolls, vetkoek, boerewors rolls, or samoosas — arrives around 10 PM and revitalises the dance floor. It's affordable (R25-40 per person), hugely appreciated, and extends the life of your reception. Bouul caterers can add late-night snacks to any package."
+      },
+      {
+        "heading": "Find your wedding caterer on Bouul",
+        "body": "Browse caterers on Bouul by cuisine, style, and budget. Read reviews from couples who've had their weddings catered. Compare packages with transparent per-person pricing. Book through Bouul with escrow protection. Your wedding food should be remembered for all the right reasons."
+      }
+    ]
+  },
+  {
+    "id": "cater-corporate-002",
+    "tag": "Corporate Catering",
+    "title": "Corporate Catering in South Africa: How to Feed a Boardroom or a Ballroom",
+    "subtitle": "From sandwich platters by the office to gala dinners for 300 — the corporate catering essentials.",
+    "image": "/scenes/corporate_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your breakfast meeting ran out of coffee and nobody focused on the presentation",
+    "problemBody": "You scheduled an important client presentation. Breakfast is catered. Pastries, fruit, coffee, juice. The guests arrive and the coffee is lukewarm. There aren't enough cups. The pastries are store-bought and the fruit is browning. Your clients spend the first 15 minutes trying to get a decent cup of coffee instead of engaging with your presentation. The signal you sent wasn't 'we're prepared' — it was 'we cut corners.' Corporate catering is a reflection of how you treat people. When the food is bad, the message is clear: we didn't think you were worth the effort. And in South Africa's competitive business environment, that impression spreads fast.",
+    "bouulSolution": [
+      "Bouul connects you with corporate caterers who understand business timelines — punctual delivery, professional presentation, and appropriate portion sizes",
+      "You can find caterers by event type — breakfast meetings, lunches, conferences, cocktail events, or gala dinners",
+      "Bouul escrow protects your catering payment until successful delivery and clean-up are confirmed"
+    ],
+    "partsNeeded": [
+      "Delivery and setup service for off-site corporate venues",
+      "Beverage service — quality coffee, tea, juice, and water for the duration",
+      "Presentation-grade serving platters and utensils",
+      "Waste management and clean-up service"
+    ],
+    "guidePricing": 8500,
+    "timeline": "Book 1-2 weeks ahead for standard corporate events. 3-4 weeks for large conferences or gala dinners. Final numbers confirmed 72 hours before.",
+    "aiPromptExample": "\"Corporate lunch catering brief: 40-person workshop in Midrand, 12 PM-3 PM, need lunch buffet with dietary options (3 vegan, 2 halal), dessert, coffee/tea service throughout, disposable but premium-looking serveware, budget R8,000. Strict 12 PM delivery required.\"",
+    "aiDiagnosisOutput": "\"Catering analysis: Midrand venue likely has kitchen access — confirm facility. 12 PM sharp delivery requires caterer based within 30 min travel. Buffet for 40 needs 2 chafing stations minimum for efficient flow. Dietary requirements: prepare 3 vegan mains (labelled), 2 halal-certified portions (separately packed if necessary). Coffee/tea service for 3 hours requires refill visit or server on-site. Premium disposable serveware available from most corporate caterers. Budget of R200 per person is standard corporate catering range.\"",
+    "escrowGuarantee": "Bouul Escrow holds your corporate catering payment until successful delivery and service are confirmed. If food arrives late or doesn't meet agreed quality, you can dispute before releasing funds.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — corporate section covers delivery logistics, temperature control during transport, allergen labelling, and service standards for business catering.",
+    "articleSections": [
+      {
+        "heading": "Corporate catering formats explained",
+        "body": "Breakfast meetings need light, easy-to-eat food that doesn't distract from discussion — pastries, fruit, yoghurt, quality coffee. Lunch meetings need substantial food but nothing messy — wraps, salads, quiche, finger sandwiches. Conference catering needs to feed large numbers quickly — buffets or pre-plated meals with speed and efficiency. Cocktail events need high-quality finger food that's easy to eat standing up. Gala dinners need full-service plated meals with wine pairing. Choose the format based on the meeting goal, not the budget. A breakfast meeting that needs serious discussion can't have people juggling plates of bacon and eggs."
+      },
+      {
+        "heading": "Dietary requirements in corporate settings",
+        "body": "Corporate catering must accommodate dietary requirements more thoroughly than any other catering type. In a diverse workplace, you'll encounter halal, kosher, vegetarian, vegan, gluten-free, and various food allergies — often in the same room. The solution is labelling. Every dish should be clearly labelled with dietary markers (V for vegetarian, VG for vegan, GF for gluten-free, H for halal). Self-explanatory dishes reduce confusion. A professional corporate caterer labels everything by default — you shouldn't have to ask."
+      },
+      {
+        "heading": "The coffee makes the meeting",
+        "body": "Bad coffee is the most complained-about issue in corporate catering. A plunger of lukewarm filter coffee with long-life milk sets a mediocre tone. Consider a barista service for meetings over 20 people. For smaller meetings, quality plunger coffee with fresh milk and a selection of teas (rooibos, green, herbal) is expected. Bouul's caterer listings include beverage package options so you know what you're getting before you book."
+      },
+      {
+        "heading": "Book corporate catering on Bouul",
+        "body": "Search Bouul for corporate caterers by event type and location. Compare menus, dietary specialisations, and read reviews from other businesses. Book through the app with escrow protection. Your business meals should reflect your standards."
+      }
+    ]
+  },
+  {
+    "id": "cater-buffet-003",
+    "tag": "Buffet Catering",
+    "title": "The Buffet Catering Playbook: How to Feed a Crowd Without a Queue That Stretches to Cape Town",
+    "subtitle": "Practical wisdom on buffet design, flow, and portioning for South African events.",
+    "image": "/scenes/buffet_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why the last 10 guests at your buffet got only coleslaw and regret",
+    "problemBody": "You booked a buffet for your event. It seemed like the easiest option — guests serve themselves, everyone eats what they want, no complicated service. But on the day, the queue took 45 minutes to get through. The first 20 guests piled their plates high, and by the time the last 10 guests reached the table, the mains were almost gone. The chicken was cold. The salads were picked over. The dessert table looked like it had survived a natural disaster. Your guests were polite about it, but you noticed them checking their phones for Uber Eats. Buffet catering isn't as simple as 'put food on a table.' It requires layout design, portion management, replenishment timing, and flow planning — all of which are the caterer's responsibility, not yours.",
+    "bouulSolution": [
+      "Bouul lists buffet caterers with experience managing volume events — portion planning, staged service, and replenishment protocols are part of their standard offering",
+      "You can compare caterers by buffet style (full-service with attendants, self-service, or hybrid) and menu variety",
+      "Bouul escrow protects your catering payment until successful service and guest satisfaction are confirmed"
+    ],
+    "partsNeeded": [
+      "Buffet tables, risers, and chafing dishes for temperature control",
+      "Serving utensils, tongs, and ladles — separate for each dish",
+      "Plates, cutlery, napkins, and glassware (typically 1.5x guest count for buffets)",
+      "Replenishment stock held back in warming kitchen for staggered release"
+    ],
+    "guidePricing": 12000,
+    "timeline": "Book 3-6 weeks before event. Menu selection: 3 weeks. Final numbers: 1 week before. Event day delivery 1 hour before service time.",
+    "aiPromptExample": "\"Buffet catering brief for 80-100 guests: family celebration (60th birthday) in Johannesburg, outdoor garden party, 1 PM lunch, variety of South African favourites — curries, grilled meat, salads, sides, dessert table. Need service attendant to replenish and manage queue. Budget R200 per person. Some elderly guests who can't stand long.\"",
+    "aiDiagnosisOutput": "\"Buffet analysis: 80-100 guests at 1 PM — queue management critical. Recommend 2-sided buffet table to double throughput. Elderly guests need seating priority near buffet or staff assistance. Outdoor garden in Joburg — food temperature management essential in summer heat or winter cold. Chafing dishes with fuel cells required. Menu variety: 2-3 curries with rice+sambals, 1-2 grilled meats, 3-4 salads, bread/rolls, dessert table with 3 options. Attendant for replenishment — 1 per 50 guests minimum. Budget R200pp is generous for buffet-style — allows for quality ingredients.\"",
+    "escrowGuarantee": "Bouul Escrow protects your buffet catering fee. Payment releases after successful event service. If the caterer runs out of food, fails to manage queue flow, or serves food below agreed quality, you have recourse.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — buffet-specific requirements cover chafing dish temperature maintenance, time limits for food on display, cross-contamination prevention, and portion control standards.",
+    "articleSections": [
+      {
+        "heading": "The buffet layout that works",
+        "body": "A well-designed buffet is a science. The table should be arranged so guests move in one direction — plates first, then salads, then mains, then sides, then sauces, then bread. Dessert should be on a separate table or served later to prevent congestion. Drinks should be on a separate station entirely. For events over 60 guests, a two-sided buffet (same layout on both sides of the table) doubles throughput. For over 120 guests, multiple buffet stations serving different cuisines reduce queue time dramatically."
+      },
+      {
+        "heading": "Portion planning that prevents 'last guest' disappointment",
+        "body": "A common buffet failure is the first 20% of guests taking more than their share, leaving nothing for the last 20%. Professional caterers solve this by holding back 25-30% of the food in a warming kitchen and replenishing in waves. This ensures consistent quality for all service periods. Some caterers also use attendants at the buffet line who serve the main proteins (controlling portions) while guests serve themselves on salads and sides. Ask your Bouul caterer about their replenishment strategy."
+      },
+      {
+        "heading": "Temperature management is a safety issue",
+        "body": "Buffet food left at room temperature for more than two hours becomes a food safety risk. Hot food must stay above 60°C (chafing dishes with fuel cells or electric warmers), and cold food must stay below 5°C (ice beds or refrigerated displays). In South Africa's climate — 35°C summer days in Gauteng or humid coastal weddings — temperature management is critical. A professional caterer monitors food temperatures throughout the service and replaces dishes before they become unsafe."
+      },
+      {
+        "heading": "Book your buffet caterer on Bouul",
+        "body": "Search Bouul for buffet caterers with experience at your event size. Compare menus, read reviews about queue management and portion adequacy, and check that temperature management is included. Book through Bouul with escrow protection. Your guests should remember the food, not the queue."
+      }
+    ]
+  },
+  {
+    "id": "cater-cocktail-004",
+    "tag": "Cocktail Catering",
+    "title": "Mastering the Cocktail Event: How to Keep 100 Guests Happy on Finger Food and Drinks",
+    "subtitle": "The South African guide to catering a standing reception that feels generous, not cheap.",
+    "image": "/scenes/cocktail_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your cocktail party ran out of food after 45 minutes and the guests left hungry",
+    "problemBody": "You planned a cocktail party. Drinks, finger food, networking. You ordered for 50 guests: 5 platters of mixed finger food, a bar with wine and beer. After 45 minutes, the food was gone. Guests were standing around with empty plates, holding half-full wine glasses, trying to make conversation while the caterer rushed to prepare more. But there was no more — that was all the food. The party wound down by 8 PM instead of 11 PM. Guests went home and ordered pizza. Cocktail catering is a volume game. Unlike a sit-down meal where you can calculate exactly how much each person eats, cocktail food disappears at a rate determined by how good it tastes, how easy it is to eat, and how fast the servers circulate. Underestimate the quantity, and your event dies early.",
+    "bouulSolution": [
+      "Bouul lists caterers who specialise in cocktail and drinks events — they know the quantity formulas that prevent running out",
+      "You can compare caterers by canapé per-person ratios, menu variety, and beverage package options",
+      "Bouul escrow protects your cocktail catering payment until the event is complete and guests are fed"
+    ],
+    "partsNeeded": [
+      "Waitstaff with trays for constant circulating service (1 per 20 guests minimum)",
+      "Portion-controlled canapés and finger foods designed for one-bite eating",
+      "Bar setup with glassware, ice, garnishes, and beverage service staff",
+      "High-top tables and cocktail napkins for guests to rest plates and glasses"
+    ],
+    "guidePricing": 15000,
+    "timeline": "Book 2-4 weeks ahead. Menu and drink package selection: 2 weeks out. Final numbers: 72 hours before. Event day delivery 1 hour before.",
+    "aiPromptExample": "\"Cocktail catering brief: product launch in Sandton, 80 guests, 6 PM-9 PM, premium cocktail reception, need 10-12 canapé varieties rotating through the evening, hosted bar with wine, beer, and 2 signature cocktails. Budget R45,000 includes food and drinks.\"",
+    "aiDiagnosisOutput": "\"Cocktail event analysis: 80 guests over 3 hours at premium Sandton venue. Canapé quantity: 10-12 pieces per person for 3-hour event = 800-960 pieces total. Rotation: 3-4 varieties per pass, 4-5 passes over 3 hours. Premium cocktail needs at least 2 waitrons on tray service, 1-2 dedicated bar staff. Signature cocktails need pre-made base to speed service. Budget of R562 per person is comfortable for premium cocktail catering including hosted bar. Seasonal menu recommended for canapé quality and cost management.\"",
+    "escrowGuarantee": "Bouul Escrow holds cocktail catering payment until service is successfully delivered. If canapé quantities run out prematurely or bar service fails, you can hold payment pending resolution.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — cocktail catering covers canapé handling at room temperature, cross-contamination prevention, and beverage service compliance.",
+    "articleSections": [
+      {
+        "heading": "The canapé math that prevents disaster",
+        "body": "For a 2-hour cocktail event, plan 6-8 canapés per person. For a 3-hour event, 10-12 per person. For a 4-hour event, 14-16 per person. These numbers assume guests are eating throughout; if dinner is following the cocktails, reduce by half. Variety matters — 8-10 different canapés over the course of an evening feels generous and interesting. The first pass (guests arrive hungry) should be the most substantial — mini sliders, samoosas, spring rolls. Later passes can be lighter and more creative."
+      },
+      {
+        "heading": "Bar management for cocktail events",
+        "body": "A hosted bar at a cocktail event needs careful planning. Wine and beer consumption averages 2-3 drinks per person for a 2-hour event and 3-4 for 3 hours. For signature cocktails, consumption is lower (1-2 per person) because they're slower to drink. Ice is the most underestimated resource — a professional caterer brings 2-3 times what they think they'll need. Glassware: plan for 1.5x the guest count because glasses get set down and lost. A server collecting empty glasses every 20-30 minutes keeps the venue tidy and glassware in circulation."
+      },
+      {
+        "heading": "Dietary variety in finger food",
+        "body": "Cocktail menus must include options for common dietary restrictions. Among 80 guests, expect 5-10 vegetarians or vegans, 2-3 gluten-free, and 1-2 halal or kosher. The solution is naturally diverse menus — some meat options, some seafood, some vegetable-based, some starch-based. Label canapés clearly on the serving tray (a small flag or card) so guests can choose confidently. A caterer who can't handle dietary variety isn't ready for cocktail events."
+      },
+      {
+        "heading": "Book cocktail catering on Bouul",
+        "body": "Browse Bouul for cocktail caterers by event type and budget. Compare canapé menus, drink package options, and read reviews about service quality and food quantity. Book through Bouul with escrow protection. Your cocktail party should be remembered for the connections, not the hunger."
+      }
+    ]
+  },
+  {
+    "id": "cater-braai-005",
+    "tag": "Braai Catering",
+    "title": "The South African Braai Catering Guide: When Your Backyard Braai Becomes a Catered Event",
+    "subtitle": "How to level up South Africa's favourite cooking tradition without losing the soul of the braai.",
+    "image": "/scenes/braai_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why your 'casual braai' for 50 people turned into a logistical nightmare in the driveway",
+    "problemBody": "You invited a few friends over for a braai. Then someone invited someone else. And then someone else. Suddenly you're hosting 50 people. Your single braai stand can't handle the volume. The wors is burnt on the outside and raw in the middle. The chicken takes forever. The salads are store-bought. The drinks run out. The host spends the entire event at the fire, missing every conversation, while guests try to figure out where the tongs went. A braai for 50 isn't a casual gathering anymore — it's a catering event. The mistake is treating it like a backyard braai when the numbers demand a professional approach. Great news: there are caterers who specialise in braai events, bringing the soul of the fire with the efficiency of professional catering.",
+    "bouulSolution": [
+      "Bouul connects you with braai caterers who bring professional-grade equipment, experienced grill masters, and complete setups",
+      "You can find caterers specialising in different braai styles — traditional wood fire, gas, combination, or dedicated low-and-slow (smokers)",
+      "Bouul escrow protects your braai catering payment until the event is complete"
+    ],
+    "partsNeeded": [
+      "Commercial-grade braai or gas grill for volume cooking",
+      "Griddle for pap, chakalaka, and braaibroodjies preparation",
+      "Cooler boxes or warmers for pre-cooked sides and salads",
+      "Serving stations for self-service of sides, salads, and condiments"
+    ],
+    "guidePricing": 10000,
+    "timeline": "Book 1-2 weeks ahead for small groups, 3-4 weeks for 50+. Menu selection and dietary requirements: 2 weeks. Final numbers: 1 week before. Event day setup 2 hours before service.",
+    "aiPromptExample": "\"Braai catering brief for 40 guests: Saturday afternoon birthday party in Pretoria, traditional wood-fire braai preferred, menu: boerewors, tjops (lamb chops), marinated chicken, pap and sous, chakalaka, braaibroodjies, salads. Need grill master to manage the fire so host can socialise. Budget R120 per person. Dietary: 2 vegetarian mains needed.\"",
+    "aiDiagnosisOutput": "\"Braai analysis: 40 guests on wood fire requires experience — wood temperature management is harder than gas. Menu works well: boerewors and chops cook fast on open flame, chicken needs indirect heat for longer cooking. Pap and sous can be prepared off-site and served from chafing dish. Braaibroodjies need grid space after main meats are done. Vegetarian option for 2 guests — consideration for halloumi, portobello mushroom, or veggie sosaties. Budget R120pp allows for quality meat and sides. Grill master is essential for host to enjoy their own party.\"",
+    "escrowGuarantee": "Bouul Escrow protects your braai catering payment. Funds release after successful event execution. If the meat is overcooked or service falls short, you can dispute before releasing full payment.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — braai/outdoor cooking section covers fire safety, meat temperature standards, cross-contamination between raw and cooked meats, and outdoor food handling protocols.",
+    "articleSections": [
+      {
+        "heading": "Why you need a grill master, not just a caterer",
+        "body": "A braai caterer is more than someone who brings pre-cooked food. The ideal braai caterer brings a grill master — someone who manages the fire, knows the cooking times for different meats, and keeps the food coming at the right pace. The host should be free to socialise, drink, and enjoy their own party. A grill master also brings commercial-grade equipment that produces better results than a standard household braai stand. The flavour is the same, but the execution is professional."
+      },
+      {
+        "heading": "The timing of a catered braai",
+        "body": "A catered braai for 40+ guests follows a structured timeline. Guests arrive: snacks and drinks (biltong, nuts, drinks service). 30 minutes in: starters (boerewors rolls, smaller items) while the main meats cook. 60-90 minutes in: main service — meats come off the fire continuously, served with sides from a buffet table. Pap and sous are served hot throughout. Dessert (if applicable) follows. The braai caterer manages this flow so food arrives in waves, not all at once, keeping the party energised without a single overwhelming queue."
+      },
+      {
+        "heading": "The sides make the braai",
+        "body": "Great meat gets the attention, but the sides make the meal memorable. Quality salads (potato salad, coleslaw, bean salad), properly prepared pap and chakalaka (not instant), grilled vegetables, garlic bread or braaibroodjies, and a variety of sauces and condiments elevate a braai from basic to exceptional. A professional braai caterer has side offerings that complement the meat without overwhelming it. The balance is 60% meat, 40% sides — which feels abundant without being wasteful."
+      },
+      {
+        "heading": "Book braai catering on Bouul",
+        "body": "Find braai caterers on Bouul who bring professional equipment, experienced grill masters, and complete catering setups. Compare menus, read reviews, and check their approach to fire management and timing. Book through Bouul with escrow protection. Your next braai should be about connection — not about being stuck at the fire."
+      }
+    ]
+  },
+  {
+    "id": "cater-kids-006",
+    "tag": "Kids Party Catering",
+    "title": "Feeding a Horde of Hungry Children: The Kids Party Catering Survival Guide",
+    "subtitle": "Children's party food that pleases the kids, impresses the parents, and doesn't drive you insane.",
+    "image": "/scenes/kids_caterer.png",
+    "readTime": "4 min read",
+    "author": "Bouul Events Team",
+    "problemHeadline": "Why 15 children eating party food is more stressful than catering a wedding",
+    "problemBody": "You're hosting a children's birthday party. 15 kids. They're hyped up on party games and sugar. Now it's time to eat. You've prepared the standard kids party menu: mini pizzas, chicken nuggets, chips, juice boxes, and cake. The first problem: three children only eat plain pasta with nothing on it. One child has a peanut allergy — and you didn't check in advance. Two children won't eat anything that's been touched by another food. The birthday child is too excited to eat at all. The parents are watching. Everyone is looking at you. Kids party catering has unique challenges: small appetites, strong preferences, dietary restrictions that parents may or may not have told you about, and the pressure of feeding hungry children on a schedule that doesn't conflict with the party games.",
+    "bouulSolution": [
+      "Bouul lists caterers who specialise in children's parties — they understand kid-friendly menus, dietary requirements, and the importance of quick service",
+      "You can find caterers offering party packages that include food, setup, serving, and clean-up — so the host can focus on the party",
+      "Bouul escrow protects your catering payment until the party food is delivered and served"
+    ],
+    "partsNeeded": [
+      "Kid-friendly menu with familiar foods — pizzas, nuggets, pasta, sandwiches",
+      "Dietary-safe labelled options for allergies and restrictions",
+      "Separate serving stations to avoid cross-contamination with allergens",
+      "Cake or dessert service coordinated with the party schedule"
+    ],
+    "guidePricing": 3500,
+    "timeline": "Book 1-2 weeks before party. Menu and dietary requirement collection: 1 week out. Delivery timed for party schedule (typically mid-party after games, before cake).",
+    "aiPromptExample": "\"Kids party catering brief: 12 children aged 5-8, Saturday 10 AM-1 PM party in Cape Town, need lunch service at 11:30 AM, menu: mini pizzas (plain cheese + pepperoni), chicken strips, chip-and-dip platter, fruit skewers, juice boxes. Allergens: 1 child with peanut allergy (NO peanut products anywhere). 2 parents staying with vegetarian preference. Budget R3,000.\"",
+    "aiDiagnosisOutput": "\"Kids party analysis: 5-8 year old age group needs food that's familiar and safe. 11:30 AM service means timing between active games — schedule 30 min eating window before cake (12 PM). Peanut allergy means total avoidance — check ALL ingredients including hidden sources (sauces, bread). Vegetarian option for 2 parents — add a simple salad or wrap option. Mini pizzas work well for kids — pre-slice into manageable pieces. Budget R250 per child for food is comfortable. Keep menu simple — kids don't want fancy cuisine.\"",
+    "escrowGuarantee": "Bouul Escrow protects your kids party catering payment. Delivery and service confirmed before funds release. If allergy protocols aren't followed or food arrives late, you're covered.",
+    "pirbStandard": "SANS 10049: Food Safety Management for Catering — children's catering section covers allergen management (critical), portion sizes for different age groups, food presentation standards, and supervision during service.",
+    "articleSections": [
+      {
+        "heading": "The kids menu rulebook",
+        "body": "Children's party food follows different rules than adult catering. Keep it familiar — kids at a party want food they recognise and trust. Keep it separate — don't mix foods on serving platters, as many kids refuse food that's touched something unfamiliar. Keep it simple — a few options done well beats a complex menu. Keep it safe — check for allergies with every parent before the party, not at the food table. Make sure the caterer is briefed on every dietary restriction and labels food accordingly."
+      },
+      {
+        "heading": "Timing food around the party schedule",
+        "body": "Kids party catering must fit the energy curve of the party. Food should come after active games (when kids are hungry) but before the sugar hit of the cake and party bags. A typical schedule: arrival and free play (30 min), organised games (30 min), food service (30 min), cake (15 min), party bags and wind-down (15 min). The caterer needs to arrive, set up, and serve within the food window — not 30 minutes late when the kids have moved on to the next activity."
+      },
+      {
+        "heading": "Parents matter too",
+        "body": "Children's parties usually have parents staying (especially for younger age groups). Adult guests need something to eat and drink beyond what's on the kids' menu. A coffee, tea, and snack station for parents — even a simple cheese board and crackers — shows thoughtfulness and keeps the adults happy while the children play. Many Bouul kids party caterers offer parent-friendly add-on packages."
+      },
+      {
+        "heading": "Book kids party catering on Bouul",
+        "body": "Search Bouul for kids party caterers in your area. Compare children's menus, read reviews about allergy management and punctuality, and check that they understand the pace and energy of children's events. Book through Bouul with escrow protection. Your child's next party should be fun for everyone — including you."
+      }
+    ]
+  }
+]

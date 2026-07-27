@@ -1,0 +1,228 @@
+[
+  {
+    "id": "net_cat6_structured_cabling",
+    "tag": "Structured Cabling",
+    "title": "Cat6 & Cat6A Structured Office Cabling",
+    "subtitle": "High-speed ethernet network cabling and patch panel installation for commercial buildings",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Slow, unreliable network connections stall business productivity and cloud software sync",
+    "problemBody": "Messy, unlabelled ethernet cables running across floors are a trip hazard and lead to network crosstalk.",
+    "bouulSolution": [
+      "Certified network technician installs concealed Cat6/Cat6A cabling inside wall trunking",
+      "Rackmount patch panel termination, wire labeling, and Fluke network certification testing",
+      "Escrow released after 100% pass on Fluke cable speed & cross-talk certification"
+    ],
+    "partsNeeded": [
+      "Cat6 / Cat6A UTP solid copper cable",
+      "24-Port / 48-Port Cat6 patch panel",
+      "Wall trunking & brush wall plates",
+      "Fluke DSX cable analyzer"
+    ],
+    "guidePricing": "R350 – R650 per drop",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Quote structured cabling: 'Install 24 Cat6 ethernet drops in new office in Sandton.'",
+    "aiDiagnosisOutput": "Scope: 24x Cat6 Runs + 24-Port Patch Panel + Labeling + Testing. Escrow Quote: R9,800.",
+    "escrowGuarantee": "Escrow released after Fluke cable test report sign-off.",
+    "pirbStandard": "BICSI & FOA Certified Network Cabling Standard.",
+    "articleSections": [
+      {
+        "heading": "10Gbps Speed Guarantee",
+        "body": "Cat6A solid copper cabling guarantees 10Gbps transmission speeds up to 100 meters."
+      },
+      {
+        "heading": "Patch Panel Organization",
+        "body": "Cables are neatly combed, Velcro-tied, and numbered at both the wall jack and patch panel."
+      }
+    ]
+  },
+  {
+    "id": "net_fiber_splicing_repair",
+    "tag": "Fiber Splicing",
+    "title": "Fiber Optic Cable Splicing & Repair",
+    "subtitle": "Precision fusion splicing, fiber patch panels, and optical cable troubleshooting",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "A snapped fiber optic line cuts off high-speed internet to your entire building",
+    "problemBody": "Standard copper repair tools cannot fix glass fiber strands that are thinner than a human hair.",
+    "bouulSolution": [
+      "Certified optical technician arrives with a precision arc fusion splicer and OTDR tester",
+      "Fusion splicing of single-mode or multi-mode fiber with ultra-low dB loss",
+      "Escrow released after OTDR test verifies optical signal loss under 0.1dB"
+    ],
+    "partsNeeded": [
+      "Arc fusion splicer & optical cleaver",
+      "OTDR (Optical Time-Domain Reflectometer)",
+      "Fiber splice trays & heat-shrink sleeves",
+      "Fiber optic patch cords"
+    ],
+    "guidePricing": "R1,200 – R3,500",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Book fiber repair: 'Fiber cable accidentally cut during garden excavation in Bryanston.'",
+    "aiDiagnosisOutput": "Scope: Excavate cut zone, install outdoor splice enclosure, fusion splice 4 cores. Escrow: R2,400.",
+    "escrowGuarantee": "Escrow released after OTDR test confirms under 0.1dB loss.",
+    "pirbStandard": "FOA (Fiber Optic Association) Certified Fiber Technician.",
+    "articleSections": [
+      {
+        "heading": "Precision Arc Fusion",
+        "body": "Glass fiber cores are aligned down to the micron level and fused using an electric arc."
+      },
+      {
+        "heading": "OTDR Fault Distance Pinpointing",
+        "body": "OTDR testers send light pulses down the fiber to pinpoint exact break distances within meters."
+      }
+    ]
+  },
+  {
+    "id": "net_server_rack_cleanup",
+    "tag": "Rack Cleanup",
+    "title": "Server Cabinet & Patch Panel Cleanup",
+    "subtitle": "Untangling 'spaghetti' server racks, cable labeling, and cable management bars",
+    "image": "/scenes/office_cleaning.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Unmanaged server racks make network troubleshooting impossible and cause thermal buildup",
+    "problemBody": "Years of temporary patch cables create a tangled web that blocks airflow and causes accidental disconnections.",
+    "bouulSolution": [
+      "Network team audits, re-patches, and neatly routes all patch cords using horizontal management bars",
+      "Cables are color-coded (Data, Voice, CCTV, APs) and labeled with machine-printed wrap tags",
+      "Escrow released after server rack audit and zero downtime sign-off"
+    ],
+    "partsNeeded": [
+      "Custom length slim Cat6 patch cords",
+      "1U / 2U horizontal cable managers",
+      "Self-laminating cable wrap labels",
+      "Velcro cable tie rolls"
+    ],
+    "guidePricing": "R1,800 – R5,500",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Book rack cleanup: 'Untangle messy 42U server cabinet with 100+ patch cables.'",
+    "aiDiagnosisOutput": "Scope: Audit 96 ports, replace long cables with custom length cords, add 4x 1U managers. Escrow: R3,800.",
+    "escrowGuarantee": "Escrow released after verified clean rack presentation and connection check.",
+    "pirbStandard": "BICSI Server Room Cable Management Standard.",
+    "articleSections": [
+      {
+        "heading": "Color-Coded Traffic Routing",
+        "body": "Different colored patch cords separate phone lines, CCTV cameras, and workstations at a glance."
+      },
+      {
+        "heading": "Thermal Airflow Optimization",
+        "body": "Removing cable clutter improves cold-aisle airflow, lowering server CPU operating temperatures."
+      }
+    ]
+  },
+  {
+    "id": "net_outdoor_wireless_bridge",
+    "tag": "Wireless Bridge",
+    "title": "Point-to-Point Outdoor Wireless Building Link",
+    "subtitle": "Connecting two buildings wirelessly up to 5km without digging cable trenches",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Running cables between two separate buildings across a road or paved yard is prohibitively expensive",
+    "problemBody": "Trenching under asphalt or concrete driveways requires municipal permits and heavy machinery.",
+    "bouulSolution": [
+      "Installation of high-speed 5GHz / 60GHz outdoor wireless bridge dish antennas",
+      "Delivers up to 1Gbps throughput between main office and outbuilding with zero monthly fees",
+      "Escrow released after testing link alignment and throughput speed"
+    ],
+    "partsNeeded": [
+      "Ubiquiti Building Bridge / AirMax Dish",
+      "Outdoor shielded Cat6 cable",
+      "Heavy-duty wall mounting poles"
+    ],
+    "guidePricing": "R3,500 – R9,500",
+    "timeline": "Duration: 3 – 5 Hours",
+    "aiPromptExample": "Quote wireless link: 'Connect main house to garden cottage 150m away without digging.'",
+    "aiDiagnosisOutput": "Equipment: 2x 60GHz Wireless Bridge Antennas. Throughput: 1Gbps full duplex. Escrow: R4,800.",
+    "escrowGuarantee": "Escrow released after verifying 500Mbps+ speed test across link.",
+    "pirbStandard": "ICASA Approved Equipment & Wireless Network Standard.",
+    "articleSections": [
+      {
+        "heading": "60GHz Interference-Free Band",
+        "body": "Operating on the 60GHz spectrum eliminates Wi-Fi congestion and delivers fiber-like gigabit speeds."
+      },
+      {
+        "heading": "Gigabit Line-of-Sight Alignment",
+        "body": "Laser alignment tools ensure dish antennas align precisely across long distances."
+      }
+    ]
+  },
+  {
+    "id": "net_poe_switch_deployment",
+    "tag": "PoE Deployment",
+    "title": "Managed PoE Switch & Network Backbone Setup",
+    "subtitle": "Powering IP cameras, VoIP phones, and Wi-Fi access points over ethernet",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Running separate power plugs for every security camera and Wi-Fi ceiling node is impractical",
+    "problemBody": "Unmanaged switches overload when multiple high-power POE+ devices are plugged in.",
+    "bouulSolution": [
+      "Deployment of managed Gigabit POE/POE+ switches with smart power budget management",
+      "Configuring Auto-Voice VLANs for VoIP phones to ensure crystal-clear voice calls",
+      "Escrow released after verifying full POE power budget and device connectivity"
+    ],
+    "partsNeeded": [
+      "24-Port / 48-Port Managed POE+ Switch",
+      "10Gbps SFP+ Fiber Transceiver Modules",
+      "Rackmount ear brackets"
+    ],
+    "guidePricing": "R3,200 – R14,000",
+    "timeline": "Duration: 2 – 4 Hours",
+    "aiPromptExample": "Quote POE switch: 'Install 24-port POE+ switch for 12 IP cameras and 6 Wi-Fi access points.'",
+    "aiDiagnosisOutput": "Scope: 24-Port 370W POE+ Switch + SFP+ Fiber Link to Main Router. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released after checking power delivery and network stability.",
+    "pirbStandard": "IEEE 802.3at / 802.3bt POE Standard.",
+    "articleSections": [
+      {
+        "heading": "Active POE+ Smart Power",
+        "body": "Switches detect device power needs automatically, delivering up to 30W per port for PTZ cameras."
+      },
+      {
+        "heading": "Auto-VoIP Quality of Service (QoS)",
+        "body": "Voice traffic is prioritized automatically to prevent stuttering or dropped calls during downloads."
+      }
+    ]
+  },
+  {
+    "id": "net_starlink_satellite_install",
+    "tag": "Satellite Net",
+    "title": "Starlink Satellite & Roof Mount Installation",
+    "subtitle": "Professional mounting, cable routing, and Wi-Fi integration for Starlink satellite internet",
+    "image": "/scenes/roofers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Unstable rural internet options limit remote work, streaming, and business operations",
+    "problemBody": "Self-installing Starlink dishes on flimsy poles leads to obstruction drops during storms.",
+    "bouulSolution": [
+      "Professional roof mounting of Starlink dish using heavy-duty galvanized brackets",
+      "Concealed weatherproof cable routing into main house and integration with existing mesh Wi-Fi",
+      "Escrow released after verifying obstruction-free sky view and 150Mbps+ download speeds"
+    ],
+    "partsNeeded": [
+      "Galvanized roof pipe mount / chimney mount",
+      "Outdoor cable wall entry grommets",
+      "Ethernet adapter for Starlink",
+      "Heavy-duty cable clips"
+    ],
+    "guidePricing": "R1,500 – R3,500",
+    "timeline": "Duration: 2 – 4 Hours",
+    "aiPromptExample": "Book Starlink install: 'Mount Starlink dish on tile roof in Lanseria with hidden cabling.'",
+    "aiDiagnosisOutput": "Scope: Roof mount + Cable entry + Mesh Wi-Fi integration. Speed Test: 180Mbps download. Escrow: R2,200.",
+    "escrowGuarantee": "Escrow released after verifying 0% sky obstruction in Starlink app.",
+    "pirbStandard": "Bouul Certified Satellite Installation Standard.",
+    "articleSections": [
+      {
+        "heading": "Obstruction-Free Roof Positioning",
+        "body": "Technicians audit sky clearance using AR tools to avoid tree branches and roof gables."
+      },
+      {
+        "heading": "Weatherproof Entry Sealing",
+        "body": "Wall penetrations are sealed with silicone grommets to prevent rainwater leaks."
+      }
+    ]
+  }
+]

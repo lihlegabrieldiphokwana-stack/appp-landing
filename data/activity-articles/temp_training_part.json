@@ -1,0 +1,48 @@
+[
+  {
+    "id": "train-001",
+    "tag": "pet-training",
+    "title": "Puppy Basics: Sit, Stay, and the Foundation of Everything",
+    "subtitle": "The first 8 weeks of training set the tone for a lifetime.",
+    "image": "/scenes/train-puppy-basics.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your 3-month-old puppy already ignores every command.",
+    "problemBody": "Puppies are learning from the moment they enter your home - whether you're teaching them or not. Jumping up, mouthing, and ignoring calls are behaviours that work for the puppy because no one has shown them an alternative. Every time a puppy jumps up and gets attention, that behaviour is reinforced. The critical window for basic obedience is 8-16 weeks. After 16 weeks, bad habits become harder to break.",
+    "bouulSolution": [
+      "Bouul connects you to KUSA-affiliated trainers who use positive reinforcement only",
+      "Puppy foundation courses (4-6 sessions) teach both handler and puppy effective communication",
+      "Home-based sessions available - learning in the environment where behaviours happen"
+    ],
+    "partsNeeded": [
+      "Flat collar and 4ft leash (R150-R300)",
+      "High-value treats in treat pouch (R110-R300 total)",
+      "Clicker for marker training (R30-R80)",
+      "Non-slip mat for stationing exercises (R50-R200)"
+    ],
+    "guidePricing": "R250-R450 per 45-min private session; R150-R250 per group puppy class; R1,200-R2,500 for 6-session puppy foundation course",
+    "timeline": "Puppy foundation: 6 sessions over 3-6 weeks; reliable sit-stay achievable in 2-3 sessions",
+    "aiPromptExample": "Design a session plan for a 10-week-old Jack Russell puppy that won't stop mouthing hands and feet during play.",
+    "aiDiagnosisOutput": "Breed: Jack Russell Terrier. Age: 10 weeks. Behaviour: persistent mouthing (hand and feet) during all interactions. Root cause: normal puppy exploration + high prey drive. No bite inhibition established. Plan: Session 1 (45 min) - teach 'leave it' using hand-trade method (toy for treat). Yelping on contact (mimics littermate feedback) + immediate withdrawal of attention. Session 2 - proof 'leave it' on moving feet with kibble scatter. Session 3 - generalise to different shoes, trouser materials. Prognosis: mouthing should reduce 80% within 2 weeks with daily 5-min practice sessions.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If the trainer uses aversive methods (prong, choke, shock, or alpha rolls), the session is free.",
+    "pirbStandard": "KUSA (Kennel Union of Southern Africa) Training Standards: Positive reinforcement preferred. Aversive equipment banned by KUSA-endorsed trainers. Puppy classes must have puppy-only areas with proper sanitation.",
+    "articleSections": [
+      {
+        "heading": "The Three Foundations of Puppy Training",
+        "body": "Every well-trained dog starts with three foundations: engagement (the puppy wants to work with you), marker training (a clicker or word that marks the exact moment of correct behaviour), and the four basic behaviours (sit, down, stay, recall). Engagement comes first - if you don't have your puppy's attention, you can't teach anything. Use the 'name game' - say their name and treat when they look at you. Marker training uses a clicker (R30-R80) to 'take a picture' of the correct behaviour, then treat follows. The behaviour you mark is the behaviour you get."
+      },
+      {
+        "heading": "Positive Reinforcement vs Dominance Theory",
+        "body": "Dominance theory (alpha rolls, scruff shakes, pinning dogs down) has been debunked by modern behavioural science. These methods damage the human-animal bond and increase aggression - studies show 25% of dogs subjected to aversive methods escalate aggression. Positive reinforcement (rewarding desired behaviour, ignoring or redirecting unwanted behaviour) produces faster learning, better retention, and a happier dog. SA's leading trainers and the KUSA code of ethics now require positive reinforcement methods. Bouul lists only positive reinforcement trainers."
+      },
+      {
+        "heading": "Session Structure: 5 Minutes, Not 30",
+        "body": "Puppies have attention spans of 2-5 minutes. A 30-minute 'training session' is actually 25 minutes of frustration for both of you. Structure: 5 minutes of focused training, then a 2-minute play break, then another 5 minutes. Three 5-minute sessions per day are more effective than one 15-minute session. Always end on a success - if your puppy is struggling, revert to an easier behaviour they know, reward, and end. Never train when you're frustrated - your dog reads your emotional state."
+      },
+      {
+        "heading": "Socialisation Training: Not Just 'Meeting Other Dogs'",
+        "body": "Socialisation is about neutral exposure, not forced interaction. Your puppy should see 100+ people (different ages, races, heights, clothing - wheelchairs, hats, beards, uniforms), 20+ surfaces (grass, pavement, gravel, sand, wet leaves, grates, stairs, elevators), 30+ sounds (traffic, sirens, load-shedding generator, vacuum, hail on roof), and 50+ different objects and environments before 16 weeks. Each exposure should be at the puppy's comfort distance and paired with treats. Forcing interaction with a fearful stimulus creates a fearful adult dog."
+      }
+    ]
+  }
+]

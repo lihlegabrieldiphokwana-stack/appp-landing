@@ -1,0 +1,228 @@
+[
+  {
+    "id": "furn-001",
+    "tag": "furniture-delivery",
+    "title": "Furniture Assembly and Placement: Right Out of the Box",
+    "subtitle": "From flat-pack to finished room in under 90 minutes.",
+    "image": "/scenes/logistics-furniture-assembly.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "You bought a new wardrobe from a furniture store and the box has 247 pieces with instructions written in pictograms.",
+    "problemBody": "Flat-pack furniture accounts for 70% of furniture sales in SA under R10,000. Assembly takes 2-5 hours for an average person using basic tools. Mistakes like cross-threading screws, mismatched panels, or missing cam locks result in wobbly furniture that degrades fast. Professional assemblers complete the same job in 30-60 minutes with proper tools and zero returns. SA furniture stores report 18% of flat-pack products are returned due to assembly errors.",
+    "bouulSolution": [
+      "Bouul assembly crews arrive with full toolkits including cordless drills, clamps, and rubber mallets",
+      "Room-placement service: furniture assembled in correct room, not delivered to the garage and forgotten",
+      "Damage inspection performed during assembly - any manufacturing defects identified before disposal of packaging"
+    ],
+    "partsNeeded": [
+      "Clear floor space where furniture will stand (at least 2m x 2m for wardrobes)",
+      "Original packaging and instruction manual (photos of each page suffice on phone)",
+      "Any optional add-ons (extra shelves, hanging rods, drawer dividers) within sealed packages",
+      "Wall-mounting hardware if anchoring (tall furniture safety, included with most SA wardrobes)"
+    ],
+    "guidePricing": "Single item assembly: R250-R600. Wardrobe (double-door): R450-R800. Full bedroom (bed+2 side tables+wardrobe): R900-R1,800. Crew (2 persons) for bulky items: +R200.",
+    "timeline": "Single item: 30-60 minutes per skilled assembler. Full bedroom suite: 2-4 hours. Delivery + assembly combined: 3-5 hours for average furniture store order.",
+    "aiPromptExample": "Schedule assembly of a 6-seater dining table with 6 chairs plus a display cabinet, delivered Tuesday 10am-2pm.",
+    "aiDiagnosisOutput": "6-seater table + 6 chairs + display cabinet. Assembly time estimated: 2h15min total. Table legs (4) + 6 chair backs/seats + cabinet (48 cam locks, 6 glass shelves). Skill level: medium. 1-person crew: R650-R950. If glass shelves need leveling: +15min. Best: book 11am, complete by 1:30pm. Tip: leave packaging for 7 days in case of defects.",
+    "escrowGuarantee": "Assembly guaranteed for 30 days. Wobbly or misaligned? Free re-visit within 48 hours. Payment held until you confirm furniture is stable.",
+    "pirbStandard": "CPA Section 56: Consumer has 6-month warranty on assembly services. CPA Section 55: Furniture must be fit for purpose - assembly errors that cause instability are the seller's responsibility.",
+    "articleSections": [
+      {
+        "heading": "Common Assembly Mistakes to Avoid",
+        "body": "Cross-threading screws (forcing them at an angle - ruins the particle board), tightening cam locks too early (panels must be aligned first), missing wooden dowels (structural integrity drops 80%), reversing door hinges (common on double-wardrobe doors), and over-tightening screws in particle board (strips the hole - furniture is never stable again). Professional assemblers charge R250 per stripped screw repair - avoidable with correct technique."
+      },
+      {
+        "heading": "Flat-Pack Quality Check",
+        "body": "Before assembly, check: damaged panels (cracks, water damage, delamination - snap a photo and contact store immediately), missing hardware kits (count against the parts list), colour variation between panels (natural wood variation is acceptable, laminate differences may be defects), and warped panels (place on flat surface - more than 5mm bow means replacement). Bouul assemblers document these before starting."
+      }
+    ]
+  },
+  {
+    "id": "furn-002",
+    "tag": "furniture-delivery",
+    "title": "White-Glove Furniture Delivery: Room of Choice and Setup",
+    "subtitle": "Delivery that goes beyond the front door - right to where you want it.",
+    "image": "/scenes/logistics-whiteglove.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your new leather sofa is arriving and you live on the third floor of a walk-up with 90cm-wide stairwells.",
+    "problemBody": "Standard furniture delivery in SA is kerbside or front-door only. You drag the sofa through the passage yourself, scuffing walls, denting door frames, and straining your back. Bulky items (sofas, beds, wardrobes) in sectional titles and apartments create access challenges. White-glove service includes room placement, debris removal, and old furniture relocation - delivery pros with appliance dollies, furniture sliders, and corner protectors.",
+    "bouulSolution": [
+      "Bouul white-glove crews place furniture in the exact room and position you specify",
+      "Furniture sliders and corner protectors prevent wall scuffs, floor scratches, and door-frame damage",
+      "Old furniture moved to garage (or removal point) at no extra charge - no heavy lifting for you"
+    ],
+    "partsNeeded": [
+      "Access route cleared: passage width min 80cm for standard furniture (sofas need 90cm+)",
+      "Measurements: doorway widths, lift dimensions, stairwell clearances, turning points",
+      "Photo of access route sent in advance (Bouul messenger for pre-delivery survey)",
+      "Parking bay reserved if sectional title or narrow street (R50-R200 municipal fee)"
+    ],
+    "guidePricing": "White-glove (room+debris): R400-R800 for standard items. Sectional title (lift/elevator): +R100. Stair carry (per floor above ground): +R150-R300. Old furniture removal: R200-R500 per item.",
+    "timeline": "Single item: 30-45 minutes in-room. Full delivery (+assembly): 2-5 hours. White-glove adds 15-20 minutes per item for proper placement and wrapping removal.",
+    "aiPromptExample": "White-glove delivery of a corner couch (2.8m wide) to a top-floor apartment with a lift that fits standard sofas.",
+    "aiDiagnosisOutput": "Corner couch 2.8m. Lift dimensions: standard 1.5m x 2.1m (fits if rotated 45 degrees). Crew: 2 persons required for corner couch. White-glove: room placement in lounge + sofa sliders on tile floor (no scratches) + debris removal. Cost: white-glove R650 + no stair charge (lift) = R650. Old couch to garage: +R350. Total: R1,000. Time: 45min from arrival.",
+    "escrowGuarantee": "Payment held. Wall scuffs or floor damage during delivery? Bouul covers repair up to R3,000. Photo documentation taken before and after.",
+    "pirbStandard": "CPA Section 54: Supplier must perform service with reasonable care and skill. CPA Section 58: Cancelling within 24 hours of delivery window - minimum 80% refund if booking was for room-of-choice delivery.",
+    "articleSections": [
+      {
+        "heading": "Measuring for Delivery Access",
+        "body": "Measure everything before ordering: door widths (internal and external), passage widths, lift dimensions (height matters for tall items), stairwell width and landing depth at turns (the 90-degree turn is where most deliveries fail), and window access (for crane lifts on extreme items). General rule: items over 2m long need angled entry through standard 80cm doors. Bouul's pre-delivery survey (free, takes 10 minutes via video call) catches all access issues."
+      },
+      {
+        "heading": "Lift vs Stairs for Furniture",
+        "body": "Sectional title lifts: check dimensions (height often the constraint), booking time-slots (many complexes require 48h notice), load limits (standard lift 400-630kg - fine for furniture with 2 crew plus trolley). Stairs: budget R150-R300 per floor. Three critical risks: corner turns (furniture gets stuck), lightweight landings (check building age - some pre-2000), and handrail clearance (must be >20cm extra on furniture width)."
+      }
+    ]
+  },
+  {
+    "id": "furn-003",
+    "tag": "furniture-delivery",
+    "title": "Furniture Removal and Donation: Clear Out with Purpose",
+    "subtitle": "When the old furniture must go before the new one arrives.",
+    "image": "/scenes/logistics-furniture-removal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your new bedroom set is arriving tomorrow but the old bed, dresser, and nightstands are still in the room.",
+    "problemBody": "Furniture disposal is the step everyone forgets. SA landfills charge R250-R800 per cubic metre for bulk waste. Illegal dumping carries fines up to R5,000. Council bulk-waste collection happens monthly at best. Old furniture left on pavements attracts pests and fines. Donating to charities (SA Cares, SPCA charity shops, The Salvation Army) has logistics costs - most charities cannot collect, only accept drop-offs.",
+    "bouulSolution": [
+      "Bouul same-day furniture removal with donation route: working furniture to registered charities",
+      "Damaged/unusable furniture to recycling centres (wood chipped, metal recycled, foam repurposed)",
+      "Tax-deductible donation receipt issued for charity-qualifying items (SARS Section 18A)"
+    ],
+    "partsNeeded": [
+      "Decision on each item: donate, recycle, or landfill (Bouul can advise condition-based)",
+      "Clear path from room to truck (furniture disassembled if needed - no extra charge)",
+      "Charity preference if specific (otherwise Bouul routes to nearest registered beneficiary)"
+    ],
+    "guidePricing": "Single item removal: R200-R500 per piece. Full room: R600-R1,500. Full house furniture clear-out: R2,000-R6,000. Recycling surcharge (landfill diversion): R100-R300 if item contains mixed materials.",
+    "timeline": "Standard removal: 24-48h booking. Same-day/emergency: +50% surcharge. Full house clear-out: 2-6 hours on site depending on volume.",
+    "aiPromptExample": "Clear a 3-bedroom house of all furniture before the new owners move in on Saturday. Items: beds (3), couches (2), dining set, cabinets, assorted. Separate donate/recycle.",
+    "aiDiagnosisOutput": "Full house: 3 beds, 2 couches, dining 8pc, 4 cabinets, assorted (12 items). Estimated volume: 22m3. 5-ton truck + 3-person crew. Sort on-site: donation (60% - items good condition), recycle (30% - fabric/wood mixed), landfill (10% - foam/mattress). Donation route to Habit for Humanity (JHB branch). Cost: removal R4,500 + disposal fees (recycle R300 + landfill R500) = R5,300. Tax donation value: ~R8,000 (Section 18A). Timeline: 4 hours.",
+    "escrowGuarantee": "Payment held until you confirm items reached intended destination (charity/recycle/landfill). Photo proof of disposal provided. Re-direction fee if you change charity mid-route: R200.",
+    "pirbStandard": "SA Waste Act 59/2008: Waste must be disposed at registered facilities. Section 28: Duty of care - illegal dumping carries fines up to R5,000 or 6 months imprisonment. CPA Section 18A: Donated goods qualify for tax deduction if recipient is registered PBO.",
+    "articleSections": [
+      {
+        "heading": "Charity Donation Checklist",
+        "body": "Not all furniture qualifies for donation. Charities accept: good-condition beds (no stains, no broken slats), solid wood furniture (veneers ok if intact), upholstered items with no rips or odours, and fully functional electronics. They reject: mattresses (hygiene - landfill required unless wrapped in plastic and like-new), torn upholstery (most cannot reupholster), particle board items (low resale value - recycle instead), and anything with smoke damage. Bouul pre-screens and routes accordingly."
+      },
+      {
+        "heading": "Landfill vs Recycling vs Upcycling",
+        "body": "Landfill: last resort. Items containing foam, mixed materials (particle board with laminate), and non-recyclable plastics. Recycling: metal bed frames, solid wood (chip to mulch), glass tabletops (reuse in construction), and electronics (e-waste facilities). Upcycling: items you could sell (Facebook Marketplace, Garage Sale) - Bouul will place in your driveway for buyer collection at no extra charge. Best environmental option: solid wood items last 30+ years on landfill; metal can be recycled infinitely."
+      }
+    ]
+  },
+  {
+    "id": "furn-004",
+    "tag": "furniture-delivery",
+    "title": "Office Furniture Logistics: Desks, Chairs, and System Furniture",
+    "subtitle": "Corporate relocations and fit-outs without lost screws or missing parts.",
+    "image": "/scenes/logistics-office-furniture.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "The new office opens Monday and 40 workstations are still sitting in boxes in the loading bay.",
+    "problemBody": "Office furniture logistics is a different beast from residential. System furniture (modular desks, partition panels, cable management channels) is complex and component-specific. A single workstation has 50-200 parts. SA companies spend R5,000-R50,000 per workstation - assembly errors cost thousands. Lost parts delay occupancy by weeks. Ergonomic chairs need correct adjustment assembly. Corporate clients need installation within business-hours windows and zero dust/debris in finished spaces.",
+    "bouulSolution": [
+      "Bouul office crews experienced with system furniture brands: Steelcase, Herman Miller, and local (Nuvo, Stance, Regal)",
+      "Assembly on-site with cable management routing and desk-level power/data integration",
+      "Post-installation inspection: every drawer slides, every chair adjusts, every monitor arm tightens"
+    ],
+    "partsNeeded": [
+      "Office floor plan with workstation layout (AutoCAD or PDF with dimensions)",
+      "Furniture inventory and parts checklist (Bouul provides pre-assembly inventory audit)",
+      "Cable management plan: power trunking routes, data drop locations, UPS placement",
+      "After-hours access for building if weekend installation"
+    ],
+    "guidePricing": "Workstation assembly (desk+return+panel): R500-R1,200 each. Ergonomic chair assembly: R150-R250 each. Meeting table (8-seat): R800-R2,000. Per-crew-hour: R350-R600. Bulk discount (20+ stations): 15% off.",
+    "timeline": "Inventory audit: 2-4 hours. Assembly per workstation: 45-90 minutes. 20-workstation office: 2-4 days with 2-person crew. Full fit-out: 5-10 working days.",
+    "aiPromptExample": "Install 24 Steelcase workstations for a financial advisory firm, must complete during weekend (Saturday 8am to Sunday 8pm).",
+    "aiDiagnosisOutput": "24 workstations, Steelcase. Crew: 4 persons, 2 teams. Team A: 12 stations (desk+return+pedestal+panel). Team B: 12 stations + chairs. Saturday 8am-6pm: 12 stations + cable routing (Team A), chairs (Team B). Sunday 8am-5pm: remaining 12 + inspection. Cost: R600/station x 24 = R14,400 + chair assembly R200 x 24 = R4,800. Total: R19,200. Weekend no surcharge. Complete by Sunday 5pm.",
+    "escrowGuarantee": "Post-installation sign-off required before payment release. Missing parts or assembly defects corrected within 48 hours at no charge.",
+    "pirbStandard": "OHS Act Section 8: Employer must provide safe working environment - workstation assembly must ensure stability and correct height. SA Labour Relations Act: Office furniture must comply with SA Bureau of Standards (SABS) ergonomic guidelines.",
+    "articleSections": [
+      {
+        "heading": "Cable Management 101",
+        "body": "The most common office furniture complaint is 'cable spaghetti'. Proper cable management starts at assembly: desk-level power/data grommets, vertical cable channels in panels, and floor or ceiling cable covers for inter-desk runs. Best practice: label every cable at both ends during installation, route power cables separately from data cables (min 30cm gap to reduce interference), and leave 20% spare capacity in cable channels for future additions. Bouul includes cable labelling and bundling in every office installation."
+      },
+      {
+        "heading": "Ergonomic Chair Setup",
+        "body": "A wrong-height chair causes back pain within hours. Assembly: seat height adjustment (5-10cm above floor for most), lumbar support position (at natural waist curve), armrest width matching shoulder width, tilt tension set to your weight (turn until you sit without tilt). After assembly: user adjusts seat height so thighs parallel to floor, feet flat, and desk at elbow height when arms are 90 degrees. Bouul crew calibrates each chair for its assigned person during installation."
+      }
+    ]
+  },
+  {
+    "id": "furn-005",
+    "tag": "furniture-delivery",
+    "title": "Antique and Fine Furniture Moving: Delicate Cargo Standards",
+    "subtitle": "Heirloom dining tables and vintage sideboards need more than a blanket wrap.",
+    "image": "/scenes/logistics-antique-furniture.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Your grandmother's 1920s oak dining table with hand-carved legs needs to move 800km and you cannot bear to see a scratch on it.",
+    "problemBody": "Antique furniture is irreplaceable. A scratch, chip, or broken leg reduces value by 30-70%. Standard movers use moving blankets and shrink wrap - insufficient for delicate inlays, marquetry, gilded surfaces, and veneers. SA antique pieces often have unique construction (dovetail joints, wooden pegs instead of screws) that standard handling damages. Specialised antique movers use acid-free paper, corner protectors, and custom crating.",
+    "bouulSolution": [
+      "Bouul antique specialists trained in handling period furniture, fragile veneers, and decorative elements",
+      "Materials: acid-free paper, foam corner protectors, furniture socks (not blankets), custom crating for high-value items",
+      "Insurance valuation up to R500,000 per item with written condition report before and after"
+    ],
+    "partsNeeded": [
+      "Valuation certificate for each item over R50,000 (for insurance)",
+      "Condition photos from all angles (Bouul takes additional photos during packing)",
+      "Access route assessment (narrow stairs and antique pieces rarely compatible - disassembly may be needed)",
+      "Climate-controlled storage if interim hold needed (humidity: 45-55%, temperature: 18-22°C)"
+    ],
+    "guidePricing": "Local move (standard piece): R800-R2,000 per item. Inter-city: R2,500-R6,000 per item. Custom crating: R800-R3,000 per piece. Valuation insurance: 2-5% of declared value.",
+    "timeline": "Local: 1-2 hours per piece. Inter-city road: 3-7 days. Full house of antiques: 1-3 days packing, 1 day moving, 1-2 days unpacking.",
+    "aiPromptExample": "Move an 1850s Cape Dutch yellowwood stinkwood display cabinet (1.8m tall, 250kg) from Stellenbosch to Johannesburg.",
+    "aiDiagnosisOutput": "Cape Dutch cabinet, 1850s, yellowwood/stinkwood, 250kg, 1.8m tall. Special handling: glass doors (removed + crated separately), original brass hinges (protected with microfiber wrap), inlaid detail (acid-free paper + foam overlay). Route: Stellenbosch to JHB (1,400km road, climate-controlled truck). Crew: 3-person antique specialist team. Packing: 4 hours. Transport: climate-controlled 18-22°C, humidity 50%. Insurance: R250,000 (3.5% = R8,750). Customs: no (domestic). Total: R12,000-R18,000. Unpack + placement: included. Timeline: 5-7 days.",
+    "escrowGuarantee": "Condition report signed at both ends. Damage exceeding 5% of item value = full insurance payout via Bouul Escrow. Payment held until you confirm condition matches pre-move report.",
+    "pirbStandard": "SA Heritage Resources Act (Act 25/1999): Items over 100 years old may require export permit if crossing provinces (heritage significance assessment). Insurance CPA Section 67: Full written disclosure of terms required for high-value items.",
+    "articleSections": [
+      {
+        "heading": "Packing Materials for Antiques",
+        "body": "Never use: bubble wrap directly against polished surfaces (leaves impression marks), standard moving blankets (fibres snag on carvings), or packing tape on wood (removes finish). Use: acid-free tissue paper as first layer, quilted furniture pads (cotton batting with muslin cover) as second layer, and corrugated cardboard corner protectors for legs and edges. For veneered pieces: add a layer of foam (not rubber, which off-gasses and damages the veneer) between acid-free paper and outer wrap. Climate-controlled truck is non-negotiable for long-distance."
+      },
+      {
+        "heading": "Temporary Climate Storage",
+        "body": "Antiques need stable conditions during wait times. Optimal: 18-22°C at 50% relative humidity. Too dry (<40%): wood shrinks, veneer cracks, inlay pops loose. Too humid (>65%): wood expands, joints loosen, mould grows. SA's highveld summer humidity spikes to 80%+ and Highveld winters drop to 20%. Bouul's climate storage facilities maintain 50% +/- 5%. For storage over 30 days: monthly inspection check (cracks, movement, pests) included."
+      }
+    ]
+  },
+  {
+    "id": "furniture_retail_delivery",
+    "tag": "Retail Delivery",
+    "title": "Store-to-Door Furniture Transport & Assembly",
+    "subtitle": "Pickup furniture from retail stores or marketplace sellers with optional assembly",
+    "image": "/scenes/furniture_delivery.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Buying large furniture online is easy, but getting it home without a bakkie is frustrating",
+    "problemBody": "Retail store delivery services often take 7–14 days and charge exorbitant fees.",
+    "bouulSolution": [
+      "On-demand 1-ton bakkie or 1.5-ton van dispatch to collect furniture directly from store",
+      "Includes 2-man crew to load, transport, carry upstairs, and assemble flat-pack items",
+      "Escrow released after furniture is inspected and assembled in your home"
+    ],
+    "partsNeeded": [
+      "1-Ton Bakkie with ratcheting straps",
+      "Furniture protective blankets",
+      "Cordless drill & hex key assembly set"
+    ],
+    "guidePricing": "R450 – R1,200",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Book furniture pickup: 'Collect 6-seater dining table from store in Kramerville and deliver to Midrand.'",
+    "aiDiagnosisOutput": "Pickup: Kramerville. Drop: Midrand. Vehicle: 1.5-Ton Enclosed Van. Escrow: R750.",
+    "escrowGuarantee": "Escrow released after home delivery and damage-free check.",
+    "pirbStandard": "RFA Goods-In-Transit Certified.",
+    "articleSections": [
+      {
+        "heading": "Flat-Pack Furniture Assembly",
+        "body": "Drivers carry cordless assembly kits to assemble tables, beds, and chairs on site."
+      },
+      {
+        "heading": "Blanket-Wrapped Transit",
+        "body": "All timber and glass furniture pieces are wrapped in padded moving blankets."
+      }
+    ]
+  }
+]

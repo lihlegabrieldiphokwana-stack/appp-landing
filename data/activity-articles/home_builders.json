@@ -1,0 +1,286 @@
+[
+  {
+    "id": "house_extension",
+    "tag": "Builders",
+    "title": "House Extension",
+    "subtitle": "Add more room without moving — a well-planned extension adds value and space to your home.",
+    "image": "/scenes/builders.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your family is growing but your house isn't. Moving costs are through the roof.",
+    "problemBody": "A growing family or new home-office need means more square metres, but relating in SA comes with transfer duties, agent fees, and bond costs that can run into hundreds of thousands. An extension done right adds exactly the space you need at a fraction of the move price.",
+    "bouulSolution": [
+      "We match you with vetted structural builders experienced in residential extensions across SA.",
+      "Your project is managed through our escrow system — funds release only when agreed milestones are met.",
+      "Zola AI helps you scope the job, estimate timelines, and flag structural considerations before a single brick is laid."
+    ],
+    "partsNeeded": [
+      "Cement, bricks, and reinforcing steel (Y10/Y12 rebar)",
+      "Roofing sheets or tiles matching existing structure",
+      "Damp-proof course (DPC) and waterproofing membrane",
+      "Plaster, paint, and finishing materials"
+    ],
+    "guidePricing": "R85,000 - R350,000",
+    "timeline": "Duration: 3 - 8 Weeks",
+    "aiPromptExample": "I want to add a 4m x 5m bedroom with a bathroom onto the back of my single-storey house in Johannesburg. The wall is face-brick and the roof is IBR sheeting. I have approved municipal plans from 2019 that show the boundary lines.",
+    "aiDiagnosisOutput": "Extension scope assessed: 20 sqm room + full bathroom (shower, WC, basin). Existing foundation at that wall is a 600mm strip footing — sufficient for single-storey load-bearing. Recommend NHBRC-registered builder for structural work, SANS 10400 Part L for insulation (roof and walls). Municipal plan approval needed from City of Johannesburg (planning and building control). Budget estimate R180k-R250k depending on finishes. Escrow milestones: foundation pour → wall plate → roofing → waterproofing → final fit-out.",
+    "escrowGuarantee": "Funds are held in secure escrow and released per milestone (foundation, structure, roofing, finishes) after your sign-off. No upfront lump-sum payments.",
+    "pirbStandard": "All builders must be registered with the National Home Builders Registration Council (NHBRC) for structural work exceeding 30 sqm, and must comply with SANS 10400 (National Building Regulations).",
+    "articleSections": [
+      {
+        "heading": "Do You Really Need an Extension?",
+        "body": "Before calling in a builder, consider whether a room conversion or loft conversion could solve the problem for less. A house extension is the right call when you need genuine additional floor area and your erf has the space to accommodate it within municipal coverage and setback regulations."
+      },
+      {
+        "heading": "Planning Permission in SA",
+        "body": "Most extensions over 15 sqm require approved plans from your local municipality. The process involves a registered architect or draftsperson, submission to building control, and payment of plan fees (typically R2,000-R8,000 depending on the metro). Structural calculations by a registered engineer are required for any altered roof spans or new foundations."
+      },
+      {
+        "heading": "Matching Existing Finishes",
+        "body": "A common regret is an extension that looks tacked-on. Match brick type, mortar colour, roof sheeting profile, and window frame style to the existing house. A reputable builder will source matching materials or recommend a complementary contrast that reads as intentional."
+      },
+      {
+        "heading": "Foundation Considerations",
+        "body": "SA soils vary dramatically — from expansive clay in Gauteng to sandy coastal soils in the Western Cape. A geotechnical report (R3,500-R8,000) can save you from cracked walls later. Your builder should justify the foundation design based on soil conditions, not just build what they always build."
+      },
+      {
+        "heading": "Waterproofing and Damp Proofing",
+        "body": "SA building regulations (SANS 10400 Part L) mandate damp-proof courses at floor level and cavity walls in certain climate zones. A badly waterproofed extension is a mould lawsuit waiting to happen. Ensure the contract specifies DPC brand and installation method before signing."
+      }
+    ]
+  },
+  {
+    "id": "boundary_wall",
+    "tag": "Builders",
+    "title": "Boundary Wall Construction",
+    "subtitle": "Security, privacy, and property value — a solid boundary wall does all three.",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your current fence is a polite suggestion, not a real barrier.",
+    "problemBody": "Palisade fencing or a low wall might mark the property line, but it offers zero privacy and limited security. In SA, a proper boundary wall is the first line of defence against opportunistic crime and the foundation of a usable outdoor space.",
+    "bouulSolution": [
+      "We connect you with masonry specialists who build to SANS 10400 structural standards.",
+      "Our escrow system protects your deposit — milestone-based release only after your inspection.",
+      "Zola AI helps you choose between plastered face-brick, precast concrete, or retaining-wall block systems."
+    ],
+    "partsNeeded": [
+      "Concrete foundation mix (20 MPa minimum) and reinforcing mesh",
+      "Bricks or concrete blocks (400x200x200 mm standard)",
+      "Cement, plaster sand, and waterproofing additive",
+      "Concrete coping stones or precast wall caps"
+    ],
+    "guidePricing": "R450 - R1,200 per linear metre",
+    "timeline": "Duration: 1 - 3 Weeks (depending on length)",
+    "aiPromptExample": "I need a 2.1m high face-brick boundary wall around my stand in Midrand. The erf is 600 sqm roughly rectangular. Neighbour already has a wall on the one side. Soil is clay — I know because my driveway cracked.",
+    "aiDiagnosisOutput": "Wall scope: approximately 70 linear metres with one shared party wall. 2.1m height is maximum allowed without a building line relaxation in Midrand (City of Johannesburg). Clay soil means 400mm wide x 600mm deep strip footing with Y12 rebar — do not accept a narrower foundation. Face-brick estimate R700-R950 per linear metre including foundation and copings. NHBRC enrolment required for wall over 1.8m. Recommend escrow milestones: foundation inspection → brickwork to half-height → full height → copings and finish.",
+    "escrowGuarantee": "Your payment is held securely and released in stages — foundation complete, wall to half-height, wall to full height, copings and finishing — each after your walk-through approval.",
+    "pirbStandard": "Boundary walls over 1.8m require NHBRC registration and approved plans from the local municipality. Work must comply with SANS 10400 Part K (walls) and Part D (foundations).",
+    "articleSections": [
+      {
+        "heading": "Height Restrictions in SA",
+        "body": "Most municipalities allow a 2.1m maximum boundary wall height without relaxation approval. Corner stands and properties on busy roads may have different rules. Always check your local zoning scheme before building — a wall that violates height limits can be ordered demolished at your cost."
+      },
+      {
+        "heading": "Face-Brick vs Plastered vs Precast",
+        "body": "Face-brick is the most durable and requires zero maintenance, but costs more upfront (R700-R1,100 per linear metre). Plastered walls (R450-R700 per metre) are cheaper but need repainting every 3-5 years. Precast concrete walls (R550-R800 per metre) go up fast — a week for 50 metres — but can look industrial if not finished well."
+      },
+      {
+        "heading": "Foundation Requirements for Clay Soil",
+        "body": "Expansive clay soils (common in Gauteng and parts of KZN) shrink and swell with moisture. A standard 300mm foundation will crack within two years. Your builder must specify a 600mm minimum depth foundation with Y12 reinforcing on clay. Get it in writing."
+      },
+      {
+        "heading": "Party Walls and Neighbour Consent",
+        "body": "If you share a wall with a neighbour, both parties are generally responsible for maintenance. For new boundary walls, the wall must sit entirely on your property unless you have a written party-wall agreement. It's common courtesy (and good law) to give written notice before starting."
+      }
+    ]
+  },
+  {
+    "id": "patio_cover",
+    "tag": "Builders",
+    "title": "Patio Cover Installation",
+    "subtitle": "Extend your living space outdoors with a durable, weatherproof patio cover.",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your patio furniture fades in three months and you can't use the braai when it rains.",
+    "problemBody": "Without a proper cover, your outdoor area is at the mercy of SA's harsh UV, summer thunderstorms, and windy Highveld afternoons. A well-designed patio cover protects your investment and gives you an all-weather entertainment zone.",
+    "bouulSolution": [
+      "We match you with specialist patio contractors who handle steel, wood, and polycarbonate systems.",
+      "Escrow ensures you only pay for completed, waterproof work — no leaky shortcuts.",
+      "Zola AI advises on roof pitch, material selection, and municipal approval requirements."
+    ],
+    "partsNeeded": [
+      "Galvanised steel tubing (50x50x2mm minimum) or treated pine beams (76x228mm)",
+      "IBR sheeting or polycarbonate panels (6mm multiwall minimum)",
+      "Self-tapping metal screws with EPDM washers, anchor bolts, and wall plates",
+      "Guttering system and downpipes (PVC 75mm or 90mm)"
+    ],
+    "guidePricing": "R18,000 - R65,000",
+    "timeline": "Duration: 3 - 7 Days",
+    "aiPromptExample": "I want a 6m x 4m patio cover against the back wall of my house in Durban. I need it to handle heavy rain and coastal humidity. I'm thinking IBR sheeting but worried about the noise during storms.",
+    "aiDiagnosisOutput": "Patio cover scoped: 24 sqm, lean-to against existing wall. Durban coastal zone requires hot-dip galvanised (HDG) steel or 316 marine-grade stainless — standard galvanising will rust within 3 years. IBR sheeting with 100mm sarking insulation reduces rain noise significantly (recommended). Minimum pitch 10 degrees per SANS 10400 Part L. Municipal approval not needed if area under 30 sqm but check heritage overlay if in Berea/Morningside. Budget estimate R32k-R50k depending on insulation and guttering. Escrow milestones: steel frame erected → roofing installed → waterproofing inspected → gutters and downpipes.",
+    "escrowGuarantee": "Funds are released incrementally: frame erection, roof sheeting, waterproofing sign-off, and final gutters. No payment for a roof that leaks.",
+    "pirbStandard": "Patio covers under 30 sqm generally don't require municipal plans but must still comply with SANS 10400. Structures over 30 sqm or attached to the main dwelling's roof structure require approved plans.",
+    "articleSections": [
+      {
+        "heading": "IBR vs Polycarbonate vs Thatched",
+        "body": "IBR sheeting is the most durable (30+ years), fire-safe, and available in multiple colours, but can be noisy in heavy rain unless insulated. Polycarbonate allows light through but degrades in 5-8 years under SA sun. Thatched is beautiful and cool but expensive to insure and maintain. For most SA homes, painted IBR is the practical sweet spot."
+      },
+      {
+        "heading": "Coastal Considerations",
+        "body": "If you live within 15 km of the coast, standard galvanised steel will show rust within 18 months. Hot-dip galvanised (HDG) or 316 stainless steel are non-negotiable for coastal patio covers. Aluminium is an excellent alternative — zero rust, light, and available in multiple profiles."
+      },
+      {
+        "heading": "Roof Pitch and Water Runoff",
+        "body": "SA building regs require a minimum 10-degree pitch for IBR roofs and 15-degree for tile or slate. Flat or very low-pitch roofs trap debris and develop leaks at the end-laps. Your contractor must show you the calculated fall before fabrication."
+      },
+      {
+        "heading": "Guttering That Actually Works",
+        "body": "A patio cover channels a lot of water into a small area. Standard 65mm round gutters may overflow in a summer downpour. Spec 90mm rectangular gutters with 75mm downpipes at both ends for covers over 20 sqm. Downpipes should discharge into an existing stormwater system or a drywell — not onto the neighbour's yard."
+      }
+    ]
+  },
+  {
+    "id": "garage_conversion",
+    "tag": "Builders",
+    "title": "Garage Conversion",
+    "subtitle": "Turn your parked car into extra living space — a garage conversion is one of the cheapest ways to add a room.",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Your garage holds boxes, camping gear, and a car that barely fits. That's 36 sqm of wasted potential.",
+    "problemBody": "Many SA homes have double garages used for storage rather than parking. Converting that space into a flat, home office, or rental unit costs a fraction of a full extension and adds significant property value. The structural shell is already there — you're essentially finishing what the builder started.",
+    "bouulSolution": [
+      "We connect you with conversion specialists who handle slab, walls, plumbing, and electrical in one package.",
+      "Escrow protects your investment — payment releases as each conversion phase is completed and inspected.",
+      "Zola AI creates a job specification covering insulated flooring, plumbing tie-ins, and ventilation requirements."
+    ],
+    "partsNeeded": [
+      "Insulated flooring system (screed over damp-proof membrane with 50mm EPS insulation)",
+      "Drywalling and partition materials (Gyproc or equivalent)",
+      "Plumbing kit for wet core (basin, toilet point, shower waste if applicable)",
+      "Electrical cable, DB board extension, lighting, and ventilation fan"
+    ],
+    "guidePricing": "R55,000 - R180,000",
+    "timeline": "Duration: 2 - 5 Weeks",
+    "aiPromptExample": "I want to convert my single garage in Cape Town into a one-bedroom flatlet with a shower, toilet, and small kitchenette. Garage is 6m x 3.5m with a tilt-up door. The house is on a slope with the garage at street level.",
+    "aiDiagnosisOutput": "Conversion scope: 21 sqm flatlet. Tilt-up door removal and infill with a 2.3m x 1.2m window and a security door required. Plumbing tie-in available from kitchen above (gravity-fed shower is feasible — confirm with plumber). City of Cape Town requires building plan approval for habitable conversion. Ceiling height: minimum 2.4m per SANS 10400. Budget estimate R120k-R170k with plumbing. Escrow milestones: slab preparation and DPM → wall infill and plaster → plumbing rough-in → electrical and ceilings → finishes and plumbing fit-out. Ensure cross-ventilation (SANS 10400 Part O).",
+    "escrowGuarantee": "Your payment is released against verified milestones: demolition and slab prep, wall infill, rough plumbing and electrical, ceilings and finishes. No upfront bulk payments.",
+    "pirbStandard": "Garage conversions that create habitable space require approved building plans from the local municipality and must comply with SANS 10400 Parts L (insulation), O (ventilation), and W (sanitation). If the conversion includes rental accommodation, electrical COC and plumbing compliance certificate are mandatory.",
+    "articleSections": [
+      {
+        "heading": "Is It Cheaper Than Building New?",
+        "body": "Yes — you save on foundations, roofing, and external walls. A garage conversion typically runs R55k-R180k compared to R250k+ for a new room of the same size. The savings come from reusing the existing slab, roof, and structural walls."
+      },
+      {
+        "heading": "Slab and Damp Proofing",
+        "body": "Garage slabs are usually poured without a damp-proof membrane because they were designed to park cars on, not to live on. A conversion must add a DPM and insulated screed (minimum 50mm EPS) over the existing slab. Skipping this step means cold floors and rising damp in winter."
+      },
+      {
+        "heading": "Plumbing for a Wet Core",
+        "body": "Adding a bathroom or kitchenette means running new pipes. If your garage is below the main house, gravity-fed drainage works well. If it's level or below street drainage, you may need a macerating toilet pump (R3,500-R6,000). Your plumber will do a fall test before committing to layout."
+      },
+      {
+        "heading": "Natural Light and Ventilation",
+        "body": "Garages are dark boxes by nature. SANS 10400 Part O requires habitable rooms to have windows equal to at least 10% of the floor area and ventilation equal to 5%. Plan for at least one large window and consider a skylight if the roof pitch allows."
+      },
+      {
+        "heading": "Municipal Approval Timeline",
+        "body": "Converting a garage to a habitable space requires building plan approval. The process takes 4-8 weeks in most metros. Work without approval risks a compliance fine and difficulty selling the property later. Your contractor should handle submission as part of the quote."
+      }
+    ]
+  },
+  {
+    "id": "retaining_wall",
+    "tag": "Builders",
+    "title": "Retaining Wall Construction",
+    "subtitle": "Stop erosion, level your garden, and prevent structural damage with a properly engineered retaining wall.",
+    "image": "/scenes/builders.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "That sloped garden is washing into your neighbour's yard every time it rains.",
+    "problemBody": "A steep slope isn't just hard to mow — it's actively eroding, undermining your foundations and your neighbour's. In SA's summer rainfall regions, one heavy storm can displace tonnes of soil. A retaining wall holds everything in place and turns useless slope into usable flat ground.",
+    "bouulSolution": [
+      "We connect you with retaining wall specialists experienced in gravity, crib, and reinforced block systems.",
+      "Escrow ensures no payment for a wall that fails — funds release after structural sign-off.",
+      "Zola AI recommends the right wall type and drainage spec based on your soil type and slope height."
+    ],
+    "partsNeeded": [
+      "Concrete blocks (400x200x200 mm hollow or solid) or interlocking retaining wall blocks",
+      "Weep holes (75mm PVC pipe or proprietary weep system)",
+      "Geotextile fabric and drainage aggregate (19mm crushed stone or gravel)",
+      "Perforated drainage pipe (110mm corrugated) and outlet fittings"
+    ],
+    "guidePricing": "R1,500 - R4,500 per square metre of wall face",
+    "timeline": "Duration: 1 - 3 Weeks (depending on height and length)",
+    "aiPromptExample": "I have a 2m high slope at the back of my property in Pietermaritzburg. The soil is sandy loam and the neighbour's driveway runs along the top of the slope. I need a retaining wall about 15m long.",
+    "aiDiagnosisOutput": "Retaining wall scope: 2m high x 15m long, retaining sandy loam. At 2m height this requires engineered design and a structural engineer's sign-off per SANS 10400 Part D. Recommend reinforced concrete (RC) or segmental block system with geogrid reinforcement. Drainage is critical — specify 110mm perforated pipe wrapped in geotextile behind the wall with 500mm of 19mm stone. Budget estimate R55k-R95k. Escrow milestones: excavation and foundation trench → foundation pour and reinforcement inspection → block installation and geo-grid layers → drainage system → backfill and capping. Registered engineer required; structural certificate must be issued.",
+    "escrowGuarantee": "Funds release against verified phases: excavation and foundation, block installation with drainage, and final backfill with structural engineer sign-off.",
+    "pirbStandard": "Retaining walls over 1.5m height require engineering design and certification under SANS 10400 Part D (foundations) and B (structural design). A registered structural engineer must sign off before backfilling. Walls under 1.5m must still be built with adequate drainage per SANS 10400 Part L.",
+    "articleSections": [
+      {
+        "heading": "The Critical Role of Drainage",
+        "body": "More retaining walls fail from water pressure than from structural overload. Without proper drainage, water builds up behind the wall and the weight pushes it over. Every retaining wall above 600mm needs a perforated drain pipe at the base, 500mm of 19mm drainage stone behind the wall, and geotextile fabric to stop soil washing into the stone."
+      },
+      {
+        "heading": "Block Systems vs Cast Concrete vs Timber",
+        "body": "Interlocking segmental blocks (e.g. MegaBlock or similar) are the most popular SA choice — they flex with ground movement and look good. Cast-in-place concrete is strongest for walls over 2m but requires formwork and experienced labour. Treated timber railway sleepers are cheaper (R800-R1,200/sqm) but decay in 5-8 years and are not suitable for walls above 1m."
+      },
+      {
+        "heading": "When You Need an Engineer",
+        "body": "Any retaining wall above 1.5m requires an engineer's design in terms of SANS 10400 Part B. A reputable contractor will insist on this — it protects both of you. The engineering cost (R5,000-R15,000) is a fraction of the cost of a wall collapse."
+      },
+      {
+        "heading": "Council and Neighbour Issues",
+        "body": "Retaining walls on boundary lines can affect your neighbour's property drainage. You generally need your neighbour's consent for walls over 1.2m on the boundary, and you may be required to manage stormwater runoff so it doesn't flow onto their property. Check local by-laws before starting."
+      }
+    ]
+  },
+  {
+    "id": "foundation_work",
+    "tag": "Builders",
+    "title": "Foundation Work and Underpinning",
+    "subtitle": "A house is only as good as what's underneath it — professional foundation work stops cracks before they start.",
+    "image": "/scenes/builders.png",
+    "readTime": "5 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "That hairline crack in the wall is getting wider. Your foundation is moving.",
+    "problemBody": "Cracked walls, sticking doors, and sloping floors are signs your foundation is failing. In SA's variable climate — from drought to flood — clay soils shrink and swell, causing differential settlement. Underpinning stabilises the foundation and stops structural damage before it becomes unsafe.",
+    "bouulSolution": [
+      "We connect you with structural foundation specialists who diagnose soil conditions and design permanent solutions.",
+      "Escrow protection keeps your project on track — payment releases after certified inspections.",
+      "Zola AI helps assess crack severity, recommend investigation steps, and explain the underpinning methods available."
+    ],
+    "partsNeeded": [
+      "Reinforcing steel (Y12-Y16 rebar depending on structural design)",
+      "Concrete (25-30 MPa readymix for underpinning sections)",
+      "Shoring and excavation support materials (timber or hydraulic props)",
+      "Damp-proof membrane and waterproofing slurry"
+    ],
+    "guidePricing": "R25,000 - R120,000 (depending on extent of underpinning)",
+    "timeline": "Duration: 2 - 6 Weeks",
+    "aiPromptExample": "I have stair-step cracks in my gable wall in Pretoria. The soil outside has pulled away from the foundation by about 40mm. The house is 30 years old and was built on clay. Cracks appeared after the last two dry summers.",
+    "aiDiagnosisOutput": "Foundation investigation recommended. Stair-step cracks in gable indicate differential settlement likely from clay shrinkage after extended drought. 40mm gap confirms soil desiccation. Suspect strip foundation at less than 600mm depth (common for 1990s construction on clay). Recommend : (1) geotechnical investigation (R5k-R10k) to confirm soil bearing capacity and moisture profile, (2) trial pit to inspect existing foundation depth and condition. Probable solution: mass concrete underpinning to extend foundation to 1.2-1.5m depth. Budget estimate R60k-R100k for single gable wall. Escrow milestones: geotech report delivered → trial pit inspection → underpinning to half-depth → full-depth completion → structural engineer sign-off. Do not paint over cracks before investigation.",
+    "escrowGuarantee": "Your funds are held and released per certified milestone: geotechnical report, trial pit inspection, underpinning stages, and final structural engineer certificate.",
+    "pirbStandard": "All foundation work must comply with SANS 10400 Part D (foundations) and Part B (structural design). Underpinning must be designed and supervised by a registered structural engineer (PrEng or PrTechEng). A Certificate of Compliance is required for insurance purposes and property resale.",
+    "articleSections": [
+      {
+        "heading": "When a Crack Is More Than Cosmetic",
+        "body": "Not every crack means your foundation is failing. Hairline cracks under 2mm in plaster are usually cosmetic. Stair-step cracks following brick joints, cracks wider than 5mm, or cracks that appear suddenly after a weather event need investigation. Stick a piece of masking tape across the crack and date it — if it tears within 3 months, call a professional."
+      },
+      {
+        "heading": "Underpinning Methods Explained",
+        "body": "Mass concrete underpinning is the traditional SA method — digging pits beneath the existing foundation and filling them with concrete in sequence. It's proven but labour-intensive. Resin injection (polyurethane foam) is a newer, faster method that stabilises soil without excavation — R8,000-R12,000 per injection point — but works best in sandy soils, not clay. Your engineer will recommend based on soil report."
+      },
+      {
+        "heading": "The Geotechnical Survey",
+        "body": "A geotechnical investigation sounds expensive but is the best money you'll spend on foundation work. A soils engineer drills test holes, analyses soil type and moisture content, and gives you a bearing capacity report. This one document determines foundation depth, reinforcement specification, and underpinning method. Without it, you're guessing."
+      },
+      {
+        "heading": "Insurance Claims for Foundation Damage",
+        "body": "Many SA household insurance policies cover foundation movement from clay shrinkage after drought — check your policy wording. You'll typically need a structural engineer's report confirming the damage is structural, not cosmetic. The claim process takes 4-12 weeks. Keep all crack photographs, dated."
+      }
+    ]
+  }
+]

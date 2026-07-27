@@ -1,0 +1,266 @@
+[
+  {
+    "id": "train-001",
+    "tag": "pet-training",
+    "title": "Puppy Basics: Sit, Stay, and the Foundation of Everything",
+    "subtitle": "The first 8 weeks of training set the tone for a lifetime.",
+    "image": "/scenes/train-puppy-basics.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your 3-month-old puppy already ignores every command.",
+    "problemBody": "Puppies are learning from the moment they enter your home - whether you are teaching them or not. Jumping up, mouthing, and ignoring calls are behaviours that work for the puppy. The critical window for basic obedience is 8-16 weeks. After 16 weeks, bad habits become much harder to break.",
+    "bouulSolution": [
+      "Bouul connects you to KUSA-affiliated trainers using positive reinforcement only",
+      "Puppy foundation courses (4-6 sessions) teach both handler and puppy",
+      "Home-based sessions available for real-environment learning"
+    ],
+    "partsNeeded": [
+      "Flat collar + 4ft leash (R150-R300)",
+      "High-value treats + pouch (R110-R300)",
+      "Clicker (R30-R80)",
+      "Non-slip training mat (R50-R200)"
+    ],
+    "guidePricing": "R250-R450 per private session; R150-R250 per group class; R1,200-R2,500 for 6-session course",
+    "timeline": "6 sessions over 3-6 weeks; reliable sit-stay in 2-3 sessions",
+    "aiPromptExample": "Design a session plan for a 10-week-old Jack Russell that mouths hands and feet during play.",
+    "aiDiagnosisOutput": "Breed: Jack Russell, 10 weeks. Mouthing is normal exploration + prey drive. Plan: teach 'leave it' via hand-trade (toy for treat), yelp on contact + withdraw attention, proof on moving feet with kibble scatter. Prognosis: 80% reduction within 2 weeks with daily 5-min sessions.",
+    "escrowGuarantee": "Bouul Escrow holds payment. Aversive methods (prong, choke, shock) mean the session is free.",
+    "pirbStandard": "KUSA Training Standards: Positive reinforcement preferred. Aversive equipment banned by KUSA-endorsed trainers.",
+    "articleSections": [
+      {
+        "heading": "The Three Foundations",
+        "body": "Engagement (your puppy wants to work with you), marker training (clicker marks correct behaviour), and four basics (sit, down, stay, recall). Engagement comes first - use the name game: say name, treat when puppy looks. The clicker 'takes a picture' of the correct moment. The behaviour you mark is the behaviour you get."
+      },
+      {
+        "heading": "Positive vs Dominance Theory",
+        "body": "Dominance theory (alpha rolls, scruff shakes) has been debunked. Aversive methods increase aggression in 25% of dogs. Positive reinforcement produces faster learning, better retention, and a happier dog. SA's KUSA code of ethics now requires positive methods. Bouul lists only positive reinforcement trainers."
+      },
+      {
+        "heading": "Session Length",
+        "body": "Puppies have 2-5 minute attention spans. Do three 5-minute sessions daily rather than one 15-minute session. Always end on a success. Never train when frustrated - your dog reads your emotional state perfectly."
+      }
+    ]
+  },
+  {
+    "id": "train-002",
+    "tag": "pet-training",
+    "title": "Obedience Training: Beyond the Basics",
+    "subtitle": "Reliable recall, loose-leash walking, and impulse control for adolescent dogs.",
+    "image": "/scenes/train-obedience.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your adolescent dog only listens when you have a treat in your hand - the second you don't, you're invisible.",
+    "problemBody": "The adolescent phase (6-18 months) is when most dogs are surrendered to SA shelters. They have adult strength and teenage independence with puppy-level impulse control. Behaviours that were cute at 4kg are dangerous at 30kg. The dog that used to come when called now runs in the opposite direction. This phase requires structured training with real-world distractions - not just sit-in-the-kitchen practice.",
+    "bouulSolution": [
+      "Progressive distraction training: proof behaviours at home, then garden, then park, then busy street",
+      "Real-world SA scenarios: ignoring minibus taxis, street vendors, load-shedding generators, and other dogs",
+      "Loose-leash walking protocol using front-clip harness and consistent pressure-release mechanics"
+    ],
+    "partsNeeded": [
+      "Front-clip harness (R200-R500)",
+      "6ft leather or biothane leash (R150-R350)",
+      "Long line 10m (R150-R250)",
+      "High-value variable reward system (treats + toys + praise)"
+    ],
+    "guidePricing": "R300-R500 per session; R1,500-R3,000 for 5-session adolescent intensive; R200-R350 small-group",
+    "timeline": "5-8 sessions over 4-8 weeks for reliable off-leash recall",
+    "aiPromptExample": "Develop a loose-leash walking plan for a 9-month-old Labrador (30kg) that pulls toward every person and dog.",
+    "aiDiagnosisOutput": "Dog: 9-month Labrador, pulls toward all living things (excitement, not reactivity). Solution: front-clip harness + 'look at that' (LAT) protocol. 1) Teach 'watch me' at home (no distractions). 2) Add low-level distractions (garden). 3) Park at distance (20m from triggers). 4) Decrease distance by 2m per successful session. 5) Add 180-degree turns when pulling toward trigger. Expected: significant improvement in 4 sessions, reliable loose-leash in 8-10 sessions. Do not use retractable leash - it reinforces pulling.",
+    "escrowGuarantee": "Payment held by Bouul Escrow. If no measurable improvement after 4 sessions, the 5th session is free.",
+    "pirbStandard": "KUSA Canine Good Citizen (CGC) test: loose-leash walking, sit/down stay, recall through distractions, and neutrality around other dogs.",
+    "articleSections": [
+      {
+        "heading": "The 3 Ds of Proofing",
+        "body": "Duration, Distance, and Distraction - the three variables that make obedience reliable. Only increase one D at a time. If your dog fails, drop back two levels. Example for sit-stay: start with 5 seconds (duration) at 1 metre (distance) in the kitchen (low distraction). Progress to 30 seconds at 3 metres with the front door open. Master one location before moving to the garden. At the park, go back to 5 seconds at 1 metre."
+      },
+      {
+        "heading": "Recall: The Life-Saving Behaviour",
+        "body": "A reliable recall can save your dog's life (road, snake, cliff). Train recall with a unique word ('here', 'come', or a whistle) that is NEVER used negatively. Never call your dog for something they dislike (nail trims, bath, leaving the park). Practice 'recall games': hide-and-seek, running away (dogs chase), recall past distractions at increasing difficulty. Emergency recall word (different from regular recall) trained with the highest-value reward imaginable - roast chicken, sausage, cheese. Pay in jackpot (10 treats in succession) every time."
+      },
+      {
+        "heading": "Adolescent Regression: Normal and Manageable",
+        "body": "Around 6-9 months, your dog will appear to 'forget' everything they learned. This is normal - their brain is rewiring. Do not punish - return to basics: shorter sessions, higher value rewards, lower distractions, and more frequent reinforcement. The regression phase lasts 2-6 months depending on breed (larger breeds mature slower). Consistency through this phase is the difference between a well-behaved adult dog and a permanent adolescent. Your Bouul trainer can design a regression-proof plan."
+      }
+    ]
+  },
+  {
+    "id": "train-003",
+    "tag": "pet-training",
+    "title": "Behaviour Modification: Fear, Anxiety, and Reactivity",
+    "subtitle": "Why punishment doesn't work for fearful dogs and what does.",
+    "image": "/scenes/train-behaviour.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog is terrified of thunderstorms and has destroyed your baseboards trying to escape during the summer storms.",
+    "problemBody": "Anxiety-based behaviours - thunder phobia, separation anxiety, noise sensitivity, and fear aggression - are rooted in the dog's emotional state, not defiance. Punishing a fearful dog is like punishing someone for being afraid of spiders. It increases the fear and adds confusion. SA's summer thunderstorm season (October-February) is the peak period for anxiety-related destruction and escape injuries. Xanax or trazodone alone is rarely enough - the dog needs both medication AND behavioural modification.",
+    "bouulSolution": [
+      "Bouul partners with veterinary behaviourists (SAVA-registered) who can prescribe behaviour medication alongside training",
+      "Counter-conditioning and desensitisation (CC&D) protocols customised to your dog's specific triggers",
+      "Home environment modification advice: safe spaces, white noise, pheromone diffusers, and thunder wraps"
+    ],
+    "partsNeeded": [
+      "Thunder Wrap / Anxiety Wrap (R400-R800)",
+      "Adaptil pheromone diffuser (R250-R450)",
+      "White noise machine or app (free-R1,000)",
+      "Prescription behaviour medication from vet (R100-R400/month)"
+    ],
+    "guidePricing": "R400-R700 per behaviour consultation; R3,000-R6,000 for 6-session behaviour modification programme; R800-R1,500 for veterinary behaviourist initial consult",
+    "timeline": "Behaviour modification: 6-12 sessions over 2-4 months for significant improvement",
+    "aiPromptExample": "Design a thunder phobia treatment plan for a 4-year-old rescue Border Collie with escalating storm anxiety (now panicking at dark clouds, not just thunder).",
+    "aiDiagnosisOutput": "Dog: 4-year-old BC, thunder phobia now triggered by dark clouds (anticipatory anxiety). Severity: severe - self-trauma (paw chewing), destruction (door frames), inappropriate elimination. Plan: 1) Vet visit for trazodone or alprazolam (use 30-60 min before storm expected). 2) Create 'cave' - bathroom or cupboard with no windows, white noise at 60dB, Adaptil diffuser. 3) Counter-conditioning: play thunder sound recording at low volume (barely audible), treat continuously. Increase volume by 5% per session only when dog shows no stress signals. 4) Storm season protocol: trazodone Nov-Feb daily during storm season. Long-term: 70-80% improvement expected over 3-4 months of consistent CC&D.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If no progress after 6 sessions, the behaviourist provides a written alternative plan at no extra cost.",
+    "pirbStandard": "SAVA/SA Veterinary Behaviour Medicine Chapter: Behaviour modification must use CC&D, not punishment. Medication should be used when anxiety is moderate-severe (trazodone, alprazolam, fluoxetine).",
+    "articleSections": [
+      {
+        "heading": "Fight, Flight, Freeze, or Fidget",
+        "body": "Dogs display four fear responses. Fight: growling, snapping, biting when cornered. Flight: escaping, hiding, running away. Freeze: becoming stiff, still, avoiding eye contact. Fidget: displacement behaviours like lip licking, yawning, scratching, sniffing the ground. Most owners miss the freeze and fidget signals, only noticing when the dog escalates to fight or flight. Your Bouul trainer teaches you to read these earlier signals so you can intervene before your dog feels the need to escalate."
+      },
+      {
+        "heading": "The Ladder of Aggression",
+        "body": "Aggression is rarely sudden. It escalates through a ladder: stress signals (lip licking, turning away) -> mild avoidance -> growl -> air snap -> bite with inhibition -> bite without inhibition. Owners who punish the growl (the warning signal) remove the dog's ability to warn, and the next step is a bite without warning. Never punish a growl - it's your dog saying 'I'm uncomfortable.' Address the underlying fear. Professional help is needed for any dog that has bitten, even if the bite didn't break skin."
+      },
+      {
+        "heading": "Separation Anxiety: The SA Working Owner's Challenge",
+        "body": "With SA's long working hours (8:00-17:00 plus commute), separation anxiety is common. Signs: excessive panting/drooling when you prepare to leave, destructiveness focused on exits (doors, windows, baseboards), howling or barking within 15 minutes of departure, and inappropriate elimination. Treatment: desensitisation to departure cues (pick up keys without leaving, put on shoes without leaving), graduated departures (10 seconds, 30 seconds, 1 minute), and enrichment (frozen Kong, puzzle toy) given only when you leave. Medication (clomipramine or fluoxetine) may be needed for moderate-severe cases. Do not 'flood' by leaving for hours - this makes the anxiety worse."
+      }
+    ]
+  },
+  {
+    "id": "train-004",
+    "tag": "pet-training",
+    "title": "Agility Training: Fun, Fitness, and Focus",
+    "subtitle": "How obstacle courses build confidence and strengthen your bond.",
+    "image": "/scenes/train-agility.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your high-energy dog needs more than walks and you are both bored of the same routine.",
+    "problemBody": "Working breeds (Border Collies, Kelpies, Malinois, Australian Shepherds) need about 60-90 minutes of vigorous exercise plus mental stimulation daily. Without it, they invent their own entertainment - usually involving your furniture, garden, or rubbish bin. Agility provides both physical exercise (equivalent to a 5km run in 20 minutes of course work) and intense mental focus (problem-solving, impulse control, handler communication). It also dramatically strengthens the handler-dog bond through teamwork.",
+    "bouulSolution": [
+      "Introductory agility assessments (R150-R250) to determine if your dog is physically and temperamentally suited",
+      "Bouul lists only KUSA/SA Agility-affiliated trainers with proper equipment (regulation jumps, tunnels, weave poles, A-frame)",
+      "Foundation classes build fitness and focus first - no full-height equipment until your dog has basic strength and control"
+    ],
+    "partsNeeded": [
+      "Flat buckle collar (no training collars in agility - safety risk on equipment)",
+      "Non-slip mat for contact zone training (R100-R300)",
+      "Tug toy for reward (R80-R200)",
+      "Water + bowl for training sessions (R50-R150)"
+    ],
+    "guidePricing": "R200-R350 per group agility class; R350-R600 per private session; R1,500-R3,000 for 8-week foundation course",
+    "timeline": "Foundation: 8-12 weeks before full-height equipment; competition ready: 6-12 months depending on dog and handler experience",
+    "aiPromptExample": "Assess whether a 14-month-old Kelpie with mild hip dysplasia is suitable for agility foundation training.",
+    "aiDiagnosisOutput": "Breed: Kelpie, 14 months. Condition: mild hip dysplasia (not yet arthritic, no pain on extension). Agility suitability: CONDITIONAL. Not suitable for full-height jumping but excellent for ground-level foundation work. Recommended: tunnel, weave poles (upright not slanted), A-frame at low angle (not full height), contact zone training on flat. Prohibited: high jumps, spread jumps, dog walk over 1m height. Build core strength with swimming and cavaletti poles first (2 months). Re-assess at 18 months with follow-up radiographs. Alternative: nosework or obedience competition instead.",
+    "escrowGuarantee": "Payment held by Bouul Escrow. If an injury occurs due to unsafe or poorly maintained equipment, Bouul covers vet costs up to R2,000.",
+    "pirbStandard": "SA Agility (KUSA affiliate) Equipment Standards: Jumps max 60cm (standard) / 40cm (mini). A-frame max 1.7m. Weave poles 60cm apart. All equipment must be regularly inspected. Dogs under 12 months may not jump full height.",
+    "articleSections": [
+      {
+        "heading": "Is Agility Right for Your Dog?",
+        "body": "Most dogs can participate in agility at some level, but not all dogs should compete. Ideal agility dogs: high toy/food drive, good basic obedience (sit, stay, recall), physically sound (no hip/elbow dysplasia, no spinal issues), and good handler focus. Breeds that excel: Border Collies, Kelpies, Australian Shepherds, Shetland Sheepdogs, Papillons, and mixed breeds. Breeds that should NOT do agility: brachycephalics (bulldogs, pugs - overheating risk), dogs with IVDD risk (Dachshunds, Corgis - spinal stress), and giant breeds (Great Danes - joint impact). A veterinary clearance is strongly recommended before starting."
+      },
+      {
+        "heading": "The Equipment and What Each Piece Develops",
+        "body": "Jumps: develop power, timing, and distance judgment. Tunnels: build confidence and speed through enclosed spaces. Weave poles: develop flexibility, focus, and body awareness (the most technically difficult obstacle). A-frame, Dog Walk, See-saw: build confidence on height, proprioception, and contact zone control (the yellow sections where dogs must touch). Pause table: impulse control (dog must lie down on a raised platform for 5 seconds in the middle of full-speed running). Your Bouul training programme introduces obstacles in a specific order designed to build confidence and prevent injury."
+      },
+      {
+        "heading": "Foundation Training: Months 1-3",
+        "body": "The foundation period is the most important phase of agility training and cannot be rushed. Weeks 1-4: equipment familiarisation (walking over poles on the ground, running through tunnels at ground level, targeting the contact zone). Weeks 5-8: low-height versions of all equipment, individual obstacle performance, and handler positioning (front cross, rear cross, blind cross). Weeks 9-12: short sequences of 2-3 obstacles, building to 4-5, and introducing speed. No full-height jumping until the dog physically mature (12 months for small breeds, 18 months for large breeds). Rush this phase and your dog will have bad habits that take years to fix."
+      },
+      {
+        "heading": "The Handler's Role",
+        "body": "In agility, the handler runs the course too. You must learn: the optimal path between obstacles (turning vs straight), the 6-point body language system (arm, shoulder, eye, hip, feet, verbal), distance handling (sending the dog to an obstacle while you run a different line), and course memorisation. Most handlers find agility as physically demanding as their dogs. The bond benefit is immense - studies show agility teams have measurably stronger oxytocin responses to each other. Your Bouul trainer teaches both handler and dog in parallel."
+      }
+    ]
+  },
+  {
+    "id": "train-005",
+    "tag": "pet-training",
+    "title": "Recall Training: The Behaviour That Saves Lives",
+    "subtitle": "Building a bomb-proof 'come' command for off-leash adventures.",
+    "image": "/scenes/train-recall.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog ran after a squirrel and didn't come back for 20 minutes while you panicked on the park bench.",
+    "problemBody": "A failed recall is the most common confidence-shaking event for SA dog owners. It's also the most dangerous - the dog that doesn't come when called faces risks from traffic, other aggressive dogs, snakes, and becoming lost. SA lost-dog Facebook groups post 50-100 new missing dogs daily, and a significant portion of these are dogs who bolted after a trigger and couldn't be recalled. The recall is the single most important behaviour you will ever teach your dog, yet it's the one most owners train incorrectly by using it for negative things (leaving the park, bath time, nail trims).",
+    "bouulSolution": [
+      "Bouul recall specialists use a 'two-word system': one word for regular recall and a separate emergency recall word",
+      "Emergency recall is trained with the highest value reward possible (roast chicken, vienna sausages, cheese) - paid in jackpots",
+      "Recall proofing across SA environments: secure park, beach, trail, and finally off-leash areas with real distractions"
+    ],
+    "partsNeeded": [
+      "10-20m long line for safe training (R150-R300)",
+      "High-value rewards (R100-R300 for training treats/meat)",
+      "Whistle for emergency recall (R80-R200, Acme 210.5 recommended)",
+      "Treat pouch (R60-R150)"
+    ],
+    "guidePricing": "R300-R500 per recall-specific session; R1,500-R3,000 for 5-session recall intensive; R200-R350 for group recall games class",
+    "timeline": "Reliable recall with no distractions: 2-3 weeks. Reliable with moderate distractions: 6-12 weeks. Emergency recall: built in one session but maintained for life.",
+    "aiPromptExample": "Design a recall rebuilding plan for a 3-year-old rescue Staffordshire Bull Terrier that has learned to ignore the owner's recalls because they predict end-of-fun (leash up, leave park).",
+    "aiDiagnosisOutput": "Dog: 3yr Staffie, recall trained initially but now 'extinct' - dog never comes because recall always = end of fun. Root cause: owner calls dog, dog comes, owner leashes and leaves. Dog now actively avoids. Plan: 1) NEVER use current recall word for negative outcomes for 4 weeks. 2) Start over: choose NEW recall word ('pizza' or 'chicken'). 3) In-house training: say new word, dog runs to you, get jackpot (10 treats + 5 min play), then release to continue activity. 4) Transfer to garden on long line. 5) Park at quiet times. 6) Generalise. Key: recall must always predict something AMAZING happening, not end of fun. Every off-leash visit ends by walking to the dog and leashing, not calling.",
+    "escrowGuarantee": "Bouul Escrow holds payment. If recall is not reliable on a 10m long line after 5 sessions, the 6th is free.",
+    "pirbStandard": "KUSA Canine Good Citizen Recall Test: dog must leave a distraction (person, another dog, food on ground) and come to handler within 30 seconds when called once.",
+    "articleSections": [
+      {
+        "heading": "Why Your Dog's Recall Is Broken",
+        "body": "Most recall failures have one cause: the owner has accidentally trained the dog that 'come' = 'fun stops.' Think about your recall history: do you call your dog to leave the park? For a bath? To go inside? For a nail trim? For every negative outcome, you need five massively positive recall experiences to compensate. The solution: choose a new recall word and NEVER use it for something the dog dislikes. Walk to your dog and leash them - don't call them to be leashed."
+      },
+      {
+        "heading": "The Emergency Recall",
+        "body": "The emergency recall is a separate word (or whistle) used only for life-or-death situations. It is trained with the highest reward possible - roast chicken, vienna sausages, steak. Training: say the word once, present the reward. Repeat 10 times daily for 2 weeks. Then add distance (one room, then two rooms away). Then add mild distractions. The emergency recall is for REAL emergencies only - if you use it for 'I want to leave the park,' it loses its power. When you use it, you pay a JACKPOT (20-30 treats) every single time."
+      },
+      {
+        "heading": "Proofing Recall in SA Environments",
+        "body": "Proofing means your dog recalls reliably regardless of environment: home garden (no distractions), quiet park (mild distractions), busy park (moderate - other dogs, people, balls), beach or trail (high - smells, wildlife, moving people), and finally off-leash area with off-leash dogs (highest distraction). Progress to the next level only when your dog recalls 9/10 times at the current level. If they fail at a level, drop back two levels. This graduated approach takes 6-12 weeks but produces a genuinely reliable recall."
+      },
+      {
+        "heading": "Long Line Training",
+        "body": "A 10-metre long line is the safest tool for recall training. It gives your dog freedom while you maintain a 'safety net.' Never jerk or pull the line to correct your dog - the long line is a safety line, not a training tool. Let it drag (on grass, not pavement where it can snag). When your dog doesn't respond to recall, you can (gently) follow the line to the dog and present the treat. Never reel your dog in - you want them running TO you, not being dragged."
+      }
+    ]
+  },
+  {
+    "id": "train-006",
+    "tag": "pet-training",
+    "title": "Aggression Management: When Your Dog Growls",
+    "subtitle": "Understanding and managing reactivity and aggression in SA's urban environment.",
+    "image": "/scenes/train-aggression.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog growled at a visitor and now you're terrified he'll bite someone's child.",
+    "problemBody": "Aggression is the most serious behaviour problem and the one most likely to result in euthanasia. SA law (Animal Matters Amendment Act) holds owners liable for dog bites, and a bite incident can result in the dog being declared 'dangerous' (mandatory muzzle in public, enclosure requirements, R500-R2,000 fines for non-compliance). But aggression is rarely 'out of the blue' - it's the final escalation after a long ladder of missed warning signs. The growl is a warning, not a defiance. Punishing the growl removes the warning, creating a dog that bites without warning.",
+    "bouulSolution": [
+      "Bouul behaviourists perform a full history and trigger assessment before any training begins",
+      "Management protocols first: aggressive dogs get immediate safety strategies (muzzle training, space management, visitor protocols)",
+      "Long-term behaviour modification: CC&D, relaxation protocols, and medication if needed - never confrontational methods"
+    ],
+    "partsNeeded": [
+      "Baskerville-style muzzle (R150-R300) - must be properly fitted and conditioned",
+      "Baby gates and exercise pens (R200-R600) for space management",
+      "High-value treats for CC&D (R100-R300)",
+      "Behaviourist referral from veterinarian (R350-R600 consult included in programme)"
+    ],
+    "guidePricing": "R500-R800 per behaviour consultation session; R4,000-R8,000 for 8-session aggression programme; R1,500-R2,500 for veterinary behaviourist initial consult",
+    "timeline": "Management (immediate): 1-2 weeks. Behaviour modification: 3-6 months for significant improvement, 12+ months for multi-trigger aggression",
+    "aiPromptExample": "Triage a case: 2-year-old male intact GSD that has growled twice at children visiting the home, both times when the child approached while the dog was eating.",
+    "aiDiagnosisOutput": "Dog: 2yr male intact GSD. Trigger: children approaching while eating. Context: resource guarding of food, directed at children specifically (not adults). Severity: moderate - growl only, no snap/bite, but escalating risk (intact male GSD has genetic predisposition for serious guarding). Immediate management: feed in closed room away from children, do not disturb while eating, do not allow children near dog when any food/treat is present. Required: veterinary consult for neutering (testosterone reduction, R1,500-R2,500). Behaviour programme: counter-conditioning dog to associate children near food with good outcomes, starting at dog's threshold distance. Prognosis: good to moderate with consistent management + neutering + 3-6 months CC&D. Risk if not treated: progression to bite within 6-12 months.",
+    "escrowGuarantee": "Bouul Escrow holds payment. Aggression programmes include a safety management plan in writing before any modification work begins.",
+    "pirbStandard": "SAVA Behaviour Protocol: Aggression cases require veterinary exam first (rule out medical causes - thyroid, pain, neurological). Behaviour modification must be LIMA (Least Intrusive, Minimally Aversive). No confrontational methods.",
+    "articleSections": [
+      {
+        "heading": "Types of Aggression",
+        "body": "Not all aggression is the same: Fear aggression (most common) - dog aggresses to make the scary thing go away. Resource guarding - protecting food, toys, beds, or people. Territorial - protecting home or yard. Redirected - dog aroused by one thing can't reach it and bites whatever is nearby (often owner's arm). Pain-induced - an injured or arthritic dog bites when touched. Predatory - chasing and catching small animals (cats, squirrels) - this is the most dangerous to manage because there is no warning. Each type requires a different modification approach. Correct diagnosis is essential - using the wrong protocol makes the behaviour worse."
+      },
+      {
+        "heading": "The Aggression Consultation: What to Expect",
+        "body": "Your Bouul behaviourist will take a 60-90 minute history covering: first appearance of aggression, detailed descriptions of each incident (trigger, intensity, context, what happened after), bite history (any bite that broke skin? to a human or another animal?), medical history (last vet visit, current pain conditions, medications, thyroid status), and daily routine (exercise, enrichment, diet, sleep). Never be embarrassed about the full truth - behaviourists need the complete picture to design a safe protocol. Hiding details compromises safety."
+      },
+      {
+        "heading": "Muzzle Training: It's Not Punishment",
+        "body": "A muzzle is a safety tool, not a punishment. Basket muzzles allow the dog to pant, drink, and take treats. Your dog should be conditioned to love the muzzle: start with peanut butter smeared inside the basket, let dog voluntarily put nose in, gradually increase wear time from 3 seconds to 30 minutes. A properly muzzle-trained dog can wear one comfortably for hours. In SA, certain areas require muzzled dogs in public (check municipal by-laws). Having your dog comfortable in a muzzle means you can manage them safely while working on behaviour."
+      },
+      {
+        "heading": "Living with an Aggressive Dog",
+        "body": "Management is not a failure - it's responsible ownership. For resource guarders: feed in isolation, no high-value items (rawhides, bones) around other pets or children. Create 'safe zones' (crate or bed) where the dog is never disturbed. Install baby gates to control visitor access. Post a 'DO NOT PET' sign on your gate - SA delivery drivers and meter readers must not access the property unsupervised. For off-property walks, use muzzle + harness + 2-point attachment (collar and harness clipped to leash with a carabiner - double safety. If one fails, the other holds). This is not 'managing symptoms' - it's preventing tragedy while behaviour modification changes the underlying emotional response."
+      }
+    ]
+  }
+]

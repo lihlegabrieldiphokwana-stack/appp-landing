@@ -1,0 +1,242 @@
+[
+  {
+    "id": "matric_finals",
+    "tag": "Matric Preparation",
+    "title": "Matric Final Exam Preparation",
+    "subtitle": "How to book a dedicated tutor on Bouul for your matric finals with Zola AI syllabus gap analysis.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "5 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Matric finals are approaching and you are overwhelmed with too much content and no study plan.",
+    "problemBody": "Matric final exams are the most important academic milestone in South Africa. With 8 to 12 subjects covering 12 months of content, students often struggle to prioritise effectively. Past papers pile up, syllabus gaps go unnoticed until exam day, and the pressure of university entrance requirements adds immense stress.",
+    "bouulSolution": [
+      "Select Exam Prep under Education on Bouul. Choose your subjects and upload your latest report. Bouul matches you with tutors who have proven records in those subjects and exam boards.",
+      "Bouul shows each tutors verified SACE registration subject specialisation and ratings from other matric students.",
+      "Zola AI analyses your uploaded results to build a heatmap of strengths and weaknesses identifies the exam board IEB SACAI or DBE and generates a countdown study plan."
+    ],
+    "partsNeeded": [
+      "Past exam papers last 5 years",
+      "Subject study guides Answer Series or X-Kit",
+      "Highlighters flashcards and study timetable",
+      "Calculator for Maths and Science"
+    ],
+    "guidePricing": "R250 to R600 per 90-minute session",
+    "timeline": "Duration: Weekly sessions for 1 to 6 months",
+    "aiPromptExample": "Upload your latest report or exam results. Say my subjects are Maths Physics English and Life Sciences. Maths is my weakest I got 38 percent in trials.",
+    "aiDiagnosisOutput": "Grade 12 DBE curriculum. Maths priority at 38 percent. Weak areas Trigonometry and Calculus. Strong areas Algebra and Statistics. Recommended 4 weekly Maths sessions plus 2 mixed revision. Escrow quote R350 per session for Maths specialist SACE registered.",
+    "escrowGuarantee": "Funds are released per session after you complete the lesson and confirm the session covered the agreed topics. If the tutor does not show your session credit is refunded within 2 hours.",
+    "pirbStandard": "SACE registered educators verified against DBE IEB curriculum for their subject grade level.",
+    "articleSections": [
+      {
+        "heading": "The Matric Challenge",
+        "body": "Matric finals test 12 months of work per subject. The top students start studying in Term 2 not October. Even late starters can gain 20 to 30 percent with focused one on one tuition that targets only the gaps rather than re-teaching the whole syllabus."
+      },
+      {
+        "heading": "Booking Your Exam Prep Tutor on Bouul",
+        "body": "Open Bouul select Education then Exam Prep. List your subjects your current marks if known and which exam board DBE IEB or SACAI. Bouul matches you with subject specialist tutors who have verifiable matric teaching experience."
+      },
+      {
+        "heading": "Zola AI Gap Analysis",
+        "body": "Upload your school report trial exam results or any test papers. Zola AI scans the results and cross-references each topic against the DBE IEB exam weightings. It produces a colour coded heatmap red below 40 percent urgent amber 40 to 60 percent needs consolidation and green above 60 percent revision only."
+      },
+      {
+        "heading": "Escrow and Accountability",
+        "body": "Each tutoring session is held in escrow. The tutor only gets paid after you confirm attendance and covered topics. For bulk packages funds are released lesson by lesson not upfront."
+      }
+    ]
+  },
+  {
+    "id": "entrance_exams",
+    "tag": "University Entrance",
+    "title": "University Entrance Exam Preparation NBT BMAT SAT",
+    "subtitle": "How to prepare for SA university entrance tests through Bouul with specialised tutors and Zola AI mock exam analysis.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "Your matric marks are good but you need to pass the NBT or BMAT for university and you have never seen one before.",
+    "problemBody": "South African universities increasingly require additional entrance tests. The National Benchmark Tests measure academic readiness and medical programmes require the BMAT. These tests are structured differently from school exams testing problem solving and reasoning not memorisation.",
+    "bouulSolution": [
+      "Select Exam Prep then University Entrance on Bouul. Specify which test NBT BMAT or SAT and your target university.",
+      "Bouul connects you with tutors who specialise in entrance exam preparation knowing the question formats timing strategies and common traps.",
+      "Zola AI provides a diagnostic mock test with past style questions then analyses your answers to identify which reasoning skills need the most work."
+    ],
+    "partsNeeded": [
+      "NBT BMAT or SAT past papers",
+      "Scientific calculator approved model",
+      "Stopwatch for mock exam conditions",
+      "Online whiteboard for remote tutoring"
+    ],
+    "guidePricing": "R300 to R700 per session",
+    "timeline": "Duration: 4 to 12 weeks of weekly sessions",
+    "aiPromptExample": "Say I am applying to UCT for Medicine. I need to write the NBT Maths and English plus the BMAT. My school marks are 80 percent plus but I have seen the NBT sample questions and they are completely different.",
+    "aiDiagnosisOutput": "Tests NBT Maths AL NBT English QL BMAT. Student high achiever 80 percent plus. Gap NBT tests reasoning over recall needs 6 to 8 weeks format specific practice. Mock score estimate 55 to 65 percent without preparation. Escrow quote R450 per session.",
+    "escrowGuarantee": "Sessions are paid per lesson after confirmation. A 10 session NBT prep package reserves your tutors slot with funds released weekly as sessions are attended.",
+    "pirbStandard": "SACE registered tutors. NBT preparation aligned to the Centre for Educational Testing CET at UCT standards. BMAT follows Cambridge Assessment standards.",
+    "articleSections": [
+      {
+        "heading": "Why Entrance Tests Matter",
+        "body": "Universities like UCT Wits Stellenbosch and UP use NBT scores alongside matric marks for admissions. A strong NBT score can offset a weaker matric result and a poor score can cost you a place even with good marks."
+      },
+      {
+        "heading": "Booking on Bouul",
+        "body": "Under Education select Exam Prep then specify your entrance test. Bouul shows tutors who have specifically prepared students for NBT BMAT or SAT not just general subject tutors."
+      },
+      {
+        "heading": "Zola AI Mock Analysis",
+        "body": "Take a timed mock test through Bouuls Zola AI interface. Zola analyses which question types you got wrong and generates a custom practice schedule targeting those exact skills."
+      }
+    ]
+  },
+  {
+    "id": "nbt_prep",
+    "tag": "NBT Preparation",
+    "title": "National Benchmark Test NBT Preparation",
+    "subtitle": "How to prepare for the NBT Maths and English papers through Bouul with personalised gap analysis.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "You have booked your NBT date but the sample paper looks nothing like your school exams.",
+    "problemBody": "The NBT is different from any school test you have written. It tests your ability to apply mathematical reasoning to unfamiliar problems and interpret complex texts under time pressure. Maths questions require lateral thinking and the Academic Literacy paper expects you to analyse arguments at first year university level.",
+    "bouulSolution": [
+      "Select NBT Preparation under Education on Bouul. Upload any sample test results or specify your test date.",
+      "Bouul matches you with an NBT specialist tutor who understands the unique question format and can teach reasoning shortcuts.",
+      "Zola AI runs you through a diagnostic test and identifies which reasoning bands you need to improve algebraic quantitative or literacy."
+    ],
+    "partsNeeded": [
+      "Official NBT practice booklet",
+      "Scientific calculator",
+      "Graph paper and geometry set",
+      "Highlighter for active reading strategies"
+    ],
+    "guidePricing": "R300 to R550 per session",
+    "timeline": "Duration: 4 to 8 weeks",
+    "aiPromptExample": "Say writing NBT in 6 weeks. Did the sample paper and scored 48 percent on Maths and 62 percent on English. The Maths section was the problem I ran out of time.",
+    "aiDiagnosisOutput": "NBT Maths AL score 48 percent below benchmark. Critical areas Algebraic Problem Solving weak and Spatial Reasoning moderate. Timing completed only 60 percent of questions. Escrow quote R400 per session.",
+    "escrowGuarantee": "Per session escrow release after lesson completion. If you need to reschedule within 24 hours your session credit is held for the rescheduled time.",
+    "pirbStandard": "Tutors trained in NBT preparation methodology. Practice materials aligned to the CET UCT NBT framework. All tutors SACE registered.",
+    "articleSections": [
+      {
+        "heading": "What the NBT Tests",
+        "body": "The NBT has three papers. Academic Literacy tests reading comprehension and graph interpretation. Quantitative Literacy tests numerical reasoning. Mathematics tests algebraic reasoning and problem solving. There is no syllabus the test measures your thinking not your memory."
+      },
+      {
+        "heading": "Booking on Bouul",
+        "body": "Under Education select Exam Prep then NBT Preparation. Bouul shows tutors with proven NBT improvement records including average score improvement."
+      }
+    ]
+  },
+  {
+    "id": "subject_revision",
+    "tag": "Subject Revision",
+    "title": "Subject Revision and Holiday Bootcamp",
+    "subtitle": "How to book intensive subject revision on Bouul during school holidays with Zola AI progress tracking.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "School holidays are your best chance to catch up but without structure they become a week of wasted time.",
+    "problemBody": "School holidays provide focused time for revision but most students struggle to self motivate. Holiday bootcamps provide intensive daily sessions that cover a full terms worth of challenging topics in just a few days with measurable progress.",
+    "bouulSolution": [
+      "Select Holiday Revision under Education on Bouul. Choose your subjects and the number of sessions per day or week.",
+      "Bouul matches you with tutors who run structured holiday programmes with daily targets and end of session assessments.",
+      "Zola AI tracks your progress across sessions building a running scoreboard of mastered versus pending topics."
+    ],
+    "partsNeeded": [
+      "Subject textbooks and workbooks",
+      "Past papers for your grade and term",
+      "Digital or paper planner for the holiday schedule",
+      "Stationery pens pencils highlighters calculator"
+    ],
+    "guidePricing": "R200 to R500 per session discounts for 5 plus session weeks",
+    "timeline": "Duration: 1 to 5 sessions per day for 1 to 2 weeks",
+    "aiPromptExample": "Say I am in Grade 11. I need to revise term 2 content for Maths and Physical Science over the July holidays. I want 2 sessions per day for 5 days.",
+    "aiDiagnosisOutput": "Grade 11 July holiday revision. Maths Trig Graphs weak Physical Science Organic Chemistry weak Mechanics strong. Plan 10 sessions total 5 Maths plus 5 Science. Escrow quote R350 per session with 10 session package discount.",
+    "escrowGuarantee": "Holiday packages booked and held in escrow across the full week. Missed sessions roll over to the next available slot. Tutors paid per completed session.",
+    "pirbStandard": "SACE registered tutors. Content aligned to CAPS curriculum requirements per grade.",
+    "articleSections": [
+      {
+        "heading": "The Holiday Revision Advantage",
+        "body": "Consistent daily study during holidays can close a full terms gap in one week. The key is structure morning sessions for problem solving subjects and afternoon sessions for content heavy subjects."
+      },
+      {
+        "heading": "Booking on Bouul",
+        "body": "Select Education then Holiday Revision. Specify your subjects and how many sessions per week. Bouul offers discounted rates for 5 plus session weeks."
+      }
+    ]
+  },
+  {
+    "id": "past_papers",
+    "tag": "Past Paper Practice",
+    "title": "Past Paper Practice and Exam Technique",
+    "subtitle": "How to use past exam papers effectively with Bouul tutors who mark and give structured feedback.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "You have done all the past papers but you are still making the same mistakes with nobody telling you why.",
+    "problemBody": "Past papers are the most effective exam preparation tool when used correctly. Most students simply do papers and check answers without analysing why they got questions wrong. A tutor who marks your paper using the actual exam rubric and gives structured feedback is worth more than a dozen unsupervised practice papers.",
+    "bouulSolution": [
+      "Select Past Paper Practice under Education on Bouul. Upload which papers you have completed and your target exam.",
+      "Bouul matches you with a tutor who marks your papers using the actual exam rubric and gives a mark with detailed feedback.",
+      "Zola AI analyses your past paper attempts over time to track whether you are improving and predicts your estimated final mark."
+    ],
+    "partsNeeded": [
+      "Past papers for your specific subject and exam board",
+      "Answer booklets or writing paper",
+      "Timer for timed conditions",
+      "Rubric or marking guidelines from the exam board"
+    ],
+    "guidePricing": "R250 to R450 per paper including marking and 30 minute feedback session",
+    "timeline": "Duration: 1 to 3 hours per paper cycle",
+    "aiPromptExample": "Say I keep losing marks on the calculus question of Paper 1 because I run out of time. I need someone to mark my paper and tell me where I am losing marks and how to speed up.",
+    "aiDiagnosisOutput": "Paper DBE Maths Paper 1 score 65 percent. Mistakes 40 percent time related left Calculus incomplete 30 percent misinterpretation 30 percent calculation errors. Recommendation speed drill practice and time management strategies. Escrow quote R350 per paper plus feedback.",
+    "escrowGuarantee": "Payment is released after you receive your marked paper with written feedback. If the tutor does not return marks within 48 hours the session is free.",
+    "pirbStandard": "SACE registered markers. Marking aligned to DBE IEB SACAI official rubrics.",
+    "articleSections": [
+      {
+        "heading": "Why Past Papers Alone Are Not Enough",
+        "body": "Doing past papers checks your knowledge but does not improve your technique. The critical step is having an expert mark your work against the actual rubric to see if your answer structure is worth full marks."
+      },
+      {
+        "heading": "Booking on Bouul",
+        "body": "Select Exam Prep then Past Paper Practice. Upload the papers you have done and your subjects. Bouul shows tutors who are experienced markers for your specific exam board."
+      }
+    ]
+  },
+  {
+    "id": "ap_maths",
+    "tag": "Advanced Maths",
+    "title": "Advanced Programme AP Maths Preparation",
+    "subtitle": "How to prepare for AP Maths through Bouul with specialist tutors who understand the extended IEB curriculum.",
+    "image": "/scenes/edu_exam_prep.png",
+    "readTime": "4 min read",
+    "author": "Bouul Education Services Team",
+    "problemHeadline": "AP Maths is a whole extra subject and the content is university level.",
+    "problemBody": "Advanced Programme Maths IEB covers calculus linear algebra statistics and financial maths at a depth far beyond standard matric Maths. The exam is 3 hours and a strong AP Maths result can add up to 5 bonus points to your university application score.",
+    "bouulSolution": [
+      "Select AP Maths under Education on Bouul. Specify your current level and which topics you find most challenging.",
+      "Bouul matches you with tutors who specifically teach AP Maths and understand the IEB curriculum.",
+      "Zola AI assesses your current knowledge through a diagnostic quiz and generates a custom syllabus prioritising the highest mark topics."
+    ],
+    "partsNeeded": [
+      "AP Maths textbook recommended by your school",
+      "Graphic calculator TI 84 or similar",
+      "AP Maths past papers IEB",
+      "Formula sheet and revision cards"
+    ],
+    "guidePricing": "R350 to R700 per session",
+    "timeline": "Duration: 1 to 2 sessions per week ongoing",
+    "aiPromptExample": "Say I take AP Maths at IEB level and I am struggling with calculus especially optimisation and rates of change.",
+    "aiDiagnosisOutput": "Subject AP Maths IEB current level 65 percent. Weakness Calculus optimisation 40 percent rates of change 50 percent. Strength Algebra 80 percent Statistics 75 percent. Plan 4 sessions Calculus then 2 sessions mixed revision. Escrow quote R450 per session.",
+    "escrowGuarantee": "Per session escrow release. Bulk packages of 10 plus sessions held in escrow with weekly lesson by lesson release.",
+    "pirbStandard": "SACE registered tutors with IEB AP Maths teaching experience. Curriculum aligned to IEB Advanced Programme standards.",
+    "articleSections": [
+      {
+        "heading": "What AP Maths Involves",
+        "body": "AP Maths covers first year university mathematics matrices complex numbers advanced calculus and statistics. Many engineering and actuarial science programmes give preference to applicants with AP Maths."
+      },
+      {
+        "heading": "Booking on Bouul",
+        "body": "Under Education select Exam Prep then AP Maths. Bouul shows tutors with specific AP Maths teaching experience not just general Maths tutors."
+      }
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "physio-back-pain-001",
+    "tag": "Chronic Back Pain",
+    "title": "Living Pain-Free Again: Your Complete Guide to Managing Chronic Back Pain",
+    "subtitle": "From debilitating back spasms to lasting relief - the non-surgical path South Africans trust",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why your back pain keeps coming back",
+    "problemBody": "Over 80% of South Africans will experience back pain, yet most never address the root cause. Sitting hours at a desk, poor lifting technique, weak core muscles, and accumulated stress create a cycle where pain returns within weeks. Painkillers mask symptoms. Rest alone weakens supporting muscles further. Without targeted physiotherapy that identifies specific muscular imbalances and movement dysfunctions, you are treating symptoms, not causes.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R480",
+    "timeline": "4-8 weeks with 1-2 sessions per week",
+    "aiPromptExample": "I have had lower back pain for 3 months. It is worse in the morning and when I sit for long periods. I am a 42-year-old office worker. What could be causing this and what kind of physiotherapy assessment should I ask for?",
+    "aiDiagnosisOutput": "Based on your symptoms, this may be mechanical low back pain with possible facet joint involvement. Morning stiffness suggests an inflammatory component. Your sedentary job likely contributes to weakened core stabilisers and tight hip flexors. Recommended: a full postural and movement assessment including lumbar range of motion, muscle strength testing, and a seated ergonomic evaluation.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "Understanding Your Back Pain",
+        "body": "Back pain is rarely a single-event problem. Most cases stem from cumulative strain - poor posture over months, weak glutes and core, repetitive bending without proper mechanics. Physiotherapists classify back pain as acute (under 6 weeks), sub-acute (6-12 weeks), or chronic (over 12 weeks). Each stage requires a different treatment approach. Acute pain needs gentle mobilisation and pain management. Chronic pain requires rebuilding strength and motor control patterns."
+      },
+      {
+        "heading": "What a Physiotherapy Assessment Involves",
+        "body": "Your first session lasts 45-60 minutes. The physiotherapist will take a full history, observe how you stand, sit, walk, and bend, then perform hands-on tests to identify which muscles are tight, which are weak, and which joints lack mobility. You will leave with a clear diagnosis and a treatment plan. No X-rays or scans are needed unless red flags are present."
+      },
+      {
+        "heading": "Your Treatment Journey",
+        "body": "Treatment may include manual therapy (joint mobilisation, soft tissue release), dry needling, therapeutic exercises, electrotherapy (TENS or ultrasound if indicated), and ergonomic advice. Most patients feel improvement within 3 sessions. Full recovery typically takes 6-12 sessions depending on severity and how consistently you do your home exercises."
+      },
+      {
+        "heading": "Preventing Future Episodes",
+        "body": "The single best predictor of future back pain is a history of past back pain. Prevention is active: maintain a strong core, stretch after sitting, use proper lifting mechanics, and return for a tune-up session every 3-4 months if you have a physically demanding job or recurrent episodes."
+      },
+      {
+        "heading": "When to See a Specialist",
+        "body": "Red flags requiring immediate medical attention include: loss of bladder or bowel control, numbness in the saddle area, unexplained weight loss, fever, or severe pain after a fall. If you experience any of these, see a doctor before starting physiotherapy."
+      }
+    ]
+  },
+  {
+    "id": "physio-sports-001",
+    "tag": "Sports Injury",
+    "title": "Bounce Back Stronger: Sports Injury Rehab for Weekend Warriors and Pros",
+    "subtitle": "Get back on the field faster and safer with evidence-based sports physiotherapy across South Africa",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why 'rest and ice' is no longer enough",
+    "problemBody": "Whether you pulled a hamstring at Saturday's social club match or twisted an ankle during trail running, the old approach of rest, ice, and wait often leads to re-injury and chronic weakness. South African sports medicine has moved on. Without a structured return-to-sport protocol with strength thresholds, movement retraining, and sport-specific drills, you are at high risk of re-injury. Studies show athletes who complete full rehab re-injure at half the rate of those who just wait until the pain goes away.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R550",
+    "timeline": "6-12 weeks depending on injury severity",
+    "aiPromptExample": "I am a 29-year-old recreational runner. I felt a sharp pain in my Achilles during a 10 km training run. It is swollen and tender but I can still walk. What stage of Achilles tendinopathy might this be and what rehab approach should I follow?",
+    "aiDiagnosisOutput": "Your symptoms suggest reactive Achilles tendinopathy, the acute phase of overuse. The tendon is swollen but not yet degenerative. Key treatment: relative rest (reduce running volume by 50-70%), isometric calf exercises (heel holds) to reduce pain immediately, and a progressive eccentric loading programme starting in 1-2 weeks once acute irritation settles. Avoid complete rest as it weakens the tendon further.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "Understanding Sports Injuries",
+        "body": "Sports injuries fall into two categories: acute (a single traumatic event like a tackle or twist) and overuse (gradual onset from repetitive loading - runner's knee, shin splints, tennis elbow). Both require proper diagnosis because what feels like a calf strain could be a ruptured plantaris or an Achilles issue. Guessing leads to the wrong rehab."
+      },
+      {
+        "heading": "The Return-to-Sport Protocol",
+        "body": "A proper protocol has 4 phases: (1) pain-free movement and load management, (2) strength restoration within 90% of the uninjured side, (3) sport-specific drills (cutting, jumping, sprinting), and (4) graduated return to full play with load monitoring. Your physio checks off each phase before advancing. Skipping phases is the most common cause of re-injury."
+      },
+      {
+        "heading": "Taping, Bracing, and Support",
+        "body": "Kinesiology tape, rigid sports tape, and braces serve different purposes. K-tape helps with neuromuscular facilitation and swelling. Rigid tape restricts harmful range of motion. Braces provide compression and proprioceptive feedback. Your physio will show you exactly how to apply each - incorrect taping can worsen alignment issues."
+      },
+      {
+        "heading": "Long-Term Injury Prevention",
+        "body": "Once recovered, a movement screen identifies asymmetries and weaknesses that predispose you to future injury. Common findings: one leg is significantly weaker than the other, hip mobility is limited, or landing mechanics put valgus stress on your knees. All correctable with targeted exercises."
+      },
+      {
+        "heading": "Nutrition and Recovery",
+        "body": "Recovery is not just exercise. Adequate protein intake (1.6-2.2 g/kg bodyweight), sleep quality (7-9 hours), and hydration directly affect healing speed. Your physio may coordinate with a dietitian if your recovery plateaus."
+      }
+    ]
+  },
+  {
+    "id": "physio-neck-001",
+    "tag": "Neck Pain & Rehab",
+    "title": "Tech Neck No More: Simple Physio Solutions for Stiff and Sore Necks",
+    "subtitle": "That nagging neck tension from screen time, stress, and sitting posture - fixed without medication",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Your smartphone is literally straining your neck",
+    "problemBody": "For every centimetre your head moves forward, the load on your cervical spine doubles. At a 60-degree angle typical for texting, your neck supports over 27 kg of effective weight. South Africans spend an average of 5+ hours daily on screens. This constant forward-head posture shortens your pectorals, weakens deep neck flexors, and compresses cervical facet joints. The result: chronic stiffness, tension headaches, and sometimes referred pain down your arms.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R420",
+    "timeline": "3-6 weeks with noticeable improvement after 2 sessions",
+    "aiPromptExample": "I work from home as a graphic designer and have constant tension at the base of my skull that turns into headaches in the afternoon. My neck feels tight when I turn my head. What is this and what should I do?",
+    "aiDiagnosisOutput": "This presentation is consistent with cervicogenic headache originating from suboccipital muscle tension and upper cervical facet joint stiffness. Immediate steps: take micro-breaks every 25 minutes (stand, shoulder rolls, chin tucks), elevate your monitor to eye level, and apply heat to the upper trapezius for 10 minutes. A physiotherapist can assess whether C1/C2 joint mobilisation is indicated.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "Understanding Cervical Spine Mechanics",
+        "body": "Your cervical spine has 7 vertebrae designed for both mobility and stability. Prolonged forward-head posture loads the lower cervical segments excessively while upper segments become hypermobile as compensation. This imbalance is the root cause of most chronic neck pain."
+      },
+      {
+        "heading": "Ergonomics That Actually Work",
+        "body": "Your screen should be at eye level so your head is balanced directly over your spine. Your chair should support your lower back so your shoulders relax. Every 25 minutes, do a chin tuck - pull your head back in line with your spine as if making a double chin. Hold 5 seconds. Repeat 5 times."
+      },
+      {
+        "heading": "Physiotherapy Techniques That Help",
+        "body": "Manual therapy (gentle joint mobilisation, soft tissue release) reduces stiffness immediately. Dry needling can release trigger points in the upper trapezius and levator scapulae. Specific exercises - deep neck flexor strengthening, chin tucks, scapular retraction - retrain your posture. Most patients need 4-6 sessions."
+      },
+      {
+        "heading": "When Headaches Are Related",
+        "body": "Tension-type and cervicogenic headaches both originate in the neck. Tension headaches feel like a band around your head. Cervicogenic headaches start at the base of the skull and radiate forward. If your headache improves when a physio mobilises your upper neck, the cause is cervical."
+      },
+      {
+        "heading": "Sleep Posture Matters",
+        "body": "Sleeping on your stomach forces your neck into rotation for hours. Side sleeping with a pillow that fills the gap between your shoulder and ear is optimal. Back sleeping with a cervical roll supports the natural curve."
+      }
+    ]
+  },
+  {
+    "id": "physio-post-surgery-001",
+    "tag": "Post-Surgery Recovery",
+    "title": "Surgery Is Only Half the Battle: Your Post-Op Physio Recovery Roadmap",
+    "subtitle": "Recover faster, regain full function, and prevent complications with post-surgical rehab",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Why your recovery depends on how you move the day after surgery",
+    "problemBody": "Orthopaedic surgery - whether knee replacement, shoulder repair, or spinal fusion - is only half the journey. The surgical site heals in 6-12 weeks, but full functional recovery takes 4-12 months. Without structured post-op physiotherapy, you risk joint stiffness, muscle atrophy, scar tissue adhesions, altered gait patterns, and long-term loss of function. Starting physiotherapy within 24-48 hours of surgery dramatically improves outcomes.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R3 200 (8-session package at R400/session)",
+    "timeline": "3-12 months depending on the procedure",
+    "aiPromptExample": "I had a total knee replacement 2 weeks ago. My range of motion is stuck at 70 degrees flexion and I cannot fully straighten my knee. What is a safe but effective range of motion protocol?",
+    "aiDiagnosisOutput": "Two weeks post-TKA with 70 degrees flexion and an extension lag is below the expected milestone (target: 90-100 degrees flexion, full extension by week 2). You will not damage the implant by working within pain limits. Key exercises: heel slides with a towel assist, prone hangs for extension, and quadricep setting. Apply ice for 20 minutes after each session.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "The First 48 Hours",
+        "body": "Day one is about circulation and prevention. Deep breathing exercises prevent chest infections. Ankle pumps prevent DVT. Gentle active movements within safe ranges start neuromuscular retraining. Your physio teaches you how to get in and out of bed, walk with your aid, and manage pain."
+      },
+      {
+        "heading": "Weeks 1-6: Protection Phase",
+        "body": "This phase prioritises healing while maintaining range of motion. Weight-bearing restrictions vary by procedure. Scar massage starts once the wound is fully closed. Swelling management (elevation, ice, compression) is critical."
+      },
+      {
+        "heading": "Weeks 6-12: Restoration Phase",
+        "body": "Once cleared for full weight-bearing, real strengthening begins. Closed-chain exercises (squats, lunges within tolerance) build functional strength. Balance training prevents falls. Your physio measures progress with goniometry and functional tests."
+      },
+      {
+        "heading": "Months 3-6: Functional Phase",
+        "body": "The focus shifts to your specific goals - return to sport, manual work, or daily activities. Agility drills and sport-specific patterns are introduced. Compensatory patterns from your pre-surgery period are corrected."
+      },
+      {
+        "heading": "Managing Complications",
+        "body": "Know the warning signs: sudden calf pain or swelling (possible DVT - go to emergency), redness around the incision, fever over 38C, or a pop followed by sudden weakness. Your physio screens for these at every session."
+      }
+    ]
+  },
+  {
+    "id": "physio-stroke-001",
+    "tag": "Stroke Recovery",
+    "title": "Rebuilding After a Stroke: Neuro-Physiotherapy for Movement and Independence",
+    "subtitle": "The brain can rewire - structured neuro-rehabilitation helps regain mobility, speech, and dignity",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "The critical window for neuroplasticity and why timing matters",
+    "problemBody": "Stroke is a leading cause of adult disability in South Africa. The first 3-6 months represent the period of greatest neuroplasticity - the brain's ability to rewire itself. Early, intensive, task-specific physiotherapy during this window produces the best outcomes. Yet many survivors are discharged with minimal ongoing therapy. Without continued neuro-rehabilitation, patients plateau early and lose functional independence that could have been regained.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R520 (home visits from R650)",
+    "timeline": "6-18 months with 2-3 sessions per week initially",
+    "aiPromptExample": "My father had an ischemic stroke 3 weeks ago. He has right-sided weakness and can stand with support but cannot walk. What should a rehab programme include at this stage?",
+    "aiDiagnosisOutput": "At 3 weeks post-stroke with right hemiparesis, your father is in the early subacute phase. His programme should include: (1) weight-bearing through the affected leg, (2) sit-to-stand practice, (3) upper limb positioning to prevent shoulder subluxation, (4) mirror therapy for motor planning, and (5) family training for safe transfers. Keep sessions short (15 min) with frequent praise.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "How Neuroplasticity Works",
+        "body": "After a stroke, the brain begins forming new neural connections within days. Repetition is key - a movement must be practiced hundreds of times for the brain to consolidate new pathways. Task-specific practice is more effective than passive range-of-motion alone."
+      },
+      {
+        "heading": "The Therapy Team",
+        "body": "Recovery is a team effort. The physiotherapist focuses on mobility and lower limb function. An occupational therapist works on daily living skills. A speech therapist addresses communication and swallowing. Bouul coordinates referrals so you don't manage it alone."
+      },
+      {
+        "heading": "Mobility Milestones",
+        "body": "Typical progression: bed mobility, sitting unsupported, standing with support, standing unsupported, walking with an aid, walking without an aid, stairs and uneven surfaces. Your physio sets realistic, measurable goals and celebrates every gain."
+      },
+      {
+        "heading": "Upper Limb Recovery",
+        "body": "Arm recovery is often slower than leg recovery. Constraint-Induced Movement Therapy, mirror therapy, and electrical stimulation can activate muscles not yet under voluntary control. Early positioning prevents shoulder pain."
+      },
+      {
+        "heading": "Support for Caregivers",
+        "body": "Family caregivers are the backbone of stroke recovery. You will be taught safe manual handling techniques. Emotional support through the Stroke Survivors Foundation (South Africa) is invaluable. Respite care is available through Bouul."
+      }
+    ]
+  },
+  {
+    "id": "physio-prenatal-001",
+    "tag": "Prenatal Physiotherapy",
+    "title": "Pregnancy Without Pain: How Physiotherapy Supports You Before Baby Arrives",
+    "subtitle": "Manage pelvic girdle pain, back strain, and prepare your body for birth - the safe way",
+    "image": "/scenes/health_article.png",
+    "readTime": "4 min read",
+    "author": "Bouul Health Services Team",
+    "problemHeadline": "Pregnancy aches are common but they are not normal",
+    "problemBody": "Over 70% of pregnant women experience lower back pain. Nearly half develop pelvic girdle pain (PGP). The common advice that it's just part of pregnancy and to rest more often makes things worse. During pregnancy, the hormone relaxin loosens ligaments. Your centre of gravity shifts. Your abdominal muscles separate (diastasis recti). These changes create predictable patterns of muscle imbalance that physiotherapists are trained to identify and treat.",
+    "bouulSolution": [
+      "Book a vetted, registered professional through Bouul's secure platform",
+      "Receive a personalised care plan tailored to your specific needs",
+      "Track progress with scheduled follow-ups and direct messaging"
+    ],
+    "partsNeeded": [
+      "Medical aid card or private payment details",
+      "South African ID document or passport",
+      "Any relevant prior medical records or referral letters",
+      "Comfortable clothing appropriate for the service"
+    ],
+    "guidePricing": "R450",
+    "timeline": "Ongoing - typically once per month, more in third trimester",
+    "aiPromptExample": "I am 26 weeks pregnant and have sharp pain on the left side of my pelvis when I walk or roll over in bed. What could this be?",
+    "aiDiagnosisOutput": "Your symptoms are consistent with Pelvic Girdle Pain (PGP), specifically left-sided posterior pelvic pain. Safe interventions: sleep with a pillow between your knees, avoid twisting, keep your knees together when getting in and out of the car, and wear a supportive pelvic belt. A women's health physiotherapist can do muscle energy techniques that are safe in pregnancy.",
+    "escrowGuarantee": "Your payment is held securely in escrow until you confirm the service was completed to your satisfaction. Full refund if you are not happy.",
+    "pirbStandard": "All practitioners are registered with the relevant South African statutory council (HPCSA, SANC, or ASCHP) and carry valid malpractice insurance.",
+    "articleSections": [
+      {
+        "heading": "Understanding Pregnancy-Related Pain",
+        "body": "Pregnancy pain is biomechanical, not just hormonal. As your baby grows, abdominal muscles lengthen and may separate. Your pelvic floor bears increasing load. A prenatal physio assesses your specific pattern of imbalance rather than giving generic exercise advice."
+      },
+      {
+        "heading": "Safe Exercise During Pregnancy",
+        "body": "Exercise is safe throughout pregnancy but the type matters. Swimming is excellent. Avoid high-impact activities if you have PGP. Your physio prescribes specific exercises: deep core activation, glute strengthening, and pelvic floor awareness."
+      },
+      {
+        "heading": "Pelvic Floor Preparation",
+        "body": "Learning to contract AND relax your pelvic floor is equally important. An overly tight pelvic floor can make vaginal delivery harder and increase tearing risk. Your physio teaches you to coordinate your pelvic floor with breath and movement."
+      },
+      {
+        "heading": "Birth Positioning",
+        "body": "Upright positions (squatting, kneeling, all-fours) use gravity and align the baby optimally. Your physio helps you practice these safely in the third trimester and teaches your birth partner how to support you."
+      },
+      {
+        "heading": "Post-Natal Recovery Starts Now",
+        "body": "What you do during pregnancy directly affects recovery after birth. Women who maintain core and pelvic floor function heal faster from diastasis recti and have fewer bladder control issues. Book a post-natal check 6-8 weeks after delivery."
+      }
+    ]
+  }
+]

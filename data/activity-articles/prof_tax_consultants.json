@@ -1,0 +1,254 @@
+[
+  {
+    "id": "tax-consultant-01",
+    "tag": "Personal Tax",
+    "title": "Optimising Your Personal Income Tax: Strategies Every South African Should Know",
+    "subtitle": "Legal ways to reduce your tax burden that most taxpayers miss",
+    "image": "/scenes/pro_tax_01.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "The average South African overpays R18,000 in personal tax each year",
+    "problemBody": "SARS collected R1.8 trillion in tax revenue in the 2025/26 fiscal year. Personal income tax accounts for 42% of that — and billions of rands were paid in excess of what the law requires. The reasons are consistent: taxpayers don't know about the retirement annuity tax benefit (up to 27.5% of taxable income deductible), the medical scheme tax credits (R364 per month for the main member, R364 for the first dependent, R245 for each additional dependent), the home office deduction, or the travel allowance optimisation options. The result is an estimated R18,000 average overpayment per taxpayer who doesn't use a professional consultant.",
+    "bouulSolution": [
+      "Your Bouul tax consultant reviews your full financial picture: salary, investments, rental income, business income, foreign assets, and capital gains — identifying every legal deduction and exemption.",
+      "We implement a year-round tax strategy: retirement contributions timed to maximise the deduction, medical aid allocation optimised, and investment structures (RA vs TFSA vs discretionary) aligned to your tax bracket.",
+      "Your annual ITR12 is prepared and submitted with full disclosure and complete supporting schedules, minimising audit risk while maximising your refund."
+    ],
+    "partsNeeded": [
+      "IRP5 certificates from all employers in the tax year",
+      "Medical aid certificates and proof of qualifying medical expenses",
+      "Retirement annuity statements and contribution proofs",
+      "Investment statements (interest, dividends, unit trusts, foreign assets)"
+    ],
+    "guidePricing": 3200,
+    "timeline": "3–5 business days for full preparation and submission of a personal income tax return",
+    "aiPromptExample": "A client earns R980,000 per year as a salaried professional. They contribute R5,000/month to a retirement annuity and R4,500/month to a medical aid (main member + 3 dependants). Draft a briefing explaining how close they are to the retirement annuity contribution cap, what the medical tax credits cover, and what additional savings vehicle (TFSA vs discretionary investment) would be most tax-efficient for their remaining discretionary income of R15,000/month.",
+    "aiDiagnosisOutput": "Profile: Salaried professional, marginal tax rate 39% (41–45% bracket cap for 2025/26). Retirement annuity contribution of R60,000/year is within the 27.5% cap (R269,500 max) — room for additional R209,500 before hitting the cap or the R350,000 annual ceiling. Medical tax credits: R364 + R364 + R245 × 2 = R1,218/month (R14,616/year). Out-of-pocket medical expenses can be claimed above 7.5% of taxable income. Recommendation: increase RA contributions by R10,000/month to reduce taxable income below the 39% bracket threshold (R850,000). Remaining R5,000/month → TFSA (R36,000/year limit, tax-free growth and withdrawals).",
+    "escrowGuarantee": "Your personal tax consultation and return preparation fee is held in escrow. Payment releases only after your return is filed, SARS issues an assessment, and you confirm the result meets your expectations.",
+    "pirbStandard": "SAIPA — Bouul tax consultants are SAIPA-registered Professional Accountants (SA) with accredited SARS tax practitioner numbers and ongoing CPD in personal income tax.",
+    "articleSections": [
+      {
+        "heading": "Understanding your marginal tax rate",
+        "body": "South Africa uses a progressive tax system. The 2025/26 brackets: 18% up to R237,100, 26% up to R370,500, 31% up to R512,800, 36% up to R673,000, 39% up to R857,900, 41% up to R1,817,000, and 45% above R1,817,000. Every rand of additional income you earn is taxed at your marginal rate — but every rand of deduction saves tax at that same rate. This is why contributions to retirement annuities, medical aid, and TFSAs have outsized value for higher-rate taxpayers. Your Bouul tax consultant structures your affairs to maximise deductions that reduce the highest-taxed portion of your income first."
+      },
+      {
+        "heading": "Capital gains tax: when you sell assets",
+        "body": "Capital gains tax applies when you sell an asset for more than you paid. The first R40,000 of annual capital gain is tax-free (R80,000 for the year of death). Only 40% of the remaining gain is included in your taxable income, taxed at your marginal rate. Primary residence exclusion: the first R2 million of gain on your main home is tax-free. CGT planning is about timing: realising losses in the same year as gains to offset them, and deferring disposals of high-gain assets to a year with lower other income. Bouul tax consultants include CGT projections in annual planning, especially before major asset sales."
+      },
+      {
+        "heading": "Foreign income and the foreign employment exemption",
+        "body": "South African residents are taxed on their worldwide income. However, the foreign employment exemption (Section 10(1)(o)(ii)) allows you to exempt foreign employment income up to R1.25 million if you work outside South Africa for more than 183 days in a 12-month period, with at least 60 continuous days outside the country. Income above R1.25 million is fully taxable in SA. Foreign investment income (interest, dividends, rental) is always taxable in SA regardless of the threshold. Bouul tax consultants advise expatriates and remote workers on how the exemption applies to their specific work patterns and whether a formal tax residency change is more beneficial."
+      }
+    ]
+  },
+  {
+    "id": "tax-consultant-02",
+    "tag": "Corporate Tax",
+    "title": "Corporate Income Tax in South Africa: Moving Beyond the Standard Return",
+    "subtitle": "Tax-efficient structuring and compliance for your business",
+    "image": "/scenes/pro_tax_02.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Most SMEs pay the full 27% corporate tax rate — but many qualify for effective rates below 10%",
+    "problemBody": "South Africa's corporate income tax rate is 27% (reduced from 28% in the 2023 Budget). But effective tax rates — what companies actually pay after deductions, allowances, and incentives — vary wildly. SMEs in manufacturing can claim the Section 12J venture capital allowance, the Section 12I industrial policy allowance, and the Section 12B renewable energy allowance. Software developers qualify for the R&D tax incentive allowing a 150% deduction. Yet most SMEs file a simple ITR14 return, claiming only basic deductions, because they don't know which sector-specific incentives apply to their industry.",
+    "bouulSolution": [
+      "Your Bouul tax consultant conducts a full corporate tax review: historical returns, available allowances, current structuring, and SARS audit risk assessment.",
+      "We implement tax-efficient structures: group company structuring, transfer pricing documentation (for cross-border transactions), dividend planning, and capital allowances optimisation.",
+      "Your annual ITR14 return is prepared with full schedules, supporting the claim for every available incentive and allowance."
+    ],
+    "partsNeeded": [
+      "Annual financial statements (signed) and the trial balance for the tax period",
+      "Fixed asset register with dates of acquisition and cost per asset",
+      "Shareholding structure and company registration documents",
+      "Prior year ITR14 returns and SARS assessment letters"
+    ],
+    "guidePricing": 6500,
+    "timeline": "7–12 business days for a full corporate tax return. Sector-specific incentive applications: 2–4 weeks (SARS may take 4–8 weeks to process).",
+    "aiPromptExample": "A client runs a light manufacturing business with R12m annual turnover. They installed R480,000 in solar panels last year. They heard about the Section 12B renewable energy allowance but don't know if their panels qualify. Write a tax advisory explaining Section 12B, the 125% first-year deduction, the difference between new and used assets, and what documentation they need to keep.",
+    "aiDiagnosisOutput": "Status: Section 12B claim confirmed. Solar photovoltaic (PV) panels qualify as 'renewable energy machinery' under Section 12B(2)(i). First-year deduction: 125% of cost (R480,000 × 125% = R600,000 deduction). Asset type: new (never used before) — full 125% allowable. Requirements: supplier invoice specifying make, model, and serial number of panels; installation certificate from a qualified electrician (must be registered with the Department of Employment and Labour); proof of payment. Estimated tax saving at 27%: R600,000 × 27% = R162,000. Documentation must be filed with the ITR14.",
+    "escrowGuarantee": "Corporate tax fees are held in escrow. Payment releases when the completed ITR14 is submitted to SARS and you confirm satisfaction. If SARS rejects the return due to preparation errors, Bouul covers the penalty costs.",
+    "pirbStandard": "SAICA — Bouul corporate tax consultants are SAICA-registered Chartered Accountants (SA) with specialist tax designation, compliant with the Tax Administration Act and SARS tax practitioner requirements.",
+    "articleSections": [
+      {
+        "heading": "Tax incentives every SME should investigate",
+        "body": "Section 12J: venture capital company investments up to R2.5 million per individual (R5 million for companies) — 100% deduction in the year of investment. Section 12B: renewable energy assets — 125% deduction for wind, solar, hydro, and biomass in the first year. Section 11D: R&D expenditure — 150% deduction for qualifying scientific or technological R&D. Employment Tax Incentive (ETI): R1,000–R1,500 per month per qualifying employee under 29. Each incentive has specific criteria, and incorrectly claiming without proper documentation is an audit trigger. Bouul tax consultants assess your business against each incentive and prepare the supporting evidence."
+      },
+      {
+        "heading": "Transfer pricing: what every cross-border business needs to know",
+        "body": "If your company transacts with a related entity outside South Africa — management fees, royalties, intercompany loans, or goods — you need transfer pricing documentation demonstrating arm's length pricing. SARS has increased transfer pricing audits significantly. The documentation must include a functional analysis, a benchmark analysis (comparable transactions), and transfer pricing policy. Penalties for non-compliance: up to 50% of the adjustment value if the understatement was intentional. Bouul tax consultants prepare full transfer pricing master and local files in compliance with OECD guidelines and the SARS Practice Note."
+      },
+      {
+        "heading": "Dividends tax: when and how to distribute profits",
+        "body": "Dividends tax is 20%, withheld by the company on behalf of shareholders. The company must declare the dividend via a dividend resolution and pay the tax to SARS within 30 days of declaration. Dividends paid to a SA-resident company beneficiary are exempt from dividends tax. Dividends to individuals are taxable at 20%, with no further income tax on the dividend (it's a final withholding tax). Bouul tax consultants advise on the optimal timing and structure of dividend distributions, balancing shareholder cash needs against the 20% tax cost and the company's solvency and liquidity requirements under the Companies Act."
+      }
+    ]
+  },
+  {
+    "id": "tax-consultant-03",
+    "tag": "Provisional Tax",
+    "title": "Mastering Provisional Tax: Never Miss an Estimate Again",
+    "subtitle": "How to estimate, pay, and adjust provisional tax without triggering penalties",
+    "image": "/scenes/pro_tax_03.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Provisional tax underpayment penalties catch 65% of freelancers in their first year",
+    "problemBody": "When you move from salaried employment to freelancing or starting a business, PAYE disappears — and provisional tax kicks in. You must estimate your total taxable income for the year and pay tax in two instalments (August and February) plus a voluntary top-up (September). Underestimate by more than 20% of the actual liability? SARS charges a 20% penalty on the underpaid amount. Over 65% of first-time provisional taxpayers get this wrong because they have no historical earnings data, their income fluctuates month-to-month, or they didn't account for a large contract they signed mid-year.",
+    "bouulSolution": [
+      "Your Bouul tax consultant sets up your provisional tax profile: a realistic estimate based on current year income to date, projected pipeline, and industry benchmarks for your profession.",
+      "We calculate and submit each provisional tax payment via eFiling before the deadline, with a clear breakdown of how the estimate was derived.",
+      "At year-end, we reconcile provisional payments against the actual liability and either apply the surplus as a credit or arrange the final top-up payment."
+    ],
+    "partsNeeded": [
+      "Income records for the current tax year (bank statements, invoices issued, contracts signed)",
+      "Business expense projections (rent, salaries, software subscriptions, travel, utilities)",
+      "Prior year's provisional tax returns and assessment (if any)",
+      "Estimated income for the remaining months of the tax year"
+    ],
+    "guidePricing": 2500,
+    "timeline": "First provisional return: prepared and filed in July (before 31 August deadline). Second provisional return: prepared and filed in January. Year-end reconciliation: 1–2 business days in August after year-end.",
+    "aiPromptExample": "A freelance consultant had a first-half income of R420,000 and expects R380,000 in the second half. They paid R48,000 in first provisional. Write a brief explaining the basic estimation method (50% of prior year's taxable income = safe harbour), the top-up option, and whether they should increase their estimate given the H1 performance.",
+    "aiDiagnosisOutput": "Estimation method: Basic method (50% of prior year taxable income) — safe harbour from penalties. If prior year taxable income was R650,000, the minimum basic estimate is R325,000 × 27% = R87,750 — R48,000 already paid, so only R39,750 due for second provisional. However, current year actual is tracking at R800,000 (H1 R420k + H2 projected R380k). At R800,000, total tax liability is approximately R190,000. R48k + R39,750 = R87,750 — a 54% underpayment, triggering the 20% penalty on the shortfall (~R20,450). Recommendation: increase second provisional to R142,000 (R87,750 basic + R54,250 top-up) to bring total to R190,000 — penalty avoided.",
+    "escrowGuarantee": "Provisional tax engagement fees are held in escrow until the second provisional return is filed and you receive a SARS acknowledgement. If penalties arise due to our estimation error (not market conditions), Bouul covers the penalty amount.",
+    "pirbStandard": "SAIPA — Bouul provisional tax specialists are SAIPA-registered with SARS tax practitioner accreditation verified annually.",
+    "articleSections": [
+      {
+        "heading": "What is provisional tax and who must pay it",
+        "body": "Provisional tax is not a separate tax — it's a prepayment of your annual income tax liability in instalments. You are a provisional taxpayer if you earn income other than a salary (or receive more than R30,000 in investment or rental income annually). Most freelancers, independent contractors, sole proprietors, and company directors are provisional taxpayers. Even salaried employees with significant side income must register. Failure to register as a provisional taxpayer within 14 days of meeting the threshold triggers a penalty of up to R200 per day."
+      },
+      {
+        "heading": "Basic estimation method: your penalty safe harbour",
+        "body": "The basic estimation method allows you to calculate second and third provisional payments based on 50% of your prior year's taxable income. This method is a penalty safe harbour — SARS will not impose an underestimate penalty if your estimate meets the basic method requirement. For first-year provisional taxpayers (no prior year data), the safe harbour is 100% of actual income earned up to the date of the estimate, annualised. Bouul tax consultants always apply the basic estimation method as a floor and add any known additional income to reduce the year-end tax balance."
+      },
+      {
+        "heading": "Third provisional payment: the optional top-up",
+        "body": "You can make a third provisional payment (voluntary top-up) within 7 days of your year-end, typically in September. This payment reduces the outstanding balance on your eventual assessment. It does not have to be estimated — you can compensate for the actual known income for the full year. The benefit: interest on the outstanding balance (currently 11.75% per year) starts accruing from the day after year-end. Making a substantial third provisional payment significantly reduces this interest. Bouul tax consultants calculate the optimal third provisional amount based on your actual year-end income and the 20-day gap between payment and filing the full return."
+      }
+    ]
+  },
+  {
+    "id": "tax-consultant-04",
+    "tag": "VAT Returns",
+    "title": "VAT Returns: Complete Guide to Filing Accurate VAT 201s",
+    "subtitle": "Avoiding SARS verification flags and keeping your VAT refunds on track",
+    "image": "/scenes/pro_tax_04.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "A single VAT 201 error can freeze R500,000 in refunds for 6 months",
+    "body": "SARS uses automated risk engines to score every VAT 201 return. Any deviation from expected ratios — output tax as a percentage of turnover, input tax as a percentage of purchases — triggers an automatic verification hold. Your refund is frozen until the verification is cleared, which takes 3–6 months for complex cases. The most common triggers: first-time refund claims, input VAT claims on capital goods over R30,000, zero-rated supplies without supporting documentation, and apportionment method changes.",
+    "bouulSolution": [
+      "Your Bouul tax consultant reviews your VAT return data before submission, checking for pattern deviations, missing supporting documents, and compliance with the VAT Act.",
+      "We file every VAT 201 return with complete supporting schedules: output tax breakdown by rate, input tax schedule by supplier, and capital goods register.",
+      "If SARS issues a verification or audit notice, your consultant handles the entire correspondence, document submission, and liaison process."
+    ],
+    "partsNeeded": [
+      "Sales summary for the VAT period (standard-rated, zero-rated, exempt supplies)",
+      "Purchase summary showing input VAT claimed per supplier",
+      "Capital goods register (assets over R30,000 acquired in the period)",
+      "Previous VAT 201 returns for the last 6 periods (for ratio comparison)"
+    ],
+    "guidePricing": 2200,
+    "timeline": "Standard VAT 201: prepared and filed 3–5 business days before the 25th deadline. VAT verification response: within 48 hours of receiving SARS correspondence.",
+    "aiPromptExample": "A client's VAT 201 return shows input VAT of R85,000 on turnover of R950,000 — an input ratio of 8.9%. Their industry average is 4%. Write an advisory explaining why SARS will flag this, what documentation to prepare (bulk supplier purchases, capital equipment invoices), and how to mitigate the verification delay by submitting a covering letter with the return.",
+    "aiDiagnosisOutput": "Risk assessment: High — input VAT ratio of 8.9% against industry average of 4% will trigger a Category A verification. Likely cause: bulk inventory purchase or capital equipment acquisition in the period. If the R85,000 input includes a single capital asset over R30,000 (e.g., R400,000 manufacturing equipment × 15% = R60,000 input), the remaining R25,000 is in the normal range. Recommended mitigation: submit a covering letter with the VAT 201 explaining the capital goods acquisition, including the supplier invoice, proof of payment, and capital goods declaration form. This reduces verification time from 6 months to approximately 4 weeks.",
+    "escrowGuarantee": "VAT return fees are held in escrow until the return is acknowledged by SARS and you confirm the submission. All correspondence handling is included in the fee.",
+    "pirbStandard": "FSCA Registered Tax Practitioner — Bouul VAT consultants are registered with SARS as tax practitioners under the Tax Administration Act and maintain FSCA-compliant professional indemnity insurance.",
+    "articleSections": [
+      {
+        "heading": "VAT return deadlines and period types",
+        "body": "VAT returns are due by the 25th day of the month following the end of the VAT period. Bi-monthly filing is standard for most businesses; monthly filing is mandatory for businesses with turnover over R50 million, or voluntary for businesses expecting regular refunds. Each return requires the full VAT 201 form with 32 fields, including output tax (fields 1–12), input tax (fields 14–22), and adjustments (fields 24–30). Late filing triggers a penalty of 10% of the VAT due per month. Bouul tax consultants file each return with a 5-day buffer to avoid last-minute system issues."
+      },
+      {
+        "heading": "Zero-rated supplies: the documentation trap",
+        "body": "Zero-rated supplies (exported goods, basic food items, petrol, certain municipal services) must be separately disclosed on the VAT 201. SARS requires export documentation — bills of lading, airway bills, customs clearance certificates — to support zero-rating claims. Missing or incomplete export documentation is the most common reason for VAT verification holds. For services exported to non-SA residents, you need a contract confirming the recipient is outside SA and evidence of payment from a foreign bank account. Bouul tax consultants compile the zero-rating evidence file before filing, so refunds flow without unnecessary delays."
+      },
+      {
+        "heading": "VAT refunds: why they're delayed and how to speed them up",
+        "body": "VAT refunds arise when input VAT exceeds output VAT — common for exporters, capital-intensive startups, and seasonal businesses. SARS automatically verifies the first refund claim and selects subsequent claims for verification based on a risk score. Common verification requests: supplier VAT numbers confirmed active on SARS's database, proof that goods were supplied (delivery notes, signed contracts), and proof that the input VAT was paid (not just invoiced). Bouul tax consultants maintain a 'refund readiness file' for clients in a regular refund position — all evidence pre-compiled so when SARS asks, the response is within 24 hours."
+      }
+    ]
+  },
+  {
+    "id": "tax-consultant-05",
+    "tag": "Tax Dispute",
+    "title": "Navigating a SARS Tax Dispute: Your Rights and the Process",
+    "subtitle": "How to challenge a SARS assessment without hiring a lawyer — and when you need one",
+    "image": "/scenes/pro_tax_05.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "70% of taxpayers accept a wrong SARS assessment because they don't know how to dispute it",
+    "problemBody": "SARS issues millions of assessments each year. Many contain errors — duplicated income, missed deductions, incorrect tax rates — but 70% of taxpayers simply accept them. The Tax Administration Act provides a structured dispute process with 4 stages: objection (30 business days from assessment date), appeal (30 business days from objection outcome), tax court (if both parties agree after alternative dispute resolution), and high court (on a question of law). Each stage has strict deadlines. Miss the 30-day objection window? You need a condonation application, which succeeds in only 40% of cases.",
+    "bouulSolution": [
+      "Your Bouul tax consultant reviews the disputed assessment and determines the grounds for objection: factual error, legal interpretation, or procedural irregularity.",
+      "We prepare and file the formal objection (ADR1 form) within the 30-day deadline, with full supporting evidence and legal argument.",
+      "If the objection is rejected, we manage the appeal process (ADR2 form), alternative dispute resolution (ADR), and tax court representation through our network of SAICA-registered tax professionals."
+    ],
+    "partsNeeded": [
+      "The SARS assessment letter being disputed (including the assessment number and date)",
+      "The original return that led to the assessment (if filed by the taxpayer)",
+      "Supporting documents proving the correct position (invoices, contracts, bank statements, receipts)",
+      "Any prior correspondence with SARS about the same issue"
+    ],
+    "guidePricing": 4500,
+    "timeline": "Objection filed within 5 business days of receiving the assessment (well within the 30-day limit). SARS has 60 business days to respond. ADR: 30–60 business days. Tax Court: 6–12 months.",
+    "aiPromptExample": "A client received a SARS audit outcome assessing additional tax of R185,000 plus a 25% understatement penalty. The client believes SARS incorrectly disallowed a Section 12B renewable energy deduction. Write a draft objection letter structure: state the assessment being disputed, the grounds (incorrect application of Section 12B), factual summary, and the relief sought. Reference the relevant sections of the Tax Administration Act.",
+    "aiDiagnosisOutput": "Objection grounds: Strong. Section 12B(2)(i) clearly allows a 125% deduction for solar PV assets. The assessment appears to have misapplied the 'new and unused' requirement — SARS auditor claimed the panels were not 'new' because they were ex-demo, but ex-demo panels from a registered supplier qualify as 'new' under Interpretation Note 89. Understatement penalty rate of 25% (substantial understatement) should be reduced to 10% (standard understatement) if reasonable care was taken in preparing the return. Estimated success: 70% on the Section 12B deduction, 50% on the penalty reduction.",
+    "escrowGuarantee": "Tax dispute fees are held in escrow. Payment releases when the objection is filed and acknowledged by SARS. If we miss the objection deadline due to our error, the full fee is refunded and we cover any resulting assessment increase.",
+    "pirbStandard": "SAICA Tax Specialist designation — Bouul dispute consultants hold the SAICA Tax Specialist (SA) designation with demonstrated competence in the Tax Administration Act dispute resolution procedures.",
+    "articleSections": [
+      {
+        "heading": "The 4 stages of a SARS tax dispute",
+        "body": "Stage 1 — Objection: file within 30 business days of the assessment date. SARS has 60 business days to respond. Include full reasons and supporting documents. Stage 2 — Appeal: if SARS confirms or partially confirms the assessment, you have 30 business days to appeal. Stage 3 — Alternative Dispute Resolution: a facilitated meeting between you and SARS, chaired by an independent SARS official. Most cases settle at ADR. Stage 4 — Tax Court: if ADR fails, the matter goes to the Tax Court. The court consists of a judge and two assessors (one from SARS, one from the taxpayer's professional body). Bouul tax consultants manage the process through all four stages, with the option of engaging senior counsel for complex matters."
+      },
+      {
+        "heading": "Understatement penalties: what they are and how to reduce them",
+        "body": "The Tax Administration Act classifies understatements into 4 categories. Standard understatement (reasonable care taken): 10% penalty. Substantial understatement (negligence): 25% penalty. Reasonable care not taken: 50% penalty. Intentional tax evasion: 100–150% penalty. The penalty percentage is applied to the additional tax assessed. If SARS imposes a penalty category you disagree with, you can object on the basis that your conduct met a lower standard. Proving reasonable care requires showing you obtained professional tax advice, maintained proper records, and disclosed all material facts. Bouul tax consultants include penalty reduction arguments in every objection."
+      },
+      {
+        "heading": "Voluntary Disclosure Programme (VDP): avoiding penalties altogether",
+        "body": "If you discover an omission or error in a prior return before SARS does, the Voluntary Disclosure Programme allows you to disclose voluntarily and request reduced penalties — often zero. Requirements: the disclosure must be voluntary (not prompted by a SARS audit), complete (all periods and errors disclosed), and accompanied by full payment of the outstanding tax and interest. SARS must not have initiated an audit on the periods in question. VDP applications are processed within 4–6 weeks. Bouul tax consultants prepare the full VDP submission including the VDP01 form, the disclosure schedule, and payment arrangements."
+      }
+    ]
+  },
+  {
+    "id": "tax-consultant-06",
+    "tag": "Estate Planning",
+    "title": "Estate Planning for Tax Efficiency: Protecting Your Legacy",
+    "subtitle": "How to structure your estate to minimise estate duty and maximise what your heirs receive",
+    "image": "/scenes/pro_tax_06.png",
+    "readTime": "4 min read",
+    "author": "Bouul Professional Services Team",
+    "problemHeadline": "Unplanned estates lose 20–25% of their value to estate duty, executor fees, and CGT",
+    "problemBody": "When a South African dies without an estate plan, the estate loses value in three ways: estate duty (20% on the first R30 million above the R3.5 million abatement, 25% above R30 million), executor's fees (up to 3.5% of the gross value plus 6% on income collected after death), and capital gains tax (deemed disposal of all assets at death — no rollover for primary residence above R2 million). For an estate valued at R10 million, these costs can consume R2–2.5 million before distribution. Proper estate planning — trusts, life insurance in trust, section 11(g) bequests, and antenuptial contracts — can reduce this to near zero.",
+    "bouulSolution": [
+      "Your Bouul tax consultant conducts a full estate planning review: asset inventory, current Will, nominated beneficiaries, existing trusts, and life insurance policies.",
+      "We design an estate structure that minimises estate duty: spousal rollover (Section 4(q) — unlimited spousal deduction), discretionary trusts for minor beneficiaries, and life insurance policies owned by an inter vivos trust.",
+      "The estate plan is documented, including the Will review, trust deed amendments, beneficiary nominations, and letter of wishes — with annual reviews to keep pace with changing legislation."
+    ],
+    "partsNeeded": [
+      "Existing Will and any testamentary trust documents",
+      "Asset register (property, investments, retirement funds, business interests, vehicles, personal assets)",
+      "Life insurance policies and retirement fund beneficiary nominations",
+      "Marriage contract (in community of property, out of community with or without accrual)"
+    ],
+    "guidePricing": 5500,
+    "timeline": "Full estate planning review and plan design: 7–10 business days. Trust registration (if needed): 4–6 weeks.",
+    "aiPromptExample": "A client, age 52, has an estate valued at R8.5 million (R4m primary residence, R2m retirement annuity, R1.5m discretionary investments, R1m life insurance). They are married out of community with accrual (one adult child). Write an estate planning briefing calculating estimated estate duty, executor fees, and CGT at death, and recommending structures to reduce the total cost below 10% of the gross estate.",
+    "aiDiagnosisOutput": "Current estate costs estimate: Gross estate R8.5m. Estate duty: R8.5m less R3.5m abatement less R4m spousal rollover (Section 4(q)) = R1m dutiable × 20% = R200,000. Executor's fees: R8.5m × 3.5% = R297,500. CGT on primary residence: first R2m exempt, balance R2m × 40% inclusion × 39% marginal rate = R312,000. Retirement annuity: lump sum tax (R2m less R550,000 lump sum abatement = R1.45m taxed at 36% = R522,000). Total estimated cost: R1,331,500 (15.7% of gross). Recommendations: (1) Move R1m life insurance into an inter vivos trust — removes R1m from estate duty calculation, reduces executor fee base to R7.5m. (2) Nominate child as RA beneficiary (not estate) — RA bypasses executor and estate duty entirely. (3) Review Will to maximise spousal rollover — effectively eliminates estate duty on first spouse's death.",
+    "escrowGuarantee": "Estate planning fees are held in escrow. Payment releases when the complete estate plan document is delivered and you confirm it covers all identified risk areas. Trust registration fees are billed separately and held until the Master of the High Court confirms registration.",
+    "pirbStandard": "SAICA Estate Planning Specialist — Bouul estate planning consultants are SAICA members with additional specialist qualifications in estate planning, trust administration, and the Administration of Estates Act (Act 66 of 1965).",
+    "articleSections": [
+      {
+        "heading": "Estate duty: the basics and the abatement",
+        "body": "Estate duty is charged at 20% on the first R30 million of a deceased estate (above the R3.5 million general abatement) and 25% on everything above R30 million. The abatement means the first R3.5 million of net estate value is tax-free. Assets left to a surviving spouse qualify for the Section 4(q) unlimited deduction — no estate duty on spousal bequests. The surviving spouse's estate then uses their own R3.5 million abatement when they die. For a married couple with proper Wills, this can shelter R7 million from estate duty across both deaths. Bouul tax consultants structure estate plans to maximise the combined abatement."
+      },
+      {
+        "heading": "Trusts in estate planning: when they make sense",
+        "body": "Inter vivos (living) trusts can own assets like life insurance policies, investment portfolios, and business interests. The benefit: assets in a trust do not form part of your personal estate for estate duty purposes. However, trusts have costs: annual accounting fees (R5,000–R15,000), trustee meetings, separate tax returns, and the 45% trust tax rate on retained income. A trust makes financial sense when the estate duty saving exceeds the running costs — typically for estates above R7–10 million. Bouul tax consultants model the 5-year cost-benefit of trust structures before recommending registration."
+      },
+      {
+        "heading": "The Will: the foundation of every estate plan",
+        "body": "Without a valid Will, your estate is distributed according to the Intestate Succession Act — which may not align with your wishes. For example, a surviving spouse may not inherit the full estate, creating a potential CGT and estate duty event when the minor children's assets are administered by the Guardian's Fund. A valid Will should include: executor appointment (with or without a trust company), trustee appointments for testamentary trusts, specific bequests to reduce the dutiable estate (charitable bequests are fully deductible), and guardianship provisions for minor children. Bouul tax consultants review and, where necessary, recommend updates to your Will as part of every estate planning engagement."
+      }
+    ]
+  }
+]

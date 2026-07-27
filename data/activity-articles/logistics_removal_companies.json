@@ -1,0 +1,230 @@
+[
+  {
+    "id": "removal_home_move",
+    "tag": "Residential Moving",
+    "title": "Full Home Furniture Relocation",
+    "subtitle": "Stress-free residential furniture moving with wrapped protection and insurance",
+    "image": "/scenes/furniture_assembly.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Moving house is rated as one of life's top stressors when items break or movers no-show",
+    "problemBody": "Unvetted moving crews often drop fragile furniture, scratch hardwood floors, or show up hours late in small trucks that require multiple slow trips.",
+    "bouulSolution": [
+      "Book a verified 4-ton or 8-ton closed truck with a trained 4-man loading crew",
+      "All furniture items are wrapped in heavy blankets and shrink-wrap before loading",
+      "Escrow holds payment until all items are safely unpacked at your new home"
+    ],
+    "partsNeeded": [
+      "Heavy-duty furniture blankets & shrink wrap",
+      "Webbing tie-down straps & trolley jacks",
+      "Corner protectors & mattress covers",
+      "Enclosed air-ride suspension truck"
+    ],
+    "guidePricing": "R2,500 – R6,500",
+    "timeline": "Duration: 4 – 8 Hours",
+    "aiPromptExample": "Describe your home size and items: '3 bedroom house in Midrand moving to Centurion, includes double door fridge and piano.'",
+    "aiDiagnosisOutput": "Vehicle Allocation: 8-Ton Closed Truck with Tail-Lift. Crew: 4 Movers + Driver. Estimated Load Time: 2.5 hours. Escrow Quote: R4,200.",
+    "escrowGuarantee": "Escrow funds are released only after destination offloading, assembly, and inspection sign-off.",
+    "pirbStandard": "PMAA & RFA Compliant — Road Freight Association accredited carriers with goods-in-transit insurance.",
+    "articleSections": [
+      {
+        "heading": "Pre-Move Packing & Wrapping Protocol",
+        "body": "Proper preparation prevents transit damage. Professional movers blanket-wrap polished wood surfaces, shrink-wrap upholstered sofas, and secure appliance doors before lifting."
+      },
+      {
+        "heading": "Navigating Complex Property Access",
+        "body": "High-density residential estates often restrict truck tonnage. Bouul logistics coordinators confirm estate gate clearances and shuttle requirements prior to move day."
+      }
+    ]
+  },
+  {
+    "id": "removal_office_relocation",
+    "tag": "Office Moving",
+    "title": "Commercial Office & Server Relocation",
+    "subtitle": "Minimal downtime office moves with labelled crate systems and IT equipment handling",
+    "image": "/scenes/office_cleaning.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Business disruption during an office move costs thousands in lost productive hours",
+    "problemBody": "Disorganized office moves lead to lost files, damaged computer monitors, and Monday morning network downtime.",
+    "bouulSolution": [
+      "Phased weekend moving schedules to ensure zero weekday business interruption",
+      "Pre-labelled plastic crate hire system for individual workstation packing",
+      "Dedicated anti-static wrapping for server racks and monitors"
+    ],
+    "partsNeeded": [
+      "Numbered security-sealed plastic crates",
+      "Anti-static bubble wrap for IT gear",
+      "Desktop computer transit totes",
+      "Hydraulic furniture skates"
+    ],
+    "guidePricing": "R5,000 – R18,000",
+    "timeline": "Duration: 1 – 2 Days",
+    "aiPromptExample": "Upload floor plan and desk count: 'Relocating 25 workstations and 1 server rack this Saturday.'",
+    "aiDiagnosisOutput": "Requirement: 2x 8-Ton Enclosed Trucks, 8 Movers, 75 Labeled Crates. Timeline: Saturday 08:00 to 17:00. Escrow Quote: R12,500.",
+    "escrowGuarantee": "Escrow released once all crates and IT gear are placed at assigned desks per floor plan.",
+    "pirbStandard": "RFA Commercial Moving Standards & ISO 9001 Quality Certified Logistics.",
+    "articleSections": [
+      {
+        "heading": "Workstation Labeling & Color-Coding",
+        "body": "Every desk, monitor, and crate is color-coded by department so movers unload directly into the correct office zone."
+      },
+      {
+        "heading": "Server & Sensitive Equipment Protocol",
+        "body": "Servers are dismounted by qualified technicians, wrapped in ESD protective sleeves, and transported in air-ride vehicles."
+      }
+    ]
+  },
+  {
+    "id": "removal_interstate_move",
+    "tag": "Long Distance",
+    "title": "Inter-Province Long Distance Moving",
+    "subtitle": "Shared container or dedicated long-distance truck moves across South Africa",
+    "image": "/scenes/furniture_delivery.png",
+    "readTime": "5 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Long-distance transit risks severe vibration damage and unpredictable delivery dates",
+    "problemBody": "Unlicensed long-haul transporters frequently share loads uninspected, leading to lost furniture or week-long delays.",
+    "bouulSolution": [
+      "GPS live tracking on all inter-city transport runs between Gauteng, KZN, and Western Cape",
+      "Full Goods-In-Transit insurance coverage up to R500,000 per load",
+      "Guaranteed 48-hour delivery window between major metros"
+    ],
+    "partsNeeded": [
+      "Heavy duty export-grade bubble wrap",
+      "Custom wooden crating for artwork & glass",
+      "Logistics tie-down tracks",
+      "GPS satellite tracker"
+    ],
+    "guidePricing": "R8,500 – R25,000",
+    "timeline": "Duration: 2 – 4 Days",
+    "aiPromptExample": "Select inter-city move: 'Moving from Johannesburg to Cape Town, 3-bedroom townhouse full load.'",
+    "aiDiagnosisOutput": "Route: JHB to CPT (N1 Corridor). Vehicle: 12-Ton Dedicated Pantech. Transit Time: 36 Hours. Escrow Quote: R16,500.",
+    "escrowGuarantee": "Escrow payment released 24 hours after destination delivery and inventory cross-check.",
+    "pirbStandard": "National Bargaining Council for the Road Freight & Logistics Industry (NBCRFLI) Certified.",
+    "articleSections": [
+      {
+        "heading": "Inter-City Route Safety & GPS Tracking",
+        "body": "Long-haul vehicles are monitored 24/7 via satellite telemetry, providing real-time ETA updates throughout the N1/N3 transit corridors."
+      },
+      {
+        "heading": "Inventory Documentation",
+        "body": "A detailed itemized inventory condition report is signed at loading and verified upon arrival."
+      }
+    ]
+  },
+  {
+    "id": "removal_packing_service",
+    "tag": "Packing Service",
+    "title": "Professional Packing & Unpacking Service",
+    "subtitle": "Full-service packing of glassware, crockery, clothing, and fragile decor",
+    "image": "/scenes/house_cleaning.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Packing a full household takes weeks of evening effort and creates endless packing box clutter",
+    "problemBody": "Improperly packed boxes lead to crushed china, leaking liquids, and broken heirloom glassware during transit.",
+    "bouulSolution": [
+      "Professional packers arrive 1 day prior with double-walled corrugated boxes and tissue paper",
+      "Specialized dish-pack cartons with cellular dividers for wine glasses and porcelain",
+      "Complete unboxing and surface placement at the destination"
+    ],
+    "partsNeeded": [
+      "Double-walled corrugated boxes (Small, Med, Large)",
+      "Cellular dish & glass dividers",
+      "Acid-free wrapping tissue paper",
+      "Heavy-duty acrylic tape"
+    ],
+    "guidePricing": "R1,200 – R3,800",
+    "timeline": "Duration: 3 – 6 Hours",
+    "aiPromptExample": "Request packing service: 'Need full kitchen and breakables packed for a 4-bedroom home.'",
+    "aiDiagnosisOutput": "Materials: 40 Box Bundle + 5 Roll Bubble Wrap + Tissue. Crew: 2 Specialized Packers. Escrow Quote: R2,400.",
+    "escrowGuarantee": "Escrow released upon completion of packing and box labeling.",
+    "pirbStandard": "Bouul Verified Packing Standard — Fragile Item Zero-Breakage Guarantee.",
+    "articleSections": [
+      {
+        "heading": "Fragile Glassware Cushioning Technique",
+        "body": "Plates are packed vertically on edge with bottom cushioning, while stemware is wrapped individually in acid-free tissue."
+      },
+      {
+        "heading": "Wardrobe Box Systems",
+        "body": "Hanging clothes are transferred directly from closet rails into upright wardrobe cartons without folding."
+      }
+    ]
+  },
+  {
+    "id": "removal_single_item",
+    "tag": "Single Item Transport",
+    "title": "Heavy & Single Item Appliance Moving",
+    "subtitle": "Safe transport for pianos, heavy double-door fridges, safes, and marble tables",
+    "image": "/scenes/appliances.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Lifting heavy appliances without specialized equipment leads to spinal injury and scratched floors",
+    "problemBody": "Standard delivery drivers lack the stair-climbers and rigging straps needed to move 200kg safes or pianos.",
+    "bouulSolution": [
+      "Specialized rigging teams equipped with stair-climbing dollies and crane straps",
+      "Protective floor runner mats to prevent tile or hardwood scratching",
+      "Escrow protection covering item value up to delivery"
+    ],
+    "partsNeeded": [
+      "Stair-climbing motorized hand truck",
+      "Heavy-duty lifting straps & harness",
+      "Neoprene floor runner mats",
+      "Padded piano covers"
+    ],
+    "guidePricing": "R650 – R1,800",
+    "timeline": "Duration: 1 – 2 Hours",
+    "aiPromptExample": "Request heavy item move: 'Move a 180kg double door fridge up 2 flights of stairs in Sandton.'",
+    "aiDiagnosisOutput": "Equipment Required: Motorized Stair Climber + 2 Riggers. Transit: Local 12km. Escrow Quote: R1,100.",
+    "escrowGuarantee": "Escrow released after item is positioned, leveled, and inspected for scratches.",
+    "pirbStandard": "SABS Mechanical Lifting & Safety Standard Compliant.",
+    "articleSections": [
+      {
+        "heading": "Motorized Stair Climbing Technology",
+        "body": "Heavy fridges and safes are safely navigated up narrow staircases using rubber-tracked motorized stair climbers."
+      },
+      {
+        "heading": "Floor & Door Frame Protection",
+        "body": "Door frames are padded with neoprene guards to prevent scuffs during tight maneuvers."
+      }
+    ]
+  },
+  {
+    "id": "removal_hoist_balcony",
+    "tag": "Balcony Hoisting",
+    "title": "High-Rise Balcony & Crane Furniture Hoisting",
+    "subtitle": "External balcony hoisting for large sofas and dining tables that fit in elevators",
+    "image": "/scenes/builders.png",
+    "readTime": "4 min read",
+    "author": "Bouul Logistics Team",
+    "problemHeadline": "Modern apartment elevators and stairwells are often too narrow for oversized designer sofas",
+    "problemBody": "Forcing large furniture around tight stairwell bends causes ripped leather, gouged drywall, and stuck furniture.",
+    "bouulSolution": [
+      "Certified outdoor rigging and electric ladder hoist equipment for high-rise balconies",
+      "Fully insured external lifting up to 10 stories high",
+      "Experienced rigging marshals ensuring zero balcony railing damage"
+    ],
+    "partsNeeded": [
+      "Electric ladder lift / furniture hoist",
+      "High-tensile rigging straps",
+      "Edge & balcony railing padded bumpers",
+      "Tag lines for wind control"
+    ],
+    "guidePricing": "R1,800 – R4,500",
+    "timeline": "Duration: 2 – 3 Hours",
+    "aiPromptExample": "Request balcony lift: '3-seater L-shape sofa doesn't fit elevator, need balcony hoist to 4th floor.'",
+    "aiDiagnosisOutput": "Equipment: 18m Electric Ladder Hoist + 3 Rigging Technicians. Escrow Quote: R2,800.",
+    "escrowGuarantee": "Escrow released after sofa is safely guided onto balcony and placed inside living room.",
+    "pirbStandard": "Department of Labour Rigging & Lifting Equipment Regulations (DME) Certified.",
+    "articleSections": [
+      {
+        "heading": "Balcony Railing Protection & Anchoring",
+        "body": "Heavy-duty foam bumpers protect glass or steel balcony railings, while dual tag lines stabilize the load against wind gusts."
+      },
+      {
+        "heading": "Safety Perimeter Setup",
+        "body": "Ground personnel establish a 5-meter safety drop zone directly beneath the hoist area."
+      }
+    ]
+  }
+]

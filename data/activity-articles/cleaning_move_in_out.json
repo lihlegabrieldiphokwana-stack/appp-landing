@@ -1,0 +1,278 @@
+[
+  {
+    "id": "end_of_lease_cleaning",
+    "tag": "Move-In/Out Cleaning",
+    "title": "End of Lease Cleaning",
+    "subtitle": "Meet your landlord's inspection standard and secure your full deposit return",
+    "image": "/scenes/cleaning_end_of_lease.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Landlord inspections routinely find cleaning issues that cost tenants their deposits",
+    "problemBody": "The Rental Housing Act of South Africa and most lease agreements require the property to be returned in the same condition as at the start of the lease, minus reasonable wear and tear. The most common reason for deposit deductions — accounting for over 60% of disputed deductions according to the Rental Housing Tribunal — is inadequate cleaning. Landlords and managing agents inspect with a critical eye: oven interiors, window tracks, behind appliances, light fittings, and under sinks are all checked. Standard tenant cleaning almost always misses these areas, leading to deductions of R 500–R 3,000 or more.",
+    "bouulSolution": [
+      "Full property clean to the standard of a professional rental inspection: every room, every surface, every crevice",
+      "Oven, hob and extractor fan deep cleaned; fridge defrosted and cleaned; all windows cleaned inside and out",
+      "Final walk-through with checklist, photographic evidence of completion provided for your records"
+    ],
+    "partsNeeded": [
+      "Complete cleaning kit (all surfaces, all rooms)",
+      "Oven and hob cleaning chemicals",
+      "Window cleaning kit with squeegee",
+      "Inspection-grade checklist shared with tenant and agent"
+    ],
+    "guidePricing": "R 800 – R 2,500 (studio apartment to 4-bedroom house)",
+    "timeline": "3–8 hours depending on property size and condition",
+    "aiPromptExample": "\"Describe an end-of-lease cleaning service for a 2-bedroom apartment in South Africa, covering all inspection checkpoints required for full deposit return.\"",
+    "aiDiagnosisOutput": "\"Oven and hob have 6 months of accumulated grease and carbon deposits. Window tracks contain compacted dirt. Bathroom grout shows mould on shower tiles. Carpet has traffic lane soiling and two visible stains. Recommended: full deep clean with oven focus, anti-mould bathroom treatment, carpet stain spot treatment, and photographic documentation for deposit claim.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when you confirm the clean meets rental inspection standard, or we re-clean for free",
+    "pirbStandard": "SANS 10232-1 carpet cleaning; SANS 1828:2018 chemical usage; HASA rental property cleaning standard; Rental Housing Act compliance",
+    "articleSections": [
+      {
+        "heading": "What Landlords Check",
+        "body": "Property managers and landlords have a standard inspection checklist. The kitchen receives the closest scrutiny: oven interior and glass, hob and extractor fan cleanliness, fridge interior, cabinet interiors and doors, sink condition, and the absence of grease on walls near the cooking area. Bathrooms: mould-free grout and silicone, clean toilet bowl and exterior, spotless mirrors and glass, limescale-free taps and showerheads. Living areas: clean walls (marks erased), spotless light switches and door handles, clean windows inside and out, dust-free light fittings. Carpet condition is assessed for stains and soiling. Our service covers every point."
+      },
+      {
+        "heading": "The Deposit Protection Guarantee",
+        "body": "Our end-of-lease cleaning comes with a deposit protection guarantee. If your landlord identifies any cleaning deficiency that we did not address, we return to fix it at no charge within 48 hours. We also provide a photographic report of the cleaning completion that you can submit with your lease exit documentation and deposit return request. This photographic evidence has been instrumental in resolving deposit disputes at the Rental Housing Tribunal, where the burden of proof lies with the party claiming the deduction."
+      },
+      {
+        "heading": "Move-Out Timeline Planning",
+        "body": "Planning your end-of-lease cleaning around the exit timeline is important. Most lease agreements require the property to be vacated by 10:00 or 12:00 on the last day of the lease. We recommend scheduling the cleaning for the day before your move-out, after most belongings have been removed but before the final small items are packed. This allows the cleaning team full access to every room. If you need cleaning after all furniture is removed, that is ideal — we can access behind beds, wardrobes and appliances. The Bouul app helps you schedule the cleaning date based on your lease dates."
+      },
+      {
+        "heading": "Ingoing vs Outgoing Standard",
+        "body": "South African lease agreements require the property to be returned in the same condition as at the start. Our cleaning standard matches the condition report prepared at lease commencement. If you don't have the original condition report, we clean to a professional 'better than professional' standard — the same level a hotel would prepare a room for a new guest. This includes treating any new marks or damage that occurred during your tenancy (within the scope of cleaning, not structural repair) and ensuring that every surface is restored to its original appearance."
+      }
+    ]
+  },
+  {
+    "id": "pre_move_in_cleaning",
+    "tag": "Move-In/Out Cleaning",
+    "title": "Pre-Move-In Cleaning",
+    "subtitle": "Start fresh in a professionally cleaned home before your furniture arrives",
+    "image": "/scenes/cleaning_pre_move_in.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "A new home is never as clean as it appears — previous occupants leave hidden dirt and allergens",
+    "problemBody": "When a new tenant or homeowner receives the keys, the property may look reasonably clean, but hidden dirt remains. The previous occupants' dust mites, pet dander, cooking grease, mould spores and tracked-in soil are embedded in carpets, trapped in window tracks, and settled on top of cabinets and inside cupboards. In South Africa, where many rental properties are cleaned only to a superficial standard between tenants, the new occupant inherits months or years of accumulated allergens. Moving furniture into a home that hasn't been professionally cleaned means you seal in that old dirt under your belongings, where it will remain for years.",
+    "bouulSolution": [
+      "Complete property clean before any furniture arrives, ensuring every surface is hygienically clean",
+      "Cabinets and cupboards wiped inside and out, ready for your belongings without cross-contamination",
+      "Floors deep cleaned: carpets steam extracted, hard floors scrubbed and sealed if needed"
+    ],
+    "partsNeeded": [
+      "Comprehensive cleaning chemical kit (room-specific products)",
+      "Carpet steam extraction unit",
+      "Hard floor scrubber for tiles and vinyl",
+      "Cabinet and cupboard interior sanitiser"
+    ],
+    "guidePricing": "R 700 – R 2,200 (studio to 4-bedroom house)",
+    "timeline": "3–7 hours depending on property size",
+    "aiPromptExample": "\"Describe a pre-move-in cleaning service for a 3-bedroom house in South Africa, focusing on eliminating previous occupant allergens and preparing the home for new furniture.\"",
+    "aiDiagnosisOutput": "\"Pet dander present on all soft surfaces (carpets, curtains). Previous occupant's cooking grease on kitchen walls and cabinet fronts. Dust mite residue in bedroom carpets. Toilet and bathroom have biofilm buildup. Recommended: full-property deep clean including carpet steam extraction, kitchen degreasing, bathroom anti-mould treatment, and HEPA vacuum of all surfaces.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released after you complete a walkthrough confirming the home is move-in ready",
+    "pirbStandard": "SANS 10232-1 (carpet cleaning); SANS 1828:2018 (chemical safety); HASA move-in cleaning standard",
+    "articleSections": [
+      {
+        "heading": "The Hidden Tenant Legacy",
+        "body": "Every previous occupant leaves behind what cleaning professionals call the 'tenant legacy' — the accumulated biological and chemical residues of their stay. This includes skin cells (human and pet), cooking grease aerosols that have settled on walls and ceilings, mould spores from showers and cooking, cleaning product residues from the previous occupant's products, and tracked-in soil from outdoor environments. In properties that have been occupied for years, this legacy can include residues from multiple occupants layered over each other. Our pre-move-in clean is designed to strip this legacy completely and reset the property to a hygienic baseline."
+      },
+      {
+        "heading": "Before Furniture Arrives",
+        "body": "The critical advantage of pre-move-in cleaning is that it happens before any furniture is in place. This allows our team to: clean behind every wall and into every corner; move freely between rooms without navigating boxes and furniture; clean every wall surface without obstruction; professionally clean all floors (carpet extraction and hard floor treatment) without furniture in the way; and treat every inside surface of every cabinet and cupboard. Once furniture is moved in, up to 40% of the floor area becomes inaccessible for cleaning. The Bouul app helps you coordinate the cleaning schedule with your moving date."
+      },
+      {
+        "heading": "Cabinet and Cupboard Preparation",
+        "body": "Kitchen cabinets, bathroom vanity units and bedroom wardrobes are cleaned inside and out before your belongings go in. All shelves are removed, washed with a food-safe disinfectant, dried and replaced. Drawer interiors are vacuumed and wiped. The undersink area in the kitchen — often a source of odours from previous leaky plumbing — is cleaned and checked for mould. All cupboard handles and hinges are wiped. This ensures that your dishes, clothes and toiletries go into a clean, sanitised environment rather than sitting on the previous occupant's grime."
+      },
+      {
+        "heading": "Floor Preparation for New Furniture",
+        "body": "Floors receive particular attention in a pre-move-in clean. Carpets are steam extracted with hot water extraction, removing all embedded soil and allergens, and dried completely before any furniture is placed. Hard floors are mopped with a floor-type-specific cleaner, and for tiled floors, we also clean the grout lines. In many cases, we recommend a floor sealant application for porous surfaces like grout, unsealed timber and concrete, which protects the floor from future staining under furniture and creates a barrier that makes future cleaning easier."
+      }
+    ]
+  },
+  {
+    "id": "oven_and_hob_move_cleaning",
+    "tag": "Move-In/Out Cleaning",
+    "title": "Oven and Hob Move Cleaning",
+    "subtitle": "Professional oven and hob cleaning included in your move-in or move-out service",
+    "image": "/scenes/cleaning_oven_move.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "The oven is the single most common cause of deposit deductions for departing tenants",
+    "problemBody": "Rental property condition reports almost always note oven cleanliness separately, and it is the item most frequently cited in deposit dispute adjudications by the Rental Housing Tribunal. A dirty oven interior, carbonised food on the hob, or a greasy extractor fan are immediate triggers for deductions. For incoming tenants, a dirty oven means cooking meals in an appliance that still contains the previous occupant's burnt food residue and grease — unhygienic and unpleasant. In South Africa, where ovens feature prominently in cooking culture (roasts, baked bread, oven-baked braai sides), oven condition is a sensitive point for both landlords and tenants.",
+    "bouulSolution": [
+      "Oven interior fully cleaned: all racks soaked and scrubbed, interior degreased, glass door cleaned inside and out",
+      "Hob disassembled and cleaned: gas burners, ceramic hob, or solid plates individually treated",
+      "Extractor fan disassembled, filter degreased, fan blades cleaned, housing wiped"
+    ],
+    "partsNeeded": [
+      "Non-caustic oven cleaning gel",
+      "Extractor fan degreaser",
+      "Ceramic hob scraper and polish",
+      "Stainless steel cleaner and polish"
+    ],
+    "guidePricing": "R 200 – R 450 (single oven to double oven with hob)",
+    "timeline": "45–90 minutes",
+    "aiPromptExample": "\"Describe an oven and hob cleaning as part of a move-in/move-out service for a South African kitchen, including extractor fan degreasing and gas burner cleaning.\"",
+    "aiDiagnosisOutput": "\"Oven interior has carbonised food on bottom surface and rear wall. Oven door glass has grease film between panes. Gas hob burners have partially clogged ports from fat. Extractor fan filter is saturated with grease. Recommended: non-caustic gel soak for oven, burner cap degreasing, filter soak in hot alkaline solution, final test of all burners.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when oven interior, hob and extractor are residue-free and all burners function correctly",
+    "pirbStandard": "SANS 1828:2018 chemical safety; SANS 10106 gas appliance safety; HASA kitchen appliance cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "Why Ovens Get Dirty So Fast",
+        "body": "Every oven use creates what cleaners call 'oven soil' — a combination of food splatter, grease vapour and carbonised residue. When food is cooked, grease vapourises and condenses on the cooler oven walls and door glass. The next time the oven is preheated, this residue bakes onto the surface, becoming progressively harder to remove. After six months of regular use, most ovens have a 2–4mm layer of carbonised residue that affects heat transfer and creates smoke during preheating. Our oven cleaning gel chemically breaks down this polymerised carbon, restoring the oven to like-new condition."
+      },
+      {
+        "heading": "Extractor Fan: The Fire Risk",
+        "body": "The extractor fan filter is designed to trap grease before it enters the ductwork. When the filter becomes saturated with grease, it not only stops functioning effectively but becomes a significant fire hazard. A grease-saturated filter can ignite if the hob flame flares up or if the grill is used directly below it. Our cleaning includes removing the filter, soaking it in a hot alkaline degreasing solution (minimum 20 minutes), scrubbing with a stiff brush, rinsing and drying. The fan blades inside the housing are also cleaned of grease buildup that can cause imbalance and noise."
+      },
+      {
+        "heading": "Move-In vs Move-Out Oven Standard",
+        "body": "For move-out cleaning, the oven must be returned to the condition documented in the ingoing inspection report. If the oven was professionally cleaned or new at lease start, our standard is to return it to that same condition. For move-in cleaning, we clean the oven to a hygienic standard suitable for immediate use — all visible carbonised residue removed, all surfaces disinfected, and the oven ready for cooking. If the oven is beyond the scope of cleaning (damaged enamel, non-functional parts), we document this with photographs for your records."
+      },
+      {
+        "heading": "Hob and Burner Restoration",
+        "body": "Different hob types require different cleaning methods. Gas hobs have burners that need disassembly for thorough cleaning — the burner caps, rings and bases all collect fat and food debris. Ceramic hobs need a specialised scraper for burnt-on spills, followed by a dedicated ceramic polish. Electric solid plates are cleaned with a non-abrasive cleaner to avoid scratching the surface. After cleaning, we reassemble all components, test each burner or plate, and ensure the hob is fully functional. For move-out, this functional test provides evidence that the appliance is in working order."
+      }
+    ]
+  },
+  {
+    "id": "carpet_steam_move_cleaning",
+    "tag": "Move-In/Out Cleaning",
+    "title": "Carpet Steam Cleaning for Moving",
+    "subtitle": "Professional carpet extraction removes all traces of previous occupancy",
+    "image": "/scenes/cleaning_carpet_move.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Carpets absorb the history of every occupant — spills, dander, dust mites and odours",
+    "problemBody": "Carpets are the largest soft surface in any home and the most absorbent. Every spill, every pet accident, every item of tracked-in soil, and every occupant's skin cells become part of the carpet's history. When moving out, the standard vacuum and spot-clean approach rarely satisfies a landlord's inspection. When moving in, the new occupant deserves carpets that don't contain the previous family's allergens and odours. In South Africa, where carpet is common in bedrooms and living areas across both rental and owned properties, the condition of the carpet at move time is a major factor in both deposit return and new-home satisfaction.",
+    "bouulSolution": [
+      "Full hot water extraction of all carpeted areas: injection, dwell, extraction, repeat — removes 95%+ of contaminants",
+      "Pre-treatment of traffic lanes and visible stains with appropriate spotting agents",
+      "Accelerated drying with air movers, ensuring carpets are dry before furniture is placed"
+    ],
+    "partsNeeded": [
+      "Hot water extraction unit (truck-mounted for best results)",
+      "Carpet pre-spray and stain removers",
+      "Traffic lane pre-treatment solution",
+      "High-velocity air movers and dehumidifier"
+    ],
+    "guidePricing": "R 100 – R 160 per square metre (minimum R 400)",
+    "timeline": "Drying time 4–6 hours with air movers",
+    "diPromptExample": "\"Describe a carpet steam cleaning service for a move-out of a 2-bedroom apartment in South Africa, focusing on stain removal and meeting rental inspection standards.\"",
+    "aiDiagnosisOutput": "\"Traffic lane compaction in main corridor and bedroom paths. Two visible stains in living room (tannin-based, likely red wine). Overall carpet soiling from 12-month tenancy. Recommended: full hot water extraction with traffic lane pre-treatment, tannin-specific stain remover, and accelerated drying before final inspection.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when carpets pass a white towel blot test and are dry within 6 hours",
+    "pirbStandard": "SANS 10232-1 (hot water extraction standard); IICRC S100; HASA move-in/move-out protocol",
+    "articleSections": [
+      {
+        "heading": "Move-Out Carpet Expectations",
+        "body": "Landlord inspections assess carpet condition against the ingoing condition report. Normal soiling from 12 months of occupancy is expected and considered fair wear and tear. What triggers a deduction is: visible stains that were not present at lease start, traffic lanes that show significant compaction, odour issues (pet, smoke, mould), and soiling in corners or under furniture where the tenant should have cleaned. Our move-out carpet cleaning addresses all these factors, restoring the carpet to a condition consistent with 12 months of normal wear — the legal standard for deposit return under the Rental Housing Act."
+      },
+      {
+        "heading": "Move-In Carpet Hygiene",
+        "body": "For incoming occupants, carpet hygiene is about more than appearances. The previous occupant's dust mites, pet dander, skin cells and bacteria are embedded in the carpet fibres. For allergy and asthma sufferers, moving into a carpeted home without professional cleaning means immediately exposing yourself to these allergens. Our hot water extraction process injects cleaning solution at high pressure into the carpet pile, agitates the fibres, and extracts the contaminated solution — removing 95–98% of biological contaminants. The result is a carpet that is hygienically clean, not just visually clean."
+      },
+      {
+        "heading": "The Extraction Process",
+        "body": "Professional hot water extraction is a multi-step process. First, the carpet is thoroughly vacuumed to remove dry soil. A pre-spray solution is applied to the entire carpet and left to dwell for 10–15 minutes — this breaks the bond between soil and fibre. High-traffic lanes receive a second application. The extraction machine then injects hot water (85–120°C at the cleaning head) into the carpet fibres and immediately vacuum-extracts it, along with the dissolved soil. Multiple rinse passes ensure no detergent residue remains. The result is a carpet that is clean, residue-free and drying."
+      },
+      {
+        "heading": "Drying Before Furniture",
+        "body": "Carpets must be fully dry before furniture is placed on them to prevent mould growth under the furniture and colour bleeding from furniture feet. Our accelerated drying setup includes: high-velocity air movers directed at the carpet surface, dehumidifiers to extract moisture from the air (especially important in coastal areas), and opening windows to encourage air circulation. In the Highveld's dry climate, carpets dry in 3–4 hours; in coastal areas, 5–6 hours. We provide a drying time estimate for your specific location and check the carpet with a moisture meter before declaring it dry."
+      }
+    ]
+  },
+  {
+    "id": "window_wash_move_cleaning",
+    "tag": "Move-In/Out Cleaning",
+    "title": "Window Washing for Moving",
+    "subtitle": "Crystal-clear windows inside and out — a non-negotiable for move-in satisfaction and deposit returns",
+    "image": "/scenes/cleaning_window_move.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dirty windows are an immediate visual red flag for landlords and new occupants alike",
+    "problemBody": "Windows are one of the first things people notice when entering a home, and dirty windows are an instant indicator of poor maintenance. For move-out inspections, landlords and property managers check windows carefully — interior glass cleanliness, frame condition, sill cleanliness and track debris are all on the standard checklist. For new occupants, moving into a home with clean, streak-free windows transforms the feel of the space and lets in maximum natural light. In South Africa, where many homes have large aluminium sliding windows and glass doors opening onto outdoor areas, window cleanliness significantly impacts the overall impression of a property.",
+    "bouulSolution": [
+      "All windows cleaned inside and out: glass, frames, sills and tracks included",
+      "Professional squeegee technique for streak-free glass on all window types",
+      "Sliding door glass cleaned on both sides, tracks cleared and frames wiped"
+    ],
+    "partsNeeded": [
+      "Professional squeegee and channel for streak-free finish",
+      "Window cleaning solution (SABS-approved, ammonia-free)",
+      "Microfiber cloths for frames and sills",
+      "Track cleaning brush and degreaser"
+    ],
+    "guidePricing": "R 200 – R 500 (windows for a 2-bedroom to 4-bedroom home, interior and exterior)",
+    "timeline": "45–90 minutes depending on number and size of windows",
+    "aiPromptExample": "\"Describe a window washing service for a move-out of a 3-bedroom house in South Africa, including track cleaning, frame wiping and streak-free glass.\"",
+    "aiDiagnosisOutput": "\"Windows show general dust and grime on glass surfaces. Track dirt accumulated at sill level. Frames have mineral deposits from hard water. Sliding door glass has handprints at opening height. Recommended: full wash with squeegee technique, track degreasing and cleaning, aluminium frame drying to prevent water spots, and final polish.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all glass is streak-free, tracks are clean and frames are spotless",
+    "pirbStandard": "HASA window cleaning standard; SANS 10400 window performance; professional squeegee technique for streak-free finish",
+    "articleSections": [
+      {
+        "heading": "The Squeegee Technique",
+        "body": "Professional window cleaning uses a squeegee, not paper towels or cloth. The technique: apply cleaning solution with a wet applicator (T-bar or sponge), then immediately pull the squeegee across the glass in a smooth, overlapping stroke. Start at the top and pull down, wiping the squeegee blade with a clean cloth between each stroke. The key to a streak-free finish is a sharp, clean squeegee blade and the correct solution-to-water ratio. Our technicians carry spare squeegee blades and adjust the solution concentration based on the water hardness in your area — harder water (common in Gauteng) requires more rinsing to prevent mineral spots."
+      },
+      {
+        "heading": "Window Types and Approaches",
+        "body": "Different window types require different cleaning approaches. Aluminium sliding windows: the sliding pane is removed (where possible) to access the track and the outer surface of the stationary pane. Hinged casement windows: both sides accessible from inside for most installations. Fixed panes: exterior access via ladder or extendable pole. Skylights: extendable pole with angled squeegee adapter. French doors: large glass panes cleaned with wide squeegee in vertical passes. Our team carries a range of tools for each window type and inspects each window before choosing the approach."
+      },
+      {
+        "heading": "Frame and Sill Restoration",
+        "body": "While the glass is the visible focus of window cleaning, the frames and sills must receive equal attention for a move-in or move-out standard. Aluminium frames are washed with a mild detergent to remove dust and atmospheric pollution, dried with a chamois to prevent water spots, and for coastal homes, treated with a protectant. The window sill — a horizontal surface that collects dust, pollen and dead insects — is scrubbed clean. The sill drain holes (weep holes) are cleared of debris to ensure proper water drainage. Any mould found on sills or frames is treated with an anti-mould solution."
+      },
+      {
+        "heading": "Integrated Window and Track Service",
+        "body": "When booked as part of a move-in or move-out package, window cleaning is performed alongside track cleaning and frame maintenance as a single integrated service. The window tracks are cleaned before the glass — debris from the track could otherwise fall onto freshly cleaned glass. The glass is then cleaned, the frames are wiped, and the entire window unit is inspected. Any issues — broken seals (condensation between panes), cracked glass, faulty locks — are documented with photographs. This documentation is valuable for both deposit disputes (move-out) and for establishing the condition at the start of a new tenancy (move-in)."
+      }
+    ]
+  },
+  {
+    "id": "garden_and_outdoor_tidy",
+    "tag": "Move-In/Out Cleaning",
+    "title": "Garden and Outdoor Area Tidy",
+    "subtitle": "Leave or receive a property with outdoor spaces as clean as the interior",
+    "image": "/scenes/cleaning_garden_tidy.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Neglected gardens and outdoor areas are frequently cited in deposit disputes",
+    "problemBody": "Many South African lease agreements include garden maintenance as a tenant responsibility. Overgrown lawns, filled flower beds, piles of leaves, weeds in paving cracks, and accumulated debris on patios and balconies are common grounds for deposit deductions. For incoming occupants, a neglected outdoor area — filled with the previous occupant's plant pots, garden waste and rubbish — creates a poor first impression and additional work before you can enjoy the space. The garden and outdoor areas are part of the property's condition report and should receive the same standard of care as the interior.",
+    "bouulSolution": [
+      "Lawn mowing, edging and weeding of garden beds and paving",
+      "Patio, balcony and driveway sweeping and hosing",
+      "Rubbish removal: old plant pots, garden waste, outdoor debris and general refuse cleared"
+    ],
+    "partsNeeded": [
+      "Lawnmower, edge trimmer, leaf blower",
+      "Rake, broom and garden waste bags",
+      "Weed removal tools",
+      "Pressure washers for paved areas (if included)"
+    ],
+    "guidePricing": "R 300 – R 800 depending on garden size and condition",
+    "timeline": "1–3 hours for a standard suburban garden",
+    "aiPromptExample": "\"Describe a garden tidy service for a move-out of a house with a 200m² garden in South Africa, including lawn care, weeding and patio cleaning.\"",
+    "aiDiagnosisOutput": "\"Lawn overgrown (estimated 4 weeks since last cut). Weeds in flower beds and paving cracks. Leaves accumulated in garden corners. Patio has moss growth in shaded areas. Recommended: full mow and edge, weeding of beds and paving, leaf removal, patio pressure wash, and final inspection documentation.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when outdoor areas match the condition report standard and rubbish is removed",
+    "pirbStandard": "HASA outdoor property maintenance standard; garden maintenance as per lease agreement terms",
+    "articleSections": [
+      {
+        "heading": "Garden Maintenance in SA Leases",
+        "body": "Most South African lease agreements for houses with gardens include a garden maintenance clause. Typically, the tenant is responsible for regular mowing, weeding and keeping the garden tidy. The standard of return is the garden in the same condition as at lease inception, adjusted for normal seasonal growth. A garden that has been neglected — overgrown lawn, weed infestation, accumulated leaf litter — can attract deductions of R 500–R 2,000, depending on the extent of restoration required. Our garden tidy service ensures that the outdoor areas meet the agreed condition report standard."
+      },
+      {
+        "heading": "Lawn and Bed Care",
+        "body": "Lawn care is the most visible aspect of garden maintenance. Our service includes: mowing to the standard height (approximately 40mm for kikuyu, 30mm for LM grass), trimming edges along pathways, driveways, flower beds and fences, and removing grass clippings. Garden beds are weeded of visible weeds, and the soil surface is raked level. Flowering plants are deadheaded where appropriate. Any garden beds that have become overgrown are trimmed back. Fallen leaves are collected and bagged for disposal. The result is a garden that looks well-maintained and cared for."
+      },
+      {
+        "heading": "Patio and Hard Surface Cleaning",
+        "body": "Outdoor living areas — patios, balconies, driveways, pathways — are swept and cleaned. Patio tiles or concrete are swept of debris and, if stained or mossy, pressure washed (included in the premium garden tidy package). Outdoor furniture is wiped down. Braai areas have ash removed and the braai grid cleaned. The driveway is swept of gravel, leaves and dirt. Balconies in apartments are swept and the balcony railings wiped. Any personal property left by the previous occupant (plant pots, furniture, tools) is documented and noted."
+      },
+      {
+        "heading": "Rubbish Removal and Clearance",
+        "body": "A common issue at move-out is leftover rubbish that the departing occupant did not dispose of. This includes garden waste (trimmings, leaves, dead plants), general refuse (packaging, broken items), and bulky waste (old furniture, broken pots, scrap metal). Our service includes the removal of reasonable amounts of garden waste and general rubbish. For excess waste requiring a skip or multiple trips to the municipal dump, we provide a separate quotation. The property is left with clear outdoor spaces, free of rubbish, debris and unwanted items."
+      }
+    ]
+  }
+]

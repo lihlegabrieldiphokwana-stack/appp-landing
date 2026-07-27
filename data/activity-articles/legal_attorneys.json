@@ -1,0 +1,224 @@
+[
+  {
+    "id": "att_property_conveyancing",
+    "tag": "Conveyancing",
+    "title": "Property Conveyancing & Deed Transfers",
+    "subtitle": "Legal transfer of residential and commercial property ownership",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Property transfer delays cause unexpected holding costs and risk contract cancellation",
+    "problemBody": "Errors in deed documents or municipal clearance delays can stall property transfers for months.",
+    "bouulSolution": [
+      "Admitted Conveyancers handle deed searches, clearance certificates, and Deeds Office lodging",
+      "Transparent line-item fee structure per Law Society tariff guidelines",
+      "Escrow holds professional fees until property transfer is registered at the Deeds Office"
+    ],
+    "partsNeeded": [
+      "Deeds Office search portal",
+      "Rates clearance application forms",
+      "Transfer duty receipt system"
+    ],
+    "guidePricing": "Law Society Tariff Based",
+    "timeline": "Duration: 6 – 10 Weeks",
+    "aiPromptExample": "Book conveyancer: 'Transfer of 3-bedroom house sale in Sandton after offer to purchase signed.'",
+    "aiDiagnosisOutput": "Scope: Draft transfer docs, obtain SARS Transfer Duty & Rates Clearance, lodge at Deeds Office. Escrow: Tariff.",
+    "escrowGuarantee": "Escrow released upon registration confirmation at Deeds Office.",
+    "pirbStandard": "LPC (Legal Practice Council) Admitted Conveyancer.",
+    "articleSections": [
+      {
+        "heading": "SARS & Rates Clearance Expediting",
+        "body": "Conveyancers track municipal rates clearance and SARS transfer duty receipts daily to prevent delays."
+      },
+      {
+        "heading": "Deeds Office Lodgement Tracking",
+        "body": "Real-time updates as your property documents pass through the 3 levels of Deeds Office examination."
+      }
+    ]
+  },
+  {
+    "id": "att_contract_drafting_review",
+    "tag": "Contract Law",
+    "title": "Business Contract Drafting & Legal Review",
+    "subtitle": "Drafting clear, enforceable commercial agreements, NDAs, and SLAs",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Poorly drafted agreements with ambiguous clauses lead to expensive high-court litigation",
+    "problemBody": "Using generic internet contract templates leaves your South African business legally unprotected.",
+    "bouulSolution": [
+      "Admitted attorneys draft customized agreements tailored to SA contract law and POPIA",
+      "Review and redline incoming vendor contracts, lease agreements, and partnership deeds",
+      "Escrow released upon delivery of final executable contract document"
+    ],
+    "partsNeeded": [
+      "Legal precedent database",
+      "POPIA compliance checklist",
+      "Redlining & tracking software"
+    ],
+    "guidePricing": "R1,500 – R6,500",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Request contract drafting: 'Draft Service Level Agreement for IT outsourcing company.'",
+    "aiDiagnosisOutput": "Deliverable: Customized SLA with liability caps, payment terms, and POPIA clauses. Escrow: R3,500.",
+    "escrowGuarantee": "Escrow released after client approves final contract draft.",
+    "pirbStandard": "LPC Registered Attorney & Commercial Law Specialist.",
+    "articleSections": [
+      {
+        "heading": "POPIA Compliance Clause Integration",
+        "body": "Contracts include mandatory Protection of Personal Information Act data processing clauses."
+      },
+      {
+        "heading": "Limitation of Liability Protection",
+        "body": "Enforceable clauses cap your business exposure to direct fees paid, excluding consequential losses."
+      }
+    ]
+  },
+  {
+    "id": "att_family_divorce_law",
+    "tag": "Family Law",
+    "title": "Divorce, Custody & Maintenance Legal Representation",
+    "subtitle": "Compassionate legal guidance for uncontested or contested divorce and child care",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Family legal disputes cause intense emotional stress and financial vulnerability",
+    "problemBody": "Unclear parental maintenance agreements lead to endless post-divorce disputes over school fees.",
+    "bouulSolution": [
+      "Experienced family law attorneys handle divorce mediation, settlement agreements, and parenting plans",
+      "Drafting legally binding Parenting Plans compliant with the Children's Act",
+      "Escrow holds fees per phase of legal representation"
+    ],
+    "partsNeeded": [
+      "High Court / Regional Court filing forms",
+      "Parenting plan template",
+      "Financial disclosure summary"
+    ],
+    "guidePricing": "R4,500 – R25,000",
+    "timeline": "Duration: 2 Weeks – 6 Months",
+    "aiPromptExample": "Request family attorney: 'Draft settlement agreement and parenting plan for uncontested divorce.'",
+    "aiDiagnosisOutput": "Scope: Joint estate division agreement + Children's Act parenting plan + Decree of Divorce. Escrow: R8,500.",
+    "escrowGuarantee": "Escrow released upon court order endorsement.",
+    "pirbStandard": "LPC Registered Attorney & Family Law Practitioner.",
+    "articleSections": [
+      {
+        "heading": "Children's Act Compliance",
+        "body": "Parenting plans prioritize the best interests of the child, defining clear contact schedules."
+      },
+      {
+        "heading": "Mediation-First Approach",
+        "body": "Attorneys strive for mediated settlements to avoid ruinous court litigation costs."
+      }
+    ]
+  },
+  {
+    "id": "att_labor_ccma_disputes",
+    "tag": "Labor Law",
+    "title": "CCMA Representation & Employment Disputes",
+    "subtitle": "Legal defense for unfair dismissal claims, retrenchment, and disciplinary hearings",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Navigating CCMA labor disputes without legal counsel risks heavy financial compensation awards",
+    "problemBody": "Failing to follow strict LRA procedural fairness during disciplinary hearings invalidates dismissals.",
+    "bouulSolution": [
+      "Labor law attorneys represent employers or employees at CCMA conciliation and arbitration",
+      "Drafting compliant employment contracts, retrenchment notices, and workplace policies",
+      "Escrow released after completion of CCMA hearing or settlement sign-off"
+    ],
+    "partsNeeded": [
+      "CCMA Referral forms 7.11 & 7.13",
+      "LRA procedural fairness checklist",
+      "Disciplinary hearing template"
+    ],
+    "guidePricing": "R2,500 – R12,000",
+    "timeline": "Duration: 1 Day – 2 Months",
+    "aiPromptExample": "Book labor attorney: 'Represent employer at CCMA arbitration for alleged unfair dismissal claim.'",
+    "aiDiagnosisOutput": "Scope: Case prep + CCMA arbitration representation + Bundle of documents. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released after arbitration hearing completion.",
+    "pirbStandard": "LPC Registered Labor Attorney & SASLAW Member.",
+    "articleSections": [
+      {
+        "heading": "LRA Procedural & Substantive Fairness",
+        "body": "Attorneys ensure all disciplinary steps strictly satisfy Labour Relations Act guidelines."
+      },
+      {
+        "heading": "CCMA Settlement Negotiation",
+        "body": "Skilled negotiation often settles disputes at conciliation phase, avoiding long arbitration."
+      }
+    ]
+  },
+  {
+    "id": "att_estate_will_drafting",
+    "tag": "Wills & Estates",
+    "title": "Will Drafting & Estate Administration",
+    "subtitle": "Drafting legally valid wills, trust setup, and Deceased Estate administration",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Dying intestate (without a valid will) causes severe family delays and frozen bank accounts",
+    "problemBody": "Invalidly witnessed wills are declared null and void by the Master of the High Court.",
+    "bouulSolution": [
+      "Admitted attorneys draft customized wills, testamentary trusts, and living wills",
+      "Executors handle Master of the High Court estate reporting, liquidation, and distribution accounts",
+      "Escrow released after final executed will delivery"
+    ],
+    "partsNeeded": [
+      "Master of High Court estate forms",
+      "Testamentary trust deed template",
+      "Asset & liability inventory"
+    ],
+    "guidePricing": "R850 – R3,500 (Will) / Tariff (Estate)",
+    "timeline": "Duration: 2 Days (Will) / 6-12 Months (Estate)",
+    "aiPromptExample": "Book will drafting: 'Draft joint will for married couple with minor children and trust clause.'",
+    "aiDiagnosisOutput": "Deliverable: Executed Joint Will + Child Trust Provisions + Asset Schedule. Escrow: R1,800.",
+    "escrowGuarantee": "Escrow released after client receives original signed and witnessed will.",
+    "pirbStandard": "LPC Registered Attorney & Fiduciary Institute Member.",
+    "articleSections": [
+      {
+        "heading": "Testamentary Trust for Minors",
+        "body": "Wills include trust clauses to safeguard inheritance for children until age 21."
+      },
+      {
+        "heading": "Master of High Court Compliance",
+        "body": "Wills are structured to ensure seamless acceptance by the Master without queries."
+      }
+    ]
+  },
+  {
+    "id": "att_litigation_debt_recovery",
+    "tag": "Commercial Litigation",
+    "title": "Commercial Litigation & Debt Recovery",
+    "subtitle": "High Court and Magistrate's Court litigation and commercial debt collection",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Unpaid commercial invoices destroy cash flow and strain small business operations",
+    "problemBody": "Debtors ignoring letters of demand require decisive legal summons action to compel payment.",
+    "bouulSolution": [
+      "Litigation attorneys issue Section 129 notices, letters of demand, and court summonses",
+      "Magistrate's and High Court representation for breach of contract and commercial debt recovery",
+      "Escrow released per litigation phase (Summons, Judgment, Execution)"
+    ],
+    "partsNeeded": [
+      "Letter of Demand templates",
+      "Court Summons & Particulars of Claim",
+      "Writ of Execution forms"
+    ],
+    "guidePricing": "R2,500 – R18,000 per phase",
+    "timeline": "Duration: 1 – 6 Months",
+    "aiPromptExample": "Book debt recovery: 'Recover R145,000 unpaid commercial invoice from corporate client.'",
+    "aiDiagnosisOutput": "Phase 1: Demand letter + Section 129 + Magistrate Court Summons. Escrow: R4,500.",
+    "escrowGuarantee": "Escrow released after completion of phase 1 court filing.",
+    "pirbStandard": "LPC Registered Attorney & Debt Collectors Council Standard.",
+    "articleSections": [
+      {
+        "heading": "Section 129 Demand Notices",
+        "body": "Formal legal demand letters give debtors 10 business days to settle before court summons."
+      },
+      {
+        "heading": "Writ of Execution Enforcement",
+        "body": "Obtaining court warrants allows sheriff attachment of debtor assets to satisfy judgments."
+      }
+    ]
+  }
+]

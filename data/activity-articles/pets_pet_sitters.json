@@ -1,0 +1,278 @@
+[
+  {
+    "id": "sit-001",
+    "tag": "pet-sitting",
+    "title": "Doggy Daycare: Socialisation, Exercise, and Supervision",
+    "subtitle": "When a walk isn't enough — structured daycare for your social butterfly.",
+    "image": "/scenes/sit-daycare.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog has more social energy than your working day can accommodate and your home is paying the price.",
+    "problemBody": "Dogs left alone for 9+ hours daily don't just sleep — they experience peaks of anxiety, boredom, and frustration that manifest as destructive behaviour. SA veterinary behaviourists report that 40% of dogs left alone for extended periods develop separation anxiety-related disorders. Doggy daycare provides structured socialisation with trained supervisors monitoring play groups, enforcing rest periods, and preventing resource guarding or bullying — outcomes far beyond what a mid-day walk achieves.",
+    "bouulSolution": [
+      "Temperament-matched play groups (calm, moderate, high-energy) — your dog plays with dogs at their energy level",
+      "Certified supervisors trained in canine body language — they intervene before play escalates to conflict",
+      "Mandatory rest periods in quiet crates or pens — overstimulated dogs get nap breaks"
+    ],
+    "partsNeeded": [
+      "Collar with ID tag + microchip (R150–R400)",
+      "Daycare bag: food, treats, lead, towel (R100–R300 for bag)",
+      "Sturdy water bowl (R50–R150)",
+      "Comfort item — blanket or toy from home (free)"
+    ],
+    "guidePricing": "R120–R250 per full day (8–10 hours); R80–R150 per half-day (4–5 hours); R500–R1,500 5-day package",
+    "timeline": "Full day (8:00–17:00) or half-day; 1–5 days per week",
+    "aiPromptExample": "Determine temperament group placement for a nervous 8-month-old rescue mixed breed (12kg) entering daycare for the first time.",
+    "aiDiagnosisOutput": "Dog: 8-month-old rescue, 12kg mixed breed, nervous disposition. First-time daycare. Recommendation: start in 'Confidence Builder' group (2–3 calm, neutral dogs, 1-hour session only). Signs to watch: tucked tail, ears back, avoidant behaviour, lip licking. Progress: if confident after 3 sessions, move to 'Moderate Play' group for 4-hour sessions. Do not place in 'High Energy' group for minimum 6 weeks. Risk factors: resource guarding unknown, may need separate feeding area. First session must be trial (R80 rate).",
+    "escrowGuarantee": "Bouul Escrow holds your daycare payment. If your dog is injured during play due to inadequate supervision, we cover vet costs up to R1,500.",
+    "pirbStandard": "SAPCA Daycare Code: Maximum 15 dogs per supervisor. Mandatory 2:1 rest-to-play ratio. Dogs must be vaccinated, dewormed, and on flea/tick prevention. Separation by size and temperament.",
+    "articleSections": [
+      {
+        "heading": "Screening: How Daycare Assesses Your Dog",
+        "body": "Reputable SA daycare centres require a temperament assessment (R50–R100, 30–45 minutes) before your dog's first day. This assesses: reaction to other dogs (neutral, friendly, fearful, or aggressive), resource guarding (food, toys, space), handling comfort (touched by strangers), noise sensitivity, and play style (rough vs gentle). Puppies under 16 weeks need proof of at least first two vaccination series. Dogs over 7 months must be sterilised at many centres. Your Bouul listing shows which assessments each sitter requires."
+      },
+      {
+        "heading": "A Typical Day at Daycare",
+        "body": "Drop-off (7:00–9:00): dogs arrive, greet, and have a settling-in period in a quiet pen. Morning play session (9:00–11:00): structured group play with toys, tunnels, and equipment. Mid-morning rest (11:00–12:00): mandatory quiet time in crates or pens with chews or puzzle toys. Lunch (12:00–13:00): individual feeding (to prevent resource guarding). Afternoon play (13:00–15:00): second group session, usually lower energy. Afternoon rest (15:00–16:00): wind-down before pick-up. Pick-up (16:00–18:00): dogs are calm and tired."
+      },
+      {
+        "heading": "Daycare Benefits Beyond Burnout",
+        "body": "Regular daycare builds: impulse control (waiting for turns at the water bowl), social fluency (reading and responding to other dogs' signals), confidence (nervous dogs learn from calm peers), and handler neutrality (learning that not every person is going to interact with them). It also strengthens the human-dog bond — when you arrive, your dog is genuinely excited to see you, not desperate from isolation. Many owners report their dog is calmer on daycare days and the effects carry into the next day."
+      },
+      {
+        "heading": "When Daycare Isn't the Right Fit",
+        "body": "Dogs with severe separation anxiety (can't settle even with other dogs), human-directed aggression, same-sex aggression, or extreme fear may need one-on-one care instead. Senior dogs (12+ years) may find daycare overwhelming and prefer a calm drop-in visit. Brachycephalic breeds (French Bulldogs, Pugs) overheat easily in SA heat and need air-conditioned indoor daycare only. Your Bouul sitter will be honest if daycare isn't right for your dog and will recommend alternatives."
+      }
+    ]
+  },
+  {
+    "id": "sit-002",
+    "tag": "pet-sitting",
+    "title": "Overnight Pet Sitting: Your Dog Sleeps, You Relax",
+    "subtitle": "The stress-free alternative to boarding kennels for anxious pets.",
+    "image": "/scenes/sit-overnight.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your dog refused to eat for three days at the kennel and the guilt is ruining your holiday.",
+    "problemBody": "Boarding kennels are stressful for many dogs — unfamiliar scents, constant barking, concrete runs instead of a home environment. Shelter medicine studies show that 60% of dogs eat less in kennels, and cortisol levels stay elevated for the entire stay. This stress suppresses the immune system, making dogs more susceptible to kennel cough (Bordetella), which is endemic in SA boarding facilities. For anxious or senior dogs, this stress can trigger gastrointestinal issues and behavioural setbacks.",
+    "bouulSolution": [
+      "Your dog stays in the sitter's home — a real home environment with furniture, rugs, and a consistent routine",
+      "Dedicated care: most overnight sitters take only 1–2 dogs at a time (vs 20+ at a kennel)",
+      "Daily updates with photos, videos, and a brief summary — you enjoy your trip without worry"
+    ],
+    "partsNeeded": [
+      "Your dog's regular food for the stay (to avoid dietary upset)",
+      "Bed or blanket with your scent (free, essential for comfort)",
+      "Medication with written instructions (R50–R100 for pill organisers)",
+      "Emergency vet authorisation signed (free, provided by sitter)"
+    ],
+    "guidePricing": "R200–R400 per night (in-sitter home); R250–R500 per night (in-your-home sitting); R100 surcharge for holiday periods (Christmas, Easter, school holidays)",
+    "timeline": "Overnight (typically 6pm–8am); multi-night stays for holidays and travel",
+    "aiPromptExample": "Determine if a 12-year-old arthritic Dachshund with anxiety is better suited to in-home or sitter-home overnight care.",
+    "aiDiagnosisOutput": "Dog: 12-year-old Dachshund, moderate arthritis, mild separation anxiety, on daily anti-inflammatory and joint supplement. Mobility: slow, avoids stairs. Recommendation: in-home sitting (sitter stays at owner's house). Rationale: stairs in sitter's home may be inaccessible. Familiar environment reduces anxiety trigger. Essential: single-level accommodation, non-slip floor access (no polished concrete), raised food bowls, orthopaedic bedding provided. Temperature must be above 18°C at night (SA winter nights can drop to 8°C in Gauteng). Cost: R300–R500/night in-home. Sitter must have senior-pet care experience.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If the sitter is unreachable for more than 4 hours during your dog's stay, the night is refunded.",
+    "pirbStandard": "SAPCA Pet Sitting Code §3: Overnight sitters must provide a safe sleeping area with comfortable bedding, fresh water throughout the night, a late-night toilet break, and an early morning break. Emergency protocols must be documented.",
+    "articleSections": [
+      {
+        "heading": "Sitter's Home vs Your Home: Which Is Better?",
+        "body": "Sitter's home works well for: social dogs who enjoy new environments, puppies who are in the socialisation phase, and dogs who are comfortable being handled by strangers. Your home works better for: senior dogs with mobility issues, anxious or reactive dogs, multi-pet households, dogs on complex medication schedules, and pets with house-training accidents. Bouul sitters clearly indicate which option they offer and you can filter by preference."
+      },
+      {
+        "heading": "What to Prepare Before You Leave",
+        "body": "Leave sufficient food (plus 2 extra days in case of travel delays), any medication with clear dosage instructions (preferably in a written schedule), your vet's details and an emergency authorisation (allowing the sitter to authorise treatment up to a pre-agreed amount — typically R1,000–R2,000), your contact details and backup contact, and clear house rules (allowed on furniture? feeding schedule? walking routes?). A 15-minute handover meeting 2–3 days before departure is standard."
+      },
+      {
+        "heading": "Kennel Cough Protection",
+        "body": "The Bordetella (kennel cough) vaccine is strongly recommended for any dog staying with a sitter — even in-home sitters take other dogs during the day. The vaccine is not 100% effective (covers 3 of 10+ strains) but reduces severity. SA prevalence of kennel cough is highest in winter (June–August) and during school holidays when boarding demand spikes. Symptoms (dry honking cough, sometimes with foamy discharge) appear 3–10 days after exposure and can last 2–4 weeks. Vets charge R250–R500 for treatment."
+      },
+      {
+        "heading": "What Your Sitter Will Do Overnight",
+        "body": "A typical overnight stay includes: an evening walk or garden break, dinner served (on your schedule), settling-in time (cuddles, TV on if that's the routine), a late-night toilet break (10pm–11pm), sleeping near your dog (same room or adjacent), an early morning break (5am–7am), breakfast, and a morning walk. Many sitters offer add-ons like: brush and dental wipe (R30), bedtime story (yes, some dogs settle faster with a calm voice — R20 for 10 minutes), and overnight webcam check-in."
+      }
+    ]
+  },
+  {
+    "id": "sit-003",
+    "tag": "pet-sitting",
+    "title": "Feeding Visits: Meal Time for Finicky Felines and Senior Dogs",
+    "subtitle": "When your pet needs more than kibble in a bowl — timed meals for medical and behavioural needs.",
+    "image": "/scenes/sit-feeding.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your diabetic cat needs insulin exactly 30 minutes after eating and your work schedule can't accommodate it.",
+    "problemBody": "Pets with medical conditions — diabetes, hyperthyroidism, kidney disease, IBD, or post-surgical recovery — need precisely timed meals and medication. A rushed morning routine leads to missed meals, wrong dosages, or medication given on an empty stomach causing nausea. For cats especially, a missed meal can trigger hepatic lipidosis (fatty liver disease), a potentially fatal condition. SA vets report that 70% of diabetic pet management failures are due to inconsistent feeding schedules.",
+    "bouulSolution": [
+      "Timed feeding visits synced to your pet's medication schedule — the sitter arrives at the exact minute needed",
+      "Sitters trained in special needs feeding: syringe feeding, appetite stimulation, and food refusal recognition",
+      "Detailed feeding log shared after each visit: how much was eaten, medication given, and any behavioural notes"
+    ],
+    "partsNeeded": [
+      "Pre-portioned meals labelled by day and time (use ziplock bags or containers)",
+      "Medication with written instructions (R50–R200 for pill organisers)",
+      "Slow feeder or puzzle bowl (R80–R250) for gulping dogs",
+      "Syringe or feeding tube supplies if applicable (R100–R500)"
+    ],
+    "guidePricing": "R60–R120 per feeding visit; R30 extra for medication administration; R50 extra for syringe feeding",
+    "timeline": "15–30 minutes per feeding visit; 1–3 visits daily depending on medical needs",
+    "aiPromptExample": "Design a feeding + insulin schedule for a 9-year-old diabetic cat who eats wet food only, with owners who work 7am–6pm.",
+    "aiDiagnosisOutput": "Cat: 9-year-old DSH, diabetic, on Lantus insulin BID. Eats wet food only (Hill's m/d). Feeding window: eats within 20 minutes or rejects. Schedule: 5:45am — owner feeds (1/2 can + 1.5 units insulin). 12:00pm — sitter feeding visit: offer 1/3 can, wait 20 min, remove uneaten. Owner pre-fills syringe, sitter does NOT inject (insulin schedule gap is too short). 5:30pm — owner feeds (1/2 can + 1.5 units insulin). Cat will likely need glucose curve check at vet if food refusal pattern continues. Cost: R100/visit midday feeding.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If a medication error occurs (wrong dose, missed dose), we cover the emergency vet visit up to R2,000.",
+    "pirbStandard": "SAPCA Pet Sitting Code §2: Sitters administering medication must hold a signed veterinary consent form. Controlled substances must be counted before and after each visit. Feeding logs must include type, amount offered, amount consumed, and any abnormal behaviour.",
+    "articleSections": [
+      {
+        "heading": "Medical Feeding: More Than Just Putting Food in a Bowl",
+        "body": "Pets with chronic conditions need far more than a bowl of kibble. Diabetic pets need a set amount of food at a set time (±15 minutes), because insulin dosage is calibrated to caloric intake. Renal-failure pets need low-phosphorus diets with appetite stimulants (mirtazapine) given 30 minutes before meals. Hyperthyroid cats often have ravenous appetites but lose weight regardless — portion control is critical. Post-surgical pets may need small, frequent meals to prevent nausea. Your Bouul sitter is trained to weigh food on a kitchen scale for precision."
+      },
+      {
+        "heading": "Feline Feeding: Why Cats Need Special Attention",
+        "body": "Cats are obligate carnivores with unique feeding needs. Many SA cats live on dry kibble alone, which is a leading cause of chronic dehydration and urinary crystals. A Bouul sitter ensures wet food is offered at every meal and fresh water is changed daily. Cats also have strong food preferences — a sudden brand change causes food refusal. The sitter maintains your brand, flavour, and texture exactly. Cats who don't eat for 48 hours risk hepatic lipidosis — a sitter who notices food refusal early can alert you before it becomes an emergency."
+      },
+      {
+        "heading": "Slow Feeders and Enrichment Feeding",
+        "body": "Gulping dogs eat too fast, swallow air, and risk gastric dilatation-volvulus (GDV/bloat) — a life-threatening emergency. Slow feeder bowls with raised ridges force slower eating. Puzzle feeders (Kong Wobbler, Nina Ottosson) add mental stimulation. Your Bouul sitter can incorporate enrichment feeding (R20 extra) where part of the meal is hidden in puzzle toys or scattered in the garden for foraging. This is especially beneficial for high-energy breeds during owner absences."
+      },
+      {
+        "heading": "Preparing for a Feeding Visit",
+        "body": "Pre-portion all meals into clearly labelled containers (day + time + pet name). Leave written feeding instructions visible: exact measurements, preparation steps (warm the food? add water? crush pill into food?), and what to do if the pet refuses to eat (offer alternative? call vet? call you?). Post your vet's emergency number prominently. Leave a kitchen scale if precise weighing is needed. Your Bouul sitter does a free 20-minute consultation before the first paid visit to review all procedures."
+      }
+    ]
+  },
+  {
+    "id": "sit-004",
+    "tag": "pet-sitting",
+    "title": "Medication Administration: Pills, Injections, and Topicals",
+    "subtitle": "Not all sitters are qualified to give medication. Here's who is and what they handle.",
+    "image": "/scenes/sit-medication.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "Your cat has learned to hide every pill you give her and you're worried about missed doses during your trip.",
+    "problemBody": "Giving medication to a reluctant pet is a skill. Pilling a cat who hides pills in her cheek, injecting insulin into the scruff of a diabetic dog who flinches, or applying ear drops to a dog with painful otitis — these tasks require technique, confidence, and knowledge of the pet's anatomy. A wrong injection site, missed dose, or under-dosing can cause treatment failure, drug resistance, or medical crisis. SA pet owners waste an estimated 25% of prescribed veterinary medications due to inaccurate administration.",
+    "bouulSolution": [
+      "Bouul sitters can be filtered by medication certification level: oral only, topical, injectable (insulin, B12, fluids)",
+      "All sitters complete a Bouul medication competency assessment including: pilling technique, injection protocol, and record-keeping",
+      "Two-person verification for controlled substances (tramadol, gabapentin, phenobarbital) — sitter counts with you before and after"
+    ],
+    "partsNeeded": [
+      "Pill pocket treats or cream cheese (R50–R100)",
+      "Pill crusher or splitter (R40–R120)",
+      "Insulin syringes (R100–R250 for box of 100, vet prescribed)",
+      "Medication log sheet (free, printed by sitter)"
+    ],
+    "guidePricing": "R30–R60 extra per visit for medication administration; R80–R150 for injectable medication",
+    "timeline": "Adds 5–15 minutes to a standard visit depending on medication complexity",
+    "aiPromptExample": "Determine the best pilling technique for a cat that has learned to fake-swallow pills and spit them out 10 minutes later.",
+    "aiDiagnosisOutput": "Cat: learned to 'fake swallow' — holds pill in buccal pouch, spits after handler leaves. Technique: 'pilling wand' (R80–R150, PetPiller or similar). Tool allows pill placement directly at back of tongue with no finger contact. Follow with 2–3ml water via syringe (encourages swallowing, dilutes paste if capsule breaks). Alternatively: compounded liquid formulation (R50–R100 extra from compounding pharmacy). Avoid: crushing into food — cat's flavour aversion to medicated food. Verify: check under tongue and in pouches 10 min post-pilling.",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If a medication error results in an emergency visit, we cover up to R3,000 in vet costs.",
+    "pirbStandard": "SAPCA Pet Sitting Code §4.2: Sitters administering medication must have written VETERINARY consent specifying drug, dose, route, frequency, and duration. Controlled substances must be double-counted at start and end of each visit.",
+    "articleSections": [
+      {
+        "heading": "Levels of Medication Certification",
+        "body": "Bouul classifies sitters into three medication tiers. Level 1 (Oral Basics): pilling, liquid medication by syringe, and topical spot-on treatments (flea treatments, ear drops). Level 2 (Injectable): subcutaneous injections (insulin, B12, fluids), plus all Level 1 skills. Level 3 (Advanced): intravenous fluids (for kidney disease pets), subcutaneous fluid boluses (CRI), and injectable antibiotics requiring reconstitution. Most SA medical-needs pets require Level 1 or 2. Your booking automatically filters for the level your pet needs."
+      },
+      {
+        "heading": "Pilling Made Simple (for the Pros)",
+        "body": "Professional sitters use the 'piller's grip': hold the pet's upper jaw with thumb on one side and fingers on the other, tilt the head back (this opens the jaw and aligns the oesophagus), place the pill at the back of the tongue, close the mouth, and gently rub the throat or blow on the nose to encourage swallowing. Pill pockets (Greenies brand, R80–R150) or liverwurst hide pills for pets who can't be pilled directly. Never crush enteric-coated or time-release medications — this can cause overdose."
+      },
+      {
+        "heading": "Insulin Injection Best Practices",
+        "body": "Insulin should be administered in the subcutaneous space — tent the skin on the scruff, side of the chest, or flank. Rotate injection sites to prevent lipodystrophy (lumps under the skin). Always use a new needle for each injection. Always check the insulin vial after refrigeration — Lantus should be clear, NPH should be uniformly cloudy. Never inject cold insulin directly from the fridge — roll the vial gently between your palms to warm it. The sitter records the injection site and time in the medication log after every dose."
+      },
+      {
+        "heading": "Recognising Adverse Reactions",
+        "body": "Your sitter is trained to recognise: hypoglycaemia (diabetic pets — weakness, stumbling, seizures, unconsciousness — treat with honey on gums), vomiting after medication (note the timing — was it immediate or delayed?), hives or facial swelling (allergic reaction), and excessive sedation (especially with gabapentin or tramadol). In all cases, the sitter contacts you immediately, administers first aid if trained, and transports to the emergency vet if needed. Bouul's emergency protocol is included in every booking confirmation."
+      }
+    ]
+  },
+  {
+    "id": "sit-005",
+    "tag": "pet-sitting",
+    "title": "Boarding Alternatives: In-Home vs Sitter-Home vs Kennels",
+    "subtitle": "Three options, three price points, three stress levels. The right choice depends on your pet's personality.",
+    "image": "/scenes/sit-boarding.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "The kennel quoted R1,200 for 5 nights but your dog came home with kennel cough and lost 2kg.",
+    "problemBody": "Traditional boarding kennels range from budget (R70–R120/night) to luxury (R250–R500/night) but all share a fundamentally different environment from home. Concrete runs, shared ventilation systems (kennel cough spreads fast), constant unfamiliar barking (cortisol stays elevated), and multiple handlers. The savings of budget kennels often come at the cost of your pet's emotional and physical health. Kennel cough treatment adds R250–R500, but the stress-related health impact is harder to quantify.",
+    "bouulSolution": [
+      "Home alternatives at comparable or lower cost than luxury kennels — with better outcomes for your pet",
+      "Sitter profiles show exactly how many pets they take at once, their home setup (garden size, child-free, other pets), and their experience level",
+      "Meet-and-greet sessions (free, 20 min) before any booking so you can see where your pet will stay"
+    ],
+    "partsNeeded": [
+      "Pet's bed and familiar items (free)",
+      "Food for the duration + 2 extra days (R200–R600 for multi-day stays)",
+      "Vaccination records (R100–R300 for titer tests if needed)",
+      "Signed emergency authorisation (free, provided by Bouul)"
+    ],
+    "guidePricing": "Kennel: R70–R500/night. Sitter-home: R200–R400/night. In-home sitter: R250–R500/night. Luxury pet hotel: R500–R1,000/night.",
+    "timeline": "Any duration from 1 night to 4+ weeks; holiday periods book 4–8 weeks in advance",
+    "aiPromptExample": "Compare kennel, sitter-home, and in-home options for a reactive Belgian Malinois with separation anxiety requiring a 10-day owner absence.",
+    "aiDiagnosisOutput": "Dog: 3-year-old Belgian Malinois, severe separation anxiety, kennel stress history (refused food, self-trauma at previous stay). 10-day absence. Recommendation: EXCLUDE kennel — stress risk too high (likely self-injury within 48 hours). Preference: in-home sitter with Malinois experience (R400–R500/night, R4,000–R5,000 total). Sitter-home only if single-dog booking + large secure garden + owner has Malinois background. Requirements: high physical stimulation (2+ hours daily), mental enrichment (puzzle toys, nose work), no other male dogs in home. Backup plan: in-home is the only safe option — do not accept alternative unless discussed.",
+    "escrowGuarantee": "Bouul Escrow holds your boarding payment. If your pet returns with a confirmed illness contracted during the stay, the boarding cost is refunded.",
+    "pirbStandard": "SAPCA Boarding Facilities Code: Kennels must provide minimum 2m² indoor run + 4m² outdoor run per dog. Temperature must be maintained between 15°C–30°C. Dogs must be exercised twice daily. Cat boarding must have separate airspace from dogs.",
+    "articleSections": [
+      {
+        "heading": "Kennels: What You Get for the Price",
+        "body": "Budget kennels (R70–R120/night) provide basic: concrete run with sheltered area, fenced outdoor run, food and water, minimal human contact. Mid-range (R150–R300/night) add: heating in winter, individual runs with raised beds, two walks daily, and basic grooming (brush before pickup). Luxury (R350–R1,000/night) include: climate-controlled suites, TV/radio, webcam access, 'turn-down service' with treats, multiple daily walks, and grooming. All SA kennels must be registered with the local municipality and are inspected annually by the SPCA."
+      },
+      {
+        "heading": "Sitter-Home: The Middle Ground",
+        "body": "Sitter-home boarding keeps your pet in a real home with 1–4 other dogs (depending on sitter capacity). The environment has furniture, rugs, consistent routines, and household noises — much closer to your pet's normal life. Sitters typically take at most 4 dogs at a time vs 20+ at a kennel. Your dog participates in the sitter's daily life: couch time, TV in the evening, garden access. The most common owner report: 'My dog didn't even seem to miss me.'"
+      },
+      {
+        "heading": "In-Home Sitting: The Gold Standard",
+        "body": "Your sitter moves into your home, maintaining your pet's exact routine in their familiar environment. This is ideal for: multiple pets (avoids splitting them up), seniors with mobility needs, anxious pets who don't cope with new environments, and pets on complex medical regimens. The cost is similar to sitter-home but you supply accommodation (your spare room or couch). Most in-home sitters do a home visit before the booking to meet your pets, see the house setup, and collect keys."
+      },
+      {
+        "heading": "Holiday Booking Tips for SA Pet Owners",
+        "body": "Christmas, Easter, and July school holidays book out 4–8 weeks in advance — especially for popular sitters. A 10–15% 'peak season surcharge' is standard. Book early to secure your preferred sitter or be prepared to pay more for last-minute availability. Consider sharing a sitter with a neighbour who has compatible pets — some sitters offer a R50/night discount for referral pairs. Your Bouul booking includes a free cancellation window (48 hours before) for most sitters."
+      }
+    ]
+  },
+  {
+    "id": "sit-006",
+    "tag": "pet-sitting",
+    "title": "Home Visits: Multi-Pet and Non-Dog Households",
+    "subtitle": "Cats, birds, rabbits, reptiles — home visits aren't just for dogs.",
+    "image": "/scenes/sit-home-visits.png",
+    "readTime": "4 min read",
+    "author": "Bouul Pet Services Team",
+    "problemHeadline": "You're going away for 5 days and a neighbour can't manage your 2 cats, rabbit, and tropical fish.",
+    "problemBody": "Multi-pet households are common in SA, but finding one person who can care for multiple species with different diets, habitats, and handling requirements is challenging. A neighbour who 'pops in' may miss subtle signs of illness in a rabbit (stress ileus stops gut movement in 12 hours — fatal if not caught), forget to cycled the aquarium light, or overfeed the cat. Each species has unique needs and an inexperienced carer can inadvertently cause harm across all of them simultaneously.",
+    "bouulSolution": [
+      "Sitters with multi-species experience covering dogs, cats, birds, small mammals, reptiles, fish, and exotic pets",
+      "Customised care plan for each species: feeding schedule, habitat maintenance, handling notes, and emergency symptoms",
+      "Each pet gets individual attention time, not just a group 'check the water bowls' visit"
+    ],
+    "partsNeeded": [
+      "Separate food containers for each species, pre-portioned",
+      "Care instructions per pet type (printed, left in visible location)",
+      "Emergency contact sheet per species: your regular vet + closest emergency vet + exotic pet specialist",
+      "Backup power for aquariums/terrariums during load-shedding (R500–R2,000 for UPS)"
+    ],
+    "guidePricing": "R100–R180 per 30-min visit (1–2 pets); R150–R250 per 45-min visit (3+ pets); R50 surcharge for reptiles or exotic pets",
+    "timeline": "30–60 minutes per visit; 1–2 visits daily depending on species and needs",
+    "aiPromptExample": "Plan a care schedule for a 4-day owner absence: 2 cats (one diabetic, one young), a free-roam house rabbit, and a 120L tropical freshwater aquarium.",
+    "aiDiagnosisOutput": "Pet load: 2 cats (1 diabetic + 1 healthy adult), 1 rabbit (free-roam), 120L tropical aquarium. Schedule: Visit 1 (7am, 45 min): diabetic cat insulin + feeding. Rabbit pellet serving + fresh hay + litter tray check. Aquarium feed + check temperature + top off evaporation. Visit 2 (6pm, 45 min): same sequence. Aquarium: feed, check filter flow, timed light check (lights on 10 hours). Rabbit: exercise time + pet social 10 min. Diabetic cat: glucose curve check today (prick ear for sample, log result). Emergency: rabbit not pooping = gut stasis, call exotics vet immediately (Dr. Engelbrecht, Auckland Park — on file).",
+    "escrowGuarantee": "Bouul Escrow holds your payment. If any pet's habitat (aquarium, terrarium, aviary) is neglected causing illness, the entire booking is refunded.",
+    "pirbStandard": "SAPCA Multi-Species Care Code: Sitters must demonstrate species-specific knowledge for each animal in their care. Habitats must be checked for temperature, humidity, and cleanliness at every visit. Exotic pets require written veterinary consent for handling.",
+    "articleSections": [
+      {
+        "heading": "Cats: Independent But Not Self-Sufficient",
+        "body": "Many people think cats are 'low maintenance' and can be left with a bowl of kibble and a toilet bowl of water for a weekend. This is dangerous. Cats left without human contact for 48+ hours develop stress cystitis (a common SA feline emergency), stop eating (hepatic lipidosis risk), or become dehydrated with dry food alone. Your Bouul cat sitter provides: fresh water daily (cats prefer running water, they'll show the Fountain of Youth attachment), wet food offering (even if your cat eats dry, wet food provides essential moisture), litter box scooping (a full box causes stress and urination outside the box), and 15+ minutes of play and social time."
+      },
+      {
+        "heading": "Rabbits and Small Mammals: The Fragile Patients",
+        "body": "Rabbits, guinea pigs, and chinchillas hide illness until they're critically compromised — it's a prey survival instinct. A rabbit that stops eating for 12 hours is an emergency: gastrointestinal stasis kills rabbits quickly. Your sitter checks for: fresh faecal pellets (quantity and size), food intake (weighs morning pellets), water consumption (note bottle level), and behaviour (lethargy, teeth grinding = pain). Hay must be accessible at all times — it's 80% of a rabbit's diet. No cat or dog should have access to the rabbit area — rabbit stress from predator proximity can also trigger stasis."
+      },
+      {
+        "heading": "Reptiles: Temperature, Humidity, and UVB",
+        "body": "Reptile care is equipment-dependent. Load-shedding is a critical risk — a bearded dragon's basking lamp going cold for 4+ hours during stage 6 can cause respiratory infection and impaction (their gut function depends on heat). Your Bouul reptile sitter checks: basking spot temperature (measured with infrared thermometer), ambient temperature gradient (cool side), humidity level (misting schedule for tropical species), UVB bulb function (bulbs need replacement every 6–12 months even if they still glow), and water bowl cleanliness. A UPS backup for the heat lamp during load-shedding is strongly recommended."
+      },
+      {
+        "heading": "Aquarium and Bird Care During Your Absence",
+        "body": "Tropical aquariums (R2,000–R10,000+ setup) need: daily feeding (small pinch, no overfeeding — decaying food crashes water quality), temperature check (tropical: 24–28°C, marine: 24–26°C), evaporation top-off with treated water, and light timer check (too many hours causes algae blooms). Birds (parrots, cockatiels, finches) need: fresh food (pellets and chop — not just seeds), fresh water twice daily, cage cover at night, out-of-cage time if safe and accustomed, and social interaction (a bored parrot plucks). Your Bouul sitter's visit length reflects the total care need, not just 'number of animals.'"
+      }
+    ]
+  }
+]

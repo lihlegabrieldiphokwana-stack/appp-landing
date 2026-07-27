@@ -1,0 +1,278 @@
+[
+  {
+    "id": "steam_extraction_carpet_clean",
+    "tag": "Carpet Cleaning",
+    "title": "Steam Extraction Carpet Clean",
+    "subtitle": "Hot water extraction removes deep-set dirt, allergens and bacteria from your carpets",
+    "image": "/scenes/cleaning_steam_extraction.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Vacuuming only removes surface debris while deep contaminants remain embedded in carpet fibres",
+    "problemBody": "Standard vacuum cleaning removes dust and surface crumbs but cannot extract the oils, bacteria, dust mite waste and ground-in soil that accumulate deep within carpet pile. Over time, this embedded grit acts as an abrasive, wearing down carpet fibres from the inside out and reducing carpet lifespan by up to 50%. In South African homes, where red dust from outdoor environments and high pollen counts are common, carpets become reservoirs for allergens that trigger respiratory issues. Liquid spills that reach the underlay create a breeding ground for mould and bacteria, often undetected until odours develop.",
+    "bouulSolution": [
+      "Pre-treatment spray of HASA-approved carpet detergent and dwell time to break down embedded soil",
+      "Hot water extraction at 120°C steam temperature, 90 PSI injection pressure, extracting 95%+ of moisture and contaminants",
+      "Post-cleaning grooming and accelerated drying with high-powered fans"
+    ],
+    "partsNeeded": [
+      "Truck-mounted or portable hot water extraction unit",
+      "HASA-approved carpet detergent and pre-spray",
+      "Spot-treatment solution for specific stains",
+      "High-velocity air movers for fast drying"
+    ],
+    "guidePricing": "R 120 – R 180 per square metre (minimum R 450)",
+    "timeline": "20–40 minutes per room; full house 2–4 hours; drying time 4–6 hours",
+    "aiPromptExample": "\"Describe the hot water extraction carpet cleaning process for a South African home with wool-blend carpets, including pre-treatment, extraction temperatures and drying protocol.\"",
+    "aiDiagnosisOutput": "\"High soil load in carpet pile (traffic areas). Dust mite allergen present in fibre structure. Embedded red dust particles near entry points. Previous cleaning residues (alkaline) detected causing rapid re-soiling. Recommended: hot water extraction with pH-neutral detergent, multiple rinse passes to remove residue, and protector application for high-traffic zones.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when carpets pass a white-towel blot test and are dry within 6 hours",
+    "pirbStandard": "SANS 10232-1 (carpet cleaning standard); HASA hot water extraction protocol (minimum 85°C at wand); IICRC-certified technicians",
+    "articleSections": [
+      {
+        "heading": "How Hot Water Extraction Works",
+        "body": "Hot water extraction — often called steam cleaning — is the only method recommended by major carpet manufacturers for deep cleaning. The process injects a hot water and detergent solution into the carpet fibres at high pressure (80–100 PSI), agitating the embedded soil. The solution and dislodged contaminants are then immediately extracted by a powerful vacuum system. The combination of heat (85–120°C at the wand), chemical action and mechanical agitation removes 95–98% of dirt, allergens and bacteria. HASA endorses this method as the gold standard for residential carpet care in South Africa."
+      },
+      {
+        "heading": "Pre-Treatment and Spotting",
+        "body": "Before extraction begins, every carpet receives a pre-treatment spray applied uniformly across the surface, with extra dwell time on high-traffic areas and visible soiling. Specific spot treatments are applied to stains — tannin-based (coffee, tea, fruit juice), protein-based (milk, blood, urine), and oil-based (cooking oil, grease, hand cream) each require a different chemical approach. The pre-treatment dwell time is critical: too short and the soil won't release; too long and the carpet may be damaged. Our technicians time each application to the second."
+      },
+      {
+        "heading": "Extraction Technique for SA Homes",
+        "body": "South African homes present unique challenges for carpet cleaning. The fine red dust common in Gauteng and the Northern Cape requires multiple rinse passes to fully remove. For wool-blend carpets, which are popular in SA for their durability in warmer climates, our technicians use a pH-neutral detergent to avoid damage to natural fibres. The extraction wand is passed at a controlled speed — too fast leaves moisture and soil behind; too slow over-wets the carpet. We perform two rinse passes with clear water to ensure no detergent residue remains, which would attract rapid re-soiling."
+      },
+      {
+        "heading": "Drying and Aftercare",
+        "body": "Rapid drying is essential to prevent mould growth and re-soiling. After extraction, we groom the carpet pile in a single direction for uniform appearance, then place high-velocity air movers to accelerate evaporation. In humid coastal areas like Durban, we also deploy dehumidifiers. We recommend keeping windows open, avoiding walking on the carpet in shoes for 6 hours, and refraining from replacing furniture for 12 hours. The Bouul app provides a drying countdown timer and alerts you when it's safe to walk on your carpets."
+      }
+    ]
+  },
+  {
+    "id": "dry_carpet_cleaning",
+    "tag": "Carpet Cleaning",
+    "title": "Dry Carpet Cleaning (Low-Moisture)",
+    "subtitle": "A rapid-dry alternative for carpets that can't tolerate prolonged moisture",
+    "image": "/scenes/cleaning_dry_carpet.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Some carpets and situations cannot tolerate the 4–6 hour drying time of steam cleaning",
+    "problemBody": "Commercial environments, high-traffic areas, and homes where residents cannot vacate for extended periods need a carpet cleaning method with minimal drying time. Wool carpets, sisal and seagrass floor coverings, and some synthetic blends can be damaged by the moisture levels of hot water extraction. In these cases, dry carpet cleaning offers an effective alternative. The challenge is that many low-moisture methods are less effective at removing deep-set soil — a balance must be struck between cleaning efficacy and moisture levels.",
+    "bouulSolution": [
+      "Application of absorbent compound or specialised powder that encapsulates dirt and is vacuumed away",
+      "Bonnet cleaning for low-pile carpets using a rotary machine with absorbent pad",
+      "All methods achieve less than 30 minutes drying time, with no risk of mould or underlay damage"
+    ],
+    "partsNeeded": [
+      "Absorbent compound or encapsulation powder",
+      "Rotary floor machine with bonnet pad",
+      "Commercial-grade vacuum with HEPA filtration",
+      "Counter-rotating brush machine for powder distribution"
+    ],
+    "guidePricing": "R 90 – R 140 per square metre (minimum R 350)",
+    "timeline": "10–20 minutes per room; drying time under 30 minutes",
+    "aiPromptExample": "\"Describe the dry carpet cleaning process for a South African office with wool-blend broadloom carpet that cannot tolerate wet cleaning, including compound application and extraction method.\"",
+    "aiDiagnosisOutput": "\"Low-moisture carpet showing surface soil accumulation but no deep-set staining. Wool fibres sensitive to alkaline cleaners. Recommended: dry compound method with pH-neutral absorbent powder, counter-rotating brush distribution, and HEPA vacuum extraction.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when carpet is visibly clean and dry to touch within 30 minutes",
+    "pirbStandard": "SANS 10232-1 low-moisture method; HASA dry cleaning protocol for natural fibre carpets",
+    "articleSections": [
+      {
+        "heading": "The Dry Compound Process",
+        "body": "The dry compound cleaning method uses a biodegradable absorbent compound, similar in consistency to sawdust, that is wetted with a small amount of cleaning solution and spread evenly over the carpet surface. A counter-rotating brush machine massages the compound into the carpet fibres, where it absorbs and encapsulates dirt, oil and grime. After a brief dwell time, the compound — now laden with soil — is thoroughly vacuumed away using a commercial-grade HEPA vacuum. The entire process leaves the carpet slightly damp at most, with full dryness within 30 minutes."
+      },
+      {
+        "heading": "When to Choose Dry Cleaning",
+        "body": "Dry carpet cleaning is ideal for: natural fibre carpets (wool, sisal, seagrass, coir) that are damaged by excess moisture; commercial environments where downtime must be minimised; high-traffic corridors and staircases that receive daily use; homes with elderly residents or small children who cannot be relocated for extended periods; and as a maintenance clean between annual hot water extraction sessions. For heavily soiled carpets that have not been professionally cleaned in years, hot water extraction remains more effective."
+      },
+      {
+        "heading": "Bonnet Cleaning Method",
+        "body": "Bonnet cleaning is a low-moisture method suited to low-pile commercial carpets. A rotary floor machine fitted with an absorbent pad (the bonnet) is used with a spray-on cleaning solution. The bonnet absorbs surface soil from the carpet fibres as the machine rotates. This method is fast and achieves excellent results on light-to-moderately soiled carpets, but does not clean the base of the pile or the underlay. It is best used as a regular maintenance method between deeper cleans. In South African offices, monthly bonnet cleaning extends carpet life significantly."
+      },
+      {
+        "heading": "Encapsulation Technology",
+        "body": "Modern encapsulation cleaning uses synthetic polymers that crystallise as they dry, forming microscopic crystals around each dirt particle. When the dry crystals are vacuumed, they carry the trapped dirt with them. This technology prevents rapid re-soiling because no sticky residue remains on the fibres. Encapsulation is growing in popularity in South Africa for both residential and commercial use because it combines the low-moisture benefits of dry cleaning with the deep-cleaning effectiveness previously only achievable with hot water extraction."
+      }
+    ]
+  },
+  {
+    "id": "carpet_spot_and_stain_treatment",
+    "tag": "Carpet Cleaning",
+    "title": "Carpet Spot and Stain Treatment",
+    "subtitle": "Remove stubborn spots, stains and discolouration from any carpet type",
+    "image": "/scenes/cleaning_stain_treatment.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Household spills leave permanent discolouration if not treated correctly within hours",
+    "problemBody": "Wine, coffee, ink, pet urine and food spills are inevitable in busy homes, but the way a stain is treated determines whether it becomes permanent. Rubbing a fresh spill, using the wrong chemical, or applying heat before the stain is fully removed can set the stain permanently into carpet fibres. In South African homes, red wine, rooibos tea and biltong oil are particularly common culprits. Pet urine stains are especially problematic — they contain uric acid that re-crystallises and re-appears as a dark stain whenever humidity rises, long after the original accident.",
+    "bouulSolution": [
+      "Stain identification: acid dye, protein, oil-based, or tannin — each requires a different chemical approach",
+      "Professional spotting technique: blot, apply correct spotting agent, dwell, flush with water, extract, repeat",
+      "Final rinse with stain-blocker to prevent resoiling and a UV light check for biological residues"
+    ],
+    "partsNeeded": [
+      "pH-neutral spotting solution for general stains",
+      "Specialised removers: tannin, protein, oil, rust, ink",
+      "UV light for detecting biological residues",
+      "Steam cleaning wand for final extraction"
+    ],
+    "guidePricing": "R 80 – R 180 per spot (R 350 minimum call-out fee)",
+    "timeline": "15–45 minutes per stain depending on age and severity",
+    "aiPromptExample": "\"Describe the correct stain treatment protocol for red wine, pet urine and biltong oil on a synthetic-blend carpet in a South African home, including chemical selection and dwell times.\"",
+    "aiDiagnosisOutput": "\"Red wine stain identified as tannin-based (pH acidic). Pet urine detected with uric acid crystals and bacteria (odour risk). Biltong oil identified as fatty-acid residue (requires emulsifier). Recommended: tannin remover for wine, enzyme treatment for urine with extended dwell, and solvent-based emulsifier for oil.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released only when the stain is visibly removed or a documented explanation provided if permanent damage exists",
+    "pirbStandard": "SANS 10232-1; IICRC S100 standard for spot and stain removal; HASA chemical safety protocol",
+    "articleSections": [
+      {
+        "heading": "The Science of Stains",
+        "body": "Every stain is a chemical bond between the staining substance and the carpet fibre. The type of bond determines the removal method. Tannin stains (coffee, tea, wine, fruit juice) are acidic and water-soluble — they respond to alkaline spotting agents. Protein stains (milk, blood, urine, vomit) require enzyme-based cleaners that break down the protein chain. Oil-based stains (cooking oil, hand cream, biltong fat) need solvent-based emulsifiers to dissolve the grease. Incorrect chemical application — for example, using alkaline on a protein stain — sets the stain permanently. Our technicians are trained in IICRC stain identification protocols and never guess."
+      },
+      {
+        "heading": "The Spotting Technique",
+        "body": "Professional stain removal follows a step-by-step protocol. Step 1: Identify the stain type using appearance, odour and customer history. Step 2: Blot the stain with a clean white cloth — never rub, which spreads the stain and damages fibres. Step 3: Apply the correct spotting agent from the outer edge inward to prevent spreading. Step 4: Allow dwell time for the chemical to break the bond (30 seconds to 15 minutes depending on stain age). Step 5: Flush with clean water and extract with the wand. Step 6: Check with UV light for residual biological matter. Repeat steps 3–6 as needed."
+      },
+      {
+        "heading": "Pet Urine: The Most Persistent Stain",
+        "body": "Pet urine is chemically complex. Fresh urine is water-soluble and relatively easy to remove. But as it ages, bacteria break down the urea into ammonia (the odour), and uric acid crystallises. These crystals are insoluble in water and re-form whenever humidity rises — causing the stain to reappear months later. Our pet urine treatment uses a two-step enzyme process: first an alkaline flush to break down the ammonia, then a bio-enzymatic cleaner that digests the uric acid crystals. We also treat the underlay when urine has penetrated through the carpet, and apply an odour-neutralising sealant."
+      },
+      {
+        "heading": "After-Treatment Prevention",
+        "body": "After successful stain removal, we apply a fibre protector that creates a barrier against future staining. This treatment, typically a fluorochemical protectant, bonds to the carpet fibres and causes liquids to bead up on the surface rather than being absorbed. This turns a potential permanent stain into a surface spill that can be blotted away. The protector lasts 6–12 months depending on traffic and vacuuming frequency. The Bouul app tracks when your stain protector needs reapplication and sends reminders."
+      }
+    ]
+  },
+  {
+    "id": "stair_carpet_cleaning",
+    "tag": "Carpet Cleaning",
+    "title": "Stair Carpet Cleaning",
+    "subtitle": "Specialised cleaning for one of the highest-traffic and most dangerous areas in your home",
+    "image": "/scenes/cleaning_stair_carpet.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Stair carpets accumulate concentrated soil and pose safety risks if cleaned incorrectly",
+    "problemBody": "Staircases endure more concentrated foot traffic per square metre than any other carpeted surface in a home. The leading edge of each stair tread accumulates ground-in soil, while the riser and the corner where tread meets riser collect dust and debris that standard vacuums miss. Cleaning stair carpets is technically challenging: the vertical surfaces require different wand technique, excess water can seep into the stair structure causing wood rot, and wet stairs are a serious slip hazard. Many homeowners and even some cleaners avoid stairs entirely, leaving them as reservoirs for allergens and dirt.",
+    "bouulSolution": [
+      "Section-by-section cleaning: each stair tread and riser cleaned individually with controlled moisture",
+      "Edge detail: hand-tool cleaning at the junction of tread and riser where dust accumulates",
+      "Safety protocol: stairs dried immediately after cleaning with absorbent towels and air movers"
+    ],
+    "partsNeeded": [
+      "Portable extraction wand with stair-specific attachment",
+      "Hand-held spot cleaning tool for edge detail",
+      "Absorbent terry cloth towels for immediate drying",
+      "High-velocity air mover directed at staircase"
+    ],
+    "guidePricing": "R 25 – R 45 per stair tread (minimum R 250 for first 10 stairs)",
+    "timeline": "2–5 minutes per stair; 15–30 stairs cleaned in 1–2 hours",
+    "aiPromptExample": "\"Describe the correct procedure for cleaning a 15-step carpeted staircase in a South African home, including moisture control, edge detailing and safety considerations.\"",
+    "aiDiagnosisOutput": "\"Heavy soil accumulation on leading edge and at tread-riser junction of all steps. Red dust embedded in stair carpet fibres. Previous cleaning residue causing slippery surface condition. Recommended: controlled-moisture extraction with stair tool, hand-tool edge detailing, and immediate towel-drying after each step.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all stairs are visibly clean and fully dry with no slip residue",
+    "pirbStandard": "SANS 10232-1 stair cleaning protocol; HASA safety standard for wet surfaces; SANS 10400 stair slip resistance",
+    "articleSections": [
+      {
+        "heading": "Why Stairs Are Different",
+        "body": "Stair carpets face unique challenges. Each tread sees concentrated foot traffic in the centre where the ball of the foot lands, and the leading edge collects grinding soil from shoes as they push off. The vertical riser collects dust through static attraction. The junction between tread and riser — the crease — traps debris that a standard vacuum head cannot reach. Stair carpet construction also differs from broadloom: the pile is often shorter and denser to withstand the pressure. Our cleaning technique accounts for these differences, using lower moisture pressure and more controlled passes than flat-surface cleaning."
+      },
+      {
+        "heading": "Moisture Control Is Critical",
+        "body": "Excess moisture on stairs can penetrate through the carpet and underlay into the wooden stair structure, causing wood rot, delamination and squeaking. Our portable extraction system precisely controls the volume of water injected, and we use a stair-specific wand that extracts on the same pass. Each stair is immediately blotted with an absorbent terry towel after cleaning. Air movers are positioned at the top and bottom of the staircase to create cross-ventilation. The result: stairs that are clean and dry enough to walk on within 45 minutes."
+      },
+      {
+        "heading": "Safety and Slip Prevention",
+        "body": "Wet stairs are one of the most serious slip hazards in any home. Our cleaning protocol mandates that no occupant uses the stairs during cleaning. We clean from the top down, drying each stair completely before moving to the next. Warning signs are placed at both the top and bottom of the staircase. Any detergent residue that could reduce slip resistance is thoroughly rinsed and extracted. After cleaning, we test each stair with a dry hand before declaring it safe. In homes with elderly residents or small children, we recommend scheduling stair cleaning when the staircase can be avoided for 2–3 hours."
+      },
+      {
+        "heading": "Edge Detailing Technique",
+        "body": "The edges of each stair — where carpet meets the wall, the banister post, and the tread-riser junction — require manual attention. Our technicians use a hand-held spray-and-extract tool to clean these crevices precisely, combined with a stiff-bristle brush to loosen embedded dirt. The stair nosings (the rounded leading edges) are cleaned with a corner tool that reaches under the overhang. This level of detail is not achievable with standard wand attachments and is the hallmark of a professional stair carpet cleaning."
+      }
+    ]
+  },
+  {
+    "id": "commercial_carpet_cleaning",
+    "tag": "Carpet Cleaning",
+    "title": "Commercial Carpet Cleaning",
+    "subtitle": "High-volume carpet maintenance for offices, retail spaces and hospitality venues",
+    "image": "/scenes/cleaning_commercial_carpet.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Commercial carpets endure foot traffic volumes that wear them out in months without professional care",
+    "problemBody": "Office carpets can see 10,000+ passes per day in corridors and entry areas. Each footstep grinds abrasive soil deeper into the fibre structure, acting like sandpaper and cutting carpet fibres. Without regular professional cleaning, commercial carpets in South African businesses show visible traffic-lane discolouration within 12 months and may need replacement in 3–5 years instead of the expected 8–10. Additionally, workplace carpets harbour bacteria and allergens that impact employee health and productivity. The South African Occupational Health and Safety Act requires employers to maintain a clean working environment, and carpets are a frequently overlooked component.",
+    "bouulSolution": [
+      "Zone-based maintenance plan: daily spot cleaning, weekly vacuum, monthly interim cleaning, quarterly deep extraction",
+      "High-speed bonnet cleaning for traffic lanes between deep cleans, restoring appearance without downtime",
+      "Full hot water extraction annually or bi-annually, performed after-hours to minimise business disruption"
+    ],
+    "partsNeeded": [
+      "Commercial-grade hot water extraction unit (truck-mounted for large areas)",
+      "Rotary bonnet machine with absorbent pads",
+      "High-traffic lane pre-treatment spray",
+      "Commercial HEPA backpack vacuum"
+    ],
+    "guidePricing": "R 80 – R 150 per square metre (volume discounts for 200m²+)",
+    "timeline": "Varies: 50–100 m² per hour for extraction; quarterly maintenance faster",
+    "aiPromptExample": "\"Describe a commercial carpet maintenance plan for a 500m² South African office space with high-traffic corridors, open-plan areas and meeting rooms, including cleaning frequency and techniques.\"",
+    "aiDiagnosisOutput": "\"Traffic-lane soil compaction in main corridors and entry area. Uniform light soiling in open-plan area. Food and beverage stains in kitchen/break room carpet. Recommended: quarterly bonnet cleaning for general areas, monthly spot treatment for break room, bi-annual hot water extraction with lane pre-treatment.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when commercial carpets pass a traffic-lane appearance test and particulate extraction measurement",
+    "pirbStandard": "SANS 10232-1 commercial; IICRC CCT certification; OHSA compliant cleaning schedule; HASA commercial protocol",
+    "articleSections": [
+      {
+        "heading": "The Commercial Maintenance Cycle",
+        "body": "Commercial carpets need a multi-tier maintenance approach. Daily: spot cleaning of visible stains and vacuuming of entry mats. Weekly: full-floor HEPA vacuum with a backpack unit for efficiency. Monthly (interim): bonnet cleaning or encapsulation of traffic lanes to restore appearance between deep cleans. Quarterly or bi-annually: full hot water extraction of the entire carpet area. This cycle, endorsed by HASA and the IICRC, extends commercial carpet life from 4–7 years to 10–12 years. The Bouul commercial service includes a digital maintenance log that tracks each zone's cleaning history."
+      },
+      {
+        "heading": "Traffic Lane Management",
+        "body": "The greatest visual wear on commercial carpets occurs in defined traffic lanes — the paths from the entrance to desks, the corridor to the kitchen, and the route to restrooms. These lanes compact the carpet pile, trap ground-in soil and appear darker than surrounding areas. Our traffic-lane management protocol applies a high-alkaline pre-treatment to these zones before extraction, using a counter-rotating brush to agitate the soil. Between extractions, we use bonnet cleaning to lift surface soil from traffic lanes, keeping the carpet uniformly clean without the cost of a full extraction."
+      },
+      {
+        "heading": "After-Hours Service",
+        "body": "We understand that commercial carpet cleaning cannot disrupt business operations. All deep extraction work is scheduled after hours, over weekends, or during planned shutdowns. Our teams work efficiently with powered equipment and a systematic grid approach to complete large areas within a single evening. High-velocity air movers and dehumidifiers ensure carpets are dry by morning. We coordinate with building management for access, security and lift usage, and all work is covered by public liability insurance."
+      },
+      {
+        "heading": "Health and Productivity Benefits",
+        "body": "Clean carpets are not just cosmetic — they impact workplace health. The South African Department of Employment and Labour's OHSA requires employers to maintain a hygienic work environment. Carpets trap volatile organic compounds (VOCs), pollen and bacteria. When cleaned regularly, they improve indoor air quality, reduce sick leave and enhance employee well-being. Studies have shown that professionally cleaned commercial carpets contribute to a measurable reduction in respiratory complaints and allergy symptoms among office workers."
+      }
+    ]
+  },
+  {
+    "id": "odour_removal_and_deodorising",
+    "tag": "Carpet Cleaning",
+    "title": "Carpet Odour Removal and Deodorising",
+    "subtitle": "Eliminate stubborn smells from pet accidents, smoke, mould and spills",
+    "image": "/scenes/cleaning_odour_removal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Surface deodorisers only mask smells — the source remains embedded in carpet and underlay",
+    "problemBody": "Deodorising sprays and carpet powders create a temporary perfume that fades within days, leaving the underlying odour to return. True odour removal requires neutralising the source of the smell at a molecular level. Pet urine crystallises in carpet underlay, cigarette smoke condenses on fibres as a sticky tar residue, and mould spores release musty microbial volatile organic compounds (mVOCs) that penetrate deep into porous surfaces. In South Africa's climate — humid summers in coastal regions and damp winter mornings in the Highveld — musty carpet odours are especially common when moisture is trapped beneath furniture or in low-ventilation rooms.",
+    "bouulSolution": [
+      "Source identification: UV light inspection and moisture meter locate the exact source of odour",
+      "Enzyme treatment for organic odours (pet urine, vomit, food spills) — bio-enzymatic digestion of the source material",
+      "Ozone shock treatment or hydroxyl fogging for smoke, mould and pervasive musty odours"
+    ],
+    "partsNeeded": [
+      "UV black light for biological stain detection",
+      "Moisture meter for underlay assessment",
+      "Bio-enzymatic odour neutraliser",
+      "Ozone generator or hydroxyl fogging machine"
+    ],
+    "guidePricing": "R 150 – R 500 per affected area depending on odour source and severity",
+    "timeline": "30 minutes to 2 hours for source treatment; ozone treatment requires 2–4 hours of unoccupancy",
+    "aiPromptExample": "\"Describe a pet urine odour removal procedure for a carpeted living room in a South African home, including enzyme treatment, underlay assessment and ozone fogging.\"",
+    "aiDiagnosisOutput": "\"Urine odour source identified: three locations on living room carpet with penetration into underlay and floorboards. Uric acid crystals present. Musty mVOCs from trapped moisture near east wall. Recommended: bio-enzymatic soak for each location, underlay replacement in worst-affected area, hydroxyl fogging for residual odour, and moisture barrier installation.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when the odour is eliminated (verified by third-party olfactory test 24 hours after treatment)",
+    "pirbStandard": "IICRC S500 (water damage and odour removal); SANS 10232-1; HASA indoor air quality standard",
+    "articleSections": [
+      {
+        "heading": "Understanding Odour Chemistry",
+        "body": "Odour molecules are volatile organic compounds (VOCs) that float in the air and trigger our olfactory senses. To eliminate an odour permanently, the source of these VOCs must be neutralised. Surface deodorisers work by coating the VOCs with a fragrance that overpowers the smell — but the source continues producing VOCs, and the mask fades. Our approach is fundamentally different: we identify the chemical nature of the odour (protein-based, fatty-acid, microbial) and apply a chemical countermeasure that breaks down the source molecules through oxidation, enzymatic digestion or encapsulation."
+      },
+      {
+        "heading": "Bio-Enzymatic Treatment",
+        "body": "For organic odours — pet urine, vomit, food decomposition — bio-enzymatic cleaners are the only permanent solution. These products contain live bacteria and enzymes that digest the organic material causing the odour. The enzymes break down complex proteins and uric acid into simple, odourless compounds (water and carbon dioxide). The process takes time: a dwell period of 15–30 minutes for the enzymes to complete their work. For urine that has penetrated the carpet backing into the underlay, we inject the enzyme solution using a specialised tool that delivers it below the carpet surface."
+      },
+      {
+        "heading": "Ozone and Hydroxyl Treatment",
+        "body": "For pervasive odours that have penetrated the entire room — cigarette smoke, long-term pet odours, or musty mould — we use ozone or hydroxyl technology. The room is sealed, and an ozone generator produces O3 (ozone) molecules that oxidise odour-causing compounds and microorganisms. This requires the space to be unoccupied for the duration (typically 2–4 hours). After treatment, the room is aired out for 30 minutes. For occupied spaces or where ozone is unsuitable (sensitive materials), we use hydroxyl generators, which produce safe hydroxyl radicals that neutralise odours without requiring evacuation."
+      },
+      {
+        "heading": "Preventing Odour Return",
+        "body": "After odour removal, we apply an antimicrobial treatment that prevents future microbial growth, and an odour-inhibiting sealant that blocks any residual contaminants from releasing VOCs. For pet-owning households, we recommend a schedule of quarterly enzyme spot treatments in areas where pets frequent. The Bouul app includes a pet-area maintenance tracker and sends alerts when enzymatic treatments are due. For homes with recurring musty odours, we also inspect for moisture sources such as leaking pipes, poor ventilation or rising damp."
+      }
+    ]
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "notary_antenuptial_contract",
+    "tag": "Antenuptial Contract",
+    "title": "Antenuptial Contract (ANC) Drafting & Registration",
+    "subtitle": "Drafting ANC agreements with or without accrual prior to marriage",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Marrying in community of property makes you 100% liable for your partner's debts",
+    "problemBody": "Failing to register an ANC at the Deeds Office before your wedding date invalidates the agreement.",
+    "bouulSolution": [
+      "Admitted Notary Public drafts customized ANC with or without the accrual system",
+      "Formal notarization signing session prior to wedding date and Deeds Office registration",
+      "Escrow released after Deeds Office ANC registration certificate is issued"
+    ],
+    "partsNeeded": [
+      "Deeds Office ANC protocol register",
+      "Accrual calculation schedule",
+      "Notarial seal & ribbon"
+    ],
+    "guidePricing": "R2,200 – R4,800",
+    "timeline": "Duration: 1 – 3 Weeks",
+    "aiPromptExample": "Book ANC notary: 'Draft ANC with accrual system before wedding in Johannesburg.'",
+    "aiDiagnosisOutput": "Scope: Consult + ANC Drafting + Notarization + Deeds Office Registration. Escrow: R3,200.",
+    "escrowGuarantee": "Escrow released after Deeds Office ANC registration certificate is delivered.",
+    "pirbStandard": "LPC Admitted Notary Public & Deeds Office Registered.",
+    "articleSections": [
+      {
+        "heading": "Accrual System Customization",
+        "body": "Spouses declare initial net asset values to ensure fair financial sharing upon dissolution."
+      },
+      {
+        "heading": "Pre-Wedding Registration",
+        "body": "Notaries execute the ANC before the marriage ceremony and lodge it at the Deeds Office within 3 months."
+      }
+    ]
+  },
+  {
+    "id": "notary_apostille_authentication",
+    "tag": "Apostille & Legalization",
+    "title": "Apostille Certificate & DIRCO Document Legalization",
+    "subtitle": "Legalizing South African public documents for international use under the Hague Convention",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Foreign governments reject South African birth certificates or degrees without an Apostille",
+    "problemBody": "Navigating DIRCO and High Court Apostille processes independently takes weeks of frustration.",
+    "bouulSolution": [
+      "Notary Public authenticates copies and submits documents for High Court or DIRCO Apostille seals",
+      "Apostille certification of degrees, police clearances, birth certificates, and power of attorney",
+      "Escrow released upon delivery of official Apostille-stamped documents"
+    ],
+    "partsNeeded": [
+      "High Court Apostille certificate seal",
+      "DIRCO legalization tracking form",
+      "Notarial certificate of authentication"
+    ],
+    "guidePricing": "R850 – R2,800",
+    "timeline": "Duration: 2 – 10 Days",
+    "aiPromptExample": "Book Apostille: 'Obtain High Court Apostille for degree certificate for UK visa application.'",
+    "aiDiagnosisOutput": "Scope: Notarial copy authentication + High Court Apostille Certificate. Escrow: R1,500.",
+    "escrowGuarantee": "Escrow released upon delivery of Apostille-stamped document.",
+    "pirbStandard": "LPC Admitted Notary Public & High Court Registered.",
+    "articleSections": [
+      {
+        "heading": "Hague Convention Compliance",
+        "body": "Apostille certificates grant international legal recognition across 120+ Hague member countries."
+      },
+      {
+        "heading": "DIRCO Fast-Tracking",
+        "body": "Notaries utilize specialized courier channels to process DIRCO embassy legalizations efficiently."
+      }
+    ]
+  },
+  {
+    "id": "notary_notarial_bonds",
+    "tag": "Notarial Bonds",
+    "title": "Notarial Bond Registration over Movable Property",
+    "subtitle": "Securing commercial loans using business equipment, vehicles, or inventory as collateral",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Banks require formal security over movable assets before granting business loans",
+    "problemBody": "Unregistered security pledges fail to grant preference over other creditors in insolvency.",
+    "bouulSolution": [
+      "Notary Public drafts General or Special Notarial Bonds over specified business equipment",
+      "Registration of the bond at the Deeds Office to create legal security for lenders",
+      "Escrow released upon Deeds Office bond registration certificate delivery"
+    ],
+    "partsNeeded": [
+      "Deeds Office Notarial Bond register",
+      "Asset serial number inventory",
+      "Notarial bond deed"
+    ],
+    "guidePricing": "R3,500 – R12,000",
+    "timeline": "Duration: 2 – 4 Weeks",
+    "aiPromptExample": "Quote Notarial Bond: 'Register Special Notarial Bond over 4 business vehicles for R800k loan.'",
+    "aiDiagnosisOutput": "Scope: Draft Bond + Asset Schedule + Deeds Office Lodgement. Escrow: R6,500.",
+    "escrowGuarantee": "Escrow released upon Deeds Office registration confirmation.",
+    "pirbStandard": "LPC Admitted Notary & Security Registration Specialist.",
+    "articleSections": [
+      {
+        "heading": "Special vs General Bonds",
+        "body": "Special Notarial Bonds hypothecate specific identified movables (with serial numbers) creating real security."
+      },
+      {
+        "heading": "Creditor Preference",
+        "body": "Registered bonds grant the lender preferred creditor status under SA insolvency law."
+      }
+    ]
+  },
+  {
+    "id": "notary_servitude_registration",
+    "tag": "Notarial Servitudes",
+    "title": "Notarial Servitude & Rights of Way Registration",
+    "subtitle": "Registering praedial or personal servitudes (pipes, access roads, power lines) on title deeds",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "5 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Unregistered property access agreements are non-binding when land changes ownership",
+    "problemBody": "Neighbors disputing driveway access or pipeline routes require formal registered servitudes.",
+    "bouulSolution": [
+      "Notary Public drafts Servitude Agreements and registers them against property title deeds",
+      "Includes Rights of Way, Pipeline Servitudes, and Power Line Cable Encroachments",
+      "Escrow released upon Deeds Office title deed endorsement"
+    ],
+    "partsNeeded": [
+      "Deeds Office Servitude protocol",
+      "Land Surveyor diagram",
+      "Notarial deed of servitude"
+    ],
+    "guidePricing": "R4,500 – R14,000",
+    "timeline": "Duration: 4 – 8 Weeks",
+    "aiPromptExample": "Quote servitude: 'Register right-of-way servitude across farm property boundary.'",
+    "aiDiagnosisOutput": "Scope: Draft Servitude Deed + Attach Surveyor Diagram + Deeds Office Lodgement. Escrow: R8,500.",
+    "escrowGuarantee": "Escrow released after Title Deed endorsement by Registrar of Deeds.",
+    "pirbStandard": "LPC Admitted Notary Public.",
+    "articleSections": [
+      {
+        "heading": "Binding on Successors in Title",
+        "body": "Registered servitudes bind all future buyers of the property, ensuring permanent legal access."
+      },
+      {
+        "heading": "Surveyor Diagram Attachment",
+        "body": "Servitude areas are precisely defined by SG (Survevor-General) approved diagrams."
+      }
+    ]
+  },
+  {
+    "id": "notary_long_lease_registration",
+    "tag": "Long Leases",
+    "title": "Long-Term Lease Registration (10+ Years)",
+    "subtitle": "Drafting and registering long-term property leases at the Deeds Office",
+    "image": "/scenes/pro_legal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Leases longer than 10 years are not enforceable against new buyers unless registered",
+    "problemBody": "Commercial tenants investing millions in building fit-outs risk eviction if property is sold.",
+    "bouulSolution": [
+      "Notary Public notarizes long-term lease agreements and registers them against the title deed",
+      "Protects tenant tenure rights for 10 to 99 year commercial or agricultural leases",
+      "Escrow released upon Deeds Office registration certificate delivery"
+    ],
+    "partsNeeded": [
+      "Deeds Office Lease Protocol",
+      "Long-term lease agreement",
+      "Notarial certificate"
+    ],
+    "guidePricing": "R4,500 – R15,000",
+    "timeline": "Duration: 3 – 6 Weeks",
+    "aiPromptExample": "Quote long lease: 'Notarize and register 15-year commercial lease for retail center tenant.'",
+    "aiDiagnosisOutput": "Scope: Notarize 15-Year Lease + Deeds Office Registration. Escrow: R9,500.",
+    "escrowGuarantee": "Escrow released after Title Deed registration endorsement.",
+    "pirbStandard": "LPC Admitted Notary Public.",
+    "articleSections": [
+      {
+        "heading": "Real Right Protection",
+        "body": "Registration elevates a contractual lease into a 'real right' enforceable against all third parties."
+      },
+      {
+        "heading": "Tenant Investment Security",
+        "body": "Ensures anchor tenants can amortize multi-million Rand property upgrades with absolute security."
+      }
+    ]
+  },
+  {
+    "id": "notary_life_rights_contract",
+    "tag": "Life Rights",
+    "title": "Retirement Village Life Rights Contract Notarization",
+    "subtitle": "Notarizing Life Rights agreements for retirement village housing development",
+    "image": "/scenes/elderly_care.png",
+    "readTime": "4 min read",
+    "author": "Bouul Legal Team",
+    "problemHeadline": "Retirement village purchases require absolute legal clarity on Life Right occupancy terms",
+    "problemBody": "Unclear refund terms upon death or relocation create distress for surviving family members.",
+    "bouulSolution": [
+      "Notary Public reviews and notarizes Life Rights Agreements under the Housing Development Schemes for Retired Persons Act",
+      "Protects retiree occupancy rights and defines exact payback percentage formulas",
+      "Escrow released upon delivery of executed Notarial Life Right contract"
+    ],
+    "partsNeeded": [
+      "Housing Development Schemes for Retired Persons Act checklist",
+      "Life Rights Agreement",
+      "Notarial seal"
+    ],
+    "guidePricing": "R2,500 – R5,500",
+    "timeline": "Duration: 1 – 2 Weeks",
+    "aiPromptExample": "Book Life Rights notary: 'Review and notarize Life Right contract for retirement village unit.'",
+    "aiDiagnosisOutput": "Scope: Contract Legal Audit + Notarization Session + Execution. Escrow: R3,500.",
+    "escrowGuarantee": "Escrow released after delivery of notarized agreement.",
+    "pirbStandard": "LPC Admitted Notary & Fiduciary Specialist.",
+    "articleSections": [
+      {
+        "heading": "Statutory Protection",
+        "body": "Life Rights contracts comply strictly with Act 65 of 1988, securing lifelong housing rights."
+      },
+      {
+        "heading": "Refund Transparency",
+        "body": "Ensures clear contractual terms for capital refund percentages to estate beneficiaries."
+      }
+    ]
+  }
+]

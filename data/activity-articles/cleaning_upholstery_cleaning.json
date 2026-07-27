@@ -1,0 +1,278 @@
+[
+  {
+    "id": "couch_steam_cleaning",
+    "tag": "Upholstery Cleaning",
+    "title": "Couch Steam Cleaning",
+    "subtitle": "Professional hot water extraction removes years of embedded grime from your sofa",
+    "image": "/scenes/cleaning_couch_steam.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Couches absorb body oils, food crumbs, pet dander and dust mites that vacuuming cannot remove",
+    "problemBody": "Your couch is the most-used piece of furniture in your home, and it absorbs more than you realise. Every time someone sits, a small amount of body oil, dead skin cells and sweat transfers to the fabric. Food and drink spills seep into the cushion foam. Pet dander and dust mites colonise the fibres. Vacuuming removes surface debris but cannot extract the embedded contaminants that make a couch look faded, feel stiff and develop odours over time. In South African homes, where couches are central to family life — TV watching, reading, napping, entertaining — the accumulation of biological soil is significant and can reduce the useful life of a couch by half.",
+    "bouulSolution": [
+      "Hot water extraction (steam cleaning) of all cushions, backrests, armrests and the couch frame fabric",
+      "Pre-treatment with professional-grade upholstery cleaner to break down embedded soil",
+      "Accelerated drying with air movers, reducing dry time from 24 hours to 4–6 hours"
+    ],
+    "partsNeeded": [
+      "Portable hot water extraction unit with upholstery tool",
+      "Professional upholstery pre-spray (fabric-type specific)",
+      "Spot treatment chemicals for stains",
+      "High-velocity air movers for drying"
+    ],
+    "guidePricing": "R 250 – R 600 (2-seater couch to large corner sectional)",
+    "timeline": "1–3 hours depending on couch size; drying time 4–6 hours",
+    "aiPromptExample": "\"Describe a couch steam cleaning service for a fabric 3-seater sofa in a South African home, including pre-treatment, extraction and drying protocol.\"",
+    "aiDiagnosisOutput": "\"Body oil buildup on headrest and armrest areas. Food crumbs and dust in cushion crevices. Pet dander on lower fabric panels. Visible spill stain on centre cushion. Recommended: hot water extraction with fabric-appropriate pre-spray, spot treatment on stain, accelerated drying to prevent mould.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when couch is visibly clean, odour-free and dry within 6 hours",
+    "pirbStandard": "SANS 10232-1 upholstery cleaning; IICRC S100 upholstery standard; HASA fabric care protocol",
+    "articleSections": [
+      {
+        "heading": "What Hides in Your Couch",
+        "body": "The average couch contains a surprising amount of biological and non-biological material that accumulates over months of use. Studies have found that couch cushions can harbour: up to 2 million dust mites (allergen waste particles), millions of skin cells shed by occupants, bacteria from food spills and hand contact, pet dander and saliva residue, pollen tracked in from outdoor clothing, and volatile organic compounds (VOCs) from cleaning products and air pollution. This mixture creates a biofilm that causes the fabric to look dull and the couch to develop a musty odour over time. Professional steam cleaning removes these contaminants, restoring both appearance and hygiene."
+      },
+      {
+        "heading": "The Hot Water Extraction Process",
+        "body": "Professional upholstery steam cleaning follows a precise process. First, the fabric is inspected for colourfastness and cleaning code (W = water safe, S = solvent only, WS = both, X = professional clean only). A pre-spray specific to the fabric type is applied and agitated with a soft brush. This pre-treatment dwells for 10–15 minutes to break down soil. The hot water extraction unit then injects a cleaning solution at 80–100°C into the fabric and immediately extracts it along with the dissolved soil. The upholstery tool has a narrower head than a carpet wand, designed to clean flat fabric surfaces without over-wetting. Multiple rinse passes ensure no detergent residue remains."
+      },
+      {
+        "heading": "Drying and Re-soiling Prevention",
+        "body": "Correct drying is critical for upholstery. Over-wetting can cause the cushion foam to retain moisture, leading to mould, mildew, and fabric shrinkage. Our extraction process controls moisture injection to match the fabric's absorption rate. After extraction, we use high-velocity air movers directed at the couch surfaces to accelerate evaporation. Cushions are removed and stood on their sides to dry all surfaces. We check for complete dryness before leaving. An important post-cleaning note: detergent residue attracts rapid re-soiling. Our multiple rinse passes ensure no residue remains, keeping the couch clean for longer."
+      },
+      {
+        "heading": "Fabric-Specific Cleaning Codes",
+        "body": "Every upholstery fabric has a cleaning code indicated on the manufacturer's label. W code: water-based cleaners are safe — this is the most common for modern synthetic fabrics. S code: only solvent-based (dry) cleaning is safe — water will damage these fibres. WS code: both water and solvent methods are safe. X code: professional cleaning only — do not attempt DIY. Our technicians check the cleaning code before starting and select the appropriate method. For homes where the cleaning code label is missing, we perform a colourfastness test in an inconspicuous area before proceeding."
+      }
+    ]
+  },
+  {
+    "id": "fabric_sofa_dry_cleaning",
+    "tag": "Upholstery Cleaning",
+    "title": "Fabric Sofa Dry Cleaning",
+    "subtitle": "Low-moisture cleaning for delicate fabrics that cannot tolerate wet methods",
+    "image": "/scenes/cleaning_fabric_sofa.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Delicate and natural fibre fabrics are damaged by water-based cleaning",
+    "problemBody": "Many upholstery fabrics — velvet, chenille, linen, silk, rayon, and certain synthetic blends — carry an 'S' cleaning code, meaning water-based cleaning will cause shrinkage, colour bleeding, or permanent damage. These 'solvent only' fabrics require a specialised dry cleaning approach that uses minimal moisture and relies on solvent-based products to lift dirt. Many South African homes have upholstered furniture in these delicate fabrics, and improper cleaning can lead to costly damage. Professional dry cleaning of upholstery is often more expensive than steam cleaning but is necessary for delicate fabrics.",
+    "bouulSolution": [
+      "Solvent-based cleaning applied to fabric, agitated, and extracted with absorbent bonnet or vacuum",
+      "Microfiber bonnet cleaning for velvet and chenille to restore pile direction",
+      "Dry time under 2 hours — furniture is usable the same day"
+    ],
+    "partsNeeded": [
+      "Solvent-based upholstery cleaner (SABS-approved, fabric-specific)",
+      "Rotary bonnet buffer with absorbent pads",
+      "Upholstery detail brush and microfiber cloths",
+      "HEPA vacuum with upholstery brush tool"
+    ],
+    "guidePricing": "R 300 – R 700 (2-seater to large 4-seater sofa, S-code fabric)",
+    "timeline": "1–3 hours depending on sofa size; drying time 1–2 hours",
+    "aiPromptExample": "\"Describe a dry cleaning service for a velvet sofa (S-code fabric) in a South African home, using solvent-based cleaning and bonnet technique.\"",
+    "aiDiagnosisOutput": "\"Velvet fabric shows crushed pile in seating areas and soil accumulation on armrests. Fabric code is S (solvent only). Previous wet cleaning attempt caused water staining. Recommended: solvent-based bonnet cleaning with pile restoration brushing, low-moisture technique to avoid damage.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when fabric is clean, dry, and pile is restored to uniform direction",
+    "pirbStandard": "IICRC S100 'S' code fabric standard; HASA solvent-based upholstery protocol; SANS 1828:2018 solvent safety",
+    "articleSections": [
+      {
+        "heading": "Understanding Fabric Cleaning Codes",
+        "body": "Upholstery fabric cleaning codes are the most important piece of information before any cleaning begins. The code is usually found on a tag under the cushion or on the fabric itself. 'W' indicates water-based cleaners are safe — these fabrics can be steam cleaned. 'S' indicates solvent-only cleaning — water will cause shrinkage or colour loss. 'WS' indicates both methods are safe. 'X' indicates professional cleaning only with no DIY method possible. Our technicians are trained to identify these codes and will never use a water-based method on an S-code fabric. If the code is missing or unreadable, we perform a hidden-area test before proceeding."
+      },
+      {
+        "heading": "Bonnet Cleaning for Delicate Fabrics",
+        "body": "Bonnet cleaning is the preferred method for S-code fabrics. A solvent-based cleaning solution is sprayed lightly onto the fabric surface. An absorbent bonnet pad is attached to a rotary buffer, and the buffer is run over the fabric. The bonnet absorbs the dissolved soil from the fabric surface into the pad. The solvent evaporates quickly, leaving the fabric clean and dry within 1–2 hours. The rotary motion also restores the pile of velvet and chenille fabrics, which can become crushed from sitting pressure. The bonnet is changed regularly throughout the process to ensure soil is not re-deposited."
+      },
+      {
+        "heading": "Velvet and Chenille Special Care",
+        "body": "Velvet and chenille are among the most delicate upholstery fabrics. They have a distinctive pile — short, dense fibres that stand upright in velvet and longer, twisted fibres in chenille. Wet cleaning causes the pile to mat and the backing to shrink, permanently ruining the appearance. Our dry cleaning approach for these fabrics uses a light application of solvent, a gentle bonnet pass, and then a meticulous pile restoration step where each section is brushed in the direction of the pile with a dedicated velvet brush. The result is a clean, uniform pile with no water damage — the fabric looks new."
+      },
+      {
+        "heading": "Dry Cleaning vs DIY Options",
+        "body": "Many homeowners attempt to clean S-code fabrics with water-based products out of convenience, often with disastrous results. Shrinkage of 5–15% is common, causing the fabric to pull away from the frame or the cushion covers to become too small for the foam inserts. Colour bleeding from water contact on S-code fabrics creates permanent tide marks. Our dry cleaning service is the safe alternative, using methods that are tested for each fabric type. While dry cleaning costs more than steam cleaning, it costs far less than reupholstering a damaged sofa."
+      }
+    ]
+  },
+  {
+    "id": "leather_upholstery_cleaning",
+    "tag": "Upholstery Cleaning",
+    "title": "Leather Upholstery Cleaning and Conditioning",
+    "subtitle": "Restore the suppleness and appearance of leather furniture through professional cleaning",
+    "image": "/scenes/cleaning_leather.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Leather furniture cracks, fades and stiffens when cleaned with household products or left untreated",
+    "problemBody": "Leather is a natural material that requires specialised care. Many leather furniture owners use general-purpose cleaners, saddle soap, or furniture polish that strip the leather's natural oils, causing it to dry out, crack and lose colour. In South Africa's climate — with intense UV exposure in summer and dry air in Highveld winters — leather furniture is particularly susceptible to sun damage and dehydration. The body oils from everyday use also accelerate the degradation of leather finishes, leading to dark, shiny patches on headrests and armrests where skin contacts the leather. Without professional cleaning and conditioning, leather furniture can develop permanent cracks within 3–5 years.",
+    "bouulSolution": [
+      "Leather surface cleaned with pH-neutral leather cleaner that removes body oils without stripping finish",
+      "Deep conditioning with leather-specific conditioner that restores oils and flexibility",
+      "Visible damage (colour loss, scratches) assessed and recommendations provided for professional restoration"
+    ],
+    "partsNeeded": [
+      "pH-neutral leather cleaner (SABS-approved, non-alkaline)",
+      "Leather conditioner with UV protection",
+      "Soft microfiber cloths for application and buffing",
+      "Leather dye or colour restorer (for restoration, quoted separately)"
+    ],
+    "guidePricing": "R 250 – R 600 (2-seater leather sofa to large corner unit)",
+    "timeline": "1–2 hours depending on leather area and condition",
+    "aiPromptExample": "\"Describe a leather sofa cleaning and conditioning service for a South African home with a dark brown leather lounge suite, including UV protection application.\"",
+    "aiDiagnosisOutput": "\"Leather shows dark shiny patches on armrests and headrests from body oils. Surface has light cracking in crease areas from dryness. Colour is faded on the side exposed to sunlight. Recommended: pH-neutral leather cleaner to remove body oils, deep conditioner with UV protection, and annual conditioning schedule to prevent further cracking.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when leather is clean, conditioned and uniformly supple with no tacky residue",
+    "pirbStandard": "IICRC S100 leather cleaning standard; HASA leather care protocol; SANS 1828:2018 chemical safety for leather",
+    "articleSections": [
+      {
+        "heading": "The Anatomy of Leather",
+        "body": "Leather is animal hide that has been processed through tanning to make it durable and flexible. The surface is coated with a protective finish (pigment, aniline or semi-aniline depending on the type) that provides colour and protection. This finish is what you mostly interact with, not the raw leather itself. When body oils, dirt and cleaning products accumulate on this finish, they can break it down, leading to colour loss, stickiness and cracking. Our cleaning approach targets the finish layer, removing contaminants without damaging it, and our conditioner replenishes the oils that keep the finish flexible."
+      },
+      {
+        "heading": "The Body Oil Problem",
+        "body": "The most common issue with leather furniture is the buildup of body oils on areas that receive direct skin contact — headrests (neck and hair oil), armrests (hand oil), and seat cushions (leg and clothing oil). These oils darken the leather, creating a shiny, greasy patch that looks different from the surrounding area. Over time, the oils break down the leather's protective finish, causing permanent darkening and eventually cracking. Our cleaning uses a pH-neutral leather cleaner that emulsifies these oils and lifts them from the finish without stripping the underlying leather condition. Regular cleaning every 6–12 months prevents permanent damage."
+      },
+      {
+        "heading": "UV Damage in South Africa",
+        "body": "South Africa's high UV index year-round poses a significant threat to leather furniture. UV radiation breaks down the chemical bonds in leather, causing fading, drying and embrittlement. Leather couches placed near north- or west-facing windows can show visible fading within one summer. Our conditioning treatment includes a UV-inhibitor that absorbs and reflects UV radiation before it reaches the leather. We also advise on furniture placement and recommend UV-filtering window film for homes with significant sun exposure through large windows or sliding doors."
+      },
+      {
+        "heading": "Leather Type Identification",
+        "body": "Not all leather is the same, and the cleaning method depends on the type. Pigmented leather (the most common) has a durable colour coating and is most forgiving to clean. Aniline leather is dyed through with no top coating — it is more absorbent and requires gentler cleaning. Semi-aniline has a light top coat. Nubuck and suede are buffed leathers with a nap that requires specialised dry cleaning. Our technicians identify your leather type before cleaning and select the appropriate products. We never use the same product on aniline leather that we use on pigmented leather."
+      }
+    ]
+  },
+  {
+    "id": "dining_chair_upholstery_cleaning",
+    "tag": "Upholstery Cleaning",
+    "title": "Dining Chair Upholstery Cleaning",
+    "subtitle": "Remove food spills, grease and stains from your dining chair seats and backs",
+    "image": "/scenes/cleaning_dining_chairs.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Dining chair upholstery absorbs every meal's spills and grease splatters",
+    "problemBody": "Dining chairs are among the most frequently soiled upholstered items in any home. Every meal produces opportunities for spills — wine, gravy, oil, sauces, coffee — and the fabric on chair seats and backs absorbs these immediately. The seat cushion, where the diner sits, also absorbs body heat and oils that break down the fabric over time. The chair back, often at shoulder height, collects hair oils and skin contact. In South African homes where meals are central to family and social life, dining chair upholstery can become visibly stained and odorous within months of purchase, particularly in fabric colours that show every mark.",
+    "bouulSolution": [
+      "All dining chair seats and backs cleaned with upholstery-specific hot water extraction or dry cleaning",
+      "Stain pre-treatment for common dining spills: wine, oil, curry, tomato sauce, coffee",
+      "Chair frames wiped down, leg bases cleaned of floor debris"
+    ],
+    "partsNeeded": [
+      "Upholstery extraction tool for narrow chairs",
+      "Stain-specific spotting agents (protein, tannin, oil)",
+      "Upholstery pre-spray",
+      "Microfiber cloths for frame cleaning"
+    ],
+    "guidePricing": "R 40 – R 80 per chair (set of 6 chairs: R 240 – R 480)",
+    "timeline": "10–15 minutes per chair; 6 chairs completed in 60–90 minutes",
+    "aiPromptExample": "\"Describe a dining chair upholstery cleaning service for 6 chairs in a South African home, covering common food stains and fabric-type considerations.\"",
+    "aiDiagnosisOutput": "\"Seat cushions show food stains (curry on one chair, red wine on another) and general soiling. Chair backs have hair oil residue. Fabric is synthetic blend (WS code — safe for both methods). Recommended: hot water extraction with stain-specific pre-treatment for each stain type, then full extraction of all chairs.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when all chairs are stain-free (within fabric limitations), dry and odour-free",
+    "pirbStandard": "IICRC S100 upholstery standard; SANS 10232-1; HASA fabric-specific cleaning protocol",
+    "articleSections": [
+      {
+        "heading": "The Dining Chair Challenge",
+        "body": "Dining chairs present a unique cleaning challenge because they combine multiple stain types in a compact area. The seat cushion may have oil-based stains (from cooking oils and butter), tannin stains (from wine and fruit juice), and protein stains (from meat juices and dairy). The chair back may have different soiling — hair products, skin oils and dust. Additionally, the narrow profile of many dining chairs makes standard upholstery tools difficult to use effectively. Our technique uses a focused upholstery extraction tool designed for tight spaces, and we identify and treat each stain before the full extraction clean."
+      },
+      {
+        "heading": "Stain-Specific Pre-Treatment",
+        "body": "Effective dining chair cleaning depends on correct stain identification. Red wine and fruit juice stains (tannin) are treated with an alkaline spotting agent that breaks the tannin bond. Curry and oil-based stains are treated with a solvent-based emulsifier that dissolves the oily residue. Tomato-based sauces (acidic) are treated with a mild alkaline spottter. Coffee and tea stains (tannin + protein) require a combination approach. Each stain is treated individually before the overall chair clean. This pre-treatment ensures that the main extraction process can remove even set-in stains."
+      },
+      {
+        "heading": "Quick-Dry for Same-Day Use",
+        "body": "We understand that dining chairs are needed for the next meal. Our dining chair cleaning protocol prioritises fast drying. We use controlled moisture injection — enough to clean effectively but not so much that the cushion foam becomes saturated. After extraction, each chair is blotted with absorbent towels and, where the chair construction allows, the seat cushion is removed to dry separately. High-velocity air movers are directed at the chairs. Drying time is typically 2–3 hours, allowing the chairs to be used for the evening meal. We never leave a home with wet chairs."
+      },
+      {
+        "heading": "Chair Frame and Leg Care",
+        "body": "Beyond the upholstery, dining chair frames and legs collect their own grime. Food debris falls onto the seat rail and crossbars. Floor cleaning residue and dust accumulate on the leg bottoms. Our service includes: wiping all exposed wood or metal frame surfaces with an appropriate cleaner (wood polish for timber frames, metal cleaner for chrome or steel), cleaning the underside of the seat rail where food debris accumulates, and wiping chair leg bottoms. The chair is then reassembled if cushions were removed, and returned to its position."
+      }
+    ]
+  },
+  {
+    "id": "mattress_deep_cleaning",
+    "tag": "Upholstery Cleaning",
+    "title": "Mattress Deep Cleaning and Sanitisation",
+    "subtitle": "Eliminate dust mites, allergens, bed bug residue and body soils from your mattress",
+    "image": "/scenes/cleaning_mattress.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Your mattress can harbour up to 2 million dust mites and years of body soils",
+    "problemBody": "The average mattress in a South African home is used for 8–10 hours every night, absorbing sweat, body oils, dead skin cells, dust mites and their waste. Over five years, a mattress can double in weight from absorbed biological material. Dust mites thrive in the warm, humid environment of a mattress, feeding on the 10 grams of dead skin cells the average person sheds weekly. Their waste particles are a primary asthma and allergy trigger. Additionally, sweat and body fluids create a biofilm that can cause the mattress to develop a yellowed appearance and musty odour. Most mattress protectors and sheets delay but do not prevent this accumulation.",
+    "bouulSolution": [
+      "Mattress vacuumed with HEPA-filter upholstery tool to remove surface dust and dust mites",
+      "Deep cleaning with upholstery hot water extraction: removes embedded biological soils and allergens",
+      "UV-C sanitisation treatment kills remaining bacteria, dust mites and bed bug eggs without chemicals"
+    ],
+    "partsNeeded": [
+      "HEPA vacuum with upholstery brush tool",
+      "Upholstery hot water extraction unit with low-moisture setting",
+      "Enzyme-based mattress cleaner (breaks down biological soils)",
+      "UV-C sanitising wand for final sterilisation"
+    ],
+    "guidePricing": "R 150 – R 300 per mattress (single to king size)",
+    "timeline": "30–60 minutes per mattress; drying time 3–5 hours",
+    "aiPromptExample": "\"Describe a mattress deep cleaning and sanitisation service for a queen-size mattress in a South African bedroom, focusing on dust mite removal and allergen elimination.\"",
+    "aiDiagnosisOutput": "\"Mattress has yellow staining from sweat absorption in the sleeping area. Dust mite allergen detected in mattress surface fibres. Musty odour from absorbed body moisture. Minor pet dander if pets sleep on bed. Recommended: HEPA vacuum of entire surface, enzyme-based hot water extraction, UV-C sanitisation, and mattress protector recommendation.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when mattress is clean, odour-free and passes a UV inspection for biological residue",
+    "pirbStandard": "IICRC S100 mattress cleaning standard; SANS 10232-1; HASA mattress sanitisation protocol; WHO indoor allergen guidelines",
+    "articleSections": [
+      {
+        "heading": "The Dust Mite Problem",
+        "body": "Dust mites are microscopic arachnids that live in mattresses, pillows, carpets and upholstery. They feed on dead skin cells and thrive in warm, humid conditions — exactly the environment created by a sleeping body. Each mite produces approximately 20 waste particles per day, and these particles are a potent allergen. Heating a mattress to 60°C kills dust mites, but their waste particles remain and still trigger allergies. Our cleaning removes both the mites and their waste: the HEPA vacuum captures surface mites and waste, the enzyme-based cleaning breaks down the remaining waste proteins, and the UV-C treatment kills any surviving organisms."
+      },
+      {
+        "heading": "Body Soil Absorption",
+        "body": "Every night, a sleeping person loses approximately 1 litre of moisture through sweat and respiration. This moisture, combined with body oils and skin cells, soaks into the mattress through the sheets. Over time, this creates a distinctive yellow discolouration in the area where the body lies — a combination of sweat salts, urea and fatty acids. The pH of this biological soil is acidic, and it can degrade the mattress materials, causing premature sagging and odour. Our enzyme-based mattress cleaner targets these biological soils specifically, breaking them down for extraction."
+      },
+      {
+        "heading": "UV-C Sanitisation",
+        "body": "After the cleaning and extraction process, we apply UV-C sanitisation to the mattress surface. UV-C light (254 nanometres wavelength) damages the DNA of microorganisms, killing 99.99% of bacteria, viruses, dust mites and mould spores. The UV wand is passed slowly (approximately 5 seconds per 10cm) across the entire mattress surface, including the sides and head area. UV-C is a chemical-free sanitisation method, leaving no residue that could cause skin irritation or respiratory issues. This is particularly important for mattresses — the closest surface to your breathing for 8 hours every night."
+      },
+      {
+        "heading": "Mattress Protection After Cleaning",
+        "body": "After professional cleaning, we recommend installing a waterproof, allergen-impermeable mattress encasement that zips around the entire mattress. This prevents future dust mite colonisation, liquid spills from reaching the mattress, and biological soil accumulation. The encasement is breathable so it doesn't affect sleeping temperature but is impermeable to particles down to 1 micron — small enough to block dust mite waste. We also recommend washing pillows quarterly and replacing them every 2–3 years. The Bouul app schedules your mattress cleaning and pillow replacement reminders."
+      }
+    ]
+  },
+  {
+    "id": "pet_hair_upholstery_removal",
+    "tag": "Upholstery Cleaning",
+    "title": "Pet Hair and Dander Upholstery Removal",
+    "subtitle": "Deep removal of embedded pet hair, dander and odours from all upholstered furniture",
+    "image": "/scenes/cleaning_pet_hair.png",
+    "readTime": "4 min read",
+    "author": "Bouul Cleaning Operations Team",
+    "problemHeadline": "Pet hair embeds into upholstery fibres where vacuuming and lint rollers cannot reach",
+    "problemBody": "For South African pet owners — and roughly 60% of SA households own at least one pet — dog and cat hair on furniture is a constant battle. Pet hair has a barbed microscopic structure that hooks into fabric fibres, making it resistant to vacuuming and lint rollers. The hair works its way deep into the cushion structure, where it accumulates along with dander (dead skin cells), saliva residue and pet odours. Beyond the visible hair, pet dander is one of the most common allergens, and pet saliva proteins can cause allergic reactions in sensitive individuals. Over time, pet oils can also discolour and degrade upholstery fabric.",
+    "bouulSolution": [
+      "Specialised pet hair removal: rubber grooming brush, crepe rubber block and upholstery vacuum in sequence",
+      "De-shedding treatment loosens hair from fibre structure, then HEPA vacuum extracts it",
+      "Enzyme-based upholstery clean removes dander, saliva proteins and pet odours at the source"
+    ],
+    "partsNeeded": [
+      "Rubber pet hair removal brush (FurBuster equivalent)",
+      "Crepe rubber block for embedded hair",
+      "HEPA vacuum with upholstery tool",
+      "Enzyme-based pet odour neutraliser"
+    ],
+    "guidePricing": "R 200 – R 500 (2-seater couch to large sectional with heavy pet hair)",
+    "timeline": "30–90 minutes depending on furniture size and hair embedment level",
+    "aiPromptExample": "\"Describe a pet hair removal and upholstery cleaning service for a fabric couch in a South African home with two dogs, including dander removal and odour neutralisation.\"",
+    "aiDiagnosisOutput": "\"Heavy pet hair embedment in couch cushions, particularly on lower panels and armrests. Dander present on all surfaces. Saliva residue on armrests and back panels (where pets rest heads). Pet odour detected in cushion foam. Recommended: rubber brush de-shedding, crepe rubber extraction, HEPA vacuum, enzyme-based upholstery clean for odour elimination.\"",
+    "escrowGuarantee": "Funds held in Bouul escrow – released when visible pet hair is removed and the upholstery passes a lint-roller test",
+    "pirbStandard": "IICRC S100 upholstery standard; HASA pet hair removal protocol; SANS 1828:2018 chemical safety for enzyme cleaning",
+    "articleSections": [
+      {
+        "heading": "The Pet Hair Problem",
+        "body": "Pet hair is structurally designed to stay in place. Each hair has microscopic scales (cuticles) that point toward the tip, creating a barbed surface. When the hair is pressed into upholstery fabric, these scales hook onto the fabric fibres, resisting removal. Standard vacuum cleaners lack the suction power and agitation to overcome this hooking effect. Our rubber brush method uses the principle of triboelectric attraction — the rubber brush creates static electricity that attracts the hair and pulls it away from the fabric. The crepe rubber block then removes the loosened hair, and the HEPA vacuum captures it. This three-step process removes 95%+ of embedded pet hair."
+      },
+      {
+        "heading": "Dander and Allergen Removal",
+        "body": "Pet dander (skin flakes) is smaller than hair and more difficult to remove because it can become electrostatically bonded to fabric fibres. Dander particles are 5–10 microns in size — small enough to stay airborne for hours after a pet leaves the room. Our HEPA vacuum captures particles down to 0.3 microns, effectively removing dander from the fabric surface. The deeper dander that has worked into the cushion foam is removed through the hot water extraction process, which flushes out the foam structure and extracts the dander-laden water. This two-stage approach reduces allergen levels by 90%+."
+      },
+      {
+        "heading": "Pet Odour Source Treatment",
+        "body": "Pet odours in upholstery come from multiple sources: saliva proteins that dry onto fabric, urine accidents that soak into cushions, anal gland secretions, and the general bacterial breakdown of pet soils in the fabric. Each requires a different approach. Saliva odour is treated with a protein-digesting enzyme cleaner. Urine requires bio-enzymatic treatment that penetrates the cushion foam. General pet odour is neutralised with an oxidising treatment that breaks the VOC molecules causing the smell. We never use perfumed masking agents — we eliminate the odour at its chemical source."
+      },
+      {
+        "heading": "Post-Cleaning Pet Hair Management",
+        "body": "After professional cleaning, you can extend the results with simple habits. Use a rubber grooming brush on your upholstery once a week between professional cleans. Keep a lint roller near your pet's favourite spots for quick daily hair removal. Wash pet bedding weekly (the source of much of the hair and dander that transfers to sofas). Use a furniture cover or throw blanket on your pet's preferred spot. Bathe and brush your pets regularly to reduce shedding. The Bouul app tracks your upholstery cleaning schedule and adjusts the frequency based on the number and type of pets you have."
+      }
+    ]
+  }
+]

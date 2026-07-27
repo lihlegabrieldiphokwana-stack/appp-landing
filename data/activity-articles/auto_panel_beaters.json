@@ -1,0 +1,326 @@
+[
+  {
+    "id": "dent_repair",
+    "tag": "Panel Beaters",
+    "title": "Dent Removal: Paintless vs Traditional \u2014 Which Is Right?",
+    "subtitle": "From a hailstorm in Joburg to a trolley ding \u2014 the best way to straighten your bodywork",
+    "image": "/scenes/auto_dent_repair.png",
+    "problemHeadline": "That dent does not mean a full respray.",
+    "problemBody": "PDR uses tools from behind the panel to massage metal back \u2014 no sanding, filler, or paint. It costs less and preserves factory paint. However, PDR has limits: dents on sharp body lines, reinforced areas, or chipped paint need traditional repair.",
+    "bouulSolution": [
+      "Panel beaters assess PDR vs traditional \u2014 never push unnecessary work",
+      "PDR is often mobile \u2014 technician comes to your home or office",
+      "Escrow holds payment until you inspect in good light \u2014 no ripples, no mismatched sheen"
+    ],
+    "partsNeeded": [
+      "PDR tools (rods, LED light board, glue puller)",
+      "Body filler (U-Pol or 3M Platinum for traditional repair)",
+      "Primer, basecoat, clear coat for traditional repair + blending",
+      "Wet-sanding paper and polishing compound"
+    ],
+    "guidePricing": "R600 \u2013 R2 500 per dent (PDR); R1 500 \u2013 R6 000 (traditional)",
+    "timeline": "30\u201390 min per dent (PDR); 1\u20132 days (traditional)",
+    "aiPromptExample": "2017 Corolla. Golf-ball dent on rear door body line from shopping centre car door. Worried crease means PDR not possible.",
+    "aiDiagnosisOutput": "Corolla 2017 \u2014 dent on body line. PDR possible but higher risk. Est. PDR R1 800\u2013R2 500. Traditional R3 500\u2013R5 500. If paint not cracked, PDR preferred.",
+    "escrowGuarantee": "Inspect in bright raking light from all angles. No ripples, no paint mismatch. If dent still visible, funds held until corrected.",
+    "pirbStandard": "SANS 10134 Automotive Body Repair; MIWA Panel Beating Code of Practice",
+    "articleSections": [
+      {
+        "heading": "Paintless dent removal (PDR) limits",
+        "body": "PDR works for dents up to 15\u201320 mm deep with good rear access. Larger than a dinner plate, on structural panels (A-pillar), or ultra-high-strength steel cannot be PDR'd."
+      },
+      {
+        "heading": "When traditional repair is needed",
+        "body": "Paint chipped (bare metal exposed) \u2014 PDR cannot seal from corrosion. Dent on sharp body line \u2014 metal is stretched, PDR restores only 90\u201395%. Traditional: sand, filler, block, prime, paint, clear coat the entire panel."
+      },
+      {
+        "heading": "Hail damage in SA",
+        "body": "Gauteng hailstorms cause dozens of dents across roof and bonnet. Insurers prefer PDR for hail. Full-hail PDR takes 2\u20135 days but costs a fraction of a respray."
+      },
+      {
+        "heading": "Paint blending for invisible repairs",
+        "body": "When a panel is resprayed, the painter must blend clear coat into adjacent panels. Without blending, a hard gloss line is visible. Pearlescent colours (Toyota White Pearl, BMW Tanzanite Blue) are hardest to match."
+      },
+      {
+        "heading": "Insurance claims for dents",
+        "body": "Small dents (R800\u2013R2 500) may not justify claiming \u2014 excess plus increased premium may cost more. Bouul quotes are claim-ready for pre-authorisation. Hail or large dents should go through insurance."
+      },
+      {
+        "heading": "Preventing car park dents",
+        "body": "Park away from other cars, next to pillars. Avoid trolley bays at supermarkets. Door edge guards prevent your own car from damaging others."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "bumper_respray",
+    "tag": "Panel Beaters",
+    "title": "Bumper Repair and Respray: Factory-Fresh Look Restored",
+    "subtitle": "Scratched, scuffed, or cracked bumpers \u2014 the most common SA bodywork issue",
+    "image": "/scenes/auto_bumper_respray.png",
+    "problemHeadline": "Your bumper has seen better days. Repair or replace?",
+    "problemBody": "Most plastic bumpers can be repaired rather than replaced. Deep scratches, cracks, and splits can be plastic-welded from behind, filled, and resprayed for a fraction of a new bumper cost. Many shops replace when welding would be adequate.",
+    "bouulSolution": [
+      "Inspect and recommend repair vs replacement with photos and pricing for both",
+      "Cracked bumpers plastic-welded from behind with hot stapler \u2014 stronger than fibreglass patch",
+      "Escrow holds payment until colour match in natural light, surface smooth, gaps even"
+    ],
+    "partsNeeded": [
+      "Plastic-welding kit (heated stapler or rod, type-specific to PP/TPO/PUR)",
+      "Flexible bumper filler (U-Pol Flex or 3M Platinum)",
+      "Flex-additive primer, basecoat (colour-matched), 2K clear coat",
+      "Scotch-Brite pad and plastic adhesion promoter"
+    ],
+    "guidePricing": "R2 000 \u2013 R5 000 (repair and respray); R3 500 \u2013 R12 000 (new replacement sprayed)",
+    "timeline": "1\u20132 days (repair + painting); 3\u20134 hours scuff only",
+    "aiPromptExample": "2018 Ford EcoSport. Scraped concrete pillar \u2014 15 cm scuff on front bumper corner with plastic gouging. Paint code on door jamb.",
+    "aiDiagnosisOutput": "EcoSport 2018 \u2014 plastic gouge, no crack. Repairable: flexible filler, prime, base, clear blend. Est. R2 500\u2013R4 000. Paint code needed for mixing.",
+    "escrowGuarantee": "Check in natural light from 1 m \u2014 colour match within 95%. Panel gaps even with headlight and fender. Flex bumper edges \u2014 no cracking.",
+    "pirbStandard": "SANS 10134; SABS 1585 bumper material testing",
+    "articleSections": [
+      {
+        "heading": "Plastic bumper types",
+        "body": "Most factory bumpers: PP, TPO, or PUR \u2014 all weldable. Type stamped inside. Aftermarket fibreglass (GRP) bumpers use different repair method \u2014 fibreglass matting and resin, more brittle."
+      },
+      {
+        "heading": "Scuffs vs cracks vs splits",
+        "body": "Scuff: surface scratch \u2014 sand, prime, paint. Gouge: into plastic but not through \u2014 filler after adhesion promoter. Crack: through plastic \u2014 V-groove welding from behind. Split: two pieces \u2014 same process plus backing patch."
+      },
+      {
+        "heading": "Finding your colour code",
+        "body": "Paint code label on driver door jamb, fuel filler flap, or under bonnet. 2\u20134 character code e.g. 040 (Toyota Super White II). Panel beater needs this. If previously resprayed, spectrophotometer reading needed."
+      },
+      {
+        "heading": "Paint matching difficulty",
+        "body": "Age and UV fade original paint differently. White 2015 Toyota parked outside will not match fresh code mix. Painter must tint to current shade and blend clear. Tri-coat (pearlescent) hardest to match."
+      },
+      {
+        "heading": "Driving after a respray",
+        "body": "Needs 24\u201348 hours drying at 20\u201325\u00b0C. Clear coat must harden before resisting stone chips. Cape Town winter takes longer. Rain or car wash before fully cured damages finish."
+      },
+      {
+        "heading": "Post-repair maintenance",
+        "body": "Avoid automatic car washes for 30 days. Hand wash with pH-neutral soap. Apply wax after 60 days (clear coat must outgas). Consider PPF on front bumper edges."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "full_respray",
+    "tag": "Panel Beaters",
+    "title": "Full Respray: Transforming Your Car Inside and Out",
+    "subtitle": "From colour change to concours-level finish \u2014 costs and process for getting it right",
+    "image": "/scenes/auto_full_respray.png",
+    "problemHeadline": "Should you respray your car or wrap it?",
+    "problemBody": "A full respray costs R15 000 to R80 000+ depending on level. It addresses peeling clear coat, fading, colour change, or accident damage. The decision vs a wrap depends on budget, longevity, and whether original paint is salvageable.",
+    "bouulSolution": [
+      "Quote by level: exterior-only, jambs-out, show-quality, or engine-bay-included",
+      "Strip trim, sand to bare metal, epoxy prime, apply with proper drying between coats",
+      "Escrow staged: approve prep, then basecoat, then release final after quality inspection"
+    ],
+    "partsNeeded": [
+      "Paint (primer, basecoat, clear coat \u2014 single-stage, 2K, or tri-coat)",
+      "Consumables (sandpaper 240\u20132 000 grit, masking tape, tack cloths)",
+      "Thinners, hardener, and reducer for 2K paints",
+      "Clear coat (2K urethane high-solids for UV resistance)"
+    ],
+    "guidePricing": "R15 000 \u2013 R35 000 (exterior single-stage); R35 000 \u2013 R80 000+ (jambs-out professional)",
+    "timeline": "5\u201314 days depending on prep and drying",
+    "aiPromptExample": "1999 BMW 328i E46 silver. Clear coat peeling on roof, bonnet, boot. Want full respray original Titanium Silver code 354 including door jambs. Pretoria area.",
+    "aiDiagnosisOutput": "1999 E46 \u2014 clear coat peeling on horizontals. Full exterior 2K respray needed. Jambs optional. Code 354 available. Est. R22 000\u2013R28 000 exterior; add R5 000\u2013R8 000 for jambs. Timeline 7\u201310 days.",
+    "escrowGuarantee": "Milestone 1 (25%): approve after prep and primer. Milestone 2 (25%): approve after basecoat before clear. Milestone 3 (50%): final \u2014 check for runs, dust nibs, orange peel, overspray.",
+    "pirbStandard": "SANS 10134; SABS 1115 for automotive paint quality",
+    "articleSections": [
+      {
+        "heading": "Single-stage vs 2K vs tri-coat",
+        "body": "Single-stage: colour + clear in one mix \u2014 cheaper but less UV resistant. 2K: separate clear coat \u2014 much more durable, industry standard. Tri-coat: base + mid-coat + clear \u2014 30\u201350% more expensive, harder to repair."
+      },
+      {
+        "heading": "Strip-down prep importance",
+        "body": "80% of respray quality is prep. Every trim piece, door handle, light, and badge should be removed, not masked. Rust cut out and treated. Dents blocked perfectly. Guide coat applied to reveal every low spot."
+      },
+      {
+        "heading": "Colour change hidden effort",
+        "body": "Changing colour multiplies work. Engine bay, door jambs, boot surround, under bonnet must all be painted to look factory. eNaTIS must be updated if the recorded colour changes."
+      },
+      {
+        "heading": "Overspray: sign of poor work",
+        "body": "Overspray is paint mist on surfaces not meant to be painted \u2014 window rubbers, seals, wiring. A professional masks and wraps the car in plastic. Overspray on rubber causes stiffening and cracking."
+      },
+      {
+        "heading": "Warranty and longevity",
+        "body": "Professional 2K respray lasts 5\u201310 years. RMI-accredited shops warranty against peeling and blistering for 1\u20133 years. Warranty valid only if correct drying times followed."
+      },
+      {
+        "heading": "When a respray may not be best",
+        "body": "Vinyl wrap (R8 000\u2013R20 000) is cheaper and reversible if factory paint is reasonable. If car value under R50 000, cheap respray may exceed added resale value."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "rust_repair",
+    "tag": "Panel Beaters",
+    "title": "Rust Repair: Stopping the Cancer Before It Spreads",
+    "subtitle": "Surface rust can be fixed in a day. Structural rust needs a specialist.",
+    "image": "/scenes/auto_rust_repair.png",
+    "problemHeadline": "Is that rust spot cosmetic or structural?",
+    "problemBody": "Rust in coastal SA accelerates from salt spray. Inland, moisture from winter fog still causes problems. Rust never stops spreading. Surface rust is repairable. Structural rust (chassis rails, suspension mounts, floorpans) requires welding and can write off the vehicle if extensive.",
+    "bouulSolution": [
+      "Assess by probing with a screwdriver \u2014 if tool goes through, more extensive than it looks",
+      "Cut out all corroded metal, treat with rust converter, weld in new metal (not filler), paint-match",
+      "Escrow holds payment until repair is invisible, no rust returns within warranty, structural integrity verified"
+    ],
+    "partsNeeded": [
+      "Sheet metal (20\u201322 gauge, same thickness as panel)",
+      "Rust converter (phosphoric acid-based, e.g. Corroless)",
+      "Body filler (thin skim only over metal, never deep fill over rust)",
+      "Weld-through primer, seam sealer, cavity wax"
+    ],
+    "guidePricing": "R1 500 \u2013 R4 000 (surface rust per panel); R4 000 \u2013 R15 000 (structural per area)",
+    "timeline": "1\u20133 days per panel",
+    "aiPromptExample": "2007 Isuzu KB 250 D-Teq. Bubbling under paint on rear wheel arch. Load bin crossmembers look rusty too.",
+    "aiDiagnosisOutput": "Isuzu KB 2007 \u2014 wheel arch perforation and crossmember corrosion. Cut-and-weld arch: R3 000\u2013R5 500. Crossmembers: R6 000\u2013R12 000 if more than 2 need replacement.",
+    "escrowGuarantee": "Inspect for smooth welds, no filler cracks, proper paint. Push on repaired area \u2014 no flexing. Re-check after 6 months (Bouul reminder).",
+    "pirbStandard": "SANS 10134; RMI Corrosion Repair Code of Practice",
+    "articleSections": [
+      {
+        "heading": "Surface vs penetrating vs perforation rust",
+        "body": "Surface: light discolouration from stone chips \u2014 sand, converter, prime, paint. Penetrating: metal pitted/thinning \u2014 cut out and weld new metal. Perforation: holes through metal \u2014 cut-and-weld only. Filling holes with fibreglass is unsafe."
+      },
+      {
+        "heading": "Rust-prone areas on SA vehicles",
+        "body": "Rear wheel arches, lower door edges, tailgate bottom, chassis crossmembers, spare wheel well. Bakkies (Hilux, Ranger, Isuzu): load bin floor and crossmembers notorious from wet loads."
+      },
+      {
+        "heading": "Cut-and-weld vs filler",
+        "body": "Grinding rust and filling with filler traps moisture \u2014 rust returns in 6\u201312 months worse. Correct: cut out all rusted metal to clean steel, treat edges with converter, weld new metal, grind smooth, thin filler skim, prime and paint."
+      },
+      {
+        "heading": "Cavity wax protection",
+        "body": "After repair, spray cavity wax inside panels through drain holes. Wax seals out moisture. Without it, the repaired panel can rot from inside within 2 years."
+      },
+      {
+        "heading": "When a car is uneconomical to repair",
+        "body": "Structural components (chassis rails, sills) with extensive perforation \u2014 especially if car value below R50 000. Sourcing a scrapyard panel and welding it may be cheaper than fabrication."
+      },
+      {
+        "heading": "Preventing rust in SA climate",
+        "body": "Garage parking extends panel life. Coastal: wash undercarriage monthly. Inland: check door drain holes clear. Rust-proofing sprays (Tectyl, Wurth) every 2\u20133 years."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "scratch_removal",
+    "tag": "Panel Beaters",
+    "title": "Scratch Removal: From Key Marks to Deep Gouges",
+    "subtitle": "Not every scratch needs a panel beater \u2014 find out which you can fix",
+    "image": "/scenes/auto_scratch_removal.png",
+    "problemHeadline": "Can that scratch be buffed out?",
+    "problemBody": "Scratches graded by depth: clear coat (polishable), basecoat (touch-up paint needed), primer/metal (full spot repair). Malicious keying and fence brushing are the most common deep scratches needing professional repair.",
+    "bouulSolution": [
+      "Assess with scratch depth gauge, give firm price for each option",
+      "Clear coat scratches wet-sanded and machine-polished same day \u2014 no paint needed",
+      "Escrow holds payment until scratch is invisible under bright light from multiple angles"
+    ],
+    "partsNeeded": [
+      "Wet-sanding paper (1 500\u20135 000 grit)",
+      "Touch-up paint (exact OEM code) and fine applicator brush",
+      "Primer, basecoat, clear coat for deep scratch spot repair",
+      "Machine polisher, cutting compound, finishing polish"
+    ],
+    "guidePricing": "R350 \u2013 R800 per scratch (clear coat); R500 \u2013 R2 500 (touch-up and blend)",
+    "timeline": "30\u201390 min (clear coat); half day (deep scratch with paint)",
+    "aiPromptExample": "2021 Suzuki Swift. Someone keyed the driver door 80 cm long. White primer visible in places, bare metal at one point. Pretoria East.",
+    "aiDiagnosisOutput": "Swift 2021 \u2014 80 cm key scratch varying depth. Clear coat (polish), basecoat (touch-up), one metal-deep section (spot repair). Mobile spot repair feasible. Est. R1 500\u2013R3 500 spot repair + blend.",
+    "escrowGuarantee": "Inspect in direct sun and under streetlight at night from 1 m. If you still see a line, payment stays frozen. You have 7 days to inspect.",
+    "pirbStandard": "SANS 10134; SABS 1115 paint finish standards",
+    "articleSections": [
+      {
+        "heading": "The fingernail test",
+        "body": "Fingernail across scratch perpendicularly. No catch: clear coat only \u2014 polishable. Slight catch: basecoat \u2014 touch-up needed. Deep catch and different colour (white/grey/orange): bare metal \u2014 full spot repair needed within days before rust."
+      },
+      {
+        "heading": "Wet sanding and polishing",
+        "body": "Clear coat scratch is a groove in the lacquer. Wet sanding with 2000-grit smooths edges. Machine polishing restores gloss. Clear coat loses 5\u201310 microns. If previously polished, may be too thin."
+      },
+      {
+        "heading": "DIY vs professional touch-up",
+        "body": "DIY brush-on pen (R150\u2013R300) works for stone chips but leaves a visible lump. Professional: thin coats with fine brush or airbrush, wet-sand flush, clear coat. Result barely detectable."
+      },
+      {
+        "heading": "Spot repair process",
+        "body": "Sand the spot, apply primer to metal, basecoat feathering outward, clear coat blended to surrounding panel. The blend line on a good job is undetectable without a paint depth gauge."
+      },
+      {
+        "heading": "When full panel respray is needed",
+        "body": "Scratch over 30 cm long and deep over a significant length \u2014 spot repair may show a low spot. Sports cars or high-value vehicles need full panel respray for invisible repair."
+      },
+      {
+        "heading": "Preventing future scratches",
+        "body": "Ceramic coating reduces micro-scratch visibility but does not prevent deep ones. PPF on high-impact areas blocks physical scratches. Parking away from other cars. Never drying with a dirty towel."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  },
+  {
+    "id": "insurance_claim",
+    "tag": "Panel Beaters",
+    "title": "Insurance Claims: Step-by-Step Through the Panel Shop Process",
+    "subtitle": "From accident to back on the road \u2014 navigating insurance claims with RMI-accredited shops",
+    "image": "/scenes/auto_insurance_claim.png",
+    "problemHeadline": "You have had an accident. Now what?",
+    "problemBody": "After a motor vehicle accident in SA, you have 14 days to claim. The process: SAPS accident number (if injuries or uninsured third party), three-quote assessment, and managing supplements (hidden damage after strip-down). Thousands in write-offs happen because owners do not understand tear-down assessments.",
+    "bouulSolution": [
+      "RMI-accredited panel beaters handle the full process \u2014 from assessment to quality check",
+      "Assistance with SAPS report, insurer communication, and supplement management",
+      "Escrow ensures repair meets standard before final insurance payout release"
+    ],
+    "partsNeeded": [
+      "Full damage assessment report with photos for insurer",
+      "Parts as specified per policy (OEM, OEM-equivalent, or recycled)",
+      "Paint inspection and thickness report ensuring blend match",
+      "Post-repair inspection certificate (RMI quality checklist)"
+    ],
+    "guidePricing": "Varies by damage \u2014 excess R1 000\u2013R10 000 typical in SA",
+    "timeline": "1\u20133 days (assessment); 3\u201314 days (full repair)",
+    "aiPromptExample": "Rear-ended at a robot in Randburg. Other driver admitted fault, SAPS case number. 2023 Corolla Cross, rear bumper and boot lid damage. Want to use my own panel shop.",
+    "aiDiagnosisOutput": "Corolla Cross 2023 \u2014 rear collision. Visible: bumper, boot lid. Likely hidden: impact bar, tail lights, sensors. Your right: choose any RMI shop. Get 3 quotes (insurer network + Bouul shop), pick best balance.",
+    "escrowGuarantee": "Before signing insurance release: inspect paint match in sun and at night, check panel gaps symmetrical, test lights and sensors, check boot seals for leaks.",
+    "pirbStandard": "SANS 10134; RMI Insurance Repair Code of Practice; SAIA guidelines",
+    "articleSections": [
+      {
+        "heading": "Your rights in the repair process",
+        "body": "You may choose your own repairer. Insurers recommend their network but cannot force you. Non-network shops: insurer sends own assessor. Labour rate difference (R600\u2013R850/h shop vs R550\u2013R650/h insurer cover) is your responsibility. Bouul shops are transparent."
+      },
+      {
+        "heading": "The supplement explained",
+        "body": "Hidden damage discovered after strip-down. The panel beater submits a supplement to the insurer, taking 2\u20135 days to approve. Ask your Bouul shop for a tear-down assessment before the initial quote to minimise supplements."
+      },
+      {
+        "heading": "OEM vs aftermarket parts",
+        "body": "Policy specifies OEM, OEM-equivalent, or recycled parts. Comprehensive retail-value policies specify OEM for newer cars. Budget policies specify recycled. If aftermarket does not fit, you may request OEM. Bouul shops show parts before fitting."
+      },
+      {
+        "heading": "Paint matching for insurance repairs",
+        "body": "Same paint code varies by age and UV. The shop may need to blend clear into the adjacent panel. Insist on blending in your claim. Bouul escrow verifies blend quality before releasing payment."
+      },
+      {
+        "heading": "Write-offs and total loss",
+        "body": "If repair cost exceeds 70\u201380% of pre-accident value, the car is a write-off. Code 3: repairable and re-registerable. Code 4: scrap. Disagree? Request second opinion from Ombudsman for Short-Term Insurance."
+      },
+      {
+        "heading": "The final quality check",
+        "body": "Walk around in sunlight checking paint match and gaps. Close doors/boot \u2014 same force as before. Test all lights, sensors, cameras. Test drive for rattles. Release Bouul escrow only after all checks pass."
+      }
+    ],
+    "readTime": "4 min read",
+    "author": "Bouul Automotive Services Team"
+  }
+]

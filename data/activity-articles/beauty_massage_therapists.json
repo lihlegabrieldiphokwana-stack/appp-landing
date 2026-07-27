@@ -1,0 +1,278 @@
+[
+  {
+    "id": "full-body-massage",
+    "tag": "massage-therapists",
+    "title": "Full Body Massage: The Complete Guide to SA Wellness",
+    "subtitle": "From what to expect on the table to aftercare - everything a first-timer needs to know.",
+    "image": "/scenes/full-body-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is a full body massage worth the cost?",
+    "problemBody": "A full body massage costs R350-R750 for 60 minutes. Regular massage reduces cortisol, lowers blood pressure, improves sleep, and decreases musculoskeletal pain. A proper full body session covers back, shoulders, neck, glutes, legs, arms, hands, and feet - always with modest draping.",
+    "bouulSolution": [
+      "Bouul therapists list qualifications - look for ITEC, CIDESCO, or SAASWA certified.",
+      "Arrive hydrated, eat lightly 2 hours before, no alcohol 12 hours before.",
+      "Bouul Escrow protects you if the session is cut short or service is unprofessional."
+    ],
+    "partsNeeded": [
+      "Massage table with face cradle",
+      "Massage oil, lotion, or cream",
+      "Clean sheets and towels per client",
+      "Ambient lighting and aromatherapy"
+    ],
+    "guidePricing": "R350-R750 for 60 min; R500-R1,100 for 90 min; R150-R350 for 30 min targeted",
+    "timeline": "60 min standard; 90 min for comprehensive treatment",
+    "aiPromptExample": "Describe the ideal full body massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended full body massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "What to Wear",
+        "body": "Undress to your comfort level - most clients keep underwear on. The therapist leaves while you undress and get under the top sheet. Only the area being worked on is uncovered at any time. This is a legal requirement under SA massage therapy codes of conduct."
+      },
+      {
+        "heading": "Communication During the Session",
+        "body": "Speak up about pressure. Tell your therapist: more pressure, less pressure, or that spot right there. Most therapists check in at the start of each body area, but you can speak at any time. The face cradle means you dont have to make eye contact.\nSAASWA ethical guidelines require therapists to check pressure at least three times during a session."
+      },
+      {
+        "heading": "Post-Massage Hydration",
+        "body": "Massage releases metabolic waste from muscles into your bloodstream. Drinking 500ml-1L of water in the hours after your session helps flush these out and prevents the mild headache some clients experience post-massage. Avoid alcohol and caffeine for 4-6 hours after."
+      },
+      {
+        "heading": "Frequency Recommendations",
+        "body": "For general wellness, a monthly full body massage is sufficient. For chronic pain, injury recovery, or high-stress lifestyles, weekly or fortnightly sessions produce significantly better outcomes. Most SA medical aids offer massage benefits - check your scheme."
+      }
+    ]
+  },
+  {
+    "id": "sports-massage",
+    "tag": "massage-therapists",
+    "title": "Sports Massage: Recovery, Performance, and Injury Prevention for SA Athletes",
+    "subtitle": "Not just for elite athletes - sports massage helps everyone from weekend runners to gym regulars.",
+    "image": "/scenes/sports-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is sports massage just a painful deep tissue massage?",
+    "problemBody": "Sports massage is a targeted treatment for athletes and active individuals. It focuses on muscle groups used in specific sports and includes pre-event, post-event, maintenance, and rehabilitation techniques. Cost is R400-R900 per session depending on duration and the therapists specialisation level. It differs from relaxation massage in its goal: improved performance and faster recovery, not just relaxation.",
+    "bouulSolution": [
+      "Bouul sports massage therapists have specific sports qualifications - look for Biokinetics Association of SA (BASA) or SASMA accreditation.",
+      "Arrive with water and a towel. Wear shorts and a vest top for easier access to leg and shoulder muscles.",
+      "Bouul Escrow protects you if the therapist aggravates an injury rather than treating it."
+    ],
+    "partsNeeded": [
+      "Massage table or portable plinth",
+      "Sports-specific lotion or gel (non-greasy)",
+      "Hot/cold packs for trigger point work",
+      "Resistance bands for active stretching"
+    ],
+    "guidePricing": "R400-R800 for 60 min; R600-R1,000 for 90 min including stretching",
+    "timeline": "45-60 min for maintenance; 60-90 min for rehabilitation",
+    "aiPromptExample": "Describe the ideal sports massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended sports massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Pre-Event vs Post-Event",
+        "body": "Pre-event massage uses fast, stimulating strokes to warm up muscles and increase blood flow. It is shorter (15-20 min) and done 24-48 hours before the event. Post-event massage uses slower, deeper strokes to reduce muscle soreness and flush lactic acid - ideally within 2 hours after exercise.\nNever get a deep post-event massage immediately after a marathon or competition. Wait 2-4 hours to let the body cool down gradually."
+      },
+      {
+        "heading": "Trigger Point Therapy",
+        "body": "Trigger points are tight knots in muscle fibres that refer pain to other areas. Sports massage therapists use sustained pressure (ischaemic compression) to release these points. The sensation is a deep ache that eases as the muscle releases. Staying hydrated and breathing into the pressure makes a significant difference."
+      },
+      {
+        "heading": "Sports Massage During Injury Recovery",
+        "body": "Sports massage can accelerate recovery from strains, sprains, and tendonitis but should not be performed on acute injuries (first 48-72 hours with swelling). The therapist must have a diagnosis from your physio or doctor before working on an injured area."
+      },
+      {
+        "heading": "Self-Care Between Sessions",
+        "body": "Foam rolling, stretching, and hydration between sessions extends the benefits. Your Bouul therapist can provide a 5-minute daily stretch routine specific to your sport and problem areas."
+      }
+    ]
+  },
+  {
+    "id": "deep-tissue-massage",
+    "tag": "massage-therapists",
+    "title": "Deep Tissue Massage: Working Through Chronic Tension",
+    "subtitle": "When relaxation massage isnt enough - deep tissue targets the layers of muscle that hold chronic stress and pain.",
+    "image": "/scenes/deep-tissue-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Does deep tissue have to hurt to work?",
+    "problemBody": "Deep tissue massage works on the deeper layers of muscle and fascia using slow, deep strokes and sustained pressure. The sensation should be intense but therapeutic - painful but in a good way. If you are tensing up, holding your breath, or clenching your jaw, the pressure is too much. Cost is R400-R850 per session and typically targets specific problem areas rather than treating the whole body.",
+    "bouulSolution": [
+      "Bouul deep tissue specialists have additional certification - standard massage training does not qualify a therapist for deep tissue work.",
+      "Breathe deeply during the session. Exhale into the pressure point.",
+      "Bouul Escrow protects you if the therapist causes bruising or injury from excessive pressure."
+    ],
+    "partsNeeded": [
+      "Massage table with firm padding",
+      "Deep tissue cream or gel with slip",
+      "Hot towels for warming muscles before work",
+      "Water and tissues for the client"
+    ],
+    "guidePricing": "R400-R850 for 60 min; R550-R1,100 for 90 min",
+    "timeline": "60 min for targeted work; 75-90 min for multiple areas",
+    "aiPromptExample": "Describe the ideal deep tissue massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended deep tissue massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Pain-Communication Scale",
+        "body": "Use a 1-10 pain scale with your therapist: 1-3 is noticeable but comfortable, 4-6 is good therapeutic pressure, 7-8 is intense but manageable, 9-10 is too much. Most deep tissue work should sit in the 5-7 range. If you hit 8+, tell your therapist immediately.\nThe NMT (Neuromuscular Therapy) standard taught in SA training programs uses this exact scale."
+      },
+      {
+        "heading": "Breathing Through the Pressure",
+        "body": "The most effective way to endure deep tissue work is to breathe into the pressure. As the therapist sinks into a tight area, take a slow deep breath in, hold for 2 seconds, then exhale fully as the therapist maintains pressure. You should feel the muscle release on the exhale.\nHolding your breath when a trigger point is pressed is a natural reflex. Counter it consciously."
+      },
+      {
+        "heading": "Post-Session Soreness",
+        "body": "Deep tissue work releases toxins and metabolic waste from deep muscle layers. You may feel sore, tired, or flu-like for 24-48 hours after. This is normal and called the therapeutic flare. Drink extra water, take a warm bath with Epsom salts, and avoid strenuous exercise for 24 hours.\nIf soreness lasts longer than 72 hours, the pressure may have been too intense. Mention this to your therapist for the next session."
+      },
+      {
+        "heading": "When Deep Tissue Is Not Appropriate",
+        "body": "Deep tissue is not suitable for: acute injuries (first 72 hours), areas of inflammation, clients on blood-thinning medication, areas with recent surgery (6+ weeks), or during the first trimester of pregnancy. Always disclose your full medical history on the Bouul intake form."
+      }
+    ]
+  },
+  {
+    "id": "hot-stone-massage",
+    "tag": "massage-therapists",
+    "title": "Hot Stone Massage: Heat, Relaxation, and Therapeutic Benefits",
+    "subtitle": "How heated basalt stones turn a standard massage into a deeply therapeutic experience.",
+    "image": "/scenes/hot-stone-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is hot stone massage a gimmick or genuinely beneficial?",
+    "problemBody": "Hot stone massage uses smooth, heated basalt stones placed on key points of the body and used as massage tools. The heat penetrates deeper than hands alone, allowing muscles to relax more quickly. Stones are heated in a professional water heater to 50-60 degrees Celsius - never above 65C for safety. A full session costs R500-R950 for 75-90 minutes.",
+    "bouulSolution": [
+      "Bouul hot stone therapists must confirm additional training - hot stone technique is a separate module from basic massage.",
+      "Arrive well-hydrated and avoid caffeine. The heat amplifies the massage effect.",
+      "Bouul Escrow protects you if stones cause burns or if the temperature is not properly monitored."
+    ],
+    "partsNeeded": [
+      "Basalt stones (various sizes from small between-toe to large back stones)",
+      "Professional stone heater with thermostat",
+      "Towel set for stone placement",
+      "Heat-safe massage oil or cream"
+    ],
+    "guidePricing": "R500-R900 for 75 min; R650-R1,100 for 90 min",
+    "timeline": "75 min standard; 90 min for full body with hot stone back work",
+    "aiPromptExample": "Describe the ideal hot stone massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended hot stone massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Stone Temperature Safety",
+        "body": "Professional stone heaters maintain a consistent 50-60C. Stones are tested on the therapists inner forearm before any client contact. If the stone feels too hot, the therapist should remove it immediately. Burns from hot stone massage are the most common complaint - a properly trained therapist never causes them.\nThe basalt stone retains heat because of its high iron content. Volcanic basalt from the Drakensberg region is prized by SA massage therapists."
+      },
+      {
+        "heading": "Full Body Stone Placement",
+        "body": "A standard hot stone treatment places stones along the spine, in the palms of the hands, between the toes, and on the abdomen. The stones are positioned, wrapped in a towel layer, and left for 5-10 minutes while the therapist works on other areas with oiled stones."
+      },
+      {
+        "heading": "Contraindications",
+        "body": "Hot stone massage is not suitable for clients with: high blood pressure (uncontrolled), diabetes with neuropathy, varicose veins over the treatment area, skin conditions in the treatment area, or pregnancy (first trimester). Clients with heart conditions should get medical clearance first."
+      },
+      {
+        "heading": "Seasonal Popularity in SA",
+        "body": "Hot stone massage is most popular during SA winters (May-August), particularly in Gauteng and the Western Cape where temperatures drop significantly. Many Bouul-listed therapists offer seasonal packages - book 4 winter sessions at a discounted rate."
+      }
+    ]
+  },
+  {
+    "id": "reflexology",
+    "tag": "massage-therapists",
+    "title": "Reflexology: Foot Pressure Points for Whole-Body Wellness",
+    "subtitle": "How pressure points on your feet correspond to organs, glands, and systems throughout your body.",
+    "image": "/scenes/reflexology.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can pressing my feet really help my digestion?",
+    "problemBody": "Reflexology is based on the principle that specific points on the feet, hands, and ears correspond to organs and systems in the body. A reflexologist applies precise thumb and finger pressure to these zones to stimulate the corresponding body parts. While scientific evidence is mixed, many clients report significant relief from stress, headaches, digestive issues, and hormonal imbalances. A 60-minute session costs R350-R600 in SA.",
+    "bouulSolution": [
+      "Bouul reflexologists should hold a specific reflexology diploma - not just a general massage qualification.",
+      "Dont have ticklish feet - reflexologists develop techniques to work with ticklish clients. Breathing exercises help.",
+      "Bouul Escrow protects you if the therapist does not follow the zone protocol you agreed on."
+    ],
+    "partsNeeded": [
+      "Reclining reflexology chair or massage table with foot elevation",
+      "Reflexology zone chart for reference",
+      "Massage lotion or cream for foot work",
+      "Hot towel for foot clean before the session"
+    ],
+    "guidePricing": "R350-R600 for 60 min; R500-R800 for 90 min including hand and ear reflexology",
+    "timeline": "45-60 min for standard session; 60-90 min for comprehensive treatment",
+    "aiPromptExample": "Describe the ideal reflexology experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended reflexology plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "How Zone Theory Works",
+        "body": "The body is divided into 10 longitudinal zones, each running from the head to the toes. Reflex points on the feet correspond to these zones. The big toe represents the head and neck; the ball of the foot corresponds to the chest and lungs; the arch correlates to the digestive organs; the heel links to the lower back and pelvic area.\nThe Reflexology Association of South Africa (RASA) certifies practitioners who complete a minimum 200 hours of training."
+      },
+      {
+        "heading": "What You Feel During a Session",
+        "body": "You may feel: a crawling or tingling sensation (energy moving through the corresponding zone), tenderness at specific points (indicating imbalance in the related organ), a sense of deep relaxation as the session progresses, and improved circulation in your feet. Tenderness should be bearable - if a point is too painful, the therapist adjusts the pressure."
+      },
+      {
+        "heading": "Contraindications",
+        "body": "Avoid reflexology if you have: recent foot or ankle fractures, deep vein thrombosis, severe circulatory disorders, infectious foot conditions (athletes foot, verrucas), or are in the first trimester of pregnancy. Reflexology should not be used as a replacement for medical treatment of diagnosed conditions."
+      },
+      {
+        "heading": "Aftercare and Results",
+        "body": "Drink water after your session. You may experience increased urination (the body releasing toxins), improved bowel movements, better sleep that night, or emotional release. Results are cumulative - 4-6 weekly sessions typically produce the most noticeable benefits for chronic conditions."
+      }
+    ]
+  },
+  {
+    "id": "prenatal-massage",
+    "tag": "massage-therapists",
+    "title": "Prenatal Massage: Safe Pregnancy Wellness for SA Moms-to-Be",
+    "subtitle": "Pregnancy-safe massage techniques that relieve back pain, swelling, and stress - without risk to you or your baby.",
+    "image": "/scenes/prenatal-massage.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is massage safe during pregnancy?",
+    "problemBody": "Prenatal massage is specifically adapted for pregnant clients and is safe from the second trimester (12+ weeks) onward when performed by a trained therapist. The mother lies on her side with pillow supports - never flat on her back after 20 weeks (which can compress the vena cava). Benefits include reduced back pain, improved sleep, decreased swelling, and lower stress hormones. Cost is R400-R750 per 60-minute session in SA.",
+    "bouulSolution": [
+      "Bouul prenatal massage therapists have specific training in pregnancy massage - check their certification.",
+      "Get clearance from your midwife or OB-GYN before booking your first session.",
+      "Bouul Escrow protects you if the therapist uses unsafe techniques or positioning."
+    ],
+    "partsNeeded": [
+      "Pillow system for side-lying position (full body pregnancy pillow)",
+      "Massage oil safe for pregnancy (no essential oils contraindicated for pregnancy)",
+      "Extra towels for support and draping",
+      "Water and light refreshments for post-session"
+    ],
+    "guidePricing": "R400-R750 for 60 min; R550-R950 for 75 min side-lying session",
+    "timeline": "45-60 min for targeted back and leg work; 60-75 min for full prenatal body",
+    "aiPromptExample": "Describe the ideal prenatal massage experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended prenatal massage plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Side-Lying Position",
+        "body": "After 20 weeks, the client lies on their side with pillows supporting the top leg, belly, and head. The therapist works on the back, shoulders, glutes, and legs from this position. The top leg pillow prevents the pelvis from rotating and keeps the spine aligned. The belly pillow creates a comfortable space for the growing bump.\nThe side-lying position is standard in SA prenatal massage. Any therapist who attempts to work on a pregnant client face-down after 12 weeks is not properly trained."
+      },
+      {
+        "heading": "Safe Essential Oils",
+        "body": "Some essential oils are contraindicated in pregnancy: clary sage, juniper berry, rosemary, cinnamon, and jasmine (these can stimulate uterine contractions). Safe oils include: lavender (relaxation), chamomile (calming), ylang-ylang (stress relief), and mandarin (mood lifting). Bouul therapists use oil blends labelled as pregnancy-safe."
+      },
+      {
+        "heading": "Swelling and Circulation Benefits",
+        "body": "Prenatal massage stimulates the lymphatic system, which reduces oedema (swelling) in the feet and hands - a common pregnancy complaint. The light, upward strokes encourage fluid movement back toward the heart. Avoid deep pressure on the inner thighs and calves (increases risk of dislodging a blood clot)."
+      },
+      {
+        "heading": "Best Timing and Frequency",
+        "body": "Most therapists recommend waiting until the second trimester for the first session. Sessions can continue up to 40 weeks if there are no complications. Weekly sessions in the third trimester provide the most benefit for back pain and sleep quality."
+      }
+    ]
+  }
+]

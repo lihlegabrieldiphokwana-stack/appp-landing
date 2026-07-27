@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/services", label: "Find services" },
+  { href: "/tutorials", label: "Tutorials" },
   { href: "/zola", label: "Zola AI" },
-  { href: "/zola/business", label: "Zola Business" },
   { href: "/vendors/business", label: "Vendor & Team Suite" },
   { href: "/trophies", label: "Trophy System" },
   { href: "/vendors", label: "For pros" },

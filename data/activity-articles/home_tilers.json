@@ -1,0 +1,306 @@
+[
+  {
+    "id": "bathroom_floor_tiling",
+    "tag": "Tiling",
+    "title": "The Complete Guide to Bathroom Floor Tiling in South Africa",
+    "subtitle": "From ceramic to porcelain \u2014 what every homeowner needs to know before laying bathroom tiles",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Bathroom floors take the most abuse in any home",
+    "problemBody": "Bathroom floors endure daily moisture, temperature swings, heavy foot traffic, and dropped toiletries. Poorly laid tiles lift, crack, or harbour mould beneath the surface. DIY attempts often fail because proper subfloor prep, waterproofing membrane, and expansion gaps are sacrificed for speed. The result: costly re-dos within 18 months.",
+    "bouulSolution": [
+      "Bouul connects you with NHBRC-registered tilers who assess your subfloor and recommend the right tile grade for wet areas",
+      "All matched tilers include a waterproofing membrane in their quote \u2014 no hidden extras for the wet-room seal",
+      "Work is backed by Bouul Escrow so you only release payment after inspecting the finished grout lines and evenness"
+    ],
+    "partsNeeded": [
+      "Porcelain or ceramic floor tiles (grade PEI 4+ recommended for bathrooms)",
+      "Cement-based or epoxy grout (epoxy for wet areas)",
+      "Waterproofing membrane (e.g. Weber Waterproof or SikaSeal)",
+      "Tile spacers (2\u20133 mm for floor), notched trowel, tile cutter"
+    ],
+    "guidePricing": "R 8,500 \u2013 R 15,000 for a standard 4 m\u00b2 bathroom floor including labour, waterproofing, and grouting. Premium porcelain with rectified edges adds R 2,000\u2013R 4,000.",
+    "timeline": "1\u20132 days for a 4 m\u00b2 floor. Demolition of old tiles adds one day. Grout must cure 24 hours before foot traffic.",
+    "aiPromptExample": "Tell me how to choose between ceramic and porcelain tiles for a small bathroom in Johannesburg. I have underfloor heating pipes already laid.",
+    "aiDiagnosisOutput": "Ceramic is more affordable (from R 99/m\u00b2) but less dense. Porcelain (from R 180/m\u00b2) resists moisture better and supports underfloor heating more efficiently. For bathrooms, porcelain PEI 4+ is recommended. Check that the heating pipes are at least 15 mm below the finished tile surface to avoid thermal stress cracks.",
+    "escrowGuarantee": "Bouul Escrow holds your payment until you verify the floor gradient drains correctly and no hollow-sounding tiles exist. Release only once you are satisfied.",
+    "pirbStandard": "SANS 10107 \u2014 The South African national standard for the design and installation of ceramic floor and wall tiles. Compliance ensures minimum breaking strength and water absorption limits are met.",
+    "articleSections": [
+      {
+        "heading": "Subfloor Preparation and Waterproofing",
+        "body": "Before a single tile is laid, the subfloor must be clean, level, and dry. Any moisture trapped beneath tiles leads to delamination within months. SANS 10107 requires a bonded waterproof membrane in all wet areas \u2014 this means the entire bathroom floor, not just the shower. Bouul tilers use cement-board backer units or SABS-approved liquid membranes (e.g. Weber Waterproof) and allow full cure time before tiling."
+      },
+      {
+        "heading": "Tile Selection: PEI Rating and Slip Resistance",
+        "body": "Floor tiles in bathrooms must have a PEI (Porcelain Enamel Institute) abrasion rating of 4 or higher for durability. Slip resistance is critical \u2014 look for a coefficient of friction (COF) of 0.6 or above. Matt and textured finishes outperform polished surfaces in wet conditions. Bouul's tilers bring sample boards so you can test slip resistance with a wet shoe before purchasing."
+      },
+      {
+        "heading": "Cutting and Laying Patterns",
+        "body": "Professional tilers use wet saws with diamond blades to achieve clean cuts around toilet flanges, door frames, and corners. Popular layouts include straight lay, offset (brick bond), and herringbone. Each pattern creates different waste percentages \u2014 herringbone can waste up to 15% more material. Bouul matched tilers include a cutting waste allowance in their quote so there are no surprises."
+      },
+      {
+        "heading": "Grouting and Sealing",
+        "body": "Epoxy grout is the gold standard for bathrooms \u2014 it resists stains, mould, and moisture penetration far better than cement-based grout. Cement grout costs R 50\u2013R 120 per 5 kg bag, while epoxy runs R 250\u2013R 500 per 5 kg. The grout must be applied with a rubber float and cleaned promptly. A penetrating sealer applied after curing extends the life of natural stone tiles."
+      },
+      {
+        "heading": "Curing, Maintenance, and Longevity",
+        "body": "Do not walk on freshly grouted tiles for at least 24 hours. Avoid heavy cleaning for 72 hours. Well-installed bathroom tiles last 15\u201325 years with basic maintenance: regular sweeping, pH-neutral cleaner, and immediate drying of standing water. Regrouting every 5\u20138 years restores the waterproof seal. Bouul escrow release is tied to a final walkthrough where checked for lipping, hollow sounds, and even grout lines."
+      }
+    ]
+  },
+  {
+    "id": "wall_tile_backsplash",
+    "tag": "Tiling",
+    "title": "How to Plan and Install a Kitchen Wall Tile Backsplash",
+    "subtitle": "Subway, hexagon, or mosaic \u2014 pick the right backsplash tile and get it fitted without the stress",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Kitchen splash zones are the hardest-working walls in your home",
+    "problemBody": "Cooking splatter, steam, and grease attack the wall behind your stove and sink daily. Paint peels, drywall stains, and grout crumbles. A backsplash solves this, but incorrect installation \u2014 skipping backer board, using the wrong adhesive, or neglecting to seal \u2014 means the backsplash fails within a year. Finding a tiler who specialises in wall work (different technique from floors) is harder than it sounds.",
+    "bouulSolution": [
+      "Bouul matches you with tilers experienced in vertical wall installations \u2014 they use lightweight thinset and gravity-conscious techniques",
+      "Every quote specifies the adhesive type (mastic for dry areas, thinset behind stoves) so nothing gets skimped",
+      "Bouul Escrow protects you: funds release after you verify straight grout lines, no lippage, and properly cut outlets"
+    ],
+    "partsNeeded": [
+      "Wall tiles (subway, mosaic, or hexagon \u2014 glazed ceramic recommended for easy cleaning)",
+      "White or grey thinset mortar (modified for walls; mastic for backsplash behind sink away from heat)",
+      "Tile spacers (1.5\u20132 mm for subway patterns)",
+      "Trowel, tile wet saw, grout float, sponge, penetrating sealer"
+    ],
+    "guidePricing": "R 4,500 \u2013 R 9,000 for a 3 m\u00b2 backsplash area including labour, adhesive, grouting, and sealing. Handmade or artisan tiles increase the range to R 8,000 \u2013 R 15,000.",
+    "timeline": "1 day for a standard backsplash (3\u20135 m\u00b2). If the countertop needs removal and reinstallation, add 0.5 days. Grout curing takes 24 hours.",
+    "aiPromptExample": "I want a herringbone backsplash behind my gas stove. What tile size works best, and do I need special fire-rated adhesive?",
+    "aiDiagnosisOutput": "Herringbone works beautifully with 75 x 150 mm subway tiles. Behind a gas stove, use cement-based thinset (not mastic) \u2014 mastic degrades above 50\u00b0C. A cement backer board behind the tile adds thermal protection. R 800\u2013R 1,500 extra for the labour of herringbone layout vs straight lay.",
+    "escrowGuarantee": "Funds held in Bouul Escrow until you verify aligned grout lines, properly cut electrical socket holes, and sealed edges against the countertop.",
+    "pirbStandard": "SANS 10107 (wall-tile section) specifies minimum tile thickness for vertical applications and pull-out strength test methods. South African tilers certified under this standard guarantee fall-safe adhesion.",
+    "articleSections": [
+      {
+        "heading": "Choosing the Right Tile for Wall Applications",
+        "body": "Glazed ceramic wall tiles (6\u20138 mm thick) are the most practical choice for backsplashes \u2014 they are lighter than porcelain, easier to cut, and the glazed surface repels grease. Subway tiles (75 x 150 mm) are the classic choice. Hexagon mosaics add visual interest but have more grout lines to clean. Bouul's tilers carry sample boards so you can see how light catches the finish before committing."
+      },
+      {
+        "heading": "Adhesives: Mastic vs Thinset",
+        "body": "Pre-mixed mastic is acceptable for dry backsplash areas (behind a prep sink, away from the stove). Behind a hob or gas stove, modified thinset is mandatory \u2014 mastic breaks down above 50\u00b0C. Large-format wall tiles (300 x 600 mm+) require medium-bed thinset to prevent sagging on vertical surfaces. Bouul tilers specify the correct adhesive in their quote so you know exactly what is being used."
+      },
+      {
+        "heading": "Cutting Around Obstacles",
+        "body": "Electrical outlets, light switches, and window sills all need precise tile cutting. A professional tiler uses a wet saw with a miter guide and files any rough edges. Socket holes must be cut with a diamond hole saw for a clean finish. Bouul's matching algorithm filters tilers who list intricate cuts in their portfolio \u2014 not every tiler is comfortable with complex patterns around obstacles."
+      },
+      {
+        "heading": "Finishing Edges and Trim",
+        "body": "Exposed tile edges need finishing \u2014 either a bullnose tile (pre-rounded edge), a Schluter-style aluminium trim, or a caulked butt joint. Aluminium trims (R 80\u2013R 200 per length) provide the cleanest modern look. Silicone caulk (not grout) must be used at the change-of-plane where backsplash meets countertop, to allow for expansion and countertop movement."
+      },
+      {
+        "heading": "Sealing and Daily Maintenance",
+        "body": "Grout in kitchen backsplashes should be sealed with a penetrating sealer once fully cured. Unglazed tiles (some natural stone mosaics) also need a sealer applied annually. Daily cleaning with a mild dish-soap solution and a soft cloth keeps the backsplash looking new. Avoid abrasive cream cleaners which dull the glazed finish over time."
+      }
+    ]
+  },
+  {
+    "id": "outdoor_patio_tiles",
+    "tag": "Tiling",
+    "title": "Durable Outdoor Patio Tiling for South African Climates",
+    "subtitle": "From sandstone to slip-resistant porcelain \u2014 the best tiles for braai areas, pool surrounds, and garden paths",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Outdoor tiles face sun, rain, frost, and bare feet \u2014 most crack within two years",
+    "problemBody": "South Africa's harsh UV, summer downpours, and occasional Highveld frost decimate standard indoor tiles used outdoors. Water seeps into porous tiles, freezes overnight (in Gauteng and the Free State), and causes spalling. DIY outdoor tiling often skips the expansion joints, so tiles buckle in the heat. The result: cracked, lifted, or moss-covered surfaces within 18 months.",
+    "bouulSolution": [
+      "Bouul connects you with tilers who specify porcelain pavers or frost-proof natural stone rated for outdoor use in your province",
+      "All quotes include expansion joints, a geotextile underlay, and a slope analysis to prevent standing water",
+      "Bouul Escrow holds funds until you confirm the patio drains correctly and no tiles are hollow or lipped"
+    ],
+    "partsNeeded": [
+      "Outdoor-rated porcelain pavers (PEI 5, water absorption < 0.5%) or natural sandstone/quartzite",
+      "Flexible outdoor thinset (latex-modified, freeze-thaw stable)",
+      "Geotextile fabric and compacted crusher-run base (100 mm minimum)",
+      "UV-resistant silicone expansion joints, tile spacer kit, wet saw with diamond blade"
+    ],
+    "guidePricing": "R 12,000 \u2013 R 22,000 for a 20 m\u00b2 patio including base prep, tiles, labour, and flexible grout. Premium large-format porcelain (600 x 600 mm or 600 x 900 mm) adds R 3,000\u2013R 6,000.",
+    "timeline": "3\u20135 days for a 20 m\u00b2 area including base preparation (compacting, laying geotextile, screeding). Grout curing takes 48 hours minimum before heavy use.",
+    "aiPromptExample": "My patio faces north in Pretoria and gets full afternoon sun. Tiles need to stay cool enough for bare feet and withstand sudden thunderstorms.",
+    "aiDiagnosisOutput": "Choose light-coloured (cream or beige) through-body porcelain with R11 slip rating \u2014 it stays 8\u201312\u00b0C cooler than dark tones under direct sun. Water absorption must be below 0.5% for frost resistance. A compacted 100 mm crusher-run base with 50 mm concrete screed on top prevents movement. Expansion joints every 15 m\u00b2 minimum.",
+    "escrowGuarantee": "Funds held until your patio passes a water-pooling test and no cracked or hollow-sounding tiles are found. You approve the slope before release.",
+    "pirbStandard": "SANS 10054 \u2014 Standard for the installation of ceramic tiles in external areas, covering substrate requirements, expansion joints, and slip-resistance classification. Outdoor tilers registered with the Tile & Slate Association SA adhere to this standard.",
+    "articleSections": [
+      {
+        "heading": "Base Preparation: The Foundation of Outdoor Tiling",
+        "body": "Outdoor tiling fails most often because the base moves. A proper foundation requires 100 mm of compacted G5 crusher-run, a geotextile separation layer (prevents weed growth and subsidence), and a 50 mm reinforced concrete screed sloped at 1:60 to drain water away from the house. Bouul tilers measure base compaction with a dynamic cone penetrometer before laying a single tile."
+      },
+      {
+        "heading": "Tile Selection for External Use",
+        "body": "Only tiles with a water absorption rate below 0.5% are suitable for outdoor use in SA. Porcelain pavers are the first choice \u2014 they are dense, UV-stable, and available in slip ratings R10\u2013R13. Natural sandstone is beautiful but needs annual sealing. All tiles must have a minimum breaking strength of 1,300 N per SANS 10107. Bouul only matches tilers who stock certified outdoor-grade materials."
+      },
+      {
+        "heading": "Expansion Joints and Movement Accommodation",
+        "body": "Temperature swings of 25\u00b0C+ in SA summer cause tiles to expand. Movement joints must be placed every 15 m\u00b2 (indoor standard is 25 m\u00b2) and at all changes of plane \u2014 where the patio meets the house wall, pool coping, or garden edging. Use UV-stabilised silicone (not grout) in these joints. A Bouul tiler will mark expansion joint positions before tiling begins."
+      },
+      {
+        "heading": "Slip Resistance for Pool Surrounds and Braai Areas",
+        "body": "Pool surrounds must achieve R11 or higher slip resistance on the wet pendulum test. Braai areas near the house benefit from R10 minimum. Glossy or polished tiles are not recommended for any outdoor wet area \u2014 they become dangerously slippery. Through-body porcelain maintains its slip rating even as the surface wears, unlike glazed tiles which lose it over time."
+      },
+      {
+        "heading": "Cleaning and Long-Term Care",
+        "body": "Outdoor tiles need a stiff-bristle sweep and a pressure wash (max 1,500 PSI) every 2\u20133 months to prevent moss and algae buildup. Use a pH-neutral outdoor tile cleaner \u2014 vinegar and bleach damage epoxy grout over time. Reseal natural stone tiles annually before winter. A well-maintained outdoor tiled patio lasts 20+ years in the South African climate."
+      }
+    ]
+  },
+  {
+    "id": "porcelain_tile_cutting",
+    "tag": "Tiling",
+    "title": "Professional Porcelain Tile Cutting: Tools, Techniques, and Costs",
+    "subtitle": "Why cutting porcelain is harder than ceramic and why a pro is worth the rate",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Porcelain is twice as hard as ceramic \u2014 DIY cutting is a recipe for waste",
+    "problemBody": "Porcelain tiles have a Mohs hardness of 7\u20138 (ceramic is 5\u20136). A standard manual tile cutter shatters them. Using an angle grinder without water cooling produces heat cracks. Homeowners who try DIY cutting typically waste 30\u201350% of their tiles on chipped edges and snapped pieces. Even finding a tiler who owns the right equipment \u2014 a bridge saw with continuous diamond blades and water feed \u2014 is not guaranteed.",
+    "bouulSolution": [
+      "Bouul matches you only with tilers who list bridge saw or wet-saw porcelain cutting in their verified equipment profile",
+      "All quotes include waste allowance (typically 10\u201315% for straight, 15\u201320% for diagonal/herringbone)",
+      "Bouul Escrow covers you if the tiler damages more tiles than the agreed waste percentage \u2014 replacements are on them"
+    ],
+    "partsNeeded": [
+      "Porcelain tiles (rectified edges preferred for minimal grout lines)",
+      "Continuous-rim diamond blade (turbo or segmented for wet cutting)",
+      "Bridge wet saw or rail wet saw with water drip system",
+      "Angle grinder with diamond-cutting disc, polishing pads, safety goggles, hearing protection"
+    ],
+    "guidePricing": "R 3,500 \u2013 R 7,000 for precision cutting of 15\u201320 m\u00b2 of large-format porcelain tiles. This covers labour, blade wear, and water supply. If the tiler brings their own bridge saw to site, no extra charge.",
+    "timeline": "Cutting is done during installation \u2014 add 0.5\u20131 day to the main tiling timeline for a 20 m\u00b2 porcelain floor project.",
+    "aiPromptExample": "I want 600 x 600 mm rectified porcelain tiles laid on a 45-degree diagonal. How many extra tiles do I need for cutting waste?",
+    "aiDiagnosisOutput": "Diagonal layout with rectified 600 x 600 mm tiles creates approximately 18\u201322% waste (vs 10% for straight lay). You need 7\u20138 m\u00b2 of spare tiles for a 40 m\u00b2 room. Rectified edges allow 1.5 mm grout lines. Each cut must be done on a bridge wet saw at 2,800+ RPM with a continuous diamond blade. Budget R 1,500\u2013R 2,500 extra for the diagonal layout labour.",
+    "escrowGuarantee": "Bouul Escrow holds your payment until every visible cut edge is clean, no chips larger than 2 mm are present, and cutting waste stays within the agreed percentage.",
+    "pirbStandard": "SANS 10107 Section 9 \u2014 Tolerances for cut edges and visible finish. The standard requires cut edges visible in the finished installation to have a chipped edge depth no greater than 2 mm when measured by a calibrated straight edge.",
+    "articleSections": [
+      {
+        "heading": "Why Porcelain Requires Specialist Equipment",
+        "body": "Porcelain tile body density is 2.3\u20132.5 g/cm\u00b3 compared to ceramic's 1.8\u20132.0 g/cm\u00b3. This density means a standard manual tile cutter cannot score deep enough to snap cleanly \u2014 the tile fractures unpredictably. A bridge wet saw with a continuous diamond blade running at 2,800\u20133,500 RPM and a water drip eliminates heat buildup and vibration chipping. Bouul only connects tilers who own or have immediate access to proper porcelain-capable equipment."
+      },
+      {
+        "heading": "Types of Cuts: L-Cuts, Mitres, and Holes",
+        "body": "L-cuts (around door frames) require two overlapping wet-saw passes. Mitre cuts (45-degree) are needed for skirting or corner trims \u2014 these demand a tilting bridge saw head. Round holes for plumbing pipes are best cut with a diamond core drill bit (25\u201340 mm). Clean holes for toilet flanges need a 100\u2013110 mm core bit. Each specialty cut adds 5\u201310 minutes per tile compared to straight cuts."
+      },
+      {
+        "heading": "Waste Management and Tile Yield Planning",
+        "body": "Calculate the number of full tiles first, then add the waste allowance. Straight lay = 10% waste, offset brick bond = 12\u201315%, herringbone = 15\u201320%, diagonal = 18\u201322%. Order all tiles from the same dye-lot to avoid colour variation between boxes. Bouul tilers perform a dry layout before cutting to optimise tile placement and minimise waste."
+      },
+      {
+        "heading": "Safety and Dust Control",
+        "body": "Crystalline silica dust from cutting porcelain is a Group 1 carcinogen. Wet cutting with a water drip suppresses 85\u201395% of airborne silica. Tilers must use a P3 respirator when dry-cutting is unavoidable. Bouul's matched tilers are verified to use wet-cut methods \u2014 dry cutting is not permitted on Bouul-platform projects."
+      },
+      {
+        "heading": "Cost Implications of Rectified vs Non-Rectified Edges",
+        "body": "Rectified tiles (factory-cut to exact dimensions) cost 15\u201330% more but allow 1.5\u20132 mm grout lines instead of 3\u20135 mm. This reduces grout usage by 40% and creates a cleaner modern look. Non-rectified tiles require wider grout lines to hide size variation and are cheaper (R 120\u2013R 180/m\u00b2 vs R 180\u2013R 300/m\u00b2 for rectified). The tiler's cutting approach does not change, but rectified edges reduce the visible impact of any minor cutting imperfections."
+      }
+    ]
+  },
+  {
+    "id": "heated_floor_install",
+    "tag": "Tiling",
+    "title": "Underfloor Heating and Tiling: Complete Installation Guide",
+    "subtitle": "Electric mats, water loops, and tile compatibility \u2014 everything for a warm South African winter",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Heated floors are becoming popular in SA, but the tile-over-heating layer fails often",
+    "problemBody": "Electric underfloor heating mats and hydronic (water) systems shift and crack tiles above them if the wrong adhesive is used or the heating is turned on too soon. Many South African tilers are not trained in the multi-layer substrate required \u2014 SANS-compliant decoupling membrane, flexible thinset, and a controlled curing schedule. Skipping any step causes tiles to delaminate within the first year.",
+    "bouulSolution": [
+      "Bouul matches you with tilers specifically trained in underfloor-heating tile installation, verified through platform references",
+      "Quotes include a decoupling membrane and flexible adhesive in the line-items \u2014 no hidden add-ons",
+      "Bouul Escrow holds payment until you verify the floor has completed the full 14-day curing cycle without any hollow spots"
+    ],
+    "partsNeeded": [
+      "Porcelain tiles (PEI 4+, thermal conductivity 1.0+ W/mK \u2014 avoid thick natural stone which insulates heat)",
+      "Flexible cementitious adhesive (SANS 10107 Class C2 S1 minimum for heated substrates)",
+      "Decoupling membrane (e.g. Schluter-DITRA or Weber Decoupling Mat)",
+      "Electric heating mat (e.g. Warmup or Devi) or hydronic loops with manifold, thermostat, and temperature probe"
+    ],
+    "guidePricing": "R 14,000 \u2013 R 25,000 for a 10 m\u00b2 bathroom with electric underfloor heating mat, decoupling layer, ceramic tiles, labour, and thermostat. Hydronic systems start at R 35,000 for a larger open-plan area.",
+    "timeline": "7\u201314 days total. Mat installation and tile screed: 2 days. Tile installation: 1\u20132 days. Critical 14-day adhesive cure before turning the heating on \u2014 no exceptions.",
+    "aiPromptExample": "I'm installing electric underfloor heating in a 6 m\u00b2 ensuite. Can I screw into the floor to install a toilet pan after the mat is laid?",
+    "aiDiagnosisOutput": "No \u2014 never screw through a heating mat. Repair requires lifting tiles and replacing the mat section (R 3,000+ repair cost). Use a floor-standing toilet pan instead of a wall-hung one, or plan the toilet position before laying the mat. If a wall-hung toilet is essential, the installer must cut the mat carefully around floor fixings and test resistance after each step.",
+    "escrowGuarantee": "Funds released only after the heating system is tested (resistance test for electric, pressure test for hydronic) AND the tile adhesive has cured for the full 14-day period. Bouul sends a reminder when it is safe to switch on.",
+    "pirbStandard": "SANS 10107 Appendix G \u2014 Tile installation over heated substrates. Specifies minimum adhesive class (C2 S1), mandatory decoupling layer, and the 14-day ambient cure before commissioning the heating system.",
+    "articleSections": [
+      {
+        "heading": "System Types: Electric Mats vs Hydronic Loops",
+        "body": "Electric underfloor heating uses resistance mats or cables (120\u2013200 W/m\u00b2 output) and is best for single rooms under 15 m\u00b2. Hydronic (water-based) systems are more efficient for areas above 15 m\u00b2 but require a heat pump or gas boiler and are more invasive to install. Bouul tilers can advise on which system your tile selection pairs best with \u2014 some large-format tiles transfer electric heat more effectively than others."
+      },
+      {
+        "heading": "The Decoupling Membrane Is Not Optional",
+        "body": "Heating mats and thin-set expand differently than tiles. A decoupling membrane (e.g. Schluter DITRA) absorbs the shear movement so tiles do not crack. Cost: R 180\u2013R 350 per m\u00b2 installed. Bouul quotes always itemise the decoupling membrane. If a tiler suggests skipping it, Bouul will not process the match \u2014 it is a guaranteed failure within 24 months."
+      },
+      {
+        "heading": "Tile Adhesive Requirements for Heated Floors",
+        "body": "Standard tile adhesive cannot tolerate the thermal cycling of heated floors. Only SANS 10107 Class C2 S1 adhesive is suitable \u2014 it maintains 1.5 N/mm\u00b2 bond strength after 100 heat cycles. The adhesive bed must be a minimum of 3 mm (notched trowel 6 mm) to ensure full coverage and eliminate air pockets which cause hot spots."
+      },
+      {
+        "heading": "Commissioning: The 14-Day Rule",
+        "body": "The cement-based adhesive needs 14 days at ambient temperature to reach full hydration (90% of ultimate bond strength). Turning the heating on earlier forces moisture out of the adhesive too fast, creating a weak bond \u2014 tiles will debond within 6 months. The start temperature must be 20\u00b0C for 3 days, then increase by 5\u00b0C per day until the target temperature is reached. Bouul enforces this schedule via escrow release conditions."
+      },
+      {
+        "heading": "Running Costs in the South African Context",
+        "body": "Electric underfloor heating costs approximately R 2.50\u2013R 4.50 per hour for a 10 m\u00b2 bathroom at Eskom rates (R/kWh varies by municipality \u2014 City of Cape Town R 2.61, Johannesburg City Power R 2.90 as of Q1 2026). Hydronic systems with a heat pump cost roughly half to run but have higher upfront installation costs. A programmable thermostat (R 800\u2013R 2,000 installed) reduces usage by scheduling pre-heating only when needed."
+      }
+    ]
+  },
+  {
+    "id": "grout_repair_regrouting",
+    "tag": "Tiling",
+    "title": "Grout Repair and Regrouting: Restoring Your Tiles Without Replacing Them",
+    "subtitle": "Cracked, missing, or mouldy grout is fixable \u2014 and cheaper than retiling",
+    "image": "/scenes/tilers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Home Services Team",
+    "problemHeadline": "Grout fails long before tiles do \u2014 and failing grout damages tiles",
+    "problemBody": "Cement-based grout is porous. In South African bathrooms and kitchens, constant moisture, cleaning chemicals, and thermal cycling cause grout to crack, crumble, or grow black mould within 3\u20135 years. Once grout fails, water seeps beneath tiles, rotting substrate, loosening adhesion, and eventually causing tiles to lift. Many homeowners think they need to retile when professional regrouting saves 70%+ of the cost.",
+    "bouulSolution": [
+      "Bouul connects you with tilers who specialise in regrouting \u2014 they use diamond-blade grinders to remove old grout without chipping tile edges",
+      "All regrouting quotes specify whether epoxy or cement grout will be used, and include a sealer in the price",
+      "Bouul Escrow holds payment until you confirm the new grout is even, colour-consistent, and fully cured without cracks"
+    ],
+    "partsNeeded": [
+      "Epoxy grout (recommended for wet areas) or cement-based grout (for walls away from moisture)",
+      "Grout saw or multi-tool with diamond carbide grout-removal blade",
+      "Grout float, rubber finishing tool, microfibre sponges",
+      "Penetrating sealer (for cement grout) and pH-neutral grout cleaner"
+    ],
+    "guidePricing": "R 3,500 \u2013 R 8,000 for regrouting a standard 4 m\u00b2 bathroom floor and shower walls. Epoxy grout adds R 1,500\u2013R 3,000. Individual grout spot repairs: R 400\u2013R 800 per linear metre.",
+    "timeline": "1\u20132 days for a 4 m\u00b2 bathroom. Old grout removal takes longer than applying new grout. Epoxy grout take 24 hours to cure before sealing.",
+    "aiPromptExample": "The grout between my shower floor tiles has black mould that returns every week even after scrubbing with bleach. Do I need to regrout or just reseal?",
+    "aiDiagnosisOutput": "Black mould inside the grout body means the grout has become porous and absorbed organic matter to its full depth \u2014 bleach only bleaches the surface. Regrouting with epoxy grout is the permanent solution. Epoxy is non-porous and mould cannot grow through it. Cost: R 3,500\u2013R 6,000 for a 2 m\u00b2 shower floor. Alternatively, a grout stain/sealer (R 800\u2013R 1,500) buys 6\u201312 months before the mould returns.",
+    "escrowGuarantee": "Bouul Escrow holds your payment until you verify colour consistency across the regrouted area and that the new grout is crack-free after a 48-hour curing period.",
+    "pirbStandard": "SANS 10107 Section 10.3 \u2014 Grout joint widths and repair standards. Specifies minimum joint width (1.5 mm interior, 3 mm exterior) and acceptable methods for partial-depth vs full-depth regrouting. Full-depth removal is required when moisture has penetrated to the substrate.",
+    "articleSections": [
+      {
+        "heading": "When to Regrout vs Replace Tiles",
+        "body": "If the tiles themselves are intact and well-adhered (no hollow sounds when tapped), regrouting is the right call. Signs that only regrout is needed: cracked grout lines, missing grout in spots, surface mould that returns after cleaning, or grout that has pulled away from tile edges. If tiles are loose, cracked, or the substrate is water-damaged (soft or rotting), full replacement may be necessary. Bouul's tilers offer a free inspection to distinguish the two cases."
+      },
+      {
+        "heading": "Grout Removal Techniques",
+        "body": "Manual grout saws work for small areas but risk chipping tile edges. Professional tilers use oscillating multi-tools with carbide-tipped blades or diamond-blade angle grinders with a depth-stop \u2014 the blade guard prevents tile edge damage. The old grout must be removed to at least half the tile thickness (minimum 3 mm depth) for new grout to bond correctly. Grout dust is silica-rich; Bouul tilers use shrouded tools with HEPA vacuum attachments."
+      },
+      {
+        "heading": "Cement Grout vs Epoxy Grout \u2013 Which to Choose",
+        "body": "Cementitious grout is affordable (R 50\u2013R 120 per 5 kg) and easier to apply, but requires annual sealing and is porous. Epoxy grout (R 250\u2013R 500 per 5 kg) is waterproof, stain-proof, and mould-proof \u2014 ideal for showers, bathrooms, and kitchen splashbacks. It is harder to work with (sets in 30 minutes) and costs more, but lasts 10\u201315 years without maintenance. For any wet area, Bouul recommends epoxy grout."
+      },
+      {
+        "heading": "Colour Matching and Design Considerations",
+        "body": "Grout colour dramatically changes a tiled surface \u2014 light grout makes tiles appear larger and cleaner; dark grout hides dirt and creates a grid-like contrast. If you are regrouting a section, finding an exact colour match for cement grout is difficult because existing grout has aged and discoloured. Epoxy grout colours are more consistent over time. Many tilers offer 30+ colour samples so you can test next to your existing tiles before finalising the colour."
+      },
+      {
+        "heading": "Post-Regrouting Care and Sealing",
+        "body": "Cement-based grout must be sealed 72 hours after application using a penetrating impregnating sealer (water-based, R 200\u2013R 600 per litre). Reseal every 12\u201318 months in bathrooms, 24 months in dry areas. Epoxy grout does not need sealing. In both cases, wait 7 days before exposing regrouted areas to heavy moisture (showering) and use a squeegee after each shower to extend grout life."
+      },
+      {
+        "heading": "Cost Comparison: Regrouting vs Full Retiling",
+        "body": "Regrouting a 4 m\u00b2 bathroom floor costs R 3,500\u2013R 8,000, versus R 12,000\u2013R 25,000 for full retiling including demolition and disposal. Over a 3-bedroom house, regrouting all wet areas costs R 12,000\u2013R 25,000, versus R 60,000\u2013R 120,000 for full replacement. Regrouting also avoids the dust, disruption, and 3\u20135 days of bathroom unavailability that retiling involves."
+      }
+    ]
+  }
+]

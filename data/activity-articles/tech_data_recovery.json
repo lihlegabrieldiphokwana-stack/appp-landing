@@ -1,0 +1,225 @@
+[
+  {
+    "id": "rec_hard_drive_recovery",
+    "tag": "Hard Drive Recovery",
+    "title": "Mechanical Hard Drive Data Recovery",
+    "subtitle": "Recovering lost files, photos, and documents from clicking or undetected hard drives",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Sudden hard drive failure or accidental formatting threatens years of precious photos and work files",
+    "problemBody": "DIY recovery software used on a physically damaged clicking hard drive causes permanent platter scratches.",
+    "bouulSolution": [
+      "Data recovery specialists perform Cleanroom Level 1-3 recovery for mechanical and external drives",
+      "Recovery of lost partitions, formatted drives, corrupt file systems, and head-stack failures",
+      "Escrow released only after you verify and inspect your recovered file tree preview"
+    ],
+    "partsNeeded": [
+      "Cleanroom Class 100 workbench",
+      "PC-3000 Hardware Data Recovery System",
+      "Donor hard drive parts",
+      "Target backup drive"
+    ],
+    "guidePricing": "R1,500 – R8,500",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Request data recovery: 'External 1TB hard drive dropped on floor, making clicking noise and not opening.'",
+    "aiDiagnosisOutput": "Diagnosis: Head stack failure. Action: Cleanroom head swap + PC-3000 imaging. Escrow: R4,800.",
+    "escrowGuarantee": "Escrow released after customer inspects recovered file list and confirms target drive copy.",
+    "pirbStandard": "ISO 27001 Data Privacy & Confidentiality Certified.",
+    "articleSections": [
+      {
+        "heading": "No Data, No Fee Guarantee",
+        "body": "If your essential files cannot be recovered, you pay zero recovery labor fees."
+      },
+      {
+        "heading": "Cleanroom Head Swapping",
+        "body": "Damaged read/write heads are replaced inside a Class 100 cleanroom environment to prevent dust contamination."
+      }
+    ]
+  },
+  {
+    "id": "rec_ssd_nvme_recovery",
+    "tag": "SSD & NVMe Recovery",
+    "title": "Solid State Drive (SSD & NVMe) Data Recovery",
+    "subtitle": "Recovering data from dead SSDs, NAND flash chips, and unreadable laptops",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Dead SSDs give zero warning signs before completely disappearing from BIOS",
+    "problemBody": "SSD controller failure or corrupted firmware makes the drive unreadable by standard computers.",
+    "bouulSolution": [
+      "Specialized chip-off NAND flash recovery and controller bypass techniques for SSDs and NVMe",
+      "Raw data extraction from dead laptops, MacBooks, and solid-state drives",
+      "Escrow released after file preview verification"
+    ],
+    "partsNeeded": [
+      "PC-3000 Flash / SSD System",
+      "Hot-air SMT desoldering station",
+      "NAND chip socket adapter"
+    ],
+    "guidePricing": "R2,200 – R9,500",
+    "timeline": "Duration: 3 – 7 Days",
+    "aiPromptExample": "Request SSD recovery: 'MacBook Air liquid damage, SSD not mounting in recovery mode.'",
+    "aiDiagnosisOutput": "Diagnosis: Controller power rail shorted. Action: Board repair + NAND dump. Escrow: R5,500.",
+    "escrowGuarantee": "Escrow released after file tree verification.",
+    "pirbStandard": "ISO 27001 Data Security Certified.",
+    "articleSections": [
+      {
+        "heading": "NAND Flash Controller Bypass",
+        "body": "Data is read directly from individual NAND flash memory chips when controller chips fail."
+      },
+      {
+        "heading": "Encrypted Volume Recovery",
+        "body": "Specialists recover BitLocker or FileVault encrypted SSD volumes using your recovery key."
+      }
+    ]
+  },
+  {
+    "id": "rec_sd_usb_recovery",
+    "tag": "Flash & USB Recovery",
+    "title": "USB Flash Drive & SD Card Photo Recovery",
+    "subtitle": "Recovering deleted photos and videos from formatted camera SD cards and broken USB sticks",
+    "image": "/scenes/photographers.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Accidentally formatting a camera SD card before backing up wedding or holiday photos causes panic",
+    "problemBody": "Snapped USB connectors or corrupted file allocation tables make flash drives prompt for formatting.",
+    "bouulSolution": [
+      "Recovery of RAW camera photos, 4K video clips, and documents from corrupted flash media",
+      "Hardware pinout soldering for snapped USB connectors to extract data safely",
+      "Escrow released after previewing recovered photo thumbnails"
+    ],
+    "partsNeeded": [
+      "Logic analyzer & micro-soldering iron",
+      "Professional image recovery software",
+      "Direct NAND chip reader"
+    ],
+    "guidePricing": "R650 – R2,500",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Request SD recovery: 'Accidentally formatted 128GB SanDisk SD card from wedding shoot.'",
+    "aiDiagnosisOutput": "Diagnosis: Formatted FAT32 system. Action: Deep sector carving for CR2/MP4 files. Escrow: R1,200.",
+    "escrowGuarantee": "Escrow released after photographer inspects recovered photo catalog.",
+    "pirbStandard": "Bouul Data Integrity Standard.",
+    "articleSections": [
+      {
+        "heading": "Deep File Carving",
+        "body": "Specialized software scans raw disk sectors to reconstruct photo headers even after formatting."
+      },
+      {
+        "heading": "Micro-Soldering USB Traces",
+        "body": "Broken USB connector pads are micro-soldered back to life to dump drive contents."
+      }
+    ]
+  },
+  {
+    "id": "rec_raid_server_recovery",
+    "tag": "RAID Recovery",
+    "title": "RAID Array & NAS Server Data Recovery",
+    "subtitle": "Reconstructing failed RAID 0, 5, 6, 10 arrays and corrupted NAS storage pools",
+    "image": "/scenes/office_cleaning.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Multiple hard drive failures in a RAID array can bring an entire company's operations to a halt",
+    "problemBody": "Rebuilding a degraded RAID array with the wrong drive order can permanently overwrite data.",
+    "bouulSolution": [
+      "Enterprise RAID engineers reconstruct virtual array parameters and hex structures",
+      "Recovery from degraded RAID 5/6 arrays, failed NAS enclosures, and virtual machine VHDs",
+      "Escrow released after server database and file structure verification"
+    ],
+    "partsNeeded": [
+      "PC-3000 SAS / RAID System",
+      "Enterprise clone station",
+      "Hex editor & array reconstructor"
+    ],
+    "guidePricing": "R6,500 – R28,000",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Request RAID recovery: 'Synology 4-bay NAS RAID 5 crashed after 2 drives failed simultaneously.'",
+    "aiDiagnosisOutput": "Scope: Clone all 4 drives, reconstruct stripe size & block order, extract 2.4TB company files. Escrow: R14,500.",
+    "escrowGuarantee": "Escrow released after client confirms server database integrity.",
+    "pirbStandard": "ISO 27001 Data Security Standard.",
+    "articleSections": [
+      {
+        "heading": "Virtual Array Reconstruction",
+        "body": "Engineers analyze drive hex patterns to determine exact stripe sizes and drive order without altering physical disks."
+      },
+      {
+        "heading": "High-Capacity Clone Station",
+        "body": "All member drives are cloned block-by-block first to ensure zero risk to original media."
+      }
+    ]
+  },
+  {
+    "id": "rec_ransomware_decryption",
+    "tag": "Ransomware Recovery",
+    "title": "Ransomware File Recovery & System Sanitization",
+    "subtitle": "Cleaning ransomware infections, assessing shadow copies, and attempting file decryption",
+    "image": "/scenes/computer_lessons.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Ransomware encrypting your business documents with a .locked extension is a nightmare scenario",
+    "problemBody": "Paying hackers ransom offers zero guarantee of receiving a working decryption key.",
+    "bouulSolution": [
+      "Cyber security team isolates infected machines, removes ransomware payloads, and audits backups",
+      "Recovery of unencrypted shadow copies, database logs, and known decryption key matching",
+      "Escrow released after system sanitization and file recovery verification"
+    ],
+    "partsNeeded": [
+      "Cyber forensic toolkit",
+      "Decrypter database repository",
+      "Clean offline storage server"
+    ],
+    "guidePricing": "R3,500 – R15,000",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Request ransomware aid: 'Office server files encrypted with .Phobos ransomware extension.'",
+    "aiDiagnosisOutput": "Scope: Payload removal + Shadow copy extraction + Backup sanitization. Escrow: R7,500.",
+    "escrowGuarantee": "Escrow released after verifying clean OS and recovered file access.",
+    "pirbStandard": "Certified Ethical Hacker (CEH) Standard.",
+    "articleSections": [
+      {
+        "heading": "Shadow Copy & Log Extraction",
+        "body": "Technicians extract uncorrupted VSS shadow copies and database transaction logs to restore data."
+      },
+      {
+        "heading": "Complete Malware Sanitization",
+        "body": "Rootkits and backdoor persistence scripts are completely removed before reconnecting to networks."
+      }
+    ]
+  },
+  {
+    "id": "rec_mobile_phone_recovery",
+    "tag": "Phone Recovery",
+    "title": "iPhone & Android Mobile Data Recovery",
+    "subtitle": "Recovering contacts, photos, and WhatsApp chats from damaged or water-logged phones",
+    "image": "/scenes/smartphone.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "A water-damaged or smashed smartphone holding years of family memories and business contacts",
+    "problemBody": "Plugging a water-damaged phone into a charger causes short circuits that destroy motherboard chips.",
+    "bouulSolution": [
+      "Mobile micro-soldering technicians repair motherboard power rails to extract phone data",
+      "Recovery of photos, voice notes, WhatsApp databases, and contacts from dead phones",
+      "Escrow released after inspecting recovered data package"
+    ],
+    "partsNeeded": [
+      "Micro-soldering station & microscope",
+      "Ultrasonic PCB cleaning bath",
+      "DC bench power supply"
+    ],
+    "guidePricing": "R950 – R3,800",
+    "timeline": "Duration: 2 – 5 Days",
+    "aiPromptExample": "Request phone recovery: 'iPhone 13 dropped in swimming pool, won't turn on or charge.'",
+    "aiDiagnosisOutput": "Action: Ultrasonic bath clean + Short circuit capacitor removal + Data dump. Escrow: R2,200.",
+    "escrowGuarantee": "Escrow released after inspecting photo and contact backup file.",
+    "pirbStandard": "Bouul Mobile Forensic Standard.",
+    "articleSections": [
+      {
+        "heading": "Ultrasonic PCB De-Corrosion",
+        "body": "Water-logged phone motherboards are cleaned in an ultrasonic bath with isopropyl alcohol to strip corrosion."
+      },
+      {
+        "heading": "Direct Chip Power Injection",
+        "body": "Bench power supplies inject precise voltage directly to motherboard chips to bypass dead batteries."
+      }
+    ]
+  }
+]

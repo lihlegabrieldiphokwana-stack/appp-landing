@@ -1,0 +1,278 @@
+[
+  {
+    "id": "lash-extensions",
+    "tag": "eyelash-brows",
+    "title": "Eyelash Extensions: Classic, Hybrid, and Volume Explained",
+    "subtitle": "Everything you need to know before your first lash extension appointment - from style selection to aftercare.",
+    "image": "/scenes/lash-extensions.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Do eyelash extensions ruin your natural lashes?",
+    "problemBody": "Eyelash extensions, when applied correctly by a trained professional, do not damage your natural lashes. Damage occurs when extensions are too heavy for the natural lash (causing premature shedding), applied with incorrect isolation (multiple natural lashes stuck together), or when clients pick or pull them off. A full set costs R400-R1,200 in SA depending on style (classic, hybrid, or volume) and the artists experience level.",
+    "bouulSolution": [
+      "Bouul lash artists must confirm certification from Lash Inc, Nova Lash, or equivalent SA-recognised training.",
+      "Book a patch test 48 hours before your first appointment to check for adhesive allergy.",
+      "Bouul Escrow protects you if extensions fall off within 48 hours of application or cause a reaction."
+    ],
+    "partsNeeded": [
+      "Professional lash extensions in various curls (J, B, C, D, L) and thicknesses (0.10-0.25mm)",
+      "Medical-grade lash adhesive (cyanoacrylate-based)",
+      "Fine-tipped tweezers for isolation (straight and curved)",
+      "Lash primer, bonder, and microfibre brushes for cleaning"
+    ],
+    "guidePricing": "R400-R800 for classic set; R550-R1,100 for hybrid; R700-R1,400 for volume/ Russian volume; R200-R450 for fill (2-3 weeks)",
+    "timeline": "60-90 min for initial full set; 45-60 min for fills",
+    "aiPromptExample": "Describe the ideal lash extensions experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended lash extensions plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Classic vs Hybrid vs Volume",
+        "body": "Classic = one extension per natural lash (natural, defined look). Hybrid = mix of classic fans and individual extensions (textured, fluffy). Volume = multiple ultra-fine extensions fanned onto one natural lash (full, dramatic effect). Each style suits different eye shapes and desired effects. Volume is the most expensive because it requires the most skill and takes the longest.\nYour Bouul lash artist should recommend a style based on your natural lash length and strength, not just what you want visually."
+      },
+      {
+        "heading": "Isolation Is Everything",
+        "body": "Proper isolation means each natural lash is separated and only one extension (or fan) is attached to it. When multiple natural lashes are glued together, they cant shed independently, causing pain and natural lash loss. Poor isolation is the number-one cause of lash extension damage.\nIf you feel pulling or pinching during application, the isolation is not correct - tell the artist immediately."
+      },
+      {
+        "heading": "Lash Adhesive and Allergy Risk",
+        "body": "Lash adhesives contain cyanoacrylate, which can cause contact dermatitis in sensitised individuals. Symptoms include red, itchy, swollen eyelids. A patch test (one or two lashes applied 48 hours before the full set) is standard practice for first-time clients. Once a lash allergy develops, you cannot use lash extensions again.\nBouul requires lash artists to document patch test results before every first full set."
+      },
+      {
+        "heading": "Aftercare and Longevity",
+        "body": "No water, steam, or heavy sweating for 24-48 hours after application. Clean lashes daily with oil-free lash shampoo and a spoolie brush (not cotton pads, which snag). Brush lashes morning and night. Avoid oil-based products near the eyes. Fills are needed every 2-3 weeks to replace shed lashes."
+      }
+    ]
+  },
+  {
+    "id": "brow-shaping",
+    "tag": "eyelash-brows",
+    "title": "Eyebrow Shaping: Threading, Waxing, and Tweezing Compared",
+    "subtitle": "How to choose the right brow shaping method for your skin type, hair texture, and desired look.",
+    "image": "/scenes/brow-shaping.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Which brow shaping method is best for me?",
+    "problemBody": "The three main brow shaping methods each suit different skin types and hair textures. Threading uses twisted cotton thread to remove multiple hairs at once - precise, no chemicals, ideal for sensitive skin. Waxing removes a strip of hair quickly - efficient but can irritate retinoid users or sensitive skin. Tweezing removes individual hairs - the most controlled but time-consuming. Cost in SA: R40-R120 for threading, R60-R180 for waxing.",
+    "bouulSolution": [
+      "Bouul brow specialists post before-and-after photos - look for symmetry and shape consistency in their gallery.",
+      "Stop retinol and exfoliating acids 48 hours before waxing to prevent skin lifting.",
+      "Bouul Escrow protects you if the shape is uneven, significantly different from what you agreed, or causes skin injury."
+    ],
+    "partsNeeded": [
+      "Cotton thread (for threading) or professional wax warmer and strip wax (for waxing)",
+      "Fine-tipped tweezers (pointed slant)",
+      "Brow brush/spoolie and brow scissors for trimming",
+      "Soothing gel, aloe vera, or witch hazel for post-treatment calming"
+    ],
+    "guidePricing": "R40-R120 for brow threading; R60-R180 for brow waxing; R50-R150 for eyebrow shaping (tweeze-only); R150-R350 for henna or tinted brow shaping",
+    "timeline": "10-20 min for threading; 10-15 min for waxing; 15-25 min for tweezing with shaping",
+    "aiPromptExample": "Describe the ideal brow shaping experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended brow shaping plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Threading for Sensitive Skin",
+        "body": "Threading uses no chemicals or heat, making it suitable for sensitive skin, rosacea, and clients using retinol or acids (which make waxing risky). The precision is excellent for creating clean, defined shapes. The sensation is a quick, repetitive pinching that most clients find tolerable.\nThreading originated in South Asian cultures and is widely available in SA through Indian Ocean and East African practitioners."
+      },
+      {
+        "heading": "Waxing Precautions",
+        "body": "Waxing is faster than threading but risks removing skin if the wax is too hot or applied to retinol/acid-using skin. Never wax over active acne, cold sores, or sunburned skin. Test the wax temperature on your wrist before application. Hard wax (which sets and is removed without strips) is gentler than soft wax (which needs cloth strips)."
+      },
+      {
+        "heading": "The Golden Ratio",
+        "body": "The ideal brow follows a ratio: the brow should start in line with the nostril (straight up), arch at the outer edge of the iris (looking straight ahead), and end at a 45-degree angle from the nostril to the outer corner of the eye. This is the standard proportional guideline most SA brow artists follow. Personalisation depends on your face shape.\nA good brow artist will measure your face and recommend a shape before removing any hair. If they start plucking immediately without consultation, the shape may not suit you."
+      },
+      {
+        "heading": "Henna and Tinted Shaping",
+        "body": "Henna brows stain both the hair and the skin underneath, creating a filled-in look that lasts 1-2 weeks on skin and 3-4 weeks on hair. It works well for clients with sparse brows who want a fuller appearance without daily filling. The henna deposits colour onto the skin beneath the hairs, so the shape is visible even where hair is thin."
+      }
+    ]
+  },
+  {
+    "id": "lash-lift",
+    "tag": "eyelash-brows",
+    "title": "Lash Lift: The Low-Maintenance Alternative to Extensions",
+    "subtitle": "A perm-like treatment that curls your natural lashes upward - no extensions, no adhesive, no daily curler.",
+    "image": "/scenes/lash-lift.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is a lash lift a perm for my eyelashes?",
+    "problemBody": "A lash lift is a semi-permanent curling treatment that uses chemical solutions to reshape your natural lashes upward. It lasts 6-8 weeks and requires no daily curling or mascara. The process involves a silicone rod (size chosen based on your lash length), a lifting solution, a setting solution, and a tint if desired. Cost in SA: R350-R700. It is the most popular low-maintenance lash treatment for clients who want an open-eye effect without extensions.",
+    "bouulSolution": [
+      "Bouul lash artists offering lifts must have specific lash lift certification - general lash training does not cover this.",
+      "Clients with very short or very straight lashes benefit most from lash lifts.",
+      "Bouul Escrow protects you if the lift creates uneven curl, lashes are over-processed, or the result does not hold for at least 4 weeks."
+    ],
+    "partsNeeded": [
+      "Silicone rods or pads in multiple sizes (S, M, L for different lash lengths)",
+      "Lash lift solutions (perming lotion and neutraliser/setting lotion)",
+      "Lash tint (optional, semi-permanent dye)",
+      "Keratin treatment (optional, for conditioning the lashes)"
+    ],
+    "guidePricing": "R350-R700 for lash lift (with tint included in most packages); R400-R800 for lash lift with keratin treatment",
+    "timeline": "45-60 min for lash lift; 60-75 min with lash tint and keratin",
+    "aiPromptExample": "Describe the ideal lash lift experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended lash lift plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Silicone Rod Sizing",
+        "body": "The size of the silicone rod determines the curl result: small rod = tight curl (natural-looking for shorter lashes), medium rod = moderate lift (the most popular, gives a wide-eyed look), large rod = soft wave (best for long lashes that would look over-curled on a small rod). The artist should hold different rods against your lashes to compare before applying any solution."
+      },
+      {
+        "heading": "The Perming Process",
+        "body": "Step 1: the silicone rod is glued to the eyelid, and lashes are brushed upward onto it with adhesive. Step 2: lifting solution is applied for 8-12 minutes (timing varies by lash coarseness). Step 3: setting solution holds the new curl shape for 8-12 minutes. Step 4: tint is applied if included. Step 5: keratin conditioner nourishes the lashes. The eyes must be kept closed throughout."
+      },
+      {
+        "heading": "Aftercare for Lash Lifts",
+        "body": "No water, steam, or heavy sweating for 24 hours after the treatment (the curl needs to set). No mascara for 48 hours (avoid weighing down the fresh curl). Do not use an eyelash curler on lifted lashes - it will deform the curl shape. Oils and rich creams weaken the lift - keep eye area products lightweight."
+      },
+      {
+        "heading": "Lash Lift vs Extensions",
+        "body": "Lash lifts: no daily maintenance, no fills needed for 6-8 weeks, no adhesive, no risk of damaging natural lashes through poor isolation, lower cost per session. Extensions: more dramatic result, can add length and fullness, require fills every 2-3 weeks, higher cost, more risk if not properly applied."
+      }
+    ]
+  },
+  {
+    "id": "microblading",
+    "tag": "eyelash-brows",
+    "title": "Microblading: Semi-Permanent Brows In SA",
+    "subtitle": "Everything from the first stroke to the healed result - how microblading works, how long it lasts, and what to expect.",
+    "image": "/scenes/microblading.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Does microblading hurt - and will it fade to orange?",
+    "problemBody": "Microblading is a semi-permanent tattoo technique that uses a fine blade to deposit pigment into the upper layers of the skin, creating hair-like strokes. The cost is R1,500-R4,000 for the initial session in SA, with a mandatory touch-up 4-8 weeks later (R500-R1,500). Results last 12-18 months depending on skin type, sun exposure, and pigment quality. When well-executed, the strokes look natural and faded pigment turns lighter, not orange or red.",
+    "bouulSolution": [
+      "Bouul microblading artists are verified for certification from the SA Academy of Permanent Cosmetics or equivalent international body.",
+      "A patch test (pigment on inner arm) 48 hours before is mandatory - some people are allergic to pigment ingredients.",
+      "Bouul Escrow protects you if the result is uneven, the wrong colour, or the artist uses non-sterile equipment."
+    ],
+    "partsNeeded": [
+      "Microblading hand tool with sterile, single-use blade cartridges",
+      "Pigment in the clients matched shade (brow colour should match hair colour, not current brow colour)",
+      "Numbing cream (topical anaesthetic, applied 20-30 min before)",
+      "Aftercare ointment and printed care instructions"
+    ],
+    "guidePricing": "R1,500-R4,000 for initial session; R500-R1,500 for touch-up (4-8 weeks later); R800-R1,500 for annual colour boost",
+    "timeline": "1.5-2.5 hours for the initial session; 45-90 min for touch-up",
+    "aiPromptExample": "Describe the ideal microblading experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended microblading plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "The Healing Process Timeline",
+        "body": "Days 1-3: brows look darker and sharper than intended (pigment oxidises on the skin). Days 4-7: flaking and peeling as the skin heals - do not pick. Days 8-14: pigment appears faint or disappears entirely (this is normal - the colour returns as the skin regenerates). Weeks 4-8: healed colour settles and the touch-up adjusts any patchy areas.\nThe touch-up session is not optional - it is part of the treatment. Without it, 30-40% of strokes may disappear within 3 months."
+      },
+      {
+        "heading": "Who Microblading Suits Best",
+        "body": "Microblading is ideal for clients with normal-to-dry skin, existing brow hair (to blend strokes with natural hair), and realistic expectations. It is NOT ideal for: oily skin (strokes blur into a powder effect), very dark skin (deposit can appear greyish), or clients with a history of keloid scarring. Oily skin clients should consider powder brows (shaded effect) instead."
+      },
+      {
+        "heading": "Pre-Procedure Guidelines",
+        "body": "No caffeine or alcohol 24 hours before (increases bleeding, which pushes pigment out). No retinol, AHA, or vitamin A products on the brow area for 2 weeks before. No brow tinting or threading for 1 week before. The artist should take photos, draw the shape for approval, and only start numbing once you are happy with the outline."
+      },
+      {
+        "heading": "Long-Term Maintenance",
+        "body": "Microblading lasts 12-18 months. Colour boost sessions every 8-12 months keep the brows looking fresh without full re-done strokes. SPF on the brows prevents premature fading from SA sun exposure. Avoid retinol and AHA products directly on the brows (they accelerate pigment fading)."
+      }
+    ]
+  },
+  {
+    "id": "brow-lash-tinting",
+    "tag": "eyelash-brows",
+    "title": "Eyelash and Brow Tinting: Colour That Stays",
+    "subtitle": "The quick, affordable service that darkens and defines your lashes and brows without daily makeup.",
+    "image": "/scenes/brow-lash-tinting.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Is tinting safe for my eyes and eyebrows?",
+    "problemBody": "Lash and brow tinting uses semi-permanent dye designed specifically for use near the eyes. The tint lasts 3-6 weeks on lashes (longer on brows - 4-6 weeks) and costs R100-R300 for brows, R120-R350 for lashes, or R200-R500 for both. It is safe when performed by a trained technician using products formulated for the eye area. Home tinting kits carry more risk (irritation, dye in the eye) than professional application.",
+    "bouulSolution": [
+      "Bouul tinting specialists must have specific tinting certification - this is a regulated service due to the proximity to eyes.",
+      "A patch test 48 hours before is mandatory - eye-area tint allergies can cause significant irritation.",
+      "Bouul Escrow protects you if the tint stains unevenly, causes irritation, or is significantly darker/lighter than agreed."
+    ],
+    "partsNeeded": [
+      "Professional tint (semi-permanent dye formulated for brows or lashes)",
+      "Developer/activator solution",
+      "Petroleum barrier cream (to prevent skin staining)",
+      "Cotton pads, spoolie, and timer"
+    ],
+    "guidePricing": "R100-R300 for brow tint; R120-R350 for lash tint; R200-R500 for combination lash and brow tint",
+    "timeline": "15-20 min for brows; 20-30 min for lashes; 30-45 min for both",
+    "aiPromptExample": "Describe the ideal brow lash tinting experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended brow lash tinting plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "Lash Tint Process",
+        "body": "A protective pad is placed under the lower lashes. A barrier cream is applied around the eyes to prevent skin staining. The tint is mixed and applied to clean, dry lashes for 10-15 minutes (timing varies by desired intensity and natural lash colour). The tint is then removed with damp cotton pads.\nEyes must remain tightly closed throughout. If you feel any burning or stinging, tell the technician immediately."
+      },
+      {
+        "heading": "Brow Tint and Colour Selection",
+        "body": "The brow tint shade is chosen to match your hair colour, not your current brow colour. The general rule: brow tint one to two shades lighter than hair colour for blondes and redheads, and one shade darker for very light brows on darker-haired clients. The tint is applied in the shape of the brow and left for 10-15 minutes."
+      },
+      {
+        "heading": "Patch Test Protocol",
+        "body": "A patch test involves applying a small amount of tint behind the ear or on the inner arm 48 hours before the service. If no redness, itching, or swelling occurs, the tint is safe to use on the eye area. Bouul requires documented patch test results before every first tinting service."
+      },
+      {
+        "heading": "Combination Services",
+        "body": "Lash tint + lift and brow tint + shape are the most popular combination services. The lash lift is done first, then the tint is applied (the lift solutions prepare the lash to absorb tint better). Brows are tinted after shaping so the colour lands on the right hairs."
+      }
+    ]
+  },
+  {
+    "id": "lash-removal",
+    "tag": "eyelash-brows",
+    "title": "Eyelash Extension Removal: Safe and Gentle Take-Down",
+    "subtitle": "When its time for your extensions to come off - professional removal protects your natural lashes from damage.",
+    "image": "/scenes/lash-removal.png",
+    "readTime": "4 min read",
+    "author": "Bouul Beauty & Wellness Team",
+    "problemHeadline": "Can I remove lash extensions at home?",
+    "problemBody": "Professional removal is always safer than DIY removal. The technician applies a gel-based remover to each lash extension, waits 5-10 minutes for the adhesive to dissolve, and gently slides the extensions off with tweezers. DIY removal (pulling, picking, or oil-based home removal) damages natural lashes, often pulling them out with the extension or leaving adhesive residue that irritates the eye. Professional removal costs R100-R300 in SA.",
+    "bouulSolution": [
+      "Bouul lash artists always include removal in their service menu - never pick or pull extensions at home.",
+      "Book removal when less than 40% of your extensions remain to avoid uneven, messy-looking lashes.",
+      "Bouul Escrow protects you if the technician damages your natural lashes during removal."
+    ],
+    "partsNeeded": [
+      "Gel-based lash extension remover (solvent that dissolves adhesive)",
+      "Fine-tipped tweezers for gently sliding extensions off",
+      "Microfibre brush for cleaning lash line after removal",
+      "Nourishing lash serum or oil-free conditioner post-removal"
+    ],
+    "guidePricing": "R100-R300 for professional removal (often complimentary with a new full set booking)",
+    "timeline": "20-30 min for full removal; 15-20 min for removal before a new set (the technician cleans as they go)",
+    "aiPromptExample": "Describe the ideal lash removal experience - outline the key steps, what a first-time client should expect, and how to prepare for best results.",
+    "aiDiagnosisOutput": "Based on your input, here is a recommended lash removal plan tailored to your needs: assess current condition, select appropriate techniques, apply professional-grade products, and schedule follow-up maintenance at the recommended interval.",
+    "escrowGuarantee": "Bouul Escrow holds your payment securely until you confirm the service is complete to your satisfaction - no stress, no disputes.",
+    "pirbStandard": "This service is delivered in line with HPCSA scope-of-practice guidelines and relevant SA industry body standards (CIDESCO, ITEC, or SAASWA as applicable). All practitioners carry professional indemnity insurance and undergo annual code-of-conduct reviews.",
+    "articleSections": [
+      {
+        "heading": "When to Remove",
+        "body": "Extensions should be removed when: 40% or more have fallen out naturally and the remaining ones look sparse and uneven, the extensions are grown out and too far from the lash line (causing twisting and tangling), there is visible irritation, redness, or adhesive build-up, or you want to take a break from extensions to let natural lashes rest and strengthen."
+      },
+      {
+        "heading": "The Professional Removal Step-by-Step",
+        "body": "Step 1: the technician isolates each extension with tweezers. Step 2: a tiny amount of remover gel is applied to the base of the extension where it meets the natural lash. Step 3: after 30-60 seconds (the remover dissolves the adhesive bond), the extension slides off easily. Step 4: the natural lash line is cleaned and a nourishing serum or conditioner is applied.\nThe remover never touches the skin or eye - only the extension bond point."
+      },
+      {
+        "heading": "Post-Removal Lash Care",
+        "body": "After removal, natural lashes may look shorter and thinner - this is because you are used to seeing them with extension length and volume. They will appear normal again within 1-2 lash cycles (4-8 weeks). Apply castor oil or a lash-conditioning serum nightly. Avoid mascara for 24 hours to let the lash line recover."
+      },
+      {
+        "heading": "Emergency Removal for Irritation",
+        "body": "If you experience redness, swelling, itching, or pain with extensions on, seek professional removal immediately - do not wait for a scheduled appointment. Continuing to wear extensions through an allergic reaction worsens the sensitivity and risks permanent lash damage. Bouul can help find an emergency removal appointment."
+      }
+    ]
+  }
+]

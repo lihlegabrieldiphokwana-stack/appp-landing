@@ -1,0 +1,230 @@
+[
+  {
+    "id": "sec_electric_fence_install",
+    "tag": "Electric Fence",
+    "title": "COC Compliant Electric Fence Installation",
+    "subtitle": "High-voltage perimeter electric fencing with energizer and alarm monitoring",
+    "image": "/scenes/security_systems.png",
+    "readTime": "5 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Low or sagging perimeter walls invite opportunistic trespassing and burglary",
+    "problemBody": "Non-compliant electric fences with low voltage or loose wire tension fail to deter intruders.",
+    "bouulSolution": [
+      "Certified installer fits 8-line or 10-line high-tensile stainless steel electric fence",
+      "Installation of Nemtek energizer with battery backup, siren, and gate contact triggers",
+      "Escrow released after compliance testing and issuing of Electrical Fence COC"
+    ],
+    "partsNeeded": [
+      "Nemtek Druid 13 / 15 Energizer",
+      "Stainless steel 316 wire & bobbins",
+      "Galvanized square tubing uprights",
+      "Siren, strobe light & HT cable"
+    ],
+    "guidePricing": "R65 – R120 per meter",
+    "timeline": "Duration: 1 – 3 Days",
+    "aiPromptExample": "Quote electric fence: 'Install 60m 10-line electric fence on boundary wall in Fourways.'",
+    "aiDiagnosisOutput": "Scope: 60m 10-Line Stainless Steel + Nemtek Energizer + Siren + COC. Escrow Quote: R7,500.",
+    "escrowGuarantee": "Escrow released after COC delivery and high-voltage trip test.",
+    "pirbStandard": "Department of Labour Registered Electric Fence System Installer (SANS 10222-3).",
+    "articleSections": [
+      {
+        "heading": "SANS 10222-3 Safety Standard",
+        "body": "Fences are installed with mandated warning signs, earthing spikes, and legal wire spacing."
+      },
+      {
+        "heading": "High-Voltage Pulse Test",
+        "body": "Energizers deliver a legal 9,000V shock that deters intruders while triggering alarms on wire cuts."
+      }
+    ]
+  },
+  {
+    "id": "sec_alarm_system_wireless",
+    "tag": "Alarm Systems",
+    "title": "Wireless Alarm System & Motion Sensor Setup",
+    "subtitle": "Smart wireless alarm installation with door contacts, PIR motion sensors, and app alerts",
+    "image": "/scenes/security_systems.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Outdated wired alarm systems frequently trigger false alarms or fail during load-shedding",
+    "problemBody": "Hard-wired alarm sensors with broken door reed switches cause constant midnight siren trips.",
+    "bouulSolution": [
+      "Installation of Ajax / Paradox wireless smart alarm system with pet-immune PIR sensors",
+      "Integrated GSM / IP module sends instant push notifications to your smartphone and armed response",
+      "Escrow released after testing all motion zones and armed response control room link"
+    ],
+    "partsNeeded": [
+      "Ajax Hub 2 Plus / Paradox Magellan",
+      "Pet-immune PIR motion detectors",
+      "Wireless door / window reed switches",
+      "Outdoor wireless siren & keypad"
+    ],
+    "guidePricing": "R3,800 – R11,500",
+    "timeline": "Duration: 3 – 5 Hours",
+    "aiPromptExample": "Quote alarm install: 'Install wireless alarm system for 3-bedroom house with mobile app.'",
+    "aiDiagnosisOutput": "System: Ajax Hub + 4x Motion PIRs + 2x Door Contacts + Siren. Escrow Quote: R6,500.",
+    "escrowGuarantee": "Escrow released after successful walk-test of all zones.",
+    "pirbStandard": "PSIRA Registered Alarm Installer Standard.",
+    "articleSections": [
+      {
+        "heading": "Pet-Immune PIR Sensing",
+        "body": "Smart motion sensors distinguish between pets under 20kg and human intruders, eliminating false alarms."
+      },
+      {
+        "heading": "Load-Shedding Battery Backup",
+        "body": "Internal lithium backup batteries keep the alarm active for up to 16 hours during power outages."
+      }
+    ]
+  },
+  {
+    "id": "sec_gate_motor_repair",
+    "tag": "Gate Motors",
+    "title": "Gate Motor Repair & Automated Sliding Gate Install",
+    "subtitle": "Diagnosing broken gate motors, replacing worn rack gears, and installing new Centurion motors",
+    "image": "/scenes/security_systems.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "A stuck gate motor forces you to get out of your car at night, creating a severe hijacking risk",
+    "problemBody": "Worn nylon rack gears, blown motor fuses, or dead 12V batteries stop your gate from moving.",
+    "bouulSolution": [
+      "Emergency technician diagnoses gate motor issues or installs new Centurion D5 Smart motor",
+      "Includes rack alignment, anti-theft bracket installation, and remote control coding",
+      "Escrow released after testing smooth gate travel, obstruction safety stop, and remote range"
+    ],
+    "partsNeeded": [
+      "Centurion D5 Smart / D10 motor",
+      "12V 7Ah / 24V backup batteries",
+      "Steel / nylon gear rack",
+      "Anti-theft cage & padlock"
+    ],
+    "guidePricing": "R850 – R5,500",
+    "timeline": "Duration: 1 – 3 Hours",
+    "aiPromptExample": "Book gate motor repair: 'Sliding gate stopped moving, motor makes clicking sound in Sandton.'",
+    "aiDiagnosisOutput": "Diagnosis: Dead 12V battery + blown fuse. Fix: Replaced dual 7Ah batteries & tested charger. Escrow: R950.",
+    "escrowGuarantee": "Escrow released after testing 10 consecutive gate opening cycles.",
+    "pirbStandard": "SABS Gate Automation & Safety Standard.",
+    "articleSections": [
+      {
+        "heading": "Anti-Theft Bracket Protection",
+        "body": "Heavy-duty steel cages and padlocks protect your expensive gate motor from theft."
+      },
+      {
+        "heading": "Obstruction Auto-Reverse Safety",
+        "body": "Motors are calibrated to stop and reverse instantly if an object or person blocks the gate."
+      }
+    ]
+  },
+  {
+    "id": "sec_intercom_video_doorbell",
+    "tag": "Video Intercoms",
+    "title": "Video Intercom & Smart Doorbell Installation",
+    "subtitle": "HD video doorbells and multi-tenant intercom systems with remote gate release",
+    "image": "/scenes/security_systems.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Answering the gate blindly without seeing who is outside is a major security hazard",
+    "problemBody": "Audio-only intercoms provide zero visual confirmation of visitors or delivery drivers.",
+    "bouulSolution": [
+      "Installation of HD video doorbells or 2-wire video intercoms with indoor touch monitors",
+      "Remote gate release button allows opening your gate directly from your smartphone",
+      "Escrow released after testing video clarity, night vision, and gate release trigger"
+    ],
+    "partsNeeded": [
+      "Hikvision / Dahua 7-inch Video Intercom",
+      "HD camera door station with IR",
+      "Electric gate lock release relay",
+      "Power supply & cabling"
+    ],
+    "guidePricing": "R2,200 – R6,800",
+    "timeline": "Duration: 2 – 4 Hours",
+    "aiPromptExample": "Book video intercom: 'Install video intercom with indoor screen and mobile app gate open.'",
+    "aiDiagnosisOutput": "Scope: 7-inch Touch Screen + Outdoor Camera + Gate Lock Wiring. Escrow: R3,800.",
+    "escrowGuarantee": "Escrow released after testing video stream and remote gate opening.",
+    "pirbStandard": "PSIRA Intercom Installation Standard.",
+    "articleSections": [
+      {
+        "heading": "1-Tap Smartphone Gate Unlock",
+        "body": "Open your entrance gate remotely for family or delivery drivers from anywhere in the world."
+      },
+      {
+        "heading": "Infrared Night Vision Clarity",
+        "body": "Built-in IR LEDs provide clear facial visibility even in zero ambient street lighting."
+      }
+    ]
+  },
+  {
+    "id": "sec_biometric_access_control",
+    "tag": "Access Control",
+    "title": "Biometric & RFID Access Control Systems",
+    "subtitle": "Fingerprint, facial recognition, and RFID card access control for business or residential gates",
+    "image": "/scenes/security_systems.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Uncontrolled visitor entry and lost physical keys compromise building security",
+    "problemBody": "Physical keys are easily duplicated by unauthorized former employees or contractors.",
+    "bouulSolution": [
+      "Installation of ZKTeco biometric fingerprint or facial recognition access control terminals",
+      "Management software installation to log employee time-and-attendance and revoke access instantly",
+      "Escrow released after enrolling user fingerprints and verifying door strike locking"
+    ],
+    "partsNeeded": [
+      "ZKTeco Biometric Reader",
+      "Heavy-duty magnetic lock (600lbs)",
+      "Break-glass emergency exit button",
+      "Power supply with battery backup"
+    ],
+    "guidePricing": "R3,500 – R12,000",
+    "timeline": "Duration: 3 – 6 Hours",
+    "aiPromptExample": "Quote access control: 'Install fingerprint access reader on main office glass entry door.'",
+    "aiDiagnosisOutput": "Scope: Biometric Terminal + Mag Lock + Emergency Break Glass + Software Setup. Escrow: R6,200.",
+    "escrowGuarantee": "Escrow released after enrolling 15 staff members and testing door lock.",
+    "pirbStandard": "PSIRA Access Control Standard.",
+    "articleSections": [
+      {
+        "heading": "Instant Revocation Control",
+        "body": "Revoke former employee access in 1 click without needing to change physical locks."
+      },
+      {
+        "heading": "Fail-Safe Emergency Release",
+        "body": "Break-glass switches ensure doors unlock automatically in the event of a fire emergency."
+      }
+    ]
+  },
+  {
+    "id": "sec_garage_door_automation",
+    "tag": "Garage Motors",
+    "title": "Garage Door Motor Automation & Spring Repair",
+    "subtitle": "Automating roll-up, sectional, and tip-up garage doors with battery backup motors",
+    "image": "/scenes/security_systems.png",
+    "readTime": "4 min read",
+    "author": "Bouul Tech Team",
+    "problemHeadline": "Manually lifting heavy garage doors in rainy weather is exhausting and unsafe",
+    "problemBody": "Snapping tension springs or frayed steel cables cause garage doors to slam down dangerously.",
+    "bouulSolution": [
+      "Installation of Centurion SDO4 / Roll-Up garage door motors with battery backup",
+      "Tension spring replacement, cable re-spooling, and track lubrication",
+      "Escrow released after testing smooth door opening, auto-reverse safety, and remote range"
+    ],
+    "partsNeeded": [
+      "Centurion SDO4 Smart Garage Motor",
+      "Heavy-duty garage door springs",
+      "Steel lifting cables & pulleys",
+      "Remote transmitters"
+    ],
+    "guidePricing": "R1,800 – R4,800",
+    "timeline": "Duration: 2 – 4 Hours",
+    "aiPromptExample": "Book garage automation: 'Automate double sectional wooden garage door in Centurion.'",
+    "aiDiagnosisOutput": "Scope: SDO4 Motor + 2x Remotes + Track Lubrication + Spring Tensioning. Escrow: R3,400.",
+    "escrowGuarantee": "Escrow released after testing smooth operation and auto-reverse safety stop.",
+    "pirbStandard": "SABS Door Automation Standard.",
+    "articleSections": [
+      {
+        "heading": "Soft-Start & Soft-Stop Motion",
+        "body": "Smart motors decelerate smoothly at the end of travel to eliminate loud door slamming."
+      },
+      {
+        "heading": "Heavy-Duty Spring Tensioning",
+        "body": "Tension springs are balanced so the door can be lifted effortlessly even during manual overrides."
+      }
+    ]
+  }
+]
