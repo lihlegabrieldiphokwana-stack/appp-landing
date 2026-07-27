@@ -280,7 +280,7 @@ html {
   to { transform: translateX(-50%); }
 }
 .b-marquee {
-  animation: b-marquee 48s linear infinite;
+  animation: b-marquee 80s linear infinite;
 }
 
 /* Gentle float for hero collage cards */
