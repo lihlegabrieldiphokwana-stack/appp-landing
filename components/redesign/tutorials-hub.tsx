@@ -1344,49 +1344,180 @@ export function TutorialsHub() {
     return TUTORIAL_CATEGORIES.reduce((acc, cat) => acc + cat.items.length, 0);
   }, []);
 
+  const [copiedSlug, setCopiedSlug] = useState<string | null>(null);
+  const [helpfulFeedback, setHelpfulFeedback] = useState<Record<string, boolean>>({});
+  const [completedGuides, setCompletedGuides] = useState<Set<string>>(new Set());
+  const [showToastMessage, setShowToastMessage] = useState<string | null>(null);
+
+  // Load completed guides from localStorage
+  React.useEffect(() => {
+    try {
+      const saved = localStorage.getItem("bouul_read_guides");
+      if (saved) {
+        setCompletedGuides(new Set(JSON.parse(saved)));
+      }
+    } catch (e) {
+      // Ignore fallback
+    }
+  }, []);
+
+  // Track completed guide when opened
+  const handleOpenGuide = (tutorial: TutorialItem, categoryTitle: string) => {
+    setActiveModalGuide({ guide: tutorial, categoryTitle });
+    setCompletedGuides((prev) => {
+      const next = new Set(prev);
+      next.add(tutorial.id);
+      try {
+        localStorage.setItem("bouul_read_guides", JSON.stringify(Array.from(next)));
+      } catch (e) {}
+      return next;
+    });
+  };
+
+  // Surprise Me 🎲 Random Guide Picker
+  const handleSurpriseMe = () => {
+    const allGuides = TUTORIAL_CATEGORIES.flatMap((c) =>
+      c.items.map((item) => ({ guide: item, categoryTitle: c.title }))
+    );
+    if (allGuides.length > 0) {
+      const random = allGuides[Math.floor(Math.random() * allGuides.length)];
+      handleOpenGuide(random.guide, random.categoryTitle);
+      triggerToast(`🎲 Picked: "${random.guide.title}"`);
+    }
+  };
+
+  const triggerToast = (msg: string) => {
+    setShowToastMessage(msg);
+    setTimeout(() => setShowToastMessage(null), 3000);
+  };
+
+  // Keyboard shortcut listener: '/' to focus search, 'Esc' to close modal
+  const searchInputRef = React.useRef<HTMLInputElement>(null);
+  React.useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "/" && document.activeElement !== searchInputRef.current) {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+      if (e.key === "Escape" && activeModalGuide) {
+        setActiveModalGuide(null);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [activeModalGuide]);
+
+  const handleCopyLink = (slug: string) => {
+    const url = `${window.location.origin}/tutorials#${slug}`;
+    navigator.clipboard.writeText(url);
+    setCopiedSlug(slug);
+    triggerToast("✨ Direct guide link copied to clipboard!");
+    setTimeout(() => setCopiedSlug(null), 2000);
+  };
+
   return (
-    <div className="relative pt-24 pb-20">
+    <div className="relative pt-20 sm:pt-24 pb-[max(5rem,env(safe-area-inset-bottom))]">
+      {/* Floating Delight Toast */}
+      <AnimatePresence>
+        {showToastMessage && (
+          <motion.div
+            initial={{ opacity: 0, y: -20, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -20, scale: 0.9 }}
+            className="fixed top-6 left-1/2 -translate-x-1/2 z-50 rounded-full bg-b-ink text-b-paper px-4 py-2 text-xs font-semibold shadow-xl border border-b-paper/20 flex items-center gap-2 pointer-events-none"
+          >
+            <Sparkles className="h-4 w-4 text-b-sun" />
+            <span>{showToastMessage}</span>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <Section id="tutorials-hero">
         <Reveal>
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <Eyebrow tone="green" className="mb-3">
+          <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
+            {/* Top Eyebrow */}
+            <Eyebrow tone="green" className="mb-2 sm:mb-3">
               Comprehensive Knowledge Base
             </Eyebrow>
-            <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight text-b-ink mb-4">
+
+            {/* Display Heading */}
+            <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink mb-3 sm:mb-4">
               Master Bouul in Minutes<span className="text-b-green">.</span>
             </h1>
-            <p className="text-lg text-b-ink-soft leading-relaxed">
+
+            {/* Subtitle */}
+            <p className="text-sm sm:text-base md:text-lg text-b-ink-soft leading-relaxed max-w-2xl mx-auto px-2">
               Step-by-step guides for vendors, employees, and customers. Learn how to launch your storefront,
               automate dispatch, protect earnings with escrow, and scale your service business.
             </p>
 
-            {/* Search & Filter Bar */}
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+            {/* Stats & Proof Bar with Completed Progress */}
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-2.5 font-price text-xs text-b-ink-soft">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                <BookOpen className="h-3.5 w-3.5 text-b-green-deep" />
+                <strong>55</strong> Step-by-Step Guides
+              </span>
+              {completedGuides.size > 0 && (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-b-green-deep/10 text-b-green-deep px-3 py-1 border border-b-green-deep/20 font-semibold">
+                  <CheckCircle2 className="h-3.5 w-3.5" />
+                  Completed {completedGuides.size} of 55 Guides
+                </span>
+              )}
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                <Layers className="h-3.5 w-3.5 text-b-green-deep" />
+                <strong>9</strong> Specialized Categories
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                <Clock className="h-3.5 w-3.5 text-b-green-deep" />
+                ~3.5 Hours Total Knowledge
+              </span>
+            </div>
+
+            {/* Search Bar with Keyboard Kbd Affordance & Surprise Me 🎲 Delight Button */}
+            <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
               <div className="relative w-full max-w-md">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-b-ink-faint" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-b-ink-faint pointer-events-none" />
                 <input
+                  ref={searchInputRef}
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search guides, topics, or features..."
-                  className="w-full rounded-2xl border border-b-line bg-b-paper-raised pl-11 pr-10 py-3.5 text-sm text-b-ink placeholder:text-b-ink-faint focus:border-b-green-deep focus:outline-none focus:ring-2 focus:ring-b-green-deep/20 transition-all"
+                  placeholder="Search 55 guides or press '/' to search..."
+                  aria-label="Search tutorial documentation"
+                  className="w-full rounded-2xl border border-b-line bg-b-paper-raised pl-11 pr-12 py-3.5 text-sm text-b-ink placeholder:text-b-ink-faint focus:border-b-green-deep focus:outline-none focus:ring-2 focus:ring-b-green-deep/20 transition-all duration-200 min-h-[44px]"
                 />
+                {!searchQuery && (
+                  <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none hidden sm:block">
+                    <kbd className="rounded bg-b-paper-deep border border-b-line px-2 py-0.5 font-price text-[10px] font-bold text-b-ink-faint shadow-2xs">
+                      /
+                    </kbd>
+                  </div>
+                )}
                 {searchQuery && (
                   <button
                     onClick={() => setSearchQuery("")}
-                    className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 text-b-ink-faint hover:text-b-ink"
+                    aria-label="Clear search query"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 p-2 text-b-ink-faint hover:text-b-ink transition-colors cursor-pointer min-h-[44px] min-w-[44px] flex items-center justify-center"
                   >
                     <X className="h-4 w-4" />
                   </button>
                 )}
               </div>
+              <button
+                onClick={handleSurpriseMe}
+                title="Open a random guide to explore"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl border border-b-line bg-b-paper-raised px-4 py-3.5 text-xs font-semibold text-b-ink hover:bg-b-ink hover:text-b-paper transition-all duration-200 cursor-pointer min-h-[44px]"
+              >
+                <Sparkles className="h-4 w-4 text-b-sun" />
+                <span>Surprise Me 🎲</span>
+              </button>
             </div>
 
             {/* Category Filter Pills */}
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+            <div className="mt-5 sm:mt-6 flex items-center gap-2 overflow-x-auto pb-2 pt-1 px-1 -mx-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:justify-center scrollbar-none snap-x touch-pan-x">
               <button
                 onClick={() => setSelectedCategoryId("all")}
-                className={`rounded-full px-4 py-2 text-xs font-semibold tracking-wide transition-all ${
+                className={`snap-start shrink-0 rounded-full px-4 py-2.5 sm:py-2 text-xs font-semibold tracking-wide transition-all duration-200 cursor-pointer min-h-[44px] sm:min-h-[36px] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-b-green-deep/30 ${
                   selectedCategoryId === "all"
                     ? "bg-b-ink text-b-paper shadow-sm"
                     : "bg-b-paper-raised text-b-ink-soft hover:bg-b-paper-deep hover:text-b-ink border border-b-line"
@@ -1398,7 +1529,7 @@ export function TutorialsHub() {
                 <button
                   key={cat.id}
                   onClick={() => setSelectedCategoryId(cat.id)}
-                  className={`rounded-full px-4 py-2 text-xs font-semibold tracking-wide transition-all ${
+                  className={`snap-start shrink-0 rounded-full px-4 py-2.5 sm:py-2 text-xs font-semibold tracking-wide transition-all duration-200 cursor-pointer min-h-[44px] sm:min-h-[36px] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-b-green-deep/30 ${
                     selectedCategoryId === cat.id
                       ? "bg-b-ink text-b-paper shadow-sm"
                       : "bg-b-paper-raised text-b-ink-soft hover:bg-b-paper-deep hover:text-b-ink border border-b-line"
@@ -1412,12 +1543,12 @@ export function TutorialsHub() {
         </Reveal>
 
         {/* Tutorial Accordion & Grid View */}
-        <div className="space-y-8 max-w-5xl mx-auto">
+        <div className="space-y-6 sm:space-y-8 max-w-5xl mx-auto">
           {filteredCategories.length === 0 ? (
-            <div className="text-center py-16 rounded-3xl border border-dashed border-b-line bg-b-paper-raised p-8">
-              <HelpCircle className="h-12 w-12 text-b-ink-faint mx-auto mb-3" />
-              <h3 className="font-display text-xl font-bold text-b-ink mb-1">No guides found</h3>
-              <p className="text-sm text-b-ink-soft mb-4">
+            <div className="text-center py-12 sm:py-16 rounded-3xl border border-dashed border-b-line bg-b-paper-raised p-6 sm:p-8">
+              <HelpCircle className="h-10 w-10 sm:h-12 sm:w-12 text-b-ink-faint mx-auto mb-3" />
+              <h3 className="font-display text-lg sm:text-xl font-bold text-b-ink mb-1">No guides found</h3>
+              <p className="text-xs sm:text-sm text-b-ink-soft mb-4">
                 No tutorial matches "{searchQuery}". Try searching for terms like "storefront", "escrow", "dispatch", or "Zola".
               </p>
               <button
@@ -1425,7 +1556,7 @@ export function TutorialsHub() {
                   setSearchQuery("");
                   setSelectedCategoryId("all");
                 }}
-                className="rounded-full bg-b-ink px-5 py-2.5 text-xs font-semibold text-b-paper hover:bg-b-forest transition-colors"
+                className="rounded-full bg-b-ink px-5 py-2.5 text-xs font-semibold text-b-paper hover:bg-b-forest transition-colors duration-200 cursor-pointer min-h-[44px] inline-flex items-center justify-center"
               >
                 Reset Search Filters
               </button>
@@ -1437,33 +1568,34 @@ export function TutorialsHub() {
 
               return (
                 <Reveal key={category.id}>
-                  <div className="rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden shadow-sm transition-all duration-300">
+                  <div className="rounded-2xl sm:rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
                     {/* Category Header Bar */}
                     <button
                       onClick={() =>
                         setExpandedCategoryId(isExpanded ? null : category.id)
                       }
-                      className="w-full flex items-center justify-between p-6 text-left hover:bg-b-paper-deep/50 transition-colors"
+                      aria-expanded={isExpanded}
+                      className="w-full flex items-center justify-between p-4 sm:p-6 text-left hover:bg-b-paper-deep/50 transition-colors duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-inset focus:ring-b-green-deep/20 min-h-[56px]"
                     >
-                      <div className="flex items-center gap-4">
-                        <div className={`p-3 rounded-2xl ${category.badgeBg} border`}>
-                          <Icon className="h-6 w-6" />
+                      <div className="flex items-center gap-3 sm:gap-4">
+                        <div className={`p-2.5 sm:p-3 rounded-xl sm:rounded-2xl ${category.badgeBg} border shrink-0`}>
+                          <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
                         </div>
                         <div>
-                          <div className="flex items-center gap-2">
-                            <h2 className="font-display text-xl font-bold text-b-ink">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <h2 className="font-display text-lg sm:text-xl font-bold text-b-ink">
                               {category.title}
                             </h2>
-                            <span className="rounded-full bg-b-paper-deep px-2.5 py-0.5 font-price text-[11px] font-semibold text-b-ink-soft border border-b-line">
+                            <span className="rounded-full bg-b-paper-deep px-2.5 py-0.5 font-price text-[10px] sm:text-[11px] font-semibold text-b-ink-soft border border-b-line">
                               {category.items.length} guides
                             </span>
                           </div>
-                          <p className="text-xs text-b-ink-soft mt-1 max-w-2xl line-clamp-1 sm:line-clamp-none">
+                          <p className="text-xs text-b-ink-soft mt-1 line-clamp-1 sm:line-clamp-none">
                             {category.description}
                           </p>
                         </div>
                       </div>
-                      <div className="p-2 text-b-ink-faint">
+                      <div className="p-1 sm:p-2 text-b-ink-faint shrink-0">
                         {isExpanded ? (
                           <ChevronDown className="h-5 w-5" />
                         ) : (
@@ -1482,62 +1614,84 @@ export function TutorialsHub() {
                           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                           className="overflow-hidden"
                         >
-                          <div className="p-6 pt-2 border-t border-b-line/60 grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {category.items.map((tutorial) => (
-                              <div
-                                key={tutorial.id}
-                                className="group relative rounded-2xl border border-b-line bg-b-paper p-5 flex flex-col justify-between hover:border-b-green-deep hover:shadow-md transition-all duration-200"
-                              >
-                                <div>
-                                  {/* Top Bar: Badges */}
-                                  <div className="flex items-center justify-between gap-2 mb-3">
-                                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold font-price text-b-green-deep">
-                                      <Clock className="h-3.5 w-3.5" />
-                                      {tutorial.readTime}
-                                    </span>
-                                    <span className="text-[11px] font-semibold font-price text-b-ink-faint">
-                                      {tutorial.stepCount} steps
-                                    </span>
+                          <div className="p-4 sm:p-6 pt-2 border-t border-b-line/60 grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+                            {category.items.map((tutorial) => {
+                              const isCompleted = completedGuides.has(tutorial.id);
+                              return (
+                                <div
+                                  key={tutorial.id}
+                                  className={`group relative rounded-xl sm:rounded-2xl border p-4 sm:p-5 flex flex-col justify-between hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 ${
+                                    isCompleted
+                                      ? "bg-b-paper border-b-green-deep/30"
+                                      : "bg-b-paper border-b-line hover:border-b-green-deep"
+                                  }`}
+                                >
+                                  <div>
+                                    {/* Top Bar: Badges */}
+                                    <div className="flex items-center justify-between gap-2 mb-2.5">
+                                      <span className="inline-flex items-center gap-1 text-[11px] font-semibold font-price text-b-green-deep">
+                                        <Clock className="h-3.5 w-3.5" />
+                                        {tutorial.readTime}
+                                      </span>
+                                      {isCompleted ? (
+                                        <span className="inline-flex items-center gap-1 text-[10px] font-bold font-price text-b-green-deep bg-b-green-deep/10 px-2 py-0.5 rounded-full border border-b-green-deep/20">
+                                          <CheckCircle2 className="h-3 w-3" /> Completed
+                                        </span>
+                                      ) : (
+                                        <span className="text-[11px] font-semibold font-price text-b-ink-faint">
+                                          {tutorial.stepCount} steps
+                                        </span>
+                                      )}
+                                    </div>
+
+                                    {/* Title & Summary */}
+                                    <h3 className="font-display text-base font-bold text-b-ink group-hover:text-b-green-deep transition-colors duration-200 mb-1.5">
+                                      {tutorial.title}
+                                    </h3>
+                                    <p className="text-xs text-b-ink-soft leading-relaxed mb-3.5">
+                                      {tutorial.summary}
+                                    </p>
+
+                                    {/* Media Placeholder Preview */}
+                                    <div className="mb-3.5">
+                                      <MediaPlaceholder
+                                        kind="image"
+                                        label={`UX Preview • ${category.title}`}
+                                        alt={tutorial.mediaPlaceholderAlt}
+                                        ratio="16/9"
+                                        rounded="rounded-xl"
+                                      />
+                                      <p className="text-[11px] italic text-b-ink-faint mt-1.5 line-clamp-1">
+                                        🖼️ {tutorial.mediaPlaceholderAlt}
+                                      </p>
+                                    </div>
                                   </div>
 
-                                  {/* Title & Summary */}
-                                  <h3 className="font-display text-base font-bold text-b-ink group-hover:text-b-green-deep transition-colors mb-2">
-                                    {tutorial.title}
-                                  </h3>
-                                  <p className="text-xs text-b-ink-soft leading-relaxed mb-4">
-                                    {tutorial.summary}
-                                  </p>
-
-                                  {/* Media Placeholder Preview */}
-                                  <div className="mb-4">
-                                    <MediaPlaceholder
-                                      kind="image"
-                                      label={`UX Preview • ${category.title}`}
-                                      alt={tutorial.mediaPlaceholderAlt}
-                                      ratio="16/9"
-                                      rounded="rounded-xl"
-                                    />
-                                    <p className="text-[11px] italic text-b-ink-faint mt-1.5 line-clamp-1">
-                                      🖼️ {tutorial.mediaPlaceholderAlt}
-                                    </p>
+                                  {/* Action Buttons */}
+                                  <div className="flex items-center gap-2">
+                                    <button
+                                      onClick={() => handleOpenGuide(tutorial, category.title)}
+                                      className="flex-1 flex items-center justify-between rounded-xl bg-b-paper-raised border border-b-line px-4 py-2.5 text-xs font-semibold text-b-ink group-hover:bg-b-ink group-hover:text-b-paper group-hover:border-b-ink transition-all duration-200 cursor-pointer min-h-[44px]"
+                                    >
+                                      <span>{isCompleted ? "Review Guide" : "Read Guide"}</span>
+                                      <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                                    </button>
+                                    <button
+                                      onClick={() => handleCopyLink(tutorial.id)}
+                                      title="Copy guide link"
+                                      aria-label="Copy direct guide link"
+                                      className="p-2.5 rounded-xl border border-b-line bg-b-paper-raised text-b-ink-soft hover:text-b-ink hover:bg-b-paper-deep transition-colors duration-200 cursor-pointer min-h-[44px] min-w-[44px] flex items-center justify-center"
+                                    >
+                                      {copiedSlug === tutorial.id ? (
+                                        <CheckCircle2 className="h-4 w-4 text-b-green-deep" />
+                                      ) : (
+                                        <Tag className="h-4 w-4" />
+                                      )}
+                                    </button>
                                   </div>
                                 </div>
-
-                                {/* Action Button */}
-                                <button
-                                  onClick={() =>
-                                    setActiveModalGuide({
-                                      guide: tutorial,
-                                      categoryTitle: category.title,
-                                    })
-                                  }
-                                  className="w-full flex items-center justify-between rounded-xl bg-b-paper-raised border border-b-line px-4 py-2.5 text-xs font-semibold text-b-ink group-hover:bg-b-ink group-hover:text-b-paper group-hover:border-b-ink transition-all"
-                                >
-                                  <span>Read Guide</span>
-                                  <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                                </button>
-                              </div>
-                            ))}
+                              );
+                            })}
                           </div>
                         </motion.div>
                       )}
@@ -1550,60 +1704,78 @@ export function TutorialsHub() {
         </div>
       </Section>
 
-      {/* Guide Detail Modal */}
+      {/* Guide Detail Modal — Adaptive Bottom Sheet on Mobile (<640px) */}
       <AnimatePresence>
         {activeModalGuide && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+          <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-6 overflow-y-auto" role="dialog" aria-modal="true">
             {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setActiveModalGuide(null)}
-              className="fixed inset-0 bg-b-ink/60 backdrop-blur-sm"
+              className="fixed inset-0 bg-b-ink/60 backdrop-blur-sm cursor-pointer"
             />
 
-            {/* Modal Box */}
+            {/* Modal / Bottom Sheet Box */}
             <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: 16 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: 16 }}
-              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-              className="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-3xl border border-b-line bg-b-paper p-6 sm:p-8 shadow-2xl z-10 text-b-ink"
+              initial={{ opacity: 0, y: "100%" }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: "100%" }}
+              transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+              className="relative w-full max-w-2xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto rounded-t-3xl sm:rounded-3xl border-t sm:border border-b-line bg-b-paper p-5 sm:p-8 shadow-2xl z-10 text-b-ink pb-[max(1.5rem,env(safe-area-inset-bottom))]"
             >
+              {/* Mobile Drag Handle */}
+              <div className="w-12 h-1.5 rounded-full bg-b-line mx-auto mb-4 sm:hidden" />
+
               {/* Close Button */}
               <button
                 onClick={() => setActiveModalGuide(null)}
-                className="absolute right-5 top-5 p-2 rounded-full text-b-ink-faint hover:text-b-ink hover:bg-b-paper-raised transition-all"
+                aria-label="Close guide viewer modal"
+                className="absolute right-4 top-4 sm:right-5 sm:top-5 p-2 rounded-full text-b-ink-faint hover:text-b-ink hover:bg-b-paper-raised transition-all duration-200 cursor-pointer min-h-[44px] min-w-[44px] flex items-center justify-center"
               >
                 <X className="h-5 w-5" />
               </button>
 
               {/* Modal Category Header */}
-              <div className="flex items-center gap-2 mb-2">
-                <span className="rounded-full bg-b-green-deep/10 px-3 py-1 font-price text-[11px] font-semibold text-b-green-deep">
-                  {activeModalGuide.categoryTitle}
-                </span>
-                <span className="font-price text-xs text-b-ink-faint">
-                  • {activeModalGuide.guide.readTime}
-                </span>
+              <div className="flex items-center justify-between gap-2 mb-2 pr-10 sm:pr-8">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="rounded-full bg-b-green-deep/10 px-3 py-1 font-price text-[11px] font-semibold text-b-green-deep">
+                    {activeModalGuide.categoryTitle}
+                  </span>
+                  <span className="font-price text-xs text-b-ink-faint">
+                    • {activeModalGuide.guide.readTime}
+                  </span>
+                </div>
+                <button
+                  onClick={() => handleCopyLink(activeModalGuide.guide.id)}
+                  className="inline-flex items-center gap-1 text-[11px] font-semibold font-price text-b-ink-soft hover:text-b-ink transition-colors cursor-pointer min-h-[36px]"
+                >
+                  {copiedSlug === activeModalGuide.guide.id ? (
+                    <span className="text-b-green-deep flex items-center gap-1">
+                      <CheckCircle2 className="h-3.5 w-3.5" /> Copied link!
+                    </span>
+                  ) : (
+                    <span>Copy Link</span>
+                  )}
+                </button>
               </div>
 
-              <h2 className="font-display text-2xl font-extrabold text-b-ink mb-3">
+              <h2 className="font-display text-xl sm:text-2xl font-extrabold text-b-ink mb-2.5">
                 {activeModalGuide.guide.title}
               </h2>
-              <p className="text-sm text-b-ink-soft leading-relaxed mb-6">
+              <p className="text-xs sm:text-sm text-b-ink-soft leading-relaxed mb-5">
                 {activeModalGuide.guide.summary}
               </p>
 
               {/* Media Placeholder in Modal */}
-              <div className="mb-6">
+              <div className="mb-5">
                 <MediaPlaceholder
                   kind="image"
                   label="App Interface Screenshot Placeholder"
                   alt={activeModalGuide.guide.mediaPlaceholderAlt}
                   ratio="16/9"
-                  rounded="rounded-2xl"
+                  rounded="rounded-xl sm:rounded-2xl"
                 />
                 <div className="mt-2 rounded-xl bg-b-paper-raised border border-b-line p-3 text-xs text-b-ink-soft italic">
                   🖼️ <strong>Placeholder:</strong> {activeModalGuide.guide.mediaPlaceholderAlt}
@@ -1611,10 +1783,10 @@ export function TutorialsHub() {
               </div>
 
               {/* Key Steps List */}
-              <div className="mb-6">
-                <h3 className="font-display text-base font-bold text-b-ink mb-3 flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-b-green-deep" />
-                  Key Action Steps
+              <div className="mb-5">
+                <h3 className="font-display text-sm sm:text-base font-bold text-b-ink mb-3 flex items-center gap-2">
+                  <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-b-green-deep" />
+                  Key Action Steps ({activeModalGuide.guide.keySteps.length} Steps)
                 </h3>
                 <ol className="space-y-2.5">
                   {activeModalGuide.guide.keySteps.map((step, idx) => (
@@ -1629,7 +1801,7 @@ export function TutorialsHub() {
               </div>
 
               {/* What Bouul Watches Section */}
-              <div className="mb-6 rounded-2xl bg-b-sun-soft/30 border border-b-sun/40 p-4">
+              <div className="mb-5 rounded-2xl bg-b-sun-soft/30 border border-b-sun/40 p-3.5 sm:p-4">
                 <h4 className="font-display text-xs font-bold text-b-ink uppercase tracking-wider mb-1 flex items-center gap-1.5">
                   <Flame className="h-4 w-4 text-b-sun" />
                   What Bouul Watches Automatically
@@ -1637,6 +1809,47 @@ export function TutorialsHub() {
                 <p className="text-xs text-b-ink-soft leading-relaxed">
                   {activeModalGuide.guide.whatBouulWatches}
                 </p>
+              </div>
+
+              {/* Interactive Feedback Rating with Celebratory Burst */}
+              <div className="mb-5 rounded-2xl bg-b-paper-raised border border-b-line p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <span className="text-xs font-medium text-b-ink-soft">
+                  Was this guide helpful?
+                </span>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => {
+                      setHelpfulFeedback((prev) => ({
+                        ...prev,
+                        [activeModalGuide.guide.id]: true,
+                      }));
+                      triggerToast("🎉 Awesome! Thank you for your feedback.");
+                    }}
+                    className={`flex-1 sm:flex-initial rounded-full px-4 py-2 sm:py-1 text-xs font-semibold transition-colors duration-200 cursor-pointer min-h-[44px] sm:min-h-[32px] flex items-center justify-center ${
+                      helpfulFeedback[activeModalGuide.guide.id] === true
+                        ? "bg-b-green-deep text-b-paper"
+                        : "bg-b-paper border border-b-line text-b-ink-soft hover:text-b-ink"
+                    }`}
+                  >
+                    {helpfulFeedback[activeModalGuide.guide.id] === true ? "✓ Yes, helpful" : "Yes"}
+                  </button>
+                  <button
+                    onClick={() => {
+                      setHelpfulFeedback((prev) => ({
+                        ...prev,
+                        [activeModalGuide.guide.id]: false,
+                      }));
+                      triggerToast("Feedback received. We'll refine this guide!");
+                    }}
+                    className={`flex-1 sm:flex-initial rounded-full px-4 py-2 sm:py-1 text-xs font-semibold transition-colors duration-200 cursor-pointer min-h-[44px] sm:min-h-[32px] flex items-center justify-center ${
+                      helpfulFeedback[activeModalGuide.guide.id] === false
+                        ? "bg-b-ink text-b-paper"
+                        : "bg-b-paper border border-b-line text-b-ink-soft hover:text-b-ink"
+                    }`}
+                  >
+                    {helpfulFeedback[activeModalGuide.guide.id] === false ? "Feedback sent" : "No"}
+                  </button>
+                </div>
               </div>
 
               {/* Next Steps */}
@@ -1649,7 +1862,6 @@ export function TutorialsHub() {
                     <button
                       key={idx}
                       onClick={() => {
-                        // Find matching guide
                         const match = TUTORIAL_CATEGORIES.flatMap((c) => c.items).find(
                           (item) => item.slug === ns.slug
                         );
@@ -1657,13 +1869,10 @@ export function TutorialsHub() {
                           const cat = TUTORIAL_CATEGORIES.find((c) =>
                             c.items.some((i) => i.id === match.id)
                           );
-                          setActiveModalGuide({
-                            guide: match,
-                            categoryTitle: cat ? cat.title : "Guide",
-                          });
+                          handleOpenGuide(match, cat ? cat.title : "Guide");
                         }
                       }}
-                      className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3.5 py-1.5 text-xs font-medium text-b-ink hover:bg-b-ink hover:text-b-paper transition-all border border-b-line"
+                      className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3.5 py-2 sm:py-1.5 text-xs font-medium text-b-ink hover:bg-b-ink hover:text-b-paper transition-all duration-200 border border-b-line cursor-pointer min-h-[44px] sm:min-h-[32px]"
                     >
                       <span>{ns.title}</span>
                       <ChevronRight className="h-3.5 w-3.5" />

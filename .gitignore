@@ -38,7 +38,10 @@ yarn-error.log*
 
 # agent skills (installed by impeccable etc.)
 .agents/
+.agent/skills/
+.cursor/skills/
 .claude/skills/
+.impeccable/
 skills-lock.json
 
 # typescript
