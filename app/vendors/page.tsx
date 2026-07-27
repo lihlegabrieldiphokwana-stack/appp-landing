@@ -9,6 +9,7 @@ import {
   VendorCta,
 } from "@/components/redesign/vendor-experience";
 import { VendorFeatureSuite } from "@/components/redesign/vendor-feature-suite";
+import { VendorWebsiteFetchSimulator } from "@/components/redesign/vendor-website-fetch-simulator";
 import { VendorPricingComparisonTable } from "@/components/redesign/vendor-pricing-comparison-table";
 import { VendorComparison } from "@/components/redesign/vendor-comparison";
 import { VendorDetection } from "@/components/redesign/vendor-detection";
@@ -20,6 +21,7 @@ export default function VendorsPage() {
       <Suspense fallback={<div className="min-h-[60vh] bg-b-paper" />}>
         <VendorExperience />
       </Suspense>
+      <VendorWebsiteFetchSimulator />
       <VendorOperating />
       <VendorFeatureSuite />
       <VendorDetection />

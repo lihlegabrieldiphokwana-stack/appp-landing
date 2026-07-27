@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -117,7 +118,16 @@ export function VendorExperience() {
       {/* HERO */}
       <Section className="bg-b-paper pb-14 pt-32 md:pt-40">
         <div className="mx-auto max-w-3xl text-center">
-          <Eyebrow className="justify-center">For professionals</Eyebrow>
+          <div className="inline-flex items-center gap-2 rounded-full border border-b-line bg-b-paper-raised px-4 py-1.5 shadow-2xs mb-4">
+            <Image
+              src="/bouul-favicon.png"
+              alt="Bouul Icon"
+              width={18}
+              height={18}
+              className="rounded-md"
+            />
+            <Eyebrow tone="green" className="tracking-widest">Bouul Merchant Suite</Eyebrow>
+          </div>
           <h1 className="mt-5 font-display text-5xl font-extrabold leading-[1.05] tracking-tight text-b-ink md:text-6xl">
             <AnimatePresence mode="wait" initial={false}>
               <motion.span

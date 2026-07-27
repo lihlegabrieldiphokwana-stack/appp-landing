@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
@@ -194,7 +195,13 @@ export default function ZolaPage() {
               className="lg:col-span-7 space-y-6"
             >
               <div className="inline-flex items-center gap-2 rounded-full bg-b-sun/15 border border-b-sun/30 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-b-sun shadow-sm">
-                <Brain className="h-4 w-4 text-b-sun" />
+                <Image
+                  src="/bouul-favicon.png"
+                  alt="Bouul Icon"
+                  width={16}
+                  height={16}
+                  className="rounded-sm"
+                />
                 <span>Powered by DeepSeek V4 Engine • Multi-Turn Service Fixation</span>
               </div>
 

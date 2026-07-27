@@ -44,11 +44,11 @@ export function VendorFeatureSuite() {
         </p>
       </div>
 
-      {/* ── THREE TAB SELECTOR ── */}
-      <div className="flex flex-wrap justify-center gap-3 mb-12">
+      {/* ── THREE TAB SELECTOR — Touch-optimized horizontal swipe on mobile ── */}
+      <div className="flex items-center gap-2.5 overflow-x-auto pb-2 pt-1 px-1 -mx-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:justify-center scrollbar-none snap-x touch-pan-x mb-8 sm:mb-12">
         <button
           onClick={() => setActiveTab("store")}
-          className={`flex items-center gap-2.5 px-6 py-3.5 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all ${
+          className={`snap-start shrink-0 flex items-center gap-2.5 px-5 py-3 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all duration-200 cursor-pointer min-h-[44px] focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
             activeTab === "store"
               ? "bg-b-forest text-b-cream shadow-lg scale-[1.02]"
               : "bg-b-paper-raised border border-b-line text-b-ink-soft hover:text-b-ink"
@@ -60,7 +60,7 @@ export function VendorFeatureSuite() {
 
         <button
           onClick={() => setActiveTab("service")}
-          className={`flex items-center gap-2.5 px-6 py-3.5 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all ${
+          className={`snap-start shrink-0 flex items-center gap-2.5 px-5 py-3 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all duration-200 cursor-pointer min-h-[44px] focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
             activeTab === "service"
               ? "bg-b-forest text-b-cream shadow-lg scale-[1.02]"
               : "bg-b-paper-raised border border-b-line text-b-ink-soft hover:text-b-ink"
@@ -72,7 +72,7 @@ export function VendorFeatureSuite() {
 
         <button
           onClick={() => setActiveTab("bundles")}
-          className={`flex items-center gap-2.5 px-6 py-3.5 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all ${
+          className={`snap-start shrink-0 flex items-center gap-2.5 px-5 py-3 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all duration-200 cursor-pointer min-h-[44px] focus:outline-none focus:ring-2 focus:ring-emerald-500/30 ${
             activeTab === "bundles"
               ? "bg-b-forest text-b-cream shadow-lg scale-[1.02]"
               : "bg-b-paper-raised border border-b-line text-b-ink-soft hover:text-b-ink"

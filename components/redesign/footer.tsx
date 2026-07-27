@@ -1,11 +1,17 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const columns: Array<{ title: string; links: Array<{ href: string; label: string }> }> = [
   {
     title: "Product",
     links: [
       { href: "/services", label: "Find services" },
+      { href: "/resonance", label: "Resonance AI Engine" },
+      { href: "/intelligent-search", label: "Intelligent AI Search" },
+      { href: "/payments", label: "Escrow & Payouts" },
+      { href: "/ai-safety", label: "AI Safety & Veto" },
+      { href: "/case-studies", label: "Merchant Stories & ROI" },
       { href: "/trophies", label: "Trophy system" },
       { href: "/vendors", label: "For professionals" },
       { href: "/employees", label: "For teams" },
@@ -22,8 +28,10 @@ const columns: Array<{ title: string; links: Array<{ href: string; label: string
     ],
   },
   {
-    title: "Support",
+    title: "Trust & Safety",
     links: [
+      { href: "/verification", label: "Pro Verification Center" },
+      { href: "/disputes", label: "Dispute Resolution" },
       { href: "/tutorials", label: "Tutorials & Guides" },
       { href: "/faq", label: "Help centre" },
       { href: "/contact", label: "Contact us" },
@@ -48,9 +56,20 @@ export function RedesignFooter() {
       <div className="mx-auto w-full max-w-6xl">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-xs">
-            <p className="font-display text-3xl font-extrabold tracking-tight text-b-ink">
-              bouul<span className="text-b-green">.</span>
-            </p>
+            <Link href="/" className="inline-flex items-center gap-3 group">
+              <div className="relative h-9 w-9 overflow-hidden rounded-xl shadow-xs ring-1 ring-b-line transition-transform duration-200 group-hover:scale-105">
+                <Image
+                  src="/bouul-favicon.png"
+                  alt="Bouul Logo Mark"
+                  width={36}
+                  height={36}
+                  className="object-cover"
+                />
+              </div>
+              <p className="font-display text-3xl font-extrabold tracking-tight text-b-ink">
+                bouul<span className="text-b-green">.</span>
+              </p>
+            </Link>
             <p className="mt-3 b-body-sm leading-relaxed text-b-ink-soft">
               Every pro in your neighbourhood, one app. Verified professionals,
               escrow-protected payments, made in South Africa.

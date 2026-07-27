@@ -142,32 +142,32 @@ export default async function VendorHandlePage({
 
         <div className="relative z-10 mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-b-green/30 bg-b-green-soft px-4 py-2 text-xs font-semibold uppercase tracking-widest text-b-green-deep">
-              Bouul business profile
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/10 px-4 py-2 text-xs font-extrabold uppercase tracking-widest text-emerald-400">
+              Bouul Business Profile
             </div>
 
-            <h1 className="mb-4 text-5xl font-display font-extrabold tracking-tight text-b-ink md:text-7xl">
-              {vendor?.business_name ?? "Business profile"}
+            <h1 className="mb-4 text-5xl font-display font-extrabold tracking-tight text-white md:text-7xl">
+              {vendor?.business_name ?? "Business Profile"}
             </h1>
 
             <div className="mb-6 flex flex-wrap items-center gap-3">
-              <span className="rounded-full bg-b-ink px-4 py-2 text-sm font-bold text-b-paper">
+              <span className="rounded-full bg-b-sun px-4 py-2 text-sm font-extrabold text-b-ink shadow-md">
                 {displayHandle}
               </span>
               {vendor?.is_verified && (
-                <span className="rounded-full border border-b-green/30 px-4 py-2 text-sm font-semibold text-b-green-deep">
-                  Verified on Bouul
+                <span className="rounded-full border border-emerald-400/40 bg-emerald-500/10 px-4 py-2 text-sm font-bold text-emerald-400">
+                  ✓ Verified on Bouul
                 </span>
               )}
               {vendor?.avg_rating ? (
-                <span className="rounded-full border border-b-ink/20 px-4 py-2 text-sm font-semibold text-b-ink-soft">
-                  {vendor.avg_rating.toFixed(1)} rating
+                <span className="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-b-cream/90">
+                  ★ {vendor.avg_rating.toFixed(1)} rating
                   {vendor.review_count ? ` · ${vendor.review_count} reviews` : ""}
                 </span>
               ) : null}
             </div>
 
-            <p className="mb-8 max-w-2xl text-lg leading-relaxed text-b-ink-soft md:text-xl">
+            <p className="mb-8 max-w-2xl text-lg leading-relaxed text-b-cream/80 md:text-xl">
               {vendor?.description ??
                 "Open this Bouul business profile in the app to view services, reviews, availability, and booking options."}
             </p>
@@ -177,7 +177,7 @@ export default async function VendorHandlePage({
                 {categories.map((category) => (
                   <span
                     key={category}
-                    className="rounded-full border border-b-line bg-b-paper-raised px-3 py-1.5 text-xs font-medium text-b-ink-soft"
+                    className="rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-medium text-b-cream/90"
                   >
                     {category.replaceAll("_", " ")}
                   </span>
@@ -188,22 +188,22 @@ export default async function VendorHandlePage({
             <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href={appUrl}
-                className="inline-flex items-center justify-center rounded-full bg-b-green px-7 py-3.5 text-sm font-bold text-b-forest transition-colors hover:opacity-90"
+                className="inline-flex items-center justify-center rounded-full bg-b-green px-7 py-3.5 text-sm font-extrabold text-b-forest transition-all hover:bg-emerald-400 shadow-xl"
               >
-                Open in Bouul
+                Open in Bouul App
               </a>
               <Link
                 href="/download"
-                className="inline-flex items-center justify-center rounded-full border border-b-ink/20 px-7 py-3.5 text-sm font-semibold text-b-ink-soft transition-colors hover:border-b-ink/50 hover:text-b-ink"
+                className="inline-flex items-center justify-center rounded-full border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
               >
-                Get the app
+                Get the App
               </Link>
             </div>
           </div>
 
-          <div className="rounded-3xl border border-b-line bg-b-paper-raised/80 p-6 shadow-2xl shadow-black/40 backdrop-blur-xl">
+          <div className="rounded-3xl border border-white/15 bg-white/10 p-6 shadow-2xl backdrop-blur-xl">
             <div className="mb-5 flex items-center gap-4">
-              <div className="flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl bg-b-green text-2xl font-black text-b-forest">
+              <div className="flex h-20 w-20 items-center justify-center overflow-hidden rounded-3xl bg-b-green text-2xl font-black text-b-forest shadow-md">
                 {logo ? (
                   <img
                     src={logo}
@@ -215,22 +215,22 @@ export default async function VendorHandlePage({
                 )}
               </div>
               <div>
-                <div className="text-lg font-semibold text-b-ink">
+                <div className="text-lg font-bold text-white">
                   {vendor?.business_name ?? displayHandle}
                 </div>
-                <div className="text-sm font-semibold text-b-green-deep">
+                <div className="text-sm font-extrabold text-b-sun font-mono">
                   {displayHandle}
                 </div>
               </div>
             </div>
 
-            <div className="rounded-2xl border border-b-line bg-b-paper p-5">
-              <div className="mb-2 text-xs font-semibold uppercase tracking-widest text-b-ink-soft">
-                Deep link ready
+            <div className="rounded-2xl border border-white/15 bg-black/40 p-5 space-y-1">
+              <div className="text-[10px] font-extrabold uppercase tracking-widest text-b-sun">
+                Deep Link Ready
               </div>
-              <p className="text-sm leading-relaxed text-b-ink-soft">
+              <p className="text-xs leading-relaxed text-b-cream/80">
                 This public handle is connected to Bouul. If the app is
-                installed, supported devices can open this profile directly.
+                installed, supported devices will open this profile directly.
               </p>
             </div>
             <MediaPlaceholder
