@@ -5,7 +5,7 @@ import Link from "next/link";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import { MediaPlaceholder } from "@/components/redesign/media-placeholder";
-import { getNewsroomArticle, newsroomArticles, type NewsroomArticle } from "../articles";
+import { getNewsroomArticle, newsroomArticles, type NewsroomArticle, type NewsroomSection } from "../articles";
 
 const ArticleVisual = ({ article }: { article: NewsroomArticle }) => {
   const visualSteps = article.quickFacts.map((fact, index) => ({
@@ -141,7 +141,7 @@ export default async function NewsroomArticlePage({ params }: NewsroomArticleRou
             </div>
 
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
-              {takeaways.map((section) => (
+              {takeaways.map((section: NewsroomSection) => (
                 <div key={section.heading} className="rounded-2xl border border-b-line bg-b-paper-raised p-5">
                   <div className="text-b-green-deep text-[10px] font-semibold tracking-[0.22em] uppercase mb-2">
                     Takeaway
@@ -186,7 +186,7 @@ export default async function NewsroomArticlePage({ params }: NewsroomArticleRou
 
       <section className="py-20 border-t border-b-line">
         <div className="max-w-4xl mx-auto px-6 space-y-10">
-          {article.sections.map((section, index) => (
+          {article.sections.map((section: NewsroomSection, index: number) => (
             <article key={section.heading} className="border-b border-b-line pb-10 last:border-0 last:pb-0">
               <div className="text-xs font-semibold tracking-widest text-b-ink-soft uppercase mb-3">
                 {article.tag} / {index + 1}
@@ -214,7 +214,7 @@ export default async function NewsroomArticlePage({ params }: NewsroomArticleRou
               </h2>
             </div>
             <div className="space-y-4">
-              {article.quickFacts.map((fact) => (
+              {article.quickFacts.map((fact: string) => (
                 <div key={fact} className="flex items-start gap-3">
                   <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-b-green" />
                   <p className="text-b-ink-soft text-sm leading-relaxed">{fact}</p>

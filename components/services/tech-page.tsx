@@ -37,119 +37,119 @@ import {
   Building2,
   Hammer,
   Brain,
-  BookOpen,
-  GraduationCap,
-  Target,
-  Globe,
-  Award as AwardIcon,
+  Monitor,
+  Cpu,
+  Shield,
+  Wifi,
+  HardDrive,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
 const SITUATIONS = [
   {
-    id: "matric_prep",
-    tabTitle: "Matric Exam & Past Paper Prep",
-    icon: GraduationCap,
-    badge: "Matric Distinction Specialists",
-    title: "Boost Grade 12 Math, Physics & Accounting marks before final exams.",
+    id: "cctv_security",
+    tabTitle: "CCTV & Security Systems",
+    icon: Camera,
+    badge: "PSIRA Vetted Technicians",
+    title: "HD IP cameras, electric fencing & mobile phone monitoring.",
     description:
-      "Don't let difficult finals limit university admission options. Book verified subject specialist tutors on Bouul who drill past papers, clarify complex syllabus concepts, and share proven exam techniques for CAPS and IEB matriculation exams.",
-    timeline: "Weekly 1-on-1 Sessions",
-    costEstimate: "R320 – R520 / hr",
+      "Protect your property with certified security technicians. Book CCTV installers on Bouul for high-definition 4K night-vision camera placement, mobile phone remote viewing setup, electric fencing repairs, and alarm system integration.",
+    timeline: "Same-Day / Scheduled",
+    costEstimate: "R1,800 – R7,500",
     keyBenefits: [
-      "Targeted CAPS & IEB past paper memorandum drilling",
-      "Specialists in Core Math, Physical Sciences, Accounting & Life Sciences",
-      "Escrow protection—funds released only after each completed lesson",
+      "4K Night-vision IP camera installation & mobile remote view setup",
+      "Electric fence Energizer repair, wire tensioning & alarm connection",
+      "Digital escrow protection—funds released after live camera feed test",
     ],
-    ctaText: "Book Matric Tutor",
+    ctaText: "Book CCTV Installer",
   },
   {
-    id: "ieb_caps",
-    tabTitle: "High School CAPS & IEB Support",
-    icon: BookOpen,
-    badge: "Grades 8 - 11 Subject Boost",
-    title: "Build confidence in Mathematics, Sciences & Languages early.",
+    id: "computer_repair",
+    tabTitle: "Computer & Laptop Repair",
+    icon: Monitor,
+    badge: "Certified Hardware Techs",
+    title: "Laptop screen replacement, SSD upgrades & virus removal.",
     description:
-      "Prevent knowledge gaps before Grade 12. Connect your learner with background-checked university graduates and qualified teachers who simplify challenging topics, review weekly homework, and prepare for term tests.",
-    timeline: "Flexible Weekly Schedule",
-    costEstimate: "R250 – R420 / hr",
+      "Is a crashing computer slowing down your workday? Book certified IT technicians on Bouul for home or office visits. We handle cracked laptop screens, SSD speed upgrades, RAM installation, and malware cleanup.",
+    timeline: "1 - 2 Hours",
+    costEstimate: "R450 – R1,500",
     keyBenefits: [
-      "In-person home visits or interactive online 1-on-1 sessions",
-      "Customized lesson plans aligned to school term syllabus",
-      "Detailed lesson summary reports sent to parents after every session",
+      "MacBook & Windows laptop screen, battery & keyboard replacement",
+      "High-speed SSD upgrade & OS re-installation with zero data loss",
+      "On-site home diagnostic visit or secure courier pickup",
     ],
-    ctaText: "Book Subject Specialist",
+    ctaText: "Book Computer Tech",
   },
   {
-    id: "cambridge",
-    tabTitle: "Cambridge IGCSE & A-Levels",
-    icon: Globe,
-    badge: "International Curriculum",
-    title: "Rigorous IGCSE, AS & A-Level subject mastery for university entry.",
+    id: "wifi_networking",
+    tabTitle: "Mesh Wi-Fi & Fibre Networks",
+    icon: Wifi,
+    badge: "Gigabit Network Speeds",
+    title: "Fix Wi-Fi dead zones, mesh router setup & CAT6 cabling.",
     description:
-      "Cambridge curricula require deep conceptual synthesis rather than simple memorization. Book experienced Cambridge tutors on Bouul who guide students through past papers, essay structure, and international exam standards.",
-    timeline: "Subject-Specific Mastery",
-    costEstimate: "R380 – R650 / hr",
+      "Tired of buffering during video calls? Network specialists on Bouul optimize your home fibre connection, install seamless mesh Wi-Fi access points, and run neat CAT6 Ethernet cables to every room.",
+    timeline: "2 - 4 Hours",
+    costEstimate: "R650 – R2,800",
     keyBenefits: [
-      "Cambridge IGCSE, AS-Level & A-Level accredited tutors",
-      "Specialized support for Math, Physics, Chemistry & Economics",
-      "Direct guidance for UK, US & international university applications",
+      "Whole-home seamless Mesh Wi-Fi coverage with zero dead zones",
+      "Neat trunked CAT6 Ethernet cabling for smart TVs & gaming rigs",
+      "Fibre router speed optimization & firewall security configuration",
     ],
-    ctaText: "Book Cambridge Tutor",
+    ctaText: "Optimize Wi-Fi Network",
   },
   {
-    id: "primary",
-    tabTitle: "Primary School & Homework Help",
-    icon: Target,
-    badge: "Foundational Learning",
-    title: "Build reading fluency, foundational math & positive study habits.",
+    id: "data_recovery",
+    tabTitle: "Data Recovery & IT Support",
+    icon: HardDrive,
+    badge: "Cleanroom Data Recovery",
+    title: "Recover lost photos, crashed hard drives & IT helpdesk support.",
     description:
-      "Transform homework time from a daily struggle into an encouraging routine. Patient primary school tutors on Bouul assist Grade 1 to 7 learners with reading, foundational numeracy, and project research.",
-    timeline: "After-School Sessions",
-    costEstimate: "R200 – R350 / hr",
+      "Accidentally deleted important files or suffered a hard drive crash? Certified data recovery experts on Bouul recover photos, documents, and business databases from damaged HDDs, SSDs, and flash drives.",
+    timeline: "1 - 3 Days",
+    costEstimate: "R850 – R4,500",
     keyBenefits: [
-      "Patient, encouraging tutors trained in foundational learning",
-      "Assistance with daily homework, spelling & reading comprehension",
-      "Builds self-confidence and independent study habits",
+      "Cleanroom data recovery for crashed hard drives & corrupt SSDs",
+      "Automated cloud backup setup for home & small office computers",
+      "100% strict data privacy NDA guarantee",
     ],
-    ctaText: "Book Primary School Tutor",
+    ctaText: "Recover Lost Data",
   },
 ];
 
 // Price Estimator Guide Data
 const PRICE_ESTIMATES = [
   {
-    task: "High School CAPS / IEB Subject Session",
-    range: "R250 - R420 / hr",
-    time: "1 - 2 hours per session",
-    desc: "1-on-1 subject tutoring for Core Math, Physics, Accounting, or Languages.",
-    includes: ["Syllabus explanation", "Homework review", "Parent progress report"],
+    task: "4-Camera 4K HD CCTV System Installation",
+    range: "R3,500 - R6,800",
+    time: "1 day",
+    desc: "4 outdoor 4K night-vision cameras, 1TB DVR/NVR recorder, cabling, power supply, and mobile phone app remote view setup.",
+    includes: ["4x 4K IP cameras", "1TB DVR recorder", "Mobile app setup"],
   },
   {
-    task: "Matric Past Paper Intensive Revision",
-    range: "R320 - R520 / hr",
-    time: "1.5 - 2 hours per session",
-    desc: "Targeted Grade 12 past paper drilling, exam memorandum strategies, and time management.",
-    includes: ["Past paper practice", "Memo breakdown", "Exam strategy drilling"],
+    task: "Laptop SSD Upgrade & System Speedup",
+    range: "R650 - R1,400",
+    time: "2 hours",
+    desc: "Installation of high-speed 512GB/1TB SSD, Windows/macOS re-installation, and full user file transfer.",
+    includes: ["512GB/1TB SSD drive", "OS installation", "Data transfer"],
   },
   {
-    task: "Cambridge IGCSE / A-Level Specialist",
-    range: "R380 - R650 / hr",
-    time: "1 - 2 hours per session",
-    desc: "International curriculum tutoring focusing on higher-order analytical questions and paper techniques.",
-    includes: ["Cambridge past papers", "Essay structure", "Conceptual depth"],
+    task: "Home Mesh Wi-Fi & Dead Zone Removal",
+    range: "R850 - R2,200",
+    time: "2 - 3 hours",
+    desc: "Dual-band Mesh Wi-Fi access point installation, router configuration, speed testing, and dead zone elimination.",
+    includes: ["Mesh access point", "Router config", "Speed optimization"],
   },
   {
-    task: "Primary School Homework & Reading Support",
-    range: "R200 - R350 / hr",
-    time: "1 - 1.5 hours per session",
-    desc: "After-school assistance with daily homework assignments, reading comprehension, and math fundamentals.",
-    includes: ["Homework completion", "Foundational math", "Reading practice"],
+    task: "On-Site IT Support & Virus Removal Visit",
+    range: "R450 - R850",
+    time: "1 - 2 hours",
+    desc: "In-home or office diagnostic visit, malware & virus removal, printer network setup, and software troubleshooting.",
+    includes: ["1-2 hrs labor", "Malware removal", "Printer network config"],
   },
 ];
 
-export default function TutoringPage() {
-  const [activeTab, setActiveTab] = useState("matric_prep");
+export default function TechPage() {
+  const [activeTab, setActiveTab] = useState("cctv_security");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
   const currentSituation = SITUATIONS.find((s) => s.id === activeTab) || SITUATIONS[0];
@@ -173,7 +173,7 @@ export default function TutoringPage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-b-green opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-b-green-deep"></span>
             </span>
-            <span>Verified Subject Specialist Tutors Available Now • Avg. Match: 6 Mins</span>
+            <span>Verified CCTV Technicians &amp; IT Specialists Active Now • Avg. Confirmation: 5 Mins</span>
           </motion.div>
 
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
@@ -183,13 +183,13 @@ export default function TutoringPage() {
               transition={{ duration: 0.7 }}
             >
               <h1 className="font-display text-5xl font-extrabold leading-[1.04] tracking-tight text-b-ink sm:text-6xl md:text-7xl">
-                Top academic results. <br />
+                Tech &amp; security services. <br />
                 <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-600 bg-clip-text text-transparent">
-                  CAPS, IEB &amp; Cambridge.
+                  Escrow protected setup.
                 </span>
               </h1>
               <p className="mt-6 max-w-lg text-lg leading-relaxed text-b-ink-soft">
-                Unlock your learner&apos;s full potential. Book background-checked subject specialist tutors for in-person home visits or 1-on-1 online sessions with digital escrow safety.
+                From CCTV camera installation and laptop repairs to mesh Wi-Fi setup and data recovery. Book PSIRA &amp; IT certified technicians with upfront pricing and digital escrow safety.
               </p>
 
               {/* Action Buttons */}
@@ -198,8 +198,8 @@ export default function TutoringPage() {
                   href="/download"
                   className="rounded-full bg-b-green px-8 py-4 font-bold text-b-forest shadow-[0_10px_30px_rgba(16,185,129,0.35)] transition-all hover:scale-[1.03] hover:bg-emerald-400 flex items-center gap-2"
                 >
-                  <GraduationCap className="h-5 w-5" />
-                  <span>Find a Certified Tutor</span>
+                  <Monitor className="h-5 w-5" />
+                  <span>Book Tech Professional</span>
                 </Link>
 
                 <a
@@ -215,7 +215,7 @@ export default function TutoringPage() {
               <div className="mt-10 flex flex-wrap items-center gap-6 text-xs font-medium text-b-ink-faint border-t border-b-line pt-6">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>ID &amp; Matric Distinction Verified</span>
+                  <span>PSIRA Security &amp; IT Certified</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Lock className="h-4 w-4 text-emerald-600" />
@@ -223,7 +223,7 @@ export default function TutoringPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Star className="h-4 w-4 fill-amber-500 text-amber-500" />
-                  <span>4.98 Rating (3,500+ Lessons)</span>
+                  <span>4.99 Rating (3,900+ Installs)</span>
                 </div>
               </div>
             </motion.div>
@@ -241,26 +241,26 @@ export default function TutoringPage() {
               <div className="flex items-center justify-between pb-4 border-b border-b-line mb-5">
                 <div className="flex items-center gap-3">
                   <div className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
-                  <span className="font-display font-bold text-sm">Subject Tutor Matched</span>
+                  <span className="font-display font-bold text-sm">Security Tech Matched</span>
                 </div>
                 <span className="text-xs font-semibold text-b-green-deep bg-b-green/10 px-2.5 py-1 rounded-full">
-                  B.Sc Eng (Wits) • 6 Distinctions
+                  PSIRA Security Clearance
                 </span>
               </div>
 
-              {/* Tutor card mock */}
+              {/* Tech card mock */}
               <div className="rounded-2xl border border-b-green/30 bg-gradient-to-br from-b-green/10 via-transparent to-transparent p-4 mb-4">
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-3">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-600 font-bold text-white text-lg shadow-md">
-                      <GraduationCap className="h-6 w-6" />
+                      <Camera className="h-6 w-6" />
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">
-                        <h4 className="font-display font-bold text-base text-b-ink">Sindi Academic Tutoring</h4>
+                        <h4 className="font-display font-bold text-base text-b-ink">SecureVision Tech</h4>
                         <CheckCircle2 className="h-4 w-4 text-emerald-600 fill-emerald-100" />
                       </div>
-                      <p className="text-xs text-b-ink-soft">Core Math &amp; Physics Specialist • IEB/CAPS</p>
+                      <p className="text-xs text-b-ink-soft">4K CCTV &amp; Mesh Wi-Fi Specialist • PSIRA</p>
                     </div>
                   </div>
                   <div className="text-right">
@@ -268,20 +268,20 @@ export default function TutoringPage() {
                       <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500" />
                       <span>4.99</span>
                     </div>
-                    <span className="text-[10px] text-b-ink-faint">180+ Student Distinctions</span>
+                    <span className="text-[10px] text-b-ink-faint">350+ CCTV Installs</span>
                   </div>
                 </div>
 
                 <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
-                    <span className="text-[10px] text-b-ink-faint block">Next Lesson</span>
+                    <span className="text-[10px] text-b-ink-faint block">Scheduled Slot</span>
                     <span className="font-semibold text-emerald-600 flex items-center gap-1">
-                      <Clock className="h-3 w-3" /> Thursday 16:00 PM
+                      <Clock className="h-3 w-3" /> Today 11:00 AM
                     </span>
                   </div>
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
                     <span className="text-[10px] text-b-ink-faint block">Escrow Protected</span>
-                    <span className="font-semibold text-b-ink">R350.00 Held</span>
+                    <span className="font-semibold text-b-ink">R3,500.00 Held</span>
                   </div>
                 </div>
               </div>
@@ -292,19 +292,19 @@ export default function TutoringPage() {
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     1
                   </div>
-                  <span className="text-b-ink font-medium">Select grade, curriculum (CAPS/IEB) &amp; weak topics</span>
+                  <span className="text-b-ink font-medium">Select tech problem or snap photo of camera/laptop issue</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     2
                   </div>
-                  <span className="text-b-ink font-medium">Digital escrow holds payment safely per lesson</span>
+                  <span className="text-b-ink font-medium">Digital escrow holds payment safely until installation testing</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-b-line text-b-ink-faint font-bold text-[10px]">
                     3
                   </div>
-                  <span className="text-b-ink-faint">Receive lesson summary report before funds release</span>
+                  <span className="text-b-ink-faint">Test live mobile camera feed or PC &amp; release funds</span>
                 </div>
               </div>
             </motion.div>
@@ -316,14 +316,14 @@ export default function TutoringPage() {
       <section id="use-cases" className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <BookOpen className="h-3.5 w-3.5" />
-            <span>Tailored Academic Solutions</span>
+            <Monitor className="h-3.5 w-3.5" />
+            <span>Tailored Tech Solutions</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            How Bouul solves your exact learning goals.
+            How Bouul solves your exact tech &amp; security needs.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Select your curriculum or learning stage below to see how our verified tutors boost marks and build confidence.
+            Select your technology requirement below to see how our certified IT specialists deliver seamless solutions.
           </p>
         </div>
 
@@ -397,7 +397,7 @@ export default function TutoringPage() {
               <div className="lg:col-span-5">
                 <div className="rounded-2xl border border-b-line bg-b-paper p-6 space-y-6 shadow-sm">
                   <div className="border-b border-b-line pb-4">
-                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Hourly Rate</span>
+                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Tech Rate</span>
                     <div className="mt-2 flex items-baseline justify-between">
                       <span className="font-display text-3xl font-extrabold text-b-ink">{currentSituation.costEstimate}</span>
                       <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md">
@@ -408,22 +408,22 @@ export default function TutoringPage() {
 
                   <div className="space-y-3 text-xs text-b-ink-soft">
                     <div className="flex items-center justify-between">
-                      <span>Tutor Vetting</span>
-                      <span className="font-semibold text-b-ink">Degree &amp; Matric Verification</span>
+                      <span>Certification</span>
+                      <span className="font-semibold text-b-ink">PSIRA &amp; IT Vetted Techs</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span>Payment Protection</span>
                       <span className="font-semibold text-emerald-600">100% Escrow Shield</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span>Format</span>
-                      <span className="font-semibold text-b-ink">In-Person Home or Online 1-on-1</span>
+                      <span>Data Privacy</span>
+                      <span className="font-semibold text-b-ink">100% Strict NDA Guarantee</span>
                     </div>
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-950 flex items-start gap-2.5">
                     <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
-                    <span>Every tutor on Bouul undergoes identity checks, academic transcript validation, and police clearance checks for child safety.</span>
+                    <span>Every security installer and IT technician undergoes PSIRA registration validation, criminal background clearance, and technical certification.</span>
                   </div>
                 </div>
               </div>
@@ -440,24 +440,24 @@ export default function TutoringPage() {
             <div className="lg:col-span-5 space-y-6">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-500/10 px-3 py-1 rounded-full">
                 <DollarSign className="h-3.5 w-3.5" />
-                <span>Transparent Hourly Rates</span>
+                <span>Transparent Tech Rates</span>
               </div>
 
               <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink leading-tight">
-                No long contracts. Clear hourly tutoring rates.
+                No inflated IT callout fees. Fixed rates.
               </h2>
 
               <p className="text-base leading-relaxed text-b-ink-soft">
-                Know exactly what your child&apos;s tutoring sessions cost before starting. Bouul standardizes hourly rates based on subject complexity and tutor qualifications.
+                Unverified technicians often charge high hourly callout fees without fixing the core issue. Bouul standardizes baseline rates for CCTV and IT repairs.
               </p>
 
               <div className="p-5 rounded-2xl bg-b-paper border border-b-line space-y-3">
                 <div className="flex items-center gap-2 font-display font-bold text-sm text-b-ink">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>The Bouul Academic Guarantee</span>
+                  <span>The Bouul Tech Setup Guarantee</span>
                 </div>
                 <p className="text-xs text-b-ink-soft leading-relaxed">
-                  Your tutor submits a brief lesson summary report in-app after every session. Payment for each lesson is released from escrow only after parent sign-off.
+                  Your technician approves the fixed installation quote in-app. Payment is locked safely in digital escrow until you test the live feed or computer performance.
                 </p>
               </div>
             </div>
@@ -466,7 +466,7 @@ export default function TutoringPage() {
             <div className="lg:col-span-7">
               <div className="rounded-3xl border border-b-line bg-b-paper p-6 md:p-8 shadow-xl space-y-6">
                 <div className="flex items-center justify-between border-b border-b-line pb-4">
-                  <span className="font-display font-bold text-lg text-b-ink">Select Academic Level for Guide Pricing</span>
+                  <span className="font-display font-bold text-lg text-b-ink">Select Tech Job for Guide Pricing</span>
                   <span className="text-xs font-semibold text-b-ink-faint">Standard Platform Rate Structure</span>
                 </div>
 
@@ -493,7 +493,7 @@ export default function TutoringPage() {
                   <div className="flex items-center justify-between">
                     <span className="font-display font-bold text-base text-b-ink">{currentEstimate.task}</span>
                     <span className="text-xs font-bold text-emerald-600 bg-emerald-500/10 px-2.5 py-1 rounded-md">
-                      Lesson Time: {currentEstimate.time}
+                      Duration: {currentEstimate.time}
                     </span>
                   </div>
 
@@ -514,13 +514,13 @@ export default function TutoringPage() {
 
                 <div className="pt-2 flex items-center justify-between">
                   <div className="text-xs text-b-ink-faint">
-                    <span>Rates confirmed in-app before lesson starts.</span>
+                    <span>Tech rate confirmed in-app before technician arrival.</span>
                   </div>
                   <Link
                     href="/download"
                     className="inline-flex items-center gap-2 rounded-full bg-b-green px-6 py-2.5 text-xs font-bold text-b-forest hover:bg-emerald-400 transition-all shadow-md"
                   >
-                    <span>Match Tutor In App</span>
+                    <span>Get Exact Tech Quote</span>
                     <ArrowRight className="h-3.5 w-3.5" />
                   </Link>
                 </div>
@@ -537,7 +537,7 @@ export default function TutoringPage() {
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid gap-12 lg:grid-cols-12 items-center">
-            {/* Left Column: Explaining Zola AI in the context of tutoring */}
+            {/* Left Column: Explaining Zola AI in the context of tech */}
             <div className="lg:col-span-6 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-b-sun/15 border border-b-sun/30 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-b-sun">
                 <Sparkles className="h-3.5 w-3.5" />
@@ -545,11 +545,11 @@ export default function TutoringPage() {
               </div>
               
               <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                Meet Zola. Your AI academic assistant who analyzes past papers.
+                Meet Zola. Your AI tech assistant who diagnoses network &amp; hardware faults.
               </h2>
               
               <p className="text-lg text-b-cream/80 leading-relaxed">
-                Struggling with calculus or physical science concepts? Tell Zola your weak topics in plain language or voice notes—she analyzes syllabus requirements and matches you with a verified distinction tutor.
+                Snap a photo of an error code, laptop screen defect, or camera wiring—Zola diagnoses the hardware problem, recommends replacement specs, and hands you an exact booking draft.
               </p>
 
               <div className="space-y-4 pt-2">
@@ -558,9 +558,9 @@ export default function TutoringPage() {
                     <Camera className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Visual Past Paper &amp; Mark Breakdown Analysis</h3>
+                    <h3 className="font-display font-bold text-base text-white">Visual Screen &amp; Hardware Fault Analysis</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Snap a photo of a difficult past paper question or term report card. Zola&apos;s vision AI analyzes the topic breakdown (e.g. Euclidean Geometry vs Trigonometry), creating a diagnostic briefing for your tutor.
+                      Snap a photo of your cracked laptop screen, DVR error light, or router cabling. Zola&apos;s vision AI identifies screen panel model numbers, drive health, and camera wiring requirements.
                     </p>
                   </div>
                 </div>
@@ -570,9 +570,9 @@ export default function TutoringPage() {
                     <Brain className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Student Learning Profile Memory</h3>
+                    <h3 className="font-display font-bold text-base text-white">Tech Memory &amp; Security Specs Profile</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola remembers your learner&apos;s curriculum (IEB, CAPS, Cambridge), grade level, upcoming exam dates, and historical test scores. She briefings tutors before every lesson so time is never wasted reviewing known topics.
+                      Zola remembers your home router passwords, camera DVR IP addresses, and laptop serial numbers. She briefings technicians beforehand to ensure seamless setup.
                     </p>
                   </div>
                 </div>
@@ -582,16 +582,16 @@ export default function TutoringPage() {
                     <Zap className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Instant Schedule &amp; Lesson Tracking</h3>
+                    <h3 className="font-display font-bold text-base text-white">Instant Dispatch &amp; Escrow Release</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola schedules weekly sessions seamlessly around sports and extra-murals, delivering lesson progress reports directly to parents after every session.
+                      Need emergency CCTV repair or immediate virus removal? Zola matches certified tech pros near you who arrive on-site with correct tools and replacement parts.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Right Column: Zola Tutoring Chat Mockup */}
+            {/* Right Column: Zola Tech Chat Mockup */}
             <div className="lg:col-span-6">
               <div className="rounded-3xl border border-b-forest-line bg-b-forest-raised p-6 md:p-8 shadow-[0_24px_60px_rgba(0,0,0,0.4)] relative">
                 <div className="flex items-center justify-between border-b border-b-forest-line pb-4">
@@ -603,10 +603,10 @@ export default function TutoringPage() {
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-bold text-white">Zola AI Assistant</span>
                         <span className="rounded-full bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                          Syllabus &amp; Memory Active
+                          Hardware &amp; Security Memory Active
                         </span>
                       </div>
-                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Academic Matching</p>
+                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Tech Services Dispatch</p>
                     </div>
                   </div>
                 </div>
@@ -614,14 +614,14 @@ export default function TutoringPage() {
                 <div className="mt-6 space-y-4">
                   {/* User message with image upload */}
                   <div className="ml-auto w-fit max-w-[88%] rounded-2xl rounded-br-sm bg-emerald-600 px-4 py-3 text-sm text-white shadow-sm">
-                    <p className="mb-2">My son is struggling with IEB Grade 12 Calculus. Here is his recent test paper:</p>
+                    <p className="mb-2">I want to install 4 CCTV cameras around my house! Here is a photo of my driveway &amp; gate:</p>
                     <div className="rounded-xl bg-b-ink/40 p-2.5 border border-white/10 flex items-center gap-3">
                       <div className="h-10 w-12 rounded-lg bg-emerald-800/60 flex items-center justify-center shrink-0">
                         <Camera className="h-5 w-5 text-emerald-300" />
                       </div>
                       <div className="text-xs">
-                        <p className="font-semibold text-white">calculus_test_paper.jpg</p>
-                        <p className="text-[10px] text-emerald-200">Vision Analysis: IEB Math P1 Optimization Fault</p>
+                        <p className="font-semibold text-white">gate_perimeter_view.jpg</p>
+                        <p className="text-[10px] text-emerald-200">Vision Analysis: 4K Wide Angle IP Camera Placement</p>
                       </div>
                     </div>
                   </div>
@@ -630,13 +630,13 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl rounded-bl-sm bg-b-forest border border-b-forest-line px-4 py-3.5 text-sm text-b-cream shadow-sm space-y-2.5">
                     <div className="flex items-center gap-1.5 text-xs font-semibold text-b-sun">
                       <Sparkles className="h-3.5 w-3.5" />
-                      <span>Zola Academic Diagnostic Check</span>
+                      <span>Zola Security &amp; Wiring Diagnostic</span>
                     </div>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I analysed your test paper: the error is in 3D calculus optimization questions. From your **Student Memory profile**, final IEB exams start in 7 weeks.
+                      I analysed your perimeter layout: wide angle 4K night-vision IP cameras recommended with PoE cabling to central DVR.
                     </p>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I matched **Sindi Academic Tutoring** (B.Sc Eng Wits, 180+ matric distinctions) available Thursday at 16:00 PM for in-person or online 1-on-1.
+                      I matched **SecureVision Tech** (PSIRA Registered, 350+ CCTV installs) available Today at 11:00 AM.
                     </p>
                   </div>
 
@@ -644,21 +644,21 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-950/40 to-b-forest p-4 space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="flex items-center gap-1.5 font-price text-[10px] font-bold uppercase tracking-widest text-emerald-400">
-                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed Lesson Draft
+                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed CCTV Install Draft
                       </span>
                       <span className="text-[10px] font-bold text-b-cream/60 bg-white/5 px-2 py-0.5 rounded">
                         Escrow Protected
                       </span>
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-white">Grade 12 IEB Calculus Past Paper Intensive</p>
-                      <p className="text-xs text-b-cream/70 mt-0.5">Sindi Academic Tutoring • Thu 16:00 PM • Fixed R350/hr</p>
+                      <p className="text-sm font-bold text-white">4-Camera 4K HD CCTV System + Mobile Phone Setup</p>
+                      <p className="text-xs text-b-cream/70 mt-0.5">SecureVision • Today 11:00 AM • Fixed R3,500</p>
                     </div>
                     <div className="pt-2 flex items-center gap-3">
                       <span className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-400 text-b-forest font-extrabold px-5 py-2 text-xs transition-transform hover:scale-105 cursor-pointer shadow-md">
                         Confirm &amp; Lock Escrow
                       </span>
-                      <span className="text-[11px] text-b-cream/50">Lesson progress guarantee</span>
+                      <span className="text-[11px] text-b-cream/50">100% mobile feed guarantee</span>
                     </div>
                   </div>
                 </div>
@@ -668,18 +668,18 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Academic Trust ── */}
+      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Tech Trust ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <GraduationCap className="h-3.5 w-3.5" />
-            <span>Built For Academic Excellence</span>
+            <ShieldCheck className="h-3.5 w-3.5" />
+            <span>Built For Security &amp; Data Safety</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Why hiring a tutor on Bouul is fundamentally superior.
+            Why hiring tech pros on Bouul is fundamentally superior.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Your child&apos;s future depends on quality instruction. We engineered a platform enforcing academic transcript verification, digital escrow, and parent progress reporting.
+            Security and IT work require absolute trust. We engineered a platform enforcing PSIRA registration, strict NDA privacy, and digital escrow safety.
           </p>
         </div>
 
@@ -688,23 +688,23 @@ export default function TutoringPage() {
             {
               icon: ShieldCheck,
               color: "bg-blue-500/10 text-blue-600",
-              title: "1. Verified Degrees & Matric Distinctions",
-              subtitle: "Strict academic vetting",
-              body: "Every tutor on Bouul must upload verified university transcripts and matric distinction certificates. Unvetted candidates are strictly barred.",
+              title: "1. 100% PSIRA & IT Certified",
+              subtitle: "Strict security background checks",
+              body: "Every CCTV installer and security technician on Bouul undergoes PSIRA clearance validation, criminal record checks, and technical competence testing.",
             },
             {
               icon: Lock,
               color: "bg-amber-500/10 text-amber-600",
               title: "2. The Digital Escrow Shield",
-              subtitle: "Pay per lesson without upfront contracts",
-              body: "Never pay huge upfront term fees to agencies. Your payment is held safely in escrow per lesson and is only released after parent sign-off.",
+              subtitle: "Pay only after live feed verification",
+              body: "Never pay upfront for incomplete camera or network installs. Payment is held safely in Bouul digital escrow and only released after live phone feed testing.",
             },
             {
-              icon: AwardIcon,
+              icon: Shield,
               color: "bg-emerald-500/10 text-emerald-600",
-              title: "3. Parent Progress Reports",
-              subtitle: "Full visibility on student marks",
-              body: "Receive a digital progress report after every session detailing covered topics, student strengths, weak areas, and assigned revision homework.",
+              title: "3. 100% Data Privacy & NDA",
+              subtitle: "Your files & network are secure",
+              body: "Our computer repair and data recovery experts operate under strict POPIA compliance and non-disclosure agreements, keeping your files completely confidential.",
             },
           ].map((feat, i) => (
             <motion.div
@@ -725,7 +725,7 @@ export default function TutoringPage() {
               </div>
               
               <div className="mt-8 pt-4 border-t border-b-line/80 flex items-center gap-2 text-xs font-semibold text-emerald-600">
-                <span>Standard on all tutoring sessions</span>
+                <span>Standard on all tech bookings</span>
                 <Check className="h-4 w-4" />
               </div>
             </motion.div>
@@ -739,13 +739,13 @@ export default function TutoringPage() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-b-sun bg-b-sun/10 px-3 py-1 rounded-full mb-3">
               <Award className="h-3.5 w-3.5" />
-              <span>Proven 6-Week Mark Jump</span>
+              <span>Proven 4-Camera Security Setup</span>
             </div>
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-              From 54% to 81% distinction in Grade 12 Math.
+              Complete home CCTV &amp; mobile monitoring setup in 3 hours.
             </h2>
             <p className="mt-4 text-lg text-b-cream/80">
-              See how a Grade 12 IEB learner transformed their Core Math results through targeted past paper drilling on Bouul.
+              See how a homeowner secured their property with 4K cameras and live smartphone notifications using Bouul.
             </p>
           </div>
 
@@ -753,32 +753,32 @@ export default function TutoringPage() {
           <div className="grid gap-6 md:grid-cols-4 relative">
             {[
               {
-                step: "01. Diagnostic",
-                time: "Week 1",
-                title: "54% Mark Baseline",
-                desc: "Parent uploads Grade 12 Term 1 test. Zola identifies calculus & trig paper weaknesses.",
-                badge: "Diagnostic Complete",
+                step: "01. Inspection",
+                time: "10:30 AM",
+                title: "Perimeter Assessment",
+                desc: "Technician inspects gate, driveway & back patio angle requirements.",
+                badge: "PSIRA Verified",
               },
               {
-                step: "02. Matching",
-                time: "Week 2",
-                title: "Distinction Tutor Matched",
-                desc: "Sindi Academic Tutoring begins weekly 1.5-hour 1-on-1 past paper memo drilling.",
-                badge: "Weekly Escrow",
+                step: "02. Cabling",
+                time: "11:15 AM",
+                title: "PoE Cabling & Mounting",
+                desc: "4K cameras mounted with waterproof conduit and hidden cabling.",
+                badge: "Conduit Installed",
               },
               {
-                step: "03. Drilling",
-                time: "Weeks 3-5",
-                title: "Past Paper Intensive",
-                desc: "Drilled 8 past IEB papers, mastering 3D trigonometry and calculus optimization.",
-                badge: "Memo Mastered",
+                step: "03. Config",
+                time: "12:45 PM",
+                title: "DVR & App Configuration",
+                desc: "1TB DVR configured for motion alerts and remote view app synced on phone.",
+                badge: "Mobile App Synced",
               },
               {
-                step: "04. Result",
-                time: "Week 6",
-                title: "81% Final Distinction",
-                desc: "Prelim result jumps to 81%. Student secures engineering university placement.",
-                badge: "Distinction Achieved",
+                step: "04. Testing",
+                time: "13:30 PM",
+                title: "Live Feed Test & Escrow Release",
+                desc: "Homeowner tests night-vision alerts on phone and releases digital escrow.",
+                badge: "Escrow Released",
               },
             ].map((t, idx) => (
               <div key={t.step} className="rounded-2xl border border-b-forest-line bg-b-forest-raised p-6 flex flex-col justify-between">
@@ -793,7 +793,7 @@ export default function TutoringPage() {
                 </div>
                 
                 <div className="mt-6 pt-4 border-t border-b-forest-line/60 flex items-center justify-between text-[11px] text-b-cream/50">
-                  <span>Typical Grade 12 Boost</span>
+                  <span>Typical CCTV Installation</span>
                   <span>Escrow Protected Timeline</span>
                 </div>
               </div>
@@ -802,7 +802,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 7. TUTORS IN ACTION — VERIFIED FIELD IMAGERY ── */}
+      {/* ── 7. TECH PROS IN ACTION — VERIFIED FIELD IMAGERY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto border-b border-b-line">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
@@ -810,50 +810,50 @@ export default function TutoringPage() {
             <span>Verified Standards</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Professional academic standards, showcased in-app.
+            Professional tech standards, showcased in-app.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Every tutor on Bouul is vetted for subject mastery and communication skills. Here is a glimpse of the professional standards and capabilities available when you book through the app.
+            Every security installer and IT technician on Bouul is vetted for technical competence. Here is a glimpse of the professional standards available when you book through the app.
           </p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              file: "tutoring",
-              tag: "1-on-1 Tutoring",
-              title: "Focused In-Person Home Sessions",
-              desc: "Patient, structured 1-on-1 instruction in the comfort of your home, focusing on past papers.",
+              file: "hardware",
+              tag: "CCTV Installation",
+              title: "4K Night-Vision IP Camera Setup",
+              desc: "Outdoor weatherproof 4K camera mounting, PoE cabling, DVR recording, and mobile remote viewing.",
             },
             {
-              file: "house_cleaning",
-              tag: "STEM Subjects",
-              title: "Mathematics & Physical Sciences",
-              desc: "Step-by-step problem solving in algebra, calculus, organic chemistry, and physics dynamics.",
+              file: "auto_repair",
+              tag: "Computer Repair",
+              title: "Laptop SSD Upgrade & Hardware Repair",
+              desc: "High-speed SSD installation, RAM expansion, cracked screen replacement, and OS speed optimization.",
             },
             {
               file: "interior_design",
-              tag: "Cambridge Pathway",
-              title: "IGCSE & A-Level Subject Coaching",
-              desc: "Deconstruct Cambridge marking keys, essay outlines, and higher-order analytical questions.",
+              tag: "Mesh Wi-Fi",
+              title: "Whole-Home Seamless Mesh Wi-Fi Setup",
+              desc: "Dual-band Mesh access point setup, fibre router speed tuning, and dead zone elimination.",
             },
             {
-              file: "photography",
-              tag: "Languages",
-              title: "English & Afrikaans Literature",
-              desc: "Poetry analysis, essay structure, setwork book revision, and language paper prep.",
+              file: "remodeling",
+              tag: "Security Systems",
+              title: "Electric Fence Energizer & Alarm Repair",
+              desc: "Electric fence energizer replacement, wire tensioning, siren testing, and alarm system integration.",
             },
             {
-              file: "smart_home",
-              tag: "Accounting & Commerce",
-              title: "Financial Accounting & Economics",
-              desc: "Ledger reconciliations, financial statements, cash flow analysis, and micro-economics.",
+              file: "house_cleaning",
+              tag: "Network Cabling",
+              title: "CAT6 Ethernet Cabling & Office Rack Setup",
+              desc: "Neat wall trunking, CAT6 RJ45 termination, patch panel setup, and high-speed network switches.",
             },
             {
-              file: "appliances",
-              tag: "Primary Foundation",
-              title: "Foundational Numeracy & Literacy",
-              desc: "Encouraging early learning habits for Grade 1-7 learners, making homework fun and stress-free.",
+              file: "photography_service",
+              tag: "Data Recovery",
+              title: "Crashed Hard Drive & SSD Data Recovery",
+              desc: "Cleanroom recovery of lost photos, corrupt files, and damaged hard drives under strict privacy NDA.",
             },
           ].map((item, idx) => (
             <motion.div
@@ -898,7 +898,7 @@ export default function TutoringPage() {
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
                 <span className="font-bold text-emerald-600 flex items-center gap-1">
                   <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Distinction Guarantee</span>
+                  <span>100% Quality Guarantee</span>
                 </span>
               </div>
             </motion.div>
@@ -906,50 +906,50 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 8. COMPREHENSIVE TUTORING SERVICES DIRECTORY ── */}
+      {/* ── 8. COMPREHENSIVE TECH SERVICES DIRECTORY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Every academic subject, covered and verified.
+            Every tech &amp; security service, covered and verified.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            From Grade 12 past paper prep to primary school homework support across CAPS, IEB, and Cambridge.
+            From CCTV installation and computer repair to Mesh Wi-Fi, CAT6 network cabling, and data recovery.
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              category: "📐 STEM Subjects (Grades 8 - 12)",
+              category: "📹 CCTV & Security Systems",
               items: [
-                "Core Mathematics & Mathematical Literacy",
-                "Physical Sciences (Physics & Chemistry)",
-                "Life Sciences (Biology & Genetics)",
-                "Information Technology (Java & Delphi)",
-                "Engineering Graphics & Design (EGD)",
-                "Computer Applications Technology (CAT)",
+                "4K Night-vision IP camera installation",
+                "Mobile phone app remote view configuration",
+                "DVR / NVR hard drive recorder setup",
+                "Electric fence energizer repair & tensioning",
+                "Alarm system integration & motion sensors",
+                "Intercom & gate motor smart access setup",
               ],
             },
             {
-              category: "📚 Commerce & Humanities",
+              category: "💻 Computer Repair & IT Support",
               items: [
-                "Financial Accounting & Bookkeeping",
-                "Business Studies & Economics",
-                "English Home & First Additional Language",
-                "Afrikaans & isiZulu Language Prep",
-                "Geography & Mapwork Skills",
-                "History & Analytical Essay Writing",
+                "Laptop screen, battery & keyboard replacement",
+                "High-speed SSD upgrade & OS re-installation",
+                "Malware, spyware & virus removal",
+                "Desktop PC custom building & component fix",
+                "Printers & wireless office network setup",
+                "On-site home & business IT helpdesk support",
               ],
             },
             {
-              category: "🌍 Cambridge & Primary Foundations",
+              category: "🌐 Wi-Fi, Networking & Data",
               items: [
-                "Cambridge IGCSE, AS & A-Level Mathematics",
-                "Cambridge Physics, Chemistry & Economics",
-                "Primary School Grade 1-7 Reading Fluency",
-                "Primary Math & Foundational Numeracy",
-                "After-School Homework & Study Skills",
-                "NBT Exam Preparation Workshops",
+                "Seamless Mesh Wi-Fi setup (zero dead zones)",
+                "Neat trunked CAT6 Ethernet cable runs",
+                "Fibre router speed & firewall optimization",
+                "Cleanroom hard drive & SSD data recovery",
+                "Automated cloud backup configuration",
+                "Smart home TV & automation integration",
               ],
             },
           ].map((col) => (
@@ -970,7 +970,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 9. EXTENSIVE TUTORING FAQ ── */}
+      {/* ── 9. EXTENSIVE TECH FAQ ── */}
       <section className="bg-b-paper-deep py-24 px-5 border-t border-b-line">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -979,31 +979,31 @@ export default function TutoringPage() {
               <span>Clear Answers</span>
             </div>
             <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink">
-              Frequently asked questions about booking tutors.
+              Frequently asked questions about booking tech pros.
             </h2>
           </div>
 
           <div className="space-y-4">
             {[
               {
-                q: "How are tutors background checked on Bouul?",
-                a: "Every tutor undergoes identity verification, university transcript validation, matric distinction verification, and a criminal background check before being activated.",
+                q: "Can I watch my CCTV cameras live on my mobile phone when I'm away?",
+                a: "Yes! All CCTV camera installations booked on Bouul include mobile phone app configuration so you can view live HD streams and receive motion alerts anywhere in the world.",
               },
               {
-                q: "Can we choose between in-person home visits and online sessions?",
-                a: "Yes! You can filter for tutors available for in-person home visits in your suburb, or choose online 1-on-1 interactive video sessions depending on your preference.",
+                q: "Will an SSD upgrade preserve all my files and photos?",
+                a: "Yes! Our computer technicians clone your existing hard drive or migrate your files safely to the new SSD before returning your computer.",
               },
               {
-                q: "How does the tutor know what curriculum my child follows?",
-                a: "Zola AI captures your child's curriculum (CAPS, IEB, or Cambridge), grade level, and textbook syllabus in the booking brief so your tutor prepares aligned past papers beforehand.",
+                q: "Are security installers registered with PSIRA?",
+                a: "Yes! All CCTV and security technicians on Bouul undergo PSIRA clearance verification, proof of address validation, and police criminal checks.",
               },
               {
-                q: "Do I have to sign a long-term monthly contract?",
-                a: "No! Bouul operates on a transparent pay-per-lesson basis. You pay per lesson into digital escrow, giving you complete flexibility to pause or increase sessions before exams.",
+                q: "How does escrow protect me during a CCTV installation?",
+                a: "Your payment is locked safely in Bouul digital escrow and is only released after the cameras are installed and you test the live feed on your mobile phone.",
               },
               {
-                q: "When is payment released to the tutor?",
-                a: "Your payment is held safely in Bouul escrow per lesson and is only released after the lesson is completed and you receive your tutor's progress summary report.",
+                q: "Is my personal data safe during computer repair or data recovery?",
+                a: "Our technicians operate under strict POPIA compliance and signed privacy NDAs. Your personal files, photos, and passwords remain strictly confidential.",
               },
             ].map((faq, i) => (
               <motion.div
@@ -1036,16 +1036,16 @@ export default function TutoringPage() {
             className="space-y-6"
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 px-4 py-1.5 text-xs font-bold text-emerald-600 uppercase tracking-widest">
-              <GraduationCap className="h-3.5 w-3.5" />
-              <span>Verified Academic Tutoring</span>
+              <Monitor className="h-3.5 w-3.5" />
+              <span>Verified Tech &amp; Security Dispatch</span>
             </div>
 
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-              Ready to boost your child&apos;s marks and confidence?
+              Ready to secure your property &amp; upgrade your tech?
             </h2>
 
             <p className="max-w-xl mx-auto text-lg text-b-ink-soft leading-relaxed">
-              Never stress over unverified tutors or long-term contract lock-ins again. Join parents who use Bouul to book distinction-verified tutors in seconds.
+              Never stress over unverified security installers or slow computers again. Join thousands who use Bouul to book certified, escrow-protected tech pros in seconds.
             </p>
 
             <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
@@ -1053,14 +1053,14 @@ export default function TutoringPage() {
                 href="/download"
                 className="rounded-full bg-b-green px-9 py-4 text-base font-extrabold text-b-forest shadow-xl hover:scale-105 hover:bg-emerald-400 transition-all flex items-center gap-2"
               >
-                <GraduationCap className="h-5 w-5" />
+                <Monitor className="h-5 w-5" />
                 <span>Download Bouul Now</span>
               </Link>
             </div>
 
             <div className="pt-6 flex items-center justify-center gap-8 text-xs font-semibold text-b-ink-faint border-t border-b-line/60 max-w-md mx-auto">
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="h-4 w-4 text-emerald-600" /> Transcript Verified
+                <ShieldCheck className="h-4 w-4 text-emerald-600" /> PSIRA Certified
               </span>
               <span className="flex items-center gap-1.5">
                 <Lock className="h-4 w-4 text-emerald-600" /> Escrow Protected

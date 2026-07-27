@@ -37,119 +37,119 @@ import {
   Building2,
   Hammer,
   Brain,
-  BookOpen,
-  GraduationCap,
-  Target,
-  Globe,
-  Award as AwardIcon,
+  Video,
+  Music,
+  Utensils,
+  PartyPopper,
+  Mic,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
 const SITUATIONS = [
   {
-    id: "matric_prep",
-    tabTitle: "Matric Exam & Past Paper Prep",
-    icon: GraduationCap,
-    badge: "Matric Distinction Specialists",
-    title: "Boost Grade 12 Math, Physics & Accounting marks before final exams.",
+    id: "photography",
+    tabTitle: "Event & Portrait Photography",
+    icon: Camera,
+    badge: "High-Resolution Portfolios",
+    title: "Weddings, corporate functions, birthdays & portrait photoshoots.",
     description:
-      "Don't let difficult finals limit university admission options. Book verified subject specialist tutors on Bouul who drill past papers, clarify complex syllabus concepts, and share proven exam techniques for CAPS and IEB matriculation exams.",
-    timeline: "Weekly 1-on-1 Sessions",
-    costEstimate: "R320 – R520 / hr",
+      "Capture your most cherished moments in stunning detail. Book verified professional photographers on Bouul specializing in high-resolution event coverage, portrait lighting, drone aerial shots, and edited digital gallery delivery.",
+    timeline: "Half-Day / Full-Day",
+    costEstimate: "R1,500 – R6,500",
     keyBenefits: [
-      "Targeted CAPS & IEB past paper memorandum drilling",
-      "Specialists in Core Math, Physical Sciences, Accounting & Life Sciences",
-      "Escrow protection—funds released only after each completed lesson",
+      "Weddings, family portraits, corporate launches & birthday parties",
+      "Full digital raw photo editing & private online gallery delivery",
+      "Digital escrow protection—final funds released after gallery delivery",
     ],
-    ctaText: "Book Matric Tutor",
+    ctaText: "Book Photographer",
   },
   {
-    id: "ieb_caps",
-    tabTitle: "High School CAPS & IEB Support",
-    icon: BookOpen,
-    badge: "Grades 8 - 11 Subject Boost",
-    title: "Build confidence in Mathematics, Sciences & Languages early.",
+    id: "videography",
+    tabTitle: "Videography & Drone Cinema",
+    icon: Video,
+    badge: "4K Cinematic Edits",
+    title: "Cinematic wedding films, corporate promos & event highlights.",
     description:
-      "Prevent knowledge gaps before Grade 12. Connect your learner with background-checked university graduates and qualified teachers who simplify challenging topics, review weekly homework, and prepare for term tests.",
-    timeline: "Flexible Weekly Schedule",
-    costEstimate: "R250 – R420 / hr",
+      "Tell your story with 4K cinematic video. Vetted videographers bring multi-camera setups, wireless lapel microphones, and licensed 4K aerial drones to record crisp video and crystal-clear audio.",
+    timeline: "Project Delivery: 5-10 Days",
+    costEstimate: "R2,200 – R8,500",
     keyBenefits: [
-      "In-person home visits or interactive online 1-on-1 sessions",
-      "Customized lesson plans aligned to school term syllabus",
-      "Detailed lesson summary reports sent to parents after every session",
+      "4K Ultra-HD video recording & licensed drone aerial shots",
+      "Professional audio recording with wireless lavalier microphones",
+      "Includes short-form social media reel highlights & full feature edit",
     ],
-    ctaText: "Book Subject Specialist",
+    ctaText: "Book Videographer",
   },
   {
-    id: "cambridge",
-    tabTitle: "Cambridge IGCSE & A-Levels",
-    icon: Globe,
-    badge: "International Curriculum",
-    title: "Rigorous IGCSE, AS & A-Level subject mastery for university entry.",
+    id: "catering_events",
+    tabTitle: "Catering & Event Planning",
+    icon: Utensils,
+    badge: "Gourmet Menus & Decor",
+    title: "Plated dining, buffet spreads, custom cakes & venue decor.",
     description:
-      "Cambridge curricula require deep conceptual synthesis rather than simple memorization. Book experienced Cambridge tutors on Bouul who guide students through past papers, essay structure, and international exam standards.",
-    timeline: "Subject-Specific Mastery",
-    costEstimate: "R380 – R650 / hr",
+      "Host unforgettable celebrations without the stress. Book verified caterers and event coordinators on Bouul offering custom menus, buffet setups, cocktail bar service, and theme decor.",
+    timeline: "Per Event Booking",
+    costEstimate: "R180 – R450 / guest",
     keyBenefits: [
-      "Cambridge IGCSE, AS-Level & A-Level accredited tutors",
-      "Specialized support for Math, Physics, Chemistry & Economics",
-      "Direct guidance for UK, US & international university applications",
+      "Custom buffet spreads, spit braais, cocktail canapés & plated meals",
+      "Dietary accommodations (Halal, Kosher, Vegan & Gluten-Free)",
+      "Milestone escrow payment releases matching your event schedule",
     ],
-    ctaText: "Book Cambridge Tutor",
+    ctaText: "Plan Event Catering",
   },
   {
-    id: "primary",
-    tabTitle: "Primary School & Homework Help",
-    icon: Target,
-    badge: "Foundational Learning",
-    title: "Build reading fluency, foundational math & positive study habits.",
+    id: "djs_entertainment",
+    tabTitle: "DJs, Live Music & MCs",
+    icon: Music,
+    badge: "Full Sound & Lighting Rig",
+    title: "Professional DJs, live bands, saxophonists & energetic MCs.",
     description:
-      "Transform homework time from a daily struggle into an encouraging routine. Patient primary school tutors on Bouul assist Grade 1 to 7 learners with reading, foundational numeracy, and project research.",
-    timeline: "After-School Sessions",
-    costEstimate: "R200 – R350 / hr",
+      "Keep your dancefloor packed all night long. Book experienced event DJs, live musicians, and charismatic MCs who supply crystal-clear sound systems, wireless mics, and intelligent dancefloor lighting.",
+    timeline: "4 - 8 Hour Performance",
+    costEstimate: "R2,500 – R7,500",
     keyBenefits: [
-      "Patient, encouraging tutors trained in foundational learning",
-      "Assistance with daily homework, spelling & reading comprehension",
-      "Builds self-confidence and independent study habits",
+      "Professional sound PA system, wireless mics & LED dance lighting included",
+      "Custom playlist curation for weddings, corporate galas & parties",
+      "Punctual arrival with full soundcheck performed before guests arrive",
     ],
-    ctaText: "Book Primary School Tutor",
+    ctaText: "Book Event DJ & Music",
   },
 ];
 
 // Price Estimator Guide Data
 const PRICE_ESTIMATES = [
   {
-    task: "High School CAPS / IEB Subject Session",
-    range: "R250 - R420 / hr",
-    time: "1 - 2 hours per session",
-    desc: "1-on-1 subject tutoring for Core Math, Physics, Accounting, or Languages.",
-    includes: ["Syllabus explanation", "Homework review", "Parent progress report"],
+    task: "Half-Day Event Photography (4 Hours)",
+    range: "R1,500 - R3,200",
+    time: "4 hours on-site",
+    desc: "4 hours of event coverage, basic lighting setup, 150+ color-graded high-res digital photos delivered via gallery.",
+    includes: ["4 hours coverage", "150+ edited photos", "Online digital gallery"],
   },
   {
-    task: "Matric Past Paper Intensive Revision",
-    range: "R320 - R520 / hr",
-    time: "1.5 - 2 hours per session",
-    desc: "Targeted Grade 12 past paper drilling, exam memorandum strategies, and time management.",
-    includes: ["Past paper practice", "Memo breakdown", "Exam strategy drilling"],
+    task: "Full-Day Wedding Video & Drone Package",
+    range: "R4,500 - R9,500",
+    time: "8 - 10 hours",
+    desc: "Full wedding day coverage, 4K video, drone aerial footage, highlight reel, and full ceremony video edit.",
+    includes: ["8-10 hrs coverage", "4K drone footage", "Cinematic edit"],
   },
   {
-    task: "Cambridge IGCSE / A-Level Specialist",
-    range: "R380 - R650 / hr",
-    time: "1 - 2 hours per session",
-    desc: "International curriculum tutoring focusing on higher-order analytical questions and paper techniques.",
-    includes: ["Cambridge past papers", "Essay structure", "Conceptual depth"],
+    task: "Buffet Catering (30-50 Guests)",
+    range: "R220 - R380 / guest",
+    time: "Full event service",
+    desc: "2-course hot buffet spread, side dishes, warm chafing dishes, serving cutlery, and on-site staff assistance.",
+    includes: ["2-course buffet", "Chafing dish setup", "Serving staff"],
   },
   {
-    task: "Primary School Homework & Reading Support",
-    range: "R200 - R350 / hr",
-    time: "1 - 1.5 hours per session",
-    desc: "After-school assistance with daily homework assignments, reading comprehension, and math fundamentals.",
-    includes: ["Homework completion", "Foundational math", "Reading practice"],
+    task: "Event DJ & Sound System Package (5 Hours)",
+    range: "R2,500 - R4,800",
+    time: "5 performance hours",
+    desc: "5 hours performance, 2000W PA speaker system, wireless mic for speeches, LED party lights, and custom playlist.",
+    includes: ["2000W PA speakers", "Wireless mic", "Party lighting rig"],
   },
 ];
 
-export default function TutoringPage() {
-  const [activeTab, setActiveTab] = useState("matric_prep");
+export default function EventsPage() {
+  const [activeTab, setActiveTab] = useState("photography");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
   const currentSituation = SITUATIONS.find((s) => s.id === activeTab) || SITUATIONS[0];
@@ -173,7 +173,7 @@ export default function TutoringPage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-b-green opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-b-green-deep"></span>
             </span>
-            <span>Verified Subject Specialist Tutors Available Now • Avg. Match: 6 Mins</span>
+            <span>Verified Photographers, Caterers &amp; DJs Active Now • Avg. Confirmation: 6 Mins</span>
           </motion.div>
 
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
@@ -183,13 +183,13 @@ export default function TutoringPage() {
               transition={{ duration: 0.7 }}
             >
               <h1 className="font-display text-5xl font-extrabold leading-[1.04] tracking-tight text-b-ink sm:text-6xl md:text-7xl">
-                Top academic results. <br />
+                Unforgettable events. <br />
                 <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-600 bg-clip-text text-transparent">
-                  CAPS, IEB &amp; Cambridge.
+                  Escrow protected memories.
                 </span>
               </h1>
               <p className="mt-6 max-w-lg text-lg leading-relaxed text-b-ink-soft">
-                Unlock your learner&apos;s full potential. Book background-checked subject specialist tutors for in-person home visits or 1-on-1 online sessions with digital escrow safety.
+                From photographers, videographers, and caterers to DJs, live bands, and event planners. Book vetted event professionals with verified portfolios, clear pricing, and digital escrow safety.
               </p>
 
               {/* Action Buttons */}
@@ -198,8 +198,8 @@ export default function TutoringPage() {
                   href="/download"
                   className="rounded-full bg-b-green px-8 py-4 font-bold text-b-forest shadow-[0_10px_30px_rgba(16,185,129,0.35)] transition-all hover:scale-[1.03] hover:bg-emerald-400 flex items-center gap-2"
                 >
-                  <GraduationCap className="h-5 w-5" />
-                  <span>Find a Certified Tutor</span>
+                  <Camera className="h-5 w-5" />
+                  <span>Book Event Professional</span>
                 </Link>
 
                 <a
@@ -215,7 +215,7 @@ export default function TutoringPage() {
               <div className="mt-10 flex flex-wrap items-center gap-6 text-xs font-medium text-b-ink-faint border-t border-b-line pt-6">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>ID &amp; Matric Distinction Verified</span>
+                  <span>100% Verified Real Portfolios</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Lock className="h-4 w-4 text-emerald-600" />
@@ -223,7 +223,7 @@ export default function TutoringPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Star className="h-4 w-4 fill-amber-500 text-amber-500" />
-                  <span>4.98 Rating (3,500+ Lessons)</span>
+                  <span>4.99 Rating (4,100+ Events)</span>
                 </div>
               </div>
             </motion.div>
@@ -241,26 +241,26 @@ export default function TutoringPage() {
               <div className="flex items-center justify-between pb-4 border-b border-b-line mb-5">
                 <div className="flex items-center gap-3">
                   <div className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
-                  <span className="font-display font-bold text-sm">Subject Tutor Matched</span>
+                  <span className="font-display font-bold text-sm">Event Professional Matched</span>
                 </div>
                 <span className="text-xs font-semibold text-b-green-deep bg-b-green/10 px-2.5 py-1 rounded-full">
-                  B.Sc Eng (Wits) • 6 Distinctions
+                  Portfolio &amp; Gear Verified
                 </span>
               </div>
 
-              {/* Tutor card mock */}
+              {/* Event pro card mock */}
               <div className="rounded-2xl border border-b-green/30 bg-gradient-to-br from-b-green/10 via-transparent to-transparent p-4 mb-4">
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-3">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-600 font-bold text-white text-lg shadow-md">
-                      <GraduationCap className="h-6 w-6" />
+                      <Camera className="h-6 w-6" />
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">
-                        <h4 className="font-display font-bold text-base text-b-ink">Sindi Academic Tutoring</h4>
+                        <h4 className="font-display font-bold text-base text-b-ink">Lumina Event Media</h4>
                         <CheckCircle2 className="h-4 w-4 text-emerald-600 fill-emerald-100" />
                       </div>
-                      <p className="text-xs text-b-ink-soft">Core Math &amp; Physics Specialist • IEB/CAPS</p>
+                      <p className="text-xs text-b-ink-soft">Wedding &amp; Event Photography • 4K Drone Certified</p>
                     </div>
                   </div>
                   <div className="text-right">
@@ -268,20 +268,20 @@ export default function TutoringPage() {
                       <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500" />
                       <span>4.99</span>
                     </div>
-                    <span className="text-[10px] text-b-ink-faint">180+ Student Distinctions</span>
+                    <span className="text-[10px] text-b-ink-faint">240+ Events Covered</span>
                   </div>
                 </div>
 
                 <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
-                    <span className="text-[10px] text-b-ink-faint block">Next Lesson</span>
+                    <span className="text-[10px] text-b-ink-faint block">Event Date</span>
                     <span className="font-semibold text-emerald-600 flex items-center gap-1">
-                      <Clock className="h-3 w-3" /> Thursday 16:00 PM
+                      <Clock className="h-3 w-3" /> Saturday 14:00 PM
                     </span>
                   </div>
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
                     <span className="text-[10px] text-b-ink-faint block">Escrow Protected</span>
-                    <span className="font-semibold text-b-ink">R350.00 Held</span>
+                    <span className="font-semibold text-b-ink">R2,500.00 Held</span>
                   </div>
                 </div>
               </div>
@@ -292,19 +292,19 @@ export default function TutoringPage() {
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     1
                   </div>
-                  <span className="text-b-ink font-medium">Select grade, curriculum (CAPS/IEB) &amp; weak topics</span>
+                  <span className="text-b-ink font-medium">Select event type, hours &amp; view verified sample galleries</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     2
                   </div>
-                  <span className="text-b-ink font-medium">Digital escrow holds payment safely per lesson</span>
+                  <span className="text-b-ink font-medium">Digital escrow holds deposit safely until event delivery</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-b-line text-b-ink-faint font-bold text-[10px]">
                     3
                   </div>
-                  <span className="text-b-ink-faint">Receive lesson summary report before funds release</span>
+                  <span className="text-b-ink-faint">Receive edited photos/video gallery &amp; release final funds</span>
                 </div>
               </div>
             </motion.div>
@@ -316,14 +316,14 @@ export default function TutoringPage() {
       <section id="use-cases" className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <BookOpen className="h-3.5 w-3.5" />
-            <span>Tailored Academic Solutions</span>
+            <Sparkles className="h-3.5 w-3.5" />
+            <span>Tailored Event Solutions</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            How Bouul solves your exact learning goals.
+            How Bouul solves your exact event needs.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Select your curriculum or learning stage below to see how our verified tutors boost marks and build confidence.
+            Select your celebration type below to see how our verified professionals deliver unforgettable experiences.
           </p>
         </div>
 
@@ -397,7 +397,7 @@ export default function TutoringPage() {
               <div className="lg:col-span-5">
                 <div className="rounded-2xl border border-b-line bg-b-paper p-6 space-y-6 shadow-sm">
                   <div className="border-b border-b-line pb-4">
-                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Hourly Rate</span>
+                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Package Rate</span>
                     <div className="mt-2 flex items-baseline justify-between">
                       <span className="font-display text-3xl font-extrabold text-b-ink">{currentSituation.costEstimate}</span>
                       <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md">
@@ -408,22 +408,22 @@ export default function TutoringPage() {
 
                   <div className="space-y-3 text-xs text-b-ink-soft">
                     <div className="flex items-center justify-between">
-                      <span>Tutor Vetting</span>
-                      <span className="font-semibold text-b-ink">Degree &amp; Matric Verification</span>
+                      <span>Portfolio Vetting</span>
+                      <span className="font-semibold text-b-ink">100% Real Event Galleries</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span>Payment Protection</span>
                       <span className="font-semibold text-emerald-600">100% Escrow Shield</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span>Format</span>
-                      <span className="font-semibold text-b-ink">In-Person Home or Online 1-on-1</span>
+                      <span>Equipment Check</span>
+                      <span className="font-semibold text-b-ink">Backup Cameras &amp; Gear Verified</span>
                     </div>
                   </div>
 
-                  <div className="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-950 flex items-start gap-2.5">
-                    <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
-                    <span>Every tutor on Bouul undergoes identity checks, academic transcript validation, and police clearance checks for child safety.</span>
+                  <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-950 flex items-start gap-2.5">
+                    <AlertTriangle className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
+                    <span>Never lose an event deposit to no-show vendors. Bouul holds your deposit safely in digital escrow until final event delivery.</span>
                   </div>
                 </div>
               </div>
@@ -440,24 +440,24 @@ export default function TutoringPage() {
             <div className="lg:col-span-5 space-y-6">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-500/10 px-3 py-1 rounded-full">
                 <DollarSign className="h-3.5 w-3.5" />
-                <span>Transparent Hourly Rates</span>
+                <span>Transparent Event Pricing</span>
               </div>
 
               <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink leading-tight">
-                No long contracts. Clear hourly tutoring rates.
+                No hidden venue add-ons. Upfront event rates.
               </h2>
 
               <p className="text-base leading-relaxed text-b-ink-soft">
-                Know exactly what your child&apos;s tutoring sessions cost before starting. Bouul standardizes hourly rates based on subject complexity and tutor qualifications.
+                Know what your photography, catering, or DJ package will cost before paying a deposit. Bouul standardizes transparent package rates for events.
               </p>
 
               <div className="p-5 rounded-2xl bg-b-paper border border-b-line space-y-3">
                 <div className="flex items-center gap-2 font-display font-bold text-sm text-b-ink">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>The Bouul Academic Guarantee</span>
+                  <span>The Bouul Event Guarantee</span>
                 </div>
                 <p className="text-xs text-b-ink-soft leading-relaxed">
-                  Your tutor submits a brief lesson summary report in-app after every session. Payment for each lesson is released from escrow only after parent sign-off.
+                  Your event pro approves the fixed package quote in-app. Payment is locked safely in digital escrow and only released after your event is successfully delivered.
                 </p>
               </div>
             </div>
@@ -466,7 +466,7 @@ export default function TutoringPage() {
             <div className="lg:col-span-7">
               <div className="rounded-3xl border border-b-line bg-b-paper p-6 md:p-8 shadow-xl space-y-6">
                 <div className="flex items-center justify-between border-b border-b-line pb-4">
-                  <span className="font-display font-bold text-lg text-b-ink">Select Academic Level for Guide Pricing</span>
+                  <span className="font-display font-bold text-lg text-b-ink">Select Package for Guide Pricing</span>
                   <span className="text-xs font-semibold text-b-ink-faint">Standard Platform Rate Structure</span>
                 </div>
 
@@ -493,7 +493,7 @@ export default function TutoringPage() {
                   <div className="flex items-center justify-between">
                     <span className="font-display font-bold text-base text-b-ink">{currentEstimate.task}</span>
                     <span className="text-xs font-bold text-emerald-600 bg-emerald-500/10 px-2.5 py-1 rounded-md">
-                      Lesson Time: {currentEstimate.time}
+                      Duration: {currentEstimate.time}
                     </span>
                   </div>
 
@@ -514,13 +514,13 @@ export default function TutoringPage() {
 
                 <div className="pt-2 flex items-center justify-between">
                   <div className="text-xs text-b-ink-faint">
-                    <span>Rates confirmed in-app before lesson starts.</span>
+                    <span>Package rate confirmed in-app before booking.</span>
                   </div>
                   <Link
                     href="/download"
                     className="inline-flex items-center gap-2 rounded-full bg-b-green px-6 py-2.5 text-xs font-bold text-b-forest hover:bg-emerald-400 transition-all shadow-md"
                   >
-                    <span>Match Tutor In App</span>
+                    <span>Get Exact Quote In App</span>
                     <ArrowRight className="h-3.5 w-3.5" />
                   </Link>
                 </div>
@@ -537,7 +537,7 @@ export default function TutoringPage() {
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid gap-12 lg:grid-cols-12 items-center">
-            {/* Left Column: Explaining Zola AI in the context of tutoring */}
+            {/* Left Column: Explaining Zola AI in the context of events */}
             <div className="lg:col-span-6 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-b-sun/15 border border-b-sun/30 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-b-sun">
                 <Sparkles className="h-3.5 w-3.5" />
@@ -545,11 +545,11 @@ export default function TutoringPage() {
               </div>
               
               <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                Meet Zola. Your AI academic assistant who analyzes past papers.
+                Meet Zola. Your AI event coordinator who matches your mood board.
               </h2>
               
               <p className="text-lg text-b-cream/80 leading-relaxed">
-                Struggling with calculus or physical science concepts? Tell Zola your weak topics in plain language or voice notes—she analyzes syllabus requirements and matches you with a verified distinction tutor.
+                Tell Zola your event date, venue, guest count, and mood board style—she checks vendor schedules, coordinates multi-vendor availability, and hands you an exact package draft.
               </p>
 
               <div className="space-y-4 pt-2">
@@ -558,9 +558,9 @@ export default function TutoringPage() {
                     <Camera className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Visual Past Paper &amp; Mark Breakdown Analysis</h3>
+                    <h3 className="font-display font-bold text-base text-white">Visual Mood Board &amp; Venue Layout Matching</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Snap a photo of a difficult past paper question or term report card. Zola&apos;s vision AI analyzes the topic breakdown (e.g. Euclidean Geometry vs Trigonometry), creating a diagnostic briefing for your tutor.
+                      Snap a photo of your event venue or Pinterest mood board. Zola&apos;s vision AI analyzes lighting conditions, decor color palettes, and space layout, recommending photographers and decorators with matching style portfolios.
                     </p>
                   </div>
                 </div>
@@ -570,9 +570,9 @@ export default function TutoringPage() {
                     <Brain className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Student Learning Profile Memory</h3>
+                    <h3 className="font-display font-bold text-base text-white">Event Memory &amp; Music Preference Profile</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola remembers your learner&apos;s curriculum (IEB, CAPS, Cambridge), grade level, upcoming exam dates, and historical test scores. She briefings tutors before every lesson so time is never wasted reviewing known topics.
+                      Zola remembers your event timeline, dietary preferences (e.g., 20% Halal/Vegan guests), and music do-not-play lists. She briefs your caterers and DJ before event day.
                     </p>
                   </div>
                 </div>
@@ -582,16 +582,16 @@ export default function TutoringPage() {
                     <Zap className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Instant Schedule &amp; Lesson Tracking</h3>
+                    <h3 className="font-display font-bold text-base text-white">Multi-Vendor Coordination &amp; Escrow</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola schedules weekly sessions seamlessly around sports and extra-murals, delivering lesson progress reports directly to parents after every session.
+                      Booking photography, catering, and DJ simultaneously? Zola manages multi-vendor scheduling and holds all milestone deposits safely in escrow until your event is executed.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Right Column: Zola Tutoring Chat Mockup */}
+            {/* Right Column: Zola Events Chat Mockup */}
             <div className="lg:col-span-6">
               <div className="rounded-3xl border border-b-forest-line bg-b-forest-raised p-6 md:p-8 shadow-[0_24px_60px_rgba(0,0,0,0.4)] relative">
                 <div className="flex items-center justify-between border-b border-b-forest-line pb-4">
@@ -603,10 +603,10 @@ export default function TutoringPage() {
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-bold text-white">Zola AI Assistant</span>
                         <span className="rounded-full bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                          Syllabus &amp; Memory Active
+                          Mood Board &amp; Event Active
                         </span>
                       </div>
-                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Academic Matching</p>
+                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Event Services Dispatch</p>
                     </div>
                   </div>
                 </div>
@@ -614,14 +614,14 @@ export default function TutoringPage() {
                 <div className="mt-6 space-y-4">
                   {/* User message with image upload */}
                   <div className="ml-auto w-fit max-w-[88%] rounded-2xl rounded-br-sm bg-emerald-600 px-4 py-3 text-sm text-white shadow-sm">
-                    <p className="mb-2">My son is struggling with IEB Grade 12 Calculus. Here is his recent test paper:</p>
+                    <p className="mb-2">I need a photographer &amp; DJ for a 40th birthday on Saturday! Here is the mood board:</p>
                     <div className="rounded-xl bg-b-ink/40 p-2.5 border border-white/10 flex items-center gap-3">
                       <div className="h-10 w-12 rounded-lg bg-emerald-800/60 flex items-center justify-center shrink-0">
                         <Camera className="h-5 w-5 text-emerald-300" />
                       </div>
                       <div className="text-xs">
-                        <p className="font-semibold text-white">calculus_test_paper.jpg</p>
-                        <p className="text-[10px] text-emerald-200">Vision Analysis: IEB Math P1 Optimization Fault</p>
+                        <p className="font-semibold text-white">birthday_moodboard.jpg</p>
+                        <p className="text-[10px] text-emerald-200">Vision Analysis: Golden Hour Outdoor &amp; Party DJ</p>
                       </div>
                     </div>
                   </div>
@@ -630,13 +630,13 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl rounded-bl-sm bg-b-forest border border-b-forest-line px-4 py-3.5 text-sm text-b-cream shadow-sm space-y-2.5">
                     <div className="flex items-center gap-1.5 text-xs font-semibold text-b-sun">
                       <Sparkles className="h-3.5 w-3.5" />
-                      <span>Zola Academic Diagnostic Check</span>
+                      <span>Zola Event Diagnostic &amp; Portfolio Check</span>
                     </div>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I analysed your test paper: the error is in 3D calculus optimization questions. From your **Student Memory profile**, final IEB exams start in 7 weeks.
+                      I analysed your mood board: warm golden hour outdoor lighting. From your **Event Memory**, you requested 80s/90s party hits and 5 hours of coverage.
                     </p>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I matched **Sindi Academic Tutoring** (B.Sc Eng Wits, 180+ matric distinctions) available Thursday at 16:00 PM for in-person or online 1-on-1.
+                      I matched **Lumina Event Media** (4.99 ★, 240+ events) + **BeatCraft DJ Rig** available Saturday at 14:00 PM.
                     </p>
                   </div>
 
@@ -644,21 +644,21 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-950/40 to-b-forest p-4 space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="flex items-center gap-1.5 font-price text-[10px] font-bold uppercase tracking-widest text-emerald-400">
-                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed Lesson Draft
+                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed Event Package Draft
                       </span>
                       <span className="text-[10px] font-bold text-b-cream/60 bg-white/5 px-2 py-0.5 rounded">
                         Escrow Protected
                       </span>
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-white">Grade 12 IEB Calculus Past Paper Intensive</p>
-                      <p className="text-xs text-b-cream/70 mt-0.5">Sindi Academic Tutoring • Thu 16:00 PM • Fixed R350/hr</p>
+                      <p className="text-sm font-bold text-white">40th Birthday Photo &amp; DJ Package (5 Hours)</p>
+                      <p className="text-xs text-b-cream/70 mt-0.5">Lumina Media + BeatCraft DJ • Sat 14:00 • Est. R3,800</p>
                     </div>
                     <div className="pt-2 flex items-center gap-3">
                       <span className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-400 text-b-forest font-extrabold px-5 py-2 text-xs transition-transform hover:scale-105 cursor-pointer shadow-md">
                         Confirm &amp; Lock Escrow
                       </span>
-                      <span className="text-[11px] text-b-cream/50">Lesson progress guarantee</span>
+                      <span className="text-[11px] text-b-cream/50">100% no-show deposit protection</span>
                     </div>
                   </div>
                 </div>
@@ -668,18 +668,18 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Academic Trust ── */}
+      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Event Trust ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <GraduationCap className="h-3.5 w-3.5" />
-            <span>Built For Academic Excellence</span>
+            <ShieldCheck className="h-3.5 w-3.5" />
+            <span>Built For Unforgettable Events</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Why hiring a tutor on Bouul is fundamentally superior.
+            Why booking event pros on Bouul is fundamentally superior.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Your child&apos;s future depends on quality instruction. We engineered a platform enforcing academic transcript verification, digital escrow, and parent progress reporting.
+            Your celebration cannot be redone. We engineered a platform enforcing verified portfolios, digital escrow, and gear backup checks.
           </p>
         </div>
 
@@ -688,23 +688,23 @@ export default function TutoringPage() {
             {
               icon: ShieldCheck,
               color: "bg-blue-500/10 text-blue-600",
-              title: "1. Verified Degrees & Matric Distinctions",
-              subtitle: "Strict academic vetting",
-              body: "Every tutor on Bouul must upload verified university transcripts and matric distinction certificates. Unvetted candidates are strictly barred.",
+              title: "1. 100% Real Event Portfolios",
+              subtitle: "No stolen internet stock samples",
+              body: "Every event photographer, videographer, and caterer on Bouul uploads verified raw galleries from real client bookings. Zero fake stock images.",
             },
             {
               icon: Lock,
               color: "bg-amber-500/10 text-amber-600",
               title: "2. The Digital Escrow Shield",
-              subtitle: "Pay per lesson without upfront contracts",
-              body: "Never pay huge upfront term fees to agencies. Your payment is held safely in escrow per lesson and is only released after parent sign-off.",
+              subtitle: "No-show deposit protection",
+              body: "Never risk losing a cash deposit to a unreliable vendor. Your deposit is locked safely in Bouul escrow and only released after your event is delivered.",
             },
             {
-              icon: AwardIcon,
+              icon: Sparkles,
               color: "bg-emerald-500/10 text-emerald-600",
-              title: "3. Parent Progress Reports",
-              subtitle: "Full visibility on student marks",
-              body: "Receive a digital progress report after every session detailing covered topics, student strengths, weak areas, and assigned revision homework.",
+              title: "3. Professional Equipment Vetting",
+              subtitle: "Backup cameras, mics & lighting",
+              body: "Our event pros carry backup camera bodies, spare audio lapel mics, and commercial sound systems to ensure zero technical glitches on your big day.",
             },
           ].map((feat, i) => (
             <motion.div
@@ -725,7 +725,7 @@ export default function TutoringPage() {
               </div>
               
               <div className="mt-8 pt-4 border-t border-b-line/80 flex items-center gap-2 text-xs font-semibold text-emerald-600">
-                <span>Standard on all tutoring sessions</span>
+                <span>Standard on all event bookings</span>
                 <Check className="h-4 w-4" />
               </div>
             </motion.div>
@@ -739,13 +739,13 @@ export default function TutoringPage() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-b-sun bg-b-sun/10 px-3 py-1 rounded-full mb-3">
               <Award className="h-3.5 w-3.5" />
-              <span>Proven 6-Week Mark Jump</span>
+              <span>Proven 120-Guest Wedding Execution</span>
             </div>
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-              From 54% to 81% distinction in Grade 12 Math.
+              From planning brief to 4K cinematic wedding film.
             </h2>
             <p className="mt-4 text-lg text-b-cream/80">
-              See how a Grade 12 IEB learner transformed their Core Math results through targeted past paper drilling on Bouul.
+              See how a 120-guest wedding was documented and catered flawlessly using Bouul&apos;s multi-vendor event dispatch.
             </p>
           </div>
 
@@ -753,32 +753,32 @@ export default function TutoringPage() {
           <div className="grid gap-6 md:grid-cols-4 relative">
             {[
               {
-                step: "01. Diagnostic",
-                time: "Week 1",
-                title: "54% Mark Baseline",
-                desc: "Parent uploads Grade 12 Term 1 test. Zola identifies calculus & trig paper weaknesses.",
-                badge: "Diagnostic Complete",
+                step: "01. Consultation",
+                time: "2 Months Prior",
+                title: "Mood Board & Vendor Draft",
+                desc: "Bride uploads venue layout & shot list. Escrow locks agreed multi-vendor milestone quote.",
+                badge: "Package Confirmed",
               },
               {
-                step: "02. Matching",
-                time: "Week 2",
-                title: "Distinction Tutor Matched",
-                desc: "Sindi Academic Tutoring begins weekly 1.5-hour 1-on-1 past paper memo drilling.",
-                badge: "Weekly Escrow",
+                step: "02. On-Site Prep",
+                time: "Wedding Morning",
+                title: "Venue Setup & Soundcheck",
+                desc: "Photographers & DJ arrive 2 hours early. Drone airspace clearance verified.",
+                badge: "Punctual Arrival",
               },
               {
-                step: "03. Drilling",
-                time: "Weeks 3-5",
-                title: "Past Paper Intensive",
-                desc: "Drilled 8 past IEB papers, mastering 3D trigonometry and calculus optimization.",
-                badge: "Memo Mastered",
+                step: "03. Event Execution",
+                time: "Full Wedding Day",
+                title: "10-Hour Coverage & Catering",
+                desc: "120-guest buffet served smoothly; 4K cameras capture ceremony & evening dancefloor.",
+                badge: "Event Executed",
               },
               {
-                step: "04. Result",
-                time: "Week 6",
-                title: "81% Final Distinction",
-                desc: "Prelim result jumps to 81%. Student secures engineering university placement.",
-                badge: "Distinction Achieved",
+                step: "04. Gallery Delivery",
+                time: "7 Days Later",
+                title: "Digital Gallery & 4K Edit",
+                desc: "Couple receives 350+ edited photos & 4K film. Taps 'Satisfied' to release final escrow.",
+                badge: "Escrow Released",
               },
             ].map((t, idx) => (
               <div key={t.step} className="rounded-2xl border border-b-forest-line bg-b-forest-raised p-6 flex flex-col justify-between">
@@ -793,7 +793,7 @@ export default function TutoringPage() {
                 </div>
                 
                 <div className="mt-6 pt-4 border-t border-b-forest-line/60 flex items-center justify-between text-[11px] text-b-cream/50">
-                  <span>Typical Grade 12 Boost</span>
+                  <span>Typical Wedding Execution</span>
                   <span>Escrow Protected Timeline</span>
                 </div>
               </div>
@@ -802,7 +802,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 7. TUTORS IN ACTION — VERIFIED FIELD IMAGERY ── */}
+      {/* ── 7. EVENT PROS IN ACTION — VERIFIED FIELD IMAGERY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto border-b border-b-line">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
@@ -810,50 +810,50 @@ export default function TutoringPage() {
             <span>Verified Standards</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Professional academic standards, showcased in-app.
+            Professional event standards, showcased in-app.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Every tutor on Bouul is vetted for subject mastery and communication skills. Here is a glimpse of the professional standards and capabilities available when you book through the app.
+            Every event pro on Bouul is vetted for quality and punctuality. Here is a glimpse of the professional standards and capabilities available when you book through the app.
           </p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              file: "tutoring",
-              tag: "1-on-1 Tutoring",
-              title: "Focused In-Person Home Sessions",
-              desc: "Patient, structured 1-on-1 instruction in the comfort of your home, focusing on past papers.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "STEM Subjects",
-              title: "Mathematics & Physical Sciences",
-              desc: "Step-by-step problem solving in algebra, calculus, organic chemistry, and physics dynamics.",
+              file: "photography_service",
+              tag: "Event Photography",
+              title: "High-Resolution Wedding & Event Photography",
+              desc: "Professional lighting, candid guest shots, and color-graded high-resolution digital photo galleries.",
             },
             {
               file: "interior_design",
-              tag: "Cambridge Pathway",
-              title: "IGCSE & A-Level Subject Coaching",
-              desc: "Deconstruct Cambridge marking keys, essay outlines, and higher-order analytical questions.",
+              tag: "Videography",
+              title: "4K Video & Drone Aerial Cinematography",
+              desc: "Cinematic 4K camera work, drone aerial venue shots, and crystal-clear wireless audio recording.",
             },
             {
-              file: "photography",
-              tag: "Languages",
-              title: "English & Afrikaans Literature",
-              desc: "Poetry analysis, essay structure, setwork book revision, and language paper prep.",
+              file: "house_cleaning",
+              tag: "Catering",
+              title: "Gourmet Buffet & Plated Dining Spreads",
+              desc: "Delicious hot buffet catering, spit braais, canapé cocktail platters, and custom celebration cakes.",
             },
             {
-              file: "smart_home",
-              tag: "Accounting & Commerce",
-              title: "Financial Accounting & Economics",
-              desc: "Ledger reconciliations, financial statements, cash flow analysis, and micro-economics.",
+              file: "personal_training",
+              tag: "DJs & Sound",
+              title: "2000W PA Sound & Intelligent LED Lighting",
+              desc: "Crisp audio coverage for 200+ guests, wireless speech microphones, and dancefloor light rigs.",
             },
             {
-              file: "appliances",
-              tag: "Primary Foundation",
-              title: "Foundational Numeracy & Literacy",
-              desc: "Encouraging early learning habits for Grade 1-7 learners, making homework fun and stress-free.",
+              file: "skincare",
+              tag: "Event Decor",
+              title: "Custom Floral & Table Decor Setup",
+              desc: "Elegant floral arrangements, tablecloth linens, mood lighting, and backdrop stage design.",
+            },
+            {
+              file: "hardware",
+              tag: "Live Music",
+              title: "Acoustic Soloists, Saxophonists & Bands",
+              desc: "Live acoustic ceremony music, cocktail hour saxophone, and high-energy cover bands.",
             },
           ].map((item, idx) => (
             <motion.div
@@ -898,7 +898,7 @@ export default function TutoringPage() {
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
                 <span className="font-bold text-emerald-600 flex items-center gap-1">
                   <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Distinction Guarantee</span>
+                  <span>100% Quality Guarantee</span>
                 </span>
               </div>
             </motion.div>
@@ -906,50 +906,50 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 8. COMPREHENSIVE TUTORING SERVICES DIRECTORY ── */}
+      {/* ── 8. COMPREHENSIVE EVENT SERVICES DIRECTORY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Every academic subject, covered and verified.
+            Every event service, covered and verified.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            From Grade 12 past paper prep to primary school homework support across CAPS, IEB, and Cambridge.
+            From photography and 4K drone videography to catering, DJs, live bands, and event coordinators.
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              category: "📐 STEM Subjects (Grades 8 - 12)",
+              category: "📸 Media & Photography",
               items: [
-                "Core Mathematics & Mathematical Literacy",
-                "Physical Sciences (Physics & Chemistry)",
-                "Life Sciences (Biology & Genetics)",
-                "Information Technology (Java & Delphi)",
-                "Engineering Graphics & Design (EGD)",
-                "Computer Applications Technology (CAT)",
+                "Wedding & engagement photography",
+                "Corporate event & conference coverage",
+                "Portrait, family & birthday photoshoots",
+                "4K Cinematic videography & highlight films",
+                "Licensed drone aerial video & photography",
+                "Digital photo booth & 360 spinner rental",
               ],
             },
             {
-              category: "📚 Commerce & Humanities",
+              category: "🍲 Catering & Party Decor",
               items: [
-                "Financial Accounting & Bookkeeping",
-                "Business Studies & Economics",
-                "English Home & First Additional Language",
-                "Afrikaans & isiZulu Language Prep",
-                "Geography & Mapwork Skills",
-                "History & Analytical Essay Writing",
+                "Gourmet hot buffet & spit braai catering",
+                "Cocktail canapé platters & finger foods",
+                "Plated fine dining wedding catering",
+                "Custom wedding & birthday cake baking",
+                "Theme floral decor & table styling",
+                "Mobile cocktail bar & bartender service",
               ],
             },
             {
-              category: "🌍 Cambridge & Primary Foundations",
+              category: "🎵 DJs, Sound & Entertainment",
               items: [
-                "Cambridge IGCSE, AS & A-Level Mathematics",
-                "Cambridge Physics, Chemistry & Economics",
-                "Primary School Grade 1-7 Reading Fluency",
-                "Primary Math & Foundational Numeracy",
-                "After-School Homework & Study Skills",
-                "NBT Exam Preparation Workshops",
+                "Professional wedding & party DJs",
+                "2000W PA sound speaker rig rental",
+                "Wireless microphone systems for speeches",
+                "Intelligent LED dancefloor party lighting",
+                "Live acoustic singers & saxophonists",
+                "Charismatic event MCs & hosts",
               ],
             },
           ].map((col) => (
@@ -970,7 +970,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 9. EXTENSIVE TUTORING FAQ ── */}
+      {/* ── 9. EXTENSIVE EVENTS FAQ ── */}
       <section className="bg-b-paper-deep py-24 px-5 border-t border-b-line">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -979,31 +979,31 @@ export default function TutoringPage() {
               <span>Clear Answers</span>
             </div>
             <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink">
-              Frequently asked questions about booking tutors.
+              Frequently asked questions about booking event pros.
             </h2>
           </div>
 
           <div className="space-y-4">
             {[
               {
-                q: "How are tutors background checked on Bouul?",
-                a: "Every tutor undergoes identity verification, university transcript validation, matric distinction verification, and a criminal background check before being activated.",
+                q: "How does Bouul protect my event deposit against no-show vendors?",
+                a: "Your deposit is held safely in digital escrow when you book. It is not transferred to your vendor until they perform at your event and deliver your agreed service.",
               },
               {
-                q: "Can we choose between in-person home visits and online sessions?",
-                a: "Yes! You can filter for tutors available for in-person home visits in your suburb, or choose online 1-on-1 interactive video sessions depending on your preference.",
+                q: "How long does photo or video delivery take after the event?",
+                a: "Standard digital photo galleries are delivered within 3 to 7 days. Full 4K video edits and cinematic highlight reels are delivered within 10 to 14 days.",
               },
               {
-                q: "How does the tutor know what curriculum my child follows?",
-                a: "Zola AI captures your child's curriculum (CAPS, IEB, or Cambridge), grade level, and textbook syllabus in the booking brief so your tutor prepares aligned past papers beforehand.",
+                q: "Can caterers accommodate dietary restrictions for my guests?",
+                a: "Yes! Caterers on Bouul offer dedicated Halal, Kosher-friendly, Vegetarian, Vegan, and Gluten-Free menus. You can detail guest requirements in your Zola event brief.",
               },
               {
-                q: "Do I have to sign a long-term monthly contract?",
-                a: "No! Bouul operates on a transparent pay-per-lesson basis. You pay per lesson into digital escrow, giving you complete flexibility to pause or increase sessions before exams.",
+                q: "Do DJs supply their own sound speakers and lighting gear?",
+                a: "Yes! All event DJs booked on Bouul bring complete PA sound systems, wireless microphones, mixing decks, and LED dancefloor lighting rigs suitable for your venue size.",
               },
               {
-                q: "When is payment released to the tutor?",
-                a: "Your payment is held safely in Bouul escrow per lesson and is only released after the lesson is completed and you receive your tutor's progress summary report.",
+                q: "How are event vendor portfolios verified?",
+                a: "Our verification team validates real client galleries and prior booking reviews to ensure every portfolio image reflects actual past work.",
               },
             ].map((faq, i) => (
               <motion.div
@@ -1036,16 +1036,16 @@ export default function TutoringPage() {
             className="space-y-6"
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 px-4 py-1.5 text-xs font-bold text-emerald-600 uppercase tracking-widest">
-              <GraduationCap className="h-3.5 w-3.5" />
-              <span>Verified Academic Tutoring</span>
+              <Camera className="h-3.5 w-3.5" />
+              <span>Verified Event Services Dispatch</span>
             </div>
 
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-              Ready to boost your child&apos;s marks and confidence?
+              Ready to make your celebration unforgettable?
             </h2>
 
             <p className="max-w-xl mx-auto text-lg text-b-ink-soft leading-relaxed">
-              Never stress over unverified tutors or long-term contract lock-ins again. Join parents who use Bouul to book distinction-verified tutors in seconds.
+              Never stress over unverified vendors or lost deposits again. Join thousands who use Bouul to book vetted, escrow-protected event professionals in seconds.
             </p>
 
             <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
@@ -1053,14 +1053,14 @@ export default function TutoringPage() {
                 href="/download"
                 className="rounded-full bg-b-green px-9 py-4 text-base font-extrabold text-b-forest shadow-xl hover:scale-105 hover:bg-emerald-400 transition-all flex items-center gap-2"
               >
-                <GraduationCap className="h-5 w-5" />
+                <Camera className="h-5 w-5" />
                 <span>Download Bouul Now</span>
               </Link>
             </div>
 
             <div className="pt-6 flex items-center justify-center gap-8 text-xs font-semibold text-b-ink-faint border-t border-b-line/60 max-w-md mx-auto">
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="h-4 w-4 text-emerald-600" /> Transcript Verified
+                <ShieldCheck className="h-4 w-4 text-emerald-600" /> Portfolio Verified
               </span>
               <span className="flex items-center gap-1.5">
                 <Lock className="h-4 w-4 text-emerald-600" /> Escrow Protected

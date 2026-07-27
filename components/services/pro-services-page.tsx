@@ -37,119 +37,119 @@ import {
   Building2,
   Hammer,
   Brain,
-  BookOpen,
-  GraduationCap,
-  Target,
+  Calculator,
+  Scale,
+  Briefcase,
   Globe,
-  Award as AwardIcon,
+  PieChart,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
 const SITUATIONS = [
   {
-    id: "matric_prep",
-    tabTitle: "Matric Exam & Past Paper Prep",
-    icon: GraduationCap,
-    badge: "Matric Distinction Specialists",
-    title: "Boost Grade 12 Math, Physics & Accounting marks before final exams.",
+    id: "accounting_tax",
+    tabTitle: "Accounting & Tax Services",
+    icon: Calculator,
+    badge: "SAIPA & SAICA Registered",
+    title: "SARS tax returns, annual financial statements & monthly bookkeeping.",
     description:
-      "Don't let difficult finals limit university admission options. Book verified subject specialist tutors on Bouul who drill past papers, clarify complex syllabus concepts, and share proven exam techniques for CAPS and IEB matriculation exams.",
-    timeline: "Weekly 1-on-1 Sessions",
-    costEstimate: "R320 – R520 / hr",
+      "Keep your business compliant without the stress. Book SAIPA/SAICA registered accountants on Bouul for SARS tax return submissions, VAT filings, monthly payroll management, and audited financial statements.",
+    timeline: "Monthly / Annual",
+    costEstimate: "R750 – R3,500 / mo",
     keyBenefits: [
-      "Targeted CAPS & IEB past paper memorandum drilling",
-      "Specialists in Core Math, Physical Sciences, Accounting & Life Sciences",
-      "Escrow protection—funds released only after each completed lesson",
+      "SAIPA & SAICA registered professional accountants & tax practitioners",
+      "SARS eFiling tax submissions, VAT, PAYE & provisional tax returns",
+      "Digital escrow protection—funds released upon SARS compliance approval",
     ],
-    ctaText: "Book Matric Tutor",
+    ctaText: "Book Accountant Pro",
   },
   {
-    id: "ieb_caps",
-    tabTitle: "High School CAPS & IEB Support",
-    icon: BookOpen,
-    badge: "Grades 8 - 11 Subject Boost",
-    title: "Build confidence in Mathematics, Sciences & Languages early.",
+    id: "legal_consulting",
+    tabTitle: "Legal & Contract Services",
+    icon: Scale,
+    badge: "Qualified Attorneys",
+    title: "Contract drafting, business registration & legal advice.",
     description:
-      "Prevent knowledge gaps before Grade 12. Connect your learner with background-checked university graduates and qualified teachers who simplify challenging topics, review weekly homework, and prepare for term tests.",
-    timeline: "Flexible Weekly Schedule",
-    costEstimate: "R250 – R420 / hr",
+      "Protect your personal and business interests. Book qualified attorneys and legal advisors on Bouul to draft commercial contracts, employment agreements, lease agreements, and company registrations.",
+    timeline: "Consultation / Project",
+    costEstimate: "R950 – R4,500",
     keyBenefits: [
-      "In-person home visits or interactive online 1-on-1 sessions",
-      "Customized lesson plans aligned to school term syllabus",
-      "Detailed lesson summary reports sent to parents after every session",
+      "Drafting & review of NDA, employment, lease & commercial contracts",
+      "CIPC company registration, director amendments & BBBEE certificates",
+      "1-on-1 confidential legal consultation in-app",
     ],
-    ctaText: "Book Subject Specialist",
+    ctaText: "Book Legal Advisor",
   },
   {
-    id: "cambridge",
-    tabTitle: "Cambridge IGCSE & A-Levels",
+    id: "web_design_digital",
+    tabTitle: "Web Design & Digital Marketing",
     icon: Globe,
-    badge: "International Curriculum",
-    title: "Rigorous IGCSE, AS & A-Level subject mastery for university entry.",
+    badge: "High-Converting Websites",
+    title: "Custom website development, SEO & social media marketing.",
     description:
-      "Cambridge curricula require deep conceptual synthesis rather than simple memorization. Book experienced Cambridge tutors on Bouul who guide students through past papers, essay structure, and international exam standards.",
-    timeline: "Subject-Specific Mastery",
-    costEstimate: "R380 – R650 / hr",
+      "Grow your online presence with verified web developers and digital marketers. From high-converting e-commerce stores and corporate websites to Google SEO and social media ad campaigns, book creative pros on Bouul.",
+    timeline: "1 - 3 Weeks",
+    costEstimate: "R2,500 – R8,500",
     keyBenefits: [
-      "Cambridge IGCSE, AS-Level & A-Level accredited tutors",
-      "Specialized support for Math, Physics, Chemistry & Economics",
-      "Direct guidance for UK, US & international university applications",
+      "Mobile-responsive website design, Next.js / WordPress development",
+      "Google Search Console SEO optimization & Google Ads management",
+      "Milestone digital escrow payment release as website pages launch",
     ],
-    ctaText: "Book Cambridge Tutor",
+    ctaText: "Build Website",
   },
   {
-    id: "primary",
-    tabTitle: "Primary School & Homework Help",
-    icon: Target,
-    badge: "Foundational Learning",
-    title: "Build reading fluency, foundational math & positive study habits.",
+    id: "financial_advisory",
+    tabTitle: "Financial & Real Estate Advisory",
+    icon: PieChart,
+    badge: "FSCA Registered Advisors",
+    title: "Investment planning, estate planning & real estate guidance.",
     description:
-      "Transform homework time from a daily struggle into an encouraging routine. Patient primary school tutors on Bouul assist Grade 1 to 7 learners with reading, foundational numeracy, and project research.",
-    timeline: "After-School Sessions",
-    costEstimate: "R200 – R350 / hr",
+      "Plan for long-term wealth and property growth. Book FSCA-registered financial planners and real estate consultants for retirement planning, property valuation, risk insurance, and business valuation.",
+    timeline: "Consultation",
+    costEstimate: "R850 – R2,500",
     keyBenefits: [
-      "Patient, encouraging tutors trained in foundational learning",
-      "Assistance with daily homework, spelling & reading comprehension",
-      "Builds self-confidence and independent study habits",
+      "FSCA registered financial planners & certified wealth advisors",
+      "Residential property market valuations & buyer assistance",
+      "Strict POPIA data privacy & confidential advisory",
     ],
-    ctaText: "Book Primary School Tutor",
+    ctaText: "Book Financial Advisor",
   },
 ];
 
 // Price Estimator Guide Data
 const PRICE_ESTIMATES = [
   {
-    task: "High School CAPS / IEB Subject Session",
-    range: "R250 - R420 / hr",
-    time: "1 - 2 hours per session",
-    desc: "1-on-1 subject tutoring for Core Math, Physics, Accounting, or Languages.",
-    includes: ["Syllabus explanation", "Homework review", "Parent progress report"],
+    task: "Monthly Small Business Bookkeeping & Tax",
+    range: "R850 - R2,200 / mo",
+    time: "Monthly recurring",
+    desc: "Monthly Xero/QuickBooks reconciliation, VAT return filing, payroll EMP201 submission, and SARS compliance.",
+    includes: ["Monthly bookkeeping", "VAT & PAYE filing", "SARS eFiling"],
   },
   {
-    task: "Matric Past Paper Intensive Revision",
-    range: "R320 - R520 / hr",
-    time: "1.5 - 2 hours per session",
-    desc: "Targeted Grade 12 past paper drilling, exam memorandum strategies, and time management.",
-    includes: ["Past paper practice", "Memo breakdown", "Exam strategy drilling"],
+    task: "Standard Commercial Contract Drafting",
+    range: "R1,200 - R2,800",
+    time: "2 - 4 days",
+    desc: "Custom legal contract drafting (e.g. Service Agreement, Employment Contract, or SLA) by qualified attorney.",
+    includes: ["Legal drafting", "1 round of edits", "Legal advice call"],
   },
   {
-    task: "Cambridge IGCSE / A-Level Specialist",
-    range: "R380 - R650 / hr",
-    time: "1 - 2 hours per session",
-    desc: "International curriculum tutoring focusing on higher-order analytical questions and paper techniques.",
-    includes: ["Cambridge past papers", "Essay structure", "Conceptual depth"],
+    task: "Custom 5-Page Business Website Design",
+    range: "R3,500 - R7,500",
+    time: "1 - 2 weeks",
+    desc: "Responsive mobile-friendly website design, domain connection, contact forms, Google Maps pin, and basic SEO.",
+    includes: ["5 page web design", "Mobile optimization", "Basic SEO setup"],
   },
   {
-    task: "Primary School Homework & Reading Support",
-    range: "R200 - R350 / hr",
-    time: "1 - 1.5 hours per session",
-    desc: "After-school assistance with daily homework assignments, reading comprehension, and math fundamentals.",
-    includes: ["Homework completion", "Foundational math", "Reading practice"],
+    task: "Annual Financial Statement Compilation",
+    range: "R2,500 - R5,500",
+    time: "3 - 5 days",
+    desc: "Compilation and signing of Annual Financial Statements (AFS) by a registered Accounting Officer for CIPC/SARS.",
+    includes: ["AFS compilation", "Accounting officer sign-off", "SARS submission"],
   },
 ];
 
-export default function TutoringPage() {
-  const [activeTab, setActiveTab] = useState("matric_prep");
+export default function ProServicesPage() {
+  const [activeTab, setActiveTab] = useState("accounting_tax");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
   const currentSituation = SITUATIONS.find((s) => s.id === activeTab) || SITUATIONS[0];
@@ -173,7 +173,7 @@ export default function TutoringPage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-b-green opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-b-green-deep"></span>
             </span>
-            <span>Verified Subject Specialist Tutors Available Now • Avg. Match: 6 Mins</span>
+            <span>Verified Accountants, Legal Advisors &amp; Web Designers Active Now • Avg. Confirmation: 5 Mins</span>
           </motion.div>
 
           <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
@@ -183,13 +183,13 @@ export default function TutoringPage() {
               transition={{ duration: 0.7 }}
             >
               <h1 className="font-display text-5xl font-extrabold leading-[1.04] tracking-tight text-b-ink sm:text-6xl md:text-7xl">
-                Top academic results. <br />
+                Professional services. <br />
                 <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-amber-600 bg-clip-text text-transparent">
-                  CAPS, IEB &amp; Cambridge.
+                  Escrow protected compliance.
                 </span>
               </h1>
               <p className="mt-6 max-w-lg text-lg leading-relaxed text-b-ink-soft">
-                Unlock your learner&apos;s full potential. Book background-checked subject specialist tutors for in-person home visits or 1-on-1 online sessions with digital escrow safety.
+                From accountants and tax practitioners to legal contract attorneys, web designers, and financial advisors. Book registered professionals with clear pricing and digital escrow safety.
               </p>
 
               {/* Action Buttons */}
@@ -198,8 +198,8 @@ export default function TutoringPage() {
                   href="/download"
                   className="rounded-full bg-b-green px-8 py-4 font-bold text-b-forest shadow-[0_10px_30px_rgba(16,185,129,0.35)] transition-all hover:scale-[1.03] hover:bg-emerald-400 flex items-center gap-2"
                 >
-                  <GraduationCap className="h-5 w-5" />
-                  <span>Find a Certified Tutor</span>
+                  <Briefcase className="h-5 w-5" />
+                  <span>Book Professional Pro</span>
                 </Link>
 
                 <a
@@ -215,7 +215,7 @@ export default function TutoringPage() {
               <div className="mt-10 flex flex-wrap items-center gap-6 text-xs font-medium text-b-ink-faint border-t border-b-line pt-6">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>ID &amp; Matric Distinction Verified</span>
+                  <span>SAIPA, SAICA &amp; FSCA Accredited</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Lock className="h-4 w-4 text-emerald-600" />
@@ -223,7 +223,7 @@ export default function TutoringPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Star className="h-4 w-4 fill-amber-500 text-amber-500" />
-                  <span>4.98 Rating (3,500+ Lessons)</span>
+                  <span>4.99 Rating (3,200+ Businesses)</span>
                 </div>
               </div>
             </motion.div>
@@ -241,26 +241,26 @@ export default function TutoringPage() {
               <div className="flex items-center justify-between pb-4 border-b border-b-line mb-5">
                 <div className="flex items-center gap-3">
                   <div className="h-3 w-3 rounded-full bg-emerald-500 animate-pulse" />
-                  <span className="font-display font-bold text-sm">Subject Tutor Matched</span>
+                  <span className="font-display font-bold text-sm">Accountant &amp; Tax Practitioner Matched</span>
                 </div>
                 <span className="text-xs font-semibold text-b-green-deep bg-b-green/10 px-2.5 py-1 rounded-full">
-                  B.Sc Eng (Wits) • 6 Distinctions
+                  SAIPA Registered Practitioner
                 </span>
               </div>
 
-              {/* Tutor card mock */}
+              {/* Pro card mock */}
               <div className="rounded-2xl border border-b-green/30 bg-gradient-to-br from-b-green/10 via-transparent to-transparent p-4 mb-4">
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-3">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-600 font-bold text-white text-lg shadow-md">
-                      <GraduationCap className="h-6 w-6" />
+                      <Calculator className="h-6 w-6" />
                     </div>
                     <div>
                       <div className="flex items-center gap-1.5">
-                        <h4 className="font-display font-bold text-base text-b-ink">Sindi Academic Tutoring</h4>
+                        <h4 className="font-display font-bold text-base text-b-ink">Apex Accounting &amp; Tax</h4>
                         <CheckCircle2 className="h-4 w-4 text-emerald-600 fill-emerald-100" />
                       </div>
-                      <p className="text-xs text-b-ink-soft">Core Math &amp; Physics Specialist • IEB/CAPS</p>
+                      <p className="text-xs text-b-ink-soft">SARS eFiling &amp; Financial Statements • SAIPA</p>
                     </div>
                   </div>
                   <div className="text-right">
@@ -268,20 +268,20 @@ export default function TutoringPage() {
                       <Star className="h-3.5 w-3.5 fill-amber-500 text-amber-500" />
                       <span>4.99</span>
                     </div>
-                    <span className="text-[10px] text-b-ink-faint">180+ Student Distinctions</span>
+                    <span className="text-[10px] text-b-ink-faint">410+ Client Filings</span>
                   </div>
                 </div>
 
                 <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
-                    <span className="text-[10px] text-b-ink-faint block">Next Lesson</span>
+                    <span className="text-[10px] text-b-ink-faint block">Turnaround</span>
                     <span className="font-semibold text-emerald-600 flex items-center gap-1">
-                      <Clock className="h-3 w-3" /> Thursday 16:00 PM
+                      <Clock className="h-3 w-3" /> 3 Business Days
                     </span>
                   </div>
                   <div className="rounded-xl bg-b-paper p-2.5 border border-b-line">
                     <span className="text-[10px] text-b-ink-faint block">Escrow Protected</span>
-                    <span className="font-semibold text-b-ink">R350.00 Held</span>
+                    <span className="font-semibold text-b-ink">R1,500.00 Held</span>
                   </div>
                 </div>
               </div>
@@ -292,19 +292,19 @@ export default function TutoringPage() {
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     1
                   </div>
-                  <span className="text-b-ink font-medium">Select grade, curriculum (CAPS/IEB) &amp; weak topics</span>
+                  <span className="text-b-ink font-medium">Select professional service &amp; upload scope requirements</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-white font-bold text-[10px]">
                     2
                   </div>
-                  <span className="text-b-ink font-medium">Digital escrow holds payment safely per lesson</span>
+                  <span className="text-b-ink font-medium">Digital escrow holds payment safely until document approval</span>
                 </div>
                 <div className="flex items-center gap-3 text-xs">
                   <div className="flex h-6 w-6 items-center justify-center rounded-full bg-b-line text-b-ink-faint font-bold text-[10px]">
                     3
                   </div>
-                  <span className="text-b-ink-faint">Receive lesson summary report before funds release</span>
+                  <span className="text-b-ink-faint">Review completed tax filing or legal contract &amp; release funds</span>
                 </div>
               </div>
             </motion.div>
@@ -316,14 +316,14 @@ export default function TutoringPage() {
       <section id="use-cases" className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <BookOpen className="h-3.5 w-3.5" />
-            <span>Tailored Academic Solutions</span>
+            <Briefcase className="h-3.5 w-3.5" />
+            <span>Tailored Professional Solutions</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            How Bouul solves your exact learning goals.
+            How Bouul solves your exact business &amp; legal needs.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Select your curriculum or learning stage below to see how our verified tutors boost marks and build confidence.
+            Select your professional domain below to see how our accredited consultants deliver compliant results.
           </p>
         </div>
 
@@ -397,7 +397,7 @@ export default function TutoringPage() {
               <div className="lg:col-span-5">
                 <div className="rounded-2xl border border-b-line bg-b-paper p-6 space-y-6 shadow-sm">
                   <div className="border-b border-b-line pb-4">
-                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Hourly Rate</span>
+                    <span className="text-xs font-semibold text-b-ink-faint uppercase tracking-wider">Estimated Service Rate</span>
                     <div className="mt-2 flex items-baseline justify-between">
                       <span className="font-display text-3xl font-extrabold text-b-ink">{currentSituation.costEstimate}</span>
                       <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md">
@@ -408,22 +408,22 @@ export default function TutoringPage() {
 
                   <div className="space-y-3 text-xs text-b-ink-soft">
                     <div className="flex items-center justify-between">
-                      <span>Tutor Vetting</span>
-                      <span className="font-semibold text-b-ink">Degree &amp; Matric Verification</span>
+                      <span>Professional Vetting</span>
+                      <span className="font-semibold text-b-ink">SAIPA, SAICA &amp; Legal Vetted</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span>Payment Protection</span>
                       <span className="font-semibold text-emerald-600">100% Escrow Shield</span>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span>Format</span>
-                      <span className="font-semibold text-b-ink">In-Person Home or Online 1-on-1</span>
+                      <span>POPIA Privacy</span>
+                      <span className="font-semibold text-b-ink">Strict Data Confidentiality</span>
                     </div>
                   </div>
 
                   <div className="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-950 flex items-start gap-2.5">
                     <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0 mt-0.5" />
-                    <span>Every tutor on Bouul undergoes identity checks, academic transcript validation, and police clearance checks for child safety.</span>
+                    <span>Every accountant, attorney, and business consultant undergoes professional body registration validation and background checks.</span>
                   </div>
                 </div>
               </div>
@@ -440,24 +440,24 @@ export default function TutoringPage() {
             <div className="lg:col-span-5 space-y-6">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-amber-600 bg-amber-500/10 px-3 py-1 rounded-full">
                 <DollarSign className="h-3.5 w-3.5" />
-                <span>Transparent Hourly Rates</span>
+                <span>Transparent Professional Fees</span>
               </div>
 
               <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink leading-tight">
-                No long contracts. Clear hourly tutoring rates.
+                No unpredictable billable hours. Fixed quotes.
               </h2>
 
               <p className="text-base leading-relaxed text-b-ink-soft">
-                Know exactly what your child&apos;s tutoring sessions cost before starting. Bouul standardizes hourly rates based on subject complexity and tutor qualifications.
+                Traditional firms charge steep hourly retainers. Bouul standardizes transparent package pricing for tax filings, contracts, and web development.
               </p>
 
               <div className="p-5 rounded-2xl bg-b-paper border border-b-line space-y-3">
                 <div className="flex items-center gap-2 font-display font-bold text-sm text-b-ink">
                   <ShieldCheck className="h-4 w-4 text-emerald-600" />
-                  <span>The Bouul Academic Guarantee</span>
+                  <span>The Bouul Professional Guarantee</span>
                 </div>
                 <p className="text-xs text-b-ink-soft leading-relaxed">
-                  Your tutor submits a brief lesson summary report in-app after every session. Payment for each lesson is released from escrow only after parent sign-off.
+                  Your consultant approves the scope of work in-app. Payment is locked safely in digital escrow until your tax return is filed or your contract is signed.
                 </p>
               </div>
             </div>
@@ -466,7 +466,7 @@ export default function TutoringPage() {
             <div className="lg:col-span-7">
               <div className="rounded-3xl border border-b-line bg-b-paper p-6 md:p-8 shadow-xl space-y-6">
                 <div className="flex items-center justify-between border-b border-b-line pb-4">
-                  <span className="font-display font-bold text-lg text-b-ink">Select Academic Level for Guide Pricing</span>
+                  <span className="font-display font-bold text-lg text-b-ink">Select Service for Guide Pricing</span>
                   <span className="text-xs font-semibold text-b-ink-faint">Standard Platform Rate Structure</span>
                 </div>
 
@@ -493,7 +493,7 @@ export default function TutoringPage() {
                   <div className="flex items-center justify-between">
                     <span className="font-display font-bold text-base text-b-ink">{currentEstimate.task}</span>
                     <span className="text-xs font-bold text-emerald-600 bg-emerald-500/10 px-2.5 py-1 rounded-md">
-                      Lesson Time: {currentEstimate.time}
+                      Timeline: {currentEstimate.time}
                     </span>
                   </div>
 
@@ -514,13 +514,13 @@ export default function TutoringPage() {
 
                 <div className="pt-2 flex items-center justify-between">
                   <div className="text-xs text-b-ink-faint">
-                    <span>Rates confirmed in-app before lesson starts.</span>
+                    <span>Fee confirmed in-app before engagement starts.</span>
                   </div>
                   <Link
                     href="/download"
                     className="inline-flex items-center gap-2 rounded-full bg-b-green px-6 py-2.5 text-xs font-bold text-b-forest hover:bg-emerald-400 transition-all shadow-md"
                   >
-                    <span>Match Tutor In App</span>
+                    <span>Get Professional Quote</span>
                     <ArrowRight className="h-3.5 w-3.5" />
                   </Link>
                 </div>
@@ -537,7 +537,7 @@ export default function TutoringPage() {
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="grid gap-12 lg:grid-cols-12 items-center">
-            {/* Left Column: Explaining Zola AI in the context of tutoring */}
+            {/* Left Column: Explaining Zola AI in the context of pro services */}
             <div className="lg:col-span-6 space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-b-sun/15 border border-b-sun/30 px-3.5 py-1 text-xs font-bold uppercase tracking-widest text-b-sun">
                 <Sparkles className="h-3.5 w-3.5" />
@@ -545,11 +545,11 @@ export default function TutoringPage() {
               </div>
               
               <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                Meet Zola. Your AI academic assistant who analyzes past papers.
+                Meet Zola. Your AI business assistant who audits compliance.
               </h2>
               
               <p className="text-lg text-b-cream/80 leading-relaxed">
-                Struggling with calculus or physical science concepts? Tell Zola your weak topics in plain language or voice notes—she analyzes syllabus requirements and matches you with a verified distinction tutor.
+                Snap a photo of your CIPC document, SARS assessment, or contract draft—Zola audits compliance gaps, recommends accredited professionals, and hands you an exact project draft.
               </p>
 
               <div className="space-y-4 pt-2">
@@ -558,9 +558,9 @@ export default function TutoringPage() {
                     <Camera className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Visual Past Paper &amp; Mark Breakdown Analysis</h3>
+                    <h3 className="font-display font-bold text-base text-white">Visual Document &amp; Tax Assessment Analysis</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Snap a photo of a difficult past paper question or term report card. Zola&apos;s vision AI analyzes the topic breakdown (e.g. Euclidean Geometry vs Trigonometry), creating a diagnostic briefing for your tutor.
+                      Snap a photo of your SARS ITA34 tax assessment or CIPC registration document. Zola&apos;s vision AI analyzes tax deadlines and compliance requirements, matching registered tax practitioners.
                     </p>
                   </div>
                 </div>
@@ -570,9 +570,9 @@ export default function TutoringPage() {
                     <Brain className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Student Learning Profile Memory</h3>
+                    <h3 className="font-display font-bold text-base text-white">Business Memory &amp; Company Specs Profile</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola remembers your learner&apos;s curriculum (IEB, CAPS, Cambridge), grade level, upcoming exam dates, and historical test scores. She briefings tutors before every lesson so time is never wasted reviewing known topics.
+                      Zola remembers your company registration numbers, VAT vendor status, and financial year-end dates. She briefs your accountant automatically before filing deadlines.
                     </p>
                   </div>
                 </div>
@@ -582,16 +582,16 @@ export default function TutoringPage() {
                     <Zap className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-base text-white">Instant Schedule &amp; Lesson Tracking</h3>
+                    <h3 className="font-display font-bold text-base text-white">Instant Consultation &amp; Escrow Release</h3>
                     <p className="mt-1 text-xs leading-relaxed text-b-cream/70">
-                      Zola schedules weekly sessions seamlessly around sports and extra-murals, delivering lesson progress reports directly to parents after every session.
+                      Schedule 1-on-1 virtual consultations or project milestones. Your payment remains locked in digital escrow until you approve final tax filings or contract drafts.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Right Column: Zola Tutoring Chat Mockup */}
+            {/* Right Column: Zola Pro Services Chat Mockup */}
             <div className="lg:col-span-6">
               <div className="rounded-3xl border border-b-forest-line bg-b-forest-raised p-6 md:p-8 shadow-[0_24px_60px_rgba(0,0,0,0.4)] relative">
                 <div className="flex items-center justify-between border-b border-b-forest-line pb-4">
@@ -603,10 +603,10 @@ export default function TutoringPage() {
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-bold text-white">Zola AI Assistant</span>
                         <span className="rounded-full bg-emerald-500/20 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-bold text-emerald-400">
-                          Syllabus &amp; Memory Active
+                          Compliance &amp; Tax Memory Active
                         </span>
                       </div>
-                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Academic Matching</p>
+                      <p className="text-[11px] text-b-cream/60">Zone of Local Assistance • Professional Services Dispatch</p>
                     </div>
                   </div>
                 </div>
@@ -614,14 +614,14 @@ export default function TutoringPage() {
                 <div className="mt-6 space-y-4">
                   {/* User message with image upload */}
                   <div className="ml-auto w-fit max-w-[88%] rounded-2xl rounded-br-sm bg-emerald-600 px-4 py-3 text-sm text-white shadow-sm">
-                    <p className="mb-2">My son is struggling with IEB Grade 12 Calculus. Here is his recent test paper:</p>
+                    <p className="mb-2">I need to file my annual small business tax return! Here is my SARS letter:</p>
                     <div className="rounded-xl bg-b-ink/40 p-2.5 border border-white/10 flex items-center gap-3">
                       <div className="h-10 w-12 rounded-lg bg-emerald-800/60 flex items-center justify-center shrink-0">
                         <Camera className="h-5 w-5 text-emerald-300" />
                       </div>
                       <div className="text-xs">
-                        <p className="font-semibold text-white">calculus_test_paper.jpg</p>
-                        <p className="text-[10px] text-emerald-200">Vision Analysis: IEB Math P1 Optimization Fault</p>
+                        <p className="font-semibold text-white">sars_tax_notice.jpg</p>
+                        <p className="text-[10px] text-emerald-200">Vision Analysis: Provisional Tax ITR14 Filing Required</p>
                       </div>
                     </div>
                   </div>
@@ -630,13 +630,13 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl rounded-bl-sm bg-b-forest border border-b-forest-line px-4 py-3.5 text-sm text-b-cream shadow-sm space-y-2.5">
                     <div className="flex items-center gap-1.5 text-xs font-semibold text-b-sun">
                       <Sparkles className="h-3.5 w-3.5" />
-                      <span>Zola Academic Diagnostic Check</span>
+                      <span>Zola Tax &amp; Compliance Diagnostic</span>
                     </div>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I analysed your test paper: the error is in 3D calculus optimization questions. From your **Student Memory profile**, final IEB exams start in 7 weeks.
+                      I analysed your SARS notice: Provisional ITR14 return due. Requires income statement compilation and SARS eFiling submission.
                     </p>
                     <p className="text-xs leading-relaxed text-b-cream/90">
-                      I matched **Sindi Academic Tutoring** (B.Sc Eng Wits, 180+ matric distinctions) available Thursday at 16:00 PM for in-person or online 1-on-1.
+                      I matched **Apex Accounting &amp; Tax** (SAIPA Registered Practitioner, 410+ client filings) with 3-day turnaround.
                     </p>
                   </div>
 
@@ -644,21 +644,21 @@ export default function TutoringPage() {
                   <div className="w-fit max-w-[92%] rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-950/40 to-b-forest p-4 space-y-3">
                     <div className="flex items-center justify-between">
                       <span className="flex items-center gap-1.5 font-price text-[10px] font-bold uppercase tracking-widest text-emerald-400">
-                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed Lesson Draft
+                        <CalendarCheck className="h-3.5 w-3.5" /> Confirmed Tax Filing Draft
                       </span>
                       <span className="text-[10px] font-bold text-b-cream/60 bg-white/5 px-2 py-0.5 rounded">
                         Escrow Protected
                       </span>
                     </div>
                     <div>
-                      <p className="text-sm font-bold text-white">Grade 12 IEB Calculus Past Paper Intensive</p>
-                      <p className="text-xs text-b-cream/70 mt-0.5">Sindi Academic Tutoring • Thu 16:00 PM • Fixed R350/hr</p>
+                      <p className="text-sm font-bold text-white">Annual Small Business Tax Return (ITR14) &amp; AFS</p>
+                      <p className="text-xs text-b-cream/70 mt-0.5">Apex Accounting • 3-Day Delivery • Fixed R1,500</p>
                     </div>
                     <div className="pt-2 flex items-center gap-3">
                       <span className="inline-flex items-center justify-center rounded-full bg-emerald-500 hover:bg-emerald-400 text-b-forest font-extrabold px-5 py-2 text-xs transition-transform hover:scale-105 cursor-pointer shadow-md">
                         Confirm &amp; Lock Escrow
                       </span>
-                      <span className="text-[11px] text-b-cream/50">Lesson progress guarantee</span>
+                      <span className="text-[11px] text-b-cream/50">100% SARS compliance guarantee</span>
                     </div>
                   </div>
                 </div>
@@ -668,18 +668,18 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Academic Trust ── */}
+      {/* ── 5. DEEP-DIVE FEATURE SPOTLIGHT: The Architecture of Professional Trust ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
-            <GraduationCap className="h-3.5 w-3.5" />
-            <span>Built For Academic Excellence</span>
+            <ShieldCheck className="h-3.5 w-3.5" />
+            <span>Built For Business &amp; Legal Compliance</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Why hiring a tutor on Bouul is fundamentally superior.
+            Why hiring professionals on Bouul is fundamentally superior.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Your child&apos;s future depends on quality instruction. We engineered a platform enforcing academic transcript verification, digital escrow, and parent progress reporting.
+            Business and legal compliance leave zero margin for error. We engineered a platform enforcing professional body accreditation, digital escrow, and strict POPIA privacy.
           </p>
         </div>
 
@@ -688,23 +688,23 @@ export default function TutoringPage() {
             {
               icon: ShieldCheck,
               color: "bg-blue-500/10 text-blue-600",
-              title: "1. Verified Degrees & Matric Distinctions",
-              subtitle: "Strict academic vetting",
-              body: "Every tutor on Bouul must upload verified university transcripts and matric distinction certificates. Unvetted candidates are strictly barred.",
+              title: "1. 100% Accredited Professionals",
+              subtitle: "SAIPA, SAICA, Legal & FSCA Vetted",
+              body: "Every accountant, attorney, and financial advisor on Bouul undergoes professional body registration validation and identity verification before listing.",
             },
             {
               icon: Lock,
               color: "bg-amber-500/10 text-amber-600",
               title: "2. The Digital Escrow Shield",
-              subtitle: "Pay per lesson without upfront contracts",
-              body: "Never pay huge upfront term fees to agencies. Your payment is held safely in escrow per lesson and is only released after parent sign-off.",
+              subtitle: "Pay per milestone delivery",
+              body: "Never pay upfront retainers to unverified consultants. Payment is locked safely in digital escrow and released as tax returns or web pages are delivered.",
             },
             {
-              icon: AwardIcon,
+              icon: FileText,
               color: "bg-emerald-500/10 text-emerald-600",
-              title: "3. Parent Progress Reports",
-              subtitle: "Full visibility on student marks",
-              body: "Receive a digital progress report after every session detailing covered topics, student strengths, weak areas, and assigned revision homework.",
+              title: "3. 100% POPIA Data Privacy",
+              subtitle: "Strict financial confidentiality",
+              body: "Your business financial statements, tax records, and legal contracts are protected under strict POPIA encryption and signed non-disclosure agreements.",
             },
           ].map((feat, i) => (
             <motion.div
@@ -725,7 +725,7 @@ export default function TutoringPage() {
               </div>
               
               <div className="mt-8 pt-4 border-t border-b-line/80 flex items-center gap-2 text-xs font-semibold text-emerald-600">
-                <span>Standard on all tutoring sessions</span>
+                <span>Standard on all professional bookings</span>
                 <Check className="h-4 w-4" />
               </div>
             </motion.div>
@@ -739,13 +739,13 @@ export default function TutoringPage() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-b-sun bg-b-sun/10 px-3 py-1 rounded-full mb-3">
               <Award className="h-3.5 w-3.5" />
-              <span>Proven 6-Week Mark Jump</span>
+              <span>Proven Business Tax &amp; Web Launch</span>
             </div>
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-              From 54% to 81% distinction in Grade 12 Math.
+              CIPC registration, SARS tax &amp; website launched in 10 days.
             </h2>
             <p className="mt-4 text-lg text-b-cream/80">
-              See how a Grade 12 IEB learner transformed their Core Math results through targeted past paper drilling on Bouul.
+              See how a new business founder registered their company, filed tax compliance, and launched a custom website using Bouul.
             </p>
           </div>
 
@@ -753,32 +753,32 @@ export default function TutoringPage() {
           <div className="grid gap-6 md:grid-cols-4 relative">
             {[
               {
-                step: "01. Diagnostic",
-                time: "Week 1",
-                title: "54% Mark Baseline",
-                desc: "Parent uploads Grade 12 Term 1 test. Zola identifies calculus & trig paper weaknesses.",
-                badge: "Diagnostic Complete",
+                step: "01. Registration",
+                time: "Day 1",
+                title: "CIPC & Legal Setup",
+                desc: "Attorney completes company registration & drafts standard SLA contract.",
+                badge: "CIPC Approved",
               },
               {
-                step: "02. Matching",
-                time: "Week 2",
-                title: "Distinction Tutor Matched",
-                desc: "Sindi Academic Tutoring begins weekly 1.5-hour 1-on-1 past paper memo drilling.",
-                badge: "Weekly Escrow",
+                step: "02. Tax Setup",
+                time: "Day 3",
+                title: "SARS Tax Practitioner",
+                desc: "SAIPA accountant sets up SARS eFiling profile & registers VAT number.",
+                badge: "SAIPA Verified",
               },
               {
-                step: "03. Drilling",
-                time: "Weeks 3-5",
-                title: "Past Paper Intensive",
-                desc: "Drilled 8 past IEB papers, mastering 3D trigonometry and calculus optimization.",
-                badge: "Memo Mastered",
+                step: "03. Web Design",
+                time: "Day 7",
+                title: "Custom Website Build",
+                desc: "Web developer completes 5-page responsive site with Google Maps & forms.",
+                badge: "Web Launch",
               },
               {
-                step: "04. Result",
-                time: "Week 6",
-                title: "81% Final Distinction",
-                desc: "Prelim result jumps to 81%. Student secures engineering university placement.",
-                badge: "Distinction Achieved",
+                step: "04. Escrow",
+                time: "Day 10",
+                title: "Full Business Active",
+                desc: "Founder reviews tax certificate & live website, releasing milestone escrow funds.",
+                badge: "Escrow Released",
               },
             ].map((t, idx) => (
               <div key={t.step} className="rounded-2xl border border-b-forest-line bg-b-forest-raised p-6 flex flex-col justify-between">
@@ -793,7 +793,7 @@ export default function TutoringPage() {
                 </div>
                 
                 <div className="mt-6 pt-4 border-t border-b-forest-line/60 flex items-center justify-between text-[11px] text-b-cream/50">
-                  <span>Typical Grade 12 Boost</span>
+                  <span>Typical Business Setup</span>
                   <span>Escrow Protected Timeline</span>
                 </div>
               </div>
@@ -802,7 +802,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 7. TUTORS IN ACTION — VERIFIED FIELD IMAGERY ── */}
+      {/* ── 7. PROFESSIONAL PROS IN ACTION — VERIFIED FIELD IMAGERY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto border-b border-b-line">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-3 py-1 rounded-full mb-3">
@@ -810,50 +810,50 @@ export default function TutoringPage() {
             <span>Verified Standards</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Professional academic standards, showcased in-app.
+            Professional business standards, showcased in-app.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            Every tutor on Bouul is vetted for subject mastery and communication skills. Here is a glimpse of the professional standards and capabilities available when you book through the app.
+            Every professional on Bouul is vetted for accreditation and compliance excellence. Here is a glimpse of the professional standards available when you book through the app.
           </p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              file: "tutoring",
-              tag: "1-on-1 Tutoring",
-              title: "Focused In-Person Home Sessions",
-              desc: "Patient, structured 1-on-1 instruction in the comfort of your home, focusing on past papers.",
+              file: "interior_design",
+              tag: "Accounting & Tax",
+              title: "SARS Tax Filings & Financial Statements",
+              desc: "SARS eFiling submissions, monthly bookkeeping, VAT returns, and audited financial statements.",
+            },
+            {
+              file: "remodeling",
+              tag: "Legal Services",
+              title: "Commercial Contract Drafting & CIPC",
+              desc: "Drafting of service agreements, employment contracts, non-disclosure agreements, and company registration.",
+            },
+            {
+              file: "photography_service",
+              tag: "Web Design",
+              title: "Custom Responsive Website Development",
+              desc: "High-converting corporate website design, e-commerce stores, Google SEO, and mobile optimization.",
+            },
+            {
+              file: "care",
+              tag: "Financial Advisory",
+              title: "FSCA Wealth & Retirement Planning",
+              desc: "Certified financial planning, estate planning, retirement portfolios, and business valuation.",
             },
             {
               file: "house_cleaning",
-              tag: "STEM Subjects",
-              title: "Mathematics & Physical Sciences",
-              desc: "Step-by-step problem solving in algebra, calculus, organic chemistry, and physics dynamics.",
+              tag: "Bookkeeping",
+              title: "Monthly Payroll & Bank Reconciliation",
+              desc: "Xero and QuickBooks bank reconciliation, payslip generation, and EMP201 monthly payroll tax.",
             },
             {
-              file: "interior_design",
-              tag: "Cambridge Pathway",
-              title: "IGCSE & A-Level Subject Coaching",
-              desc: "Deconstruct Cambridge marking keys, essay outlines, and higher-order analytical questions.",
-            },
-            {
-              file: "photography",
-              tag: "Languages",
-              title: "English & Afrikaans Literature",
-              desc: "Poetry analysis, essay structure, setwork book revision, and language paper prep.",
-            },
-            {
-              file: "smart_home",
-              tag: "Accounting & Commerce",
-              title: "Financial Accounting & Economics",
-              desc: "Ledger reconciliations, financial statements, cash flow analysis, and micro-economics.",
-            },
-            {
-              file: "appliances",
-              tag: "Primary Foundation",
-              title: "Foundational Numeracy & Literacy",
-              desc: "Encouraging early learning habits for Grade 1-7 learners, making homework fun and stress-free.",
+              file: "personal_training",
+              tag: "Digital Marketing",
+              title: "Google Ads & Social Media Campaigns",
+              desc: "Targeted digital advertising, search engine marketing, and lead generation for small businesses.",
             },
           ].map((item, idx) => (
             <motion.div
@@ -898,7 +898,7 @@ export default function TutoringPage() {
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
                 <span className="font-bold text-emerald-600 flex items-center gap-1">
                   <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Distinction Guarantee</span>
+                  <span>100% Quality Guarantee</span>
                 </span>
               </div>
             </motion.div>
@@ -906,50 +906,50 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 8. COMPREHENSIVE TUTORING SERVICES DIRECTORY ── */}
+      {/* ── 8. COMPREHENSIVE PROFESSIONAL SERVICES DIRECTORY ── */}
       <section className="py-24 px-5 max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-            Every academic subject, covered and verified.
+            Every business &amp; legal service, covered and verified.
           </h2>
           <p className="mt-4 text-lg text-b-ink-soft">
-            From Grade 12 past paper prep to primary school homework support across CAPS, IEB, and Cambridge.
+            From accounting, tax filing, and legal contract drafting to web design, digital marketing, and financial planning.
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              category: "📐 STEM Subjects (Grades 8 - 12)",
+              category: "📊 Accounting & Tax",
               items: [
-                "Core Mathematics & Mathematical Literacy",
-                "Physical Sciences (Physics & Chemistry)",
-                "Life Sciences (Biology & Genetics)",
-                "Information Technology (Java & Delphi)",
-                "Engineering Graphics & Design (EGD)",
-                "Computer Applications Technology (CAT)",
+                "SARS eFiling tax return submissions (ITR12 / ITR14)",
+                "Monthly Xero & QuickBooks bank reconciliation",
+                "VAT201, PAYE & EMP201 payroll filing",
+                "Annual Financial Statement (AFS) compilation",
+                "Tax clearance certificate & pin issuance",
+                "CIPC annual return submissions",
               ],
             },
             {
-              category: "📚 Commerce & Humanities",
+              category: "⚖️ Legal & Contracts",
               items: [
-                "Financial Accounting & Bookkeeping",
-                "Business Studies & Economics",
-                "English Home & First Additional Language",
-                "Afrikaans & isiZulu Language Prep",
-                "Geography & Mapwork Skills",
-                "History & Analytical Essay Writing",
+                "Commercial contract & SLA drafting",
+                "Employment contracts & HR policy review",
+                "Residential & commercial lease agreements",
+                "CIPC new company registration & director changes",
+                "BBBEE affidavit & compliance certificates",
+                "1-on-1 confidential legal consultations",
               ],
             },
             {
-              category: "🌍 Cambridge & Primary Foundations",
+              category: "🌐 Web Design & Digital",
               items: [
-                "Cambridge IGCSE, AS & A-Level Mathematics",
-                "Cambridge Physics, Chemistry & Economics",
-                "Primary School Grade 1-7 Reading Fluency",
-                "Primary Math & Foundational Numeracy",
-                "After-School Homework & Study Skills",
-                "NBT Exam Preparation Workshops",
+                "Custom responsive corporate website design",
+                "Shopify & WooCommerce e-commerce builds",
+                "Search Engine Optimization (SEO) setup",
+                "Google Search & Social Media Ad management",
+                "Graphic design & brand identity packages",
+                "FSCA financial & retirement planning",
               ],
             },
           ].map((col) => (
@@ -970,7 +970,7 @@ export default function TutoringPage() {
         </div>
       </section>
 
-      {/* ── 9. EXTENSIVE TUTORING FAQ ── */}
+      {/* ── 9. EXTENSIVE PROFESSIONAL FAQ ── */}
       <section className="bg-b-paper-deep py-24 px-5 border-t border-b-line">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -979,31 +979,31 @@ export default function TutoringPage() {
               <span>Clear Answers</span>
             </div>
             <h2 className="font-display text-4xl font-extrabold tracking-tight text-b-ink">
-              Frequently asked questions about booking tutors.
+              Frequently asked questions about booking professional pros.
             </h2>
           </div>
 
           <div className="space-y-4">
             {[
               {
-                q: "How are tutors background checked on Bouul?",
-                a: "Every tutor undergoes identity verification, university transcript validation, matric distinction verification, and a criminal background check before being activated.",
+                q: "Are accountants on Bouul registered with SAIPA or SAICA?",
+                a: "Yes! Accountants and tax practitioners listed on Bouul undergo professional body registration validation (SAIPA, SAICA, or PRAC) before receiving client dispatches.",
               },
               {
-                q: "Can we choose between in-person home visits and online sessions?",
-                a: "Yes! You can filter for tutors available for in-person home visits in your suburb, or choose online 1-on-1 interactive video sessions depending on your preference.",
+                q: "How does digital escrow protect my payment for legal or web design projects?",
+                a: "Your payment is locked safely in Bouul escrow when you approve the quote. Funds are released in agreed milestones only after you review and approve completed contract drafts or website pages.",
               },
               {
-                q: "How does the tutor know what curriculum my child follows?",
-                a: "Zola AI captures your child's curriculum (CAPS, IEB, or Cambridge), grade level, and textbook syllabus in the booking brief so your tutor prepares aligned past papers beforehand.",
+                q: "Is my business financial and tax data confidential?",
+                a: "All professional service providers operate under strict POPIA data privacy compliance and signed non-disclosure agreements, ensuring your business records remain 100% confidential.",
               },
               {
-                q: "Do I have to sign a long-term monthly contract?",
-                a: "No! Bouul operates on a transparent pay-per-lesson basis. You pay per lesson into digital escrow, giving you complete flexibility to pause or increase sessions before exams.",
+                q: "Can I get help registering a new company with CIPC and SARS?",
+                a: "Yes! Legal and accounting professionals on Bouul handle new CIPC company registrations, tax clearance certificate applications, and BBBEE affidavits.",
               },
               {
-                q: "When is payment released to the tutor?",
-                a: "Your payment is held safely in Bouul escrow per lesson and is only released after the lesson is completed and you receive your tutor's progress summary report.",
+                q: "What if I need ongoing monthly bookkeeping support?",
+                a: "You can lock in a monthly recurring care plan with your chosen accountant for monthly Xero/QuickBooks management and SARS VAT filings.",
               },
             ].map((faq, i) => (
               <motion.div
@@ -1036,16 +1036,16 @@ export default function TutoringPage() {
             className="space-y-6"
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 px-4 py-1.5 text-xs font-bold text-emerald-600 uppercase tracking-widest">
-              <GraduationCap className="h-3.5 w-3.5" />
-              <span>Verified Academic Tutoring</span>
+              <Briefcase className="h-3.5 w-3.5" />
+              <span>Verified Professional Dispatch</span>
             </div>
 
             <h2 className="font-display text-4xl md:text-5xl font-extrabold tracking-tight text-b-ink">
-              Ready to boost your child&apos;s marks and confidence?
+              Ready for seamless tax compliance &amp; legal peace of mind?
             </h2>
 
             <p className="max-w-xl mx-auto text-lg text-b-ink-soft leading-relaxed">
-              Never stress over unverified tutors or long-term contract lock-ins again. Join parents who use Bouul to book distinction-verified tutors in seconds.
+              Never stress over missed SARS deadlines or unverified consultants again. Join business owners who use Bouul to book accredited, escrow-protected professionals in seconds.
             </p>
 
             <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
@@ -1053,14 +1053,14 @@ export default function TutoringPage() {
                 href="/download"
                 className="rounded-full bg-b-green px-9 py-4 text-base font-extrabold text-b-forest shadow-xl hover:scale-105 hover:bg-emerald-400 transition-all flex items-center gap-2"
               >
-                <GraduationCap className="h-5 w-5" />
+                <Briefcase className="h-5 w-5" />
                 <span>Download Bouul Now</span>
               </Link>
             </div>
 
             <div className="pt-6 flex items-center justify-center gap-8 text-xs font-semibold text-b-ink-faint border-t border-b-line/60 max-w-md mx-auto">
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="h-4 w-4 text-emerald-600" /> Transcript Verified
+                <ShieldCheck className="h-4 w-4 text-emerald-600" /> SAIPA &amp; SAICA Vetted
               </span>
               <span className="flex items-center gap-1.5">
                 <Lock className="h-4 w-4 text-emerald-600" /> Escrow Protected

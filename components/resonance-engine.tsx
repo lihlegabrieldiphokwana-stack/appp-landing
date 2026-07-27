@@ -266,6 +266,6 @@ export const ResonanceEngine = () => {
           </div>
         </motion.div>
       </div>
-    </section>
-  );
-};
+export function ResonanceEngine() {
+  // component body...
+

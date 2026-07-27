@@ -6,6 +6,7 @@ const columns: Array<{ title: string; links: Array<{ href: string; label: string
     title: "Product",
     links: [
       { href: "/services", label: "Find services" },
+      { href: "/trophies", label: "Trophy system" },
       { href: "/vendors", label: "For professionals" },
       { href: "/employees", label: "For teams" },
       { href: "/download", label: "Download the app" },

@@ -8,6 +8,7 @@ import {
   VendorTrust,
   VendorCta,
 } from "@/components/redesign/vendor-experience";
+import { VendorFeatureSuite } from "@/components/redesign/vendor-feature-suite";
 
 export default function VendorsPage() {
   return (
@@ -17,6 +18,7 @@ export default function VendorsPage() {
         <VendorExperience />
       </Suspense>
       <VendorOperating />
+      <VendorFeatureSuite />
       <VendorMoney />
       <VendorTrust />
       <VendorCta />
