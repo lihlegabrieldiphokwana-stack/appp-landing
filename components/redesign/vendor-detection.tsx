@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Store,
-  Search,
   Truck,
   Scale,
   ClipboardCheck,
@@ -16,32 +15,35 @@ import {
   CheckCircle2,
   AlertTriangle,
   Clock,
-  RefreshCw,
   MessageSquare,
   FileText,
-  Wrench,
   Sparkles,
+  ChevronRight,
+  Kanban,
+  Activity,
+  Layers,
+  ArrowRight,
+  Filter,
 } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
 
-/* ──────────────────────────────────────────────────────────────────
-   Detection signals — real things Bouul monitors automatically.
-   Grouped by business area with what triggers, what's detected,
-   and why it matters.
-   ────────────────────────────────────────────────────────────────── */
+interface DetectionSignal {
+  id: string;
+  label: string;
+  what: string;
+  why: string;
+  outcome: string;
+  urgency: "HIGH" | "MEDIUM" | "CRITICAL";
+}
 
 interface DetectionArea {
   id: string;
   icon: React.ElementType;
   color: string;
+  badgeBg: string;
   label: string;
   preamble: string;
-  signals: Array<{
-    label: string;
-    what: string;
-    why: string;
-    outcome: string;
-  }>;
+  signals: DetectionSignal[];
 }
 
 const DETECTION_AREAS: DetectionArea[] = [
@@ -49,73 +51,77 @@ const DETECTION_AREAS: DetectionArea[] = [
     id: "storefront",
     icon: Store,
     color: "text-emerald-600",
+    badgeBg: "bg-emerald-500/10 text-emerald-700 border-emerald-500/20",
     label: "Storefront Health",
     preamble:
       "Most pros don't know their storefront is incomplete until a customer bounces. Bouul scores every page out of 10 and tells you exactly what's missing.",
     signals: [
       {
-        label: "Completeness gaps",
-        what: "Missing logo, cover image, description, phone number, or search keywords on your storefront. Each missing field drops your score.",
-        why: "A storefront without a logo or description converts at a fraction of one that's complete — customers decide in seconds whether to book.",
-        outcome: "Auto-create a fix task with the exact fields needed. Your score improves the moment each one is added.",
+        id: "signal-1",
+        label: "Completeness Gaps",
+        what: "Missing logo, cover image, description, phone number, or search keywords on your storefront.",
+        why: "A storefront without branding converts at a fraction of a complete one — clients decide in seconds.",
+        outcome: "Auto-creates a 1-tap fix task on your Ops Board. Your health score improves the moment fields are saved.",
+        urgency: "HIGH",
       },
       {
-        label: "Service listing gaps",
-        what: "Services live without gallery images or search keywords. The listing exists but won't show up in relevant searches.",
-        why: "A service with no photos and no discoverability tags might as well not exist — it passes every database query but fails every customer search.",
-        outcome: "A completeness task is assigned. One upload and a few tags turn an invisible listing into a bookable asset.",
+        id: "signal-2",
+        label: "Service Listing Gaps",
+        what: "Services live without gallery images or search keywords — stuck at 5/10 health score.",
+        why: "Listings without media pass database queries but fail customer search queries.",
+        outcome: "A completeness task is assigned. One photo upload turns an invisible listing into a bookable asset.",
+        urgency: "MEDIUM",
       },
       {
-        label: "Missing post media",
-        what: "A text post was published without any attached image or video — zero media coverage on publish.",
-        why: "Posts without media get negligible engagement. In a visual marketplace, text-only posts don't earn their placement on the feed.",
-        outcome: "An editorial task is created. Add media, and the post gets the engagement it deserves.",
+        id: "signal-3",
+        label: "Missing Post Media",
+        what: "A text post published with zero attached images or videos.",
+        why: "Text-only posts get negligible feed engagement compared to visual Glimpses™.",
+        outcome: "An editorial task prompts you to attach a photo to boost feed distribution.",
+        urgency: "MEDIUM",
       },
     ],
   },
   {
     id: "dispatch",
     icon: Truck,
-    color: "text-cyan-600",
+    color: "text-blue-600",
+    badgeBg: "bg-blue-500/10 text-blue-700 border-blue-500/20",
     label: "Dispatch & Fulfillment",
     preamble:
       "Orders get assigned, but what happens next? Bouul watches the entire fulfillment loop and flags every gap before it becomes a customer complaint.",
     signals: [
       {
-        label: "Unaccepted assignments",
-        what: "An order was assigned to an employee who hasn't accepted it yet. The clock is ticking.",
-        why: "Every minute an assignment sits unaccepted is a minute the customer isn't sure their booking is real. In urgent trades (plumbing, electrical, locksmith), that hesitation costs the job.",
-        outcome: "Auto-escaped alert after a configurable window. If nobody accepts, the system can offer it to the next available employee.",
+        id: "signal-4",
+        label: "Unaccepted Assignments",
+        what: "An order was assigned to an employee who hasn't accepted it within the time window.",
+        why: "Unaccepted assignments cause client anxiety. In urgent trades (plumbing, towing), delay costs the job.",
+        outcome: "Auto-escalated alert. If unaccepted, Zola auto-reassigns to the next available team member.",
+        urgency: "CRITICAL",
       },
       {
-        label: "Scheduling conflicts",
-        what: "An employee has overlapping assignments — same time slot, two different jobs. One of them won't happen.",
-        why: "Double bookings erode trust faster than almost anything. One no-show from a double-booked slot and that customer never comes back.",
-        outcome: "Flagged as a conflict task. The vendor or employee resolves by reassigning one of the jobs before the overlap becomes a missed appointment.",
+        id: "signal-5",
+        label: "Scheduling Overlaps",
+        what: "An employee has overlapping assignments in the same time slot.",
+        why: "Double bookings erode client trust instantly. A missed slot leads to bad reviews.",
+        outcome: "Flagged on Ops Board. Vendor or employee reassigns before the overlap becomes a missed job.",
+        urgency: "HIGH",
       },
       {
-        label: "Substitution needed",
-        what: "The customer's preferred employee is unavailable, and a substitute was auto-assigned. The handoff needs confirmation.",
-        why: "When a regular client requests their usual person and gets someone else with no heads-up, it feels like a downgrade — even if the substitute is just as qualified.",
-        outcome: "A substitution notice is created. The vendor reviews and confirms, or reassigns to another suitable employee.",
+        id: "signal-6",
+        label: "Substitution Needed",
+        what: "Preferred technician is unavailable, and a substitute was auto-assigned.",
+        why: "Clients requesting a regular technician appreciate a heads-up before arrival.",
+        outcome: "Substitution notice created for vendor confirmation.",
+        urgency: "MEDIUM",
       },
       {
-        label: "Pre-arrival confirmation",
-        what: "An employee is en route but hasn't confirmed readiness (parts on hand, correct address, client contact confirmed).",
-        why: "Arriving without the right parts or without confirming the address is the #1 cause of same-day reschedules. One preventable reschedule wipes your margin on that job.",
-        outcome: "A readiness task appears before the arrival window closes. Confirm once, roll with confidence.",
-      },
-      {
-        label: "Missing tracking",
-        what: "A courier or delivery order has no tracking number or carrier set — the customer can't see where their service/package is.",
-        why: "In a market where customers expect Uber-level tracking, silence reads as 'we forgot about you.'",
-        outcome: "A tracking task is created. Add the number, and the customer gets an automated notification with their tracking link.",
-      },
-      {
-        label: "Live status drift",
-        what: "An in-progress assignment hasn't had a status update beyond the expected window — the system doesn't know if it's on track.",
-        why: "If you don't know a job is running late until the customer complains, you're reactive instead of proactive. Every late notification is a preventable bad review.",
-        outcome: "An at-risk signal fires. The employee updates their status, or the vendor gets a heads-up to check in.",
+        id: "signal-7",
+        label: "Pre-Arrival Confirmation",
+        what: "Employee hasn't confirmed readiness 30 minutes before arrival window.",
+        why: "Catches no-shows and vehicle breakdown delays early.",
+        outcome: "Check-in ping sent to employee; vendor alerted if unconfirmed.",
+        urgency: "HIGH",
       },
     ],
   },
@@ -123,328 +129,281 @@ const DETECTION_AREAS: DetectionArea[] = [
     id: "disputes",
     icon: Scale,
     color: "text-rose-600",
+    badgeBg: "bg-rose-500/10 text-rose-700 border-rose-500/20",
     label: "Customer Disputes",
     preamble:
-      "Disputes don't wait for you to notice them. Bouul tracks every case from opening to verdict and flags the moments that need your attention.",
+      "Disputes can stall payouts and hurt your rating. Bouul keeps dispute resolution moving on a strict 48-hour timeline.",
     signals: [
       {
-        label: "Outstanding response",
-        what: "A customer filed a dispute and the vendor hasn't responded yet — critical urgency.",
-        why: "Disputes escalate automatically if left unanswered. A quick response often resolves the issue before it reaches a jury. Silence reads as guilt.",
-        outcome: "A critical-urgency task fires the moment a response is due. The vendor drafts and submits directly from the task.",
+        id: "signal-8",
+        label: "Vendor Response Outstanding",
+        what: "A customer raised a dispute and your 48-hour response window is running.",
+        why: "Failing to respond within 48 hours results in auto-forfeit to the customer.",
+        outcome: "High-urgency task on your Ops Board with a countdown timer to submit photos/notes.",
+        urgency: "CRITICAL",
       },
       {
-        label: "Evidence gaps",
-        what: "A dispute case is missing required evidence — photos, messages, or booking details that the jury needs to rule.",
-        why: "Without evidence, the jury rules against the vendor by default. Most cases are winnable with the right documentation.",
-        outcome: "A blocked task lists exactly what evidence is missing. Upload it, and the case becomes reviewable.",
+        id: "signal-9",
+        label: "Jury Timeout Watch",
+        what: "Dispute in community jury flow is approaching voting deadline.",
+        why: "Ensures unbiased 3 customer + 1 peer vendor voting finishes promptly.",
+        outcome: "Monitored automatically to enforce final escrow release.",
+        urgency: "MEDIUM",
       },
       {
-        label: "Jury deadline approaching",
-        what: "The jury has been assigned and their deliberation window is about to close.",
-        why: "If the jury times out, the dispute resolves in the customer's favour by default. A few hours' notice can mean the difference between a fair ruling and an automatic loss.",
-        outcome: "A monitoring task keeps the case visible until the verdict is in — no surprises.",
-      },
-      {
-        label: "Verdict follow-up",
-        what: "The jury has issued a verdict. The vendor needs to review the outcome and decide on next steps.",
-        why: "After a verdict, there's a narrow window to accept, appeal, or arrange the resolution. Letting it lapse creates enforcement problems.",
-        outcome: "A follow-up task surfaces the verdict with the key details. Review and close in one tap.",
+        id: "signal-10",
+        label: "Verdict Follow-up",
+        what: "Jury rendered a verdict — action required (refund processing or repair re-dispatch).",
+        why: "Resolving post-verdict actions quickly protects your store's reputation score.",
+        outcome: "Action task created with clear next steps.",
+        urgency: "HIGH",
       },
     ],
   },
   {
-    id: "hygiene",
+    id: "operations",
     icon: ClipboardCheck,
-    color: "text-green-600",
+    color: "text-amber-600",
+    badgeBg: "bg-amber-500/10 text-amber-700 border-amber-500/20",
     label: "Operations Hygiene",
     preamble:
-      "The daily stuff that's easy to skip and costly to ignore. Bouul turns recurring operational tasks into a checklist that can't be forgotten.",
+      "The small operational details — morning checklists, review replies, policy expirations — that keep a business running smoothly.",
     signals: [
       {
-        label: "Open / close checklists",
-        what: "The daily open-for-business or end-of-day close tasks haven't been completed. SLA breach signals fire when they're overdue.",
-        why: "An unprepared storefront or unclosed day's books cascade into forgotten prep, uncleared tabs, and next-morning chaos.",
-        outcome: "A recurring task with SLA monitoring. Miss it, and an at-risk signal fires before it becomes a problem.",
+        id: "signal-11",
+        label: "Daily Open Checklist",
+        what: "Morning store prep checklist not completed by scheduled opening time.",
+        why: "Unprepared teams lead to delayed first appointments and disorganized shifts.",
+        outcome: "Ops alert sent to shift manager to complete open checklist.",
+        urgency: "HIGH",
       },
       {
-        label: "Unanswered inquiries",
-        what: "A customer sent a booking inquiry or question and hasn't received a response within the expected window.",
-        why: "Every unanswered inquiry is a lost booking. In competitive categories, customers message three pros at once and book the first one who replies.",
-        outcome: "A follow-up task is created. Reply from the task, and the conversation continues where it left off.",
+        id: "signal-12",
+        label: "Unanswered Review Responses",
+        what: "Customer reviews waiting for vendor reply past 24 hours.",
+        why: "Replying to reviews boosts SEO visibility and signals customer care.",
+        outcome: "Task queued with Zola AI suggested responses ready to approve.",
+        urgency: "MEDIUM",
       },
       {
-        label: "Unreplied reviews",
-        what: "Customers have left reviews — both positive and negative — that haven't been acknowledged.",
-        why: "Acknowledging a positive review builds loyalty. Replying to a negative one publicly shows future customers you care. Ignoring them signals the opposite.",
-        outcome: "A review-response task lists every unreplied review. Respond to all of them from one surface.",
-      },
-      {
-        label: "Stale availability",
-        what: "Your availability status or working hours haven't been updated recently enough to trust.",
-        why: "Nothing frustrates a customer more than booking a time slot that the vendor isn't actually available for. Stale availability is a cancellation waiting to happen.",
-        outcome: "A freshness task prompts you to confirm or update your hours. Five seconds of work prevents hours of rescheduling.",
-      },
-      {
-        label: "Expiring policies",
-        what: "An insurance certificate, trade licence, or business registration is approaching its expiry date.",
-        why: "Expired credentials can get your storefront delisted or flagged in search. In regulated trades (electrical, gas, medical), it's a legal exposure.",
-        outcome: "A policy-expiry task gives you weeks of notice. Upload the renewed document and the badge stays active.",
-      },
-      {
-        label: "Equipment readiness",
-        what: "Tools, equipment, or supplies haven't been confirmed as ready for the upcoming day's bookings.",
-        why: "Arriving at a job without a working tool or enough consumables means either a delay or a second trip — both destroy margin on that booking.",
-        outcome: "A readiness checklist surfaces before the first job of the day. Confirm everything is good, or flag what needs attention.",
+        id: "signal-13",
+        label: "Policy & Insurance Expiry",
+        what: "PIRB/Wireman license, liability insurance, or trade certification about to expire.",
+        why: "Expired credentials automatically suspend verified badging.",
+        outcome: "Renewal reminder task created 30 days prior.",
+        urgency: "CRITICAL",
       },
     ],
   },
   {
     id: "metrics",
     icon: BarChart3,
-    color: "text-indigo-600",
+    color: "text-purple-600",
+    badgeBg: "bg-purple-500/10 text-purple-700 border-purple-500/20",
     label: "Performance Metrics",
     preamble:
-      "Your business generates data with every booking. Bouul monitors the trends that matter and alerts you when something shifts — no dashboard-diving required.",
+      "Your operational data is constantly analyzed for negative trends before they damage revenue.",
     signals: [
       {
-        label: "Exception rate spike",
-        what: "The rate of cancellations, disputes, or no-shows on your orders has crossed a threshold — something is off.",
-        why: "A sudden spike in exceptions usually traces to a specific cause: a service page misrepresents what's offered, a particular employee is underperforming, or pricing shifted. You can't fix what you don't measure.",
-        outcome: "An alert surfaces with the exception rate and a link to the affected orders. One review session can identify and fix the root cause.",
+        id: "signal-14",
+        label: "Exception Rate Spike",
+        what: "Cancellations, disputes, or delays crossed 5% threshold this week.",
+        why: "Indicates operational strain, staffing shortages, or quality issues.",
+        outcome: "Diagnostic review task auto-generated with root cause insights.",
+        urgency: "CRITICAL",
       },
       {
-        label: "Slow acceptance pattern",
-        what: "Employees are taking longer than usual to accept assignments — the average response time is creeping up.",
-        why: "Slow acceptance is often the first sign of disengagement, unclear expectations, or a scheduling mismatch. Left unchecked, it becomes missed orders.",
-        outcome: "A metrics alert flags the trend. The vendor can address it in a team briefing or adjust the auto-assignment configuration.",
+        id: "signal-15",
+        label: "Slow Acceptance Pattern",
+        what: "Specific employee taking >45 mins on average to accept assigned jobs.",
+        why: "Identifies bottlenecks in team responsiveness before jobs are missed.",
+        outcome: "Performance coaching note flagged for store manager.",
+        urgency: "MEDIUM",
       },
       {
-        label: "Employee delay pattern",
-        what: "A specific employee has a recurring pattern of late arrivals or extended job durations — beyond normal variance.",
-        why: "One employee consistently running late affects not just their jobs but every downstream booking. Customers don't care whose fault it is — they care that their appointment started late.",
-        outcome: "The pattern is surfaced as an operational signal. The vendor can review, coach, or adjust scheduling for that employee.",
-      },
-      {
-        label: "SLA breach review",
-        what: "A service-level agreement was missed — a response took too long, a job went past its promised window, or a follow-up was never completed.",
-        why: "SLA breaches are the closest thing to a contractual failure in a service marketplace. Each one erodes trust and can trigger dispute escalations.",
-        outcome: "A review task captures what breached, when, and why. Close the loop so it doesn't happen again.",
-      },
-      {
-        label: "Coverage gap",
-        what: "There aren't enough employees scheduled or available to cover the booked orders for an upcoming shift window.",
-        why: "A coverage gap means either a customer gets cancelled on or an employee gets overloaded — both lead to bad outcomes. A gap detected 48 hours ahead is fixable. One detected 30 minutes ahead is a crisis.",
-        outcome: "An alert fires with enough lead time to adjust schedules, find cover, or notify affected customers before they arrive.",
-      },
-    ],
-  },
-  {
-    id: "content",
-    icon: Sparkles,
-    color: "text-amber-600",
-    label: "Content & Discovery",
-    preamble:
-      "Your content is how customers find you. Bouul watches what's being published, how it performs, and when it needs attention to keep you discoverable.",
-    signals: [
-      {
-        label: "Comment burst",
-        what: "A post suddenly received a spike in comments — far more than normal engagement.",
-        why: "A comment burst can mean the post is going viral (great) or attracting spam or negative sentiment (bad). Either way, you want to know immediately.",
-        outcome: "A moderation review task surfaces the post with the comment count. Review, respond, or moderate in one flow.",
-      },
-      {
-        label: "Publishing workflow",
-        what: "Content has been drafted and is ready to advance through the publishing pipeline — approvals, scheduling, or going live.",
-        why: "Drafted content that never publishes is wasted effort. A stalled publishing workflow means your feed stays stale and customers see the same old posts.",
-        outcome: "A publishing task keeps the workflow moving. Approve, schedule, or publish — the next step is always clear.",
-      },
-      {
-        label: "Listing freshness",
-        what: "A service listing hasn't been reviewed or updated recently — prices, photos, or descriptions may be stale.",
-        why: "Outdated listings erode trust. Customers who see a price from 2023 or photos from a different season assume you don't care about accuracy.",
-        outcome: "A freshness review task prompts you to review and confirm the listing. Five minutes of updates keeps the listing competitive.",
+        id: "signal-16",
+        label: "Team Coverage Gap",
+        what: "Upcoming shift window has fewer technicians scheduled than predicted demand.",
+        why: "Unstaffed peak hours result in turned-away clients and lost revenue.",
+        outcome: "Roster gap task prompts manager to add shifts.",
+        urgency: "HIGH",
       },
     ],
   },
 ];
 
-/* ──────────────────────────────────────────────────────────────────
-   Component
-   ────────────────────────────────────────────────────────────────── */
-
 export function VendorDetection() {
-  const [openArea, setOpenArea] = useState<string | null>(null);
+  const [activeAreaId, setActiveAreaId] = useState<string>("storefront");
+  const [expandedSignalId, setExpandedSignalId] = useState<string | null>(null);
+
+  const activeArea =
+    DETECTION_AREAS.find((a) => a.id === activeAreaId) || DETECTION_AREAS[0];
 
   return (
-    <Section className="bg-b-paper py-20 md:py-28">
-      <div className="mx-auto max-w-6xl">
-        <Reveal className="max-w-3xl">
-          <Eyebrow>What Bouul watches</Eyebrow>
-          <h2 className="mt-4 font-display text-3xl font-extrabold tracking-tight text-b-ink md:text-5xl">
-            Your business runs on autopilot.{" "}
-            <span className="text-b-green-deep">We watch the gaps.</span>
+    <Section className="bg-b-paper-raised py-20 md:py-28 border-t border-b-line">
+      <div className="max-w-6xl mx-auto px-4">
+        {/* Header Block */}
+        <Reveal className="max-w-3xl mx-auto text-center mb-12">
+          <div className="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-700 bg-emerald-500/10 px-4 py-1.5 rounded-full mb-4 border border-emerald-500/20 shadow-sm">
+            <Scan className="h-4 w-4 text-emerald-600 animate-pulse" />
+            <span>Autonomous Business Monitoring</span>
+          </div>
+          <h2 className="font-display text-3xl sm:text-5xl font-extrabold tracking-tight text-b-ink">
+            No other platform watches your business like this.
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-b-ink-soft">
-            Bouul doesn&apos;t just list your services — it monitors your entire operation
-            and creates assignments the moment something needs your attention.
-            No dashboards to refresh, no spreadsheets to audit. The system sees
-            it and tells you.
+          <p className="mt-4 text-base sm:text-lg text-b-ink-soft leading-relaxed">
+            Legacy sites sit back and collect fees. Bouul continuously monitors 27+ operational signals across 5 domains — auto-detecting gaps and generating 1-tap fix tasks on your Ops Board.
           </p>
         </Reveal>
 
-        {/* ── 6 detection areas ── */}
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {DETECTION_AREAS.map((area) => (
-            <Reveal key={area.id}>
+        {/* Mobile & Desktop Horizontal Domain Selector */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-hide justify-start md:justify-center">
+          {DETECTION_AREAS.map((area) => {
+            const Icon = area.icon;
+            const isActive = area.id === activeAreaId;
+            return (
               <button
-                type="button"
-                onClick={() =>
-                  setOpenArea(openArea === area.id ? null : area.id)
-                }
-                className="group w-full text-left"
+                key={area.id}
+                onClick={() => {
+                  setActiveAreaId(area.id);
+                  setExpandedSignalId(null);
+                }}
+                className={`flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-xs uppercase tracking-wider transition-all whitespace-nowrap shrink-0 ${
+                  isActive
+                    ? "bg-b-forest text-b-cream shadow-lg scale-105"
+                    : "bg-b-paper border border-b-line text-b-ink-soft hover:text-b-ink"
+                }`}
               >
-                <div
-                  className={`rounded-3xl border p-6 text-left transition-all duration-300 ${
-                    openArea === area.id
-                      ? "border-b-green-deep/40 bg-b-green-soft shadow-md"
-                      : "border-b-line bg-b-paper-raised hover:border-b-ink/20"
-                  }`}
-                >
-                  {/* Header */}
-                  <div className="flex items-center gap-3">
-                    <span
-                      className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ${
-                        openArea === area.id
-                          ? "bg-b-green-deep text-white"
-                          : "bg-b-paper-deep text-b-ink-faint"
-                      }`}
-                    >
-                      <area.icon className="h-5 w-5" />
-                    </span>
-                    <div>
-                      <h3 className="font-display text-base font-bold text-b-ink">
-                        {area.label}
-                      </h3>
-                      <p className="text-xs text-b-ink-faint">
-                        {area.signals.length} detection
-                        {area.signals.length !== 1 ? "s" : ""}
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Preamble */}
-                  <p className="mt-3 text-sm leading-relaxed text-b-ink-soft">
-                    {area.preamble}
-                  </p>
-                </div>
+                <Icon className="h-4 w-4 text-b-sun" />
+                <span>{area.label}</span>
+                <span className="ml-1 text-[10px] px-2 py-0.5 rounded-full bg-white/20 text-white font-mono">
+                  {area.signals.length}
+                </span>
               </button>
-
-              {/* Expanded signal detail */}
-              <AnimatePresence>
-                {openArea === area.id && (
-                  <motion.div
-                    key={`detail-${area.id}`}
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                    className="overflow-hidden"
-                  >
-                    <div className="mt-3 space-y-4 pb-2">
-                      {area.signals.map((signal, i) => (
-                        <motion.div
-                          key={signal.label}
-                          initial={{ opacity: 0, y: 8 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{ delay: 0.05 * i }}
-                          className="rounded-2xl border border-b-line bg-b-paper-raised p-5"
-                        >
-                          <div className="flex items-center gap-2">
-                            <Scan className="h-3.5 w-3.5 text-b-green-deep" />
-                            <span className="text-xs font-bold uppercase tracking-wider text-b-green-deep">
-                              Signal
-                            </span>
-                          </div>
-                          <h4 className="mt-2 font-display text-base font-bold text-b-ink">
-                            {signal.label}
-                          </h4>
-
-                          <div className="mt-3 space-y-2.5 text-sm leading-relaxed text-b-ink-soft">
-                            <div className="flex items-start gap-2">
-                              <Eye className="mt-0.5 h-4 w-4 shrink-0 text-b-ink-faint" />
-                              <span>
-                                <span className="font-semibold text-b-ink">
-                                  What Bouul watches:{" "}
-                                </span>
-                                {signal.what}
-                              </span>
-                            </div>
-                            <div className="flex items-start gap-2">
-                              <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                              <span>
-                                <span className="font-semibold text-b-ink">
-                                  Why it matters:{" "}
-                                </span>
-                                {signal.why}
-                              </span>
-                            </div>
-                            <div className="flex items-start gap-2">
-                              <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-b-green-deep" />
-                              <span>
-                                <span className="font-semibold text-b-ink">
-                                  What happens:{" "}
-                                </span>
-                                {signal.outcome}
-                              </span>
-                            </div>
-                          </div>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </Reveal>
-          ))}
+            );
+          })}
         </div>
 
-        {/* ── Bottom summary ── */}
-        <Reveal delay={0.2}>
-          <div className="mt-12 rounded-3xl border border-b-forest-line bg-b-forest p-7 md:p-9">
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="text-center">
-                <div className="font-display text-3xl font-extrabold text-b-sun">
-                  {DETECTION_AREAS.reduce((s, a) => s + a.signals.length, 0)}+
+        {/* Selected Domain Overview Card */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeArea.id}
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -15 }}
+            transition={{ duration: 0.3 }}
+            className="rounded-3xl border border-b-line bg-b-paper p-6 sm:p-10 shadow-xl space-y-8"
+          >
+            {/* Domain Preamble */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-b-line pb-6">
+              <div className="flex items-center gap-3">
+                <div className={`h-12 w-12 rounded-2xl ${activeArea.badgeBg} flex items-center justify-center font-bold shrink-0 border`}>
+                  <activeArea.icon className="h-6 w-6" />
                 </div>
-                <p className="mt-1 text-sm text-b-cream/60">
-                  Detection signals across{" "}
-                  {DETECTION_AREAS.length} operational areas
-                </p>
+                <div>
+                  <h3 className="font-display text-2xl font-extrabold text-b-ink">
+                    {activeArea.label}
+                  </h3>
+                  <p className="text-xs text-b-ink-soft mt-0.5">{activeArea.preamble}</p>
+                </div>
               </div>
-              <div className="text-center">
-                <div className="font-display text-3xl font-extrabold text-b-sun">
-                  2
-                </div>
-                <p className="mt-1 text-sm text-b-cream/60">
-                  Cross-cutting signal types — at-risk &amp; SLA breach
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="font-display text-3xl font-extrabold text-b-sun">
-                  Auto
-                </div>
-                <p className="mt-1 text-sm text-b-cream/60">
-                  Assignments created by detection — no manual auditing
-                </p>
+
+              <div className="inline-flex items-center gap-2 text-xs font-bold text-emerald-700 bg-emerald-500/10 px-3.5 py-1.5 rounded-xl border border-emerald-500/20 shrink-0">
+                <Kanban className="h-4 w-4 text-emerald-600" />
+                <span>Auto-Synced to Ops Board</span>
               </div>
             </div>
-            <p className="mt-6 text-center text-sm text-b-cream/50">
-              Every signal creates an actionable assignment in the ops board.
-              Your team sees what needs doing. Nothing falls through the cracks.
+
+            {/* Signals Grid for Selected Domain */}
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {activeArea.signals.map((signal, idx) => {
+                const isExpanded = expandedSignalId === signal.id;
+                return (
+                  <motion.div
+                    key={signal.id}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3, delay: idx * 0.05 }}
+                    className="flex flex-col justify-between p-6 rounded-2xl bg-b-paper-raised border border-b-line hover:border-emerald-500/40 hover:shadow-lg transition-all space-y-4"
+                  >
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-between">
+                        <span className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-500/10 px-2.5 py-1 rounded-md">
+                          Signal #{idx + 1}
+                        </span>
+                        <span
+                          className={`text-[10px] font-extrabold px-2 py-0.5 rounded-full border ${
+                            signal.urgency === "CRITICAL"
+                              ? "bg-rose-500/10 text-rose-600 border-rose-500/20"
+                              : signal.urgency === "HIGH"
+                              ? "bg-amber-500/10 text-amber-600 border-amber-500/20"
+                              : "bg-blue-500/10 text-blue-600 border-blue-500/20"
+                          }`}
+                        >
+                          {signal.urgency} URGENCY
+                        </span>
+                      </div>
+
+                      <h4 className="font-display font-extrabold text-lg text-b-ink">
+                        {signal.label}
+                      </h4>
+
+                      {/* What Bouul Watches */}
+                      <div className="p-3 rounded-xl bg-b-paper border border-b-line space-y-1">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-b-ink-faint flex items-center gap-1">
+                          <Eye className="h-3 w-3 text-emerald-600" /> What Bouul Watches
+                        </span>
+                        <p className="text-xs text-b-ink font-medium leading-relaxed">
+                          {signal.what}
+                        </p>
+                      </div>
+
+                      {/* Why It Matters */}
+                      <div className="p-3 rounded-xl bg-amber-500/5 border border-amber-500/20 space-y-1">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1">
+                          <AlertTriangle className="h-3 w-3 text-amber-600" /> Why It Matters
+                        </span>
+                        <p className="text-xs text-b-ink-soft leading-relaxed">
+                          {signal.why}
+                        </p>
+                      </div>
+
+                      {/* Automated Action Taken */}
+                      <div className="p-3 rounded-xl bg-emerald-500/5 border border-emerald-500/20 space-y-1">
+                        <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-700 flex items-center gap-1">
+                          <CheckCircle2 className="h-3 w-3 text-emerald-600" /> Automated Fix Action
+                        </span>
+                        <p className="text-xs text-b-ink-soft leading-relaxed">
+                          {signal.outcome}
+                        </p>
+                      </div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </motion.div>
+        </AnimatePresence>
+
+        {/* Bottom Banner */}
+        <div className="mt-12 rounded-3xl bg-b-forest border border-b-forest-line p-8 md:p-10 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+          <div className="space-y-2 text-center md:text-left">
+            <h4 className="font-display text-2xl font-extrabold text-b-sun">
+              27+ Operational Detection Signals Active
+            </h4>
+            <p className="text-xs sm:text-sm text-b-cream/80 max-w-2xl leading-relaxed">
+              Every signal creates an actionable 1-tap task on your Ops Board. Your team sees what needs fixing before a customer ever notices.
             </p>
           </div>
-        </Reveal>
+
+          <a
+            href="/vendors/business"
+            className="rounded-full bg-b-green px-7 py-3.5 text-xs font-extrabold text-b-forest hover:bg-emerald-400 transition-all shadow-md shrink-0 flex items-center gap-2"
+          >
+            <span>Explore Full Vendor Ops Board</span>
+            <ArrowRight className="h-4 w-4" />
+          </a>
+        </div>
       </div>
     </Section>
   );

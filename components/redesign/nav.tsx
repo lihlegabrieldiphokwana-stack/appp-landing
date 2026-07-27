@@ -9,7 +9,7 @@ const links = [
   { href: "/services", label: "Find services" },
   { href: "/zola", label: "Zola AI" },
   { href: "/zola/business", label: "Zola Business" },
-  { href: "/zola/use-cases", label: "Use Cases" },
+  { href: "/vendors/business", label: "Vendor & Team Suite" },
   { href: "/trophies", label: "Trophy System" },
   { href: "/vendors", label: "For pros" },
   { href: "/about", label: "About" },

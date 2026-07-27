@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
+import { ResonanceEngine } from "@/components/resonance-engine";
 import Link from "next/link";
 import {
   Briefcase,
@@ -378,6 +379,9 @@ export default function ZolaBusinessPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* ── RESONANCE ENGINE DISCOVERY SECTION ── */}
+      <ResonanceEngine />
 
       <RedesignFooter />
     </main>

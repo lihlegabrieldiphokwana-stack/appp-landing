@@ -25,6 +25,7 @@ import {
   formatRand,
 } from "@/lib/service-catalog";
 import { Section, Eyebrow, Reveal } from "./primitives";
+import { VendorIndustryDeepdive } from "./vendor-industry-deepdive";
 
 /* ----------------------------------------------------------------
    Category guessing — match words in the business name against the
@@ -308,6 +309,9 @@ export function VendorExperience() {
           </motion.div>
         </AnimatePresence>
       </Section>
+
+      {/* ── TAILORED INDUSTRY DEEP DIVE WITH BUSINESS NAME ── */}
+      <VendorIndustryDeepdive businessName={trimmed} />
     </>
   );
 }
