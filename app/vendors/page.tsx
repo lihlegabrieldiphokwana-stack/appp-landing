@@ -9,7 +9,9 @@ import {
   VendorCta,
 } from "@/components/redesign/vendor-experience";
 import { VendorFeatureSuite } from "@/components/redesign/vendor-feature-suite";
+import { VendorPricingComparisonTable } from "@/components/redesign/vendor-pricing-comparison-table";
 import { VendorComparison } from "@/components/redesign/vendor-comparison";
+import { VendorDetection } from "@/components/redesign/vendor-detection";
 
 export default function VendorsPage() {
   return (
@@ -20,6 +22,8 @@ export default function VendorsPage() {
       </Suspense>
       <VendorOperating />
       <VendorFeatureSuite />
+      <VendorDetection />
+      <VendorPricingComparisonTable />
       <VendorComparison />
       <VendorMoney />
       <VendorTrust />
