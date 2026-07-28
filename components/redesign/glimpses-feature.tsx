@@ -184,38 +184,15 @@ function HashtagStrip() {
 
 export function GlimpsesFeature() {
   return (
-    <Section className="bg-b-paper-raised py-20 md:py-28">
-      <div className="grid items-center gap-12 lg:grid-cols-2">
-        <div className="space-y-5">
-          <Reveal>
-            <div className="flex items-center justify-center">
-              <img
-                src="/iphone-air-glimpses.svg"
-                alt="Glimpses short-content feed on iPhone Air"
-                className="w-full max-w-[280px] object-contain drop-shadow-2xl"
-              />
-            </div>
-          </Reveal>
-          {contentHighlights.map((item, i) => (
-            <Reveal key={item.title} delay={i * 0.1}>
-              <div className="flex gap-5 rounded-3xl border border-b-line bg-b-paper p-6 transition-shadow duration-300 hover:shadow-[0_12px_32px_rgba(24,39,32,0.06)]">
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-b-sun-soft">
-                  <item.icon className="h-6 w-6 text-b-ink" />
-                </span>
-                <div>
-                  <h3 className="font-display text-lg font-bold text-b-ink">{item.title}</h3>
-                  <p className="mt-2 b-body-sm leading-relaxed text-b-ink-soft">{item.body}</p>
-                </div>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-        <Reveal delay={0.15}>
+    <Section className="bg-b-paper-raised py-14 md:py-24">
+      <div className="grid items-center gap-8 lg:gap-12 lg:grid-cols-2">
+        {/* Main Heading & Intro Text (First on Mobile, Second on Desktop) */}
+        <Reveal delay={0.05} className="order-1 lg:order-2">
           <Eyebrow>Glimpses</Eyebrow>
-          <h2 className="mt-4 font-display text-4xl font-extrabold tracking-tight text-b-ink md:text-5xl">
+          <h2 className="mt-3 font-display text-3xl font-extrabold tracking-tight text-b-ink sm:text-4xl md:text-5xl">
             See the work. Feel the vibe. Book in one tap.
           </h2>
-          <p className="mt-5 max-w-md text-lg leading-relaxed text-b-ink-soft">
+          <p className="mt-4 max-w-md text-base leading-relaxed text-b-ink-soft sm:text-lg">
             Bouul&apos;s short-content feed (Glimpses) turns service discovery
             into a visual experience. Scroll before-and-after transformations,
             watch service highlights, and go from &quot;that looks amazing&quot;
@@ -224,7 +201,7 @@ export function GlimpsesFeature() {
           </p>
           <Link
             href="/download"
-            className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-b-ink px-6 py-3 text-sm font-semibold text-b-paper transition-colors hover:bg-b-forest"
+            className="mt-6 inline-flex items-center gap-2.5 rounded-full bg-b-ink px-5 py-3 text-xs font-semibold text-b-paper transition-colors hover:bg-b-forest sm:text-sm"
           >
             <img src="/bouul-logo-mark.svg" alt="" className="h-4 w-4 shrink-0" />
             <span>Download the app to explore</span>
@@ -233,6 +210,33 @@ export function GlimpsesFeature() {
           
           <HashtagStrip />
         </Reveal>
+
+        {/* iPhone Mockup & Highlight Cards (Second on Mobile, First on Desktop) */}
+        <div className="order-2 space-y-4 sm:space-y-5 lg:order-1">
+          <Reveal>
+            <div className="flex items-center justify-center py-1 sm:py-2">
+              <img
+                src="/iphone-air-glimpses.svg"
+                alt="Glimpses short-content feed on iPhone Air"
+                className="w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[280px] object-contain drop-shadow-2xl"
+              />
+            </div>
+          </Reveal>
+
+          {contentHighlights.map((item, i) => (
+            <Reveal key={item.title} delay={i * 0.08}>
+              <div className="flex gap-4 sm:gap-5 rounded-2xl sm:rounded-3xl border border-b-line bg-b-paper p-5 sm:p-6 transition-shadow duration-300 hover:shadow-[0_12px_32px_rgba(24,39,32,0.06)]">
+                <span className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-xl sm:rounded-2xl bg-b-sun-soft">
+                  <item.icon className="h-5 w-5 sm:h-6 sm:w-6 text-b-ink" />
+                </span>
+                <div>
+                  <h3 className="font-display text-base sm:text-lg font-bold text-b-ink">{item.title}</h3>
+                  <p className="mt-1.5 b-body-sm leading-relaxed text-b-ink-soft text-xs sm:text-sm">{item.body}</p>
+                </div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </Section>
   );
