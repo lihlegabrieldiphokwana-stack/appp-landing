@@ -119,13 +119,14 @@ export function FlutterGlimpsesShowcase() {
       {/* Interactive Mobile Player Showcase */}
       <Reveal delay={0.2}>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto items-start">
-          {/* Mobile Phone Mockup Frame (Realistic 9:19.5 Modern Smartphone Aspect Ratio) */}
+          {/* iPhone 17 Pro Max Device Frame */}
           <div className="lg:col-span-6 flex justify-center">
-            <div className="relative w-[320px] sm:w-[350px] h-[680px] sm:h-[740px] rounded-[3.2rem] border-[10px] border-neutral-900 bg-black overflow-hidden shadow-2xl ring-1 ring-white/20">
-              {/* Dynamic Island / Notch */}
-              <div className="absolute top-3.5 left-1/2 -translate-x-1/2 w-28 h-4 bg-neutral-900 rounded-full z-30 flex items-center justify-end px-2">
-                <div className="h-2.5 w-2.5 rounded-full bg-neutral-950 border border-neutral-800" />
-              </div>
+            {/* Outer wrapper preserves the 490:1000 frame aspect ratio */}
+            <div className="relative" style={{ width: 320, height: Math.round(320 * 1000 / 490), background: 'black', borderRadius: '62px', overflow: 'hidden' }}>
+              {/* App content lives here, inset to sit inside the screen area of the real frame
+                  Frame: 490×1000px | Screen area: 440×956px
+                  → left/right: 25/490 = 5.1% | top/bottom: 22/1000 = 2.2% */}
+              <div className="absolute overflow-hidden bg-black" style={{ top: '2.2%', left: '5.1%', right: '5.1%', bottom: '2.2%', borderRadius: '62px' }}>
 
               {/* Video Background Container */}
               <div
@@ -321,6 +322,15 @@ export function FlutterGlimpsesShowcase() {
                   </div>
                 </div>
               </div>
+              </div>
+              {/* iPhone 17 Pro Max frame overlay — sits on top of app content, non-interactive */}
+              <img
+                src="/iphone-17-pro-max-frame.png"
+                alt="iPhone 17 Pro Max"
+                className="absolute inset-0 w-full h-full object-fill pointer-events-none"
+                style={{ zIndex: 50 }}
+                draggable={false}
+              />
             </div>
           </div>
 
