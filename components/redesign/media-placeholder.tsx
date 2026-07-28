@@ -42,6 +42,7 @@ export function MediaPlaceholder({
   ratio = "none",
   tone = "sunlit",
   className,
+  imgClassName,
   rounded = "rounded-2xl",
 }: {
   kind?: "image" | "video";
@@ -57,6 +58,7 @@ export function MediaPlaceholder({
   ratio?: Ratio;
   tone?: Tone;
   className?: string;
+  imgClassName?: string;
   rounded?: string;
 }) {
   const [imgOk, setImgOk] = useState(false);
@@ -85,7 +87,7 @@ export function MediaPlaceholder({
         <img
           src={src}
           alt={alt}
-          className="absolute inset-0 h-full w-full object-cover"
+          className={cn("absolute inset-0 h-full w-full object-cover object-top", imgClassName)}
         />
       )}
       {showVideo && (

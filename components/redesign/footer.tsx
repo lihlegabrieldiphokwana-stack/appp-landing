@@ -57,9 +57,9 @@ export function RedesignFooter() {
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-xs">
             <Link href="/" className="inline-flex items-center gap-3 group">
-              <div className="relative h-9 w-9 overflow-hidden rounded-xl shadow-xs ring-1 ring-b-line transition-transform duration-200 group-hover:scale-105">
+              <div className="relative h-9 w-9 overflow-hidden rounded-xl shadow-sm transition-transform duration-200 group-hover:scale-105">
                 <Image
-                  src="/bouul-favicon.png"
+                  src="/bouul-logo.png"
                   alt="Bouul Logo Mark"
                   width={36}
                   height={36}

@@ -101,12 +101,12 @@ export function RedesignNav() {
             isDarkTop ? "text-b-cream" : "text-b-ink",
           )}
         >
-          <div className="relative h-7 w-7 overflow-hidden rounded-lg shadow-xs ring-1 ring-b-line transition-transform duration-200 group-hover:scale-105">
+          <div className="relative h-8 w-8 overflow-hidden rounded-xl shadow-sm transition-transform duration-200 group-hover:scale-105">
             <Image
-              src="/bouul-favicon.png"
+              src="/bouul-logo.png"
               alt="Bouul Logo Mark"
-              width={28}
-              height={28}
+              width={32}
+              height={32}
               className="object-cover"
             />
           </div>
@@ -189,13 +189,14 @@ export function RedesignNav() {
           <Link
             href="/download"
             className={cn(
-              "hidden rounded-full px-5 py-2.5 text-sm font-semibold transition-all shadow-md md:inline-block cursor-pointer min-h-[44px] flex items-center justify-center",
+              "hidden rounded-full px-5 py-2.5 text-sm font-semibold transition-all shadow-md md:inline-flex cursor-pointer min-h-[44px] items-center justify-center gap-2",
               isDarkTop
                 ? "bg-b-sun text-b-ink hover:bg-amber-300"
                 : "bg-b-ink text-b-paper hover:bg-b-forest",
             )}
           >
-            Get the app
+            <img src="/bouul-logo-mark.svg" alt="" className="h-4 w-4 shrink-0" />
+            <span>Get the app</span>
           </Link>
           <button
             type="button"
@@ -245,9 +246,10 @@ export function RedesignNav() {
               <Link
                 href="/download"
                 onClick={() => setOpen(false)}
-                className="mt-2 rounded-xl bg-b-ink py-3.5 text-center text-sm font-semibold text-b-paper"
+                className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-b-ink py-3.5 text-center text-sm font-semibold text-b-paper"
               >
-                Get the app
+                <img src="/bouul-logo-mark.svg" alt="" className="h-4 w-4 shrink-0" />
+                <span>Get the app</span>
               </Link>
             </div>
           </motion.div>

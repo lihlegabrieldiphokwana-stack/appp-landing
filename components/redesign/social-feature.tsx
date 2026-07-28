@@ -2,7 +2,6 @@
 import React from "react";
 import { Users, UserPlus, Eye, Sparkles } from "lucide-react";
 import { Section, Eyebrow, Reveal } from "./primitives";
-import { MediaPlaceholder } from "./media-placeholder";
 
 const socialPillars = [
   {
@@ -67,14 +66,14 @@ export function SocialFeature() {
                 </p>
               </div>
             </div>
-            <MediaPlaceholder
-              kind="image"
-              src="/mockups/discovery-feed.jpg"
-              alt="Discovery and Following feeds"
-              label="Feed preview"
-              ratio="9/16"
-              rounded="rounded-2xl"
-            />
+            {/* iPhone 17 Pro mockup */}
+            <div className="flex items-center justify-center">
+              <img
+                src="/iphone-17-pro-feeds.svg"
+                alt="Discovery and Following feeds on iPhone 17 Pro"
+                className="w-full max-w-[200px] object-contain drop-shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </Reveal>

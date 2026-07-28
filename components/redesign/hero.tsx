@@ -85,27 +85,28 @@ function HeroCollage() {
   });
 
   return (
-    <div className="relative mx-auto h-[420px] w-full max-w-md md:h-[500px]">
+    <div className="relative mx-auto h-[540px] w-full max-w-md md:h-[620px]">
       {/* Main pro card */}
       <motion.div
         {...enter(0.25)}
-        className="absolute left-0 top-8 w-64 -rotate-2 rounded-2xl border border-b-line bg-b-paper-raised p-4 shadow-[0_20px_50px_rgba(24,39,32,0.12)] md:w-72"
+        className="absolute left-0 top-6 w-64 -rotate-2 rounded-3xl border border-b-line bg-b-paper-raised p-4 shadow-[0_25px_60px_rgba(24,39,32,0.15)] md:w-72 z-10"
       >
         <MediaPlaceholder
           kind="image"
-          src="/pros/thabos-cuts.jpg"
-          alt="Thabo's Cuts storefront"
+          src="/pros/leratos-hair-studio.png"
+          alt="Lerato's Hair Studio storefront"
           label="Pro photo"
-          className="h-36 w-full rounded-xl"
+          className="h-64 w-full rounded-2xl md:h-72"
+          imgClassName="object-cover object-top"
         />
         <div className="mt-3 flex items-start justify-between">
           <div>
-            <p className="font-display text-base font-bold text-b-ink">Thabo&apos;s Cuts</p>
-            <p className="mt-0.5 flex items-center gap-1 text-xs text-b-ink-soft">
-              <MapPin className="h-3 w-3" /> 1.2 km away
+            <p className="font-display text-base font-bold text-b-ink">Lerato&apos;s Hair Studio</p>
+            <p className="mt-0.5 flex items-center gap-1 text-[11px] text-b-ink-soft leading-snug">
+              <MapPin className="h-3 w-3 shrink-0 text-b-green-deep" /> Vusi Mngomezulu St, Thiteng, Tembisa
             </p>
           </div>
-          <span className="flex items-center gap-1 rounded-full bg-b-green-soft px-2 py-1 text-[11px] font-semibold text-b-green-deep">
+          <span className="flex items-center gap-1 rounded-full bg-b-green-soft px-2 py-1 text-[10px] font-semibold text-b-green-deep shrink-0">
             <BadgeCheck className="h-3.5 w-3.5" /> Verified
           </span>
         </div>
@@ -120,14 +121,15 @@ function HeroCollage() {
       {/* Second card behind */}
       <motion.div
         {...enter(0.4)}
-        className="absolute right-0 top-0 w-52 rotate-3 rounded-2xl border border-b-line bg-b-paper-raised p-3 shadow-[0_16px_40px_rgba(24,39,32,0.10)] md:w-56"
+        className="absolute right-0 top-0 w-52 rotate-3 rounded-3xl border border-b-line bg-b-paper-raised p-3 shadow-[0_20px_45px_rgba(24,39,32,0.12)] md:w-60 z-0"
       >
         <MediaPlaceholder
           kind="image"
-          src="/pros/marco-plumbing.jpg"
+          src="/pros/marco-plumbing.png"
           alt="Marco T. Plumbing work"
           label="Recent job"
-          className="h-24 w-full rounded-xl"
+          className="h-48 w-full rounded-2xl md:h-56"
+          imgClassName="object-cover object-top"
         />
         <div className="mt-2.5 flex items-center justify-between">
           <div>
