@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import { GenericActivityArticleModal, ActivityArticleData } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import {
@@ -42,6 +44,7 @@ import {
   Heart,
   Palette,
   Eye,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -150,9 +153,11 @@ const PRICE_ESTIMATES = [
 
 export default function BeautyPage() {
   const [activeTab, setActiveTab] = useState("hair_braids");
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
   const currentSituation = SITUATIONS.find((s) => s.id === activeTab) || SITUATIONS[0];
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const currentEstimate = PRICE_ESTIMATES[selectedEstimate];
 
   return (
@@ -820,37 +825,43 @@ export default function BeautyPage() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
+              id: "beauty_hairdressers",
               file: "hair_styling",
-              tag: "Hair & Braids",
-              title: "Bohemian Knotless Braids",
-              desc: "Clean scalp parting, lightweight synthetic extensions, and curly tendrils styled to perfection.",
+              tag: "Mobile Hairdressing",
+              title: "Knotless Braids & Protective Styles",
+              desc: "Mobile braiders bringing extension hair, scalp oils, and portable basins for pain-free knotless braids.",
             },
             {
+              id: "beauty_nail_technicians",
               file: "nail_service",
-              tag: "Nail Artistry",
-              title: "Gelish & Acrylic Nail Overlay",
-              desc: "Sleek acrylic nail extension, cuticle maintenance, and custom hand-painted gel art.",
+              tag: "Nail Care",
+              title: "Rubber Base & Gelish Manicures",
+              desc: "Sanitized UV lamp manicures, gel extensions, and durable rubber base overlays at home.",
             },
             {
-              file: "makeup",
+              id: "beauty_makeup_artists",
+              file: "makeup_artist",
               tag: "Glam Makeup",
-              title: "Bridal HD Airbrush Makeup",
-              desc: "Long-wear camera-ready makeup, winged eyeliner, contouring, and luxury mink lashes.",
+              title: "Bridal & Event Makeup Artistry",
+              desc: "HD camera-ready makeup, airbrush foundation, and full lash application for weddings and matrix dances.",
             },
             {
-              file: "barber",
+              id: "beauty_barbers",
+              file: "barber_service",
               tag: "Mobile Barber",
               title: "Skin Fade & Beard Line-Up",
               desc: "Crisp taper skin fade, razor sharp beard line-up, and nourishing beard oil treatment.",
             },
             {
-              file: "massage",
+              id: "beauty_massage_therapists",
+              file: "massage_therapy",
               tag: "Home Spa",
               title: "Mobile Deep Tissue Massage",
               desc: "Portable massage table setup, essential oils, and therapeutic deep pressure muscle tension relief.",
             },
             {
-              file: "skincare",
+              id: "beauty_facial_treatments",
+              file: "skincare_facial",
               tag: "Skincare",
               title: "Deep Hydration Facial Treatment",
               desc: "Gentle exfoliation, blackhead extraction, LED light therapy mask, and moisture lock serum.",
@@ -862,7 +873,8 @@ export default function BeautyPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -884,21 +896,21 @@ export default function BeautyPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Quality Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1069,6 +1081,13 @@ export default function BeautyPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

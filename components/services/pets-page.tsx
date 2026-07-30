@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -42,6 +45,7 @@ import {
   Stethoscope,
   Smile,
   Shield,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -149,6 +153,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function PetsPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("pet_grooming");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -817,52 +823,59 @@ export default function PetsPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "pet_grooming",
-              tag: "Mobile Hydrobath",
-              title: "Warm Hydrobath & Gentle Coat Shear",
-              desc: "Stress-free mobile van grooming, warm hydrobath wash, coat blow dry, and precision nail trimming.",
-            },
-            {
-              file: "personal_training",
-              tag: "Dog Walking",
-              title: "GPS-Tracked Park & Neighborhood Walks",
-              desc: "High-energy outdoor exercise, leash habituation, fresh water refill, and live map tracking.",
-            },
-            {
-              file: "care",
-              tag: "In-Home Sitting",
-              title: "Overnight Pet Care & Feeding Routine",
-              desc: "Loving in-home companionship, daily feeding schedule, play sessions, and home security presence.",
-            },
-            {
-              file: "skincare",
-              tag: "House-Call Vet",
-              title: "In-Home Health Exam & Vaccinations",
-              desc: "SAVC-registered house-call vet visits for annual rabies shots, health booklets, and gentle checks.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Puppy Obedience",
-              title: "Positive Reinforcement Puppy Training",
-              desc: "Gentle puppy socialization, leash walking, house training, and boundary obedience.",
-            },
-            {
-              file: "interior_design",
-              tag: "Cat & Small Pets",
-              title: "Cat Feeding & Litter Box Care",
-              desc: "Daily cat feeding visits, fresh water replacement, litter box scoop, and playtime.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "pets_pet_groomers",
+    "file": "pet_grooming",
+    "tag": "Mobile Grooming",
+    "title": "Mobile Hydrobath & Breed Clipping",
+    "desc": "Warm water hydrobath, coat blow-drying, nail clipping, and sanitary trimming in a mobile van."
+  },
+  {
+    "id": "pets_dog_walkers",
+    "file": "dog_walking",
+    "tag": "Dog Walking",
+    "title": "Daily Exercise & Park Dog Walking",
+    "desc": "30 or 60-minute solo or small group dog walks with live GPS route tracking and photo updates."
+  },
+  {
+    "id": "pets_veterinarians",
+    "file": "veterinary_home_visit",
+    "tag": "Home Vet Visit",
+    "title": "In-Home Vet Checkups & Vaccinations",
+    "desc": "Stress-free routine health exams, rabies vaccinations, and deworming in your pet's comfort zone."
+  },
+  {
+    "id": "pets_pet_sitters",
+    "file": "dog_daycare",
+    "tag": "Pet Sitting",
+    "title": "Overnight House & Pet Sitting",
+    "desc": "Vetted pet sitters staying overnight to feed, walk, and care for your pets while you travel."
+  },
+  {
+    "id": "pets_pet_training",
+    "file": "childcare_service",
+    "tag": "Dog Obedience",
+    "title": "Puppy Socialization & Behaviour Training",
+    "desc": "Positive reinforcement leash training, housebreaking, and barking reduction coaching."
+  },
+  {
+    "id": "pets_pet_groomers",
+    "file": "pest_control",
+    "tag": "Flea & Tick",
+    "title": "Flea, Tick & Dip Treatments",
+    "desc": "Medicated coat dips and long-lasting topical parasite prevention treatments."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -884,21 +897,21 @@ export default function PetsPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Happy Paw Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1069,6 +1082,13 @@ export default function PetsPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

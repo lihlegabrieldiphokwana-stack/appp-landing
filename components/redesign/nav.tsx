@@ -31,6 +31,7 @@ const navCategories: NavCategory[] = [
     title: "Platform",
     items: [
       { href: "/zola", label: "Zola AI Assistant", desc: "DeepSeek V4 automated booking" },
+      { href: "/zola/employees", label: "Zola for Employees", desc: "15 tools & 5 pillars for field workforce" },
       { href: "/resonance", label: "Resonance AI Engine", desc: "7-signal personalized feed engine" },
       { href: "/intelligent-search", label: "Intelligent AI Search", desc: "SA slang & multi-lingual vector search" },
       { href: "/payments", label: "Escrow Payments", desc: "100% deposit protection & SA payouts" },
@@ -97,7 +98,8 @@ export function RedesignNav() {
         pathname?.startsWith("/$") ||
         pathname?.startsWith("/handle") ||
         pathname?.startsWith("/pro") ||
-        pathname?.startsWith("/resonance"),
+        pathname?.startsWith("/resonance") ||
+        pathname?.startsWith("/tutorials"),
     );
 
   const filteredSections = useMemo(() => {
@@ -149,7 +151,7 @@ export function RedesignNav() {
           </div>
           <span>
             bouul
-            <span className={cn("transition-colors duration-300", isDarkTop ? "text-b-sun" : "text-b-green")}>
+            <span className={cn("transition-colors duration-300", isDarkTop ? "text-emerald-400 font-black" : "text-b-green")}>
               .
             </span>
           </span>
@@ -182,7 +184,7 @@ export function RedesignNav() {
                   className={cn(
                     "h-3.5 w-3.5 transition-transform duration-200",
                     activeDropdown === category.title && "rotate-180",
-                    isDarkTop ? "text-b-sun" : "text-b-green-deep",
+                    isDarkTop ? "text-emerald-400" : "text-b-green-deep",
                   )}
                 />
               </button>
@@ -230,20 +232,20 @@ export function RedesignNav() {
             className={cn(
               "flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-bold transition-all md:hidden border shadow-xs cursor-pointer min-h-[40px]",
               isDarkTop
-                ? "border-white/20 bg-white/10 text-b-cream hover:bg-white/20"
+                ? "border-emerald-500/30 bg-emerald-500/20 text-emerald-300 hover:bg-emerald-500/30"
                 : "border-b-line bg-b-paper text-b-ink hover:bg-b-paper-deep",
             )}
           >
-            <Search className="h-3.5 w-3.5 text-b-green-deep" />
+            <Search className="h-3.5 w-3.5 text-emerald-400" />
             <span>Peek</span>
           </button>
 
           <Link
             href="/download"
             className={cn(
-              "hidden rounded-full px-5 py-2.5 text-sm font-semibold transition-all shadow-md md:inline-flex cursor-pointer min-h-[44px] items-center justify-center gap-2",
+              "hidden rounded-full px-5 py-2.5 text-sm font-bold transition-all shadow-md md:inline-flex cursor-pointer min-h-[44px] items-center justify-center gap-2",
               isDarkTop
-                ? "bg-b-sun text-b-ink hover:bg-amber-300"
+                ? "bg-emerald-500 text-b-forest hover:bg-emerald-400 font-extrabold shadow-emerald-950/20"
                 : "bg-b-ink text-b-paper hover:bg-b-forest",
             )}
           >

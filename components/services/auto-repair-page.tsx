@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import { GenericActivityArticleModal, ActivityArticleData } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
 import { RedesignNav } from "@/components/redesign/nav";
 import { RedesignFooter } from "@/components/redesign/footer";
 import {
@@ -43,6 +45,7 @@ import {
   Battery,
   Cog,
   Shield,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -151,9 +154,11 @@ const PRICE_ESTIMATES = [
 
 export default function AutoRepairPage() {
   const [activeTab, setActiveTab] = useState("breakdown");
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
   const currentSituation = SITUATIONS.find((s) => s.id === activeTab) || SITUATIONS[0];
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const currentEstimate = PRICE_ESTIMATES[selectedEstimate];
 
   return (
@@ -821,36 +826,42 @@ export default function AutoRepairPage() {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
+              id: "auto_mechanics",
               file: "auto_repair",
               tag: "Engine Servicing",
               title: "Synthetic Oil & OEM Filter Change",
               desc: "High-grade synthetic oil replacement, new OEM filter fitting, and comprehensive 50-point engine health check.",
             },
             {
+              id: "auto_panel_beaters",
               file: "hardware",
               tag: "Brake Systems",
               title: "Front & Rear Disc & Pad Replacement",
               desc: "Ferodo ceramic brake pads, ventilated disc replacements, and hydraulic line pressure bleeding.",
             },
             {
+              id: "auto_car_detailing",
               file: "electrical_service",
               tag: "Electrical Diagnostics",
               title: "OBD-II ECU Scan & Sensor Calibration",
               desc: "Dealer-level electronic scan tool reading ECU error codes, mass air flow sensors, and oxygen sensors.",
             },
             {
+              id: "auto_car_wash",
               file: "appliances",
               tag: "Battery & Charging",
               title: "Heavy-Duty 12V Battery & Alternator Test",
               desc: "Sealed maintenance-free battery installation, terminal corrosion cleaning, and alternator output testing.",
             },
             {
+              id: "auto_towing_services",
               file: "towing",
               tag: "Mobile Call-Out",
               title: "On-Site Driveway Emergency Repair",
               desc: "Mobile service van fully equipped for driveway starter motor, alternator, and coolant line replacements.",
             },
             {
+              id: "auto_hvac_service",
               file: "smart_home",
               tag: "Air Conditioning",
               title: "Vehicle HVAC & Cabin Filter Service",
@@ -863,7 +874,8 @@ export default function AutoRepairPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -885,21 +897,21 @@ export default function AutoRepairPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Workmanship Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1070,6 +1082,13 @@ export default function AutoRepairPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

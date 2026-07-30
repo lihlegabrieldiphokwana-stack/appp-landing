@@ -12,10 +12,14 @@ const popularServices = [
   { name: "Electricians", slug: "electricians", tag: "24/7 Power" },
   { name: "House Cleaning", slug: "house-cleaning", tag: "Eco Clean" },
   { name: "Hairdressers", slug: "hairdressers", tag: "Beauty & Style" },
-  { name: "Mechanics", slug: "mechanics", tag: "Auto Diagnostics" },
-  { name: "Math Tutors", slug: "math-tutors", tag: "Grade 8-12" },
+  { name: "Optometry & Eyecare", slug: "optometry", tag: "Health & Vision" },
+  { name: "Chiropractic", slug: "chiropractic", tag: "Wellness & Spine" },
+  { name: "Personal Training", slug: "personal-training", tag: "Fitness" },
+  { name: "Makeup & Beauty", slug: "makeup-artist", tag: "Special Events" },
+  { name: "Dental Care", slug: "dental-service", tag: "Oral Health" },
+  { name: "Roadside & Towing", slug: "roadside-assistance", tag: "24/7 Breakdown" },
   { name: "Photographers", slug: "photographers", tag: "Events & Media" },
-  { name: "Massage Therapists", slug: "massage-therapists", tag: "Recovery" },
+  { name: "Interior Design", slug: "interior-design", tag: "Home & Décor" },
 ];
 
 export function FeaturedScenes() {

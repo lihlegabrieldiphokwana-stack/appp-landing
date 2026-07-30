@@ -37,11 +37,18 @@ export const POPULAR_SCENES: Record<string, SceneImage> = {
   plumbers: { src: s("plumbing"), label: "Plumbers" },
   electricians: { src: s("electrical_service"), label: "Electricians" },
   "house-cleaning": { src: s("house_cleaning"), label: "House cleaning" },
-  hairdressers: { src: s("hair_styling"), label: "Hairdressers" },
+  hairdressers: { src: s("hair_styling_20260706T184004"), label: "Hairdressers" },
   mechanics: { src: s("auto_repair"), label: "Mechanics" },
   "math-tutors": { src: s("tutoring_service"), label: "Math tutors" },
   photographers: { src: s("photography_service"), label: "Photographers" },
   "massage-therapists": { src: s("massage_therapy"), label: "Massage" },
+  optometry: { src: s("optometry_20260706T195747"), label: "Optometry" },
+  chiropractic: { src: s("chiropractic_20260706T195747"), label: "Chiropractic" },
+  "personal-training": { src: s("personal_training_20260708T100401"), label: "Personal Training" },
+  "makeup-artist": { src: s("makeup_artist_20260708T100401"), label: "Makeup & Beauty" },
+  "dental-service": { src: s("dental_service_20260708T100401"), label: "Dental Service" },
+  "roadside-assistance": { src: s("roadside_assistance_20260708T100401"), label: "Roadside & Towing" },
+  "interior-design": { src: s("interior_design_20260708T100401"), label: "Interior Design" },
 };
 
 /** Curated hero/featured picks for bento sections — the most photogenic scenes. */

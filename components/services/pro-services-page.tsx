@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -42,6 +45,7 @@ import {
   Briefcase,
   Globe,
   PieChart,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -149,6 +153,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function ProServicesPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("accounting_tax");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -817,52 +823,59 @@ export default function ProServicesPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "interior_design",
-              tag: "Accounting & Tax",
-              title: "SARS Tax Filings & Financial Statements",
-              desc: "SARS eFiling submissions, monthly bookkeeping, VAT returns, and audited financial statements.",
-            },
-            {
-              file: "remodeling",
-              tag: "Legal Services",
-              title: "Commercial Contract Drafting & CIPC",
-              desc: "Drafting of service agreements, employment contracts, non-disclosure agreements, and company registration.",
-            },
-            {
-              file: "photography_service",
-              tag: "Web Design",
-              title: "Custom Responsive Website Development",
-              desc: "High-converting corporate website design, e-commerce stores, Google SEO, and mobile optimization.",
-            },
-            {
-              file: "care",
-              tag: "Financial Advisory",
-              title: "FSCA Wealth & Retirement Planning",
-              desc: "Certified financial planning, estate planning, retirement portfolios, and business valuation.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Bookkeeping",
-              title: "Monthly Payroll & Bank Reconciliation",
-              desc: "Xero and QuickBooks bank reconciliation, payslip generation, and EMP201 monthly payroll tax.",
-            },
-            {
-              file: "personal_training",
-              tag: "Digital Marketing",
-              title: "Google Ads & Social Media Campaigns",
-              desc: "Targeted digital advertising, search engine marketing, and lead generation for small businesses.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "prof_web_designers",
+    "file": "graphic_design",
+    "tag": "Web Design",
+    "title": "Custom Responsive Website Development",
+    "desc": "Modern UI/UX web design, mobile optimization, SEO setup, and fast cloud hosting deployment."
+  },
+  {
+    "id": "prof_marketing_agencies",
+    "file": "content_writing",
+    "tag": "Digital Marketing",
+    "title": "SEO Content & Social Media Strategy",
+    "desc": "Engaging copy, targeted Google & Meta ad campaigns, and brand identity development."
+  },
+  {
+    "id": "prof_accountants",
+    "file": "life_coaching",
+    "tag": "Accounting",
+    "title": "Tax Returns & Monthly Bookkeeping",
+    "desc": "SARS tax compliance, VAT submissions, payroll management, and monthly financial statements."
+  },
+  {
+    "id": "prof_business_consultants",
+    "file": "social_media_management",
+    "tag": "Business Advisory",
+    "title": "Company Registration & Compliance",
+    "desc": "CIPC company registration, B-BBEE affidavits, and director change filings."
+  },
+  {
+    "id": "prof_legal_services",
+    "file": "voiceover_artist",
+    "tag": "Legal Advisory",
+    "title": "Commercial Contracts & NDA Drafting",
+    "desc": "Professional legal agreement drafting, service terms, and contract review."
+  },
+  {
+    "id": "prof_marketing_agencies",
+    "file": "product_demonstration",
+    "tag": "Brand Identity",
+    "title": "Logo & Visual Identity Package",
+    "desc": "Vector logo creation, brand style guidelines, business cards, and social media assets."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -884,21 +897,21 @@ export default function ProServicesPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Quality Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1069,6 +1082,13 @@ export default function ProServicesPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -41,6 +44,7 @@ import {
   Heart,
   Dumbbell,
   Smile,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -148,6 +152,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function FitnessPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("personal_training");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -816,52 +822,59 @@ export default function FitnessPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "personal_training",
-              tag: "1-on-1 Training",
-              title: "Home Garden Kettlebell Workout",
-              desc: "Functional kettlebell swings, lunges, and core stability coaching in client's garden.",
-            },
-            {
-              file: "massage",
-              tag: "Sports Recovery",
-              title: "Mobile Deep Tissue Muscle Relief",
-              desc: "Targeted sports recovery massage on portable table releasing tight hamstrings and lower back.",
-            },
-            {
-              file: "skincare",
-              tag: "Mindful Yoga",
-              title: "Private Sunset Yoga Flow",
-              desc: "Restorative Vinyasa yoga breathing, hip openers, and guided relaxation on patio.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Core Pilates",
-              title: "Mat Pilates & Posture Alignment",
-              desc: "Low-impact core strengthening, pelvic stability, and spine alignment exercises.",
-            },
-            {
-              file: "interior_design",
-              tag: "Nutrition Plan",
-              title: "Custom Macro & Meal Prep Guide",
-              desc: "Structured daily meal plans with balanced protein, healthy fats, and complex carbs.",
-            },
-            {
-              file: "photography",
-              tag: "Outdoor Bootcamps",
-              title: "Small Group Park Conditioning",
-              desc: "High-energy outdoor circuit training, battle ropes, and agility ladder conditioning.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "beauty_personal_trainers",
+    "file": "personal_training",
+    "tag": "Personal Training",
+    "title": "1-on-1 Fitness & Weight Loss Coaching",
+    "desc": "Customized strength training, body composition assessment, and high-intensity interval workouts."
+  },
+  {
+    "id": "beauty_yoga_instructors",
+    "file": "yoga_class",
+    "tag": "Yoga & Mindfulness",
+    "title": "Private Vinyasa & Hatha Yoga Sessions",
+    "desc": "Breathwork guidance, posture alignment, flexibility enhancement, and stress-reduction meditation."
+  },
+  {
+    "id": "beauty_yoga_instructors",
+    "file": "pilates_class",
+    "tag": "Pilates",
+    "title": "Core Reformer & Mat Pilates Training",
+    "desc": "Low-impact core strengthening, posture correction, and spinal stabilization exercises."
+  },
+  {
+    "id": "health_physiotherapists",
+    "file": "physiotherapy",
+    "tag": "Sports Rehab",
+    "title": "Sports Injury & Muscle Recovery",
+    "desc": "Dry needling, myofascial release massage, and joint rehabilitation for athletes."
+  },
+  {
+    "id": "health_dietitians",
+    "file": "meditation_instruction",
+    "tag": "Fitness Nutrition",
+    "title": "Macros & Performance Meal Planning",
+    "desc": "Custom calorie & macro tracking, contest prep nutrition, and lean muscle gain guides."
+  },
+  {
+    "id": "health_dietitians",
+    "file": "nutrition_consulting",
+    "tag": "Body Assessment",
+    "title": "Body Fat & Bio-Impedance Testing",
+    "desc": "Scientific body composition analysis, metabolic rate testing, and goal milestone tracking."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -883,21 +896,21 @@ export default function FitnessPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Satisfaction Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1068,6 +1081,13 @@ export default function FitnessPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

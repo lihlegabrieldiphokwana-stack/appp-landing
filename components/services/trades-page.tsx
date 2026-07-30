@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -41,6 +44,7 @@ import {
   Flower2,
   Bug,
   HardHat,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -148,6 +152,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function TradesPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("handyman_repairs");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -816,52 +822,59 @@ export default function TradesPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "carpentry",
-              tag: "Carpentry & BICs",
-              title: "Custom Built-in Cupboard Installation",
-              desc: "Precision wood joinery, soft-close hinges, and custom melamine bedroom wardrobe fitting.",
-            },
-            {
-              file: "remodeling",
-              tag: "Interior Painting",
-              title: "Flawless Washable Wall Painting",
-              desc: "Crack filling, plaster sanding, primer coat, and two coats of premium interior satin paint.",
-            },
-            {
-              file: "gardening",
-              tag: "Gardening & Lawn",
-              title: "Lawn Mowing & Edge Shaping",
-              desc: "Precision lawn mowing, weed removal, flowerbed edging, and garden refuse disposal.",
-            },
-            {
-              file: "hardware",
-              tag: "Handyman Fixes",
-              title: "Heavy-Duty TV & Shelf Wall Mounting",
-              desc: "Solid brick and drywall TV mounting with concealed cabling and level alignment.",
-            },
-            {
-              file: "appliances",
-              tag: "AC & Appliance Repair",
-              title: "Air Conditioner Servicing & Gas Top-Up",
-              desc: "Air conditioning filter wash, compressor diagnostic test, and refrigerant re-gassing.",
-            },
-            {
-              file: "interior_design",
-              tag: "Tiling & Flooring",
-              title: "Precision Ceramic & Porcelain Tiling",
-              desc: "Tile floor leveling, adhesive spreading, spacer alignment, and waterproof grouting.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "home_carpenters",
+    "file": "carpentry",
+    "tag": "Carpentry",
+    "title": "Custom Built-In Cupboards & Doors",
+    "desc": "Precision kitchen cabinet manufacturing, wardrobe installations, and wooden door fitting."
+  },
+  {
+    "id": "home_painters",
+    "file": "painting_service",
+    "tag": "Painting",
+    "title": "Interior & Exterior House Painting",
+    "desc": "High-pressure wall washing, crack filling, primer coat, and premium acrylic weatherproofing paint."
+  },
+  {
+    "id": "home_tilers",
+    "file": "tiling_service",
+    "tag": "Tiling",
+    "title": "Porcelain & Ceramic Floor Tiling",
+    "desc": "Laser-level floor alignment, waterproof grout application, and precision tile cutting."
+  },
+  {
+    "id": "home_builders",
+    "file": "roofing_repair",
+    "tag": "Roofing",
+    "title": "Roof Leak Repair & Waterproofing",
+    "desc": "Replacing broken roof tiles, torch-on membrane waterproofing, and flashing sealing."
+  },
+  {
+    "id": "home_gardeners",
+    "file": "garden_maintenance",
+    "tag": "Gardening",
+    "title": "Lawn Mowing & Garden Overhaul",
+    "desc": "Trimming high hedges, flower bed weeding, lawn fertilizer application, and green waste removal."
+  },
+  {
+    "id": "home_pest_control",
+    "file": "pest_control",
+    "tag": "Pest Control",
+    "title": "Eco-Friendly Pest Extermination",
+    "desc": "Fumigation and barrier spray treatments for termites, cockroaches, rodents, and ants."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -883,21 +896,21 @@ export default function TradesPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Quality Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1068,6 +1081,13 @@ export default function TradesPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

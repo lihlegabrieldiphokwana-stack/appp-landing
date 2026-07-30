@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -149,6 +152,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function TutoringPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("matric_prep");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -817,52 +822,59 @@ export default function TutoringPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "tutoring",
-              tag: "1-on-1 Tutoring",
-              title: "Focused In-Person Home Sessions",
-              desc: "Patient, structured 1-on-1 instruction in the comfort of your home, focusing on past papers.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "STEM Subjects",
-              title: "Mathematics & Physical Sciences",
-              desc: "Step-by-step problem solving in algebra, calculus, organic chemistry, and physics dynamics.",
-            },
-            {
-              file: "interior_design",
-              tag: "Cambridge Pathway",
-              title: "IGCSE & A-Level Subject Coaching",
-              desc: "Deconstruct Cambridge marking keys, essay outlines, and higher-order analytical questions.",
-            },
-            {
-              file: "photography",
-              tag: "Languages",
-              title: "English & Afrikaans Literature",
-              desc: "Poetry analysis, essay structure, setwork book revision, and language paper prep.",
-            },
-            {
-              file: "smart_home",
-              tag: "Accounting & Commerce",
-              title: "Financial Accounting & Economics",
-              desc: "Ledger reconciliations, financial statements, cash flow analysis, and micro-economics.",
-            },
-            {
-              file: "appliances",
-              tag: "Primary Foundation",
-              title: "Foundational Numeracy & Literacy",
-              desc: "Encouraging early learning habits for Grade 1-7 learners, making homework fun and stress-free.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "edu_math_tutors",
+    "file": "tutoring_service",
+    "tag": "Mathematics",
+    "title": "Grade 8-12 Pure Maths & Technical Maths",
+    "desc": "Algebra, trigonometry, calculus, and past exam paper step-by-step revision."
+  },
+  {
+    "id": "edu_science_tutors",
+    "file": "tutoring_service",
+    "tag": "Physical Science",
+    "title": "Physics & Chemistry Exam Preparation",
+    "desc": "Newtonian mechanics, stoichiometry, organic chemistry, and lab report guidance."
+  },
+  {
+    "id": "edu_english_tutors",
+    "file": "tutoring_service",
+    "tag": "Languages",
+    "title": "English & Afrikaans First Additional Language",
+    "desc": "Essay writing structure, poetry analysis, literature comprehension, and oral prep."
+  },
+  {
+    "id": "edu_computer_lessons",
+    "file": "tutoring_service",
+    "tag": "Coding & IT",
+    "title": "Python, Java & CAT Computer Lessons",
+    "desc": "Introductory programming logic, database SQL queries, and software project coaching."
+  },
+  {
+    "id": "edu_homework_help",
+    "file": "tutoring_service",
+    "tag": "Primary School",
+    "title": "Foundation Phase Homework Assistance",
+    "desc": "Patient reading support, basic arithmetic, and structured daily study habits."
+  },
+  {
+    "id": "edu_exam_prep",
+    "file": "tutoring_service",
+    "tag": "NBT & University",
+    "title": "NBT Test Prep & Tertiary Academics",
+    "desc": "National Benchmark Test MAT/AQL prep and university-level statistics coaching."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -884,21 +896,21 @@ export default function TutoringPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Distinction Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1069,6 +1081,13 @@ export default function TutoringPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

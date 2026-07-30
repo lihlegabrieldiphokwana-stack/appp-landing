@@ -326,61 +326,126 @@ export function HowItWorks() {
               transition={{ duration: 0.3 }}
               className="rounded-3xl border border-b-line bg-b-paper-raised p-6 md:p-10 shadow-xl space-y-6"
             >
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-widest text-b-green-deep">
-                    Step 03 Interactive Preview
+                  <span className="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+                    LiveOrder™ Activity Radar
                   </span>
-                  <h3 className="font-display text-2xl font-bold text-b-ink mt-0.5">
-                    100% Escrow Protection & Live En-Route Radar
+                  <h3 className="font-display text-2xl md:text-3xl font-extrabold text-b-ink mt-2">
+                    Real-Time Order Tracking & Escrow Protection
                   </h3>
                 </div>
-                <span className="inline-flex items-center gap-1 rounded-full bg-b-sun-soft px-3 py-1 text-xs font-semibold text-b-ink">
-                  <Lock className="h-3.5 w-3.5 text-b-green-deep" />
-                  <span>Vault Locked</span>
-                </span>
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 px-3.5 py-1.5 text-xs font-bold text-emerald-800">
+                    <span className="h-2 w-2 rounded-full bg-emerald-500 animate-ping" />
+                    <span>Live Activity Active</span>
+                  </span>
+                </div>
               </div>
 
-              {/* Escrow Status Card */}
-              <div className="rounded-2xl border border-b-line bg-b-paper p-6 space-y-4">
-                <div className="flex items-center justify-between pb-3 border-b border-b-line">
-                  <div className="flex items-center gap-2">
-                    <Lock className="h-4 w-4 text-b-green-deep" />
-                    <span className="text-xs font-bold text-b-ink">Escrow Deposit Locked:</span>
+              {/* Live Order Radar Card */}
+              <div className="rounded-2xl border border-b-line bg-b-paper p-6 space-y-6 shadow-sm">
+                {/* Header: Order Info & Provider Profile */}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-b-line pb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="h-12 w-12 rounded-2xl bg-emerald-500/10 text-emerald-700 flex items-center justify-center font-bold font-mono text-base border border-emerald-500/20">
+                      MT
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="font-display font-extrabold text-b-ink text-base">
+                          Marco T. Plumbing
+                        </span>
+                        <span className="text-xs text-emerald-700 bg-emerald-500/10 px-2 py-0.5 rounded font-bold">
+                          4.9 ★ (128 reviews)
+                        </span>
+                      </div>
+                      <p className="text-xs text-b-ink-muted mt-0.5">
+                        Order #BK-9482 • Emergency Geyser Repair
+                      </p>
+                    </div>
                   </div>
-                  <span className="font-price font-extrabold text-base text-b-green-deep">R850.00</span>
-                </div>
 
-                {/* Live En-route progress */}
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between text-xs">
-                    <span className="flex items-center gap-1.5 font-bold text-b-ink">
-                      <Navigation className="h-3.5 w-3.5 text-b-green-deep animate-pulse" />
-                      Marco T. Plumbing En-Route
+                  <div className="text-right sm:text-right">
+                    <span className="text-[11px] uppercase tracking-wider font-bold text-b-ink-faint block">
+                      Escrow Vault Status
                     </span>
-                    <span className="text-b-ink-soft font-semibold">ETA: 8 mins away</span>
-                  </div>
-
-                  <div className="h-2 w-full rounded-full bg-b-paper-deep overflow-hidden">
-                    <div className="h-full bg-b-green-deep w-3/4 rounded-full transition-all duration-500" />
+                    <span className="font-price font-extrabold text-lg text-emerald-700">
+                      R850.00 Protected
+                    </span>
                   </div>
                 </div>
 
-                {/* Release Escrow Action */}
-                <div className="pt-2">
+                {/* 5-Stage Dynamic Order Milestone Tracker */}
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="font-bold text-b-ink flex items-center gap-2">
+                      <Navigation className="h-4 w-4 text-emerald-600 animate-spin" />
+                      <span>Live Order Milestones (5 Stages)</span>
+                    </span>
+                    <span className="font-mono text-xs font-bold text-emerald-700 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                      ETA: ~12 mins away
+                    </span>
+                  </div>
+
+                  {/* Visual Stage Progress Line */}
+                  <div className="grid grid-cols-5 gap-2 pt-1">
+                    {[
+                      { stage: 1, label: "Order Placed", status: "completed" },
+                      { stage: 2, label: "Confirmed", status: "completed" },
+                      { stage: 3, label: "En-Route", status: "active" },
+                      { stage: 4, label: "In-Progress", status: "pending" },
+                      { stage: 5, label: "Inspected & Paid", status: "pending" },
+                    ].map((stg) => {
+                      const isActive = stg.status === "active";
+                      const isDone = stg.status === "completed" || escrowReleased;
+                      return (
+                        <div key={stg.stage} className="space-y-2">
+                          <div
+                            className={`h-2 rounded-full transition-all duration-500 ${
+                              isDone
+                                ? "bg-emerald-600"
+                                : isActive
+                                ? "bg-emerald-400 animate-pulse"
+                                : "bg-b-paper-deep"
+                            }`}
+                          />
+                          <div className="text-center">
+                            <span
+                              className={`text-[10px] font-bold block leading-tight ${
+                                isDone
+                                  ? "text-emerald-700"
+                                  : isActive
+                                  ? "text-b-ink"
+                                  : "text-b-ink-faint"
+                              }`}
+                            >
+                              {stg.label}
+                            </span>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Live Activity Sync & Release Action */}
+                <div className="pt-2 border-t border-b-line/60">
                   {escrowReleased ? (
-                    <div className="flex items-center justify-center gap-2 p-3.5 rounded-xl bg-emerald-500/10 border border-b-green-deep/20 text-xs font-bold text-b-green-deep">
-                      <CheckCircle2 className="h-4 w-4" />
-                      <span>Job Completed & Escrow Payment Released to Vendor!</span>
+                    <div className="flex items-center justify-center gap-2 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs font-bold text-emerald-800">
+                      <CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0" />
+                      <span>
+                        Job Signed Off! R850.00 Escrow Released to Marco T. Plumbing • 5-Star Review Verified
+                      </span>
                     </div>
                   ) : (
                     <button
                       type="button"
                       onClick={() => setEscrowReleased(true)}
-                      className="w-full flex items-center justify-center gap-2 p-3.5 rounded-xl bg-b-ink text-b-paper text-xs font-bold hover:bg-b-forest transition-colors shadow-sm"
+                      className="w-full flex items-center justify-center gap-2.5 p-4 rounded-xl bg-b-forest text-b-cream text-xs font-bold hover:bg-b-forest-raised transition-all shadow-md cursor-pointer"
                     >
-                      <CheckCircle2 className="h-4 w-4 text-emerald-400" />
-                      <span>Simulate Job Sign-Off & Release Escrow</span>
+                      <ShieldCheck className="h-4 w-4 text-emerald-400" />
+                      <span>Simulate Job Completion & Release R850.00 Escrow</span>
                     </button>
                   )}
                 </div>

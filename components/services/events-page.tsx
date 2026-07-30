@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -42,6 +45,7 @@ import {
   Utensils,
   PartyPopper,
   Mic,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -149,6 +153,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function EventsPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("photography");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -817,52 +823,59 @@ export default function EventsPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "photography_service",
-              tag: "Event Photography",
-              title: "High-Resolution Wedding & Event Photography",
-              desc: "Professional lighting, candid guest shots, and color-graded high-resolution digital photo galleries.",
-            },
-            {
-              file: "interior_design",
-              tag: "Videography",
-              title: "4K Video & Drone Aerial Cinematography",
-              desc: "Cinematic 4K camera work, drone aerial venue shots, and crystal-clear wireless audio recording.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Catering",
-              title: "Gourmet Buffet & Plated Dining Spreads",
-              desc: "Delicious hot buffet catering, spit braais, canapé cocktail platters, and custom celebration cakes.",
-            },
-            {
-              file: "personal_training",
-              tag: "DJs & Sound",
-              title: "2000W PA Sound & Intelligent LED Lighting",
-              desc: "Crisp audio coverage for 200+ guests, wireless speech microphones, and dancefloor light rigs.",
-            },
-            {
-              file: "skincare",
-              tag: "Event Decor",
-              title: "Custom Floral & Table Decor Setup",
-              desc: "Elegant floral arrangements, tablecloth linens, mood lighting, and backdrop stage design.",
-            },
-            {
-              file: "hardware",
-              tag: "Live Music",
-              title: "Acoustic Soloists, Saxophonists & Bands",
-              desc: "Live acoustic ceremony music, cocktail hour saxophone, and high-energy cover bands.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "events_photographers",
+    "file": "photography_service",
+    "tag": "Photography",
+    "title": "Wedding & Gala Event Photography",
+    "desc": "High-resolution candid event shooting, professional lighting setup, and edited digital photo galleries."
+  },
+  {
+    "id": "events_caterers",
+    "file": "event_venue",
+    "tag": "Catering",
+    "title": "Gourmet Banquet & Buffet Catering",
+    "desc": "Custom 3-course menu creation, dietary specific platters, and professional wait staff service."
+  },
+  {
+    "id": "events_djs",
+    "file": "bartending",
+    "tag": "Sound & DJ",
+    "title": "Professional Event DJ & Audio Setup",
+    "desc": "High-output PA speaker setup, intelligent party lighting, and custom genre playlist mixing."
+  },
+  {
+    "id": "events_event_planners",
+    "file": "product_demonstration",
+    "tag": "Event Planning",
+    "title": "Full-Service Event Planning & Coordination",
+    "desc": "End-to-end venue sourcing, vendor management, guest RSVP tracking, and on-site event coordination."
+  },
+  {
+    "id": "events_mcs",
+    "file": "voiceover_artist",
+    "tag": "Master of Ceremonies",
+    "title": "Corporate & Wedding MC Hosting",
+    "desc": "Engaging stage presence, schedule announcements, and seamless guest entertainment management."
+  },
+  {
+    "id": "events_videographers",
+    "file": "video_editing",
+    "tag": "Cinematography",
+    "title": "4K Event Video Highlight Reels",
+    "desc": "Multi-camera 4K recording, drone aerial footage, and cinematic highlight reel editing."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -884,21 +897,21 @@ export default function EventsPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Quality Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1069,6 +1082,13 @@ export default function EventsPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

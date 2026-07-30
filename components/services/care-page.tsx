@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -43,6 +46,7 @@ import {
   Smile,
   Shield,
   FileCheck,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -150,6 +154,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function CarePage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("childcare");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -818,52 +824,59 @@ export default function CarePage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "care",
-              tag: "Senior Home Care",
-              title: "Mobility Assistance & Medication Management",
-              desc: "Dignified in-home assistance, walker support, daily medication reminders, and warm companionship.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Nanny Care",
-              title: "Infant Care & Educational Stimulation",
-              desc: "Attentive infant feeding, diaper changing, educational play, and afternoon nap monitoring.",
-            },
-            {
-              file: "tutoring",
-              tag: "Homework Sitter",
-              title: "After-School Homework & Meal Prep",
-              desc: "Helpful after-school supervision, homework guidance, healthy snack prep, and activity pickup.",
-            },
-            {
-              file: "interior_design",
-              tag: "Special Needs",
-              title: "Sensory Routine & Disability Support",
-              desc: "Patient, structured care for neurodivergent children and individuals requiring physical transfer support.",
-            },
-            {
-              file: "skincare",
-              tag: "Date Night Sitter",
-              title: "Evening Bedtime & Story Reading",
-              desc: "Reliable evening babysitting following bedtime routines, story reading, and photo check-ins.",
-            },
-            {
-              file: "personal_training",
-              tag: "Eldercare Mobility",
-              title: "Gentle Senior Mobility Exercises",
-              desc: "Supervised light walking and joint mobility exercises to maintain senior health and balance.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "health_elderly_care",
+    "file": "senior_care",
+    "tag": "Senior Care",
+    "title": "In-Home Elderly Companion & Care",
+    "desc": "Compassionate in-home senior care, medication administration, and vital signs monitoring."
+  },
+  {
+    "id": "health_nurses",
+    "file": "home_nursing",
+    "tag": "Private Nursing",
+    "title": "Post-Operative Private Nurse Care",
+    "desc": "Professional wound dressing, IV drip administration, and post-surgery rehabilitation monitoring."
+  },
+  {
+    "id": "health_physiotherapists",
+    "file": "physiotherapy",
+    "tag": "Physiotherapy",
+    "title": "Home Physiotherapy & Mobility Recovery",
+    "desc": "Targeted stroke recovery exercises, joint mobilization, and post-fracture physical therapy."
+  },
+  {
+    "id": "health_dietitians",
+    "file": "senior_care",
+    "tag": "Clinical Nutrition",
+    "title": "Medical Nutrition & Meal Planning",
+    "desc": "Personalized diabetic meal plans, cardiac diet management, and clinical nutritional therapy."
+  },
+  {
+    "id": "health_elderly_care",
+    "file": "childcare_nanny",
+    "tag": "Childcare & Nanny",
+    "title": "Full-Time Infant & Toddler Nanny Care",
+    "desc": "Vetted early childhood development care, meal preparation, and interactive learning."
+  },
+  {
+    "id": "health_counselors",
+    "file": "meditation_instruction",
+    "tag": "Mental Health",
+    "title": "Private Wellness & Counseling Sessions",
+    "desc": "Confidential grief counseling, stress management, and cognitive behavioral coaching."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -885,21 +898,21 @@ export default function CarePage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Care Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1070,6 +1083,13 @@ export default function CarePage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

@@ -1451,26 +1451,43 @@ export function TutorialsHub() {
               automate dispatch, protect earnings with escrow, and scale your service business.
             </p>
 
-            {/* Stats & Proof Bar with Completed Progress */}
-            <div className="mt-4 flex flex-wrap items-center justify-center gap-2.5 font-price text-xs text-b-ink-soft">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
-                <BookOpen className="h-3.5 w-3.5 text-b-green-deep" />
-                <strong>55</strong> Step-by-Step Guides
-              </span>
-              {completedGuides.size > 0 && (
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-b-green-deep/10 text-b-green-deep px-3 py-1 border border-b-green-deep/20 font-semibold">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  Completed {completedGuides.size} of 55 Guides
+            {/* Stats & Progress Bar with Completed Count */}
+            <div className="mt-4 flex flex-col items-center gap-3">
+              <div className="flex flex-wrap items-center justify-center gap-2.5 font-price text-xs text-b-ink-soft">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                  <BookOpen className="h-3.5 w-3.5 text-b-green-deep" />
+                  <strong>55</strong> Step-by-Step Guides
                 </span>
-              )}
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
-                <Layers className="h-3.5 w-3.5 text-b-green-deep" />
-                <strong>9</strong> Specialized Categories
-              </span>
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
-                <Clock className="h-3.5 w-3.5 text-b-green-deep" />
-                ~3.5 Hours Total Knowledge
-              </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                  <Layers className="h-3.5 w-3.5 text-b-green-deep" />
+                  <strong>9</strong> Specialized Categories
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-b-paper-raised px-3 py-1 border border-b-line">
+                  <Clock className="h-3.5 w-3.5 text-b-green-deep" />
+                  ~3.5 Hours Total Knowledge
+                </span>
+              </div>
+
+              {/* Learning Progress Bar */}
+              <div className="w-full max-w-md bg-b-paper-raised border border-b-line rounded-2xl p-3 shadow-xs">
+                <div className="flex items-center justify-between text-xs font-semibold mb-1.5 px-1">
+                  <span className="text-b-ink flex items-center gap-1.5">
+                    <Sparkles className="h-3.5 w-3.5 text-b-sun" />
+                    Knowledge Mastered
+                  </span>
+                  <span className="font-price text-b-green-deep">
+                    {completedGuides.size} of 55 ({Math.round((completedGuides.size / 55) * 100)}%)
+                  </span>
+                </div>
+                <div className="w-full h-2 rounded-full bg-b-paper-deep overflow-hidden">
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(completedGuides.size / 55) * 100}%` }}
+                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    className="h-full bg-gradient-to-r from-b-green-deep via-emerald-500 to-teal-400 rounded-full"
+                  />
+                </div>
+              </div>
             </div>
 
             {/* Search Bar with Keyboard Kbd Affordance & Surprise Me 🎲 Delight Button */}
@@ -1652,30 +1669,47 @@ export function TutorialsHub() {
                                       {tutorial.summary}
                                     </p>
 
-                                    {/* Media Placeholder Preview */}
-                                    <div className="mb-3.5">
-                                      <MediaPlaceholder
-                                        kind="image"
-                                        label={`UX Preview • ${category.title}`}
-                                        alt={tutorial.mediaPlaceholderAlt}
-                                        ratio="16/9"
-                                        rounded="rounded-xl"
-                                      />
-                                      <p className="text-[11px] italic text-b-ink-faint mt-1.5 line-clamp-1">
-                                        🖼️ {tutorial.mediaPlaceholderAlt}
-                                      </p>
+                                    {/* Rich Interactive UX Preview Component */}
+                                    <div className="mb-3.5 rounded-xl border border-b-line bg-b-paper-raised p-3.5 space-y-2.5 shadow-xs">
+                                      <div className="flex items-center justify-between border-b border-b-line/60 pb-2 text-[11px]">
+                                        <span className="font-bold text-b-ink flex items-center gap-1.5">
+                                          <Sparkles className="h-3.5 w-3.5 text-b-sun" />
+                                          <span>Interactive SOP Preview</span>
+                                        </span>
+                                        <span className="font-mono text-emerald-700 font-bold bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">
+                                          {tutorial.stepCount} Actions
+                                        </span>
+                                      </div>
+
+                                      <div className="space-y-1.5 text-xs">
+                                        {tutorial.keySteps.slice(0, 2).map((step, sIdx) => (
+                                          <div key={sIdx} className="flex items-center gap-2 text-b-ink-soft">
+                                            <div className="h-4 w-4 rounded-full bg-emerald-500/20 text-emerald-700 font-bold text-[10px] flex items-center justify-center shrink-0">
+                                              {sIdx + 1}
+                                            </div>
+                                            <span className="truncate">{step}</span>
+                                          </div>
+                                        ))}
+                                      </div>
+
+                                      {tutorial.whatBouulWatches && (
+                                        <div className="rounded-lg bg-amber-500/10 border border-amber-500/20 p-2 text-[11px] text-amber-900 flex items-start gap-2">
+                                          <Flame className="h-3.5 w-3.5 text-amber-600 shrink-0 mt-0.5" />
+                                          <span className="line-clamp-1 font-medium">{tutorial.whatBouulWatches}</span>
+                                        </div>
+                                      )}
                                     </div>
                                   </div>
 
                                   {/* Action Buttons */}
                                   <div className="flex items-center gap-2">
-                                    <button
-                                      onClick={() => handleOpenGuide(tutorial, category.title)}
+                                    <a
+                                      href={`/tutorials/${tutorial.slug.replace(/\.md$/, '')}`}
                                       className="flex-1 flex items-center justify-between rounded-xl bg-b-paper-raised border border-b-line px-4 py-2.5 text-xs font-semibold text-b-ink group-hover:bg-b-ink group-hover:text-b-paper group-hover:border-b-ink transition-all duration-200 cursor-pointer min-h-[44px]"
                                     >
-                                      <span>{isCompleted ? "Review Guide" : "Read Guide"}</span>
+                                      <span>{isCompleted ? "Review Full Guide" : "Read Full Guide"}</span>
                                       <ArrowUpRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                                    </button>
+                                    </a>
                                     <button
                                       onClick={() => handleCopyLink(tutorial.id)}
                                       title="Copy guide link"
@@ -1850,6 +1884,17 @@ export function TutorialsHub() {
                     {helpfulFeedback[activeModalGuide.guide.id] === false ? "Feedback sent" : "No"}
                   </button>
                 </div>
+              </div>
+
+              {/* Open Full Page CTA */}
+              <div className="mb-5">
+                <a
+                  href={`/tutorials/${activeModalGuide.guide.slug.replace(/\.md$/, "")}`}
+                  className="w-full flex items-center justify-center gap-2 rounded-2xl bg-b-ink text-b-paper px-5 py-3 text-xs font-bold hover:bg-b-forest transition-colors shadow-sm"
+                >
+                  <span>Open Full Editorial Page with Sidebar Navigation</span>
+                  <ArrowUpRight className="h-4 w-4" />
+                </a>
               </div>
 
               {/* Next Steps */}

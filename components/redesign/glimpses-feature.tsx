@@ -209,6 +209,47 @@ export function GlimpsesFeature() {
           </Link>
           
           <HashtagStrip />
+
+          {/* Interactive Glimpse Reel Preview Card (Pills active preview) */}
+          <motion.div
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-6 rounded-2xl border border-b-line bg-b-paper p-4 space-y-3 shadow-md"
+          >
+            <div className="flex items-center justify-between text-xs font-bold text-b-ink">
+              <span className="flex items-center gap-2 text-emerald-600">
+                <Play className="h-4 w-4 fill-emerald-600" />
+                <span>Featured Glimpse Reel</span>
+              </span>
+              <span className="text-[10px] font-mono text-emerald-700 bg-emerald-500/10 px-2 py-0.5 rounded font-bold">
+                100% Bookable
+              </span>
+            </div>
+
+            <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden bg-b-paper-deep border border-b-line group">
+              <img
+                src="/scenes/hair_styling.png"
+                alt="Glimpse reel preview"
+                className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-b-ink/90 via-b-ink/20 to-transparent flex flex-col justify-end p-3.5">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-400">
+                  #knotlessbraids • Lerato&apos;s Hair Studio
+                </span>
+                <p className="text-xs font-bold text-white mt-0.5">
+                  Bohemian Knotless Braids with Curl Extensions
+                </p>
+                <div className="flex items-center justify-between mt-2 pt-2 border-t border-white/20 text-[11px]">
+                  <span className="text-white/80 font-medium">35 min session • R650</span>
+                  <span className="font-extrabold text-emerald-400 flex items-center gap-1">
+                    <span>Book From Reel</span>
+                    <ArrowRight className="h-3 w-3" />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </motion.div>
         </Reveal>
 
         {/* iPhone Mockup & Highlight Cards (Second on Mobile, First on Desktop) */}

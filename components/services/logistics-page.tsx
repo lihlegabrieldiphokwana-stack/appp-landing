@@ -1,4 +1,7 @@
 "use client";
+import { GenericActivityArticleModal } from "./articles/generic-activity-article-modal";
+import { getArticleById } from "./articles/master-article-registry";
+
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -40,6 +43,7 @@ import {
   Truck,
   Box,
   Package,
+  BookOpen,
 } from "lucide-react";
 
 // Use-cases data for interactive exploration
@@ -147,6 +151,8 @@ const PRICE_ESTIMATES = [
 ];
 
 export default function LogisticsPage() {
+  const [selectedArticleId, setSelectedArticleId] = useState<string | null>(null);
+  const activeArticle = selectedArticleId ? getArticleById(selectedArticleId) : null;
   const [activeTab, setActiveTab] = useState("home_removals");
   const [selectedEstimate, setSelectedEstimate] = useState(0);
 
@@ -815,52 +821,59 @@ export default function LogisticsPage() {
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            {
-              file: "towing",
-              tag: "Home Removals",
-              title: "Enclosed 4-Ton Truck Home Removal",
-              desc: "Professional furniture blankets, webbing straps, bed disassembly, and careful staircase carrying.",
-            },
-            {
-              file: "auto_repair",
-              tag: "Single-Item Transport",
-              title: "Express Bakkie Couch & Appliance Pickup",
-              desc: "1-ton bakkie with 2 loaders for store pickups, Marketplace purchases, and heavy appliance placement.",
-            },
-            {
-              file: "house_cleaning",
-              tag: "Express Courier",
-              title: "Door-to-Door City Parcel Delivery",
-              desc: "Urgent motorcycle & van parcel dispatch with live GPS tracking and digital signature proof.",
-            },
-            {
-              file: "hardware",
-              tag: "Skip Hire",
-              title: "Mini Skip Drop & Rubble Removal",
-              desc: "2m³ to 6m³ mini skip containers for building renovation rubble, garden waste, and disposal.",
-            },
-            {
-              file: "interior_design",
-              tag: "Storage Transfer",
-              title: "Warehouse & Self-Storage Moving",
-              desc: "Secure transport of household furniture and commercial inventory into self-storage units.",
-            },
-            {
-              file: "remodeling",
-              tag: "Office Relocation",
-              title: "Corporate Office & Desk Relocation",
-              desc: "Structured office desk moving, IT equipment bubble wrapping, and filing cabinet transport.",
-            },
-          ].map((item, idx) => (
+  {
+    "id": "logistics_removal_companies",
+    "file": "roadside_assistance",
+    "tag": "Furniture Removal",
+    "title": "Residential & Office Moving Trucks",
+    "desc": "Enclosed moving trucks with hydraulic lifts, protective blankets, and experienced loading crews."
+  },
+  {
+    "id": "logistics_courier_services",
+    "file": "towing_service",
+    "tag": "Express Delivery",
+    "title": "Same-Day Parcel & B2B Courier",
+    "desc": "Instant point-to-point courier dispatch, live GPS vehicle tracking, and proof of delivery signatures."
+  },
+  {
+    "id": "logistics_furniture_delivery",
+    "file": "towing_service",
+    "tag": "Furniture Delivery",
+    "title": "Single-Item & Large Appliance Hauling",
+    "desc": "Dedicated bakkie and trailer dispatch for couch, fridge, and heavy furniture transport."
+  },
+  {
+    "id": "logistics_skip_hire",
+    "file": "pest_control",
+    "tag": "Waste Removal",
+    "title": "Junk Removal & Garden Refuse Dumping",
+    "desc": "Responsible disposal of renovation rubble, old furniture, and garden waste at municipal dump sites."
+  },
+  {
+    "id": "logistics_storage_services",
+    "file": "garage_door_repair",
+    "tag": "Storage Transport",
+    "title": "Secure Storage Unit Loading & Transit",
+    "desc": "Inventory cataloging, bubble-wrapping delicate items, and transport to self-storage facilities."
+  },
+  {
+    "id": "logistics_courier_services",
+    "file": "panel_beating",
+    "tag": "Freight Logistics",
+    "title": "Inter-City Pallet & Cargo Freight",
+    "desc": "Scheduled inter-provincial freight transport with cargo-in-transit insurance coverage."
+  }
+].map((item, idx) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
-              className="group rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500/40 hover:shadow-lg transition-all flex flex-col justify-between"
+              onClick={() => setSelectedArticleId(item.id)}
+              className="group cursor-pointer rounded-3xl border border-b-line bg-b-paper-raised overflow-hidden hover:border-emerald-500 hover:shadow-xl transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="aspect-[16/10] w-full bg-b-paper-deep relative overflow-hidden">
@@ -882,21 +895,21 @@ export default function LogisticsPage() {
                   </div>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors">
-                    {item.title}
+                <div className="p-6 space-y-2">
+                  <h3 className="font-display font-bold text-lg text-b-ink group-hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>{item.title}</span>
+                    <BookOpen className="h-4 w-4 text-emerald-600 opacity-80 group-hover:opacity-100 shrink-0" />
                   </h3>
-                  <p className="mt-2.5 text-xs leading-relaxed text-b-ink-soft">
+                  <p className="text-xs leading-relaxed text-b-ink-soft">
                     {item.desc}
                   </p>
                 </div>
               </div>
 
-              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px] text-b-ink-faint">
+              <div className="px-6 pb-5 pt-4 border-t border-b-line/60 flex items-center justify-between text-[11px]">
                 <span className="font-semibold text-b-ink-soft">Covered by Bouul Escrow</span>
-                <span className="font-bold text-emerald-600 flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                  <span>100% Safe Transit Guarantee</span>
+                <span className="font-bold text-emerald-600 flex items-center gap-1 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-500/20">
+                  <span>Read Article &amp; Process →</span>
                 </span>
               </div>
             </motion.div>
@@ -1067,6 +1080,13 @@ export default function LogisticsPage() {
           </motion.div>
         </div>
       </section>
+
+      {activeArticle && (
+        <GenericActivityArticleModal
+          article={activeArticle}
+          onClose={() => setSelectedArticleId(null)}
+        />
+      )}
 
       <RedesignFooter />
     </main>

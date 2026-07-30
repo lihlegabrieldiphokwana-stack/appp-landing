@@ -206,14 +206,14 @@ export default function EmployeesPage() {
                 { id: "workboard", label: "Workboard" },
                 { id: "assignment", label: "Active Job Brief" },
                 { id: "schedule", label: "Weekly Rota" },
-                { id: "zolaChat", label: "Ask Zola AI" },
+                { id: "zolaChat", label: "Ask Zola AI (15 Tools)" },
               ].map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id as any)}
                   className={`px-4 py-2 rounded-xl transition-all whitespace-nowrap ${
                     activeTab === tab.id
-                      ? "bg-white text-black shadow-md"
+                      ? "bg-emerald-500 text-b-forest shadow-md font-extrabold"
                       : "text-neutral-400 hover:text-white hover:bg-white/5"
                   }`}
                 >
